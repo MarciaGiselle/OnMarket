@@ -41,7 +41,9 @@ class ProductoController extends Controller
         }
 
         //crear array imagenes obtenidas en el input
-       if(($publicacion['imagen']['name']))
+       if(($publicacion['imagen']['name'])){
+           //falta crear la logica para q no de error de index
+       }
 
         $count = count($publicacion['imagen']['name']);
         echo "contador".$count. "<br>";
