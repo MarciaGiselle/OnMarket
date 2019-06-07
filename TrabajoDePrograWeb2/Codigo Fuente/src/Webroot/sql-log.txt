@@ -1,0 +1,1056 @@
+[2019-06-07 11:01:35]  DESC Usuario
+[2019-06-07 11:01:35]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-07 11:05:07]  DESC Usuario
+[2019-06-07 11:05:08]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-07 11:06:02]  DESC Usuario
+[2019-06-07 11:06:02]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-07 11:07:05]  DESC Producto
+[2019-06-07 11:07:05]  DESC Categoria
+[2019-06-07 11:07:05]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 11:10:26]  DESC Producto
+[2019-06-07 11:10:26]  DESC Categoria
+[2019-06-07 11:10:26]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 12:38:08]  DESC Producto
+[2019-06-07 12:38:08]  DESC Categoria
+[2019-06-07 12:38:08]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 12:38:44]  DESC Producto
+[2019-06-07 12:38:44]  DESC Categoria
+[2019-06-07 12:38:44]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 12:41:09]  DESC Producto
+[2019-06-07 12:41:09]  DESC Categoria
+[2019-06-07 12:41:09]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 12:42:01]  DESC Producto
+[2019-06-07 12:42:01]  DESC Categoria
+[2019-06-07 12:42:01]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 12:43:04]  DESC Producto
+[2019-06-07 12:43:04]  DESC Categoria
+[2019-06-07 12:43:04]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 12:43:50]  DESC Producto
+[2019-06-07 12:43:50]  DESC Categoria
+[2019-06-07 12:43:50]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 12:43:56]  DESC Producto
+[2019-06-07 12:43:56]  DESC Categoria
+[2019-06-07 12:43:56]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 12:44:39]  DESC Producto
+[2019-06-07 12:44:39]  DESC Categoria
+[2019-06-07 12:44:40]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 12:56:50]  DESC Producto
+[2019-06-07 12:56:50]  DESC Categoria
+[2019-06-07 12:56:50]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 12:57:33]  DESC Producto
+[2019-06-07 12:57:33]  DESC Categoria
+[2019-06-07 12:57:33]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 12:57:38]  DESC Producto
+[2019-06-07 12:57:38]  DESC Categoria
+[2019-06-07 12:57:39]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 12:57:57]  DESC Producto
+[2019-06-07 12:57:57]  DESC Categoria
+[2019-06-07 12:57:57]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 12:58:41]  DESC Producto
+[2019-06-07 12:58:41]  DESC Categoria
+[2019-06-07 12:58:42]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 12:58:59]  DESC Producto
+[2019-06-07 12:58:59]  DESC Categoria
+[2019-06-07 12:58:59]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 12:59:21]  DESC Producto
+[2019-06-07 12:59:21]  DESC Categoria
+[2019-06-07 12:59:21]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 12:59:32]  DESC Producto
+[2019-06-07 12:59:32]  DESC Categoria
+[2019-06-07 12:59:32]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:01:26]  DESC Producto
+[2019-06-07 13:01:27]  DESC Categoria
+[2019-06-07 13:01:27]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:01:45]  DESC Producto
+[2019-06-07 13:01:45]  DESC Categoria
+[2019-06-07 13:01:45]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:01:56]  DESC Producto
+[2019-06-07 13:01:56]  DESC Categoria
+[2019-06-07 13:01:56]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:02:15]  DESC Producto
+[2019-06-07 13:02:15]  DESC Categoria
+[2019-06-07 13:02:15]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:03:03]  DESC Producto
+[2019-06-07 13:03:03]  DESC Categoria
+[2019-06-07 13:03:03]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:04:34]  DESC Producto
+[2019-06-07 13:04:34]  DESC Categoria
+[2019-06-07 13:04:34]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 13:05:23]  DESC Producto
+[2019-06-07 13:05:23]  DESC Categoria
+[2019-06-07 13:05:23]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 13:05:45]  DESC Producto
+[2019-06-07 13:05:45]  DESC Categoria
+[2019-06-07 13:05:45]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 13:06:20]  DESC Producto
+[2019-06-07 13:06:20]  DESC Categoria
+[2019-06-07 13:06:20]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 13:06:20]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','4')
+[2019-06-07 13:06:20]  DESC Imagen
+[2019-06-07 13:06:20]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','59')
+[2019-06-07 13:06:20]  DESC Publicacion
+[2019-06-07 13:06:56]  DESC Producto
+[2019-06-07 13:06:56]  DESC Categoria
+[2019-06-07 13:06:56]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 13:06:56]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','4')
+[2019-06-07 13:06:56]  DESC Imagen
+[2019-06-07 13:06:56]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','60')
+[2019-06-07 13:06:56]  DESC Publicacion
+[2019-06-07 13:07:11]  DESC Producto
+[2019-06-07 13:07:11]  DESC Categoria
+[2019-06-07 13:07:11]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:07:11]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','2')
+[2019-06-07 13:07:11]  DESC Imagen
+[2019-06-07 13:07:11]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('NuevoDocumento 2019-05-31 14.38.50_1.jpg','61')
+[2019-06-07 13:07:11]  DESC Publicacion
+[2019-06-07 13:07:33]  DESC Producto
+[2019-06-07 13:07:33]  DESC Categoria
+[2019-06-07 13:07:34]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:07:34]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','2')
+[2019-06-07 13:07:34]  DESC Imagen
+[2019-06-07 13:07:34]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','62')
+[2019-06-07 13:07:34]  DESC Publicacion
+[2019-06-07 13:18:35]  DESC Producto
+[2019-06-07 13:18:35]  DESC Categoria
+[2019-06-07 13:23:13]  DESC Producto
+[2019-06-07 13:23:13]  DESC Categoria
+[2019-06-07 13:23:13]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:23:13]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','2')
+[2019-06-07 13:23:13]  DESC Imagen
+[2019-06-07 13:23:13]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('Array','63')
+[2019-06-07 13:23:13]  DESC Imagen
+[2019-06-07 13:23:13]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','63')
+[2019-06-07 13:23:13]  DESC Publicacion
+[2019-06-07 13:23:13]  INSERT INTO `Publicacion` (`fecha`,`duracion`,`titulo`,`id_user`) VALUES ('2019-Jun-Fri','','titulo','')
+[2019-06-07 13:23:36]  DESC Producto
+[2019-06-07 13:23:36]  DESC Categoria
+[2019-06-07 13:23:36]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:23:36]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','2')
+[2019-06-07 13:23:36]  DESC Imagen
+[2019-06-07 13:23:36]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','64')
+[2019-06-07 13:23:36]  DESC Publicacion
+[2019-06-07 13:23:36]  INSERT INTO `Publicacion` (`fecha`,`duracion`,`titulo`,`id_user`) VALUES ('2019-Jun-Fri','','titulo','')
+[2019-06-07 13:23:59]  DESC Producto
+[2019-06-07 13:24:00]  DESC Categoria
+[2019-06-07 13:24:00]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:24:00]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','2')
+[2019-06-07 13:24:00]  DESC Imagen
+[2019-06-07 13:24:00]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','65')
+[2019-06-07 13:24:00]  DESC Publicacion
+[2019-06-07 13:24:00]  INSERT INTO `Publicacion` (`fecha`,`duracion`,`titulo`,`id_user`) VALUES ('2019-Jun-Fri','','titulo','')
+[2019-06-07 13:25:28]  DESC Producto
+[2019-06-07 13:25:28]  DESC Categoria
+[2019-06-07 13:25:28]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:25:28]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','2')
+[2019-06-07 13:25:28]  DESC Imagen
+[2019-06-07 13:25:28]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','66')
+[2019-06-07 13:25:28]  DESC Publicacion
+[2019-06-07 13:25:28]  INSERT INTO `Publicacion` (`fecha`,`duracion`,`titulo`,`id_user`) VALUES ('2019-Jun-Fri','','titulo','')
+[2019-06-07 13:25:58]  DESC Producto
+[2019-06-07 13:25:58]  DESC Categoria
+[2019-06-07 13:25:58]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:25:58]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','2')
+[2019-06-07 13:25:58]  DESC Imagen
+[2019-06-07 13:25:58]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','67')
+[2019-06-07 13:25:58]  DESC Publicacion
+[2019-06-07 13:25:58]  INSERT INTO `Publicacion` (`fecha`,`duracion`,`titulo`,`id_user`) VALUES ('2019-Jun-Fri','','titulo','')
+[2019-06-07 13:26:17]  DESC Producto
+[2019-06-07 13:26:17]  DESC Categoria
+[2019-06-07 13:26:17]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:26:17]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','2')
+[2019-06-07 13:26:17]  DESC Imagen
+[2019-06-07 13:26:17]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','68')
+[2019-06-07 13:26:17]  DESC Publicacion
+[2019-06-07 13:26:17]  INSERT INTO `Publicacion` (`fecha`,`duracion`,`titulo`,`id_user`) VALUES ('2019-Jun-Fri','','titulo','')
+[2019-06-07 13:26:30]  DESC Producto
+[2019-06-07 13:26:30]  DESC Categoria
+[2019-06-07 13:26:30]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:26:30]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','2')
+[2019-06-07 13:26:30]  DESC Imagen
+[2019-06-07 13:26:30]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','69')
+[2019-06-07 13:26:44]  DESC Producto
+[2019-06-07 13:26:44]  DESC Categoria
+[2019-06-07 13:26:44]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:26:44]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','2')
+[2019-06-07 13:26:44]  DESC Imagen
+[2019-06-07 13:26:44]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','70')
+[2019-06-07 13:27:25]  DESC Producto
+[2019-06-07 13:27:25]  DESC Categoria
+[2019-06-07 13:27:25]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:27:25]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','2')
+[2019-06-07 13:27:25]  DESC Imagen
+[2019-06-07 13:27:25]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','71')
+[2019-06-07 13:27:58]  DESC Producto
+[2019-06-07 13:27:58]  DESC Categoria
+[2019-06-07 13:27:58]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:27:58]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','2')
+[2019-06-07 13:27:58]  DESC Imagen
+[2019-06-07 13:27:58]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','72')
+[2019-06-07 13:27:59]  DESC Publicacion
+[2019-06-07 13:27:59]  INSERT INTO `Publicacion` (`fecha`,`duracion`,`titulo`,`id_user`) VALUES ('2019-Jun-Fri','','titulo','')
+[2019-06-07 13:28:59]  DESC Producto
+[2019-06-07 13:28:59]  DESC Categoria
+[2019-06-07 13:28:59]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:28:59]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','2')
+[2019-06-07 13:28:59]  DESC Imagen
+[2019-06-07 13:28:59]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','73')
+[2019-06-07 13:28:59]  DESC Publicacion
+[2019-06-07 13:28:59]  INSERT INTO `Publicacion` (`fecha`,`duracion`,`titulo`,`id_user`) VALUES ('2019-Jun-Fri','','titulo','')
+[2019-06-07 13:29:07]  DESC Producto
+[2019-06-07 13:29:07]  DESC Categoria
+[2019-06-07 13:29:07]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:29:07]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','2')
+[2019-06-07 13:29:07]  DESC Imagen
+[2019-06-07 13:29:07]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','74')
+[2019-06-07 13:29:08]  DESC Publicacion
+[2019-06-07 13:29:08]  INSERT INTO `Publicacion` (`fecha`,`duracion`,`titulo`,`id_user`) VALUES ('2019-Jun-Fri','','titulo','')
+[2019-06-07 13:29:21]  DESC Producto
+[2019-06-07 13:29:21]  DESC Categoria
+[2019-06-07 13:29:21]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:29:21]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','2')
+[2019-06-07 13:29:21]  DESC Imagen
+[2019-06-07 13:29:21]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','75')
+[2019-06-07 13:29:21]  DESC Publicacion
+[2019-06-07 13:29:21]  INSERT INTO `Publicacion` (`fecha`,`duracion`,`titulo`,`id_user`) VALUES ('','','','')
+[2019-06-07 13:32:59]  DESC Producto
+[2019-06-07 13:32:59]  DESC Categoria
+[2019-06-07 13:32:59]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:32:59]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','2')
+[2019-06-07 13:32:59]  DESC Imagen
+[2019-06-07 13:33:00]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','76')
+[2019-06-07 13:33:00]  DESC Publicacion
+[2019-06-07 13:33:00]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`) VALUES ('2019-Jun-Fri','titulo','4')
+[2019-06-07 13:36:17]  DESC Producto
+[2019-06-07 13:36:17]  DESC Categoria
+[2019-06-07 13:36:17]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:36:17]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('hola','yuytyrty','25','121212','2')
+[2019-06-07 13:36:18]  DESC Imagen
+[2019-06-07 13:36:18]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','77')
+[2019-06-07 13:36:18]  DESC Publicacion
+[2019-06-07 13:36:18]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','titulo','4','77')
+[2019-06-07 13:47:26]  DESC Producto
+[2019-06-07 13:47:26]  DESC Categoria
+[2019-06-07 13:47:26]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:47:56]  DESC Producto
+[2019-06-07 13:47:56]  DESC Categoria
+[2019-06-07 13:47:56]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:48:06]  DESC Producto
+[2019-06-07 13:48:06]  DESC Categoria
+[2019-06-07 13:48:06]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:54:22]  DESC Producto
+[2019-06-07 13:54:22]  DESC Categoria
+[2019-06-07 13:54:23]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:54:28]  DESC Producto
+[2019-06-07 13:54:28]  DESC Categoria
+[2019-06-07 13:54:28]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 13:54:38]  DESC Producto
+[2019-06-07 13:54:38]  DESC Categoria
+[2019-06-07 13:54:38]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 14:02:42]  DESC Producto
+[2019-06-07 14:02:42]  DESC Categoria
+[2019-06-07 14:02:42]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 14:02:57]  DESC Producto
+[2019-06-07 14:02:57]  DESC Categoria
+[2019-06-07 14:02:57]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 14:10:38]  DESC Producto
+[2019-06-07 14:10:38]  DESC Categoria
+[2019-06-07 14:10:38]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 14:10:38]  DESC publicaciónEntrega
+[2019-06-07 14:28:44]  DESC Producto
+[2019-06-07 14:28:44]  DESC Categoria
+[2019-06-07 14:28:44]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 14:28:52]  DESC Producto
+[2019-06-07 14:28:52]  DESC Categoria
+[2019-06-07 14:28:52]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 14:29:01]  DESC Producto
+[2019-06-07 14:29:01]  DESC Categoria
+[2019-06-07 14:29:01]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 14:29:01]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('ro','fdgdfg','5466','5466','4')
+[2019-06-07 14:29:01]  DESC Imagen
+[2019-06-07 14:29:01]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','78')
+[2019-06-07 14:29:01]  DESC Publicacion
+[2019-06-07 14:29:01]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','gdgdfg','4','78')
+[2019-06-07 14:29:01]  DESC publicaciónEntrega
+[2019-06-07 14:29:37]  DESC Producto
+[2019-06-07 14:29:37]  DESC Categoria
+[2019-06-07 14:29:37]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 14:29:37]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('ro','fdgdfg','5466','5466','4')
+[2019-06-07 14:29:37]  DESC Imagen
+[2019-06-07 14:29:37]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','79')
+[2019-06-07 14:29:37]  DESC Publicacion
+[2019-06-07 14:30:12]  DESC Producto
+[2019-06-07 14:30:12]  DESC Categoria
+[2019-06-07 14:30:12]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 14:30:12]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('ro','fdgdfg','5466','5466','4')
+[2019-06-07 14:30:12]  DESC Imagen
+[2019-06-07 14:30:12]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','80')
+[2019-06-07 14:30:12]  DESC Publicacion
+[2019-06-07 14:31:00]  DESC Producto
+[2019-06-07 14:31:00]  DESC Categoria
+[2019-06-07 14:31:00]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 14:31:00]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('ro','fdgdfg','5466','5466','4')
+[2019-06-07 14:31:00]  DESC Imagen
+[2019-06-07 14:31:01]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','81')
+[2019-06-07 14:31:01]  DESC Publicacion
+[2019-06-07 14:32:01]  DESC Producto
+[2019-06-07 14:32:02]  DESC Categoria
+[2019-06-07 14:32:02]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 14:32:02]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('ro','fdgdfg','5466','5466','4')
+[2019-06-07 14:32:03]  DESC Imagen
+[2019-06-07 14:32:03]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','82')
+[2019-06-07 14:32:03]  DESC Publicacion
+[2019-06-07 14:36:25]  DESC Producto
+[2019-06-07 14:36:25]  DESC Categoria
+[2019-06-07 14:36:25]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 14:36:25]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Martillo de metal','ES DE METAL REFORZADO CON COBRE','20','199.99','4')
+[2019-06-07 14:36:25]  DESC Imagen
+[2019-06-07 14:36:25]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','83')
+[2019-06-07 14:36:25]  DESC Publicacion
+[2019-06-07 14:36:25]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','MARTILLO MUY BARATO!!','4','83')
+[2019-06-07 14:36:25]  DESC publicaciónEntrega
+[2019-06-07 14:39:26]  DESC Producto
+[2019-06-07 14:39:26]  DESC Categoria
+[2019-06-07 14:39:26]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 14:39:26]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Martillo de metal','ES DE METAL REFORZADO CON COBRE','20','199.99','4')
+[2019-06-07 14:39:26]  DESC Imagen
+[2019-06-07 14:39:26]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','84')
+[2019-06-07 14:39:26]  DESC Publicacion
+[2019-06-07 14:39:26]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','MARTILLO MUY BARATO!!','4','84')
+[2019-06-07 14:39:26]  DESC PublicaciónEntrega
+[2019-06-07 14:40:49]  DESC Producto
+[2019-06-07 14:40:49]  DESC Categoria
+[2019-06-07 14:40:49]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 14:40:49]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Martillo de metal','ES DE METAL REFORZADO CON COBRE','20','199.99','4')
+[2019-06-07 14:40:49]  DESC Imagen
+[2019-06-07 14:40:49]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','85')
+[2019-06-07 14:40:49]  DESC Publicacion
+[2019-06-07 14:42:22]  DESC Producto
+[2019-06-07 14:42:22]  DESC Categoria
+[2019-06-07 14:42:22]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 14:42:22]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Martillo de metal','ES DE METAL REFORZADO CON COBRE','20','199.99','4')
+[2019-06-07 14:42:22]  DESC Imagen
+[2019-06-07 14:42:22]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','86')
+[2019-06-07 14:42:22]  DESC Publicacion
+[2019-06-07 14:42:22]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','MARTILLO MUY BARATO!!','4','86')
+[2019-06-07 14:42:22]  DESC Publicaciónentrega
+[2019-06-07 14:45:44]  DESC Producto
+[2019-06-07 14:45:44]  DESC Categoria
+[2019-06-07 14:45:44]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 14:45:44]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Martillo de metal','ES DE METAL REFORZADO CON COBRE','20','199.99','4')
+[2019-06-07 14:45:44]  DESC Imagen
+[2019-06-07 14:45:44]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','87')
+[2019-06-07 14:45:44]  DESC Publicacion
+[2019-06-07 14:45:44]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','MARTILLO MUY BARATO!!','4','87')
+[2019-06-07 14:45:44]  DESC Publicacion_Entrega
+[2019-06-07 14:45:45]  select * from Publicacion_Entrega  where tipo='por correo' limit 0, 1
+[2019-06-07 14:53:21]  DESC Producto
+[2019-06-07 14:53:21]  DESC Categoria
+[2019-06-07 14:53:21]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 14:53:21]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Martillo de metal','ES DE METAL REFORZADO CON COBRE','20','199.99','4')
+[2019-06-07 14:53:21]  DESC Imagen
+[2019-06-07 14:53:21]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','88')
+[2019-06-07 14:53:21]  DESC Publicacion
+[2019-06-07 14:53:21]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','MARTILLO MUY BARATO!!','4','88')
+[2019-06-07 14:53:21]  DESC Entrega
+[2019-06-07 14:53:21]  DESC Publicacion_Entrega
+[2019-06-07 14:53:21]  select * from Entrega  where tipo='por correo' limit 0, 1
+[2019-06-07 14:53:21]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('18','2')
+[2019-06-07 14:56:11]  DESC Producto
+[2019-06-07 14:56:11]  DESC Categoria
+[2019-06-07 14:56:11]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 14:56:11]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Martillo de metal','ES DE METAL REFORZADO CON COBRE','20','199.99','4')
+[2019-06-07 14:56:11]  DESC Imagen
+[2019-06-07 14:56:11]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','89')
+[2019-06-07 14:56:11]  DESC Publicacion
+[2019-06-07 14:56:11]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','MARTILLO MUY BARATO!!','4','89')
+[2019-06-07 14:56:11]  DESC Entrega
+[2019-06-07 14:56:11]  DESC Publicacion_Entrega
+[2019-06-07 14:56:11]  select * from Entrega  where tipo='por correo' limit 0, 1
+[2019-06-07 14:56:12]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('19','2')
+[2019-06-07 14:58:09]  DESC Producto
+[2019-06-07 14:58:09]  DESC Categoria
+[2019-06-07 14:58:09]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 14:58:59]  DESC Producto
+[2019-06-07 14:58:59]  DESC Categoria
+[2019-06-07 14:58:59]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 14:58:59]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Martillo de metal','ES DE METAL REFORZADO CON COBRE','20','199.99','4')
+[2019-06-07 14:58:59]  DESC Imagen
+[2019-06-07 14:58:59]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','90')
+[2019-06-07 14:59:00]  DESC Publicacion
+[2019-06-07 14:59:00]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','MARTILLO MUY BARATO!!','4','90')
+[2019-06-07 14:59:00]  DESC Entrega
+[2019-06-07 14:59:00]  DESC Publicacion_Entrega
+[2019-06-07 14:59:00]  select * from Entrega  where tipo='por correo' limit 0, 1
+[2019-06-07 14:59:00]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('20','2')
+[2019-06-07 15:00:10]  DESC Producto
+[2019-06-07 15:00:10]  DESC Categoria
+[2019-06-07 15:00:10]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 15:00:10]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Martillo de metal','ES DE METAL REFORZADO CON COBRE','20','199.99','4')
+[2019-06-07 15:00:10]  DESC Imagen
+[2019-06-07 15:00:10]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','91')
+[2019-06-07 15:00:10]  DESC Publicacion
+[2019-06-07 15:00:10]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','MARTILLO MUY BARATO!!','4','91')
+[2019-06-07 15:00:10]  DESC Entrega
+[2019-06-07 15:00:10]  DESC Publicacion_Entrega
+[2019-06-07 15:00:10]  select * from Entrega  where tipo='por correo' limit 0, 1
+[2019-06-07 15:00:10]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('21','2')
+[2019-06-07 15:00:28]  DESC Producto
+[2019-06-07 15:00:28]  DESC Categoria
+[2019-06-07 15:00:28]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 15:00:28]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Martillo de metal','ES DE METAL REFORZADO CON COBRE','20','199.99','4')
+[2019-06-07 15:00:28]  DESC Imagen
+[2019-06-07 15:00:28]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','92')
+[2019-06-07 15:00:28]  DESC Publicacion
+[2019-06-07 15:00:28]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','MARTILLO MUY BARATO!!','4','92')
+[2019-06-07 15:00:28]  DESC Entrega
+[2019-06-07 15:00:28]  DESC Publicacion_Entrega
+[2019-06-07 15:00:28]  select * from Entrega  where tipo='por correo' limit 0, 1
+[2019-06-07 15:00:28]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('22','2')
+[2019-06-07 15:02:44]  DESC Producto
+[2019-06-07 15:02:44]  DESC Categoria
+[2019-06-07 15:02:44]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 15:03:12]  DESC Producto
+[2019-06-07 15:03:12]  DESC Categoria
+[2019-06-07 15:03:12]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 15:04:58]  DESC Producto
+[2019-06-07 15:04:58]  DESC Categoria
+[2019-06-07 15:04:58]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 15:05:41]  DESC Producto
+[2019-06-07 15:05:41]  DESC Categoria
+[2019-06-07 15:05:41]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 15:07:14]  DESC Producto
+[2019-06-07 15:07:14]  DESC Categoria
+[2019-06-07 15:07:14]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 15:07:25]  DESC Producto
+[2019-06-07 15:07:25]  DESC Categoria
+[2019-06-07 15:07:25]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 15:08:12]  DESC Producto
+[2019-06-07 15:08:12]  DESC Categoria
+[2019-06-07 15:08:12]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 15:08:31]  DESC Producto
+[2019-06-07 15:08:32]  DESC Categoria
+[2019-06-07 15:08:32]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-06-07 15:09:01]  DESC Producto
+[2019-06-07 15:09:01]  DESC Categoria
+[2019-06-07 15:09:01]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:10:17]  DESC Producto
+[2019-06-07 15:10:17]  DESC Categoria
+[2019-06-07 15:10:17]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:10:29]  DESC Producto
+[2019-06-07 15:10:29]  DESC Categoria
+[2019-06-07 15:10:29]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:11:23]  DESC Producto
+[2019-06-07 15:11:23]  DESC Categoria
+[2019-06-07 15:11:23]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:11:36]  DESC Producto
+[2019-06-07 15:11:36]  DESC Categoria
+[2019-06-07 15:11:37]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:12:15]  DESC Producto
+[2019-06-07 15:12:15]  DESC Categoria
+[2019-06-07 15:12:15]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:12:15]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('gsgs','gfgfd','4','4','2')
+[2019-06-07 15:12:15]  DESC Imagen
+[2019-06-07 15:12:15]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','93')
+[2019-06-07 15:12:15]  DESC Imagen
+[2019-06-07 15:12:15]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','93')
+[2019-06-07 15:12:15]  DESC Imagen
+[2019-06-07 15:12:15]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','93')
+[2019-06-07 15:12:15]  DESC Imagen
+[2019-06-07 15:12:15]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','93')
+[2019-06-07 15:12:15]  DESC Imagen
+[2019-06-07 15:12:15]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','93')
+[2019-06-07 15:12:16]  DESC Publicacion
+[2019-06-07 15:12:16]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','dsf','4','93')
+[2019-06-07 15:12:16]  DESC Entrega
+[2019-06-07 15:12:16]  DESC Publicacion_Entrega
+[2019-06-07 15:12:16]  select * from Entrega  where tipo='acordar con el vendedor' limit 0, 1
+[2019-06-07 15:12:16]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('23','1')
+[2019-06-07 15:13:25]  DESC Producto
+[2019-06-07 15:13:25]  DESC Categoria
+[2019-06-07 15:13:25]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:13:25]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('gsgs','gfgfd','4','4','2')
+[2019-06-07 15:13:25]  DESC Imagen
+[2019-06-07 15:13:26]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','94')
+[2019-06-07 15:13:26]  DESC Imagen
+[2019-06-07 15:13:26]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','94')
+[2019-06-07 15:13:26]  DESC Imagen
+[2019-06-07 15:13:26]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','94')
+[2019-06-07 15:13:26]  DESC Imagen
+[2019-06-07 15:13:26]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','94')
+[2019-06-07 15:13:26]  DESC Imagen
+[2019-06-07 15:13:26]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','94')
+[2019-06-07 15:13:26]  DESC Publicacion
+[2019-06-07 15:13:26]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','dsf','4','94')
+[2019-06-07 15:13:26]  DESC Entrega
+[2019-06-07 15:13:26]  DESC Publicacion_Entrega
+[2019-06-07 15:13:26]  select * from Entrega  where tipo='acordar con el vendedor' limit 0, 1
+[2019-06-07 15:13:26]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('24','1')
+[2019-06-07 15:13:32]  DESC Producto
+[2019-06-07 15:13:33]  DESC Categoria
+[2019-06-07 15:13:33]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:13:33]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('gsgs','gfgfd','4','4','2')
+[2019-06-07 15:13:33]  DESC Imagen
+[2019-06-07 15:13:33]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','95')
+[2019-06-07 15:13:33]  DESC Imagen
+[2019-06-07 15:13:33]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','95')
+[2019-06-07 15:13:33]  DESC Imagen
+[2019-06-07 15:13:33]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','95')
+[2019-06-07 15:13:33]  DESC Imagen
+[2019-06-07 15:13:33]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','95')
+[2019-06-07 15:13:33]  DESC Imagen
+[2019-06-07 15:13:33]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','95')
+[2019-06-07 15:13:33]  DESC Publicacion
+[2019-06-07 15:13:33]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','dsf','4','95')
+[2019-06-07 15:13:33]  DESC Entrega
+[2019-06-07 15:13:33]  DESC Publicacion_Entrega
+[2019-06-07 15:13:33]  select * from Entrega  where tipo='acordar con el vendedor' limit 0, 1
+[2019-06-07 15:13:33]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('25','1')
+[2019-06-07 15:13:51]  DESC Producto
+[2019-06-07 15:13:51]  DESC Categoria
+[2019-06-07 15:13:51]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:14:15]  DESC Producto
+[2019-06-07 15:14:15]  DESC Categoria
+[2019-06-07 15:14:16]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:14:16]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('gsgs','gfgfd','4','4','2')
+[2019-06-07 15:14:16]  DESC Imagen
+[2019-06-07 15:14:16]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('Escáner_20190531.jpg','96')
+[2019-06-07 15:14:16]  DESC Imagen
+[2019-06-07 15:14:16]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','96')
+[2019-06-07 15:14:16]  DESC Imagen
+[2019-06-07 15:14:16]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('NuevoDocumento 2019-05-31 14.38.50_1.jpg','96')
+[2019-06-07 15:14:16]  DESC Imagen
+[2019-06-07 15:14:16]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('NuevoDocumento 2019-05-31 14.38.50_2.jpg','96')
+[2019-06-07 15:14:16]  DESC Publicacion
+[2019-06-07 15:14:16]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','dsf','4','96')
+[2019-06-07 15:14:16]  DESC Entrega
+[2019-06-07 15:14:16]  DESC Publicacion_Entrega
+[2019-06-07 15:14:16]  select * from Entrega  where tipo='acordar con el vendedor' limit 0, 1
+[2019-06-07 15:14:16]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('26','1')
+[2019-06-07 15:14:30]  DESC Producto
+[2019-06-07 15:14:30]  DESC Categoria
+[2019-06-07 15:14:30]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:14:50]  DESC Producto
+[2019-06-07 15:14:50]  DESC Categoria
+[2019-06-07 15:14:50]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:15:04]  DESC Producto
+[2019-06-07 15:15:04]  DESC Categoria
+[2019-06-07 15:15:05]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:15:05]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('gsgs','gfgfd','4','4','2')
+[2019-06-07 15:15:05]  DESC Imagen
+[2019-06-07 15:15:05]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('NuevoDocumento 2019-05-31 14.38.50_1.jpg','97')
+[2019-06-07 15:15:05]  DESC Imagen
+[2019-06-07 15:15:05]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('NuevoDocumento 2019-05-31 14.38.50_2.jpg','97')
+[2019-06-07 15:15:05]  DESC Publicacion
+[2019-06-07 15:15:05]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','dsf','4','97')
+[2019-06-07 15:15:05]  DESC Entrega
+[2019-06-07 15:15:05]  DESC Publicacion_Entrega
+[2019-06-07 15:15:05]  select * from Entrega  where tipo='acordar con el vendedor' limit 0, 1
+[2019-06-07 15:15:05]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('27','1')
+[2019-06-07 15:15:52]  DESC Producto
+[2019-06-07 15:15:52]  DESC Categoria
+[2019-06-07 15:15:52]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:15:52]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('gsgs','gfgfd','4','4','2')
+[2019-06-07 15:15:52]  DESC Imagen
+[2019-06-07 15:15:52]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('NuevoDocumento 2019-05-31 14.38.50_1.jpg','98')
+[2019-06-07 15:15:53]  DESC Imagen
+[2019-06-07 15:15:53]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('NuevoDocumento 2019-05-31 14.38.50_2.jpg','98')
+[2019-06-07 15:15:53]  DESC Publicacion
+[2019-06-07 15:15:53]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','dsf','4','98')
+[2019-06-07 15:15:53]  DESC Entrega
+[2019-06-07 15:15:53]  DESC Publicacion_Entrega
+[2019-06-07 15:15:53]  select * from Entrega  where tipo='acordar con el vendedor' limit 0, 1
+[2019-06-07 15:15:53]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('28','1')
+[2019-06-07 15:16:13]  DESC Producto
+[2019-06-07 15:16:13]  DESC Categoria
+[2019-06-07 15:16:14]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:16:47]  DESC Producto
+[2019-06-07 15:16:47]  DESC Categoria
+[2019-06-07 15:16:47]  select * from Categoria  where nombreCategoria='mascotas' limit 0, 1
+[2019-06-07 15:16:57]  DESC Producto
+[2019-06-07 15:16:57]  DESC Categoria
+[2019-06-07 15:16:57]  select * from Categoria  where nombreCategoria='mascotas' limit 0, 1
+[2019-06-07 15:17:32]  DESC Producto
+[2019-06-07 15:17:32]  DESC Categoria
+[2019-06-07 15:17:32]  select * from Categoria  where nombreCategoria='mascotas' limit 0, 1
+[2019-06-07 15:17:43]  DESC Producto
+[2019-06-07 15:17:43]  DESC Categoria
+[2019-06-07 15:17:43]  select * from Categoria  where nombreCategoria='mascotas' limit 0, 1
+[2019-06-07 15:18:12]  DESC Producto
+[2019-06-07 15:18:12]  DESC Categoria
+[2019-06-07 15:18:12]  select * from Categoria  where nombreCategoria='mascotas' limit 0, 1
+[2019-06-07 15:19:31]  DESC Producto
+[2019-06-07 15:19:31]  DESC Categoria
+[2019-06-07 15:19:31]  select * from Categoria  where nombreCategoria='mascotas' limit 0, 1
+[2019-06-07 15:19:44]  DESC Producto
+[2019-06-07 15:19:44]  DESC Categoria
+[2019-06-07 15:19:45]  select * from Categoria  where nombreCategoria='mascotas' limit 0, 1
+[2019-06-07 15:20:35]  DESC Producto
+[2019-06-07 15:20:35]  DESC Categoria
+[2019-06-07 15:20:35]  select * from Categoria  where nombreCategoria='mascotas' limit 0, 1
+[2019-06-07 15:21:36]  DESC Producto
+[2019-06-07 15:21:36]  DESC Categoria
+[2019-06-07 15:21:36]  select * from Categoria  where nombreCategoria='mascotas' limit 0, 1
+[2019-06-07 15:21:36]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('gdfgdf','dfgdfg','6','6','3')
+[2019-06-07 15:21:36]  DESC Imagen
+[2019-06-07 15:21:36]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('NuevoDocumento 2019-05-31 14.38.50_2.jpg','99')
+[2019-06-07 15:21:36]  DESC Imagen
+[2019-06-07 15:21:36]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','99')
+[2019-06-07 15:21:36]  DESC Imagen
+[2019-06-07 15:21:36]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','99')
+[2019-06-07 15:21:36]  DESC Imagen
+[2019-06-07 15:21:37]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','99')
+[2019-06-07 15:21:37]  DESC Imagen
+[2019-06-07 15:21:37]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','99')
+[2019-06-07 15:21:37]  DESC Publicacion
+[2019-06-07 15:21:37]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','vxcv','4','99')
+[2019-06-07 15:21:37]  DESC Entrega
+[2019-06-07 15:21:37]  DESC Publicacion_Entrega
+[2019-06-07 15:21:37]  select * from Entrega  where tipo='acordar con el vendedor' limit 0, 1
+[2019-06-07 15:21:37]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('29','1')
+[2019-06-07 15:22:17]  DESC Producto
+[2019-06-07 15:22:17]  DESC Categoria
+[2019-06-07 15:22:17]  select * from Categoria  where nombreCategoria='mascotas' limit 0, 1
+[2019-06-07 15:22:17]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('gdfgdf','dfgdfg','6','6','3')
+[2019-06-07 15:22:17]  DESC Imagen
+[2019-06-07 15:22:17]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('NuevoDocumento 2019-05-31 14.38.50_2.jpg','100')
+[2019-06-07 15:22:17]  DESC Imagen
+[2019-06-07 15:22:17]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','100')
+[2019-06-07 15:22:18]  DESC Imagen
+[2019-06-07 15:22:18]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','100')
+[2019-06-07 15:22:18]  DESC Imagen
+[2019-06-07 15:22:18]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','100')
+[2019-06-07 15:22:18]  DESC Imagen
+[2019-06-07 15:22:18]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','100')
+[2019-06-07 15:22:18]  DESC Publicacion
+[2019-06-07 15:22:18]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','vxcv','4','100')
+[2019-06-07 15:22:18]  DESC Entrega
+[2019-06-07 15:22:18]  DESC Publicacion_Entrega
+[2019-06-07 15:22:18]  select * from Entrega  where tipo='acordar con el vendedor' limit 0, 1
+[2019-06-07 15:22:18]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('30','1')
+[2019-06-07 15:22:51]  DESC Producto
+[2019-06-07 15:22:51]  DESC Categoria
+[2019-06-07 15:22:51]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:24:58]  DESC Producto
+[2019-06-07 15:24:58]  DESC Categoria
+[2019-06-07 15:24:58]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:25:40]  DESC Producto
+[2019-06-07 15:25:40]  DESC Categoria
+[2019-06-07 15:25:41]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:26:27]  DESC Producto
+[2019-06-07 15:26:27]  DESC Categoria
+[2019-06-07 15:26:27]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:26:52]  DESC Producto
+[2019-06-07 15:26:52]  DESC Categoria
+[2019-06-07 15:26:52]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:27:28]  DESC Producto
+[2019-06-07 15:27:28]  DESC Categoria
+[2019-06-07 15:27:28]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:28:08]  DESC Producto
+[2019-06-07 15:28:08]  DESC Categoria
+[2019-06-07 15:28:08]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:28:38]  DESC Producto
+[2019-06-07 15:28:38]  DESC Categoria
+[2019-06-07 15:28:38]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:29:50]  DESC Producto
+[2019-06-07 15:29:50]  DESC Categoria
+[2019-06-07 15:29:50]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:30:19]  DESC Producto
+[2019-06-07 15:30:19]  DESC Categoria
+[2019-06-07 15:30:19]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:35:05]  DESC Producto
+[2019-06-07 15:35:05]  DESC Categoria
+[2019-06-07 15:35:05]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:37:54]  DESC Producto
+[2019-06-07 15:37:54]  DESC Categoria
+[2019-06-07 15:37:54]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:38:42]  DESC Usuario
+[2019-06-07 15:38:42]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-07 15:39:19]  DESC Producto
+[2019-06-07 15:39:19]  DESC Categoria
+[2019-06-07 15:39:19]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:40:25]  DESC Producto
+[2019-06-07 15:40:26]  DESC Categoria
+[2019-06-07 15:40:26]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:40:26]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('ro','fgdg','45','43','2')
+[2019-06-07 15:40:26]  DESC Imagen
+[2019-06-07 15:40:26]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','101')
+[2019-06-07 15:40:26]  DESC Imagen
+[2019-06-07 15:40:26]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('NuevoDocumento 2019-05-31 14.38.50_2.jpg','101')
+[2019-06-07 15:40:26]  DESC Imagen
+[2019-06-07 15:40:26]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('NuevoDocumento 2019-05-31 14.38.50_2.jpg','101')
+[2019-06-07 15:40:26]  DESC Publicacion
+[2019-06-07 15:40:26]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','vgfgf','4','101')
+[2019-06-07 15:40:26]  DESC Entrega
+[2019-06-07 15:40:26]  DESC Publicacion_Entrega
+[2019-06-07 15:40:26]  select * from Entrega  where tipo='por correo' limit 0, 1
+[2019-06-07 15:40:26]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('31','2')
+[2019-06-07 15:40:47]  DESC Producto
+[2019-06-07 15:40:47]  DESC Categoria
+[2019-06-07 15:40:47]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:40:47]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('ro','fgdg','45','43','2')
+[2019-06-07 15:40:47]  DESC Imagen
+[2019-06-07 15:40:47]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','102')
+[2019-06-07 15:40:47]  DESC Imagen
+[2019-06-07 15:40:47]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('NuevoDocumento 2019-05-31 14.38.50_2.jpg','102')
+[2019-06-07 15:40:47]  DESC Imagen
+[2019-06-07 15:40:47]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('NuevoDocumento 2019-05-31 14.38.50_2.jpg','102')
+[2019-06-07 15:40:47]  DESC Publicacion
+[2019-06-07 15:40:47]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','vgfgf','4','102')
+[2019-06-07 15:40:47]  DESC Entrega
+[2019-06-07 15:40:47]  DESC Publicacion_Entrega
+[2019-06-07 15:40:47]  select * from Entrega  where tipo='por correo' limit 0, 1
+[2019-06-07 15:40:47]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('32','2')
+[2019-06-07 15:41:00]  DESC Producto
+[2019-06-07 15:41:00]  DESC Categoria
+[2019-06-07 15:41:00]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:41:00]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('ro','fgdg','45','43','2')
+[2019-06-07 15:41:00]  DESC Imagen
+[2019-06-07 15:41:00]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','103')
+[2019-06-07 15:41:01]  DESC Imagen
+[2019-06-07 15:41:01]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','103')
+[2019-06-07 15:41:01]  DESC Imagen
+[2019-06-07 15:41:01]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','103')
+[2019-06-07 15:41:01]  DESC Publicacion
+[2019-06-07 15:41:01]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','vgfgf','4','103')
+[2019-06-07 15:41:01]  DESC Entrega
+[2019-06-07 15:41:01]  DESC Publicacion_Entrega
+[2019-06-07 15:41:01]  select * from Entrega  where tipo='por correo' limit 0, 1
+[2019-06-07 15:41:01]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('33','2')
+[2019-06-07 15:41:05]  DESC Producto
+[2019-06-07 15:41:05]  DESC Categoria
+[2019-06-07 15:41:05]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:41:05]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('ro','fgdg','45','43','2')
+[2019-06-07 15:41:05]  DESC Imagen
+[2019-06-07 15:41:05]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','104')
+[2019-06-07 15:41:05]  DESC Imagen
+[2019-06-07 15:41:05]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','104')
+[2019-06-07 15:41:05]  DESC Imagen
+[2019-06-07 15:41:05]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','104')
+[2019-06-07 15:41:05]  DESC Publicacion
+[2019-06-07 15:41:05]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','vgfgf','4','104')
+[2019-06-07 15:41:05]  DESC Entrega
+[2019-06-07 15:41:05]  DESC Publicacion_Entrega
+[2019-06-07 15:41:05]  select * from Entrega  where tipo='por correo' limit 0, 1
+[2019-06-07 15:41:05]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('34','2')
+[2019-06-07 15:41:16]  DESC Producto
+[2019-06-07 15:41:16]  DESC Categoria
+[2019-06-07 15:41:16]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:41:16]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('ro','fgdg','45','43','2')
+[2019-06-07 15:41:16]  DESC Imagen
+[2019-06-07 15:41:16]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','105')
+[2019-06-07 15:41:17]  DESC Imagen
+[2019-06-07 15:41:17]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','105')
+[2019-06-07 15:41:17]  DESC Imagen
+[2019-06-07 15:41:17]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','105')
+[2019-06-07 15:41:17]  DESC Publicacion
+[2019-06-07 15:41:17]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','vgfgf','4','105')
+[2019-06-07 15:41:17]  DESC Entrega
+[2019-06-07 15:41:17]  DESC Publicacion_Entrega
+[2019-06-07 15:41:17]  select * from Entrega  where tipo='por correo' limit 0, 1
+[2019-06-07 15:41:17]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('35','2')
+[2019-06-07 15:41:19]  DESC Producto
+[2019-06-07 15:41:19]  DESC Categoria
+[2019-06-07 15:41:19]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:41:19]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('ro','fgdg','45','43','2')
+[2019-06-07 15:41:20]  DESC Imagen
+[2019-06-07 15:41:20]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','106')
+[2019-06-07 15:41:20]  DESC Imagen
+[2019-06-07 15:41:20]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','106')
+[2019-06-07 15:41:20]  DESC Imagen
+[2019-06-07 15:41:20]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','106')
+[2019-06-07 15:41:20]  DESC Publicacion
+[2019-06-07 15:41:20]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','vgfgf','4','106')
+[2019-06-07 15:41:20]  DESC Entrega
+[2019-06-07 15:41:20]  DESC Publicacion_Entrega
+[2019-06-07 15:41:20]  select * from Entrega  where tipo='por correo' limit 0, 1
+[2019-06-07 15:41:20]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('36','2')
+[2019-06-07 15:41:56]  DESC Producto
+[2019-06-07 15:41:56]  DESC Categoria
+[2019-06-07 15:41:56]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:41:56]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('ro','fgdg','45','43','2')
+[2019-06-07 15:41:56]  DESC Imagen
+[2019-06-07 15:41:56]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','107')
+[2019-06-07 15:41:56]  DESC Imagen
+[2019-06-07 15:41:56]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','107')
+[2019-06-07 15:41:56]  DESC Publicacion
+[2019-06-07 15:41:57]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','vgfgf','4','107')
+[2019-06-07 15:41:57]  DESC Entrega
+[2019-06-07 15:41:57]  DESC Publicacion_Entrega
+[2019-06-07 15:41:57]  select * from Entrega  where tipo='por correo' limit 0, 1
+[2019-06-07 15:41:57]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('37','2')
+[2019-06-07 15:42:11]  DESC Producto
+[2019-06-07 15:42:12]  DESC Categoria
+[2019-06-07 15:42:12]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:42:12]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('ro','fgdg','45','43','2')
+[2019-06-07 15:42:12]  DESC Imagen
+[2019-06-07 15:42:12]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','108')
+[2019-06-07 15:42:12]  DESC Imagen
+[2019-06-07 15:42:12]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','108')
+[2019-06-07 15:42:12]  DESC Publicacion
+[2019-06-07 15:42:12]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','vgfgf','4','108')
+[2019-06-07 15:42:12]  DESC Entrega
+[2019-06-07 15:42:13]  DESC Publicacion_Entrega
+[2019-06-07 15:42:13]  select * from Entrega  where tipo='por correo' limit 0, 1
+[2019-06-07 15:42:13]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('38','2')
+[2019-06-07 15:42:16]  DESC Producto
+[2019-06-07 15:42:16]  DESC Categoria
+[2019-06-07 15:42:16]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:42:16]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('ro','fgdg','45','43','2')
+[2019-06-07 15:42:17]  DESC Imagen
+[2019-06-07 15:42:17]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','109')
+[2019-06-07 15:42:17]  DESC Imagen
+[2019-06-07 15:42:17]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','109')
+[2019-06-07 15:42:17]  DESC Publicacion
+[2019-06-07 15:42:17]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','vgfgf','4','109')
+[2019-06-07 15:42:17]  DESC Entrega
+[2019-06-07 15:42:17]  DESC Publicacion_Entrega
+[2019-06-07 15:42:17]  select * from Entrega  where tipo='por correo' limit 0, 1
+[2019-06-07 15:42:17]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('39','2')
+[2019-06-07 15:42:32]  DESC Producto
+[2019-06-07 15:42:32]  DESC Categoria
+[2019-06-07 15:42:32]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:42:32]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('fghf','hfhfgh','4','520','2')
+[2019-06-07 15:42:32]  DESC Imagen
+[2019-06-07 15:42:32]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','110')
+[2019-06-07 15:42:32]  DESC Imagen
+[2019-06-07 15:42:32]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','110')
+[2019-06-07 15:42:32]  DESC Imagen
+[2019-06-07 15:42:32]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','110')
+[2019-06-07 15:42:32]  DESC Publicacion
+[2019-06-07 15:42:32]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','hfhg','4','110')
+[2019-06-07 15:42:33]  DESC Entrega
+[2019-06-07 15:42:33]  DESC Publicacion_Entrega
+[2019-06-07 15:42:33]  select * from Entrega  where tipo='acordar con el vendedor' limit 0, 1
+[2019-06-07 15:42:33]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('40','1')
+[2019-06-07 15:42:57]  DESC Producto
+[2019-06-07 15:42:57]  DESC Categoria
+[2019-06-07 15:42:57]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-07 15:42:57]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('fghf','hfhfgh','4','520','2')
+[2019-06-07 15:42:57]  DESC Imagen
+[2019-06-07 15:42:57]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','111')
+[2019-06-07 15:42:57]  DESC Imagen
+[2019-06-07 15:42:57]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('NuevoDocumento 2019-05-31 14.38.50_1.jpg','111')
+[2019-06-07 15:42:57]  DESC Imagen
+[2019-06-07 15:42:57]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('NuevoDocumento 2019-05-31 14.38.50_2.jpg','111')
+[2019-06-07 15:42:57]  DESC Imagen
+[2019-06-07 15:42:57]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('','111')
+[2019-06-07 15:42:57]  DESC Publicacion
+[2019-06-07 15:42:57]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','hfhg','4','111')
+[2019-06-07 15:42:57]  DESC Entrega
+[2019-06-07 15:42:57]  DESC Publicacion_Entrega
+[2019-06-07 15:42:58]  select * from Entrega  where tipo='acordar con el vendedor' limit 0, 1
+[2019-06-07 15:42:58]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('41','1')
+[2019-06-07 15:45:01]  DESC Producto
+[2019-06-07 15:45:01]  DESC Categoria
+[2019-06-07 15:45:01]  select * from Categoria  where nombreCategoria='mascotas' limit 0, 1
+[2019-06-07 15:45:15]  DESC Producto
+[2019-06-07 15:45:15]  DESC Categoria
+[2019-06-07 15:45:15]  select * from Categoria  where nombreCategoria='mascotas' limit 0, 1
+[2019-06-07 15:45:32]  DESC Producto
+[2019-06-07 15:45:32]  DESC Categoria
+[2019-06-07 15:45:32]  select * from Categoria  where nombreCategoria='mascotas' limit 0, 1
+[2019-06-07 15:45:44]  DESC Producto
+[2019-06-07 15:45:44]  DESC Categoria
+[2019-06-07 15:45:44]  select * from Categoria  where nombreCategoria='mascotas' limit 0, 1
+[2019-06-07 15:45:44]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('fdfs','fsf','6','56','3')
+[2019-06-07 15:45:44]  DESC Imagen
+[2019-06-07 15:45:44]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('images.jpg','112')
+[2019-06-07 15:45:44]  DESC Imagen
+[2019-06-07 15:45:44]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('NuevoDocumento 2019-05-31 14.38.50_1.jpg','112')
+[2019-06-07 15:45:44]  DESC Imagen
+[2019-06-07 15:45:44]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('NuevoDocumento 2019-05-31 14.38.50_2.jpg','112')
+[2019-06-07 15:45:44]  DESC Publicacion
+[2019-06-07 15:45:44]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('2019-Jun-Fri','fdf','4','112')
+[2019-06-07 15:45:45]  DESC Entrega
+[2019-06-07 15:45:45]  DESC Publicacion_Entrega
+[2019-06-07 15:45:45]  select * from Entrega  where tipo='acordar con el vendedor' limit 0, 1
+[2019-06-07 15:45:45]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('42','1')
+[2019-06-07 15:46:58]  DESC Producto
+[2019-06-07 15:46:58]  DESC Categoria
+[2019-06-07 15:46:58]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:47:13]  DESC Producto
+[2019-06-07 15:47:13]  DESC Categoria
+[2019-06-07 15:47:13]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:48:17]  DESC Producto
+[2019-06-07 15:48:17]  DESC Categoria
+[2019-06-07 15:48:17]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:49:35]  DESC Producto
+[2019-06-07 15:49:35]  DESC Categoria
+[2019-06-07 15:49:35]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:49:55]  DESC Producto
+[2019-06-07 15:49:55]  DESC Categoria
+[2019-06-07 15:49:55]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:51:08]  DESC Producto
+[2019-06-07 15:51:08]  DESC Categoria
+[2019-06-07 15:51:08]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:51:35]  DESC Producto
+[2019-06-07 15:51:35]  DESC Categoria
+[2019-06-07 15:51:35]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:52:25]  DESC Producto
+[2019-06-07 15:52:25]  DESC Categoria
+[2019-06-07 15:52:25]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:53:18]  DESC Producto
+[2019-06-07 15:53:18]  DESC Categoria
+[2019-06-07 15:53:18]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:53:37]  DESC Producto
+[2019-06-07 15:53:37]  DESC Categoria
+[2019-06-07 15:53:37]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:54:11]  DESC Producto
+[2019-06-07 15:54:11]  DESC Categoria
+[2019-06-07 15:54:11]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:54:33]  DESC Producto
+[2019-06-07 15:54:33]  DESC Categoria
+[2019-06-07 15:54:33]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:54:46]  DESC Producto
+[2019-06-07 15:54:46]  DESC Categoria
+[2019-06-07 15:54:46]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:54:57]  DESC Producto
+[2019-06-07 15:54:57]  DESC Categoria
+[2019-06-07 15:54:57]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:55:22]  DESC Producto
+[2019-06-07 15:55:22]  DESC Categoria
+[2019-06-07 15:55:22]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:56:04]  DESC Producto
+[2019-06-07 15:56:04]  DESC Categoria
+[2019-06-07 15:56:04]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:56:10]  DESC Producto
+[2019-06-07 15:56:10]  DESC Categoria
+[2019-06-07 15:56:10]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:56:28]  DESC Producto
+[2019-06-07 15:56:28]  DESC Categoria
+[2019-06-07 15:56:28]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:56:37]  DESC Producto
+[2019-06-07 15:56:37]  DESC Categoria
+[2019-06-07 15:56:37]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:57:51]  DESC Producto
+[2019-06-07 15:57:51]  DESC Categoria
+[2019-06-07 15:57:51]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:59:02]  DESC Producto
+[2019-06-07 15:59:02]  DESC Categoria
+[2019-06-07 15:59:02]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:59:16]  DESC Producto
+[2019-06-07 15:59:16]  DESC Categoria
+[2019-06-07 15:59:16]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:59:34]  DESC Producto
+[2019-06-07 15:59:34]  DESC Categoria
+[2019-06-07 15:59:34]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 15:59:43]  DESC Producto
+[2019-06-07 15:59:43]  DESC Categoria
+[2019-06-07 15:59:43]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:00:04]  DESC Producto
+[2019-06-07 16:00:04]  DESC Categoria
+[2019-06-07 16:00:04]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:01:17]  DESC Producto
+[2019-06-07 16:01:17]  DESC Categoria
+[2019-06-07 16:01:17]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:04:24]  DESC Producto
+[2019-06-07 16:04:25]  DESC Categoria
+[2019-06-07 16:04:25]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:04:35]  DESC Producto
+[2019-06-07 16:04:35]  DESC Categoria
+[2019-06-07 16:04:35]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:04:41]  DESC Producto
+[2019-06-07 16:04:41]  DESC Categoria
+[2019-06-07 16:04:41]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:05:44]  DESC Producto
+[2019-06-07 16:05:44]  DESC Categoria
+[2019-06-07 16:05:44]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:06:00]  DESC Producto
+[2019-06-07 16:06:00]  DESC Categoria
+[2019-06-07 16:06:00]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:06:23]  DESC Producto
+[2019-06-07 16:06:23]  DESC Categoria
+[2019-06-07 16:06:23]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:06:59]  DESC Producto
+[2019-06-07 16:06:59]  DESC Categoria
+[2019-06-07 16:06:59]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:07:33]  DESC Producto
+[2019-06-07 16:07:33]  DESC Categoria
+[2019-06-07 16:07:33]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:08:06]  DESC Producto
+[2019-06-07 16:08:06]  DESC Categoria
+[2019-06-07 16:08:06]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:08:26]  DESC Producto
+[2019-06-07 16:08:26]  DESC Categoria
+[2019-06-07 16:08:26]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:08:39]  DESC Producto
+[2019-06-07 16:08:40]  DESC Categoria
+[2019-06-07 16:08:40]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:08:57]  DESC Producto
+[2019-06-07 16:08:57]  DESC Categoria
+[2019-06-07 16:08:57]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:11:52]  DESC Producto
+[2019-06-07 16:11:52]  DESC Categoria
+[2019-06-07 16:11:52]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:12:25]  DESC Producto
+[2019-06-07 16:12:25]  DESC Categoria
+[2019-06-07 16:12:25]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:12:38]  DESC Producto
+[2019-06-07 16:12:39]  DESC Categoria
+[2019-06-07 16:12:39]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:13:02]  DESC Producto
+[2019-06-07 16:13:02]  DESC Categoria
+[2019-06-07 16:13:02]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:13:13]  DESC Producto
+[2019-06-07 16:13:13]  DESC Categoria
+[2019-06-07 16:13:13]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:13:35]  DESC Producto
+[2019-06-07 16:13:35]  DESC Categoria
+[2019-06-07 16:13:35]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:13:53]  DESC Producto
+[2019-06-07 16:13:53]  DESC Categoria
+[2019-06-07 16:13:53]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:17:28]  DESC Producto
+[2019-06-07 16:17:28]  DESC Categoria
+[2019-06-07 16:17:28]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:24:44]  DESC Producto
+[2019-06-07 16:24:44]  DESC Categoria
+[2019-06-07 16:24:44]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:25:13]  DESC Producto
+[2019-06-07 16:25:14]  DESC Categoria
+[2019-06-07 16:25:14]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:26:06]  DESC Producto
+[2019-06-07 16:26:06]  DESC Categoria
+[2019-06-07 16:26:06]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:26:37]  DESC Producto
+[2019-06-07 16:26:37]  DESC Categoria
+[2019-06-07 16:26:37]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:27:20]  DESC Producto
+[2019-06-07 16:27:20]  DESC Categoria
+[2019-06-07 16:27:20]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:27:29]  DESC Producto
+[2019-06-07 16:27:29]  DESC Categoria
+[2019-06-07 16:27:29]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:28:04]  DESC Producto
+[2019-06-07 16:28:04]  DESC Categoria
+[2019-06-07 16:28:04]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:28:41]  DESC Producto
+[2019-06-07 16:28:41]  DESC Categoria
+[2019-06-07 16:28:41]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:29:30]  DESC Producto
+[2019-06-07 16:29:30]  DESC Categoria
+[2019-06-07 16:29:30]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:30:21]  DESC Producto
+[2019-06-07 16:30:21]  DESC Categoria
+[2019-06-07 16:30:21]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:30:31]  DESC Producto
+[2019-06-07 16:30:31]  DESC Categoria
+[2019-06-07 16:30:31]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:31:42]  DESC Producto
+[2019-06-07 16:31:42]  DESC Categoria
+[2019-06-07 16:31:42]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:32:32]  DESC Producto
+[2019-06-07 16:32:32]  DESC Categoria
+[2019-06-07 16:32:32]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:33:14]  DESC Producto
+[2019-06-07 16:33:14]  DESC Categoria
+[2019-06-07 16:33:14]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:33:49]  DESC Producto
+[2019-06-07 16:33:50]  DESC Categoria
+[2019-06-07 16:33:50]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:34:00]  DESC Producto
+[2019-06-07 16:34:00]  DESC Categoria
+[2019-06-07 16:34:00]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-07 16:34:23]  DESC Producto
+[2019-06-07 16:34:23]  DESC Categoria
+[2019-06-07 16:34:23]  select * from Categoria  where nombreCategoria='null' limit 0, 1
