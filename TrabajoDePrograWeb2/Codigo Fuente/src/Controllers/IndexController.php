@@ -12,5 +12,11 @@ class IndexController extends Controller
 
     }
 
+
+    function deMentira(){
+        $d["title"] = "DeMentira";
+        $this->set($d);
+    }
+
    
 }

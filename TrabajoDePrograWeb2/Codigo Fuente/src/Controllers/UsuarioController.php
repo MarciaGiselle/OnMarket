@@ -9,48 +9,41 @@
 class UsuarioController extends Controller
 {
 
-    function login($usuario){
+    function login($usuario)
+    {
 
-            // header("Content-type: application/json");
+        header("Content-type: application/json");
+        $data = json_decode(utf8_decode($usuario['data']));
 
-            // $data = json_decode(utf8_decode($usuario['data']));
+        $nombre = $data->nombre;
+        $pass = $data->password;
 
-            //falta validar los campos
-        //login
-            $nombre = $usuario["nombre"];
-            $pass = $usuario["pass"];
-            $passSHA= sha1($pass);
-            $usuario = new Usuario ();
-            $usuario->setName($nombre);
-            $usuario->setPassword($passSHA);
+        $passSHA = sha1($pass);
+        $usuario = new Usuario ();
+        $usuario->setName($nombre);
+        $usuario->setPassword($passSHA);
 
+        if ($usuario->validarFormatosLogin()) {
             $idUsuario = $usuario->buscarUsuario();
             $usuario->setId($idUsuario);
-            $_SESSION["idUser"]= $idUsuario;
+            $_SESSION["idUser"] = $idUsuario;
+            echo "entro a login";
 
             if (!empty($idUsuario)) {
                 $_SESSION["logueado"] = $nombre;
                 $d["title"] = "MiCuenta";
-                $this->set($d);
-                $this->render(Constantes::NAVLOGUEADOVIEW);
-                $this->render(Constantes::INDEXVIEW);
-                $this->render(Constantes::FOOTERVIEW);
 
-
-            } else {
-                //ver
-                $message = " Ingrese datos correctos";
-                echo "<script type='text/javascript'>alert('$message');</script>";
-
+            }  else {
+                throw new EmailOrNickInvalidoException("El Email o Nickname insertado no son válidos",CodigoError::EmailOrNickInvalido);
             }
 
         echo json_encode(true);
     }
+}
 
 
-
-
-    function cerrarSesion(){
+    function cerrarSesion()
+    {
         session_destroy();
         $d["title"] = "Index";
         $this->set($d);
@@ -58,17 +51,19 @@ class UsuarioController extends Controller
         $this->render(Constantes::INDEXVIEW);
         $this->render(Constantes::FOOTERVIEW);
 
-        }
+    }
 
 
-     function mostrarInicio(){
-         $d["title"] = "Index";
-         $this->set($d);
-         $this->render(Constantes::NAVLOGUEADOVIEW);
-         $this->render(Constantes::INDEXVIEW);
-         $this->render(Constantes::FOOTERVIEW);
+    function mostrarInicio()
+    {
+        $d["title"] = "Index";
+        $this->set($d);
+        $this->render(Constantes::NAVLOGUEADOVIEW);
+        $this->render(Constantes::INDEXVIEW);
+        $this->render(Constantes::FOOTERVIEW);
 
-     }
+    }
+
 
 
 

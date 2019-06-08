@@ -342,3 +342,4 @@
 [2019-06-07 13:18:35]Error 0:Cannot use object of type Producto as array
 [2019-06-07 13:26:30]Error 0:Call to undefined method ProductoController::altaPublicacion()
 [2019-06-07 15:24:43]Error 0:syntax error, unexpected ')', expecting ']'
+[2019-06-08 19:56:36]Error 0:syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)

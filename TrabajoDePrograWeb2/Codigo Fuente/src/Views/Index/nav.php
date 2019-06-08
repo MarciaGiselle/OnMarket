@@ -1,3 +1,6 @@
+<script>
+    const pathLoguear = "<?php echo getBaseAddress() .  "Usuario/login" ; ?>";
+</script>
 
 <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,7 +43,7 @@
                     aria-expanded="false">Iniciar Sesión
             </button>
 
-            <form class="dropdown-menu p-3" action="<?php echo getBaseAddress() . "Usuario/login" ?>" method="post">
+            <div class="dropdown-menu p-3" >
 
                 <div class="form-group">
                     <label for="exampleDropdownFormEmail2">Usuario</label>
@@ -57,7 +60,7 @@
                 <input type="submit" class="btn btn-primary" value="Iniciar Sesión" name="ingresar" id="ingresar"/>
 
 
-            </form>
+            </div>
 
         </div>
 
@@ -73,6 +76,7 @@
     </div>
 
     </nav>
+
 
 <script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
 

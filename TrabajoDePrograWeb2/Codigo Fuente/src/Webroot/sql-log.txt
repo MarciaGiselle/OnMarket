@@ -1054,3 +1054,25 @@
 [2019-06-07 16:34:23]  DESC Producto
 [2019-06-07 16:34:23]  DESC Categoria
 [2019-06-07 16:34:23]  select * from Categoria  where nombreCategoria='null' limit 0, 1
+[2019-06-08 17:25:16]  DESC Usuario
+[2019-06-08 17:25:16]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-08 17:25:31]  DESC Usuario
+[2019-06-08 17:25:31]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-08 17:28:08]  DESC Usuario
+[2019-06-08 17:28:08]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-08 19:26:01]  DESC Usuario
+[2019-06-08 19:34:48]  DESC Usuario
+[2019-06-08 19:39:29]  DESC Usuario
+[2019-06-08 19:41:25]  DESC Usuario
+[2019-06-08 19:55:05]  DESC Usuario
+[2019-06-08 19:58:01]  DESC Usuario
+[2019-06-08 20:04:31]  DESC Usuario
+[2019-06-08 20:08:56]  DESC Usuario
+[2019-06-08 20:09:26]  DESC Usuario
+[2019-06-08 20:11:26]  DESC Usuario
+[2019-06-08 20:11:58]  DESC Usuario
+[2019-06-08 20:14:01]  DESC Usuario
+[2019-06-08 20:18:54]  DESC Usuario
+[2019-06-08 20:21:17]  DESC Usuario
+[2019-06-08 20:23:00]  DESC Usuario
+[2019-06-08 20:25:00]  DESC Usuario
