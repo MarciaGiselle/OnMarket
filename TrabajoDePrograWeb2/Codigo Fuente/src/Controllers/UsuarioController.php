@@ -11,12 +11,11 @@ class UsuarioController extends Controller
 
     function login($usuario){
 
-        header("Content-type: application/json");
+       // header("Content-type: application/json");
 
-        $data = json_decode(utf8_decode($usuario['data']));
+     //   $data = json_decode(utf8_decode($usuario['data']));
 
 
-        //falta validar los campos
             $nombre = $usuario["nombre"];
             $pass = $usuario["pass"];
             $passSHA= sha1($pass);

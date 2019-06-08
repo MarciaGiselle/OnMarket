@@ -1,10 +1,25 @@
 <?php
 
 
-class publicaciónEntrega
+class Publicacion_Entrega extends Model
 {
     private $idPublicacion;
     private $idEntrega;
+
+    public function insertarEntrega(){
+        $array=[
+            "idPublicacion"=> $this->getIdPublicacion(),
+            "idEntrega"=>$this->getIdEntrega(),
+
+
+        ];
+
+        $this->setIdEntrega($this->insert($array));
+        return $this->getIdEntrega();
+    }
+
+
+
 
     /**
      * @return mixed

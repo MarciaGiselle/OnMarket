@@ -33,6 +33,14 @@ class ProductoController extends Controller
         $producto->setDescripcion($publicacion["descripcion"]);
         $producto->setCantidad($publicacion["cantidad"]);
         $producto->setPrecio($publicacion["precio"]);
+        $titulo=$publicacion["titulo"];
+
+        $entrega="";
+        if(isset($publicacion["envio"])){
+            $entrega=$publicacion["envio"];
+        }
+
+
 
         //categoria obtener id y setearlo
         $idCategoria= $categoria->obtenerIdCategoria($publicacion["categoria"]);
@@ -40,37 +48,42 @@ class ProductoController extends Controller
             $producto->setIdCategoria($idCategoria);
         }
 
-        //crear array imagenes obtenidas en el input
-       if(($publicacion['imagen']['name'])){
-           //falta crear la logica para q no de error de index
-       }
+        $count = count($_FILES["imagen"]["name"]);
+      echo $count;
 
-        $count = count($publicacion['imagen']['name']);
-        echo "contador".$count. "<br>";
-        var_dump($_FILES['imagen']['name']);
+
         for ($i = 0; $count > $i; $i++) {
-            $arrayImagenes[$i] = $_FILES['imagen']['name'][$i];
-        }
+           $arrayImagenes[$i] = $_FILES['imagen']['name'][$i];
 
+   }
 
-        //una vez seteados, voy al modelo y valido los formatos
-        if ($producto->validarFormatos()) {
-            echo "valido al producto";
-            if ($this->validarImagenes($arrayImagenes)) {
+            //una vez seteados, voy al modelo y valido los formatos
+            $resultado1=$producto->validarFormatos() ;
+            $resultado2=$this->validarImagenes($arrayImagenes);
+
+         if($resultado1 && $resultado2 ){
                 //Insertar Producto en la tabla
                 $idProducto = $producto->insertarProducto();
                 //guardar imagenes en la base
                 $this->tratarImagenes($arrayImagenes, $idProducto);
-                $this->altaPublicacion($producto, $idProducto);
+                $this->altaPublicacion($titulo, $idProducto,$entrega);
             }
 
 
-        }
+
+
     }
-    function validarImagenes($array){
+
+
+
+
+   function validarImagenes($array){
+
         $error = 0;
         $mensaje = "";
-        if (count($array) == 0) {
+
+
+        if (empty($array)) {
             $error.=1;
             $mensaje .= "Seleccione una imagen";
         }
@@ -81,9 +94,7 @@ class ProductoController extends Controller
         }
 
         if ($error > 0) {
-            echo '<div class="alert alert-danger" role="alert">'
-                . $mensaje .
-                '</div>';
+            echo "<script> alert('$mensaje') </script>";
         } else {
             return true;
         }
@@ -100,17 +111,32 @@ class ProductoController extends Controller
     }
     }
 
-    function altaPublicacion($producto,$idProducto)
+    function altaPublicacion($titulo,$idProducto,$entrega)
+
     {
+        //obtener id de metodo de entrega
+
         $publicar=new Publicacion();
-        $publicar->setTitulo($producto["titulo"]);
+        $publicar->setTitulo($titulo);
         $fecha_actual = date("Y-M-D");
         $publicar->setFecha($fecha_actual);
         $publicar->setId_user($_SESSION["idUser"]);
-        $publicar->setIdProducto($idProducto);
+        $publicar->setId_Producto($idProducto);
 
-        $idPublicacion=$publicar->insertarPublicacion();
-        return $idPublicacion;
+        if($publicar->validarFormatos($entrega)) {
+            $idPublicacion = $publicar->insertarPublicacion();
+            $Entrega=new Entrega();
+            $publicacion_Entrega =new Publicacion_Entrega();
+
+            $idEntrega=$Entrega->obtenerIdMetodoEntrega($entrega);
+
+            $publicacion_Entrega->setIdEntrega($idEntrega);
+            $publicacion_Entrega->setIdPublicacion($idPublicacion);
+            $publicacion_Entrega->insertarEntrega();
+
+        }
+
+
     }
 
 

@@ -8,22 +8,58 @@ class Publicacion extends Model
     private $duracion;
     private $fecha;
     private $id_user;
-    private $id_producto;
+    private $id_Producto;
 
 
     public function insertarPublicacion(){
         $array=[
          "fecha"=> $this->getFecha(),
-         "duracion"=> $this->getDuracion(),
          "titulo"=>$this->getTitulo(),
          "id_user"=>$this->getId_user(),
+            "id_Producto"=>$this->getId_Producto()
 
         ];
 
-        $this->setId($this->insert($array));
-        return $this->getId();
+        $this->setIdPublicacion($this->insert($array));
+        return $this->getIdPublicacion();
     }
 
+
+    public function validarFormatos($metodo){
+        //validacion de formatos
+        $error=0;
+        $mensaje="";
+        if(empty($metodo)){
+            $error.=1;
+            $mensaje.="Seleccione un metodo de entrega<br>"." ";
+        }
+        //ver regex espacios
+        if(!FuncionesComunes::validarCadena($this->getTitulo())) {
+            $error.=1;
+            $mensaje.="Titulo Inválida<br>"." ";
+        }
+
+        if(empty($this->getId_user())){
+            $error.=1;
+            $mensaje.="no existe id de producto<br>"." ";
+        }
+
+        if(empty($this->getId_Producto())){
+            $error.=1;
+            $mensaje.="no existe id de producto<br>"." ";
+        }
+
+
+        if($error>0){
+            echo "<script> alert('$mensaje') </script>";
+        }
+        else{
+            return true;
+
+
+        }
+
+    }
     /**
      * @return mixed
      */
@@ -91,7 +127,7 @@ class Publicacion extends Model
     /**
      * @return mixed
      */
-    public function getIdUser()
+    public function getId_user()
     {
         return $this->id_user;
     }
@@ -99,7 +135,7 @@ class Publicacion extends Model
     /**
      * @param mixed $id_user
      */
-    public function setIdUser($id_user)
+    public function setId_user($id_user)
     {
         $this->id_user = $id_user;
     }
@@ -107,17 +143,17 @@ class Publicacion extends Model
     /**
      * @return mixed
      */
-    public function getIdProducto()
+    public function getId_Producto()
     {
-        return $this->id_producto;
+        return $this->id_Producto;
     }
 
     /**
      * @param mixed $id_producto
      */
-    public function setIdProducto($id_producto)
+    public function setId_Producto($id_producto)
     {
-        $this->id_producto = $id_producto;
+        $this->id_Producto = $id_producto;
     }
    
    
