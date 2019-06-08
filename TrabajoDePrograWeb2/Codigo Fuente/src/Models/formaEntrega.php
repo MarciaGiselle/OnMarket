@@ -6,6 +6,22 @@ class FormaEntrega extends Model
     private $idEntrega;
     private $descripcion;
 
+    function obtenerIdMetodoEntrega($entrega){
+
+        if(count($entrega)>1){
+             $res=$this->pageRows(0,2, " descripcion='$entrega[0]' OR descripcion='$entrega[1]' ");
+        }else{
+            $res=$this->pageRows(0,1, " descripcion='$entrega[0]' ");
+        }
+        if(!empty($res[0])){
+           for($i=0; $i<count($res);$i++){
+               $idArray[$i]=$res[$i]['idEntrega'];
+           }
+            return $idArray;
+        }else{
+            return false;
+        }
+    }
     /**
      * @return mixed
      */

@@ -2,12 +2,40 @@
 <!-–Publicacion-–>
 <br>
 <div class="container">
+    <h3 class="text-primary">Crear publicación</h3>
+
+    <div class="form-group col-md-12">
+
+        <label class="text-primary">Indicá un título para tu publicación*</label>
+        <input class="form-control" type="text" placeholder="Titulo...  " name="titulo">
+        <small id="passwordHelpBlock" class="form-text text-muted">Usá palabras clave para que lo encuentren fácilmente.</small>
+    </div>
+
+    <div class="form-group col-md-12">
+        <hr>
+        <label class="text-primary">Método de entrega*</label>
+
+        <div class="form-check">
+            <input type="checkbox" name="envio[]" value="acordarConElVendedor">
+            <label class="form-check-label">Acordar con el vendedor</label>
+        </div>
+
+
+        <div class="form-check">
+            <input type="checkbox" name="envio[]" value="Correo">
+            <label class="form-check-label">Realizar envío por correo</label>
+        </div>
+
+
+        <hr>
+
  <h3 class="text-primary">Crear producto</h3>
  <small id="passwordHelpBlock" class="form-text text-muted">*Datos obligatorios.</small>
  <hr>
 
  <form action="<?php echo getBaseAddress()."Producto/altaProducto" ?>" method="post" enctype="multipart/form-data">
   <div class="form-row">
+
 
     <div class="form-group col-md-6">
       <label class="text-primary" >Seleccioná una categoría*</label>
@@ -64,81 +92,14 @@
 
                   <div class="col-sm">
                       <div class="form-group">
-                          <input type="file" class="form-control-file"  name="imagen1" accept="image/png, .jpeg, .jpg" >
+                          <input type="file" class="form-control-file"  name="imagen[]" accept="image/png, .jpeg, .jpg" multiple>
                       </div>
                   </div>
               </div>
-
-
-              <div class="row">
-
-                  <div class="col-sm">
-                      <div class="form-group">
-                          <input type="file" class="form-control-file"  name="imagen2" accept="image/png, .jpeg, .jpg" >
-                      </div>
-                  </div>
-              </div>
-
-
-              <div class="row">
-
-                  <div class="col-sm">
-                      <div class="form-group">
-                          <input type="file" class="form-control-file"  name="imagen3" accept="image/png, .jpeg, .jpg" >
-                      </div>
-                  </div>
-              </div>
-
-
-              <div class="row">
-
-                  <div class="col-sm">
-                      <div class="form-group">
-                          <input type="file" class="form-control-file"  name="imagen4" accept="image/png, .jpeg, .jpg" >
-                      </div>
-                  </div>
-              </div>
-
-
-              <div class="row">
-
-                  <div class="col-sm">
-                      <div class="form-group">
-                          <input type="file" class="form-control-file"  name="imagen5" accept="image/png, .jpeg, .jpg" >
-                      </div>
-                  </div>
-              </div>
-
-
 
 <br>
 <hr>
-      <h3 class="text-primary">Crear publicación</h3>
 
-      <div class="form-group col-md-12">
-
-          <label class="text-primary">Indicá un título para tu publicación*</label>
-          <input class="form-control" type="text" placeholder="Titulo...  " name="titulo">
-          <small id="passwordHelpBlock" class="form-text text-muted">Usá palabras clave para que lo encuentren fácilmente.</small>
-      </div>
-
-    <div class="form-group col-md-12">
-      <hr>
-      <label class="text-primary">Método de entrega*</label>
-
-      <div class="form-check">
-            <input type="checkbox" name="envio" value="acordar con el vendedor">
-            <label class="form-check-label">Acordar con el vendedor</label>
-        </div>
-
-
-        <div class="form-check">
-            <input type="checkbox" name="envio" value="por correo">
-            <label class="form-check-label">Realizar envío por correo</label>
-        </div>
-
-
-        <hr>
     </div>
 
 

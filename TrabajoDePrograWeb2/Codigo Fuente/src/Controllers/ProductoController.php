@@ -40,22 +40,24 @@ class ProductoController extends Controller
             $entrega=$publicacion["envio"];
         }
 
-
-
         //categoria obtener id y setearlo
         $idCategoria= $categoria->obtenerIdCategoria($publicacion["categoria"]);
         if ($idCategoria != false) {
             $producto->setIdCategoria($idCategoria);
         }
 
-        $count = count($_FILES["imagen"]["name"]);
-      echo $count;
+
+        //imagenes
+        $countfiles = count($_FILES["imagen"]["name"]);
 
 
-        for ($i = 0; $count > $i; $i++) {
+        for ($i = 0; $countfiles > $i; $i++) {
            $arrayImagenes[$i] = $_FILES['imagen']['name'][$i];
+        }
 
-   }
+        echo "arrayImagenes<br>";
+        echo "contador".$countfiles;
+        var_dump($arrayImagenes);
 
             //una vez seteados, voy al modelo y valido los formatos
             $resultado1=$producto->validarFormatos() ;
@@ -81,18 +83,15 @@ class ProductoController extends Controller
 
         $error = 0;
         $mensaje = "";
-
-
-        if (empty($array)) {
+        if (count($array) < 2) {
             $error.=1;
-            $mensaje .= "Seleccione una imagen";
+            $mensaje .= "Seleccione dos o mas imagenes";
         }
 
         if (count($array) > 10) {
             $error.=1;
             $mensaje .= "Limite de imagenes superado";
         }
-
         if ($error > 0) {
             echo "<script> alert('$mensaje') </script>";
         } else {
@@ -118,24 +117,31 @@ class ProductoController extends Controller
 
         $publicar=new Publicacion();
         $publicar->setTitulo($titulo);
-        $fecha_actual = date("Y-M-D");
+        $fecha_actual = date("y-m-d");
         $publicar->setFecha($fecha_actual);
         $publicar->setId_user($_SESSION["idUser"]);
         $publicar->setId_Producto($idProducto);
 
         if($publicar->validarFormatos($entrega)) {
             $idPublicacion = $publicar->insertarPublicacion();
-            $Entrega=new Entrega();
+            $Entrega=new formaentrega();
             $publicacion_Entrega =new Publicacion_Entrega();
 
             $idEntrega=$Entrega->obtenerIdMetodoEntrega($entrega);
 
-            $publicacion_Entrega->setIdEntrega($idEntrega);
             $publicacion_Entrega->setIdPublicacion($idPublicacion);
-            $publicacion_Entrega->insertarEntrega();
+
+            if(count($idEntrega)>1){
+                $publicacion_Entrega->setIdEntrega($idEntrega[0]);
+                $publicacion_Entrega->insertarEntrega();
+                $publicacion_Entrega->setIdEntrega($idEntrega[1]);
+                $publicacion_Entrega->insertarEntrega();
+            }else{
+                $publicacion_Entrega->setIdEntrega($idEntrega[0]);
+                $publicacion_Entrega->insertarEntrega();
+            }
 
         }
-
 
     }
 

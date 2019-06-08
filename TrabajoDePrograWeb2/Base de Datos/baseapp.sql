@@ -225,7 +225,7 @@ ALTER TABLE `publicacion`
 --
 -- Indices de la tabla `publicaciónentrega`
 --
-ALTER TABLE `publicaciónentrega`
+ALTER TABLE `publicacion_entrega`
   ADD PRIMARY KEY (`idEntrega`,`idPublicacion`),
   ADD KEY `publicacionentrega_ibfk_1` (`idPublicacion`),
   ADD KEY `idEntrega` (`idEntrega`);
