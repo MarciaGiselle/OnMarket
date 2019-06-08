@@ -335,3 +335,10 @@
 [2019-06-06 18:41:41]Error 0:Cannot use object of type Producto as array
 [2019-06-06 18:41:46]Error 0:Cannot use object of type Producto as array
 [2019-06-06 18:42:37]Error 0:Cannot use object of type Producto as array
+[2019-06-07 13:06:20]Error 0:Cannot use object of type Producto as array
+[2019-06-07 13:06:56]Error 0:Cannot use object of type Producto as array
+[2019-06-07 13:07:11]Error 0:Cannot use object of type Producto as array
+[2019-06-07 13:07:34]Error 0:Cannot use object of type Producto as array
+[2019-06-07 13:18:35]Error 0:Cannot use object of type Producto as array
+[2019-06-07 13:26:30]Error 0:Call to undefined method ProductoController::altaPublicacion()
+[2019-06-07 15:24:43]Error 0:syntax error, unexpected ')', expecting ']'

@@ -64,26 +64,53 @@
 
                   <div class="col-sm">
                       <div class="form-group">
-                          <input type="file" class="form-control-file" name="imagen[]" accept="image/png, .jpeg, .jpg" multiple>
+                          <input type="file" class="form-control-file"  name="imagen1" accept="image/png, .jpeg, .jpg" >
                       </div>
                   </div>
               </div>
-                  <!--<div class="col-sm">
-                      <div class="form-group">
-                          <input type="file" class="form-control-file" name="imagen2">
-                      </div>
-                  </div>
 
-              </div>
 
               <div class="row">
 
                   <div class="col-sm">
                       <div class="form-group">
-                          <input type="file" class="form-control-file" name="imagen3">
+                          <input type="file" class="form-control-file"  name="imagen2" accept="image/png, .jpeg, .jpg" >
                       </div>
                   </div>
-              </div>-->
+              </div>
+
+
+              <div class="row">
+
+                  <div class="col-sm">
+                      <div class="form-group">
+                          <input type="file" class="form-control-file"  name="imagen3" accept="image/png, .jpeg, .jpg" >
+                      </div>
+                  </div>
+              </div>
+
+
+              <div class="row">
+
+                  <div class="col-sm">
+                      <div class="form-group">
+                          <input type="file" class="form-control-file"  name="imagen4" accept="image/png, .jpeg, .jpg" >
+                      </div>
+                  </div>
+              </div>
+
+
+              <div class="row">
+
+                  <div class="col-sm">
+                      <div class="form-group">
+                          <input type="file" class="form-control-file"  name="imagen5" accept="image/png, .jpeg, .jpg" >
+                      </div>
+                  </div>
+              </div>
+
+
+
 <br>
 <hr>
       <h3 class="text-primary">Crear publicación</h3>
@@ -100,17 +127,18 @@
       <label class="text-primary">Método de entrega*</label>
 
       <div class="form-check">
-        <input type="checkbox" name="envioAcordar">
-        <label class="form-check-label">Acordar con el vendedor</label>
-      </div>
+            <input type="checkbox" name="envio" value="acordar con el vendedor">
+            <label class="form-check-label">Acordar con el vendedor</label>
+        </div>
 
 
-      <div class="form-check">
-        <input type="checkbox" name="envioCorreo">
-        <label class="form-check-label">Realizar envío por correo</label>
-      </div>
+        <div class="form-check">
+            <input type="checkbox" name="envio" value="por correo">
+            <label class="form-check-label">Realizar envío por correo</label>
+        </div>
 
-      <hr>
+
+        <hr>
     </div>
 
 
