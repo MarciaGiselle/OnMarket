@@ -16,6 +16,7 @@ class UsuarioController extends Controller
             // $data = json_decode(utf8_decode($usuario['data']));
 
             //falta validar los campos
+        //login
             $nombre = $usuario["nombre"];
             $pass = $usuario["pass"];
             $passSHA= sha1($pass);
