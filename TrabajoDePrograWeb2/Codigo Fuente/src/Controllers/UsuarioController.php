@@ -9,65 +9,56 @@
 class UsuarioController extends Controller
 {
 
-    function login($usuario){
+    function login($usuario)
+    {
 
-            // header("Content-type: application/json");
+        header("Content-type: application/json");
+        $data = json_decode(utf8_decode($usuario['data']));
 
-            // $data = json_decode(utf8_decode($usuario['data']));
+        $nombre = $data->nombre;
+        $pass = $data->password;
 
-            //falta validar los campos
-            $nombre = $usuario["nombre"];
-            $pass = $usuario["pass"];
-            $passSHA= sha1($pass);
-            $usuario = new Usuario ();
-            $usuario->setName($nombre);
-            $usuario->setPassword($passSHA);
 
+        $passSHA = sha1($pass);
+        $usuario = new Usuario ();
+        $usuario->setName($nombre);
+        $usuario->setPassword($passSHA);
+
+        if ($usuario->validarFormatosLogin()) {
             $idUsuario = $usuario->buscarUsuario();
             $usuario->setId($idUsuario);
-            $_SESSION["idUser"]= $idUsuario;
+            $_SESSION["idUser"] = $idUsuario;
+
 
             if (!empty($idUsuario)) {
                 $_SESSION["logueado"] = $nombre;
                 $d["title"] = "MiCuenta";
-                $this->set($d);
-                $this->render(Constantes::NAVLOGUEADOVIEW);
-                $this->render(Constantes::INDEXVIEW);
-                $this->render(Constantes::FOOTERVIEW);
 
+            }else{
 
-            } else {
-                //ver
-                $message = " Ingrese datos correctos";
-                echo "<script type='text/javascript'>alert('$message');</script>";
-
+               throw new NombreOPassInvalidoException("Nombre o password incorrectos",CodigoError::NombreOPassInvalidoException);
             }
 
-        echo json_encode(true);
+        echo json_encode("Nombre o password incorrecttos");
+    }
+}
+
+    function cerrarSesion()
+    {
+        session_destroy();
+       $d["title"] = "Index";
+       $this->set($d);
+        header("Location:" . getBaseAddress());
     }
 
 
-
-
-    function cerrarSesion(){
-        session_destroy();
+    function mostrarInicio()
+    {
         $d["title"] = "Index";
         $this->set($d);
-        $this->render(Constantes::NAVVIEW);
-        $this->render(Constantes::INDEXVIEW);
-        $this->render(Constantes::FOOTERVIEW);
+        $this->render(Constantes::USUARIOVIEW);
 
-        }
-
-
-     function mostrarInicio(){
-         $d["title"] = "Index";
-         $this->set($d);
-         $this->render(Constantes::NAVLOGUEADOVIEW);
-         $this->render(Constantes::INDEXVIEW);
-         $this->render(Constantes::FOOTERVIEW);
-
-     }
+    }
 
 
 

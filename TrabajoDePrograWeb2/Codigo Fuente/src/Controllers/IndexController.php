@@ -5,12 +5,6 @@ class IndexController extends Controller
     {
         $d["title"] = "Index";
         $this->set($d);
-        $this->render(Constantes::NAVVIEW);
         $this->render(Constantes::INDEXVIEW);
-        $this->render(Constantes::FOOTERVIEW);
-
-
     }
-
-   
 }

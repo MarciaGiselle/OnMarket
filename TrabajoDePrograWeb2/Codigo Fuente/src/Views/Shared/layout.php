@@ -32,6 +32,8 @@
     <script src="<?php echo getBaseAddress() . "Webroot/lib/tooltip/tooltip.min.js"; ?>"></script>
     <script src="<?php echo getBaseAddress() . "Webroot/lib/validate/validate.min.js"; ?>"></script>
 
+
+
     <main role="main">
 
         <div class="starter-template">

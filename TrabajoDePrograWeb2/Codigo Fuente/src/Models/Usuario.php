@@ -129,7 +129,19 @@ class Usuario extends Model
         $this->insert($array);
 
    }
-  
+
+
+
+    function validarFormatosLogin(){
+
+
+            return true;
+
+
+    }
+
+
+
     /**
      * @return mixed
      */

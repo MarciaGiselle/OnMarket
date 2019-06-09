@@ -3386,7 +3386,7 @@
             callback: function (closeEvent) {
                 clearAutoConfirm(this);
                 var returnValue;
-                switch (closeEvent.index) {
+                switch (closeEvent.indexUsuario) {
                 case 0:
                     if (typeof this.get('onok') === 'function') {
                         returnValue = this.get('onok').call(this, closeEvent);
@@ -3566,7 +3566,7 @@
             },
             callback: function (closeEvent) {
                 var returnValue;
-                switch (closeEvent.index) {
+                switch (closeEvent.indexUsuario) {
                 case 0:
                     this.settings.value = input.value;
                     if (typeof this.get('onok') === 'function') {
