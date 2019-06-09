@@ -10,6 +10,9 @@ abstract class CodigoError
 {
     const UsuarioNoRegistrado = 1;
     const PasswordInvalida = 5;
-    const EmailOrNickInvalido = 7;
     const UsuarioNoEncontrado = 15;
+
+    //nuestras
+    const NombreOPassInvalidoException = 7;
+
 }

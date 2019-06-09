@@ -6,7 +6,7 @@
  * Time: 16:37
  */
 
-class EmailOrNickInvalidoException extends Exception
+class NombreOPassInvalidoException extends Exception
 {
     public function __construct($message = "", $code = 0, Throwable $previous = null)
     {

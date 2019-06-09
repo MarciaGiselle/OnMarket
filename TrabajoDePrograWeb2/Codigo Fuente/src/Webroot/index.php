@@ -66,25 +66,12 @@ function getBaseAddress()
 function consultarSesionIniciada(){
     if(!isset($_SESSION["loguedo"])){
         echo getBaseAddress();
-    }else{
-        //sino, calculamos el tiempo transcurrido
-        $fechaGuardada = $_SESSION["ultimoAcceso"];
-        $ahora = date("Y-n-j H:i:s");
-        $tiempo_transcurrido = (strtotime($ahora)-strtotime($fechaGuardada));
-//comparamos el tiempo transcurrido
-        if($tiempo_transcurrido >= 5) {
-//si pasaron 10 minutos o más
-            session_destroy(); // destruyo la sesión
-            echo '<alert>sesion destroy</alert>';
-            // header("Location: index.php"); //envío al usuario a la pag. de autenticación
-//sino, actualizo la fecha de la sesión
-        }else {
-            $_SESSION["ultimoAcceso"] = $ahora;
-        }
-    }}
+
+    }
+}
 
 session_start();
 
 $dispatch = new Dispatcher();
 $dispatch->dispatch();
-?>
+

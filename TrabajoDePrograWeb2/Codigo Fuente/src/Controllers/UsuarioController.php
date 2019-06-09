@@ -18,6 +18,7 @@ class UsuarioController extends Controller
         $nombre = $data->nombre;
         $pass = $data->password;
 
+
         $passSHA = sha1($pass);
         $usuario = new Usuario ();
         $usuario->setName($nombre);
@@ -27,30 +28,27 @@ class UsuarioController extends Controller
             $idUsuario = $usuario->buscarUsuario();
             $usuario->setId($idUsuario);
             $_SESSION["idUser"] = $idUsuario;
-            echo "entro a login";
+
 
             if (!empty($idUsuario)) {
                 $_SESSION["logueado"] = $nombre;
                 $d["title"] = "MiCuenta";
 
-            }  else {
-                throw new EmailOrNickInvalidoException("El Email o Nickname insertado no son válidos",CodigoError::EmailOrNickInvalido);
+            }else{
+
+               throw new NombreOPassInvalidoException("Nombre o password incorrectos",CodigoError::NombreOPassInvalidoException);
             }
 
-        echo json_encode(true);
+        echo json_encode("Nombre o password incorrecttos");
     }
 }
-
 
     function cerrarSesion()
     {
         session_destroy();
-        $d["title"] = "Index";
-        $this->set($d);
-        $this->render(Constantes::NAVVIEW);
-        $this->render(Constantes::INDEXVIEW);
-        $this->render(Constantes::FOOTERVIEW);
-
+       $d["title"] = "Index";
+       $this->set($d);
+        header("Location:" . getBaseAddress());
     }
 
 
@@ -58,12 +56,9 @@ class UsuarioController extends Controller
     {
         $d["title"] = "Index";
         $this->set($d);
-        $this->render(Constantes::NAVLOGUEADOVIEW);
-        $this->render(Constantes::INDEXVIEW);
-        $this->render(Constantes::FOOTERVIEW);
+        $this->render(Constantes::USUARIOVIEW);
 
     }
-
 
 
 

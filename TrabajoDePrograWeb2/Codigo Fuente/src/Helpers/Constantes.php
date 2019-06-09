@@ -10,16 +10,10 @@ abstract class Constantes
 {
     //Vistas
     const INDEXVIEW = "index";
-    const USUARIOLOGVIEW = "usuarioLog";
-    const USUARIOVIEW = "usuario";
+    const USUARIOVIEW = "indexUsuario";
  	const REGISTRARVIEW = "registrar";
 	const PUBLICARVIEW = "publicar";
-	const FOOTERVIEW = "footer";
 
-    const NAVVIEW = "nav";
-	const NAVLOGUEADOVIEW = "navUsuarioLogueado";
-
-    const NAVCERRARVIEW = "navCerrar";
 
 	const INICIOVIEW = "inicio";
 

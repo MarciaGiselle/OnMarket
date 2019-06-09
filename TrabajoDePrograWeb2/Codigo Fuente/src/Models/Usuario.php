@@ -134,6 +134,10 @@ class Usuario extends Model
 
     function validarFormatosLogin(){
 
+
+            return true;
+
+
     }
 
 

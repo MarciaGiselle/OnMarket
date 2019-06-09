@@ -32,9 +32,7 @@
     <script src="<?php echo getBaseAddress() . "Webroot/lib/tooltip/tooltip.min.js"; ?>"></script>
     <script src="<?php echo getBaseAddress() . "Webroot/lib/validate/validate.min.js"; ?>"></script>
 
-    <script>
-        const pathHome = "<?php echo getBaseAddress(). "Usuario/mostrarInicio" ; ?>";
-    </script>
+
 
     <main role="main">
 

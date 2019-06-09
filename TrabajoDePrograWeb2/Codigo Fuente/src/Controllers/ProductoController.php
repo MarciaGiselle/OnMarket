@@ -14,9 +14,7 @@ class ProductoController extends Controller
     {
         $d["title"] = "Publicar";
         $this->set($d);
-        $this->render(Constantes::NAVLOGUEADOVIEW);
         $this->render(Constantes::PUBLICARVIEW);
-        $this->render(Constantes::FOOTERVIEW);
 
     }
 

@@ -7,10 +7,8 @@ class RegistrarController extends Controller
     {
         $d["title"] = "Registrarse";
         $this->set($d);
-        $this->render(Constantes::NAVVIEW);
         $this->render(Constantes::REGISTRARVIEW);
-        $this->render(Constantes::FOOTERVIEW);
-        
+
     }
 
      function validarRegistro($datosUsuario){
@@ -46,10 +44,8 @@ class RegistrarController extends Controller
         }
 
     function redireccionarALaPaginaDelUsuario(){
-            $this->render(Constantes::NAVLOGUEADOVIEW);
             $this->render(Constantes::INDEXVIEW);
-            $this->render(Constantes::FOOTERVIEW);
-           
+
     }
 
     /**
