@@ -61,13 +61,10 @@ ingresar.click(function () {
 });
 
 function loginExitoso(dummy) {
-
    window.location.href = pathHome;
 }
 
 function loginFallido(err) {
-
-
     $("input").prop("disabled", false);
     ingresar.prop("disabled", false);
     alertify.alert("Error de Logueo", err);

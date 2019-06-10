@@ -1,6 +1,7 @@
 <script>
     const pathHome = "<?php echo getBaseAddress(). "Usuario/mostrarInicio" ; ?>";
     const pathLoguear = "<?php echo getBaseAddress() .  "Usuario/login" ; ?>";
+    const pathBuscar = "<?php echo getBaseAddress() .  "Index/buscarProducto" ; ?>";
 </script>
 
 <body>
@@ -25,9 +26,9 @@
         <!-- Buscador-->
 
         <div class="input-group">
-            <form class="form-check-inline">
-                <input type="text" class="form-control" placeholder="Que estás buscando?">
+            <form class="form-check-inline" action="<?php echo getBaseAddress() .  "/buscarProducto" ; ?>" >
                 <div class="input-group-append">
+                    <input type="text" class="form-control" placeholder="Que estás buscando?" id="buscador" name="buscarProducto">
                     <button class="btn btn-secondary" type="button">
                         <i class="fa fa-search"></i>
                     </button>

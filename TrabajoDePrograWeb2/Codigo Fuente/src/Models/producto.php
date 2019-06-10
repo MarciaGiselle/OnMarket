@@ -60,11 +60,29 @@ class Producto extends Model
         }
         else{
             return true;
-
-
     }
     }
-   
+
+    function buscarProductoEnLaBase(){
+        $resultadoDeLaBusqueda= $this->pageRows(0,100, "nombre like '$this->nombre%'");
+
+        if(!empty($resultadoDeLaBusqueda[0])){
+            for($i=0; $i<count($resultadoDeLaBusqueda);$i++){
+                $idArray[$i]=$resultadoDeLaBusqueda[$i]['idProducto'];
+            }
+            return $idArray;
+        }else{
+            return false;
+        }
+
+    }
+
+    function filasPorPk($pk){
+        $resultado=$this->pageRows(0,10, "idProducto=$pk");
+        //$resultado=$this->selectByPk($pk);
+        return $resultado;
+    }
+
         /**
      * @return mixed
      */

@@ -262,7 +262,7 @@
          */
         public function selectByPk($pk){
 
-            $sql = "select * from `{$this->table}` where `{$this->fields['pk']}`=$pk";
+            $sql = "select * from `{$this->table}` where `{$this->fields['pk']}`= $pk";
 
             return $this->db->getRow($sql);
 

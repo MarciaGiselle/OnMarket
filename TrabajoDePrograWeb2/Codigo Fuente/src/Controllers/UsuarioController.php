@@ -18,7 +18,6 @@ class UsuarioController extends Controller
         $nombre = $data->nombre;
         $pass = $data->password;
 
-
         $passSHA = sha1($pass);
         $usuario = new Usuario ();
         $usuario->setName($nombre);
@@ -59,6 +58,8 @@ class UsuarioController extends Controller
         $this->render(Constantes::USUARIOVIEW);
 
     }
+
+
 
 
 

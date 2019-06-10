@@ -1,4 +1,6 @@
-
+<script>
+    const pathBuscador = "<?php echo getBaseAddress(). "Buscador/buscador" ; ?>";
+</script>
 
 <body>
 
@@ -23,8 +25,8 @@
         <!-- Buscador-->
 
         <div class="input-group">
-            <form class="form-check-inline">
-                <input type="text" class="form-control" placeholder="Que estás buscando?">
+            <form class="form-check-inline" action= "<?php echo getBaseAddress(). "Buscador/buscarProducto" ; ?>"  method="post">
+                <input type="text" class="form-control" placeholder="Que estás buscando?"  id="buscador" name="buscarProducto">
                 <div class="input-group-append">
                     <button class="btn btn-secondary" type="button">
                         <i class="fa fa-search"></i>

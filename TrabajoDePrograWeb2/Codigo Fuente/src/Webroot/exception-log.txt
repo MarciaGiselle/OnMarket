@@ -535,3 +535,696 @@ StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDeProg
 #1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
 #2 {main}
 
+[2019-06-09 19:05:50]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 39
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 19:13:07]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 39
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 19:13:38]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 39
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 19:13:43]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 39
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 19:15:24]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 39
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 19:16:01]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 39
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 19:54:17]  Excepción no controlada: 'Undefined offset: 1' en el archivo router.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\router.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(11): Router::parse('/src/?buscarPro...', Object(Request))
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 19:55:31]  Excepción no controlada: 'Undefined offset: 1' en el archivo router.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\router.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(11): Router::parse('/src/?buscarPro...', Object(Request))
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 19:55:40]  Excepción no controlada: 'Undefined offset: 1' en el archivo router.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\router.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(11): Router::parse('/src/?buscarPro...', Object(Request))
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 19:56:35]  Excepción no controlada: 'Undefined offset: 1' en el archivo router.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\router.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(11): Router::parse('/src/?buscarPro...', Object(Request))
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 19:56:44]  Excepción no controlada: 'Undefined offset: 1' en el archivo router.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\router.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(11): Router::parse('/src/?buscarPro...', Object(Request))
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 19:57:21]  Excepción no controlada: 'Undefined offset: 1' en el archivo router.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\router.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(11): Router::parse('/src/?buscarPro...', Object(Request))
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 19:57:28]  Excepción no controlada: 'Undefined offset: 1' en el archivo router.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\router.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(11): Router::parse('/src/?buscarPro...', Object(Request))
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 19:57:47]  Excepción no controlada: 'Undefined offset: 1' en el archivo router.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\router.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(11): Router::parse('/src/?buscarPro...', Object(Request))
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 19:57:53]  Excepción no controlada: 'Undefined offset: 1' en el archivo router.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\router.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(11): Router::parse('/src/?buscarPro...', Object(Request))
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 19:58:16]  Excepción no controlada: 'Undefined offset: 1' en el archivo router.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\router.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(11): Router::parse('/src/?buscarPro...', Object(Request))
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 19:58:21]  Excepción no controlada: 'Undefined offset: 1' en el archivo router.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\router.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(11): Router::parse('/src/?buscarPro...', Object(Request))
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 19:58:29]  Excepción no controlada: 'Undefined offset: 1' en el archivo router.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\router.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(11): Router::parse('/src/?buscarPro...', Object(Request))
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 19:59:45]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'IndexController' does not have a method 'buscarProducto?buscarProducto=cuaderno'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:00:12]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'IndexController' does not have a method 'buscarProducto?buscarProducto=cuaderno'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:00:17]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'IndexController' does not have a method 'buscarProducto?buscarProducto=cuaderno'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:00:19]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'IndexController' does not have a method 'buscarProducto?buscarProducto=cuaderno'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:00:19]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'IndexController' does not have a method 'buscarProducto?buscarProducto=cuaderno'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:00:19]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'IndexController' does not have a method 'buscarProducto?buscarProducto=cuaderno'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:00:19]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'IndexController' does not have a method 'buscarProducto?buscarProducto=cuaderno'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:00:46]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'IndexController' does not have a method 'buscarProducto?buscarProducto=cuaderno'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:02:04]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'IndexController' does not have a method 'buscarProducto?buscarProducto=cuaderno'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:02:08]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'IndexController' does not have a method 'buscarProducto?buscarProducto=cuaderno'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:03:17]  Excepción no controlada: 'syntax error, unexpected 'if' (T_IF), expecting ',' or ';'' en el archivo IndexController.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:03:20]  Excepción no controlada: 'syntax error, unexpected 'if' (T_IF), expecting ',' or ';'' en el archivo IndexController.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:03:21]  Excepción no controlada: 'Undefined offset: 1' en el archivo router.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\router.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(11): Router::parse('/src/?buscarPro...', Object(Request))
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 20:07:26]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'IndexController' does not have a method 'buscarProducto?buscarProducto=cuaderno'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:07:37]  Excepción no controlada: 'Undefined offset: 1' en el archivo router.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\router.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(11): Router::parse('/src/buscarProd...', Object(Request))
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 20:19:26]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'UsuarioController' does not have a method 'buscarProducto?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:20:02]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'UsuarioController' does not have a method 'buscarProducto?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:20:03]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'UsuarioController' does not have a method 'buscarProducto?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:20:04]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'UsuarioController' does not have a method 'buscarProducto?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:20:04]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'UsuarioController' does not have a method 'buscarProducto?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:20:37]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'UsuarioController' does not have a method 'buscarProducto?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:20:38]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'UsuarioController' does not have a method 'buscarProducto?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:20:38]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'UsuarioController' does not have a method 'buscarProducto?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:20:43]  Excepción no controlada: 'Undefined index: buscarProducto' en el archivo UsuarioController.php en la línea 65
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(65): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 20:20:46]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'UsuarioController' does not have a method 'buscarProducto?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:20:57]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'UsuarioController' does not have a method 'buscarProducto?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:22:25]  Excepción no controlada: 'Undefined index: buscarProducto' en el archivo UsuarioController.php en la línea 65
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(65): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 20:23:00]  Excepción no controlada: 'Undefined index: buscarProducto' en el archivo UsuarioController.php en la línea 65
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(65): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 20:23:11]  Excepción no controlada: 'Undefined index: buscarProducto' en el archivo UsuarioController.php en la línea 65
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(65): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 20:28:15]  Excepción no controlada: 'Array to string conversion' en el archivo UsuarioController.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(77): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 20:28:47]  Excepción no controlada: 'Array to string conversion' en el archivo UsuarioController.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(77): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 20:28:49]  Excepción no controlada: 'Array to string conversion' en el archivo UsuarioController.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(77): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 20:29:10]  Excepción no controlada: 'Array to string conversion' en el archivo UsuarioController.php en la línea 78
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(78): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 20:35:43]  Excepción no controlada: 'Array to string conversion' en el archivo UsuarioController.php en la línea 78
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(78): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 20:39:09]  Excepción no controlada: 'Undefined index: idEntrega' en el archivo producto.php en la línea 71
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(71): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(75): Producto->buscarProductoEnLaBase()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-09 20:44:25]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(78): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-09 20:44:42]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(78): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-09 20:47:41]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(74): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-09 20:47:53]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(76): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-09 20:51:38]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(76): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-09 20:52:58]  Excepción no controlada: 'Call to a member function getFields() on array' en el archivo UsuarioController.php en la línea 72
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:53:20]  Excepción no controlada: 'Call to a member function getFields() on string' en el archivo UsuarioController.php en la línea 72
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 20:54:40]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(74): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-09 21:27:26]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(75): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-09 21:53:19]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(75): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-09 21:53:37]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(75): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-09 21:54:11]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(75): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-09 21:54:18]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(75): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-09 21:59:55]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(75): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-09 21:59:59]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(75): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-09 22:00:20]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(75): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-09 22:00:27]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(75): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-09 22:12:39]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(81): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(77): Producto->filasPorPk('52')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-09 22:12:43]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(81): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(77): Producto->filasPorPk('52')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-09 22:13:07]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(81): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(78): Producto->filasPorPk('52')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-09 22:13:16]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(81): Model->selectByPk('52')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(78): Producto->filasPorPk('52')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-09 22:14:10]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(81): Model->selectByPk(52)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(78): Producto->filasPorPk(52)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-09 22:14:51]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(81): Model->selectByPk(52)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(75): Producto->filasPorPk(52)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-09 22:14:54]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(81): Model->selectByPk(52)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(75): Producto->filasPorPk(52)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-09 22:27:57]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(81): Model->selectByPk(52)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(75): Producto->filasPorPk(52)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-09 22:28:00]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(81): Model->selectByPk(52)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(75): Producto->filasPorPk(52)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-09 22:31:56]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(81): Model->selectByPk(52)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(74): Producto->filasPorPk(52)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-09 22:39:17]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(81): Model->selectByPk(52)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(74): Producto->filasPorPk(52)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-09 22:50:36]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(81): Model->selectByPk(52)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(74): Producto->filasPorPk(52)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-09 22:50:42]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(81): Model->selectByPk(52)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(74): Producto->filasPorPk(52)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-09 22:51:31]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(81): Model->selectByPk(52)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(74): Producto->filasPorPk(52)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-09 22:58:38]  Excepción no controlada: 'Undefined index: nombre' en el archivo UsuarioController.php en la línea 78
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(78): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 22:58:58]  Excepción no controlada: 'Undefined offset: 1' en el archivo UsuarioController.php en la línea 78
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(78): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 23:01:06]  Excepción no controlada: 'Undefined index: nombre' en el archivo UsuarioController.php en la línea 78
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(78): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 23:04:07]  Excepción no controlada: 'Array to string conversion' en el archivo UsuarioController.php en la línea 78
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(78): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 23:09:23]  Excepción no controlada: 'Invalid argument supplied for foreach()' en el archivo UsuarioController.php en la línea 78
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(78): globalErrorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 23:09:41]  Excepción no controlada: 'Invalid argument supplied for foreach()' en el archivo UsuarioController.php en la línea 78
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(78): globalErrorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 23:10:30]  Excepción no controlada: 'Array to string conversion' en el archivo UsuarioController.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(82): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 23:10:58]  Excepción no controlada: 'Array to string conversion' en el archivo UsuarioController.php en la línea 83
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(83): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 23:11:01]  Excepción no controlada: 'Array to string conversion' en el archivo UsuarioController.php en la línea 83
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(83): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 23:11:04]  Excepción no controlada: 'Array to string conversion' en el archivo UsuarioController.php en la línea 83
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(83): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 23:11:17]  Excepción no controlada: 'Array to string conversion' en el archivo UsuarioController.php en la línea 83
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(83): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 23:11:48]  Excepción no controlada: 'Array to string conversion' en el archivo UsuarioController.php en la línea 83
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(83): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 23:18:16]  Excepción no controlada: 'Undefined index: pk' en el archivo Model.php en la línea 265
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(265): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 265, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(82): Model->selectByPk(52)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(79): Producto->filasPorPk(52)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-09 23:26:21]  Excepción no controlada: 'Trying to get property of non-object' en el archivo UsuarioController.php en la línea 95
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(95): globalErrorHandler(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 23:26:59]  Excepción no controlada: 'Illegal string offset 'idProducto'' en el archivo UsuarioController.php en la línea 95
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(95): globalErrorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 23:29:15]  Excepción no controlada: 'Call to a member function getidProducto() on string' en el archivo UsuarioController.php en la línea 95
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 23:29:54]  Excepción no controlada: 'Call to a member function getidProducto() on string' en el archivo UsuarioController.php en la línea 96
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 23:30:15]  Excepción no controlada: 'syntax error, unexpected '}', expecting end of file' en el archivo UsuarioController.php en la línea 115
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 23:30:22]  Excepción no controlada: 'Call to a member function getidProducto() on array' en el archivo UsuarioController.php en la línea 96
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->buscarProducto(Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-09 23:53:02]  Excepción no controlada: 'Invalid argument supplied for foreach()' en el archivo BuscadorController.php en la línea 19
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(19): globalErrorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 23:53:30]  Excepción no controlada: 'Invalid argument supplied for foreach()' en el archivo BuscadorController.php en la línea 19
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(19): globalErrorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 23:54:17]  Excepción no controlada: 'Invalid argument supplied for foreach()' en el archivo BuscadorController.php en la línea 19
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(19): globalErrorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 23:55:21]  Excepción no controlada: 'Invalid argument supplied for foreach()' en el archivo BuscadorController.php en la línea 19
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(19): globalErrorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-09 23:55:27]  Excepción no controlada: 'Invalid argument supplied for foreach()' en el archivo BuscadorController.php en la línea 19
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(19): globalErrorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 19, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-10 00:19:23]  Excepción no controlada: 'Call to undefined method BuscadorController::set()' en el archivo BuscadorController.php en la línea 8
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-10 00:20:46]  Excepción no controlada: 'Call to undefined method BuscadorController::render()' en el archivo BuscadorController.php en la línea 7
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-10 01:11:09]  Excepción no controlada: 'Undefined variable: resultado' en el archivo buscador.php en la línea 52
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Buscador\buscador.php(52): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(9): Controller->render('buscador')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-10 01:20:48]  Excepción no controlada: 'Illegal string offset ''' en el archivo buscador.php en la línea 54
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Buscador\buscador.php(54): globalErrorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(9): Controller->render('buscador')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-10 01:29:29]  Excepción no controlada: 'Array to string conversion' en el archivo buscador.php en la línea 55
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Buscador\buscador.php(55): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 55, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(9): Controller->render('buscador')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+

@@ -13,9 +13,11 @@ abstract class Constantes
     const USUARIOVIEW = "indexUsuario";
  	const REGISTRARVIEW = "registrar";
 	const PUBLICARVIEW = "publicar";
+    const BUSCADORVIEW = "buscador";
 
 
-	const INICIOVIEW = "inicio";
+
+    const INICIOVIEW = "inicio";
 
     //Propiedades Usuario
     const USUARIONOMBRE = "nombre";
