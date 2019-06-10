@@ -26,12 +26,13 @@ class ProductoController extends Controller
     {
         $producto = new Producto();
         $categoria = new Categoria();
+        var_dump($publicacion);
 
         $producto->setNombre($publicacion["nombre"]);
         $producto->setDescripcion($publicacion["descripcion"]);
         $producto->setCantidad($publicacion["cantidad"]);
         $producto->setPrecio($publicacion["precio"]);
-        $titulo=$publicacion["titulo"];
+
 
         $entrega="";
         if(isset($publicacion["envio"])){
@@ -53,29 +54,18 @@ class ProductoController extends Controller
            $arrayImagenes[$i] = $_FILES['imagen']['name'][$i];
         }
 
-        echo "arrayImagenes<br>";
-        echo "contador".$countfiles;
-        var_dump($arrayImagenes);
-
             //una vez seteados, voy al modelo y valido los formatos
             $resultado1=$producto->validarFormatos() ;
             $resultado2=$this->validarImagenes($arrayImagenes);
 
          if($resultado1 && $resultado2 ){
-                //Insertar Producto en la tabla
+                echo "Insertar Producto en la tabla";
                 $idProducto = $producto->insertarProducto();
                 //guardar imagenes en la base
                 $this->tratarImagenes($arrayImagenes, $idProducto);
-                $this->altaPublicacion($titulo, $idProducto,$entrega);
+                $this->altaPublicacion($publicacion, $idProducto,$entrega);
             }
-
-
-
-
     }
-
-
-
 
    function validarImagenes($array){
 
@@ -108,13 +98,13 @@ class ProductoController extends Controller
     }
     }
 
-    function altaPublicacion($titulo,$idProducto,$entrega)
+    function altaPublicacion($publicacion,$idProducto,$entrega)
 
     {
         //obtener id de metodo de entrega
 
         $publicar=new Publicacion();
-        $publicar->setTitulo($titulo);
+        $publicar->setTitulo($publicacion["titulo"]);
         $fecha_actual = date("y-m-d");
         $publicar->setFecha($fecha_actual);
         $publicar->setId_user($_SESSION["idUser"]);

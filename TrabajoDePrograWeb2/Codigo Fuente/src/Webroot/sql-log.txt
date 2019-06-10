@@ -2006,3 +2006,115 @@
 [2019-06-10 01:38:42]  select * from Producto  where idProducto=56 limit 0, 10
 [2019-06-10 01:38:42]  select * from Producto  where idProducto=57 limit 0, 10
 [2019-06-10 01:38:42]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 11:19:16]  DESC Usuario
+[2019-06-10 11:19:17]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-10 11:20:19]  DESC Producto
+[2019-06-10 11:20:19]  DESC Categoria
+[2019-06-10 11:20:33]  DESC Producto
+[2019-06-10 11:20:33]  DESC Categoria
+[2019-06-10 11:21:01]  DESC Producto
+[2019-06-10 11:21:01]  DESC Categoria
+[2019-06-10 11:29:09]  DESC Producto
+[2019-06-10 11:29:09]  DESC Categoria
+[2019-06-10 11:31:19]  DESC Producto
+[2019-06-10 11:31:19]  DESC Categoria
+[2019-06-10 11:31:19]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-10 11:31:19]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Mesa Ratona','de madera y vidrio','1','1200','5')
+[2019-06-10 11:31:19]  DESC Imagen
+[2019-06-10 11:31:19]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('050ed59369d43619ecf1a0961fff5654.jpg','78')
+[2019-06-10 11:31:19]  DESC Imagen
+[2019-06-10 11:31:19]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('70e676cbdf04e86a4602c3b76e6a202a566a6e57_hq.jpg','78')
+[2019-06-10 11:31:19]  DESC Imagen
+[2019-06-10 11:31:19]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('89e63824abe7a5420569261f4e1a4aa2.jpg','78')
+[2019-06-10 11:31:19]  DESC Publicacion
+[2019-06-10 11:31:44]  DESC Producto
+[2019-06-10 11:31:44]  DESC Categoria
+[2019-06-10 11:31:44]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-10 11:31:44]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Mesa Ratona','de madera y vidrio','1','1200','5')
+[2019-06-10 11:31:44]  DESC Imagen
+[2019-06-10 11:31:44]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('050ed59369d43619ecf1a0961fff5654.jpg','79')
+[2019-06-10 11:31:44]  DESC Imagen
+[2019-06-10 11:31:44]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('70e676cbdf04e86a4602c3b76e6a202a566a6e57_hq.jpg','79')
+[2019-06-10 11:31:44]  DESC Imagen
+[2019-06-10 11:31:44]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('89e63824abe7a5420569261f4e1a4aa2.jpg','79')
+[2019-06-10 11:31:44]  DESC Publicacion
+[2019-06-10 11:32:28]  DESC Producto
+[2019-06-10 11:32:28]  DESC Categoria
+[2019-06-10 11:32:28]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-10 11:32:28]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Mesa Ratona','de madera y vidrio','1','1200','5')
+[2019-06-10 11:32:28]  DESC Imagen
+[2019-06-10 11:32:28]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('050ed59369d43619ecf1a0961fff5654.jpg','80')
+[2019-06-10 11:32:28]  DESC Imagen
+[2019-06-10 11:32:28]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('70e676cbdf04e86a4602c3b76e6a202a566a6e57_hq.jpg','80')
+[2019-06-10 11:32:28]  DESC Imagen
+[2019-06-10 11:32:28]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('89e63824abe7a5420569261f4e1a4aa2.jpg','80')
+[2019-06-10 11:32:28]  DESC Publicacion
+[2019-06-10 11:33:12]  DESC Producto
+[2019-06-10 11:33:12]  DESC Categoria
+[2019-06-10 11:33:12]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-10 11:33:12]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Mesa Ratona','de madera y vidrio','1','1200','5')
+[2019-06-10 11:33:12]  DESC Imagen
+[2019-06-10 11:33:12]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('050ed59369d43619ecf1a0961fff5654.jpg','81')
+[2019-06-10 11:33:12]  DESC Imagen
+[2019-06-10 11:33:12]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('70e676cbdf04e86a4602c3b76e6a202a566a6e57_hq.jpg','81')
+[2019-06-10 11:33:12]  DESC Imagen
+[2019-06-10 11:33:12]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('89e63824abe7a5420569261f4e1a4aa2.jpg','81')
+[2019-06-10 11:33:12]  DESC Publicacion
+[2019-06-10 11:40:13]  DESC Producto
+[2019-06-10 11:40:14]  DESC Categoria
+[2019-06-10 11:40:14]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-10 11:40:14]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Mesa Ratona','de madera y vidrio','1','1200','5')
+[2019-06-10 11:40:14]  DESC Imagen
+[2019-06-10 11:40:14]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('050ed59369d43619ecf1a0961fff5654.jpg','82')
+[2019-06-10 11:40:14]  DESC Imagen
+[2019-06-10 11:40:14]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('70e676cbdf04e86a4602c3b76e6a202a566a6e57_hq.jpg','82')
+[2019-06-10 11:40:14]  DESC Imagen
+[2019-06-10 11:40:14]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('89e63824abe7a5420569261f4e1a4aa2.jpg','82')
+[2019-06-10 11:40:14]  DESC Publicacion
+[2019-06-10 11:41:23]  DESC Producto
+[2019-06-10 11:41:23]  DESC Categoria
+[2019-06-10 11:41:23]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-10 11:41:23]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Mesa Ratona','de madera y vidrio','1','1200','5')
+[2019-06-10 11:41:23]  DESC Imagen
+[2019-06-10 11:41:23]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('050ed59369d43619ecf1a0961fff5654.jpg','83')
+[2019-06-10 11:41:23]  DESC Imagen
+[2019-06-10 11:41:23]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('70e676cbdf04e86a4602c3b76e6a202a566a6e57_hq.jpg','83')
+[2019-06-10 11:41:23]  DESC Imagen
+[2019-06-10 11:41:23]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('89e63824abe7a5420569261f4e1a4aa2.jpg','83')
+[2019-06-10 11:41:23]  DESC Publicacion
+[2019-06-10 11:45:38]  DESC Producto
+[2019-06-10 11:45:38]  DESC Categoria
+[2019-06-10 11:45:38]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-10 11:45:38]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Rocio','asa','3','333','5')
+[2019-06-10 11:45:38]  DESC Imagen
+[2019-06-10 11:45:38]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('70e676cbdf04e86a4602c3b76e6a202a566a6e57_hq.jpg','84')
+[2019-06-10 11:45:38]  DESC Imagen
+[2019-06-10 11:45:38]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('89e63824abe7a5420569261f4e1a4aa2.jpg','84')
+[2019-06-10 11:45:38]  DESC Imagen
+[2019-06-10 11:45:38]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('686b16c63bdfbf91c62cde879698b37d.jpg','84')
+[2019-06-10 11:45:38]  DESC Publicacion
+[2019-06-10 11:45:38]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-06-10','Escritorio nuevo desarmable','1','84')
+[2019-06-10 11:45:39]  DESC FormaEntrega
+[2019-06-10 11:45:39]  DESC Publicacion_Entrega
+[2019-06-10 11:45:39]  select * from FormaEntrega  where  descripcion='acordarConElVendedor'  limit 0, 1
+[2019-06-10 11:45:39]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('19','1')
+[2019-06-10 11:52:54]  DESC Producto
+[2019-06-10 11:52:54]  DESC Categoria
+[2019-06-10 11:52:54]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-10 11:52:54]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Rocio','asa','3','333','5')
+[2019-06-10 11:52:54]  DESC Imagen
+[2019-06-10 11:52:54]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('70e676cbdf04e86a4602c3b76e6a202a566a6e57_hq.jpg','85')
+[2019-06-10 11:52:54]  DESC Imagen
+[2019-06-10 11:52:54]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('89e63824abe7a5420569261f4e1a4aa2.jpg','85')
+[2019-06-10 11:52:54]  DESC Imagen
+[2019-06-10 11:52:54]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('686b16c63bdfbf91c62cde879698b37d.jpg','85')
+[2019-06-10 11:52:54]  DESC Publicacion
+[2019-06-10 11:52:54]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-06-10','Escritorio nuevo desarmable','1','85')
+[2019-06-10 11:52:55]  DESC FormaEntrega
+[2019-06-10 11:52:55]  DESC Publicacion_Entrega
+[2019-06-10 11:52:55]  select * from FormaEntrega  where  descripcion='acordarConElVendedor'  limit 0, 1
+[2019-06-10 11:52:55]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('20','1')
+[2019-06-10 12:03:24]  DESC Usuario
+[2019-06-10 12:03:24]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-10 13:05:26]  DESC Usuario
+[2019-06-10 13:05:26]  DESC Rol
