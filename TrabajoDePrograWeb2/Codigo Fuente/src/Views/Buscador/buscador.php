@@ -51,9 +51,36 @@
 
 <div id="resultado" name="resultado">
     <?php
-    $resultado=array();
-    var_dump($resultado);
-    ; ?>
+    $resultado;
+    $filasProductosCoincidentes=[];
+
+    foreach($resultado as $prod){
+        array_push($filasProductosCoincidentes, $prod);
+    }
+
+    echo "<div class='container'><table class='table table-striped'><tr>
+                    <th scope='col'>CODIGO</th>
+                    <th scope='col'>NOMBRE</th>
+                    <th scope='col'>CANTIDAD</th>
+                    <th scope='col'>DESCRIPCION</th>
+                    <th scope='col'>PRECIO</th>
+                    </tr>";
+    foreach ($filasProductosCoincidentes as $fila){
+    foreach ($fila as $producto){
+        echo "<tr>
+
+                       <td>" . $producto['idProducto']. "</td>
+                       <td>" . $producto['nombre']. "</td>
+                       <td>" . $producto['cantidad']. "</td>
+                       <td>" . $producto['descripcion']. "</td>
+                       <td>" . $producto['precio']. "</td>
+                       </tr>";
+    }
+    } echo "</table></div>";
+
+
+    ?>
+
 </div>
 
 <!-- Footer footer class="bg-primary page-footer font-small blue pt-4">

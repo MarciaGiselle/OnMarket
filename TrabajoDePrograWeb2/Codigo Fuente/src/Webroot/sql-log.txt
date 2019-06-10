@@ -2118,3 +2118,254 @@
 [2019-06-10 12:03:24]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
 [2019-06-10 13:05:26]  DESC Usuario
 [2019-06-10 13:05:26]  DESC Rol
+[2019-06-10 14:37:54]  DESC Usuario
+[2019-06-10 14:37:54]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-10 15:34:43]  DESC Producto
+[2019-06-10 15:34:43]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 15:34:43]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 15:34:43]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 15:34:43]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 15:34:43]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 15:34:43]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 15:34:43]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 15:34:43]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 16:29:14]  DESC Producto
+[2019-06-10 16:29:14]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 16:33:59]  DESC Producto
+[2019-06-10 16:33:59]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 16:33:59]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 16:33:59]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 16:33:59]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 16:33:59]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 16:33:59]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 16:33:59]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 16:33:59]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 16:38:55]  DESC Producto
+[2019-06-10 16:38:55]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 16:38:55]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 16:38:55]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 16:38:56]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 16:38:56]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 16:38:56]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 16:38:56]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 16:38:56]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 16:40:18]  DESC Producto
+[2019-06-10 16:40:18]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 16:40:18]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 16:40:18]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 16:40:18]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 16:40:18]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 16:40:18]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 16:40:18]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 16:40:18]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 16:47:23]  DESC Producto
+[2019-06-10 16:47:23]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 16:47:23]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 16:47:23]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 16:47:23]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 16:47:23]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 16:47:23]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 16:47:23]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 16:47:23]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 16:48:19]  DESC Producto
+[2019-06-10 16:48:19]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 16:48:19]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 16:48:19]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 16:48:19]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 16:48:19]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 16:48:19]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 16:48:19]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 16:48:19]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 16:50:16]  DESC Producto
+[2019-06-10 16:50:16]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 16:50:16]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 16:50:16]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 16:50:16]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 16:50:16]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 16:50:16]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 16:50:16]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 16:50:16]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 16:51:36]  DESC Producto
+[2019-06-10 16:51:36]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 16:51:36]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 16:51:36]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 16:51:36]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 16:51:36]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 16:51:36]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 16:51:36]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 16:51:36]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 16:55:13]  DESC Producto
+[2019-06-10 16:55:13]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 16:55:13]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 16:55:13]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 16:55:13]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 16:55:13]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 16:55:13]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 16:55:13]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 16:55:13]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 16:55:48]  DESC Producto
+[2019-06-10 16:55:49]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 16:55:49]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 16:55:49]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 16:55:49]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 16:55:49]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 16:55:49]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 16:55:49]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 16:55:49]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 16:56:28]  DESC Producto
+[2019-06-10 16:56:28]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 16:56:28]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 16:56:28]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 16:56:28]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 16:56:28]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 16:56:28]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 16:56:28]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 16:56:28]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 16:57:29]  DESC Producto
+[2019-06-10 16:57:29]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 16:57:29]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 16:57:29]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 16:57:29]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 16:57:29]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 16:57:29]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 16:57:29]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 16:57:29]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 17:02:34]  DESC Producto
+[2019-06-10 17:02:34]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 17:02:34]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 17:02:34]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 17:02:34]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 17:02:34]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 17:02:34]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 17:02:34]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 17:02:34]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 17:12:05]  DESC Producto
+[2019-06-10 17:12:06]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 17:12:06]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 17:12:06]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 17:12:06]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 17:12:06]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 17:12:06]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 17:12:06]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 17:12:06]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 17:12:38]  DESC Producto
+[2019-06-10 17:12:38]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 17:12:38]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 17:12:38]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 17:12:38]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 17:12:38]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 17:12:38]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 17:12:38]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 17:12:38]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 17:15:10]  DESC Producto
+[2019-06-10 17:15:10]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 17:15:10]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 17:15:10]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 17:15:10]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 17:15:10]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 17:15:10]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 17:15:10]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 17:15:10]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 17:15:42]  DESC Producto
+[2019-06-10 17:15:42]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 17:15:42]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 17:15:42]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 17:15:42]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 17:15:42]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 17:15:42]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 17:15:42]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 17:15:42]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 17:17:32]  DESC Producto
+[2019-06-10 17:17:32]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 17:17:32]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 17:17:32]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 17:17:32]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 17:17:32]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 17:17:32]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 17:17:32]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 17:17:32]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 17:17:42]  DESC Producto
+[2019-06-10 17:17:42]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 17:17:42]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 17:17:43]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 17:17:43]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 17:17:43]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 17:17:43]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 17:17:43]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 17:17:43]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 17:21:33]  DESC Producto
+[2019-06-10 17:21:33]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 17:21:33]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 17:21:33]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 17:21:33]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 17:21:33]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 17:21:33]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 17:21:33]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 17:21:33]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 17:26:54]  DESC Producto
+[2019-06-10 17:26:54]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 17:26:54]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 17:26:54]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 17:26:54]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 17:26:54]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 17:26:54]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 17:26:54]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 17:26:54]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 17:28:20]  DESC Producto
+[2019-06-10 17:28:20]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 17:28:20]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 17:28:20]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 17:28:20]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 17:28:20]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 17:28:20]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 17:28:20]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 17:28:20]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 17:28:33]  DESC Producto
+[2019-06-10 17:28:33]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 17:28:33]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 17:28:33]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 17:28:33]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 17:28:33]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 17:28:33]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 17:28:33]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 17:28:33]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 17:29:26]  DESC Producto
+[2019-06-10 17:29:26]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 17:29:26]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 17:29:26]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 17:29:26]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 17:29:26]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 17:29:26]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 17:29:26]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 17:29:26]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 17:32:37]  DESC Producto
+[2019-06-10 17:32:37]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 17:32:37]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 17:32:37]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 17:32:37]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 17:32:37]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 17:32:37]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 17:32:37]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 17:32:37]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 17:34:00]  DESC Producto
+[2019-06-10 17:34:00]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 17:34:00]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 17:34:00]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 17:34:00]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 17:34:00]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 17:34:00]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 17:34:00]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 17:34:00]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 17:34:09]  DESC Producto
+[2019-06-10 17:34:09]  select * from Producto  where nombre like 'libro%' limit 0, 100
+[2019-06-10 17:34:09]  select * from Producto  where idProducto=65 limit 0, 10
+[2019-06-10 17:34:09]  select * from Producto  where idProducto=68 limit 0, 10
+[2019-06-10 17:34:22]  DESC Producto
+[2019-06-10 17:34:22]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 17:34:22]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 17:34:22]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 17:34:22]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 17:34:22]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 17:34:22]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 17:34:22]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 17:34:22]  select * from Producto  where idProducto=58 limit 0, 10
