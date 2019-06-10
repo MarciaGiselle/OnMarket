@@ -1997,3 +1997,12 @@
 [2019-06-10 01:29:40]  select * from Producto  where idProducto=56 limit 0, 10
 [2019-06-10 01:29:40]  select * from Producto  where idProducto=57 limit 0, 10
 [2019-06-10 01:29:40]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 01:38:42]  DESC Producto
+[2019-06-10 01:38:42]  select * from Producto  where nombre like 'cuaderno%' limit 0, 100
+[2019-06-10 01:38:42]  select * from Producto  where idProducto=52 limit 0, 10
+[2019-06-10 01:38:42]  select * from Producto  where idProducto=53 limit 0, 10
+[2019-06-10 01:38:42]  select * from Producto  where idProducto=54 limit 0, 10
+[2019-06-10 01:38:42]  select * from Producto  where idProducto=55 limit 0, 10
+[2019-06-10 01:38:42]  select * from Producto  where idProducto=56 limit 0, 10
+[2019-06-10 01:38:42]  select * from Producto  where idProducto=57 limit 0, 10
+[2019-06-10 01:38:42]  select * from Producto  where idProducto=58 limit 0, 10
