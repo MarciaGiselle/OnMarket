@@ -2006,3 +2006,34 @@
 [2019-06-10 01:38:42]  select * from Producto  where idProducto=56 limit 0, 10
 [2019-06-10 01:38:42]  select * from Producto  where idProducto=57 limit 0, 10
 [2019-06-10 01:38:42]  select * from Producto  where idProducto=58 limit 0, 10
+[2019-06-10 15:07:17]  DESC Usuario
+[2019-06-10 15:07:17]  DESC Rol
+[2019-06-10 15:07:17]  select * from Rol  where id=1 limit 0, 1
+[2019-06-10 15:13:08]  DESC Usuario
+[2019-06-10 15:13:08]  select * from Usuario  where name= 'Axel' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-10 15:13:27]  DESC Usuario
+[2019-06-10 15:13:27]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-10 15:14:02]  DESC Usuario
+[2019-06-10 15:14:02]  select * from Usuario  where name= 'Axel' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-10 15:15:15]  DESC Usuario
+[2019-06-10 15:15:16]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-10 15:15:25]  DESC Usuario
+[2019-06-10 15:15:25]  select * from Usuario  where name= 'Axel' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-10 15:15:40]  DESC Usuario
+[2019-06-10 15:15:40]  select * from Usuario  where name= 'Campera' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-10 15:21:37]  DESC Usuario
+[2019-06-10 15:21:37]  select * from Usuario  where userName='' and password='57a9901af6fe030198ef1737783e2048ee96da4a' limit 0, 1
+[2019-06-10 15:24:30]  DESC Usuario
+[2019-06-10 15:24:30]  select * from Usuario  where userName='' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-10 15:24:52]  DESC Usuario
+[2019-06-10 15:24:52]  select * from Usuario  where userName='' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-10 15:25:41]  DESC Usuario
+[2019-06-10 15:25:41]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-10 15:25:57]  DESC Usuario
+[2019-06-10 15:25:57]  select * from Usuario  where name= 'Axel' and password='fe2fb474076a872e237e4430d40cbed150d20033' limit 0, 1
+[2019-06-10 15:26:10]  DESC Usuario
+[2019-06-10 15:26:10]  select * from Usuario  where name= 'Axel' and password='fe2fb474076a872e237e4430d40cbed150d20033' limit 0, 1
+[2019-06-10 15:26:20]  DESC Usuario
+[2019-06-10 15:26:20]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-10 15:27:05]  DESC Usuario
+[2019-06-10 15:27:05]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1

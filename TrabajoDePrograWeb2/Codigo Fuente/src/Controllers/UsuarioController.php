@@ -38,7 +38,7 @@ class UsuarioController extends Controller
                throw new NombreOPassInvalidoException("Nombre o password incorrectos",CodigoError::NombreOPassInvalidoException);
             }
 
-        echo json_encode("Nombre o password incorrecttos");
+        echo json_encode(true);
     }
 }
 

@@ -82,7 +82,7 @@
 </nav>
 
 
-<script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
+
 
 
 <!-–Slider de fotos -–>

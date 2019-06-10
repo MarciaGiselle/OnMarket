@@ -28,9 +28,9 @@
             <form class="form-check-inline" action= "<?php echo getBaseAddress(). "Buscador/buscarProducto" ; ?>"  method="post">
                 <input type="text" class="form-control" placeholder="Que estás buscando?"  id="buscador" name="buscarProducto">
                 <div class="input-group-append">
-                    <button class="btn btn-secondary" type="button">
+                    <input class="btn btn-secondary" type="submit">
                         <i class="fa fa-search"></i>
-                    </button>
+                    </input>
                 </div>
             </form>
         </div>

@@ -1,10 +1,16 @@
 
 <script>
-    const pathRegistrar = "<?php echo getBaseAddress(). "Registrar/registrar" ; ?>";
-    const pathLoguear = "<?php echo getBaseAddress() .  "Registrar/validarRegistro" ; ?>";
+
+    const pathRegistrar = "<?php echo getBaseAddress() .  "Registrar/validarRegistro" ; ?>";
+    const pathHome = "<?php echo getBaseAddress(). "Usuario/mostrarInicio" ; ?>";
+    const pathLoguear = "<?php echo getBaseAddress() .  "Usuario/login" ; ?>";
+    const pathBuscador = "<?php echo getBaseAddress(). "Buscador/buscador" ; ?>";
 </script>
 
 
+
+
+<body>
 <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -14,7 +20,7 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-2 mt-2 mt-lg-0">
             <li class="nav-item ">
-                <a class="nav-link active" href="<?php echo getBaseAddress()  ?>"#">Inicio<span class="sr-only">(current)</span></a>
+                <a class="nav-link active" href="#">Inicio<span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link disabled" href="#">Historial</a>
@@ -26,8 +32,8 @@
         <!-- Buscador-->
 
         <div class="input-group">
-            <form class="form-check-inline">
-                <input type="text" class="form-control" placeholder="Que estás buscando?">
+            <form class="form-check-inline" action= "<?php echo getBaseAddress(). "Buscador/buscarProducto" ; ?>"  method="post">
+                <input type="text" class="form-control" placeholder="Que estás buscando?"  id="buscador" name="buscarProducto">
                 <div class="input-group-append">
                     <button class="btn btn-secondary" type="button">
                         <i class="fa fa-search"></i>
@@ -70,12 +76,18 @@
 
     </div>
 
+    <div>
+        <!--registrar -->
+        <form action="<?php echo getBaseAddress() . "Registrar/registrar" ?>" method="post">
 
+            <input type="submit" value="  Registrarse " class="btn btn-secondary">
+
+        </form>
+    </div>
 
 </nav>
 
 
-<script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
 
 <main>
 	<div class="contenedor-formulario">
@@ -100,7 +112,7 @@
 						<input  class="form-control" type="email" id="correo" name="correo">
 					</div>
 					 <div class="form-group col-md-6">
-					    <label  class="text-primary "for="cuir">Cuit:</label>
+					    <label  class="text-primary "for="cuit">Cuit:</label>
 						<input  class="form-control" type="text" id="cuit" name="cuit">
 					</div>
 					 <div class="form-group col-md-6">
@@ -117,7 +129,7 @@
 					</div>
 					 <div class="form-group col-md-6">
 					   <label  class="text-primary " >Sexo:</label>
-					   <select class="form-control" name="sexo">
+					   <select class="form-control" id="sexo" name="sexo">
 					      <option>Hombre</option>
 					      <option>Mujer</option>
 					      <option>Otros</option>
@@ -128,10 +140,10 @@
 					</div>
 					 <div class="form-group col-md-6">
 					    <label class="text-primary" for="terminos">Acepto los Terminos y Condiciones</label>
-						<input  type="checkbox" name="terminosYcondiciones" id="terminos" value="si">
+						<input  type="checkbox" name="terminosYcondiciones" id="terminos" >
 					</div>
 				    <div class="form-group col-md-6">
-					<input class="btn btn-primary" type="submit" id="btn-submit" id="enviar" name="enviar" value="Enviar">
+					<input class="btn btn-primary" type="submit"  name="enviar" id="enviar" value="Enviar">
 				    </div>
              </div>
 
@@ -159,7 +171,7 @@
 
 <script src="<?php echo getBaseAddress() . "Webroot/js/registrar.js" ?>"></script>
 <script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>
-
+<script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
 
 </body>
 </html>
