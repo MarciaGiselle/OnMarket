@@ -35,14 +35,12 @@ boton.click(function () {
      	boton.prop("disabled", true);
         var obj = {};
         obj.nombreProducto = inputBuscador.val();
-
         llamadaAjax(pathBusqueda, JSON.stringify(obj), true, "busquedaExitosa", "busquedaFallida");
     }
 });
 
 function busquedaExitosa(dummy) {
-
-   // window.location.href = pathMostrarResultados;
+   window.location.href = pathMostrarResultados;
 }
 
 function busquedaFallida(err) {

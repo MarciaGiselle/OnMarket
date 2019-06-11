@@ -65,16 +65,14 @@ class Producto extends Model
 
     function buscarProductoEnLaBase(){
         $resultadoDeLaBusqueda= $this->pageRows(0,100, "nombre like '$this->nombre%'");
-
+        $idArray=[];
+        $filas=[];
         if(!empty($resultadoDeLaBusqueda[0])){
-            for($i=0; $i<count($resultadoDeLaBusqueda);$i++){
-                $idArray[$i]=$resultadoDeLaBusqueda[$i]['idProducto'];
-            }
-            return $idArray;
-        }else{
-            return false;
+            for($i=0;$i<count($resultadoDeLaBusqueda);$i++){
+                array_push($idArray, $resultadoDeLaBusqueda[$i]["idProducto"]);
+             }
         }
-
+        return $idArray;
     }
 
     function filasPorPk($pk){

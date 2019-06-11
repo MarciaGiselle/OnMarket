@@ -4,7 +4,7 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href=#><img id="logo-nav" src="Webroot/img/logotipo.png" alt="Logo de OnMarket"></a>
+    <a class="navbar-brand" href=#><img id="logo-nav" src="../Webroot/img/logotipo.png" alt="Logo de OnMarket"></a>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-2 mt-2 mt-lg-0">
@@ -19,18 +19,6 @@
         </ul>
 
 
-        <!-- Buscador-->
-
-        <div class="input-group">
-            <form class="form-check-inline" method="post">
-                <input type="text" class="form-control" placeholder="Que estás buscando?"  id="buscador">
-                <div class="input-group-append">
-                    <input class="btn btn-secondary" type="submit" id="btnBuscar">
-                        <i class="fa fa-search"></i>
-                </div>
-            </form>
-        </div>
-
 
 
     </div>
@@ -43,64 +31,74 @@
 
         </form>
     </div>
-
-
-
 </nav>
 
-<div id="resultado" name="resultado">
-    <?php
-    $productos;
-    $imagenes;
 
-    $filasProductosCoincidentes=[];
-    $filasImagenesCoincidentes=[];
+<!-- Buscador-->
+<br>
+<div class="container">
+    <h3 class="text-primary text-center mt-3">Qué estás buscando?</h3>
 
-    foreach($productos as $prod){
-        array_push($filasProductosCoincidentes, $prod);
-    }
-
-    foreach($imagenes as $imag){
-        array_push($filasImagenesCoincidentes, $imag);
-    }
-
-    echo "<div class='container'><table class='table table-striped'><tr>
-                    <th scope='col'>CODIGO</th>
-                    <th scope='col'>NOMBRE</th>
-                    <th scope='col'>CANTIDAD</th>
-                    <th scope='col'>DESCRIPCION</th>
-                    <th scope='col'>PRECIO</th>
-                    <th scope='col'>IMAGEN</th>
-                    </tr>";
-
-
-    foreach ($filasProductosCoincidentes as $fila){
-     foreach ($filasImagenesCoincidentes as $filaImagen) {
-       
-   
-    foreach ($fila as $producto){
-        foreach ($filaImagen as $imagen) {
-            # code...
-        }
-        echo "<tr>
-
-                       <td>" . $producto['idProducto']. "</td>
-                       <td>" . $producto['nombre']. "</td>
-                       <td>" . $producto['cantidad']. "</td>
-                       <td>" . $producto['descripcion']. "</td>
-                       <td>" . $producto['precio']. "</td>
-                        <td> <img src=". $imagen['nombre']. "/></td>
-                       </tr>";
-    }
-    
-         }
-
-    } echo "</table></div>";
-
-
-    ?>
-
+    <div class="input-group mt-5 mb-5">
+    <input type="search" class="form-control" placeholder="Que estás buscando?"  id="buscador">
+    <div class="input-group-append">
+        <span type="submit" class="input-group-text" id="btnBuscar"><i class="fa fa-search" ></i></span>
+    </div>
 </div>
+</div>
+    <input type="hidden" class="d-none" id="resultado" name="resultado">
+        <?php
+        $productos=[];
+        $imagenes=[];
+        if($productos!=null || $imagenes!=null){
+
+        $filasProductosCoincidentes=[];
+        $filasImagenesCoincidentes=[];
+
+        foreach($productos as $prod){
+            array_push($filasProductosCoincidentes, $prod);
+        }
+
+        foreach($imagenes as $imag){
+            array_push($filasImagenesCoincidentes, $imag);
+        }
+
+        echo "<div class='container'><table class='table table-striped'><tr>
+                        <th scope='col'>CODIGO</th>
+                        <th scope='col'>NOMBRE</th>
+                        <th scope='col'>CANTIDAD</th>
+                        <th scope='col'>DESCRIPCION</th>
+                        <th scope='col'>PRECIO</th>
+                        <th scope='col'>IMAGEN</th>
+                        </tr>";
+
+
+        foreach ($filasProductosCoincidentes as $fila){
+            foreach ($filasImagenesCoincidentes as $filaImagen) {
+
+
+                foreach ($fila as $producto){
+                    foreach ($filaImagen as $imagen) {
+                        # code...
+                    }
+                    echo "<tr>
+    
+                           <td>" . $producto['idProducto']. "</td>
+                           <td>" . $producto['nombre']. "</td>
+                           <td>" . $producto['cantidad']. "</td>
+                           <td>" . $producto['descripcion']. "</td>
+                           <td>" . $producto['precio']. "</td>
+                            <td> <img src=". $imagen['nombre']. "/></td>
+                           </tr>";
+                }
+
+            }
+
+        }} echo "</table></div>";
+
+
+        ?>
+
 
 <!-- Footer-->
  <footer class="bg-primary page-footer font-small blue pt-4">

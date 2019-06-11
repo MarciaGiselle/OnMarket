@@ -3,7 +3,7 @@
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href=#><img id="logo-nav" src="Webroot/img/logotipo.png" alt="Logo de OnMarket"></a>
+    <a class="navbar-brand" href=#><img id="logo-nav" src="../Webroot/img/logotipo.png" alt="Logo de OnMarket"></a>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-2 mt-2 mt-lg-0">
@@ -15,20 +15,15 @@
                 <a class="nav-link disabled" href="#">Historial</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link " href="<?php echo getBaseAddress() . "Producto/publicar" ?>">Publicar</a>
+                <a class="nav-link active" href="<?php echo getBaseAddress() . "Producto/publicar" ?>">Publicar</a>
         </ul>
 
         <!-- Buscador-->
-
-        <div class="input-group">
-            <form class="form-check-inline">
-                <input type="text" class="form-control" placeholder="Que estás buscando?">
-                <div class="input-group-append">
-                    <button class="btn btn-secondary" type="button">
-                        <i class="fa fa-search"></i>
-                    </button>
-                </div>
-            </form>
+        <div class="input-group mr-2">
+            <input type="search" class="form-control" placeholder="Que estás buscando?"  id="buscador">
+            <div class="input-group-append">
+                <span type="submit" class="input-group-text" id="btnBuscar"><i class="fa fa-search" ></i></span>
+            </div>
         </div>
 
     </div>
