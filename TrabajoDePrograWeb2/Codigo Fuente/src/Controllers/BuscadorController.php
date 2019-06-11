@@ -17,31 +17,38 @@ class BuscadorController extends Controller
 
             if(FuncionesComunes::validarCadena($nombreProducto)){
                 $productoABuscar = new Producto();
-               // $imagenABuscar= new Imagen();
+                $imagenABuscar= new Imagen();
 
                 $productoABuscar->setNombre($nombreProducto);
 
                 $idsProductos=$productoABuscar->buscarProductoEnLaBase();
+
                 if(empty($idsProductos)){
                     throw new ProductoNoEncontradoException("No hay coincidencias con la búsqueda", CodigoError::ProductoNoEncontrado);
-                }
-                echo json_encode(true);
+                }else{
 
+                /*$productosEncontrados=[];
+                $imagenesEncontradas=[];
+
+                foreach ($idsProductos as $pk){
+
+                    array_push($productosEncontrados, $productoABuscar->filasPorPk($pk));
+                    array_push($imagenesEncontradas, $imagenABuscar->imagenesPorPk($pk));
+
+                }
+                */
             }
+                echo json_encode($idsProductos);
+
+    }
     }
 
     function mostrarResultados($idsProductos){
         $d["title"] = "Buscador";
         $productoABuscar = new Producto();
-        $imagenABuscar= new Imagen();
 
-        $productosEncontrados=[];
-        $imagenesEncontradas=[];
 
-        foreach ($idsProductos as $pk){
-            array_push($productosEncontrados, $productoABuscar->filasPorPk($pk));
-            array_push($imagenesEncontradas, $imagenABuscar->imagenesPorPk($pk));
-        }
+
 
         $d["productos"]=$productosEncontrados;
         $d["imagenes"]=$imagenesEncontradas;

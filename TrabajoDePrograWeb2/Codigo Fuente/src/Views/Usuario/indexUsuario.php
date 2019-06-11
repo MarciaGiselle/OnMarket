@@ -1,8 +1,3 @@
-<script>
-    const pathBusqueda = "<?php echo getBaseAddress(). "Buscador/buscarProducto" ; ?>";
-    const pathMostrarResultados = "<?php echo getBaseAddress(). "Buscador/mostrarResultados" ; ?>";
-</script>
-
 <body>
 
 <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
