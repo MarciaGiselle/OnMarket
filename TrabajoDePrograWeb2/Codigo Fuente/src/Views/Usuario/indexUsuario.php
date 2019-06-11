@@ -1,5 +1,6 @@
 <script>
-    const pathBuscador = "<?php echo getBaseAddress(). "Buscador/buscador" ; ?>";
+    const pathBusqueda = "<?php echo getBaseAddress(). "Buscador/buscarProducto" ; ?>";
+    const pathMostrarResultados = "<?php echo getBaseAddress(). "Buscador/mostrarResultados" ; ?>";
 </script>
 
 <body>
@@ -24,13 +25,12 @@
 
         <!-- Buscador-->
 
-        <div class="input-group">
-            <form class="form-check-inline" action= "<?php echo getBaseAddress(). "Buscador/buscarProducto" ; ?>"  method="post">
-                <input type="text" class="form-control" placeholder="Que estás buscando?"  id="buscador" name="buscarProducto">
+      <div class="input-group">
+            <form class="form-check-inline" method="post">
+                <input type="text" class="form-control" placeholder="Que estás buscando?"  id="buscador">
                 <div class="input-group-append">
-                    <input class="btn btn-secondary" type="submit">
+                    <input class="btn btn-secondary" type="submit" id="btnBuscar">
                         <i class="fa fa-search"></i>
-                    </input>
                 </div>
             </form>
         </div>
@@ -51,7 +51,6 @@
 </nav>
 
 
-<script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
 
 
 <!-–Slider de fotos -–>
@@ -169,6 +168,12 @@
 
 </footer>
 </body>
+
+<script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
+
+<script src="<?php echo getBaseAddress() . "Webroot/js/buscador.js" ?>"></script>
+<script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>
+
 
 
 

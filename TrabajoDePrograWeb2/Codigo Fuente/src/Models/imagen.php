@@ -15,8 +15,14 @@ class Imagen extends Model
         ];
         $this->setId($this->insert($array));
         return $this->getId();
-}
+    }
 
+
+    function imagenesPorPk($pk){
+        $resultado=$this->pageRows(0,10, "idProducto=$pk");
+        //$resultado=$this->selectByPk($pk);
+        return $resultado;
+    }
 
 
     /**

@@ -1,8 +1,5 @@
-<script>
-    const pathHome = "<?php echo getBaseAddress(). "Buscador/buscador" ; ?>";
-</script>
-<body>
 
+<body>
 <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -21,18 +18,20 @@
                 <a class="nav-link " href= "<?php echo getBaseAddress() . "Producto/publicar" ?>">Publicar</a>
         </ul>
 
+
         <!-- Buscador-->
 
         <div class="input-group">
-            <form class="form-check-inline" action="<?php echo getBaseAddress() .  "Buscador/buscarProducto" ?>"  method="post">
-                <input type="text" class="form-control" placeholder="Que estás buscando?"  id="buscador" name="buscarProducto">
+            <form class="form-check-inline" method="post">
+                <input type="text" class="form-control" placeholder="Que estás buscando?"  id="buscador">
                 <div class="input-group-append">
-                    <button class="btn btn-secondary" type="button">
+                    <input class="btn btn-secondary" type="submit" id="btnBuscar">
                         <i class="fa fa-search"></i>
-                    </button>
                 </div>
             </form>
         </div>
+
+
 
     </div>
     <!-- Cerrar sesion -->
@@ -51,11 +50,18 @@
 
 <div id="resultado" name="resultado">
     <?php
-    $resultado;
-    $filasProductosCoincidentes=[];
+    $productos;
+    $imagenes;
 
-    foreach($resultado as $prod){
+    $filasProductosCoincidentes=[];
+    $filasImagenesCoincidentes=[];
+
+    foreach($productos as $prod){
         array_push($filasProductosCoincidentes, $prod);
+    }
+
+    foreach($imagenes as $imag){
+        array_push($filasImagenesCoincidentes, $imag);
     }
 
     echo "<div class='container'><table class='table table-striped'><tr>
@@ -64,9 +70,18 @@
                     <th scope='col'>CANTIDAD</th>
                     <th scope='col'>DESCRIPCION</th>
                     <th scope='col'>PRECIO</th>
+                    <th scope='col'>IMAGEN</th>
                     </tr>";
+
+
     foreach ($filasProductosCoincidentes as $fila){
+     foreach ($filasImagenesCoincidentes as $filaImagen) {
+       
+   
     foreach ($fila as $producto){
+        foreach ($filaImagen as $imagen) {
+            # code...
+        }
         echo "<tr>
 
                        <td>" . $producto['idProducto']. "</td>
@@ -74,8 +89,12 @@
                        <td>" . $producto['cantidad']. "</td>
                        <td>" . $producto['descripcion']. "</td>
                        <td>" . $producto['precio']. "</td>
+                        <td> <img src=". $imagen['nombre']. "/></td>
                        </tr>";
     }
+    
+         }
+
     } echo "</table></div>";
 
 
@@ -83,7 +102,8 @@
 
 </div>
 
-<!-- Footer footer class="bg-primary page-footer font-small blue pt-4">
+<!-- Footer-->
+ <footer class="bg-primary page-footer font-small blue pt-4">
 
 
     <div class="bg-secondary text-dark footer-copyright text-center py-3">© 2019 Copyright:
@@ -92,8 +112,10 @@
 
 
 </footer>
-</body>-->
+</body>
 
 
-<script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
+<script src="<?php echo getBaseAddress() . "Webroot/js/buscador.js" ?>"></script>
+<script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>
+
 

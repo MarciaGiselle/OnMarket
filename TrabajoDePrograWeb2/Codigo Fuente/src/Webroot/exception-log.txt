@@ -1228,3 +1228,183 @@ StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDeProg
 #4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
 #5 {main}
 
+[2019-06-10 19:21:14]  Excepción no controlada: 'mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO)' en el archivo db.php en la línea 16
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'mysqli_connect(...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Config\db.php(16): mysqli_connect('localhost', 'root', '')
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(24): Database->__construct(Array)
+#3 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(22): Model->__construct()
+#4 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Array)
+#5 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-10 19:22:13]  Excepción no controlada: 'mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO)' en el archivo db.php en la línea 16
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'mysqli_connect(...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Config\db.php(16): mysqli_connect('localhost:3306', 'root', '')
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(24): Database->__construct(Array)
+#3 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(22): Model->__construct()
+#4 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Array)
+#5 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-10 19:22:48]  Excepción no controlada: 'mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO)' en el archivo db.php en la línea 16
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'mysqli_connect(...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Config\db.php(16): mysqli_connect('localhost:3306', 'root', '')
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(24): Database->__construct(Array)
+#3 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(22): Model->__construct()
+#4 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Array)
+#5 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-10 19:23:03]  Excepción no controlada: 'mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO)' en el archivo db.php en la línea 16
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'mysqli_connect(...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Config\db.php(16): mysqli_connect('localhost:3306', 'root', '')
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(24): Database->__construct(Array)
+#3 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(22): Model->__construct()
+#4 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Array)
+#5 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-10 19:52:44]  Excepción no controlada: 'Undefined variable: imagenesEncontrados' en el archivo BuscadorController.php en la línea 31
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(31): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-10 19:57:44]  Excepción no controlada: 'syntax error, unexpected '"<img src="' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'' en el archivo buscador.php en la línea 93
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(36): Controller->render('buscador')
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-10 20:07:47]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'ProductoController' does not have a method 'publicar?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-10 20:35:12]  Excepción no controlada: 'Undefined variable: usuario' en el archivo BuscadorController.php en la línea 14
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(14): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-10 20:35:27]  Excepción no controlada: 'Undefined variable: usuario' en el archivo BuscadorController.php en la línea 14
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(14): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-10 20:36:15]  Excepción no controlada: 'Undefined index: data' en el archivo BuscadorController.php en la línea 14
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(14): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-10 20:36:32]  Excepción no controlada: 'Undefined index: data' en el archivo BuscadorController.php en la línea 14
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(14): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-10 20:43:39]  Excepción no controlada: 'Undefined index: data' en el archivo BuscadorController.php en la línea 14
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(14): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-10 20:45:54]  Excepción no controlada: 'Undefined index: data' en el archivo BuscadorController.php en la línea 14
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(14): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-10 20:53:35]  Excepción no controlada: 'Undefined index: data' en el archivo BuscadorController.php en la línea 14
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(14): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-10 20:54:37]  Excepción no controlada: 'Undefined index: data' en el archivo BuscadorController.php en la línea 14
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(14): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-10 20:54:47]  Excepción no controlada: 'Undefined index: data' en el archivo BuscadorController.php en la línea 14
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(14): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-10 20:57:14]  Excepción no controlada: 'Undefined index: data' en el archivo BuscadorController.php en la línea 14
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(14): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-10 20:57:24]  Excepción no controlada: 'Undefined index: data' en el archivo BuscadorController.php en la línea 14
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(14): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-10 20:58:25]  Excepción no controlada: 'Undefined index: data' en el archivo BuscadorController.php en la línea 14
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(14): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-10 20:58:33]  Excepción no controlada: 'Undefined index: data' en el archivo BuscadorController.php en la línea 14
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(14): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-10 21:17:57]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 51
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-10 21:19:06]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 51
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-10 21:19:59]  Excepción no controlada: 'Undefined variable: productos' en el archivo buscador.php en la línea 64
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Buscador\buscador.php(64): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(7): Controller->render('buscador')
+#3 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscador(Array)
+#4 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-10 21:28:22]  Excepción no controlada: 'Undefined variable: productos' en el archivo buscador.php en la línea 64
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Buscador\buscador.php(64): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(8): Controller->render('buscador')
+#3 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscador(Array)
+#4 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-10 21:28:27]  Excepción no controlada: 'Undefined variable: productos' en el archivo buscador.php en la línea 64
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Buscador\buscador.php(64): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64, Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(8): Controller->render('buscador')
+#3 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscador(Array)
+#4 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-10 21:35:02]  Excepción no controlada: 'Call to undefined method BuscadorController::buscador()' en el archivo BuscadorController.php en la línea 47
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-10 21:36:28]  Excepción no controlada: 'Call to undefined method BuscadorController::buscador()' en el archivo BuscadorController.php en la línea 47
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-10 21:39:18]  Excepción no controlada: 'Call to undefined method BuscadorController::buscador()' en el archivo BuscadorController.php en la línea 47
+StackTrace: #0 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket-Mar\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+

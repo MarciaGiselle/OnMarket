@@ -10,4 +10,4 @@ $host = "localhost";
 $user = "root";
 $password = "";
 $dbname = "baseapp";
-$port = "3306";
+$port = "3307";

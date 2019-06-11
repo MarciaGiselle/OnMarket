@@ -11,9 +11,9 @@ class Database
         $user = isset($config['user'])? $config['user'] : 'root';
         $password = isset($config['password'])? $config['password'] : '';
         $dbname = isset($config['dbname'])? $config['dbname'] : '';
-        $port = isset($config['port'])? $config['port'] : '3306';
+        $port = isset($config['port'])? $config['port'] : '3307';
 
-        $this->conn = mysqli_connect($host, $user, $password) or die("Error en la conexión a la base de datos");
+        $this->conn = mysqli_connect($host.":".$port, $user, $password) or die("Error en la conexión a la base de datos");
 
         mysqli_select_db($this->conn, $dbname) or die("Error en la selección de la base de datos");
     }
