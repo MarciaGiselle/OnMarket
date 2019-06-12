@@ -27,18 +27,33 @@ class BuscadorController extends Controller
                     throw new ProductoNoEncontradoException("No hay coincidencias con la búsqueda", CodigoError::ProductoNoEncontrado);
                 }else{
 
-                /*$productosEncontrados=[];
+                $productosEncontrados=[];
                 $imagenesEncontradas=[];
-
+                $arrayResultadosProductos=[];
                 foreach ($idsProductos as $pk){
-
                     array_push($productosEncontrados, $productoABuscar->filasPorPk($pk));
-                    array_push($imagenesEncontradas, $imagenABuscar->imagenesPorPk($pk));
-
+                    array_push($imagenesEncontradas, $imagenABuscar->primerImagenPorPk($pk));
                 }
-                */
+                $arrayProducto=[];
+                $arrayProductoImagen=[];
+
+            
+
+
+                    foreach ($productosEncontrados as $prod) {
+                        foreach ($imagenesEncontradas as $imagen) {
+                                $arrayProducto=[
+                                    "prod"=>$prod,
+                                    "imagen"=>$imagen];
+                        }
+
+                        array_push($arrayProductoImagen, $arrayProducto);
+                    }
+
+                    var_dump($arrayProductoImagen);
+
             }
-                echo json_encode($idsProductos);
+                //echo json_encode($arrayResultadosProductos);
 
     }
     }

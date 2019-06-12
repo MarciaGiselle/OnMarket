@@ -36,17 +36,9 @@ function busquedaExitosa(resultados){
     //alertify.alert(JSON.stringify(resultados));
     var datos = JSON.parse(JSON.stringify(resultados));
     var tabla = $('#tabla');
-
     console.log(datos.length);
-   tabla.append(
-       '<thead>'+'<tr>'+
-       '<th text-align="center">codigo</th>'+
-       '<th text-align="center">nombre</th>' +
-       '<th text-align="center" >cantidad</th>'+
-       '</tr>'+
-       '</thead>');
-   for (i = 0; i < datos.length; i++){
 
+   for (i = 0; i < datos.length; i++){
         $("#tabla").append('<tr>' +
             '<td align="center" style="dislay: none;">' + datos[i].idProducto + '</td>'+
             '<td align="center" style="dislay: none;">' + datos[i].nombre + '</td>'+
