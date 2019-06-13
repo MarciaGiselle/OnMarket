@@ -22,7 +22,7 @@ class Imagen extends Model
         $resultado=$this->pageRows(0,1, "idProducto=$pk");
         $imagenes=[];
         for($i=0;$i<count($resultado);$i++){
-            array_push($imagenes, $resultado[$i]["nombre"]);
+            array_push($imagenes, $resultado[$i]);
         }
         /*foreach ($resultado as $imagen){
             array_push($imagenes, $imagen[$i]["nombre"]);

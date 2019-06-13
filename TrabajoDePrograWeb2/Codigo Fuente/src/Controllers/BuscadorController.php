@@ -29,48 +29,31 @@ class BuscadorController extends Controller
 
                 $productosEncontrados=[];
                 $imagenesEncontradas=[];
-                $arrayResultadosProductos=[];
+
                 foreach ($idsProductos as $pk){
                     array_push($productosEncontrados, $productoABuscar->filasPorPk($pk));
                     array_push($imagenesEncontradas, $imagenABuscar->primerImagenPorPk($pk));
                 }
-                $arrayProducto=[];
+
                 $arrayProductoImagen=[];
 
-            
+                for($i=0;$i<count($idsProductos); $i++){
+                    $producto=$productosEncontrados[$i];
+                    $imagen=$imagenesEncontradas[$i];
+                    $arrayProducto=[
+                        "prod"=>$producto,
+                        "imagen"=>$imagen];
+                    array_push($arrayProductoImagen, $arrayProducto);
 
+                }
 
-                    foreach ($productosEncontrados as $prod) {
-                        foreach ($imagenesEncontradas as $imagen) {
-                                $arrayProducto=[
-                                    "prod"=>$prod,
-                                    "imagen"=>$imagen];
-                        }
-
-                        array_push($arrayProductoImagen, $arrayProducto);
-                    }
-
-                    var_dump($arrayProductoImagen);
-
-            }
-                //echo json_encode($arrayResultadosProductos);
+                }
+                echo json_encode($arrayProductoImagen);
 
     }
     }
 
-    function mostrarResultados($idsProductos){
-        $d["title"] = "Buscador";
-        $productoABuscar = new Producto();
 
-
-
-
-        $d["productos"]=$productosEncontrados;
-        $d["imagenes"]=$imagenesEncontradas;
-        $this->set($d);
-        $this->render(Constantes::BUSCADORVIEW);
-
-}
 
 
 

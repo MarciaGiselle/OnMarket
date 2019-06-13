@@ -12,6 +12,7 @@ abstract class CodigoError
     const PasswordInvalida = 5;
     const UsuarioNoEncontrado = 15;
     const ProductoNoEncontrado = 20;
+    const PublicacionInvalida = 25;
     
 
 

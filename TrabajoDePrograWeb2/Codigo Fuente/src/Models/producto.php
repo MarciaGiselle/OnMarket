@@ -30,41 +30,12 @@ class Producto extends Model
         $error=0;
         $mensaje="";
 
-        if(empty($this->idCategoria)){
-            $error.=1;
-            $mensaje.="Seleccione una categoria<br>"." ";
-        }
-        if(!FuncionesComunes::validarCadena($this->getNombre())) {
-            $error.=1;
-            $mensaje.="Nombre Inválido<br>"." ";
-        }
 
-        //ver regex espacios
-        if(!FuncionesComunes::validarCadena($this->getDescripcion())) {
-            $error.=1;
-            $mensaje.="Descripcion Inválida<br>"." ";
-        }
 
-        //validar que los campos sean solo numeros
-        if(!FuncionesComunes::validarNumeros($this->getCantidad())) {
-            $error.=1;
-            $mensaje.="Cantidad Invalida<br>"." ";
-        }
-        if(!FuncionesComunes::validarNumeros($this->getPrecio())) {
-            $error.=1;
-            $mensaje.="Precio Inválido<br>"." ";
-        }
-
-        if($error>0){
-            echo "<script> alert('$mensaje') </script>";
-        }
-        else{
-            return true;
-    }
     }
 
     function buscarProductoEnLaBase(){
-        $resultadoDeLaBusqueda= $this->pageRows(0,100, "nombre like '$this->nombre%'");
+        $resultadoDeLaBusqueda= $this->pageRows(0,100, "nombre like '%$this->nombre%'");
         $idArray=[];
        if(!empty($resultadoDeLaBusqueda[0])){
             for($i=0;$i<count($resultadoDeLaBusqueda);$i++){

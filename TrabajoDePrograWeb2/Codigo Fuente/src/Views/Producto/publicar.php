@@ -83,7 +83,7 @@
                 <div class="form-group col-md-6">
                     <label class="text-primary">Seleccioná una categoría*</label>
                     <select class="custom-select" id="inputGroupSelect01" name="categoria">
-                        <option value="null" selected>Seleccionar...</option>
+                        <option selected>Seleccionar...</option>
                         <option value="electronica">Electrónica</option>
                         <option value="moda">Moda y belleza</option>
                         <option value="mascotas">Mascotas</option>
@@ -140,8 +140,9 @@
 
                             <div class="col-sm">
                                 <div class="form-group">
-                                    <input type="file" class="form-control-file" name="imagen[]"
-                                           accept="image/png, .jpeg, .jpg" multiple>
+                                    <input name="enviar" type="submit" value="subir archivo" />
+                                    <input type="hidden" value="<?php echo "../Webroot/imgCargadas" ?>" name="destino">
+                                    <input type="file" class="form-control-file" name="imagen[]" accept="image/png, .jpeg, .jpg" multiple>
                                 </div>
                             </div>
                         </div>

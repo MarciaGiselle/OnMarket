@@ -52,8 +52,10 @@
 
         <div class='container'>
             <table id="tablaBuscador" class='table table-hover text-center mt-4' >
-                <thead><tr>
-                    <th class="text-primary">RESULTADOS ENCONTRADOS</th>
+                <thead>
+                <tr>
+                    <th class="text-primary d-none">RESULTADOS ENCONTRADOS</th>
+                </tr>
                 </thead>
             </table>
         </div>
