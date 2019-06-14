@@ -46,7 +46,7 @@ ingresar.click(function () {
         $(".error").fadeOut();
         $(".error").removeClass("d-flex").addClass("d-none").find("span").text("");
     }
-    
+
     var validacion = validarName() && validarPassword();
 
     if(validacion) {
