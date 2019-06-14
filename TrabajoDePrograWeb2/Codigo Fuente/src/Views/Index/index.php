@@ -23,14 +23,10 @@
                 <a class="nav-link disabled" href= "#">Publicar</a>
         </ul>
 
-
-        <!-- Buscador-->
-        <div class="input-group mr-2">
-            <input type="search" class="form-control" placeholder="Que estás buscando?"  id="buscador">
-            <div class="input-group-append">
-                <span type="submit" class="input-group-text" id="btnBuscar"><i class="fa fa-search" ></i></span>
-            </div>
-        </div>
+        <!--boton busqueda -->
+        <form action="<?php echo getBaseAddress() . "Buscador/busqueda" ?>" method="post">
+            <input type="submit" value="Realizar una búsqueda" class="btn btn-light">
+        </form>
 
     </div>
 
@@ -40,24 +36,28 @@
         <div class="dropdown dropleft">
 
             <button class="btn btn-outline-light mr-sm-2" type="button" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">Iniciar Sesión
-            </button>
+                    aria-expanded="false">Ingresar a mi cuenta</button>
 
-            <div class="dropdown-menu p-3" >
-
+            <div class="dropdown-menu p-2 mr-2" >
                 <div class="form-group">
-                    <label for="exampleDropdownFormEmail2">Usuario</label>
-                    <input type="text" class="form-control"  placeholder="User"
-                           name="nombre" id="inputName">
+                    <label for="inputName" class="mb-0 font-weight-bolder">Usuario</label>
+                    <input type="text" class="form-control my-1"  placeholder="User" name="nombre" id="inputName" data-toggle="popover" title="Nombre de usuario">
+                    <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error" id="errorNombre">
+                        <i class="fa fa-exclamation-circle error"></i>
+                        <small class="text-left"></small>
+                    </div>
                 </div>
 
-                <div class="form-group">
-                    <label for="exampleDropdownFormPassword2">Contraseña</label>
-                    <input type="text" class="form-control" id="inputPass" placeholder="Contraseña"
-                           name="pass">
+                <div class="form-group ">
+                    <label for="inputPass" class="mb-0 font-weight-bolder">Contraseña</label>
+                    <input type="text" class="form-control  my-1" id="inputPass" placeholder="Contraseña" name="pass">
+                    <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error" id="errorPass">
+                        <i class="fa fa-exclamation-circle"></i>
+                        <small class="text-left"></small>
+                    </div>
                 </div>
 
-                <input type="submit" class="btn btn-primary" value="Iniciar Sesión" name="ingresar" id="ingresar"/>
+                <input type="submit" class="btn btn-lg btn-primary" value="Iniciar Sesión" name="ingresar" id="ingresar"/>
 
 
             </div>

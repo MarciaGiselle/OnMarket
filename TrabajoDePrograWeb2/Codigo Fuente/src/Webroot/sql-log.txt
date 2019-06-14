@@ -5955,3 +5955,56 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-14 11:36:44]  DESC Publicacion_Entrega
 [2019-06-14 11:36:44]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-06-14','Vinilos decorativos','1','108')
 [2019-06-14 11:36:44]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('28','1')
+[2019-06-14 11:53:49]  DESC Usuario
+[2019-06-14 11:53:49]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 11:53:58]  DESC Producto
+[2019-06-14 11:53:58]  DESC Imagen
+[2019-06-14 11:53:58]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-14 11:53:58]  select * from Producto  where idProducto=86 limit 0, 10
+[2019-06-14 11:53:58]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-14 11:53:58]  select * from Producto  where idProducto=87 limit 0, 10
+[2019-06-14 11:53:58]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-14 11:53:58]  select * from Producto  where idProducto=107 limit 0, 10
+[2019-06-14 11:53:58]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-14 11:53:58]  select * from Producto  where idProducto=108 limit 0, 10
+[2019-06-14 11:53:58]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-14 15:00:39]  DESC Usuario
+[2019-06-14 15:00:39]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:00:49]  DESC Usuario
+[2019-06-14 15:00:49]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:00:59]  DESC Usuario
+[2019-06-14 15:00:59]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:02:44]  DESC Usuario
+[2019-06-14 15:02:44]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:02:52]  DESC Usuario
+[2019-06-14 15:02:52]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:03:00]  DESC Usuario
+[2019-06-14 15:03:00]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:03:33]  DESC Usuario
+[2019-06-14 15:03:33]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:05:07]  DESC Usuario
+[2019-06-14 15:05:07]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:08:03]  DESC Usuario
+[2019-06-14 15:08:03]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:08:08]  DESC Usuario
+[2019-06-14 15:08:08]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:09:22]  DESC Usuario
+[2019-06-14 15:09:22]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:14:25]  DESC Usuario
+[2019-06-14 15:14:25]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:14:34]  DESC Usuario
+[2019-06-14 15:14:34]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:14:42]  DESC Usuario
+[2019-06-14 15:14:42]  select * from Usuario  where name= 'sasa' and password='7bf1ab1b8f7331ab5dc410e01f959d958bfd210e' limit 0, 1
+[2019-06-14 15:15:25]  DESC Usuario
+[2019-06-14 15:15:25]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:15:41]  DESC Usuario
+[2019-06-14 15:15:41]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:15:55]  DESC Usuario
+[2019-06-14 15:15:55]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:16:05]  DESC Usuario
+[2019-06-14 15:16:05]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:17:19]  DESC Usuario
+[2019-06-14 15:17:19]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 15:17:26]  DESC Usuario
+[2019-06-14 15:17:27]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1

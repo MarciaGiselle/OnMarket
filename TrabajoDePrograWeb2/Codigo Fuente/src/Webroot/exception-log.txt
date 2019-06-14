@@ -2525,3 +2525,8 @@ StackTrace: #0 [internal function]: globalErrorHandler(2, 'copy(mercadolib...', 
 #4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
 #5 {main}
 
+[2019-06-14 15:14:42]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 38
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
