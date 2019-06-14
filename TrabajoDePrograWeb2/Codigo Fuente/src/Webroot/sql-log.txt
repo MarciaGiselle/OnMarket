@@ -5854,3 +5854,104 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-14 01:52:55]  DESC Publicacion_Entrega
 [2019-06-14 01:52:55]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-06-14','asasa','1','98')
 [2019-06-14 01:52:55]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('26','1')
+[2019-06-14 10:46:27]  DESC Usuario
+[2019-06-14 10:46:27]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 10:46:36]  DESC Producto
+[2019-06-14 10:46:36]  DESC Categoria
+[2019-06-14 10:46:36]  select * from Categoria  where nombreCategoria='Seleccionar...' limit 0, 1
+[2019-06-14 10:46:36]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('','','','','')
+[2019-06-14 10:47:17]  DESC Producto
+[2019-06-14 10:47:17]  DESC Categoria
+[2019-06-14 10:47:17]  select * from Categoria  where nombreCategoria='deportes' limit 0, 1
+[2019-06-14 10:47:17]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('','','','','6')
+[2019-06-14 10:47:17]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('','','','','6')
+[2019-06-14 10:47:48]  DESC Producto
+[2019-06-14 10:47:48]  DESC Categoria
+[2019-06-14 10:47:48]  select * from Categoria  where nombreCategoria='deportes' limit 0, 1
+[2019-06-14 10:47:48]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('','','','','6')
+[2019-06-14 10:47:48]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('','','','','6')
+[2019-06-14 10:47:49]  DESC Imagen
+[2019-06-14 10:47:49]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('kit3.png','103')
+[2019-06-14 10:47:49]  DESC Imagen
+[2019-06-14 10:47:49]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('kit2.png','103')
+[2019-06-14 10:47:49]  DESC Imagen
+[2019-06-14 10:47:49]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('kit1.png','103')
+[2019-06-14 10:47:49]  DESC Publicacion
+[2019-06-14 10:47:49]  DESC FormaEntrega
+[2019-06-14 10:47:49]  select * from FormaEntrega  where  descripcion='Correo'  limit 0, 1
+[2019-06-14 10:49:26]  DESC Producto
+[2019-06-14 10:49:26]  DESC Categoria
+[2019-06-14 10:49:26]  select * from Categoria  where nombreCategoria='deportes' limit 0, 1
+[2019-06-14 10:49:26]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('','','','','6')
+[2019-06-14 10:49:27]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('','','','','6')
+[2019-06-14 10:49:27]  DESC Imagen
+[2019-06-14 10:49:27]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('kit3.png','105')
+[2019-06-14 10:49:27]  DESC Imagen
+[2019-06-14 10:49:27]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('kit2.png','105')
+[2019-06-14 10:49:27]  DESC Imagen
+[2019-06-14 10:49:27]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('kit1.png','105')
+[2019-06-14 10:49:27]  DESC Publicacion
+[2019-06-14 10:49:27]  DESC FormaEntrega
+[2019-06-14 10:49:27]  select * from FormaEntrega  where  descripcion='Correo'  limit 0, 1
+[2019-06-14 10:49:27]  DESC Publicacion
+[2019-06-14 10:49:27]  DESC FormaEntrega
+[2019-06-14 10:49:27]  select * from FormaEntrega  where  descripcion='Correo'  limit 0, 1
+[2019-06-14 11:00:09]  DESC Usuario
+[2019-06-14 11:00:09]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-14 11:00:42]  DESC Producto
+[2019-06-14 11:00:42]  DESC Categoria
+[2019-06-14 11:00:42]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-06-14 11:00:58]  DESC Producto
+[2019-06-14 11:00:58]  DESC Categoria
+[2019-06-14 11:00:58]  select * from Categoria  where nombreCategoria='Seleccionar...' limit 0, 1
+[2019-06-14 11:01:38]  DESC Producto
+[2019-06-14 11:01:38]  DESC Categoria
+[2019-06-14 11:01:38]  select * from Categoria  where nombreCategoria='jardin' limit 0, 1
+[2019-06-14 11:01:38]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Kit impreso para desayuno dia de la madre','Personalizado','100','250','8')
+[2019-06-14 11:01:38]  DESC Imagen
+[2019-06-14 11:01:39]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('kit3.png','106')
+[2019-06-14 11:01:39]  DESC Imagen
+[2019-06-14 11:01:39]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('kit2.png','106')
+[2019-06-14 11:01:39]  DESC Imagen
+[2019-06-14 11:01:39]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('kit1.png','106')
+[2019-06-14 11:01:39]  DESC Publicacion
+[2019-06-14 11:01:39]  DESC FormaEntrega
+[2019-06-14 11:01:39]  select * from FormaEntrega  where  descripcion='acordarConElVendedor'  limit 0, 1
+[2019-06-14 11:01:39]  DESC Publicacion_Entrega
+[2019-06-14 11:01:39]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-06-14','Kit desayuno ','1','106')
+[2019-06-14 11:01:39]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('27','1')
+[2019-06-14 11:03:49]  DESC Producto
+[2019-06-14 11:03:49]  DESC Imagen
+[2019-06-14 11:03:49]  select * from Producto  where nombre like '%kit%' limit 0, 100
+[2019-06-14 11:03:49]  select * from Producto  where idProducto=106 limit 0, 10
+[2019-06-14 11:03:49]  select * from Imagen  where idProducto=106 limit 0, 1
+[2019-06-14 11:23:40]  DESC Producto
+[2019-06-14 11:23:40]  DESC Categoria
+[2019-06-14 11:23:40]  select * from Categoria  where nombreCategoria='jardin' limit 0, 1
+[2019-06-14 11:23:40]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Vinilos primaverales decorativos','Coloridos y de excelente calidad','300','700','8')
+[2019-06-14 11:23:40]  DESC Imagen
+[2019-06-14 11:23:40]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('mercadolibrepri10.png','107')
+[2019-06-14 11:23:40]  DESC Imagen
+[2019-06-14 11:23:40]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('fotos4.png','107')
+[2019-06-14 11:23:41]  DESC Imagen
+[2019-06-14 11:23:41]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('mercadolibrepri9.png','107')
+[2019-06-14 11:23:41]  DESC Imagen
+[2019-06-14 11:23:41]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('mercadolibre.PRI6png.png','107')
+[2019-06-14 11:36:43]  DESC Producto
+[2019-06-14 11:36:43]  DESC Categoria
+[2019-06-14 11:36:43]  select * from Categoria  where nombreCategoria='jardin' limit 0, 1
+[2019-06-14 11:36:43]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Vinilos primaverales decorativos','Coloridos y de excelente calidad','300','700','8')
+[2019-06-14 11:36:43]  DESC Imagen
+[2019-06-14 11:36:43]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('mercadolibrepri10.png','108')
+[2019-06-14 11:36:43]  DESC Imagen
+[2019-06-14 11:36:43]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('fotos4.png','108')
+[2019-06-14 11:36:43]  DESC Imagen
+[2019-06-14 11:36:43]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('mercadolibrepri9.png','108')
+[2019-06-14 11:36:43]  DESC Imagen
+[2019-06-14 11:36:43]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('mercadolibre.PRI6png.png','108')
+[2019-06-14 11:36:44]  DESC Publicacion
+[2019-06-14 11:36:44]  DESC FormaEntrega
+[2019-06-14 11:36:44]  select * from FormaEntrega  where  descripcion='acordarConElVendedor'  limit 0, 1
+[2019-06-14 11:36:44]  DESC Publicacion_Entrega
+[2019-06-14 11:36:44]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-06-14','Vinilos decorativos','1','108')
+[2019-06-14 11:36:44]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('28','1')

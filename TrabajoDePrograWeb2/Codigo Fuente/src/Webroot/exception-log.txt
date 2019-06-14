@@ -2505,3 +2505,23 @@ StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDeProg
 #2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
 #3 {main}
 
+[2019-06-14 10:47:17]  Excepción no controlada: 'Undefined variable: arrayImagenes' en el archivo ProductoController.php en la línea 58
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(58): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-14 10:47:49]  Excepción no controlada: 'Too few arguments to function ProductoController::altaPublicacion(), 0 passed in C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php on line 63 and exactly 2 expected' en el archivo ProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(63): ProductoController->altaPublicacion()
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-14 11:23:41]  Excepción no controlada: 'copy(mercadolibrepri10.png): failed to open stream: No such file or directory' en el archivo ProductoController.php en la línea 101
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'copy(mercadolib...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(101): copy('mercadolibrepri...', '../Webroot/imgC...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(74): ProductoController->guardarImagenes(Array, 4)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
