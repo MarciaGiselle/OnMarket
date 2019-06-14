@@ -34,11 +34,11 @@
         </ul>
 
 
-        <!-- Buscador-->
         <!--boton busqueda -->
         <form action="<?php echo getBaseAddress() . "Buscador/busqueda" ?>" method="post">
-            <input type="submit" value="Realizar búsqueda" class="btn btn-secondary">
+            <input type="submit" value="Realizar una búsqueda" class="btn btn-light">
         </form>
+
 
 
     </div>

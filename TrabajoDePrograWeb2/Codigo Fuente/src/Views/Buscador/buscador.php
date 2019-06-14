@@ -30,10 +30,7 @@
     <!-- Cerrar sesion -->
     <div class="d-inline-flex mr-2">
         <form action="<?php echo getBaseAddress() . "Usuario/cerrarSesion" ?>" method="post">
-            <!-- cambiar url -->
-
             <input type="submit" value="Cerrar Sesión "class="btn btn-outline-light">
-
         </form>
     </div>
 </nav>
@@ -50,14 +47,17 @@
         <span type="submit" class="input-group-text" id="btnBuscar"><i class="fa fa-search" ></i></span>
     </div>
 
-        <div class='container'>
+        <div class='container d-none' id="resultados">
+            <form action="<?php echo getBaseAddress(). "Buscador/mostrar" ?>" method="post">
             <table id="tablaBuscador" class='table table-hover text-center mt-4' >
                 <thead>
                 <tr>
-                    <th class="text-primary d-none">RESULTADOS ENCONTRADOS</th>
+                    <th class="text-primary ">RESULTADOS ENCONTRADOS</th>
                 </tr>
                 </thead>
+
             </table>
+            </form>
         </div>
 </div>
 </div>
