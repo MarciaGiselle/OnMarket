@@ -19,13 +19,10 @@
                 <a class="nav-link active">Publicar</a>
         </ul>
 
-        <!-- Buscador-->
-        <div class="input-group mr-2">
-            <input type="search" class="form-control" placeholder="Que estás buscando?"  id="buscador">
-            <div class="input-group-append">
-                <span type="submit" class="input-group-text" id="btnBuscar"><i class="fa fa-search" ></i></span>
-            </div>
-        </div>
+        <!--boton busqueda -->
+        <form action="<?php echo getBaseAddress() . "Buscador/busqueda" ?>" method="post">
+            <input type="submit" value="Realizar búsqueda" class="btn btn-secondary">
+        </form>
 
     </div>
     <!-- Cerrar sesion -->

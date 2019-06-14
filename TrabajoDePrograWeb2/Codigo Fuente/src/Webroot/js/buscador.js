@@ -48,12 +48,18 @@ function busquedaExitosa(resultados){
     for (i = 0; i < datos.length; i++){
         var name= datos[i].imagen[0].nombre;
         tabla.append('<tr>' +
-            '<td align="center">' + datos[i].prod[0].nombre + '</td>'+
+            '<td align="center"> '+ datos[i].prod[0].nombre + '</td>'+
             '<td align="center">' + datos[i].prod[0].precio + '</td>'+
             '<td align="center" >'+ datos[i].prod[0].descripcion+ '</td>'+
             '<td align="center" >'+ '<img height="100px" src="../Webroot/imgCargadas/'+ name +'">'+
             '</td>'+
+            '<td align="center" ><form action="mostrar" method="post">' +
+                                  '<input type="hidden" name="id" value="'+ datos[i].prod[0].idProducto + '">'+
+                                  '<input type="submit" value="Ver">'+
+                                  '</form>'+
+            '</form></td>'+
             '</tr>'
+
         );
     }
 
