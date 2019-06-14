@@ -18,7 +18,6 @@ class Producto extends Model
          "cantidad"=>$this->getCantidad(),
          "precio"=>$this->getPrecio(),
          "idCategoria"=>$this->getIdCategoria(),
-
      ] ;      
        $this->setIdProducto($this->insert($array));
        return $this->getIdProducto();

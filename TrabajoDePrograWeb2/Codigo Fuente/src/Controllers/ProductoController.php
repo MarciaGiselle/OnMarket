@@ -18,23 +18,32 @@ class ProductoController extends Controller
     }
 
 
-    function altaProducto($publicacion){
+    function altaProducto($publicacion)
+    {
 
         $producto = new Producto();
         $categoria = new Categoria();
+        $error=0;
         //conceptos generales
         if (FuncionesComunes::validarCadena($publicacion["nombre"])) {
             $producto->setNombre($publicacion["nombre"]);
+        }else{
+            $error.=1;
         }
-
         if (FuncionesComunes::validarCadenaNumerosYEspacios($publicacion["descripcion"])) {
             $producto->setDescripcion($publicacion["descripcion"]);
+        }else{
+            $error.=1;
         }
         if (FuncionesComunes::validarNumeros($publicacion["cantidad"])) {
             $producto->setCantidad($publicacion["cantidad"]);
+        }else{
+            $error.=1;
         }
-       if (FuncionesComunes::validarNumeros($publicacion["precio"])) {
+        if (FuncionesComunes::validarNumeros($publicacion["precio"])) {
             $producto->setPrecio($publicacion["precio"]);
+        }else{
+            $error.=1;
         }
         if (!empty($publicacion["categoria"]) && FuncionesComunes::validarCadena($publicacion['categoria'])) {
             //categoria obtener id y setearlo
@@ -46,36 +55,26 @@ class ProductoController extends Controller
         }
 
 
-        else {
-            throw new PublicacionCamposInvalidosException("Alguno de los campos completados no poseen un formato válido", CodigoError::PublicacionInvalida);
-        }
-
-        var_dump($producto);
         //imagenes
         $countfiles = count($_FILES["imagen"]["name"]);
-        if($countfiles>2 || $countfiles>10){
-        for ($i = 0; $countfiles > $i; $i++) {
-            $arrayImagenes[$i] = $_FILES['imagen']['name'][$i];
+        if ($countfiles > 2 || $countfiles > 10) {
+            for ($i = 0; $countfiles > $i; $i++) {
+                $arrayImagenes[$i] = $_FILES['imagen']['name'][$i];
+            }
+        }else{
+            $error.=1;
         }
 
-        $idProducto = $producto->insertarProducto();
-        $this->insertarImagenes($arrayImagenes, $idProducto);
-        $this->guardarImagenes($publicacion, $countfiles);
-
+        if($error>0){
+            $mensaje="carga incorrecta";
+            echo "<script> alert('$mensaje') </script>";
+        }else{
+            $idProducto = $producto->insertarProducto();
+            $this->insertarImagenes($arrayImagenes, $idProducto);
+            $this->guardarImagenes($publicacion, $countfiles);
+            $this->altaPublicacion($publicacion, $idProducto);
         }
-        else{
-            throw new PublicacionCamposInvalidosException("Alguno de los campos completados no poseen un formato válido", CodigoError::PublicacionInvalida);
-
-        }
-
-        if(! ($this->altaPublicacion($publicacion, $idProducto))){
-            //cambiar!
-            throw new PublicacionCamposInvalidosException("Alguno de los campos completados no poseen un formato válido", CodigoError::PublicacionInvalida);
-
-        }
-
     }
-
 
     function insertarImagenes($arrayImagenes, $idProducto)
     {
@@ -92,37 +91,36 @@ class ProductoController extends Controller
         for ($i = 0; $countfiles > $i; $i++) {
             $archivo = $_FILES["imagen"]['name'][$i];
             $tmpName = $_FILES['imagen']['tmp_name'][$i];
+            var_dump($_FILES);
             // $prefijo = substr(md5(uniqid(rand())),0,6);
 
             if ($archivo != "") {
                 // guardamos el archivo a la carpeta files
                 $destino = $publicacion['destino'] . "/" . $archivo;
-
-                if (copy($tmpName, $destino)) {
-                    return true;
-                }
+                copy($tmpName, $destino);
             }
         }
     }
 
-    function altaPublicacion($publicacion, $idProducto){
+    function altaPublicacion($publicacion, $idProducto)
+    {
         $publicar = new Publicacion();
 
-        $validacion=true;
+        $validacion = true;
         if (FuncionesComunes::validarCadena($publicacion["titulo"])) {
             $publicar->setTitulo($publicacion["titulo"]);
             $publicar->setTitulo($publicacion["titulo"]);
-        }else{
-            $validacion=false;
+        } else {
+            $validacion = false;
         }
-        if(!empty($publicacion["envio"])) {
-            $entrega =$publicacion["envio"];
+        if (!empty($publicacion["envio"])) {
+            $entrega = $publicacion["envio"];
             $entregaPubli = new formaentrega();
             $idEntrega = $entregaPubli->obtenerIdMetodoEntrega($entrega);
-        }else{
-            $validacion=false;
+        } else {
+            $validacion = false;
         }
-        if($validacion){
+        if ($validacion) {
             $fecha_actual = date("y-m-d");
             $publicar->setFecha($fecha_actual);
             $publicar->setId_user($_SESSION["idUser"]);
@@ -140,8 +138,6 @@ class ProductoController extends Controller
         return $validacion;
 
     }
-
-
 
 
 }
