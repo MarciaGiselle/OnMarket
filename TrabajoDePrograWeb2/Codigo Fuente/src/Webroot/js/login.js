@@ -1,19 +1,19 @@
-const regexLetrasYNumeros = /^[0-9a-zA-Z]+$/;
+const regexLetrasYNumeros2 = /^[0-9a-zA-Z]+$/;
 
 var inputName = $('#inputName');
 var inputPass = $('#inputPass');
 var ingresar = $("#ingresar");
 var errorName = $("#errorName");
 
-function validarName() {
 
+function validarName() {
     var validacion = false;
     var name = inputName.val();
 
     if(name === null || name.length === 0 || name === "") {
         errorName.fadeIn("slow");
 
-    } else if(!regexLetrasYNumeros.test(name)) {
+    } else if(!regexLetrasYNumeros2.test(name)) {
         errorName.fadeIn("slow");
 
     } else {
@@ -32,7 +32,7 @@ function validarPassword() {
     if (pass === null || pass.length === 0 || pass === "") {
         $("#errorPass").fadeIn("slow");
         return false;
-    } else if(!regexLetrasYNumeros.test(pass)) {
+    } else if(!regexLetrasYNumeros2.test(pass)) {
         $("#errorPass2").fadeIn("slow");
     } else {
         validacion = true;
@@ -61,13 +61,10 @@ ingresar.click(function () {
 });
 
 function loginExitoso(dummy) {
-
    window.location.href = pathHome;
 }
 
 function loginFallido(err) {
-
-
     $("input").prop("disabled", false);
     ingresar.prop("disabled", false);
     alertify.alert("Error de Logueo", err);

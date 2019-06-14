@@ -7,4 +7,6 @@ class IndexController extends Controller
         $this->set($d);
         $this->render(Constantes::INDEXVIEW);
     }
+
+    
 }

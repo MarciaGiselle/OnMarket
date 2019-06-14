@@ -1,6 +1,7 @@
 <script>
     const pathHome = "<?php echo getBaseAddress(). "Usuario/mostrarInicio" ; ?>";
     const pathLoguear = "<?php echo getBaseAddress() .  "Usuario/login" ; ?>";
+    const pathBuscar = "<?php echo getBaseAddress() .  "Index/buscarProducto" ; ?>";
 </script>
 
 <body>
@@ -22,17 +23,13 @@
                 <a class="nav-link disabled" href= "#">Publicar</a>
         </ul>
 
-        <!-- Buscador-->
 
-        <div class="input-group">
-            <form class="form-check-inline">
-                <input type="text" class="form-control" placeholder="Que estás buscando?">
-                <div class="input-group-append">
-                    <button class="btn btn-secondary" type="button">
-                        <i class="fa fa-search"></i>
-                    </button>
-                </div>
-            </form>
+        <!-- Buscador-->
+        <div class="input-group mr-2">
+            <input type="search" class="form-control" placeholder="Que estás buscando?"  id="buscador">
+            <div class="input-group-append">
+                <span type="submit" class="input-group-text" id="btnBuscar"><i class="fa fa-search" ></i></span>
+            </div>
         </div>
 
     </div>
@@ -81,7 +78,7 @@
 </nav>
 
 
-<script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
+
 
 
 <!-–Slider de fotos -–>

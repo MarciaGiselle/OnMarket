@@ -28,9 +28,23 @@ class Usuario extends Model
         return false;
     }
     }
+    public  function consultarLogin(){
+        $error=0;
+        $mensaje="";
+        $resultado=$this->pageRows(0,1,"userName='$this->userName' and password='$this->password'");
+
+        if (!empty($resultado)){
+           return true;
+        }else{
+            return false;
+        }
 
 
-    public  function consultarUserNameYPass($pass2){
+
+
+    }
+
+    public  function consultarUserName(){
      $error=0;
     $mensaje="";
     $resultado=$this->pageRows(0,1,"userName='$this->userName'");
@@ -40,10 +54,7 @@ class Usuario extends Model
        $mensaje.="nombre de usuario invalido"." ";
     }
 
-    if(!($this->getPassword()==$pass2)){
-        $error.=1;
-       $mensaje.="pass invalido"." ";
-    }
+
 
     if($error>0){
             echo "<script> alert('$mensaje'); </script>";
@@ -53,7 +64,20 @@ class Usuario extends Model
         }
        
     }
+    public  function consultarPass($pass){
+        $error=0;
 
+
+        if (!empty($resultado)){
+            return false;
+        }else{
+            return true;
+        }
+
+
+
+
+    }
 
 
 

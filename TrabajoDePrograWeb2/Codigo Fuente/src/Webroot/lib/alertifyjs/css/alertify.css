@@ -24,6 +24,7 @@
   padding: 0;
   overflow-y: auto;
   z-index: 1981;
+
 }
 .alertify .ajs-dialog {
   position: relative;

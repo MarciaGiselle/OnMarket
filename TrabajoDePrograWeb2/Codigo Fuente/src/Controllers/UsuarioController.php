@@ -18,7 +18,6 @@ class UsuarioController extends Controller
         $nombre = $data->nombre;
         $pass = $data->password;
 
-
         $passSHA = sha1($pass);
         $usuario = new Usuario ();
         $usuario->setName($nombre);
@@ -39,7 +38,7 @@ class UsuarioController extends Controller
                throw new NombreOPassInvalidoException("Nombre o password incorrectos",CodigoError::NombreOPassInvalidoException);
             }
 
-        echo json_encode("Nombre o password incorrecttos");
+        echo json_encode(true);
     }
 }
 
@@ -59,6 +58,8 @@ class UsuarioController extends Controller
         $this->render(Constantes::USUARIOVIEW);
 
     }
+
+
 
 
 
