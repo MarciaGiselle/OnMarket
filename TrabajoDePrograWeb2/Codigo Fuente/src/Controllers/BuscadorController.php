@@ -8,6 +8,26 @@ class BuscadorController extends Controller
         $this->render(Constantes::BUSCADORVIEW);
     }
 
+    function mostrar($datos)
+    {
+        $d["title"] = "Index";
+        $id=67;
+        $producto = new Producto();
+        $encontrado= $producto->PorPk($id);
+        $d["nombre"] = $encontrado[0]["nombre"];
+        $d["precio"] = $encontrado[0]["precio"];
+        $d["cantidad"] = $encontrado[0]["cantidad"];
+        $d["descripcion"] = $encontrado[0]["descripcion"];
+
+
+        $imagen =new Imagen();
+        $d["imagen"] = $imagen->imagenPk($id);;
+        $this->set($d);
+        $this->render(Constantes::MOSTRARVIEW);
+
+
+    }
+
     function buscarProducto($buscador){
 
         header("Content-type: application/json");

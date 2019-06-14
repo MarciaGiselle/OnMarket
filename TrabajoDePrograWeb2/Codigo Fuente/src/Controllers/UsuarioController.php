@@ -59,6 +59,16 @@ class UsuarioController extends Controller
 
     }
 
+    function comprar(){
+    if(isset( $_SESSION["logueado"])){
+        //hace la funcioon comprar
+
+    }else{
+        alert("No puede comprar sin iniciar sesion");
+    }
+
+    }
+
 
 
 

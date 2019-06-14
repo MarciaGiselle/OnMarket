@@ -30,7 +30,11 @@ class Imagen extends Model
         return $imagenes;
     }
 
-
+    function imagenPk($pk){
+        $resultado=$this->pageRows(0,10, "idProducto=$pk");
+        //$resultado=$this->selectByPk($pk);
+        return $resultado;
+    }
     /**
      * @return mixed
      */
