@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 07-06-2019 a las 02:37:11
+-- Tiempo de generación: 10-06-2019 a las 16:22:28
 -- Versión del servidor: 10.1.38-MariaDB
 -- Versión de PHP: 7.1.28
 
@@ -39,16 +39,6 @@ CREATE TABLE `categoria` (
 -- Volcado de datos para la tabla `categoria`
 --
 
-INSERT INTO `categoria` (`idCategoria`, `nombreCategoria`) VALUES
-(1, 'electronica'),
-(2, 'moda'),
-(3, 'mascotas'),
-(4, 'herramientas'),
-(5, 'muebles'),
-(6, 'deportes'),
-(7, 'musica'),
-(8, 'jardin');
-
 -- --------------------------------------------------------
 
 --
@@ -60,13 +50,6 @@ CREATE TABLE `formaentrega` (
   `descripcion` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Volcado de datos para la tabla `formaentrega`
---
-
-INSERT INTO `formaentrega` (`idEntrega`, `descripcion`) VALUES
-(1, 'acordarConElVendedor'),
-(2, 'Correo');
 
 -- --------------------------------------------------------
 
@@ -80,6 +63,9 @@ CREATE TABLE `imagen` (
   `idProducto` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Volcado de datos para la tabla `imagen`
+--
 
 -- --------------------------------------------------------
 
@@ -108,6 +94,11 @@ CREATE TABLE `producto` (
   `nombre` varchar(191) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Volcado de datos para la tabla `producto`
+--
+
+
 -- --------------------------------------------------------
 
 --
@@ -123,18 +114,20 @@ CREATE TABLE `publicacion` (
   `id_Producto` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- --------------------------------------------------------
-
 --
--- Estructura de tabla para la tabla `publicaciónentrega`
+-- Volcado de datos para la tabla `publicacion`
 --
 
-CREATE TABLE `publicaciónentrega` (
+
+--
+-- Estructura de tabla para la tabla `publicacion_entrega`
+--
+
+CREATE TABLE `publicacion_entrega` (
   `idEntrega` int(11) NOT NULL,
   `idPublicacion` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
--- --------------------------------------------------------
 
 --
 -- Estructura de tabla para la tabla `rol`
@@ -171,18 +164,6 @@ CREATE TABLE `usuario` (
   `cuit` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Volcado de datos para la tabla `usuario`
---
-
-INSERT INTO `usuario` (`id`, `userName`, `password`, `name`, `lastname`, `email`, `rol`, `sexo`, `cuit`) VALUES
-(1, 'RoCentu', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Rocio', 'Centu', 'rocio_perez@hotmail.com', 1, 'femenino', 2147483647),
-(2, 'MariaR', '51eac6b471a284d3341d8c0c63d0f1a286262a18', 'Maria', 'Robles', 'maria.72@hotmail.com', 2, 'femenino', 2147483647),
-(3, 'Margi', '58f0744907ea8bd8e0f51e568f1536289ceb40a5', 'Marcia', 'Toledo', 'martoledo@hotmail.com', 2, 'femenino', 2147483647),
-(4, 'Axel', 'fc1200c7a7aa52109d762a9f005b149abef01479', 'Axel', 'Sanchez', 'axel_rios@hotmail.com', 2, 'masculino', 2147483647),
-(9, 'LuMar', 'fc1200c7a7aa52109d762a9f005b149abef01479', 'Lucia', 'Martinez', 'lu@gmail.com', 2, 'Mujer', 4567895),
-(12, 'mar', '35139ef894b28b73bea022755166a23933c7d9cb', 'Marcia', 'Toledo', 'mar@gmail.com', 2, 'Mujer', 2147483647),
-(13, 'roger', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Roger', 'Federer', 'rogerfedQ@gmail.com', 2, 'Hombre', 2147483647);
 
 --
 -- Índices para tablas volcadas
@@ -223,7 +204,7 @@ ALTER TABLE `publicacion`
   ADD KEY `id_Producto` (`id_Producto`);
 
 --
--- Indices de la tabla `publicaciónentrega`
+-- Indices de la tabla `publicacion_entrega`
 --
 ALTER TABLE `publicacion_entrega`
   ADD PRIMARY KEY (`idEntrega`,`idPublicacion`),
@@ -263,19 +244,19 @@ ALTER TABLE `formaentrega`
 -- AUTO_INCREMENT de la tabla `imagen`
 --
 ALTER TABLE `imagen`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=63;
 
 --
 -- AUTO_INCREMENT de la tabla `producto`
 --
 ALTER TABLE `producto`
-  MODIFY `idProducto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=59;
+  MODIFY `idProducto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=78;
 
 --
 -- AUTO_INCREMENT de la tabla `publicacion`
 --
 ALTER TABLE `publicacion`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
 
 --
 -- AUTO_INCREMENT de la tabla `rol`
@@ -312,9 +293,9 @@ ALTER TABLE `publicacion`
   ADD CONSTRAINT `publicacion_ibfk_1` FOREIGN KEY (`id_user`) REFERENCES `usuario` (`id`);
 
 --
--- Filtros para la tabla `publicaciónentrega`
+-- Filtros para la tabla `publicacion_entrega`
 --
-ALTER TABLE `publicaciónentrega`
+ALTER TABLE `publicacion_entrega`
   ADD CONSTRAINT `publicacionentrega_ibfk_1` FOREIGN KEY (`idPublicacion`) REFERENCES `publicacion` (`id`),
   ADD CONSTRAINT `publicacionentrega_ibfk_2` FOREIGN KEY (`idEntrega`) REFERENCES `formaentrega` (`idEntrega`);
 

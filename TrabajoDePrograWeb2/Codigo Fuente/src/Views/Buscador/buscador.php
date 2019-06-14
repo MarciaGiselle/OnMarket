@@ -1,13 +1,15 @@
 <script>
-    const pathHome = "<?php echo getBaseAddress(). "Buscador/buscador" ; ?>";
+    const pathBusqueda = "<?php echo getBaseAddress(). "Buscador/buscarProducto" ; ?>";
+    const pathMostrarResultados = "<?php echo getBaseAddress(). "Buscador/mostrarResultados" ; ?>";
 </script>
-<body>
 
+
+<body>
 <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href=#><img id="logo-nav" src="Webroot/img/logotipo.png" alt="Logo de OnMarket"></a>
+    <a class="navbar-brand" href=#><img id="logo-nav" src="../Webroot/img/logotipo.png" alt="Logo de OnMarket"></a>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-2 mt-2 mt-lg-0">
@@ -21,18 +23,8 @@
                 <a class="nav-link " href= "<?php echo getBaseAddress() . "Producto/publicar" ?>">Publicar</a>
         </ul>
 
-        <!-- Buscador-->
 
-        <div class="input-group">
-            <form class="form-check-inline" action="<?php echo getBaseAddress() .  "Buscador/buscarProducto" ?>"  method="post">
-                <input type="text" class="form-control" placeholder="Que estás buscando?"  id="buscador" name="buscarProducto">
-                <div class="input-group-append">
-                    <button class="btn btn-secondary" type="button">
-                        <i class="fa fa-search"></i>
-                    </button>
-                </div>
-            </form>
-        </div>
+
 
     </div>
     <!-- Cerrar sesion -->
@@ -44,19 +36,35 @@
 
         </form>
     </div>
-
-
-
 </nav>
 
-<div id="resultado" name="resultado">
-    <?php
-    $resultado=array();
-    var_dump($resultado);
-    ; ?>
+
+<!-- Buscador-->
+<br>
+<div class="container">
+    <h3 class="text-primary text-center mt-3">Qué estás buscando?</h3>
+
+    <div class="input-group mt-5 mb-5">
+    <input type="search" class="form-control" placeholder="Escribe algo que desees encontrar" id="buscador">
+    <div class="input-group-append">
+        <span type="submit" class="input-group-text" id="btnBuscar"><i class="fa fa-search" ></i></span>
+    </div>
+
+        <div class='container'>
+            <table id="tablaBuscador" class='table table-hover text-center mt-4' >
+                <thead>
+                <tr>
+                    <th class="text-primary d-none">RESULTADOS ENCONTRADOS</th>
+                </tr>
+                </thead>
+            </table>
+        </div>
+</div>
 </div>
 
-<!-- Footer footer class="bg-primary page-footer font-small blue pt-4">
+
+<!-- Footer-->
+ <footer class="bg-primary page-footer font-small blue pt-4">
 
 
     <div class="bg-secondary text-dark footer-copyright text-center py-3">© 2019 Copyright:
@@ -65,8 +73,10 @@
 
 
 </footer>
-</body>-->
+</body>
 
 
-<script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
+<script src="<?php echo getBaseAddress() . "Webroot/js/buscador.js" ?>"></script>
+<script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>
+
 

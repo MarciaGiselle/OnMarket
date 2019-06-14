@@ -25,41 +25,7 @@ class Publicacion extends Model
     }
 
 
-    public function validarFormatos($metodo){
-        //validacion de formatos
-        $error=0;
-        $mensaje="";
-        if(empty($metodo)){
-            $error.=1;
-            $mensaje.="Seleccione un metodo de entrega<br>"." ";
-        }
-        //ver regex espacios
-        if(!FuncionesComunes::validarCadena($this->getTitulo())) {
-            $error.=1;
-            $mensaje.="Titulo Inválida<br>"." ";
-        }
 
-        if(empty($this->getId_user())){
-            $error.=1;
-            $mensaje.="no existe id de producto<br>"." ";
-        }
-
-        if(empty($this->getId_Producto())){
-            $error.=1;
-            $mensaje.="no existe id de producto<br>"." ";
-        }
-
-
-        if($error>0){
-            echo "<script> alert('$mensaje') </script>";
-        }
-        else{
-            return true;
-
-
-        }
-
-    }
     /**
      * @return mixed
      */

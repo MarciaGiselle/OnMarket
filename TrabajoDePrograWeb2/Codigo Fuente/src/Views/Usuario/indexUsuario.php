@@ -1,14 +1,10 @@
-<script>
-    const pathBuscador = "<?php echo getBaseAddress(). "Buscador/buscador" ; ?>";
-</script>
-
 <body>
 
 <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href=#><img id="logo-nav" src="Webroot/img/logotipo.png" alt="Logo de OnMarket"></a>
+    <a class="navbar-brand" href=#><img id="logo-nav" src="../Webroot/img/logotipo.png" alt="Logo de OnMarket"></a>
 
     <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-2 mt-2 mt-lg-0">
@@ -19,23 +15,20 @@
                 <a class="nav-link disabled" href="#">Historial</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link " href= "<?php echo getBaseAddress() . "Producto/publicar" ?>">Publicar</a>
+                <a class="nav-link active" href= "<?php echo getBaseAddress() . "Producto/publicar" ?>">Publicar</a>
         </ul>
 
-        <!-- Buscador-->
+        <!--boton busqueda -->
+        <form action="<?php echo getBaseAddress() . "Buscador/busqueda" ?>" method="post">
+            <input type="submit" value="Realizar búsqueda" class="btn btn-secondary">
+        </form>
 
-        <div class="input-group">
-            <form class="form-check-inline" action= "<?php echo getBaseAddress(). "Buscador/buscarProducto" ; ?>"  method="post">
-                <input type="text" class="form-control" placeholder="Que estás buscando?"  id="buscador" name="buscarProducto">
-                <div class="input-group-append">
-                    <input class="btn btn-secondary" type="submit">
-                        <i class="fa fa-search"></i>
-                    </input>
-                </div>
-            </form>
-        </div>
 
     </div>
+
+
+
+
     <!-- Cerrar sesion -->
     <div class="d-inline-flex mr-2">
         <form action="<?php echo getBaseAddress() . "Usuario/cerrarSesion" ?>" method="post">
@@ -48,10 +41,10 @@
 
 
 
+
 </nav>
 
 
-<script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
 
 
 <!-–Slider de fotos -–>
@@ -64,14 +57,14 @@
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="Webroot/img/pagos.jpg" alt="First slide">
+            <img class="d-block w-100" src="../Webroot/img/pagos.jpg" alt="First slide">
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="Webroot/img/alimentos.jpg" alt="Second slide">
+            <img class="d-block w-100" src="../Webroot/img/alimentos.jpg" alt="Second slide">
 
         </div>
         <div class="carousel-item">
-            <img class="d-block w-100" src="Webroot/img/celulares.jpg" alt="Third slide">
+            <img class="d-block w-100" src="../Webroot/img/celulares.jpg" alt="Third slide">
         </div>
 
         <!-–Controladores -–>
@@ -102,7 +95,7 @@
     <div class="card-deck">
 
         <div class="card border-primary p-3">
-            <a href="#" ><img class="card-img-top" src="Webroot/img/ropaperro.jpg" alt="Card image cap"></a>
+            <a href="#" ><img class="card-img-top" src="../Webroot/img/ropaperro.jpg" alt="Card image cap"></a>
             <hr>
             <div class="card-body text-primary">
                 <h5 class="card-title">ACCESORIOS PARA MASCOTAS</h5>
@@ -112,7 +105,7 @@
 
 
         <div class="card border-primary p-3">
-            <a href="#" ><img class="card-img-top" src="Webroot/img/tecnologia.jpg" alt="Card image cap"></a>
+            <a href="#" ><img class="card-img-top" src="../Webroot/img/tecnologia.jpg" alt="Card image cap"></a>
             <hr>
             <div class="card-body text-primary">
                 <h5 class="card-title">ELECTRÓNICA</h5>
@@ -122,7 +115,7 @@
 
 
         <div class="card border-primary p-3">
-            <a href="#" ><img class="card-img-top" src="Webroot/img/cajaherramientas.jpg" alt="Card image cap"></a>
+            <a href="#" ><img class="card-img-top" src="../Webroot/img/cajaherramientas.jpg" alt="Card image cap"></a>
             <hr>
             <div class="card-body text-primary">
                 <h5 class="card-title">HERRAMIENTAS</h5>
@@ -144,7 +137,7 @@
     <div class="card-group">
         <div class="card bg-secondary text-white">
 
-            <img src="Webroot/img/grisnav.png" class="card-img" alt="...">
+            <img src="../Webroot/img/grisnav.png" class="card-img" alt="...">
             <div class="card-img-overlay">
                 <div class="col-md-4 p-lg-4 mx-auto my-auto">
 
@@ -169,6 +162,11 @@
 
 </footer>
 </body>
+
+<script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
+<script src="<?php echo getBaseAddress() . "Webroot/js/buscador.js" ?>"></script>
+<script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>
+
 
 
 

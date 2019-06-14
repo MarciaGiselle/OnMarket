@@ -15,8 +15,20 @@ class Imagen extends Model
         ];
         $this->setId($this->insert($array));
         return $this->getId();
-}
+    }
 
+
+    function primerImagenPorPk($pk){
+        $resultado=$this->pageRows(0,1, "idProducto=$pk");
+        $imagenes=[];
+        for($i=0;$i<count($resultado);$i++){
+            array_push($imagenes, $resultado[$i]);
+        }
+        /*foreach ($resultado as $imagen){
+            array_push($imagenes, $imagen[$i]["nombre"]);
+        }*/
+        return $imagenes;
+    }
 
 
     /**

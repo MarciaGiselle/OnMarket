@@ -7,7 +7,6 @@ var errorName = $("#errorName");
 
 
 function validarName() {
-alert("entro al js");
     var validacion = false;
     var name = inputName.val();
 

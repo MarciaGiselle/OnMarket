@@ -2,64 +2,60 @@
 
 class BuscadorController extends Controller
 {
-    function buscarProducto($buscador){
-
-        $d["title"] = "Buscador";
+    function busqueda(){
+        $d["title"] = "Busqueda";
         $this->set($d);
         $this->render(Constantes::BUSCADORVIEW);
+    }
 
-        if(isset($buscador["buscarProducto"])){
-            $nombreProducto = $buscador["buscarProducto"];
+    function buscarProducto($buscador){
+
+        header("Content-type: application/json");
+        $data = json_decode(utf8_decode($buscador['data']));
+
+        $nombreProducto= $data->nombreProducto;
 
             if(FuncionesComunes::validarCadena($nombreProducto)){
                 $productoABuscar = new Producto();
+                $imagenABuscar= new Imagen();
 
                 $productoABuscar->setNombre($nombreProducto);
 
-                $resultadosEncontrados=$productoABuscar->buscarProductoEnLaBase();
-                $field=array();
-                $i=0;
-                foreach($resultadosEncontrados as $pkEncontrada){
+                $idsProductos=$productoABuscar->buscarProductoEnLaBase();
 
-                    // $pkEncontrada=(int)$pkEncontrada;
+                if(empty($idsProductos)){
+                    throw new ProductoNoEncontradoException("No hay coincidencias con la búsqueda", CodigoError::ProductoNoEncontrado);
+                }else{
 
-                    $field[$i]=$productoABuscar->filasPorPk($pkEncontrada);
-                    $i++;
+                $productosEncontrados=[];
+                $imagenesEncontradas=[];
+
+                foreach ($idsProductos as $pk){
+                    array_push($productosEncontrados, $productoABuscar->filasPorPk($pk));
+                    array_push($imagenesEncontradas, $imagenABuscar->primerImagenPorPk($pk));
+                }
+
+                $arrayProductoImagen=[];
+
+                for($i=0;$i<count($idsProductos); $i++){
+                    $producto=$productosEncontrados[$i];
+                    $imagen=$imagenesEncontradas[$i];
+                    $arrayProducto=[
+                        "prod"=>$producto,
+                        "imagen"=>$imagen];
+                    array_push($arrayProductoImagen, $arrayProducto);
 
                 }
-                $d["resultado"]=$field[0];
-                $this->set($d);
-var_dump($d);
-                //esto deberia ser otra funcion o algo asi, no me detuve a ver como mostrarlo
-                echo "<table><tr>
-                    <th>CODIGO</th>
-                    <th>NOMBRE</th>
-                    <th>CANTIDAD</th>
-                    <th>DESCRIPCION</th>
-                    <th>PRECIO</th>
-                    </tr>";
-                foreach ($field as $fila){
 
-                    foreach ($fila as $producto){
+                }
+                echo json_encode($arrayProductoImagen);
 
-                        echo "<tr>
-                       <td>" . $producto['idProducto']. "</td>
-                       <td>" . $producto['nombre']. "</td>
-                       <td>" . $producto['cantidad']. "</td>
-                       <td>" . $producto['descripcion']. "</td>
-                         <td>" . $producto['precio']. "</td>
-                       </tr>";
-
-
-                    }
-                } echo "</table>";
-
-                //var_dump($field);
-            }else{
-                echo "no coincidencias";
-                //  throw new ProductoNoEncontrado("No hay coincidencias con la búsqueda");
-            }
-
-        }
     }
+    }
+
+
+
+
+
+
 }

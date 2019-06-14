@@ -18,24 +18,17 @@ var enviar = $("#enviar");
 
 function validarCuit() {
 
-
     var validacion = false;
     var cuit = inputCuit.val();
 
-
-
     if(cuit === null || cuit.length === 0 || cuit === "") {
-
 
     } else if(!regexNumeros.test(cuit)) {
 
-
     } else {
-
 
         validacion = true;
     }
-
     return validacion;
 }
 
@@ -69,7 +62,6 @@ function validarSexo() {
 
     } else {
 
-
         validacion = true;
     }
 
@@ -95,26 +87,24 @@ function validarPass() {
 
     return validacion;
 }
+
 function validarNombre() {
 
     var validacion = false;
     var name = inputName.val();
 
-
-
     if(name === null || name.length === 0 || name === "") {
 
     } else if(!regexLetras.test(name)) {
 
-
     } else {
-
 
         validacion = true;
     }
 
     return validacion;
 }
+
 function validarApellido() {
 
     var validacion = false;
@@ -180,14 +170,11 @@ function validarCorreo() {
 
 
 enviar.click(function () {
-    alert("entro al js");
     // $(".error").fadeOut();
 
     var validacion = validarTerminos()&& validarCuit() && validarNombre() && validarApellido() && validarNombreUsuario() &&  validarCorreo()&&  validarSexo()&&  validarPass();
 
     if(validacion) {
-
-        alert("entro casi al ajax");
         $("input").prop("disabled", true);
      enviar.prop("disabled", true);
         var obj = {};
@@ -200,8 +187,6 @@ enviar.click(function () {
         obj.nombreUsuario=inputNombreUsuario.val();
         obj.sexo=inputSexo.val();
         obj.terminos=inputTerminos.val();
-
-
 
         llamadaAjax(pathRegistrar, JSON.stringify(obj), true, "loginExitoso", "loginFallido");
     }
@@ -221,64 +206,4 @@ function loginFallido(err) {
 }
 
 
-function llamadaAjax(urlServicioWeb, datosServicioWeb, esAsincronico,
-                     funcionEscenarioExitoso, funcionEscenarioErroneo, parametrosExtra,
-                     noMostrarLoading, mensajeLoading) {
 
-    var respuesta;
-
-
-    alert("entro al ajax");
-
-    // el parametro parametrosExtra, son datos que se pueden mandar
-    // opcionalmente y que serán reenviados a la funcion de exito o error.
-    $.ajax({
-        type: "POST",
-        url: urlServicioWeb,
-        data: {
-            data: datosServicioWeb
-        },
-        async: esAsincronico,
-        dataType: "json",
-        traditional: true,
-        //timeout: 15000,
-        cache: false,
-        success: function (jsDeRetorno, a) {
-            respuesta = true;
-            var res;
-            if (!jsDeRetorno || !jsDeRetorno.error) {
-                res = window[funcionEscenarioExitoso](jsDeRetorno,
-                    parametrosExtra);
-                return res;
-            } else {
-                res = window[funcionEscenarioErroneo](jsDeRetorno.error,
-                    parametrosExtra, true);
-                return res;
-            }
-        },
-
-        error: function (e, a, i) {
-            respuesta = false;
-            if (e.status == 300) {
-                window.location = e.responseText;
-                return;
-            } else if (e.readyState == 0) {
-                // Network error
-                var err =
-                    "No se pudo conectar al servidor. Revise si tiene acceso a internet y vuelva a intentar nuevamente";
-                if (window[funcionEscenarioErroneo])
-                    return window[funcionEscenarioErroneo](err, parametrosExtra, true);
-                else
-                    return alertify.alert(err).setting('modal', true);
-            }
-
-            if (window[funcionEscenarioErroneo])
-                return window[funcionEscenarioErroneo](e.responseText,
-                    parametrosExtra);
-            else
-                alertify.alert(e.responseText).setting('modal', true);
-        }
-    });
-
-    return respuesta;
-}
