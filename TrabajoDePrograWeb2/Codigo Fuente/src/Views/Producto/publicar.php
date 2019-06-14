@@ -1,3 +1,4 @@
+
 <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
             aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,7 +16,7 @@
                 <a class="nav-link disabled" href="#">Historial</a>
             </li>
             <li class="nav-item ">
-                <a class="nav-link active" href="<?php echo getBaseAddress() . "Producto/publicar" ?>">Publicar</a>
+                <a class="nav-link active">Publicar</a>
         </ul>
 
         <!-- Buscador-->
@@ -47,11 +48,11 @@
 <br>
 <div class="container">
     <h3 class="text-primary">Crear publicación</h3>
-    <form action="<?php echo getBaseAddress() . "Producto/altaProducto" ?>" method="post" enctype="multipart/form-data">
+    <form method="post" action="<?php echo getBaseAddress(). "Producto/altaProducto" ?>" method="post" enctype="multipart/form-data">
 
         <div class="form-group col-md-12">
             <label class="text-primary">Indicá un título para tu publicación*</label>
-            <input class="form-control" type="text" placeholder="Titulo...  " name="titulo">
+            <input class="form-control" type="text" placeholder="Titulo...  " name="titulo" id="titulo">
             <small id="passwordHelpBlock" class="form-text text-muted">Usá palabras clave para que lo encuentren
                 fácilmente.
             </small>
@@ -61,13 +62,13 @@
             <hr>
             <label class="text-primary">Método de entrega*</label>
             <div class="form-check">
-                <input type="checkbox" name="envio[]" value="acordarConElVendedor">
+                <input type="checkbox" name="envio[]" value="acordarConElVendedor" id="entrega">
                 <label class="form-check-label">Acordar con el vendedor</label>
             </div>
 
 
             <div class="form-check">
-                <input type="checkbox" name="envio[]" value="Correo">
+                <input type="checkbox" name="envio[]" value="Correo" id="entrega">
                 <label class="form-check-label">Realizar envío por correo</label>
             </div>
         </div>
@@ -82,7 +83,7 @@
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label class="text-primary">Seleccioná una categoría*</label>
-                    <select class="custom-select" id="inputGroupSelect01" name="categoria">
+                    <select class="custom-select" id="inputGroupSelect01" name="categoria" id="categoria">
                         <option selected>Seleccionar...</option>
                         <option value="electronica">Electrónica</option>
                         <option value="moda">Moda y belleza</option>
@@ -98,7 +99,7 @@
 
                 <div class="form-group col-md-6">
                     <label class="text-primary">Indicá un nombre para tu producto*</label>
-                    <input class="form-control" type="text" placeholder="Nombre...  " name="nombre">
+                    <input class="form-control" type="text" placeholder="Nombre...  " name="nombre" id="nombre">
                     <small id="passwordHelpBlock" class="form-text text-muted">Usá palabras clave para que lo encuentren
                         fácilmente.
                     </small>
@@ -107,14 +108,14 @@
 
                 <div class="form-group col-md-12">
                     <label class="text-primary">Describí tu producto*</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="descripcion"
+                    <textarea class="form-control"  rows="3" name="descripcion" id="descripcion"
                               placeholder="Aprovechá para contar otros detalles de tu producto. Ordenalos en forma de lista para que sea más fácil de leer."></textarea>
 
                 </div>
 
                 <div class="form-group col-md-6">
                     <label class="text-primary">Cantidad disponible*</label>
-                    <input type="text" class="form-control" name="cantidad" placeholder="Unidades en stock">
+                    <input type="text" class="form-control" name="cantidad" placeholder="Unidades en stock" id="cantidad">
                 </div>
 
                 <div class="form-group col-md-6">
@@ -123,7 +124,7 @@
                         <div class="input-group-prepend">
                             <div class="input-group-text">$</div>
                         </div>
-                        <input type="text" class="form-control" id="inlineFormInputGroupUsername" name="precio"
+                        <input type="text" class="form-control" name="precio" id="precio"
                                placeholder="Precio">
                     </div>
                 </div>
@@ -142,7 +143,7 @@
                                 <div class="form-group">
                                     <input name="enviar" type="submit" value="subir archivo" />
                                     <input type="hidden" value="<?php echo "../Webroot/imgCargadas" ?>" name="destino">
-                                    <input type="file" class="form-control-file" name="imagen[]" accept="image/png, .jpeg, .jpg" multiple>
+                                    <input type="file" class="form-control-file" name="imagen[]" accept="image/png, .jpeg, .jpg" multiple id="imagen">
                                 </div>
                             </div>
                         </div>
@@ -152,10 +153,10 @@
                     </form>
                 </div>
 
+                    <div class="btn btn-primary btn-lg btn-block">
+                        <input type="submit"  value="Realizar publicación" class="btn btn-primary" id="publicar" >
+                    </div>
 
-                <div class="btn btn-primary btn-lg btn-block">
-                    <input type="submit" value="Realizar publicación" class="btn btn-primary">
-                </div>
             </div>
 
 
@@ -172,3 +173,7 @@
     <!-- Copyright -->
 
 </footer>
+
+
+<script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>
+<script src="<?php echo getBaseAddress() . "Webroot/js/publicar.js" ?>"></script>

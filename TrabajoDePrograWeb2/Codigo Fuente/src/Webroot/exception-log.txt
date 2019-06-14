@@ -2421,3 +2421,87 @@ StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDeProg
 #3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
 #4 {main}
 
+[2019-06-13 21:34:00]  Excepción no controlada: 'Undefined index: data' en el archivo ProductoController.php en la línea 25
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(25): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-13 21:36:04]  Excepción no controlada: 'Undefined index: data' en el archivo ProductoController.php en la línea 25
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(25): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-13 21:36:09]  Excepción no controlada: 'Undefined index: data' en el archivo ProductoController.php en la línea 25
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(25): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 25, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-13 22:08:37]  Excepción no controlada: 'Undefined index: nombre' en el archivo ProductoController.php en la línea 32
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(32): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-13 22:08:48]  Excepción no controlada: 'Undefined index: nombre' en el archivo ProductoController.php en la línea 32
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(32): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-13 22:10:04]  Excepción no controlada: 'Undefined index: nombre' en el archivo ProductoController.php en la línea 32
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(32): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 32, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-13 22:12:30]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 58
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(58): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 58, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-13 22:13:31]  Excepción no controlada: 'Use of undefined constant data - assumed 'data'' en el archivo ProductoController.php en la línea 27
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(27): globalErrorHandler(8, 'Use of undefine...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-13 22:13:53]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 59
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(59): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-13 22:42:56]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 59
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(59): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-13 22:43:45]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 59
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(59): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-13 22:46:37]  Excepción no controlada: 'Undefined index: imagen' en el archivo ProductoController.php en la línea 59
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(59): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 59, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-14 00:40:50]  Excepción no controlada: 'Undefined index: nombre' en el archivo ProductoController.php en la línea 27
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(27): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-14 00:42:51]  Excepción no controlada: 'Undefined index: nombre' en el archivo ProductoController.php en la línea 27
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(27): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+

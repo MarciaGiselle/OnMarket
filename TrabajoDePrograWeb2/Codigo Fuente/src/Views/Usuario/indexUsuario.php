@@ -164,7 +164,6 @@
 </body>
 
 <script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
-
 <script src="<?php echo getBaseAddress() . "Webroot/js/buscador.js" ?>"></script>
 <script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>
 

@@ -2,7 +2,6 @@
 class RegistrarController extends Controller
 {    
 
-
     function registrar()
     {
         $d["title"] = "Registrarse";

@@ -18,24 +18,17 @@ var enviar = $("#enviar");
 
 function validarCuit() {
 
-
     var validacion = false;
     var cuit = inputCuit.val();
 
-
-
     if(cuit === null || cuit.length === 0 || cuit === "") {
-
 
     } else if(!regexNumeros.test(cuit)) {
 
-
     } else {
-
 
         validacion = true;
     }
-
     return validacion;
 }
 
@@ -69,7 +62,6 @@ function validarSexo() {
 
     } else {
 
-
         validacion = true;
     }
 
@@ -95,26 +87,24 @@ function validarPass() {
 
     return validacion;
 }
+
 function validarNombre() {
 
     var validacion = false;
     var name = inputName.val();
 
-
-
     if(name === null || name.length === 0 || name === "") {
 
     } else if(!regexLetras.test(name)) {
 
-
     } else {
-
 
         validacion = true;
     }
 
     return validacion;
 }
+
 function validarApellido() {
 
     var validacion = false;
@@ -180,14 +170,11 @@ function validarCorreo() {
 
 
 enviar.click(function () {
-    alert("entro al js");
     // $(".error").fadeOut();
 
     var validacion = validarTerminos()&& validarCuit() && validarNombre() && validarApellido() && validarNombreUsuario() &&  validarCorreo()&&  validarSexo()&&  validarPass();
 
     if(validacion) {
-
-        alert("entro casi al ajax");
         $("input").prop("disabled", true);
      enviar.prop("disabled", true);
         var obj = {};
@@ -200,8 +187,6 @@ enviar.click(function () {
         obj.nombreUsuario=inputNombreUsuario.val();
         obj.sexo=inputSexo.val();
         obj.terminos=inputTerminos.val();
-
-
 
         llamadaAjax(pathRegistrar, JSON.stringify(obj), true, "loginExitoso", "loginFallido");
     }

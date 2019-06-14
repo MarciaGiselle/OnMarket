@@ -18,44 +18,39 @@ class ProductoController extends Controller
     }
 
 
-    function altaProducto($publicacion)
-    {
-
-        header("Content-type: application/json");
-        $data = json_decode(utf8_decode($publicacion['data']));
+    function altaProducto($publicacion){
 
         $producto = new Producto();
         $categoria = new Categoria();
-
         //conceptos generales
-        if (FuncionesComunes::validarCadena($data->nombre)) {
+        if (FuncionesComunes::validarCadena($publicacion["nombre"])) {
             $producto->setNombre($publicacion["nombre"]);
         }
 
-        else if (FuncionesComunes::validarCadena($data->descripcion)) {
+        if (FuncionesComunes::validarCadenaNumerosYEspacios($publicacion["descripcion"])) {
             $producto->setDescripcion($publicacion["descripcion"]);
         }
-
-        else if (FuncionesComunes::validarNumeros($data->cantidad)) {
+        if (FuncionesComunes::validarNumeros($publicacion["cantidad"])) {
             $producto->setCantidad($publicacion["cantidad"]);
         }
-        else if (FuncionesComunes::validarNumeros($data->precio)) {
+       if (FuncionesComunes::validarNumeros($publicacion["precio"])) {
             $producto->setPrecio($publicacion["precio"]);
         }
-        else if (!empty($data->categoria)) {
+        if (!empty($publicacion["categoria"]) && FuncionesComunes::validarCadena($publicacion['categoria'])) {
             //categoria obtener id y setearlo
             $idCategoria = $categoria->obtenerIdCategoria($publicacion["categoria"]);
+
             if ($idCategoria != false) {
                 $producto->setIdCategoria($idCategoria);
             }
         }
-        else if (!empty($data->envio)) {
-            $entrega = $data->envio;
-        }
+
+
         else {
             throw new PublicacionCamposInvalidosException("Alguno de los campos completados no poseen un formato válido", CodigoError::PublicacionInvalida);
         }
 
+        var_dump($producto);
         //imagenes
         $countfiles = count($_FILES["imagen"]["name"]);
         if($countfiles>2 || $countfiles>10){
@@ -63,17 +58,22 @@ class ProductoController extends Controller
             $arrayImagenes[$i] = $_FILES['imagen']['name'][$i];
         }
 
-            $idProducto = $producto->insertarProducto();
-            $this->insertarImagenes($arrayImagenes, $idProducto);
-            $this->guardarImagenes($publicacion, $countfiles);
-            $this->altaPublicacion($publicacion, $idProducto, $entrega);
+        $idProducto = $producto->insertarProducto();
+        $this->insertarImagenes($arrayImagenes, $idProducto);
+        $this->guardarImagenes($publicacion, $countfiles);
+
         }
         else{
             throw new PublicacionCamposInvalidosException("Alguno de los campos completados no poseen un formato válido", CodigoError::PublicacionInvalida);
 
         }
 
-        echo json_encode(true);
+        if(! ($this->altaPublicacion($publicacion, $idProducto))){
+            //cambiar!
+            throw new PublicacionCamposInvalidosException("Alguno de los campos completados no poseen un formato válido", CodigoError::PublicacionInvalida);
+
+        }
+
     }
 
 
@@ -105,22 +105,30 @@ class ProductoController extends Controller
         }
     }
 
-    function altaPublicacion($publicacion, $idProducto, $entrega)
-
-    {
+    function altaPublicacion($publicacion, $idProducto){
         $publicar = new Publicacion();
 
-        $publicar->setTitulo($publicacion["titulo"]);
-        $fecha_actual = date("y-m-d");
-        $publicar->setFecha($fecha_actual);
-        $publicar->setId_user($_SESSION["idUser"]);
-        $publicar->setId_Producto($idProducto);
-
-        if ($publicar->validarFormatos($entrega)) {
-            $idPublicacion = $publicar->insertarPublicacion();
+        $validacion=true;
+        if (FuncionesComunes::validarCadena($publicacion["titulo"])) {
+            $publicar->setTitulo($publicacion["titulo"]);
+            $publicar->setTitulo($publicacion["titulo"]);
+        }else{
+            $validacion=false;
+        }
+        if(!empty($publicacion["envio"])) {
+            $entrega =$publicacion["envio"];
             $entregaPubli = new formaentrega();
-            $publicacion_Entrega = new Publicacion_Entrega();
             $idEntrega = $entregaPubli->obtenerIdMetodoEntrega($entrega);
+        }else{
+            $validacion=false;
+        }
+        if($validacion){
+            $fecha_actual = date("y-m-d");
+            $publicar->setFecha($fecha_actual);
+            $publicar->setId_user($_SESSION["idUser"]);
+            $publicar->setId_Producto($idProducto);
+            $publicacion_Entrega = new Publicacion_Entrega();
+            $idPublicacion = $publicar->insertarPublicacion();
             $publicacion_Entrega->setIdPublicacion($idPublicacion);
 
             for ($i = 0; $i < (count($idEntrega)); $i++) {
@@ -129,9 +137,13 @@ class ProductoController extends Controller
             }
 
         }
-
+        return $validacion;
 
     }
+
+
+
+
 }
 
 
