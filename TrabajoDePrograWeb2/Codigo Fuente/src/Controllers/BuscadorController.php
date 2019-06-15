@@ -11,7 +11,8 @@ class BuscadorController extends Controller
     function mostrar($datos)
     {
         $d["title"] = "Index";
-        $id=67;
+        $id=$datos["idProducto"];
+        var_dump($datos);
         $producto = new Producto();
         $encontrado= $producto->PorPk($id);
         $d["nombre"] = $encontrado[0]["nombre"];
