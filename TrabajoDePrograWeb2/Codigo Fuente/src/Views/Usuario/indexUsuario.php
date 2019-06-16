@@ -14,6 +14,18 @@
             <li class="nav-item">
                 <a class="nav-link disabled" href="#">Historial</a>
             </li>
+            <li class="nav-item">
+
+                <a class="nav-link " href="<?php echo getBaseAddress() . 'Carrito/carrito'?>"> Mi carrito
+                   <?php if(!isset($_SESSION["carrito"])){
+                       $contador=0;
+                       echo $contador;}else{
+                    echo "<h5>".count($_SESSION["carrito"])."</h5>";
+                    }
+                  ?>
+                </a>
+
+            </li>
             <li class="nav-item ">
                 <a class="nav-link active" href= "<?php echo getBaseAddress() . "Producto/publicar" ?>">Publicar</a>
         </ul>

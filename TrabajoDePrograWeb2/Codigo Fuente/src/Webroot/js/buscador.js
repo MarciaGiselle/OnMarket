@@ -33,6 +33,7 @@ function realizarBusqueda(){
         $("input").prop("disabled", true);
      	boton.prop("disabled", true);
         var obj = {};
+
         obj.nombreProducto = inputBuscador.val();
         llamadaAjax(pathBusqueda, JSON.stringify(obj), true, "busquedaExitosa", "busquedaFallida");
 };
