@@ -16,6 +16,9 @@ abstract class Constantes
     const BUSCADORVIEW = "buscador";
     const MOSTRARVIEW = "Mostrarproducto";
 
+    const CARRITOVIEW = "carrito";
+
+
 
 
     const INICIOVIEW = "inicio";

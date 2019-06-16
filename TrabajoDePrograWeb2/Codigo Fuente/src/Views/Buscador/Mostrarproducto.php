@@ -1,3 +1,8 @@
+<script>
+    const pathCarrito= "<?php echo getBaseAddress(). "Usuario/carrito" ; ?>";
+
+</script>
+
 
 <body>
 <div class="container border border-primary rounded>">
@@ -16,6 +21,7 @@
             }
             ?>
        </div>
+
         <div class="col-sm">
             <div class="card-body">
              <h1  class="card-title"><?php echo $nombre; ?></h1>
@@ -26,14 +32,23 @@
             <h2>cantidad disponible: <?php echo $cantidad; ?></h2>
 
            <h2><?php echo $descripcion; ?></h2>
+                <label>Cantidad:</label>
+                <input type="number" value="1" name="id" id="cantidad" >
          </div>
-            <form action="<?php echo getBaseAddress() . "Usuario/comprar" ?>" method="POST">
+
+
+            <input type="hidden" name="id" id="nombre" value="<?php echo $nombre; ?>">
+            <input type="hidden" name="id" id="precio" value="<?php echo $precio; ?>">
+
+            <input type="hidden" name="id" id="id" value="<?php echo $idProducto; ?>">
              <input class="btn btn-primary" type="reset" value="Cancelar">
-            <input class="btn btn-primary" type="submit" value="Confirmar">
-            </form>
+            <button class="btn btn-primary" id="comprar" >Agregar Al carrito</button>
+
     </div>
     </div>
 </div>
 </div>
 
 </body>
+<script src="<?php echo getBaseAddress() . "Webroot/js/carrito.js" ?>"></script>
+<script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>

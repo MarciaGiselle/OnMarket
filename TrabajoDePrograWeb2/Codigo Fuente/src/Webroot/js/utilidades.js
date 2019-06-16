@@ -20,7 +20,7 @@ function llamadaAjax(urlServicioWeb, datosServicioWeb, esAsincronico,
 
     var respuesta;
 
-
+alert("entro a ajax");
     // el parametro parametrosExtra, son datos que se pueden mandar
     // opcionalmente y que serán reenviados a la funcion de exito o error.
     $.ajax({

@@ -3128,3 +3128,917 @@ StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDeProg
 #1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
 #2 {main}
 
+[2019-06-15 16:36:31]  Excepción no controlada: 'Undefined offset: 1' en el archivo router.php en la línea 21
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\router.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xamp\\htdocs\\...', 21, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(11): Router::parse('/src/Buscador', Object(Request))
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 16:36:56]  Excepción no controlada: 'Undefined variable: title' en el archivo layout.php en la línea 12
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Shared\layout.php(12): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 12, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(25): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(17): Controller->render('buscador')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 16:37:50]  Excepción no controlada: 'Undefined offset: 1' en el archivo router.php en la línea 21
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\router.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xamp\\htdocs\\...', 21, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(11): Router::parse('/src/Buscador', Object(Request))
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 16:39:48]  Excepción no controlada: 'syntax error, unexpected '}', expecting end of file' en el archivo BuscadorController.php en la línea 94
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-15 16:49:28]  Excepción no controlada: 'syntax error, unexpected '{'' en el archivo BuscadorController.php en la línea 38
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-15 16:50:00]  Excepción no controlada: 'Undefined index: pd' en el archivo BuscadorController.php en la línea 39
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(39): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 39, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 16:50:30]  Excepción no controlada: 'Trying to get property of non-object' en el archivo BuscadorController.php en la línea 45
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(45): globalErrorHandler(8, 'Trying to get p...', 'C:\\xamp\\htdocs\\...', 45, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 16:50:54]  Excepción no controlada: 'Trying to get property of non-object' en el archivo BuscadorController.php en la línea 45
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(45): globalErrorHandler(8, 'Trying to get p...', 'C:\\xamp\\htdocs\\...', 45, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 16:56:07]  Excepción no controlada: 'Trying to get property of non-object' en el archivo BuscadorController.php en la línea 45
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(45): globalErrorHandler(8, 'Trying to get p...', 'C:\\xamp\\htdocs\\...', 45, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:14:25]  Excepción no controlada: 'Undefined index: id' en el archivo BuscadorController.php en la línea 24
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(24): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 24, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:16:03]  Excepción no controlada: 'Undefined index: id' en el archivo BuscadorController.php en la línea 24
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(24): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 24, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:16:08]  Excepción no controlada: 'Undefined index: id' en el archivo BuscadorController.php en la línea 24
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(24): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 24, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:16:15]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'BuscadorController' does not have a method 'busqued'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-15 17:16:36]  Excepción no controlada: 'Undefined index: id' en el archivo BuscadorController.php en la línea 24
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(24): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 24, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:17:14]  Excepción no controlada: 'Undefined index: idProducto' en el archivo BuscadorController.php en la línea 16
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(16): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 16, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:18:16]  Excepción no controlada: 'Undefined index: idProducto' en el archivo BuscadorController.php en la línea 16
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(16): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 16, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:18:49]  Excepción no controlada: 'Undefined index: idProducto' en el archivo BuscadorController.php en la línea 16
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(16): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 16, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:19:57]  Excepción no controlada: 'Undefined index: idProducto' en el archivo BuscadorController.php en la línea 16
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(16): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 16, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:20:01]  Excepción no controlada: 'Undefined offset: 1' en el archivo router.php en la línea 21
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\router.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xamp\\htdocs\\...', 21, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(11): Router::parse('/src/Buscador', Object(Request))
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:20:35]  Excepción no controlada: 'Undefined index: idProducto' en el archivo BuscadorController.php en la línea 16
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(16): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 16, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:21:31]  Excepción no controlada: 'Undefined index: idProducto' en el archivo BuscadorController.php en la línea 16
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(16): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 16, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:22:51]  Excepción no controlada: 'Undefined index: idProducto' en el archivo BuscadorController.php en la línea 16
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(16): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 16, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:23:25]  Excepción no controlada: 'Undefined index: idProducto' en el archivo BuscadorController.php en la línea 16
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(16): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 16, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:23:49]  Excepción no controlada: 'Undefined index: idProducto' en el archivo BuscadorController.php en la línea 16
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(16): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 16, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:26:35]  Excepción no controlada: 'Undefined index: idProducto' en el archivo BuscadorController.php en la línea 16
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(16): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 16, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:28:52]  Excepción no controlada: 'Undefined index: idProducto' en el archivo BuscadorController.php en la línea 16
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(16): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 16, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:29:39]  Excepción no controlada: 'Undefined index: idProducto' en el archivo BuscadorController.php en la línea 16
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(16): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 16, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 17:29:57]  Excepción no controlada: 'Undefined variable: id' en el archivo Mostrarproducto.php en la línea 36
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Buscador\Mostrarproducto.php(36): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 36, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(31): Controller->render('Mostrarproducto')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 18:27:50]  Excepción no controlada: 'Class 'Carrito' not found' en el archivo UsuarioController.php en la línea 70
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-15 18:27:53]  Excepción no controlada: 'Class 'Carrito' not found' en el archivo UsuarioController.php en la línea 70
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-15 18:28:11]  Excepción no controlada: 'Class 'Carrito' not found' en el archivo UsuarioController.php en la línea 70
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-15 18:28:17]  Excepción no controlada: 'Class 'Carrito' not found' en el archivo UsuarioController.php en la línea 70
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-15 18:29:30]  Excepción no controlada: 'Class 'Carrito' not found' en el archivo UsuarioController.php en la línea 70
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-15 18:29:33]  Excepción no controlada: 'Class 'Carrito' not found' en el archivo UsuarioController.php en la línea 70
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-15 18:29:42]  Excepción no controlada: 'Class 'Carrito' not found' en el archivo UsuarioController.php en la línea 70
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-15 18:31:31]  Excepción no controlada: 'Use of undefined constant carrito - assumed 'carrito'' en el archivo UsuarioController.php en la línea 70
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(70): globalErrorHandler(8, 'Use of undefine...', 'C:\\xamp\\htdocs\\...', 70, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 18:31:33]  Excepción no controlada: 'Use of undefined constant carrito - assumed 'carrito'' en el archivo UsuarioController.php en la línea 70
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(70): globalErrorHandler(8, 'Use of undefine...', 'C:\\xamp\\htdocs\\...', 70, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 18:32:23]  Excepción no controlada: 'Use of undefined constant carrito - assumed 'carrito'' en el archivo UsuarioController.php en la línea 70
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(70): globalErrorHandler(8, 'Use of undefine...', 'C:\\xamp\\htdocs\\...', 70, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 18:32:48]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:34:52]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:35:12]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:35:32]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:39:01]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:39:03]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:39:36]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:41:50]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:41:53]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:43:56]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:43:58]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:44:20]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:45:16]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:45:50]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:45:54]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:45:56]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:46:21]  Excepción no controlada: 'Undefined index: data' en el archivo UsuarioController.php en la línea 65
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(65): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 65, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 18:46:59]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:48:13]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:48:44]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 69
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 69, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(69): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:50:13]  Excepción no controlada: 'A session had already been started - ignoring session_start()' en el archivo UsuarioController.php en la línea 71
+StackTrace: #0 [internal function]: globalErrorHandler(8, 'A session had a...', 'C:\\xamp\\htdocs\\...', 71, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(71): session_start()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 18:56:37]  Excepción no controlada: 'Undefined index: carrito' en el archivo Mostrarproducto.php en la línea 45
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Buscador\Mostrarproducto.php(45): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 45, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(31): Controller->render('Mostrarproducto')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->mostrar(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 19:29:24]  Excepción no controlada: 'Class 'CarritoController' not found' en el archivo dispatcher.php en la línea 24
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-15 20:43:05]  Excepción no controlada: 'Undefined index: contador' en el archivo UsuarioController.php en la línea 77
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(77): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 77, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->comprar(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 20:43:21]  Excepción no controlada: 'Undefined index: carrito' en el archivo CarritoController.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(15): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 20:44:40]  Excepción no controlada: 'Undefined index: carrito' en el archivo CarritoController.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(15): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 20:46:50]  Excepción no controlada: 'Undefined index: carrito' en el archivo CarritoController.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(15): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 20:47:32]  Excepción no controlada: 'Undefined index: carrito' en el archivo CarritoController.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(15): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 20:47:44]  Excepción no controlada: 'Undefined index: carrito' en el archivo CarritoController.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(15): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 21:10:08]  Excepción no controlada: 'Undefined offset: 0' en el archivo carrito.php en la línea 7
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(7): globalErrorHandler(8, 'Undefined offse...', 'C:\\xamp\\htdocs\\...', 7, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 21:51:11]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'UsuarioController' does not have a method 'compra'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-15 21:51:45]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'UsuarioController' does not have a method 'compra'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-15 22:55:02]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 36
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(36): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 36, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 22:55:11]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 36
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(36): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 36, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 22:55:24]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 36
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(36): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 36, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 22:55:25]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 36
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(36): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 36, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 22:56:48]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 36
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(36): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 36, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 22:56:58]  Excepción no controlada: 'syntax error, unexpected '.'' en el archivo carrito.php en la línea 36
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 22:57:20]  Excepción no controlada: 'syntax error, unexpected '.'' en el archivo carrito.php en la línea 36
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 22:57:21]  Excepción no controlada: 'syntax error, unexpected '.'' en el archivo carrito.php en la línea 36
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 22:57:35]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 36
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(36): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 36, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 22:57:53]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 36
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(36): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 36, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 22:57:55]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 36
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(36): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 36, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 22:57:55]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 36
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(36): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 36, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 22:57:55]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 36
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(36): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 36, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 22:57:56]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 36
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(36): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 36, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 22:57:56]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 36
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(36): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 36, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 22:59:28]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 22:59:32]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 22:59:33]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:00:10]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:00:11]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:00:12]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:00:12]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:00:12]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:00:13]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:00:13]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:00:36]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:04:07]  Excepción no controlada: 'syntax error, unexpected '.'' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 23:04:17]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:04:48]  Excepción no controlada: 'syntax error, unexpected ';'' en el archivo carrito.php en la línea 36
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 23:05:11]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:08:20]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:08:21]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:08:22]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:08:31]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:08:53]  Excepción no controlada: 'syntax error, unexpected '*'' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 23:08:54]  Excepción no controlada: 'syntax error, unexpected '*'' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 23:11:11]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 40
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(40): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 40, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:11:13]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 40
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(40): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 40, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:11:13]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 40
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(40): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 40, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:11:13]  Excepción no controlada: 'Undefined variable: total' en el archivo carrito.php en la línea 40
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(40): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 40, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:12:04]  Excepción no controlada: 'Use of undefined constant subtotal - assumed 'subtotal'' en el archivo carrito.php en la línea 29
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(29): globalErrorHandler(8, 'Use of undefine...', 'C:\\xamp\\htdocs\\...', 29, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:12:36]  Excepción no controlada: 'syntax error, unexpected '.'' en el archivo carrito.php en la línea 29
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 23:14:45]  Excepción no controlada: 'syntax error, unexpected '"</td>"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'' en el archivo carrito.php en la línea 46
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 23:27:01]  Excepción no controlada: 'Undefined property: stdClass::$total' en el archivo UsuarioController.php en la línea 103
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(103): globalErrorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 103, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 23:27:51]  Excepción no controlada: 'Undefined property: stdClass::$total' en el archivo UsuarioController.php en la línea 103
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(103): globalErrorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 103, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 23:28:42]  Excepción no controlada: 'Undefined index: idProducto' en el archivo Usuario.php en la línea 85
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Usuario.php(85): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 85, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(115): Usuario->traeIdPorNombre('Axel')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 23:29:27]  Excepción no controlada: 'Undefined index: idProducto' en el archivo Usuario.php en la línea 85
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Usuario.php(85): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 85, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(115): Usuario->traeIdPorNombre('Axel')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 23:31:14]  Excepción no controlada: 'Undefined index: idProducto' en el archivo Usuario.php en la línea 85
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Usuario.php(85): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 85, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(115): Usuario->traeIdPorNombre('Axel')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 23:32:13]  Excepción no controlada: 'Undefined index: idProducto' en el archivo Usuario.php en la línea 85
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Usuario.php(85): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 85, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(115): Usuario->traeIdPorNombre('Axel')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 23:32:44]  Excepción no controlada: 'Undefined index: idProducto' en el archivo Usuario.php en la línea 85
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Usuario.php(85): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 85, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(115): Usuario->traeIdPorNombre('Axel')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 23:32:49]  Excepción no controlada: 'Undefined index: idProducto' en el archivo Usuario.php en la línea 85
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Usuario.php(85): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 85, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(115): Usuario->traeIdPorNombre('Axel')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 23:40:25]  Excepción no controlada: 'Undefined offset: 0' en el archivo tarjeta_de_credito.php en la línea 18
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\tarjeta_de_credito.php(18): globalErrorHandler(8, 'Undefined offse...', 'C:\\xamp\\htdocs\\...', 18, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(118): tarjeta_de_credito->pagar(Array, '1', '<?php echo 1083...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 23:42:43]  Excepción no controlada: 'Undefined offset: 0' en el archivo tarjeta_de_credito.php en la línea 18
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\tarjeta_de_credito.php(18): globalErrorHandler(8, 'Undefined offse...', 'C:\\xamp\\htdocs\\...', 18, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(118): tarjeta_de_credito->pagar(Array, '1', '<?php echo 1083...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 23:44:58]  Excepción no controlada: 'Undefined offset: 0' en el archivo tarjeta_de_credito.php en la línea 18
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\tarjeta_de_credito.php(18): globalErrorHandler(8, 'Undefined offse...', 'C:\\xamp\\htdocs\\...', 18, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(118): tarjeta_de_credito->pagar(Array, '1', '<?php echo 1083...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 23:45:39]  Excepción no controlada: 'Undefined offset: 0' en el archivo tarjeta_de_credito.php en la línea 18
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\tarjeta_de_credito.php(18): globalErrorHandler(8, 'Undefined offse...', 'C:\\xamp\\htdocs\\...', 18, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(118): tarjeta_de_credito->pagar(Array, '1', '<?php echo 1083...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 23:46:55]  Excepción no controlada: 'Undefined offset: 0' en el archivo tarjeta_de_credito.php en la línea 18
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\tarjeta_de_credito.php(18): globalErrorHandler(8, 'Undefined offse...', 'C:\\xamp\\htdocs\\...', 18, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(118): tarjeta_de_credito->pagar(Array, '1', '<?php echo 1083...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 23:47:41]  Excepción no controlada: 'Undefined offset: 0' en el archivo tarjeta_de_credito.php en la línea 19
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\tarjeta_de_credito.php(19): globalErrorHandler(8, 'Undefined offse...', 'C:\\xamp\\htdocs\\...', 19, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(118): tarjeta_de_credito->pagar(Array, '1', '<?php echo 1083...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 23:48:16]  Excepción no controlada: 'Undefined offset: 0' en el archivo tarjeta_de_credito.php en la línea 19
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\tarjeta_de_credito.php(19): globalErrorHandler(8, 'Undefined offse...', 'C:\\xamp\\htdocs\\...', 19, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(118): tarjeta_de_credito->pagar(Array, '1', '<?php echo 1083...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 23:48:27]  Excepción no controlada: 'Undefined offset: 0' en el archivo tarjeta_de_credito.php en la línea 19
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\tarjeta_de_credito.php(19): globalErrorHandler(8, 'Undefined offse...', 'C:\\xamp\\htdocs\\...', 19, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(118): tarjeta_de_credito->pagar(Array, '1', '<?php echo 1083...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 23:49:38]  Excepción no controlada: 'Undefined offset: 0' en el archivo tarjeta_de_credito.php en la línea 19
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\tarjeta_de_credito.php(19): globalErrorHandler(8, 'Undefined offse...', 'C:\\xamp\\htdocs\\...', 19, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(118): tarjeta_de_credito->pagar(Array, '1', '<?php echo 1083...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-15 23:51:40]  Excepción no controlada: 'Undefined index: carrito' en el archivo indexUsuario.php en la línea 20
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Usuario\indexUsuario.php(20): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 20, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(59): Controller->render('indexUsuario')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->mostrarInicio(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:54:43]  Excepción no controlada: 'syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'' en el archivo indexUsuario.php en la línea 22
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(59): Controller->render('indexUsuario')
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->mostrarInicio(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 23:55:27]  Excepción no controlada: 'syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';'' en el archivo indexUsuario.php en la línea 23
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(59): Controller->render('indexUsuario')
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->mostrarInicio(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-15 23:57:11]  Excepción no controlada: 'A non-numeric value encountered' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(2, 'A non-numeric v...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-15 23:57:23]  Excepción no controlada: 'A non-numeric value encountered' en el archivo carrito.php en la línea 28
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(28): globalErrorHandler(2, 'A non-numeric v...', 'C:\\xamp\\htdocs\\...', 28, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+

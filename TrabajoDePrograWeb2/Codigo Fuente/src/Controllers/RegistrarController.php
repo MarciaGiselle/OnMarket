@@ -38,14 +38,14 @@ class RegistrarController extends Controller
 
         if($usuario->validarFormatos($terminosYcondiciones)) {
            if (!$usuario->consultarUserName()) {
-            throw new ExcentionDeNombreUser("Nombre de usuario ya existente", CodigoError::ExcentionDeNombreUser);
+            throw new ExcentionRegistar("Nombre de usuario ya existente", CodigoError::ExcentionRegistar);
           }else
 
             if ($usuario->consultarPass($pass2)) {
                 $usuario->insertarRegistro();
                 //$this->redireccionarALaPaginaDelUsuario();
                }else{
-                throw new ExcentionDeNombreUser("las contraseñas no son iguales", CodigoError::ExcentionDeNombreUser);
+                throw new ExcentionRegistar("las contraseñas no son iguales", CodigoError::ExcentionRegistar);
 
             }
 

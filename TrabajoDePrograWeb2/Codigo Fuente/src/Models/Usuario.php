@@ -78,8 +78,16 @@ class Usuario extends Model
 
 
     }
-
-
+  public  function traeIdPorNombre($nombre){
+      $res=$this->pageRows(0,1, "userName='$nombre'");
+      if(!empty($res[0])){
+          $respuesta=$res[0];
+          $id=$respuesta["id"];
+          return $id;
+      }else{
+          return false;
+      }
+}
 
   function validarFormatos($terminosYcondiciones){
 
