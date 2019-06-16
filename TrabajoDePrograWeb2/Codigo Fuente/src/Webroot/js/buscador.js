@@ -57,6 +57,7 @@ function busquedaExitosa(resultados){
             '<td align="center" >'+ datos[i].prod[0].descripcion+ '</td>'+
             '<td align="center" >'+ '<img height="100px" src="../Webroot/imgCargadas/'+ name +'">'+
             '<input type="submit" value="ver"  onclick="enviarId('+id+')">' +
+            '<input type="hidden" name="idProducto"  value="'+id+'">'+
             '</td>'+
             '</tr>'
         );

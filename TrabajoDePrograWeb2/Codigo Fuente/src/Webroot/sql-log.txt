@@ -9058,3 +9058,150 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-15 00:02:50]  select * from Producto  where idProducto=107 limit 0, 1
 [2019-06-15 00:02:50]  DESC Imagen
 [2019-06-15 00:02:50]  select * from Imagen  where idProducto=107 limit 0, 10
+[2019-06-15 14:34:27]  DESC Usuario
+[2019-06-15 14:34:27]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-15 14:34:33]  DESC Producto
+[2019-06-15 14:34:33]  DESC Imagen
+[2019-06-15 14:34:33]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-15 14:34:33]  select * from Producto  where idProducto=86 limit 0, 10
+[2019-06-15 14:34:33]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-15 14:34:33]  select * from Producto  where idProducto=87 limit 0, 10
+[2019-06-15 14:34:33]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-15 14:34:33]  select * from Producto  where idProducto=107 limit 0, 10
+[2019-06-15 14:34:33]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-15 14:34:33]  select * from Producto  where idProducto=108 limit 0, 10
+[2019-06-15 14:34:33]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-15 14:34:35]  DESC Producto
+[2019-06-15 14:34:35]  select * from Producto  where idProducto=87 limit 0, 1
+[2019-06-15 14:34:35]  DESC Imagen
+[2019-06-15 14:34:35]  select * from Imagen  where idProducto=87 limit 0, 10
+[2019-06-15 14:35:06]  DESC Producto
+[2019-06-15 14:35:06]  DESC Imagen
+[2019-06-15 14:35:06]  select * from Producto  where nombre like '%vinilos%' limit 0, 100
+[2019-06-15 14:35:06]  select * from Producto  where idProducto=86 limit 0, 10
+[2019-06-15 14:35:06]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-15 14:35:06]  select * from Producto  where idProducto=87 limit 0, 10
+[2019-06-15 14:35:06]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-15 14:35:06]  select * from Producto  where idProducto=107 limit 0, 10
+[2019-06-15 14:35:06]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-15 14:35:06]  select * from Producto  where idProducto=108 limit 0, 10
+[2019-06-15 14:35:06]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-15 15:05:15]  DESC Producto
+[2019-06-15 15:05:15]  select * from Producto  where idProducto=87 limit 0, 1
+[2019-06-15 15:05:15]  DESC Imagen
+[2019-06-15 15:05:15]  select * from Imagen  where idProducto=87 limit 0, 10
+[2019-06-15 15:51:12]  DESC Producto
+[2019-06-15 15:51:12]  DESC Categoria
+[2019-06-15 15:51:12]  select * from Categoria  where nombreCategoria='jardin' limit 0, 1
+[2019-06-15 15:51:12]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('frascos decorados','kjkn k','100','1500','8')
+[2019-06-15 15:51:13]  DESC Imagen
+[2019-06-15 15:51:13]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('frascos6.png','109')
+[2019-06-15 15:51:13]  DESC Imagen
+[2019-06-15 15:51:13]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('frascos55.png','109')
+[2019-06-15 15:51:13]  DESC Imagen
+[2019-06-15 15:51:13]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('frascos4.png','109')
+[2019-06-15 15:51:14]  DESC Imagen
+[2019-06-15 15:51:14]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('frascos2.png','109')
+[2019-06-15 15:51:14]  DESC Publicacion
+[2019-06-15 15:51:14]  DESC FormaEntrega
+[2019-06-15 15:51:14]  select * from FormaEntrega  where  descripcion='acordarConElVendedor'  limit 0, 1
+[2019-06-15 15:51:14]  DESC Publicacion_Entrega
+[2019-06-15 15:51:14]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-06-15','navidad','1','109')
+[2019-06-15 15:51:14]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('29','1')
+[2019-06-15 15:56:40]  DESC Producto
+[2019-06-15 15:56:40]  DESC Categoria
+[2019-06-15 15:56:40]  select * from Categoria  where nombreCategoria='jardin' limit 0, 1
+[2019-06-15 15:56:40]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('frascos decorados','','100','1500','8')
+[2019-06-15 15:56:40]  DESC Imagen
+[2019-06-15 15:56:40]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('frascos6.png','110')
+[2019-06-15 15:56:40]  DESC Imagen
+[2019-06-15 15:56:40]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('frascos55.png','110')
+[2019-06-15 15:56:40]  DESC Imagen
+[2019-06-15 15:56:40]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('frascos4.png','110')
+[2019-06-15 15:56:40]  DESC Imagen
+[2019-06-15 15:56:40]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('frascos2.png','110')
+[2019-06-15 15:56:40]  DESC Publicacion
+[2019-06-15 15:56:41]  DESC FormaEntrega
+[2019-06-15 15:56:41]  select * from FormaEntrega  where  descripcion='acordarConElVendedor'  limit 0, 1
+[2019-06-15 15:56:41]  DESC Publicacion_Entrega
+[2019-06-15 15:56:41]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-06-15','navidad','1','110')
+[2019-06-15 15:56:41]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('30','1')
+[2019-06-15 15:56:50]  DESC Producto
+[2019-06-15 15:56:50]  DESC Categoria
+[2019-06-15 15:56:51]  select * from Categoria  where nombreCategoria='Seleccionar...' limit 0, 1
+[2019-06-15 15:56:58]  DESC Producto
+[2019-06-15 15:56:58]  DESC Categoria
+[2019-06-15 15:56:58]  select * from Categoria  where nombreCategoria='Seleccionar...' limit 0, 1
+[2019-06-15 15:57:06]  DESC Producto
+[2019-06-15 15:57:06]  DESC Categoria
+[2019-06-15 15:57:06]  select * from Categoria  where nombreCategoria='deportes' limit 0, 1
+[2019-06-15 15:57:12]  DESC Producto
+[2019-06-15 15:57:12]  DESC Categoria
+[2019-06-15 15:57:12]  select * from Categoria  where nombreCategoria='deportes' limit 0, 1
+[2019-06-15 15:57:18]  DESC Producto
+[2019-06-15 15:57:18]  DESC Categoria
+[2019-06-15 15:57:19]  select * from Categoria  where nombreCategoria='deportes' limit 0, 1
+[2019-06-15 15:57:23]  DESC Producto
+[2019-06-15 15:57:23]  DESC Categoria
+[2019-06-15 15:57:23]  select * from Categoria  where nombreCategoria='deportes' limit 0, 1
+[2019-06-15 15:57:27]  DESC Producto
+[2019-06-15 15:57:27]  DESC Categoria
+[2019-06-15 15:57:27]  select * from Categoria  where nombreCategoria='deportes' limit 0, 1
+[2019-06-15 15:57:40]  DESC Producto
+[2019-06-15 15:57:40]  DESC Categoria
+[2019-06-15 15:57:40]  select * from Categoria  where nombreCategoria='deportes' limit 0, 1
+[2019-06-15 15:57:40]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Rocio','jhj','4','200','6')
+[2019-06-15 15:57:40]  DESC Imagen
+[2019-06-15 15:57:40]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('3d.png','111')
+[2019-06-15 15:57:40]  DESC Imagen
+[2019-06-15 15:57:40]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('3dm.png','111')
+[2019-06-15 15:57:40]  DESC Imagen
+[2019-06-15 15:57:40]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('2dm.png','111')
+[2019-06-15 15:57:40]  DESC Imagen
+[2019-06-15 15:57:40]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('dia de la madre2.png','111')
+[2019-06-15 15:57:40]  DESC Publicacion
+[2019-06-15 15:57:40]  DESC FormaEntrega
+[2019-06-15 15:57:40]  select * from FormaEntrega  where  descripcion='acordarConElVendedor'  limit 0, 1
+[2019-06-15 15:57:40]  DESC Publicacion_Entrega
+[2019-06-15 15:57:40]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-06-15','Kit desayuno ','1','111')
+[2019-06-15 15:57:40]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('31','1')
+[2019-06-15 16:03:12]  DESC Producto
+[2019-06-15 16:03:12]  DESC Imagen
+[2019-06-15 16:03:12]  select * from Producto  where nombre like '%roc%' limit 0, 100
+[2019-06-15 16:03:12]  select * from Producto  where idProducto=84 limit 0, 10
+[2019-06-15 16:03:12]  select * from Imagen  where idProducto=84 limit 0, 1
+[2019-06-15 16:03:12]  select * from Producto  where idProducto=85 limit 0, 10
+[2019-06-15 16:03:12]  select * from Imagen  where idProducto=85 limit 0, 1
+[2019-06-15 16:03:12]  select * from Producto  where idProducto=111 limit 0, 10
+[2019-06-15 16:03:12]  select * from Imagen  where idProducto=111 limit 0, 1
+[2019-06-15 16:04:37]  DESC Producto
+[2019-06-15 16:04:37]  DESC Imagen
+[2019-06-15 16:04:37]  select * from Producto  where nombre like '%vi%' limit 0, 100
+[2019-06-15 16:04:37]  select * from Producto  where idProducto=86 limit 0, 10
+[2019-06-15 16:04:37]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-15 16:04:37]  select * from Producto  where idProducto=87 limit 0, 10
+[2019-06-15 16:04:37]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-15 16:04:37]  select * from Producto  where idProducto=107 limit 0, 10
+[2019-06-15 16:04:37]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-15 16:04:37]  select * from Producto  where idProducto=108 limit 0, 10
+[2019-06-15 16:04:37]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-15 16:05:09]  DESC Producto
+[2019-06-15 16:05:09]  DESC Imagen
+[2019-06-15 16:05:09]  select * from Producto  where nombre like '%ro%' limit 0, 100
+[2019-06-15 16:05:09]  select * from Producto  where idProducto=65 limit 0, 10
+[2019-06-15 16:05:09]  select * from Imagen  where idProducto=65 limit 0, 1
+[2019-06-15 16:05:09]  select * from Producto  where idProducto=68 limit 0, 10
+[2019-06-15 16:05:09]  select * from Imagen  where idProducto=68 limit 0, 1
+[2019-06-15 16:05:09]  select * from Producto  where idProducto=84 limit 0, 10
+[2019-06-15 16:05:09]  select * from Imagen  where idProducto=84 limit 0, 1
+[2019-06-15 16:05:09]  select * from Producto  where idProducto=85 limit 0, 10
+[2019-06-15 16:05:09]  select * from Imagen  where idProducto=85 limit 0, 1
+[2019-06-15 16:05:09]  select * from Producto  where idProducto=111 limit 0, 10
+[2019-06-15 16:05:09]  select * from Imagen  where idProducto=111 limit 0, 1
+[2019-06-15 16:05:30]  DESC Producto
+[2019-06-15 16:05:30]  DESC Imagen
+[2019-06-15 16:05:30]  select * from Producto  where nombre like '%libro%' limit 0, 100
+[2019-06-15 16:05:30]  select * from Producto  where idProducto=65 limit 0, 10
+[2019-06-15 16:05:30]  select * from Imagen  where idProducto=65 limit 0, 1
+[2019-06-15 16:05:30]  select * from Producto  where idProducto=68 limit 0, 10
+[2019-06-15 16:05:30]  select * from Imagen  where idProducto=68 limit 0, 1
