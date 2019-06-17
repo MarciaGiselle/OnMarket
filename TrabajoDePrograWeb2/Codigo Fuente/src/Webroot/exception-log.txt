@@ -4042,3 +4042,253 @@ StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Vie
 #4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
 #5 {main}
 
+[2019-06-16 14:10:40]  Excepción no controlada: 'Undefined index: carrito' en el archivo carrito.php en la línea 23
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(23): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 23, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 14:43:47]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'CarritoController' does not have a method 'carrito?total=%3C%3Fphp+echo+1233%3B+%3F%3E'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 14:45:04]  Excepción no controlada: 'syntax error, unexpected 'method' (T_STRING), expecting ',' or ';'' en el archivo carrito.php en la línea 9
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-16 14:45:13]  Excepción no controlada: 'syntax error, unexpected 'method' (T_STRING), expecting ',' or ';'' en el archivo carrito.php en la línea 9
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(17): Controller->render('carrito')
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->carrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-16 14:46:12]  Excepción no controlada: 'Class 'TarjetaController' not found' en el archivo dispatcher.php en la línea 24
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 14:54:59]  Excepción no controlada: 'Undefined property: stdClass::$total' en el archivo UsuarioController.php en la línea 103
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(103): globalErrorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 103, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-16 14:57:58]  Excepción no controlada: 'Undefined index: TO' en el archivo TarjetaController.php en la línea 8
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\TarjetaController.php(8): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 8, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): TarjetaController->tarjeta(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-16 15:06:44]  Excepción no controlada: 'Undefined property: stdClass::$total' en el archivo UsuarioController.php en la línea 103
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(103): globalErrorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 103, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-16 15:29:46]  Excepción no controlada: 'Undefined property: stdClass::$total' en el archivo UsuarioController.php en la línea 103
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(103): globalErrorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 103, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-16 15:29:52]  Excepción no controlada: 'Undefined property: stdClass::$total' en el archivo UsuarioController.php en la línea 103
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(103): globalErrorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 103, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-16 15:30:03]  Excepción no controlada: 'Undefined property: stdClass::$codigo' en el archivo UsuarioController.php en la línea 104
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(104): globalErrorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 104, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-16 15:30:03]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 15:31:02]  Excepción no controlada: 'Undefined property: stdClass::$codigo' en el archivo UsuarioController.php en la línea 104
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(104): globalErrorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 104, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-16 15:31:02]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 15:32:37]  Excepción no controlada: 'Undefined property: stdClass::$codigo' en el archivo UsuarioController.php en la línea 104
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(104): globalErrorHandler(8, 'Undefined prope...', 'C:\\xamp\\htdocs\\...', 104, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->Compra(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-16 15:32:38]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 15:34:33]  Excepción no controlada: 'Undefined index: total' en el archivo TarjetaController.php en la línea 8
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\TarjetaController.php(8): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 8, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): TarjetaController->tarjeta(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-16 15:35:06]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 15:35:13]  Excepción no controlada: 'Undefined variable: total' en el archivo tarjeta.php en la línea 22
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Tarjeta\tarjeta.php(22): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 22, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\TarjetaController.php(12): Controller->render('tarjeta')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): TarjetaController->tarjeta(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 15:35:48]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 15:36:51]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 15:39:39]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 15:40:28]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 15:44:32]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 15:47:28]  Excepción no controlada: 'Undefined index: total' en el archivo TarjetaController.php en la línea 8
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\TarjetaController.php(8): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 8, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): TarjetaController->tarjeta(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-16 15:48:26]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 15:54:05]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 15:54:41]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 15:55:38]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 15:58:39]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 15:59:15]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 15:59:24]  Excepción no controlada: 'Undefined variable: total' en el archivo tarjeta.php en la línea 22
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Tarjeta\tarjeta.php(22): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 22, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\TarjetaController.php(12): Controller->render('tarjeta')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): TarjetaController->tarjeta(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 15:59:51]  Excepción no controlada: 'Undefined variable: total' en el archivo tarjeta.php en la línea 22
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Tarjeta\tarjeta.php(22): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 22, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\TarjetaController.php(12): Controller->render('tarjeta')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): TarjetaController->tarjeta(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 15:59:52]  Excepción no controlada: 'Undefined variable: total' en el archivo tarjeta.php en la línea 22
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Tarjeta\tarjeta.php(22): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 22, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\TarjetaController.php(12): Controller->render('tarjeta')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): TarjetaController->tarjeta(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 15:59:53]  Excepción no controlada: 'Undefined variable: total' en el archivo tarjeta.php en la línea 22
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Tarjeta\tarjeta.php(22): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 22, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\TarjetaController.php(12): Controller->render('tarjeta')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): TarjetaController->tarjeta(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 15:59:53]  Excepción no controlada: 'Undefined variable: total' en el archivo tarjeta.php en la línea 22
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Tarjeta\tarjeta.php(22): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 22, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\TarjetaController.php(12): Controller->render('tarjeta')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): TarjetaController->tarjeta(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 16:00:54]  Excepción no controlada: 'Undefined variable: total' en el archivo tarjeta.php en la línea 22
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Tarjeta\tarjeta.php(22): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 22, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\TarjetaController.php(12): Controller->render('tarjeta')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): TarjetaController->tarjeta(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 16:01:40]  Excepción no controlada: 'Undefined variable: total' en el archivo tarjeta.php en la línea 22
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Tarjeta\tarjeta.php(22): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 22, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\TarjetaController.php(12): Controller->render('tarjeta')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): TarjetaController->tarjeta(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 16:02:24]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 16:03:01]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 16:03:26]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'TarjetaController' does not have a method 'tarjeta?'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 20:58:33]  Excepción no controlada: 'Undefined variable: datos' en el archivo MostrarproductoController.php en la línea 14
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarproductoController.php(14): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 14, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarproductoController->MostrarProducto(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+

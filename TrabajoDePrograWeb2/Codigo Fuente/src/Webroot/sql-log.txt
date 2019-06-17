@@ -9885,3 +9885,227 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-15 23:58:39]  select * from tarjeta_de_credito  where idUser='4' limit 0, 1
 [2019-06-15 23:58:39]  DESC cobranza
 [2019-06-15 23:58:39]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('1','19-06-15','','<?php echo 1233; ?>')
+[2019-06-16 00:11:12]  DESC Usuario
+[2019-06-16 00:11:13]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 00:11:13]  DESC tarjeta_de_credito
+[2019-06-16 00:11:13]  select * from tarjeta_de_credito  where idUser='4' limit 0, 1
+[2019-06-16 00:11:13]  DESC cobranza
+[2019-06-16 00:11:13]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('1','19-06-16','','<?php echo 1233; ?>')
+[2019-06-16 14:07:08]  DESC Usuario
+[2019-06-16 14:07:09]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-16 14:07:56]  DESC Usuario
+[2019-06-16 14:07:56]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-16 14:11:02]  DESC Producto
+[2019-06-16 14:11:02]  DESC Imagen
+[2019-06-16 14:11:03]  select * from Producto  where nombre like '%cartera%' limit 0, 100
+[2019-06-16 14:11:03]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-16 14:11:03]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-06-16 14:11:06]  DESC Producto
+[2019-06-16 14:11:06]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-16 14:11:06]  DESC Imagen
+[2019-06-16 14:11:06]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-16 14:11:34]  DESC Usuario
+[2019-06-16 14:11:34]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 14:11:34]  DESC tarjeta_de_credito
+[2019-06-16 14:11:35]  select * from tarjeta_de_credito  where idUser='4' limit 0, 1
+[2019-06-16 14:11:35]  DESC cobranza
+[2019-06-16 14:11:35]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('1','19-06-16','','<?php echo 1233; ?>')
+[2019-06-16 15:40:27]  DESC Usuario
+[2019-06-16 15:40:27]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 15:40:27]  DESC tarjeta_de_credito
+[2019-06-16 15:40:27]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','','')
+[2019-06-16 15:40:27]  DESC cobranza
+[2019-06-16 15:40:27]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('2','','','1233')
+[2019-06-16 15:48:04]  DESC Usuario
+[2019-06-16 15:48:04]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-16 15:55:37]  DESC Usuario
+[2019-06-16 15:55:37]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 15:55:38]  DESC tarjeta_de_credito
+[2019-06-16 15:55:38]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','','')
+[2019-06-16 15:55:38]  DESC cobranza
+[2019-06-16 15:55:38]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('3','','','1233')
+[2019-06-16 16:10:56]  DESC Usuario
+[2019-06-16 16:10:57]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:10:57]  DESC tarjeta_de_credito
+[2019-06-16 16:10:57]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','123','2019-06-27')
+[2019-06-16 16:10:57]  DESC cobranza
+[2019-06-16 16:10:57]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('4','2019-06-27','','1233')
+[2019-06-16 16:12:35]  DESC Usuario
+[2019-06-16 16:12:36]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:12:36]  DESC tarjeta_de_credito
+[2019-06-16 16:12:36]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','123','2019-06-27')
+[2019-06-16 16:12:36]  DESC cobranza
+[2019-06-16 16:12:36]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('5','2019-06-27','','1233')
+[2019-06-16 16:15:42]  DESC Usuario
+[2019-06-16 16:15:42]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:15:42]  DESC tarjeta_de_credito
+[2019-06-16 16:15:42]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','78','')
+[2019-06-16 16:15:42]  DESC cobranza
+[2019-06-16 16:15:43]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('6','','','1233')
+[2019-06-16 16:16:42]  DESC Usuario
+[2019-06-16 16:16:42]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:16:42]  DESC tarjeta_de_credito
+[2019-06-16 16:16:42]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','789','2019-06-20')
+[2019-06-16 16:16:42]  DESC cobranza
+[2019-06-16 16:16:42]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('7','2019-06-20','','1233')
+[2019-06-16 16:20:42]  DESC Usuario
+[2019-06-16 16:20:42]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:20:42]  DESC tarjeta_de_credito
+[2019-06-16 16:20:42]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','789','2019-06-20')
+[2019-06-16 16:20:42]  DESC cobranza
+[2019-06-16 16:20:42]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('8','2019-06-20','','1233')
+[2019-06-16 16:20:54]  DESC Usuario
+[2019-06-16 16:20:54]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:20:54]  DESC tarjeta_de_credito
+[2019-06-16 16:20:54]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','789','2019-06-06')
+[2019-06-16 16:20:54]  DESC cobranza
+[2019-06-16 16:20:54]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('9','2019-06-06','','1233')
+[2019-06-16 16:28:02]  DESC Usuario
+[2019-06-16 16:28:02]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:28:02]  DESC tarjeta_de_credito
+[2019-06-16 16:28:02]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','789','2019-06-06')
+[2019-06-16 16:28:02]  DESC cobranza
+[2019-06-16 16:28:03]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('10','2019-06-06','','1233')
+[2019-06-16 16:30:36]  DESC Usuario
+[2019-06-16 16:30:37]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:30:37]  DESC tarjeta_de_credito
+[2019-06-16 16:30:37]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','789','2019-06-06')
+[2019-06-16 16:30:37]  DESC cobranza
+[2019-06-16 16:30:37]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('11','2019-06-06','','1233')
+[2019-06-16 16:33:47]  DESC Usuario
+[2019-06-16 16:33:47]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:33:47]  DESC tarjeta_de_credito
+[2019-06-16 16:33:47]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','789','2019-06-06')
+[2019-06-16 16:33:47]  DESC cobranza
+[2019-06-16 16:33:47]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('112','2019-06-06','','1233')
+[2019-06-16 16:34:45]  DESC Usuario
+[2019-06-16 16:34:45]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:34:45]  DESC tarjeta_de_credito
+[2019-06-16 16:34:46]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','789','2019-06-06')
+[2019-06-16 16:34:46]  DESC cobranza
+[2019-06-16 16:34:46]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('13','2019-06-06','112','1233')
+[2019-06-16 16:35:43]  DESC Producto
+[2019-06-16 16:35:43]  DESC Imagen
+[2019-06-16 16:35:43]  select * from Producto  where nombre like '%campera%' limit 0, 100
+[2019-06-16 16:35:43]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-16 16:35:43]  select * from Imagen  where idProducto=113 limit 0, 1
+[2019-06-16 16:35:47]  DESC Producto
+[2019-06-16 16:35:47]  select * from Producto  where idProducto=113 limit 0, 1
+[2019-06-16 16:35:47]  DESC Imagen
+[2019-06-16 16:35:47]  select * from Imagen  where idProducto=113 limit 0, 10
+[2019-06-16 16:36:21]  DESC Usuario
+[2019-06-16 16:36:21]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:36:21]  DESC tarjeta_de_credito
+[2019-06-16 16:36:21]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','789','2019-06-05')
+[2019-06-16 16:36:21]  DESC cobranza
+[2019-06-16 16:36:21]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('14','2019-06-05','113','45677')
+[2019-06-16 16:37:06]  DESC Usuario
+[2019-06-16 16:37:06]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:37:06]  DESC tarjeta_de_credito
+[2019-06-16 16:37:06]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','789','2019-06-05')
+[2019-06-16 16:37:06]  DESC cobranza
+[2019-06-16 16:37:06]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('15','2019-06-05','113','45677')
+[2019-06-16 16:38:14]  DESC Usuario
+[2019-06-16 16:38:14]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:38:14]  DESC tarjeta_de_credito
+[2019-06-16 16:38:14]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','789','2019-06-05')
+[2019-06-16 16:38:15]  DESC cobranza
+[2019-06-16 16:38:15]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('16','2019-06-05','113','45677')
+[2019-06-16 16:38:36]  DESC Usuario
+[2019-06-16 16:38:36]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:38:36]  DESC tarjeta_de_credito
+[2019-06-16 16:38:36]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','789','2019-06-05')
+[2019-06-16 16:38:36]  DESC cobranza
+[2019-06-16 16:38:36]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('','2019-06-05','113','45677')
+[2019-06-16 16:38:44]  DESC Usuario
+[2019-06-16 16:38:44]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:38:44]  DESC tarjeta_de_credito
+[2019-06-16 16:38:44]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','789','2019-06-05')
+[2019-06-16 16:38:45]  DESC cobranza
+[2019-06-16 16:38:45]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('','2019-06-05','113','45677')
+[2019-06-16 16:39:00]  DESC Usuario
+[2019-06-16 16:39:00]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:39:00]  DESC tarjeta_de_credito
+[2019-06-16 16:39:00]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','789','2019-06-05')
+[2019-06-16 16:39:00]  DESC cobranza
+[2019-06-16 16:39:00]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('19','2019-06-05','113','45677')
+[2019-06-16 16:40:52]  DESC Usuario
+[2019-06-16 16:40:52]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:40:53]  DESC tarjeta_de_credito
+[2019-06-16 16:40:53]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','546','2019-06-05')
+[2019-06-16 16:40:53]  DESC cobranza
+[2019-06-16 16:40:53]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('20','2019-06-05','113','45677')
+[2019-06-16 16:42:02]  DESC Usuario
+[2019-06-16 16:42:02]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:42:02]  DESC tarjeta_de_credito
+[2019-06-16 16:42:02]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','546','2019-06-05')
+[2019-06-16 16:42:02]  DESC cobranza
+[2019-06-16 16:42:02]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('21','2019-06-05','','45677')
+[2019-06-16 16:44:19]  DESC Usuario
+[2019-06-16 16:44:19]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:44:19]  DESC tarjeta_de_credito
+[2019-06-16 16:44:19]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','456','2019-05-29')
+[2019-06-16 16:44:19]  DESC cobranza
+[2019-06-16 16:44:19]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('22','2019-05-29','113','45677')
+[2019-06-16 16:46:13]  DESC Usuario
+[2019-06-16 16:46:14]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:46:14]  DESC tarjeta_de_credito
+[2019-06-16 16:46:14]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','789','2019-06-04')
+[2019-06-16 16:46:14]  DESC cobranza
+[2019-06-16 16:46:14]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('23','2019-06-04','112','45677')
+[2019-06-16 16:46:14]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('23','2019-06-04','113','45677')
+[2019-06-16 16:51:00]  DESC Usuario
+[2019-06-16 16:51:00]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 16:51:00]  DESC tarjeta_de_credito
+[2019-06-16 16:51:00]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','789','2019-06-04')
+[2019-06-16 16:51:00]  DESC cobranza
+[2019-06-16 16:51:00]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('24','2019-06-04','112','45677')
+[2019-06-16 16:51:00]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('24','2019-06-04','113','45677')
+[2019-06-16 17:06:08]  DESC Producto
+[2019-06-16 17:06:08]  DESC Imagen
+[2019-06-16 17:06:08]  select * from Producto  where nombre like '%Campera%' limit 0, 100
+[2019-06-16 17:06:08]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-16 17:06:08]  select * from Imagen  where idProducto=113 limit 0, 1
+[2019-06-16 17:06:11]  DESC Producto
+[2019-06-16 17:06:11]  select * from Producto  where idProducto=113 limit 0, 1
+[2019-06-16 17:06:11]  DESC Imagen
+[2019-06-16 17:06:11]  select * from Imagen  where idProducto=113 limit 0, 10
+[2019-06-16 17:08:12]  DESC Producto
+[2019-06-16 17:08:12]  select * from Producto  where idProducto=113 limit 0, 1
+[2019-06-16 17:08:12]  DESC Imagen
+[2019-06-16 17:08:12]  select * from Imagen  where idProducto=113 limit 0, 10
+[2019-06-16 17:08:36]  DESC Producto
+[2019-06-16 17:08:36]  select * from Producto  where idProducto=113 limit 0, 1
+[2019-06-16 17:08:36]  DESC Imagen
+[2019-06-16 17:08:36]  select * from Imagen  where idProducto=113 limit 0, 10
+[2019-06-16 17:10:04]  DESC Producto
+[2019-06-16 17:10:04]  select * from Producto  where idProducto=113 limit 0, 1
+[2019-06-16 17:10:04]  DESC Imagen
+[2019-06-16 17:10:04]  select * from Imagen  where idProducto=113 limit 0, 10
+[2019-06-16 17:10:42]  DESC Usuario
+[2019-06-16 17:10:42]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 17:10:43]  DESC tarjeta_de_credito
+[2019-06-16 17:10:43]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','789','2019-06-11')
+[2019-06-16 17:10:43]  DESC cobranza
+[2019-06-16 17:10:43]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('25','2019-06-11','113','44444')
+[2019-06-16 20:58:18]  DESC Usuario
+[2019-06-16 20:58:19]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-16 20:58:31]  DESC Producto
+[2019-06-16 20:58:31]  DESC Imagen
+[2019-06-16 20:58:31]  select * from Producto  where nombre like '%Cartera%' limit 0, 100
+[2019-06-16 20:58:31]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-16 20:58:31]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-06-16 20:59:10]  DESC Producto
+[2019-06-16 20:59:11]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-16 20:59:11]  DESC Imagen
+[2019-06-16 20:59:11]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-16 20:59:27]  DESC Producto
+[2019-06-16 20:59:28]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-16 20:59:28]  DESC Imagen
+[2019-06-16 20:59:28]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-16 20:59:44]  DESC Usuario
+[2019-06-16 20:59:44]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-16 20:59:44]  DESC tarjeta_de_credito
+[2019-06-16 20:59:44]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','789','2019-06-10')
+[2019-06-16 20:59:44]  DESC cobranza
+[2019-06-16 20:59:45]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('26','2019-06-10','112','1233')

@@ -6,20 +6,36 @@ class tarjeta_de_credito extends Model{
    private $fecha_vencimiento;
 
 
-  function pagar( $arrayIds, $idTarjeta,$total){
+    public function insertar(){
+        $array=[
+
+            "id"=>$this->getId(),
+            "idUser"=>$this->getIdUser(),
+            "cod_seguridad"=>$this->getCodSeguridad(),
+            "fecha_vencimiento"=>$this->getFechaVencimiento()
+        ] ;
+        $this->setId($this->insert($array));
+        return $this->getId();
+    }
+
+  function pagar(  $idTarjeta,$fecha,$total){
       $cobranza=new cobranza();
-      $fecha_actual = date("y-m-d");
+
       $cobranza->setIdTarjeta($idTarjeta);
-      $cobranza->setFecha($fecha_actual);
+      $cobranza->setFecha($fecha);
       $cobranza->setTotal($total);
 
   //    for para recorrer el array de ids e insertarlos
-    $tope=count($arrayIds);
-     for($i=0;$i>$tope;$i++ ){
-      $cobranza->setIdProducto($arrayIds[$i]);
-  }
+      $tope=count($_SESSION["carrito"]);
+      for($i=1;$i<=$tope;$i++ ){
+          $cobranza->setIdProducto($_SESSION["carrito"][$i]["id"]);
+          $idCobranza= $cobranza->insertarCobranza();
+      }
 
-     $idCobranza= $cobranza->insertarCobranza();
+      unset($_SESSION["carrito"]);
+
+
+
 
 
 

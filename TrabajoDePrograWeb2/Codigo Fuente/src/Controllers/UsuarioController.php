@@ -60,7 +60,7 @@ class UsuarioController extends Controller
 
     }
 
-    function carrito($idProducto){
+    function agregarAlCarrito($idProducto){
 
         header("Content-type: application/json");
         $data = json_decode(utf8_decode($idProducto['data']));
@@ -86,7 +86,7 @@ class UsuarioController extends Controller
 
       }else{
 
-              throw new CarritoFallido("las contraseñas no son iguales", CodigoError::CarritoFallido);
+              throw new CarritoFallido("no se agrego al carrito", CodigoError::CarritoFallido);
       }
 
         echo json_encode($id);
@@ -101,25 +101,27 @@ class UsuarioController extends Controller
         header("Content-type: application/json");
         $data = json_decode(utf8_decode($datos['data']));
         $total=$data->total;
+        $codigo=$data->codigo;
+        $fecha=$data->fecha;
+        $numeroTarjeta=$data->numeroTarjeta;
 
-
-        $arrayIds= array();
-        $tope=count($_SESSION["carrito"]);
-        for($i=1;$i<=$tope;$i++ ){
-            $arrayIds[$i]=$_SESSION["carrito"][$i]["id"];
-
-        }
 
         $user=new usuario();
         $idUser=$user->traeIdPorNombre($_SESSION["logueado"]);
         if(isset($idUser)){
             $tarjeta= new tarjeta_de_credito();
-            $idTarjeta=$tarjeta->traerPorIdDeUser($idUser);
-            $tarjeta->pagar( $arrayIds , $idTarjeta,$total);
+            $tarjeta->setIdUser($idUser);
+            $tarjeta->setCodSeguridad($codigo);
+            $tarjeta->setFechaVencimiento($fecha);
+            $idTarjeta=$tarjeta->insertar();
+            if(isset($idTarjeta)) {
+                $idCobranza=$tarjeta->pagar( $idTarjeta, $fecha,$total);
+
+            }
 
 
-
-
+        }else{
+            throw new ExcentionRegistar("Compra fallida", CodigoError::ExcentionRegistar);
         }
 
         echo json_encode(true);
