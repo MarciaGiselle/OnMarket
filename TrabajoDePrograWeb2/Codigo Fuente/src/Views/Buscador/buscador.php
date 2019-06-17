@@ -48,7 +48,7 @@
     </div>
 
         <div class='container d-none' id="resultados">
-            <form action="<?php echo getBaseAddress(). "Buscador/mostrar" ?>" method="post">
+            <form action="<?php echo getBaseAddress(). "Mostrarproducto/MostrarProducto" ?>" method="post">
             <table id="tablaBuscador" class='table table-hover text-center mt-4' >
                 <thead>
                 <tr>

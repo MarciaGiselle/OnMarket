@@ -1,4 +1,7 @@
+<script>
+    const pathCompra= "<?php echo getBaseAddress(). "Usuario/compra" ; ?>";
 
+</script>
 <body>
 <nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,12 +20,12 @@
             <li class="nav-item">
 
                 <a class="nav-link " href="<?php echo getBaseAddress() . 'Carrito/carrito'?>"> Mi carrito
-                   <?php if(!isset($_SESSION["carrito"])){
-                       $contador=0;
-                       echo $contador;}else{
-                    echo "<h5>".count($_SESSION["carrito"])."</h5>";
+                    <?php if(!isset($_SESSION["carrito"])){
+                        $contador=0;
+                        echo $contador;}else{
+                        echo "<h5>".count($_SESSION["carrito"])."</h5>";
                     }
-                  ?>
+                    ?>
                 </a>
 
             </li>
@@ -56,53 +59,27 @@
 
 </nav>
 
-<h2>Tus Productos</h2>
-<form action="<?php echo getBaseAddress(). 'Tarjeta/tarjeta' ?>" method="POST">
-<table>
-   <tr>
-        <td>id</td>
-        <td>producto</td>
-        <td>precio</td>
-        <td>cantidad</td>
-       <td>Subtotal</td>
-
-   <tr>
-
-
-    <?php
-    $total=0;
-    $tope=count($_SESSION["carrito"]);
-
-    for($i=1;$i<=$tope;$i++ ){
-        $cantidad=$_SESSION["carrito"][$i]["cantidad"];
-        $precio=$_SESSION["carrito"][$i]["precio"];
-        $subtotal=$cantidad*$precio;
-        $total+=$subtotal;
-
-     echo "<tr>";
-         echo "<td>".$_SESSION["carrito"][$i]["id"]."</td>";
-        echo "<td>".$_SESSION["carrito"][$i]["nombre"]."</td>";
-        echo "<td>".$_SESSION["carrito"][$i]["precio"]."</td>";
-        echo "<td>".$_SESSION["carrito"][$i]["cantidad"]."</td>";
-         echo "<td>".$subtotal."</td>";
-
-      echo "</tr>";
 
 
 
-    }
+                <h2>Complete los datos de su tarjeta</h2>
 
-     echo "<tr>";
-      echo "<td>Total:</td>";
-      echo "<td>".$total."</td>";
-     echo "</tr>";
+     <label>Numero de tarjeta</label>
+     <input type="text" id="numero" placeholder="1235 1259 0065 4569">
+
+    <label>Codigo de seguridad</label>
+    <input type="password" id="codigo" placeholder="******">
+
+    <label>Fecha de vencimiento</label>
+    <input type="date" id="fecha" placeholder="">
+
+    <input type="hidden" id="total" value="<?php echo $total;?>">
 
 
-?>
+                <button class="btn btn-primary" id="confirmar"  >Confirmar</button>
 
-
-<table>
-     <input type='hidden' name='total' value='<?php echo $total; ?>' />
-<input type="submit" class="btn btn-primary" value="Comprar" >
-</form>
 </body>
+
+
+<script src="<?php echo getBaseAddress() . "Webroot/js/comprar.js" ?>"></script>
+<script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>
