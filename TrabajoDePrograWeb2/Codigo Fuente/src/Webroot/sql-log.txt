@@ -10032,3 +10032,51 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-15 23:58:39]  select * from tarjeta_de_credito  where idUser='4' limit 0, 1
 [2019-06-15 23:58:39]  DESC cobranza
 [2019-06-15 23:58:39]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('1','19-06-15','','<?php echo 1233; ?>')
+[2019-06-16 18:58:06]  DESC Usuario
+[2019-06-16 18:58:06]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-16 18:58:19]  DESC Producto
+[2019-06-16 18:58:19]  DESC Imagen
+[2019-06-16 18:58:19]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-16 18:58:19]  select * from Producto  where idProducto=86 limit 0, 10
+[2019-06-16 18:58:19]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-16 18:58:19]  select * from Producto  where idProducto=87 limit 0, 10
+[2019-06-16 18:58:19]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-16 18:58:19]  select * from Producto  where idProducto=107 limit 0, 10
+[2019-06-16 18:58:19]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-16 18:58:19]  select * from Producto  where idProducto=108 limit 0, 10
+[2019-06-16 18:58:19]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-16 18:58:22]  DESC Producto
+[2019-06-16 18:58:22]  select * from Producto  where idProducto=107 limit 0, 1
+[2019-06-16 18:58:22]  DESC Imagen
+[2019-06-16 18:58:22]  select * from Imagen  where idProducto=107 limit 0, 10
+[2019-06-16 19:06:13]  DESC Usuario
+[2019-06-16 19:06:13]  select * from Usuario  where userName='Rocio' limit 0, 1
+[2019-06-16 19:06:13]  DESC tarjeta_de_credito
+[2019-06-16 19:06:27]  DESC Usuario
+[2019-06-16 19:06:27]  select * from Usuario  where userName='Rocio' limit 0, 1
+[2019-06-16 19:06:27]  DESC tarjeta_de_credito
+[2019-06-16 19:51:47]  DESC Usuario
+[2019-06-16 19:51:47]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-16 19:54:03]  DESC Producto
+[2019-06-16 19:54:03]  DESC Imagen
+[2019-06-16 19:54:04]  select * from Producto  where nombre like '%vi%' limit 0, 100
+[2019-06-16 19:54:04]  select * from Producto  where idProducto=86 limit 0, 10
+[2019-06-16 19:54:04]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-16 19:54:04]  select * from Producto  where idProducto=87 limit 0, 10
+[2019-06-16 19:54:04]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-16 19:54:04]  select * from Producto  where idProducto=107 limit 0, 10
+[2019-06-16 19:54:04]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-16 19:54:04]  select * from Producto  where idProducto=108 limit 0, 10
+[2019-06-16 19:54:04]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-16 19:54:06]  DESC Producto
+[2019-06-16 19:54:06]  select * from Producto  where idProducto=87 limit 0, 1
+[2019-06-16 19:54:06]  DESC Imagen
+[2019-06-16 19:54:06]  select * from Imagen  where idProducto=87 limit 0, 10
+[2019-06-16 21:01:38]  DESC Usuario
+[2019-06-16 21:01:38]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-16 21:05:16]  DESC Producto
+[2019-06-16 21:05:16]  DESC Categoria
+[2019-06-16 21:05:16]  select * from Categoria  where nombreCategoria='Seleccionar...' limit 0, 1
+[2019-06-16 21:05:16]  DESC Producto
+[2019-06-16 21:05:16]  DESC Categoria
+[2019-06-16 21:05:16]  select * from Categoria  where nombreCategoria='Seleccionar...' limit 0, 1

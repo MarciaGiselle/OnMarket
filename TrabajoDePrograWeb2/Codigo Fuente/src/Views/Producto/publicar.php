@@ -97,10 +97,14 @@
 
                 <div class="form-group col-md-6">
                     <label class="text-primary">Indicá un nombre para tu producto*</label>
-                    <input class="form-control" type="text" placeholder="Nombre...  " name="nombre" id="nombre">
+                    <input class="form-control" type="text" placeholder="Nombre..." name="nombre" id="nombre">
                     <small id="passwordHelpBlock" class="form-text text-muted">Usá palabras clave para que lo encuentren
                         fácilmente.
                     </small>
+                    <div class="alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="errorNombre">
+                        <i class="fa fa-exclamation-circle error"></i>
+                        <small class="text-left"></small>
+                    </div>
                 </div>
 
 

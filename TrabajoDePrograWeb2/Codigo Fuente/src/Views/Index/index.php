@@ -42,7 +42,7 @@
                 <div class="form-group">
                     <label for="inputName" class="mb-0 font-weight-bolder">Usuario</label>
                     <input type="text" class="form-control my-1"  placeholder="User" name="nombre" id="inputName" data-toggle="popover" title="Nombre de usuario">
-                    <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error" id="errorNombre">
+                    <div class="d-none alert-danger p-1 rounded justify-content-around error" id="errorNombre">
                         <i class="fa fa-exclamation-circle error"></i>
                         <small class="text-left"></small>
                     </div>
