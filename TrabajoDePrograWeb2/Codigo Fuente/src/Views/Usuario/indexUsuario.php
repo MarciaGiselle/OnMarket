@@ -16,7 +16,7 @@
             </li>
             <li class="nav-item">
 
-                <a class="nav-link " href="<?php echo getBaseAddress() . 'Carrito/carrito'?>"> Mi carrito
+                <a class="nav-link " href="<?php echo getBaseAddress() . 'Carrito/verCarrito'?>"> Mi carrito
                    <?php if(!isset($_SESSION["carrito"])){
                        $contador=0;
                        echo $contador;}else{
