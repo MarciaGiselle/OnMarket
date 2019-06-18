@@ -1,7 +1,7 @@
 
-var comprar = $('#comprar');
+var agregar = $('#agregar');
 
-comprar.click(function () {
+agregar.click(function () {
     var obj = {};
     obj.nombre = $("#nombre").val();
     obj.precio = $("#precio").val();

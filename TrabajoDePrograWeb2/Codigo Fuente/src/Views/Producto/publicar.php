@@ -101,7 +101,7 @@
                     <small id="passwordHelpBlock" class="form-text text-muted">Usá palabras clave para que lo encuentren
                         fácilmente.
                     </small>
-                    <div class="alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="errorNombre">
+                    <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="errorNombre">
                         <i class="fa fa-exclamation-circle error"></i>
                         <small class="text-left"></small>
                     </div>
@@ -112,7 +112,10 @@
                     <label class="text-primary">Describí tu producto*</label>
                     <textarea class="form-control"  rows="3" name="descripcion" id="descripcion"
                               placeholder="Aprovechá para contar otros detalles de tu producto. Ordenalos en forma de lista para que sea más fácil de leer."></textarea>
-
+                    <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="eerorDescripcion">
+                        <i class="fa fa-exclamation-circle error"></i>
+                        <small class="text-left"></small>
+                    </div>
                 </div>
 
                 <div class="form-group col-md-6">

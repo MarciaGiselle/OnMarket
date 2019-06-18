@@ -54,10 +54,9 @@ class Producto extends Model
      * @param $pk
      * @return array
      */
-    function PorPk($pk){
+    function buscarUnProductoPorPk($pk){
         $resultado=$this->pageRows(0,1, "idProducto=$pk");
-        //$resultado=$this->selectByPk($pk);
-        return $resultado;
+        return $resultado[0];
     }
 
 

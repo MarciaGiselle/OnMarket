@@ -69,33 +69,25 @@ class UsuarioController extends Controller
         $nombre=$data->nombre;
         $precio=$data->precio;
         $cantidad=$data->cantidad;
+
       if( $_SESSION["logueado"]) {
           if (!isset($_SESSION["carrito"])) {
               $_SESSION["carrito"] = array();
-              $_SESSION["contador"] = 0;
-              $i = $_SESSION["contador"] += 1;
               $array = ["id" => $id, "precio" => $precio, "cantidad" => $cantidad, "nombre" => $nombre];
-              $_SESSION["carrito"][$i] = $array;
-
+              array_push($_SESSION["carrito"], $array);
           } else {
-              $i = $_SESSION["contador"] += 1;
               $array = ["id" => $id, "precio" => $precio, "cantidad" => $cantidad, "nombre" => $nombre];
-              $_SESSION["carrito"][$i] = $array;
-
+              array_push($_SESSION["carrito"], $array);
           }
 
       }else{
-
-              throw new CarritoFallido("no se agrego al carrito", CodigoError::CarritoFallido);
+              throw new CarritoFallido("Debe iniciar sesión", CodigoError::CarritoFallido);
       }
 
         echo json_encode($id);
 
 
     }
-
-
-
 
     function Compra($datos){
         header("Content-type: application/json");

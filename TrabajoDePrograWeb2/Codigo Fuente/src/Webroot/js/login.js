@@ -55,7 +55,6 @@ ingresar.click(function () {
         var obj = {};
         obj.nombre = inputName.val();
         obj.password = inputPass.val();
-
         llamadaAjax(pathLoguear, JSON.stringify(obj), true, "loginExitoso", "loginFallido");
     }
 });

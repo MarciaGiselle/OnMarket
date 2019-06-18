@@ -4292,3 +4292,730 @@ StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Con
 #2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
 #3 {main}
 
+[2019-06-16 21:35:39]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'MostrarProductoController' does not have a method 'MostrarProducto'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 21:36:07]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'MostrarProductoController' does not have a method 'versSProducto'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 21:36:29]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'MostrarProductoController' does not have a method 'versSProducto'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 21:36:43]  Excepción no controlada: 'Undefined index: nombre' en el archivo MostrarproductoController.php en la línea 13
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarproductoController.php(13): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-16 21:49:28]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarproductoController.php(22): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 21:49:51]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarproductoController.php(22): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 21:50:21]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarproductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 21:53:57]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarproductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 21:54:00]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarproductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 21:55:00]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarproductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 21:55:54]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarproductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 21:56:08]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarproductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 21:57:27]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarproductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 21:59:00]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarproductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 22:00:29]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarproductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 22:03:28]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarproductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 22:04:55]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 22:10:17]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 22:11:35]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 22:12:03]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 22:12:36]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 22:13:28]  Excepción no controlada: 'Undefined variable: nombre' en el archivo Mostrarproducto.php en la línea 82
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\Mostrarproducto.php(82): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 82, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 22:16:48]  Excepción no controlada: 'Call to undefined method Imagen::imagnPk()' en el archivo MostrarProductoController.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-16 22:17:17]  Excepción no controlada: 'Undefined variable: precio' en el archivo MostrarProducto.php en la línea 84
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(84): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 22:18:36]  Excepción no controlada: 'Undefined variable: title' en el archivo layout.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Shared\layout.php(12): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(25): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(23): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 22:39:43]  Excepción no controlada: 'A non-numeric value encountered' en el archivo MostrarProducto.php en la línea 71
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(71): globalErrorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 22:44:25]  Excepción no controlada: 'syntax error, unexpected '<'' en el archivo MostrarProducto.php en la línea 70
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-16 22:45:26]  Excepción no controlada: 'A non-numeric value encountered' en el archivo MostrarProducto.php en la línea 71
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(71): globalErrorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 22:48:29]  Excepción no controlada: 'A non-numeric value encountered' en el archivo MostrarProducto.php en la línea 71
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(71): globalErrorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 22:49:20]  Excepción no controlada: 'A non-numeric value encountered' en el archivo MostrarProducto.php en la línea 71
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(71): globalErrorHandler(2, 'A non-numeric v...', 'C:\\xampp\\htdocs...', 71, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-16 23:38:46]  Excepción no controlada: 'syntax error, unexpected end of file' en el archivo MostrarProducto.php en la línea 115
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-16 23:39:05]  Excepción no controlada: 'syntax error, unexpected end of file' en el archivo MostrarProducto.php en la línea 117
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-16 23:39:28]  Excepción no controlada: 'syntax error, unexpected end of file' en el archivo MostrarProducto.php en la línea 116
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 11:47:03]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo UsuarioController.php en la línea 68
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(68): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->agregarAlCarrito(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 12:51:45]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo UsuarioController.php en la línea 68
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(68): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->agregarAlCarrito(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 16:18:41]  Excepción no controlada: 'syntax error, unexpected '"', expecting '-' or identifier (T_STRING) or variable (T_VARIABLE) or number (T_NUM_STRING)' en el archivo MostrarProducto.php en la línea 45
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 19:17:46]  Excepción no controlada: 'Undefined offset: 1' en el archivo carrito.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(77): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(19): Controller->render('carrito')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-17 19:19:35]  Excepción no controlada: 'Undefined offset: 1' en el archivo carrito.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(77): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(19): Controller->render('carrito')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-17 19:20:57]  Excepción no controlada: 'Undefined index: cantidad' en el archivo carrito.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(77): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(19): Controller->render('carrito')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-17 19:22:04]  Excepción no controlada: 'Undefined offset: 1' en el archivo carrito.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(77): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(19): Controller->render('carrito')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-17 19:22:42]  Excepción no controlada: 'Undefined index: contador' en el archivo UsuarioController.php en la línea 84
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(84): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->agregarAlCarrito(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 19:30:40]  Excepción no controlada: 'Undefined offset: 2' en el archivo carrito.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(77): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(19): Controller->render('carrito')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-17 19:33:29]  Excepción no controlada: 'Undefined offset: 2' en el archivo carrito.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(77): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(18): Controller->render('carrito')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-17 19:35:08]  Excepción no controlada: 'Undefined offset: 2' en el archivo carrito.php en la línea 78
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(78): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(18): Controller->render('carrito')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-17 19:43:05]  Excepción no controlada: 'Cannot use object of type stdClass as array' en el archivo carrito.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require()
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(18): Controller->render('carrito')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-17 19:44:25]  Excepción no controlada: 'Cannot use object of type stdClass as array' en el archivo carrito.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require()
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(18): Controller->render('carrito')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-17 19:45:39]  Excepción no controlada: 'Undefined index: cantidad' en el archivo carrito.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(77): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(18): Controller->render('carrito')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-17 19:50:01]  Excepción no controlada: 'Illegal string offset 'cantidad'' en el archivo carrito.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(77): globalErrorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(18): Controller->render('carrito')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-17 19:54:09]  Excepción no controlada: 'Illegal string offset 'cantidad'' en el archivo carrito.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(77): globalErrorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(18): Controller->render('carrito')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-17 19:54:32]  Excepción no controlada: 'Illegal string offset 'cantidad'' en el archivo carrito.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(77): globalErrorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(18): Controller->render('carrito')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-17 20:04:53]  Excepción no controlada: 'syntax error, unexpected '}'' en el archivo buscador.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(8): Controller->render('buscador')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->busqueda(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 20:05:07]  Excepción no controlada: 'Undefined index: logueado' en el archivo buscador.php en la línea 33
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Buscador\buscador.php(33): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 33, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(8): Controller->render('buscador')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->busqueda(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-17 20:15:59]  Excepción no controlada: 'syntax error, unexpected 'd' (T_STRING), expecting ',' or ';'' en el archivo buscador.php en la línea 46
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(8): Controller->render('buscador')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->busqueda(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 21:14:20]  Excepción no controlada: 'Undefined index: logueado' en el archivo UsuarioController.php en la línea 73
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(73): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->agregarAlCarrito(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 21:53:41]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'MostrarProductoController' does not have a method 'verProduct'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-17 22:04:17]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'BuscadorController' does not have a method 'echo'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-17 22:04:49]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'BuscadorController' does not have a method 'Usuario'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-17 22:08:00]  Excepción no controlada: 'syntax error, unexpected '?'' en el archivo buscador.php en la línea 39
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(8): Controller->render('buscador')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->busqueda(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:08:27]  Excepción no controlada: 'syntax error, unexpected '?'' en el archivo buscador.php en la línea 39
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(8): Controller->render('buscador')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->busqueda(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:15:39]  Excepción no controlada: 'syntax error, unexpected '?'' en el archivo index.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:15:40]  Excepción no controlada: 'syntax error, unexpected '?'' en el archivo index.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:18:04]  Excepción no controlada: 'syntax error, unexpected 'Registrar' (T_STRING), expecting ',' or ';'' en el archivo index.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:19:06]  Excepción no controlada: 'syntax error, unexpected 'Registrar' (T_STRING), expecting ',' or ';'' en el archivo index.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:19:07]  Excepción no controlada: 'syntax error, unexpected 'Registrar' (T_STRING), expecting ',' or ';'' en el archivo index.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:19:23]  Excepción no controlada: 'syntax error, unexpected 'Registrar' (T_STRING), expecting ',' or ';'' en el archivo index.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:19:30]  Excepción no controlada: 'syntax error, unexpected 'Registrar' (T_STRING), expecting ',' or ';'' en el archivo index.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:19:33]  Excepción no controlada: 'syntax error, unexpected 'Registrar' (T_STRING), expecting ',' or ';'' en el archivo index.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:19:33]  Excepción no controlada: 'syntax error, unexpected 'Registrar' (T_STRING), expecting ',' or ';'' en el archivo index.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:19:33]  Excepción no controlada: 'syntax error, unexpected 'Registrar' (T_STRING), expecting ',' or ';'' en el archivo index.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:19:34]  Excepción no controlada: 'syntax error, unexpected 'Registrar' (T_STRING), expecting ',' or ';'' en el archivo index.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:25:14]  Excepción no controlada: 'syntax error, unexpected 'Registrar' (T_STRING), expecting ',' or ';'' en el archivo index.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:25:15]  Excepción no controlada: 'syntax error, unexpected 'Registrar' (T_STRING), expecting ',' or ';'' en el archivo index.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:25:58]  Excepción no controlada: 'syntax error, unexpected 'Registrar' (T_STRING), expecting ',' or ';'' en el archivo index.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:26:09]  Excepción no controlada: 'syntax error, unexpected 'Registrar' (T_STRING), expecting ',' or ';'' en el archivo index.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:38:11]  Excepción no controlada: 'syntax error, unexpected end of file' en el archivo index.php en la línea 191
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:42:50]  Excepción no controlada: 'syntax error, unexpected 'd' (T_STRING), expecting ',' or ';'' en el archivo index.php en la línea 37
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:44:52]  Excepción no controlada: 'syntax error, unexpected 'Registrar' (T_STRING), expecting ',' or ';'' en el archivo index.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 22:44:53]  Excepción no controlada: 'syntax error, unexpected 'Registrar' (T_STRING), expecting ',' or ';'' en el archivo index.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 23:13:30]  Excepción no controlada: 'include_once(../Navs/navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(.....', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:14:55]  Excepción no controlada: 'include_once(navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(na...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:16:39]  Excepción no controlada: 'include_once(Navs/navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(Na...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:17:01]  Excepción no controlada: 'include_once(../Navs/navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(.....', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:18:33]  Excepción no controlada: 'include_once(navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(na...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:21:02]  Excepción no controlada: 'syntax error, unexpected 'Navs' (T_STRING)' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 23:21:22]  Excepción no controlada: 'include_once(Navs/navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(Na...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:29:18]  Excepción no controlada: 'include_once(../Navs/navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(.....', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:29:26]  Excepción no controlada: 'include_once(navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(na...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:31:38]  Excepción no controlada: 'include_once(navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(na...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:31:46]  Excepción no controlada: 'include_once(../Navs/navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(.....', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:31:56]  Excepción no controlada: 'include_once(Navs/navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(Na...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:36:31]  Excepción no controlada: 'syntax error, unexpected '.'' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-17 23:37:17]  Excepción no controlada: 'include_once(navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(na...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:37:17]  Excepción no controlada: 'include_once(navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(na...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:37:18]  Excepción no controlada: 'include_once(navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(na...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:37:18]  Excepción no controlada: 'include_once(navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(na...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:37:18]  Excepción no controlada: 'include_once(navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(na...', 'C:\\xampp\\htdocs...', 10, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:38:16]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): globalErrorHandler(2, 'include_once(na...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:41:07]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): globalErrorHandler(2, 'include_once(na...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:43:12]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): globalErrorHandler(2, 'include_once(na...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-17 23:44:30]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): globalErrorHandler(2, 'include_once(na...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): include_once()
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+

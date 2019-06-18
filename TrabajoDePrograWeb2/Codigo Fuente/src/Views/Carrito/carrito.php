@@ -14,18 +14,7 @@
             <li class="nav-item">
                 <a class="nav-link disabled" href="#">Historial</a>
             </li>
-            <li class="nav-item">
 
-                <a class="nav-link " href="<?php echo getBaseAddress() . 'Carrito/carrito'?>"> Mi carrito
-                   <?php if(!isset($_SESSION["carrito"])){
-                       $contador=0;
-                       echo $contador;}else{
-                    echo "<h5>".count($_SESSION["carrito"])."</h5>";
-                    }
-                  ?>
-                </a>
-
-            </li>
             <li class="nav-item ">
                 <a class="nav-link active" href= "<?php echo getBaseAddress() . "Producto/publicar" ?>">Publicar</a>
         </ul>
@@ -72,8 +61,8 @@
     <?php
     $total=0;
     $tope=count($_SESSION["carrito"]);
-
-    for($i=1;$i<=$tope;$i++ ){
+var_dump($_SESSION);
+    for($i=0;$i<$tope;$i++ ){
         $cantidad=$_SESSION["carrito"][$i]["cantidad"];
         $precio=$_SESSION["carrito"][$i]["precio"];
         $subtotal=$cantidad*$precio;

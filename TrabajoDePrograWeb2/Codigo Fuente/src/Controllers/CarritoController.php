@@ -10,12 +10,11 @@ class CarritoController extends Controller
 {
     function verCarrito()
     {
-        $d["title"] = "Index";
+        $d["title"] = "Mi carrito";
         $this->set($d);
         if (!isset($_SESSION["carrito"])) {
-          echo "no a cargado ningun producto al carrito";
+          echo "No ha cargado ningún producto al carrito";
         } else {
-
             $this->render(Constantes::CARRITOVIEW);
         }
     }

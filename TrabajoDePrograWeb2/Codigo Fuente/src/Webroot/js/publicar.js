@@ -29,12 +29,16 @@ function validarNombre() {
     } else {
         validacion = true;
     }
-
     return validacion;
 }
 
+
 btnPublicar.click(function () {
     // $(".error").fadeOut();
+    if(validarNombre()){
+        $(".error").fadeOut();
+        $(".error").removeClass("d-flex").addClass("d-none").find("span").text("");
+    }
 
     var validacion = validarNombre();
 
