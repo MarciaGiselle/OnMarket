@@ -12117,3 +12117,20 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-18 10:32:08]  DESC tarjeta_de_credito
 [2019-06-18 10:32:08]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','123','2019-06-05')
 [2019-06-18 10:32:08]  DESC cobranza
+[2019-06-18 17:20:52]  DESC Usuario
+[2019-06-18 17:20:53]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-18 17:21:06]  DESC Producto
+[2019-06-18 17:21:06]  DESC Imagen
+[2019-06-18 17:21:06]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-18 17:21:06]  select * from Producto  where idProducto=86 limit 0, 10
+[2019-06-18 17:21:06]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-18 17:21:06]  select * from Producto  where idProducto=87 limit 0, 10
+[2019-06-18 17:21:06]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-18 17:21:06]  select * from Producto  where idProducto=107 limit 0, 10
+[2019-06-18 17:21:06]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-18 17:21:06]  select * from Producto  where idProducto=108 limit 0, 10
+[2019-06-18 17:21:06]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-18 17:21:08]  DESC Producto
+[2019-06-18 17:21:08]  select * from Producto  where idProducto=107 limit 0, 1
+[2019-06-18 17:21:08]  DESC Imagen
+[2019-06-18 17:21:08]  select * from Imagen  where idProducto=107 limit 0, 10
