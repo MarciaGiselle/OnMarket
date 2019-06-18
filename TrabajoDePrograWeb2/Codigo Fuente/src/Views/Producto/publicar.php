@@ -1,43 +1,13 @@
 
-<nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href=#><img id="logo-nav" src="../Webroot/img/logotipo.png" alt="Logo de OnMarket"></a>
+<?php
 
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-2 mt-2 mt-lg-0">
-            <li class="nav-item ">
-                <a class="nav-link active" href="<?php echo getBaseAddress() . "Usuario/mostrarInicio" ?>">Inicio<span
-                            class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Historial</a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link active">Publicar</a>
-        </ul>
+if(isset($_SESSION["logueado"])){
 
-        <!--boton busqueda -->
-        <form action="<?php echo getBaseAddress() . "Buscador/busqueda" ?>" method="post">
-            <input type="submit" value="Realizar una búsqueda" class="btn btn-light">
-        </form>
-
-
-    </div>
-    <!-- Cerrar sesion -->
-    <div class="d-inline-flex mr-2">
-        <form action="<?php echo getBaseAddress() . "Usuario/cerrarSesion" ?>" method="post">
-            <!-- cambiar url -->
-
-            <input type="submit" value="Cerrar Sesión " class="btn btn-outline-light">
-
-        </form>
-    </div>
-
-
-</nav>
+    include_once ("navLogueado.php") ;
+}else{
+    include_once ("navNoLogueado.php");
+}
+?>
 
 
 <script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>

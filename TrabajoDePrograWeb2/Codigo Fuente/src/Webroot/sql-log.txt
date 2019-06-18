@@ -12099,3 +12099,21 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-17 22:10:48]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
 [2019-06-17 22:14:44]  DESC Usuario
 [2019-06-17 22:14:44]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-18 10:23:24]  DESC Usuario
+[2019-06-18 10:23:25]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-18 10:28:58]  DESC Usuario
+[2019-06-18 10:28:59]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-18 10:31:27]  DESC Producto
+[2019-06-18 10:31:27]  DESC Imagen
+[2019-06-18 10:31:27]  select * from Producto  where nombre like '%Cartera%' limit 0, 100
+[2019-06-18 10:31:28]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-18 10:31:28]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-06-18 10:31:30]  DESC Producto
+[2019-06-18 10:31:30]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-18 10:31:30]  DESC Imagen
+[2019-06-18 10:31:30]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-18 10:32:08]  DESC Usuario
+[2019-06-18 10:32:08]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-18 10:32:08]  DESC tarjeta_de_credito
+[2019-06-18 10:32:08]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','123','2019-06-05')
+[2019-06-18 10:32:08]  DESC cobranza

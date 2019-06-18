@@ -5019,3 +5019,317 @@ StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDeProg
 #5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
 #6 {main}
 
+[2019-06-18 09:45:15]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 12
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): globalErrorHandler(2, 'include_once(na...', 'C:\\xamp\\htdocs\\...', 12, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 09:57:14]  Excepción no controlada: 'include_once(../Navs/navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 12
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): globalErrorHandler(2, 'include_once(.....', 'C:\\xamp\\htdocs\\...', 12, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 09:57:33]  Excepción no controlada: 'include_once(../Navs/navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(.....', 'C:\\xamp\\htdocs\\...', 10, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 09:57:34]  Excepción no controlada: 'include_once(../Navs/navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(.....', 'C:\\xamp\\htdocs\\...', 10, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 09:57:35]  Excepción no controlada: 'include_once(../Navs/navLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 10
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): globalErrorHandler(2, 'include_once(.....', 'C:\\xamp\\htdocs\\...', 10, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(10): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 09:57:50]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 12
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): globalErrorHandler(2, 'include_once(na...', 'C:\\xamp\\htdocs\\...', 12, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 09:57:51]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 12
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): globalErrorHandler(2, 'include_once(na...', 'C:\\xamp\\htdocs\\...', 12, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 09:57:52]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 12
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): globalErrorHandler(2, 'include_once(na...', 'C:\\xamp\\htdocs\\...', 12, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 09:57:52]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 12
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): globalErrorHandler(2, 'include_once(na...', 'C:\\xamp\\htdocs\\...', 12, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 09:57:52]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 12
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): globalErrorHandler(2, 'include_once(na...', 'C:\\xamp\\htdocs\\...', 12, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 09:57:52]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 12
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): globalErrorHandler(2, 'include_once(na...', 'C:\\xamp\\htdocs\\...', 12, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 09:57:52]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 12
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): globalErrorHandler(2, 'include_once(na...', 'C:\\xamp\\htdocs\\...', 12, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(12): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 09:59:26]  Excepción no controlada: 'Undefined variable: direccion' en el archivo index.php en la línea 13
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(13): globalErrorHandler(8, 'Undefined varia...', 'C:\\xamp\\htdocs\\...', 13, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-18 09:59:49]  Excepción no controlada: 'include_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0' en el archivo index.php en la línea 14
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): globalErrorHandler(2, 'include_once():...', 'C:\\xamp\\htdocs\\...', 14, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 10:00:13]  Excepción no controlada: 'include_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0' en el archivo index.php en la línea 14
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): globalErrorHandler(2, 'include_once():...', 'C:\\xamp\\htdocs\\...', 14, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 10:00:14]  Excepción no controlada: 'include_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0' en el archivo index.php en la línea 14
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): globalErrorHandler(2, 'include_once():...', 'C:\\xamp\\htdocs\\...', 14, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 10:01:11]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 14
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): globalErrorHandler(2, 'include_once(na...', 'C:\\xamp\\htdocs\\...', 14, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 10:01:12]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 14
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): globalErrorHandler(2, 'include_once(na...', 'C:\\xamp\\htdocs\\...', 14, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 10:01:24]  Excepción no controlada: 'include_once(Navs/navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 14
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): globalErrorHandler(2, 'include_once(Na...', 'C:\\xamp\\htdocs\\...', 14, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 10:01:25]  Excepción no controlada: 'include_once(Navs/navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 14
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): globalErrorHandler(2, 'include_once(Na...', 'C:\\xamp\\htdocs\\...', 14, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 10:01:27]  Excepción no controlada: 'include_once(Navs/navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 14
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): globalErrorHandler(2, 'include_once(Na...', 'C:\\xamp\\htdocs\\...', 14, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(76): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 10:05:55]  Excepción no controlada: 'session_start(): Cannot send session cache limiter - headers already sent (output started at C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Navs\navNoLogueado.php:20)' en el archivo index.php en la línea 74
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'session_start()...', 'C:\\xamp\\htdocs\\...', 74, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(74): session_start()
+#2 {main}
+
+[2019-06-18 10:06:51]  Excepción no controlada: 'session_start(): Cannot send session cache limiter - headers already sent (output started at C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Navs\navNoLogueado.php:20)' en el archivo index.php en la línea 74
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'session_start()...', 'C:\\xamp\\htdocs\\...', 74, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(74): session_start()
+#2 {main}
+
+[2019-06-18 10:06:52]  Excepción no controlada: 'session_start(): Cannot send session cache limiter - headers already sent (output started at C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Navs\navNoLogueado.php:20)' en el archivo index.php en la línea 74
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'session_start()...', 'C:\\xamp\\htdocs\\...', 74, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(74): session_start()
+#2 {main}
+
+[2019-06-18 10:07:14]  Excepción no controlada: 'session_start(): Cannot send session cache limiter - headers already sent (output started at C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Navs\navNoLogueado.php:20)' en el archivo index.php en la línea 74
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'session_start()...', 'C:\\xamp\\htdocs\\...', 74, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(74): session_start()
+#2 {main}
+
+[2019-06-18 10:08:11]  Excepción no controlada: 'session_start(): Cannot send session cache limiter - headers already sent (output started at C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Navs\navNoLogueado.php:20)' en el archivo index.php en la línea 74
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'session_start()...', 'C:\\xamp\\htdocs\\...', 74, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(74): session_start()
+#2 {main}
+
+[2019-06-18 10:08:32]  Excepción no controlada: 'session_start(): Cannot send session cache limiter - headers already sent (output started at C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Navs\navNoLogueado.php:20)' en el archivo index.php en la línea 74
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'session_start()...', 'C:\\xamp\\htdocs\\...', 74, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(74): session_start()
+#2 {main}
+
+[2019-06-18 10:08:33]  Excepción no controlada: 'session_start(): Cannot send session cache limiter - headers already sent (output started at C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Navs\navNoLogueado.php:20)' en el archivo index.php en la línea 74
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'session_start()...', 'C:\\xamp\\htdocs\\...', 74, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(74): session_start()
+#2 {main}
+
+[2019-06-18 10:08:48]  Excepción no controlada: 'session_start(): Cannot send session cache limiter - headers already sent (output started at C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Navs\navNoLogueado.php:20)' en el archivo index.php en la línea 74
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'session_start()...', 'C:\\xamp\\htdocs\\...', 74, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(74): session_start()
+#2 {main}
+
+[2019-06-18 10:08:49]  Excepción no controlada: 'session_start(): Cannot send session cache limiter - headers already sent (output started at C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Navs\navNoLogueado.php:20)' en el archivo index.php en la línea 74
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'session_start()...', 'C:\\xamp\\htdocs\\...', 74, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(74): session_start()
+#2 {main}
+
+[2019-06-18 10:10:42]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 14
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): globalErrorHandler(2, 'include_once(na...', 'C:\\xamp\\htdocs\\...', 14, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 10:11:04]  Excepción no controlada: 'include_once(Navs/navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 14
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): globalErrorHandler(2, 'include_once(Na...', 'C:\\xamp\\htdocs\\...', 14, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 10:11:18]  Excepción no controlada: 'include_once(../Navs/navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 14
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): globalErrorHandler(2, 'include_once(.....', 'C:\\xamp\\htdocs\\...', 14, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 10:11:19]  Excepción no controlada: 'include_once(../Navs/navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 14
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): globalErrorHandler(2, 'include_once(.....', 'C:\\xamp\\htdocs\\...', 14, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 10:11:20]  Excepción no controlada: 'include_once(../Navs/navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 14
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): globalErrorHandler(2, 'include_once(.....', 'C:\\xamp\\htdocs\\...', 14, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 10:11:37]  Excepción no controlada: 'include_once(../navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 14
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): globalErrorHandler(2, 'include_once(.....', 'C:\\xamp\\htdocs\\...', 14, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 10:11:53]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 14
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): globalErrorHandler(2, 'include_once(na...', 'C:\\xamp\\htdocs\\...', 14, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(8): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 10:24:26]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo buscador.php en la línea 15
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Buscador\buscador.php(15): globalErrorHandler(2, 'include_once(na...', 'C:\\xamp\\htdocs\\...', 15, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Buscador\buscador.php(15): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(8): Controller->render('buscador')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->busqueda(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2019-06-18 10:25:00]  Excepción no controlada: 'include_once(navNoLogueado.php): failed to open stream: No such file or directory' en el archivo index.php en la línea 14
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): globalErrorHandler(2, 'include_once(na...', 'C:\\xamp\\htdocs\\...', 14, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Index\index.php(14): include_once()
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\IndexController.php(10): Controller->render('index')
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): IndexController->index(Array)
+#5 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+

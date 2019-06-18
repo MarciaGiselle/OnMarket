@@ -6,10 +6,12 @@
 
 <body>
 <?php
+
 if(isset($_SESSION["logueado"])){
-    include_once "navLogueado.php" ;
+
+    include_once ("navLogueado.php") ;
 }else{
-    include_once "navNoLogueado.php";
+    include_once ("navNoLogueado.php");
 }
 ?>
 
