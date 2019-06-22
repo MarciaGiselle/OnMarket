@@ -12192,6 +12192,7 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-22 17:21:11]  select * from Producto  where idProducto=112 limit 0, 10
 [2019-06-22 17:21:11]  select * from Producto  where idProducto=112 limit 0, 10
 [2019-06-22 17:21:11]  select * from Producto  where idProducto=112 limit 0, 10
+<<<<<<< HEAD
 [2019-06-22 18:02:07]  DESC Producto
 [2019-06-22 18:02:07]  DESC Imagen
 [2019-06-22 18:02:07]  select * from Producto  where nombre like '%car%' limit 0, 100
@@ -12270,3 +12271,5 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-22 18:22:08]  select * from Producto  where idProducto=112 limit 0, 1
 [2019-06-22 18:22:08]  DESC Imagen
 [2019-06-22 18:22:08]  select * from Imagen  where idProducto=112 limit 0, 10
+=======
+>>>>>>> 3da06b7e95934424f2b5d3626996fe49bed9b89c
