@@ -19,11 +19,13 @@ if(isset($_SESSION["logueado"])){
         <div class="col-sm">
 
             <?php
+
             $tope = count($imagen);
 
             for ($i = 0; $i < $tope; $i++) {
 
                 $img = $imagen[$i]["nombre"];
+
                 echo '<img class="rounded float-left" width="500px" height="150px" src="../Webroot/imgCargadas/' . $img . ' " alt="' . $img . '">';
             }
             ?>
