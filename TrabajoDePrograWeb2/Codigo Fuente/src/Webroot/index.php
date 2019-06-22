@@ -14,6 +14,7 @@ massiveImport('Exceptions');
 massiveImport('Helpers');
 massiveImport('Utils');
 massiveImport('Models');
+massiveImport('Navs');
 
 header("Content-Type: text/html; charset=utf-8");
 

@@ -1,43 +1,17 @@
 <script>
-    const pathCarrito = "<?php echo getBaseAddress() . "Usuario/agregarAlCarrito"; ?>";
+    const pathCarrito = "<?php echo getBaseAddress() . "Carrito/agregarAlCarrito"; ?>";
 
 </script>
 <body>
-<nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href=#><img id="logo-nav" src="../Webroot/img/logotipo.png" alt="Logo de OnMarket"></a>
+<?php
 
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-2 mt-2 mt-lg-0">
-            <li class="nav-item ">
-                <a class="nav-link active" href="<?php echo getBaseAddress() . "Usuario/mostrarInicio" ?>">Inicio<span
-                            class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Historial</a>
-            </li>
+if(isset($_SESSION["logueado"])){
 
-            <li class="nav-item ">
-                <a class="nav-link active" href="<?php echo getBaseAddress() . "Producto/publicar" ?>">Publicar</a>
-        </ul>
-
-        <!--boton busqueda -->
-        <form action="<?php echo getBaseAddress() . "Buscador/busqueda" ?>" method="post">
-            <input type="submit" value="Realizar una búsqueda" class="btn btn-light">
-        </form>
-
-
-    </div>
-
-
-
-
-
-</nav>
-
+    include_once ("navLogueado.php") ;
+}else{
+    include_once ("navNoLogueado.php");
+}
+?>
 
 <div class="container mt-4">
     <div class="row">
@@ -45,8 +19,12 @@
         <div class="col-sm">
 
             <?php
+            $imagen=new Imagen();
             $tope = count($imagen);
             for ($i = 0; $i < $tope; $i++) {
+
+
+
                 $img = $imagen[$i]["nombre"];
                 echo '<img class="rounded float-left" width="500px" height="150px" src="../Webroot/imgCargadas/' . $img . ' " alt="' . $img . '">';
             }
@@ -72,9 +50,6 @@
                 <button class="btn btn-primary mt-5" id="agregar">Agregar Al carrito</button>
             </div>
 
-            <input type="hidden" name="id" id="nombre" value="<?php echo $resultado["nombre"]; ?>">
-
-            <input type="hidden" name="id" id="precio" value="<?php echo $resultado["precio"]; ?>">
 
             <input type="hidden" name="id" id="id" value="<?php echo $resultado["idProducto"]; ?>">
 

@@ -12099,3 +12099,174 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-17 22:10:48]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
 [2019-06-17 22:14:44]  DESC Usuario
 [2019-06-17 22:14:44]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-18 10:23:24]  DESC Usuario
+[2019-06-18 10:23:25]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-18 10:28:58]  DESC Usuario
+[2019-06-18 10:28:59]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-18 10:31:27]  DESC Producto
+[2019-06-18 10:31:27]  DESC Imagen
+[2019-06-18 10:31:27]  select * from Producto  where nombre like '%Cartera%' limit 0, 100
+[2019-06-18 10:31:28]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-18 10:31:28]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-06-18 10:31:30]  DESC Producto
+[2019-06-18 10:31:30]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-18 10:31:30]  DESC Imagen
+[2019-06-18 10:31:30]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-18 10:32:08]  DESC Usuario
+[2019-06-18 10:32:08]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-18 10:32:08]  DESC tarjeta_de_credito
+[2019-06-18 10:32:08]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','123','2019-06-05')
+[2019-06-18 10:32:08]  DESC cobranza
+[2019-06-18 17:20:52]  DESC Usuario
+[2019-06-18 17:20:53]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-18 17:21:06]  DESC Producto
+[2019-06-18 17:21:06]  DESC Imagen
+[2019-06-18 17:21:06]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-18 17:21:06]  select * from Producto  where idProducto=86 limit 0, 10
+[2019-06-18 17:21:06]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-18 17:21:06]  select * from Producto  where idProducto=87 limit 0, 10
+[2019-06-18 17:21:06]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-18 17:21:06]  select * from Producto  where idProducto=107 limit 0, 10
+[2019-06-18 17:21:06]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-18 17:21:06]  select * from Producto  where idProducto=108 limit 0, 10
+[2019-06-18 17:21:06]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-18 17:21:08]  DESC Producto
+[2019-06-18 17:21:08]  select * from Producto  where idProducto=107 limit 0, 1
+[2019-06-18 17:21:08]  DESC Imagen
+[2019-06-18 17:21:08]  select * from Imagen  where idProducto=107 limit 0, 10
+[2019-06-22 16:32:04]  DESC Usuario
+[2019-06-22 16:32:05]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-22 16:32:31]  DESC Producto
+[2019-06-22 16:32:31]  DESC Imagen
+[2019-06-22 16:32:31]  select * from Producto  where nombre like '%CARTERA%' limit 0, 100
+[2019-06-22 16:32:31]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-22 16:32:31]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-06-22 16:32:33]  DESC Producto
+[2019-06-22 16:32:34]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 16:32:34]  DESC Imagen
+[2019-06-22 16:32:34]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 16:36:17]  DESC Usuario
+[2019-06-22 16:36:17]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-22 16:36:18]  DESC tarjeta_de_credito
+[2019-06-22 16:36:18]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','456','2019-06-05')
+[2019-06-22 16:36:18]  DESC cobranza
+[2019-06-22 17:01:21]  DESC Producto
+[2019-06-22 17:05:38]  DESC Producto
+[2019-06-22 17:06:05]  DESC Producto
+[2019-06-22 17:06:25]  DESC Producto
+[2019-06-22 17:08:55]  DESC Producto
+[2019-06-22 17:08:56]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-22 17:09:19]  DESC Producto
+[2019-06-22 17:09:19]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-22 17:09:54]  DESC Producto
+[2019-06-22 17:09:54]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-22 17:11:40]  DESC Producto
+[2019-06-22 17:11:40]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-22 17:11:55]  DESC Producto
+[2019-06-22 17:11:55]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-22 17:13:21]  DESC Producto
+[2019-06-22 17:13:21]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-22 17:13:48]  DESC Producto
+[2019-06-22 17:13:49]  DESC Imagen
+[2019-06-22 17:13:49]  select * from Producto  where nombre like '%cartera%' limit 0, 100
+[2019-06-22 17:13:49]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-22 17:13:49]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-06-22 17:13:51]  DESC Producto
+[2019-06-22 17:13:51]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 17:13:51]  DESC Imagen
+[2019-06-22 17:13:51]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 17:18:53]  DESC Producto
+[2019-06-22 17:18:53]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 17:18:53]  DESC Imagen
+[2019-06-22 17:18:53]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 17:20:15]  DESC Producto
+[2019-06-22 17:20:15]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 17:20:15]  DESC Imagen
+[2019-06-22 17:20:16]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 17:21:01]  DESC Producto
+[2019-06-22 17:21:01]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 17:21:01]  DESC Imagen
+[2019-06-22 17:21:02]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 17:21:11]  DESC Producto
+[2019-06-22 17:21:11]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-22 17:21:11]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-22 17:21:11]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-22 17:21:11]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-22 18:02:07]  DESC Producto
+[2019-06-22 18:02:07]  DESC Imagen
+[2019-06-22 18:02:07]  select * from Producto  where nombre like '%car%' limit 0, 100
+[2019-06-22 18:02:07]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-22 18:02:07]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-06-22 18:02:09]  DESC Producto
+[2019-06-22 18:02:09]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 18:02:09]  DESC Imagen
+[2019-06-22 18:02:09]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 18:02:26]  DESC Producto
+[2019-06-22 18:02:27]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 18:02:27]  DESC Imagen
+[2019-06-22 18:02:27]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 18:02:43]  DESC Producto
+[2019-06-22 18:02:43]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 18:02:43]  DESC Imagen
+[2019-06-22 18:02:43]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 18:02:52]  DESC Producto
+[2019-06-22 18:02:52]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 18:02:52]  DESC Imagen
+[2019-06-22 18:02:52]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 18:03:19]  DESC Producto
+[2019-06-22 18:03:19]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 18:03:19]  DESC Imagen
+[2019-06-22 18:03:19]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 18:03:58]  DESC Producto
+[2019-06-22 18:03:58]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 18:03:58]  DESC Imagen
+[2019-06-22 18:03:59]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 18:07:30]  DESC Producto
+[2019-06-22 18:07:30]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 18:07:30]  DESC Imagen
+[2019-06-22 18:07:30]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 18:12:24]  DESC Producto
+[2019-06-22 18:12:24]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 18:12:24]  DESC Imagen
+[2019-06-22 18:12:24]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 18:12:47]  DESC Producto
+[2019-06-22 18:12:48]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 18:12:48]  DESC Imagen
+[2019-06-22 18:12:48]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 18:13:44]  DESC Producto
+[2019-06-22 18:13:44]  DESC Imagen
+[2019-06-22 18:13:44]  select * from Producto  where nombre like '%cartera%' limit 0, 100
+[2019-06-22 18:13:44]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-22 18:13:44]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-06-22 18:13:46]  DESC Producto
+[2019-06-22 18:13:46]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 18:13:46]  DESC Imagen
+[2019-06-22 18:13:46]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 18:16:14]  DESC Producto
+[2019-06-22 18:16:14]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 18:16:14]  DESC Imagen
+[2019-06-22 18:16:14]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 18:16:29]  DESC Producto
+[2019-06-22 18:16:29]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 18:16:29]  DESC Imagen
+[2019-06-22 18:16:29]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 18:17:07]  DESC Producto
+[2019-06-22 18:17:08]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 18:17:08]  DESC Imagen
+[2019-06-22 18:17:08]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 18:18:36]  DESC Producto
+[2019-06-22 18:18:37]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 18:18:37]  DESC Imagen
+[2019-06-22 18:18:37]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 18:20:55]  DESC Producto
+[2019-06-22 18:20:56]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 18:20:56]  DESC Imagen
+[2019-06-22 18:20:56]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 18:21:26]  DESC Producto
+[2019-06-22 18:21:26]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 18:21:26]  DESC Imagen
+[2019-06-22 18:21:26]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-22 18:22:08]  DESC Producto
+[2019-06-22 18:22:08]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-22 18:22:08]  DESC Imagen
+[2019-06-22 18:22:08]  select * from Imagen  where idProducto=112 limit 0, 10

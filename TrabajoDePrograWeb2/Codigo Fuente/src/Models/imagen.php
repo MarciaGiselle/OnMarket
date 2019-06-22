@@ -6,6 +6,13 @@ class Imagen extends Model
     private $id;
     private $nombre;
     private $idProducto;
+    function adaptiveResizeImage($imagePath, $width, $height, $bestFit)
+    {
+        $imagick = new \Imagick(realpath($imagePath));
+        $imagick->adaptiveResizeImage($width, $height, $bestFit);
+        header("Content-Type: image/jpg");
+        echo $imagick->getImageBlob();
+    }
 
 
     function insertarImagen(){
