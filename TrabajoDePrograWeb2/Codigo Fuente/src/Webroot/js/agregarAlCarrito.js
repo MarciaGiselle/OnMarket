@@ -8,11 +8,11 @@ agregar.click(function () {
     obj.cantidad = $("#cantidad").val();
     obj.idProducto = $("#id").val();
 
-   llamadaAjax(pathCarrito, JSON.stringify(obj), true, " AgregrarAlCarritoExitosa", "AgregrarAlCarritoFallida");
+   llamadaAjax(pathCarrito, JSON.stringify(obj), true, "AgregarAlCarritoExitosa", "AgregrarAlCarritoFallida");
 
 });
 
-function AgregrarAlCarritoExitosa(){
+function AgregarAlCarritoExitosa(){
     alertify.alert("Mi Carrito", "agregado al carrito :)");
 }
 
