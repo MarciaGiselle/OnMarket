@@ -19,13 +19,13 @@ if(isset($_SESSION["logueado"])){
         <div class="col-sm">
 
             <?php
-            $imagen=new Imagen();
+            $image=new Imagen();
             $tope = count($imagen);
             for ($i = 0; $i < $tope; $i++) {
-
-
-
                 $img = $imagen[$i]["nombre"];
+           // $image->adaptiveResizeImage($img,200,200 ,true);
+
+
                 echo '<img class="rounded float-left" width="500px" height="150px" src="../Webroot/imgCargadas/' . $img . ' " alt="' . $img . '">';
             }
             ?>

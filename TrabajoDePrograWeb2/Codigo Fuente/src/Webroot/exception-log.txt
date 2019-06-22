@@ -5436,7 +5436,6 @@ StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Vie
 #4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #5 {main}
 
-<<<<<<< HEAD
 [2019-06-22 18:02:09]  Excepción no controlada: 'Class 'Imagick' not found' en el archivo MostrarProducto.php en la línea 26
 StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require()
 #1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
@@ -5507,5 +5506,66 @@ StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Cor
 #3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #4 {main}
 
-=======
->>>>>>> 3da06b7e95934424f2b5d3626996fe49bed9b89c
+[2019-06-22 18:51:02]  Excepción no controlada: 'Cannot use object of type Imagen as array' en el archivo MostrarProducto.php en la línea 25
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require()
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-22 18:51:26]  Excepción no controlada: 'Class 'Imagick' not found' en el archivo imagen.php en la línea 12
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(26): Imagen->adaptiveResizeImage('NuevoDocumento ...', 200, 200, true)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-22 18:51:52]  Excepción no controlada: 'Class 'Imagick' not found' en el archivo imagen.php en la línea 12
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(26): Imagen->adaptiveResizeImage('NuevoDocumento ...', 200, 200, true)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-22 18:52:15]  Excepción no controlada: 'Class 'Imagick' not found' en el archivo imagen.php en la línea 13
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(26): Imagen->adaptiveResizeImage('NuevoDocumento ...', 200, 200, true)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-22 18:57:04]  Excepción no controlada: 'Class 'Imagick' not found' en el archivo imagen.php en la línea 12
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(26): Imagen->adaptiveResizeImage('NuevoDocumento ...', 200, 200, true)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-22 18:57:44]  Excepción no controlada: 'Class 'Imagick' not found' en el archivo imagen.php en la línea 12
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(26): Imagen->adaptiveResizeImage('NuevoDocumento ...', 200, 200, true)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-22 19:54:10]  Excepción no controlada: 'Class 'Imagick' not found' en el archivo imagen.php en la línea 12
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(26): Imagen->adaptiveResizeImage('NuevoDocumento ...', 200, 200, true)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-22 20:03:33]  Excepción no controlada: 'Class 'Imagick' not found' en el archivo imagen.php en la línea 12
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(26): Imagen->adaptiveResizeImage('NuevoDocumento ...', 200, 200, true)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
