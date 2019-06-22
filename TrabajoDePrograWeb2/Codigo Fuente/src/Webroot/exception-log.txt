@@ -5378,3 +5378,61 @@ StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDeProg
 #4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #5 {main}
 
+[2019-06-22 17:01:21]  Excepción no controlada: 'Undefined index: id' en el archivo CarritoController.php en la línea 23
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(23): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 23, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-22 17:05:38]  Excepción no controlada: 'Array to string conversion' en el archivo producto.php en la línea 48
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(48): globalErrorHandler(8, 'Array to string...', 'C:\\xamp\\htdocs\\...', 48, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(24): Producto->filasPorPk(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-22 17:06:05]  Excepción no controlada: 'Invalid argument supplied for foreach()' en el archivo CarritoController.php en la línea 23
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(23): globalErrorHandler(2, 'Invalid argumen...', 'C:\\xamp\\htdocs\\...', 23, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-22 17:06:26]  Excepción no controlada: 'Array to string conversion' en el archivo producto.php en la línea 48
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(48): globalErrorHandler(8, 'Array to string...', 'C:\\xamp\\htdocs\\...', 48, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(24): Producto->filasPorPk(Array)
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-22 17:08:56]  Excepción no controlada: 'Undefined index: precio' en el archivo carrito.php en la línea 35
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(35): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 35, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(43): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-22 17:09:54]  Excepción no controlada: 'Undefined index: precio' en el archivo carrito.php en la línea 35
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(35): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 35, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(43): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-22 17:11:41]  Excepción no controlada: 'Undefined index: precio' en el archivo carrito.php en la línea 35
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(35): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 35, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(43): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-06-22 17:11:55]  Excepción no controlada: 'Undefined index: precio' en el archivo carrito.php en la línea 35
+StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Carrito\carrito.php(35): globalErrorHandler(8, 'Undefined index...', 'C:\\xamp\\htdocs\\...', 35, Array)
+#1 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xamp\\htdocs\\...')
+#2 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(43): Controller->render('carrito')
+#3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#4 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+

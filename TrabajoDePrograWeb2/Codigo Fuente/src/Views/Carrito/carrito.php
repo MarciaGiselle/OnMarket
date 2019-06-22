@@ -12,7 +12,7 @@ if(isset($_SESSION["logueado"])){
 <div class="container text-center align-items-center" ><br>
 <h2 class="text-primary text-center mt-3 mb-2">Tus Productos</h2>
 
-<form action="<?php echo getBaseAddress(). 'Tarjeta/tarjeta' ?>" method="POST">
+<form action="<?php echo getBaseAddress(). 'Compra/ingresarTarjeta' ?>" method="POST">
 <table class=" table table-hover text-center mt-4">
   <thead>
    <tr class="font-weight-bold">
@@ -29,18 +29,18 @@ if(isset($_SESSION["logueado"])){
 
     <?php
     $total=0;
-    $tope=count($_SESSION["carrito"]);
+    $tope=count($listaProductos);
     for($i=0;$i<$tope;$i++ ){
-        $cantidad=$_SESSION["carrito"][$i]["cantidad"];
-        $precio=$_SESSION["carrito"][$i]["precio"];
+        $cantidad=$listaProductos[$i]["cantidad"];
+        $precio=$listaProductos[$i]["producto"][0]["precio"];
         $subtotal=$cantidad*$precio;
         $total+=$subtotal;
 $nro=$i+1;
      echo "<tr>";
        echo "<th scope=\"row\">".$nro."</th>";
-        echo "<td>".$_SESSION["carrito"][$i]["nombre"]."</td>";
-        echo "<td>".$_SESSION["carrito"][$i]["precio"]."</td>";
-        echo "<td>".$_SESSION["carrito"][$i]["cantidad"]."</td>";
+        echo "<td>".$listaProductos[$i]["producto"][0]["nombre"]."</td>";
+        echo "<td>".$listaProductos[$i]["producto"][0]["precio"]."</td>";
+        echo "<td>".$listaProductos[$i]["cantidad"]."</td>";
          echo "<td>$".$subtotal."</td>";
         echo "<td><a class='btn' href='#'><i class=\"far fa-trash-alt fa-lg\" style='color: red' ></i></a></td>";
 

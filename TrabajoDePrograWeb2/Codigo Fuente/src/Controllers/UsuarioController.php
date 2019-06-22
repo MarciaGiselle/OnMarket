@@ -60,34 +60,6 @@ class UsuarioController extends Controller
 
     }
 
-    function agregarAlCarrito($idProducto){
-
-        header("Content-type: application/json");
-        $data = json_decode(utf8_decode($idProducto['data']));
-
-        $id=$data->idProducto;
-        $nombre=$data->nombre;
-        $precio=$data->precio;
-        $cantidad=$data->cantidad;
-
-      if( $_SESSION["logueado"]) {
-          if (!isset($_SESSION["carrito"])) {
-              $_SESSION["carrito"] = array();
-              $array = ["id" => $id, "precio" => $precio, "cantidad" => $cantidad, "nombre" => $nombre];
-              array_push($_SESSION["carrito"], $array);
-          } else {
-              $array = ["id" => $id, "precio" => $precio, "cantidad" => $cantidad, "nombre" => $nombre];
-              array_push($_SESSION["carrito"], $array);
-          }
-
-      }else{
-              throw new CarritoFallido("Debe iniciar sesión", CodigoError::CarritoFallido);
-      }
-
-        echo json_encode($id);
-
-
-    }
 
     function Compra($datos){
         header("Content-type: application/json");

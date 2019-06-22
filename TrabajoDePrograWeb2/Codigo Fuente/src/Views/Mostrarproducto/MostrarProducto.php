@@ -1,5 +1,5 @@
 <script>
-    const pathCarrito = "<?php echo getBaseAddress() . "Usuario/agregarAlCarrito"; ?>";
+    const pathCarrito = "<?php echo getBaseAddress() . "Carrito/agregarAlCarrito"; ?>";
 
 </script>
 <body>
@@ -46,9 +46,6 @@ if(isset($_SESSION["logueado"])){
                 <button class="btn btn-primary mt-5" id="agregar">Agregar Al carrito</button>
             </div>
 
-            <input type="hidden" name="id" id="nombre" value="<?php echo $resultado["nombre"]; ?>">
-
-            <input type="hidden" name="id" id="precio" value="<?php echo $resultado["precio"]; ?>">
 
             <input type="hidden" name="id" id="id" value="<?php echo $resultado["idProducto"]; ?>">
 
