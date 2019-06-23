@@ -30,7 +30,7 @@ class UsuarioController extends Controller
 
 
             if (!empty($idUsuario)) {
-                $_SESSION["logueado"] = $nombre;
+                $_SESSION["logueado"] = $idUsuario;
                 $d["title"] = "MiCuenta";
 
             }else{
@@ -61,17 +61,15 @@ class UsuarioController extends Controller
     }
 
 
-    function Compra($datos){
+    function realizarCompra($datos){
         header("Content-type: application/json");
         $data = json_decode(utf8_decode($datos['data']));
+
         $total=$data->total;
-        $codigo=$data->codigo;
-        $fecha=$data->fecha;
-        $numeroTarjeta=$data->numeroTarjeta;
-
-
-        $user=new usuario();
-        $idUser=$user->traeIdPorNombre($_SESSION["logueado"]);
+        $codigo=$data->codigoDeSeguridad;
+        $fecha=$data->fechaDeVencimiento;
+        $numeroTarjeta=$data->numeroDeTarjeta;
+        $idUser=$_SESSION["logueado"];
         if(isset($idUser)){
             $tarjeta= new tarjeta_de_credito();
             $tarjeta->setIdUser($idUser);
@@ -80,10 +78,7 @@ class UsuarioController extends Controller
             $idTarjeta=$tarjeta->insertar();
             if(isset($idTarjeta)) {
                 $idCobranza=$tarjeta->pagar( $idTarjeta, $fecha,$total);
-
             }
-
-
         }else{
             throw new ExcentionRegistar("Compra fallida", CodigoError::ExcentionRegistar);
         }

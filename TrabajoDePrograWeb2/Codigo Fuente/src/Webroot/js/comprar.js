@@ -3,9 +3,9 @@ const regexNumeros = /^[0-9]+/;
 const regexLetras = /[A-Za-z]+/;
 
 var confirmar = $("#confirmar");
-var inputnumeroTarjeta = $("#numero");
-var inputcodigo = $("#codigo");
-var inputfecha = $("#fecha");
+var inputnumeroTarjeta = $("#numeroDeTarjeta");
+var inputcodigo = $("#codigoDeSeguridad");
+var inputfecha = $("#fechaDeVencimiento");
 var inputtotal = $('#total');
 
 function validarCodigo(){

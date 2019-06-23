@@ -18,7 +18,7 @@ if(isset($_SESSION["logueado"])){
     include_once ("navNoLogueado.php");
 }
 ?>
-
+<main>
     <div class="container">
         <br>
         <h3 class="text-primary ">Registrarse</h3>
@@ -93,8 +93,7 @@ if(isset($_SESSION["logueado"])){
 
         </form>
     </div>
-
-</main>
+    </main>
 
 <br>
 

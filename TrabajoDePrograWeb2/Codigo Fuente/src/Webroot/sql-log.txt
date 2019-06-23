@@ -12516,3 +12516,79 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-22 20:30:12]  select * from Imagen  where idProducto=112 limit 0, 10
 
 [2019-06-22 20:30:12]  DESC Imagen
+[2019-06-22 20:41:14]  DESC Usuario
+[2019-06-22 20:41:14]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-22 20:41:20]  DESC Producto
+[2019-06-22 20:41:20]  DESC Imagen
+[2019-06-22 20:41:20]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-22 20:41:20]  select * from Producto  where idProducto=86 limit 0, 10
+[2019-06-22 20:41:20]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-22 20:41:20]  select * from Producto  where idProducto=87 limit 0, 10
+[2019-06-22 20:41:20]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-22 20:41:20]  select * from Producto  where idProducto=107 limit 0, 10
+[2019-06-22 20:41:20]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-22 20:41:20]  select * from Producto  where idProducto=108 limit 0, 10
+[2019-06-22 20:41:20]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-22 20:41:22]  DESC Producto
+[2019-06-22 20:41:22]  select * from Producto  where idProducto=87 limit 0, 1
+[2019-06-22 20:41:22]  DESC Imagen
+[2019-06-22 20:41:22]  select * from Imagen  where idProducto=87 limit 0, 10
+[2019-06-22 20:41:26]  DESC Producto
+[2019-06-22 20:41:26]  select * from Producto  where idProducto=87 limit 0, 10
+[2019-06-22 20:42:10]  DESC Usuario
+[2019-06-22 20:42:10]  select * from Usuario  where userName='Rocio' limit 0, 1
+[2019-06-22 20:42:10]  DESC tarjeta_de_credito
+[2019-06-22 20:42:11]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','','234','2019-06-30')
+[2019-06-22 20:42:15]  DESC Usuario
+[2019-06-22 20:42:15]  select * from Usuario  where userName='Rocio' limit 0, 1
+[2019-06-22 20:42:15]  DESC tarjeta_de_credito
+[2019-06-22 20:42:15]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','','234','2019-06-30')
+[2019-06-22 20:42:15]  DESC Usuario
+[2019-06-22 20:42:15]  select * from Usuario  where userName='Rocio' limit 0, 1
+[2019-06-22 20:42:15]  DESC tarjeta_de_credito
+[2019-06-22 20:42:15]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','','234','2019-06-30')
+[2019-06-22 20:49:58]  DESC Producto
+[2019-06-22 20:49:58]  select * from Producto  where idProducto=87 limit 0, 10
+[2019-06-22 20:50:08]  DESC Usuario
+[2019-06-22 20:50:08]  DESC tarjeta_de_credito
+[2019-06-22 20:50:08]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','Rocio','5453','2019-06-30')
+[2019-06-22 20:51:18]  DESC Usuario
+[2019-06-22 20:51:18]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-22 20:51:24]  DESC Producto
+[2019-06-22 20:51:24]  DESC Imagen
+[2019-06-22 20:51:24]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-22 20:51:24]  select * from Producto  where idProducto=86 limit 0, 10
+[2019-06-22 20:51:25]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-22 20:51:25]  select * from Producto  where idProducto=87 limit 0, 10
+[2019-06-22 20:51:25]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-22 20:51:25]  select * from Producto  where idProducto=107 limit 0, 10
+[2019-06-22 20:51:25]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-22 20:51:25]  select * from Producto  where idProducto=108 limit 0, 10
+[2019-06-22 20:51:25]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-22 20:51:27]  DESC Producto
+[2019-06-22 20:51:27]  select * from Producto  where idProducto=87 limit 0, 1
+[2019-06-22 20:51:27]  DESC Imagen
+[2019-06-22 20:51:27]  select * from Imagen  where idProducto=87 limit 0, 10
+[2019-06-22 20:51:31]  DESC Producto
+[2019-06-22 20:51:31]  select * from Producto  where idProducto=87 limit 0, 10
+[2019-06-22 20:51:40]  DESC Usuario
+[2019-06-22 20:51:40]  DESC tarjeta_de_credito
+[2019-06-22 20:51:40]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','1','5454','2019-06-30')
+[2019-06-22 20:51:40]  DESC cobranza
+[2019-06-22 20:57:38]  DESC Usuario
+[2019-06-22 20:57:38]  DESC tarjeta_de_credito
+[2019-06-22 20:57:38]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','1','5454','2019-06-30')
+[2019-06-22 20:57:38]  DESC cobranza
+[2019-06-22 21:02:06]  DESC Usuario
+[2019-06-22 21:02:06]  DESC tarjeta_de_credito
+[2019-06-22 21:02:06]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','1','5454','2019-06-30')
+[2019-06-22 21:02:06]  DESC cobranza
+[2019-06-22 21:05:18]  DESC Usuario
+[2019-06-22 21:05:18]  DESC tarjeta_de_credito
+[2019-06-22 21:05:18]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','1','5454','2019-06-30')
+[2019-06-22 21:05:18]  DESC cobranza
+[2019-06-22 21:06:02]  DESC Usuario
+[2019-06-22 21:06:02]  DESC tarjeta_de_credito
+[2019-06-22 21:06:02]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','1','5454','2019-06-30')
+[2019-06-22 21:06:02]  DESC cobranza
+[2019-06-22 21:06:02]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('10','2019-06-30','87','150')
