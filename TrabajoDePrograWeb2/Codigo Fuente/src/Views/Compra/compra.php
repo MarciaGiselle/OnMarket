@@ -1,5 +1,6 @@
 <script>
     const pathCompra = "<?php echo getBaseAddress() . "Usuario/realizarCompra"; ?>";
+    const pathHome = "<?php echo getBaseAddress() . "Usuario/mostrarInicio"; ?>";
 
 </script>
 <body>

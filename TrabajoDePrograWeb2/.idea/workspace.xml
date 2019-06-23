@@ -11,37 +11,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/UsuarioController.php">
+        <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Buscador/buscador.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
+            <state relative-caret-position="612">
+              <caret line="57" column="17" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Mostrarproducto/MostrarProducto.php">
+        <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Carrito/carrito.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="74" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
+            <state relative-caret-position="379">
+              <caret line="49" column="83" selection-start-line="49" selection-start-column="83" selection-end-line="49" selection-end-column="83" />
+              <folding>
+                <element signature="n#style#0;n#i#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Compra/compra.php">
+        <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/CarritoController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Registrar/registrar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="95" column="10" selection-start-line="95" selection-end-line="96" />
+            <state relative-caret-position="277">
+              <caret line="81" column="45" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -49,31 +43,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/CompraController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/comprar.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-85">
-              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Buscador/buscador.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/sql-log.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="12557" column="27" selection-start-line="12557" selection-start-column="23" selection-end-line="12557" selection-end-column="27" />
+            <state relative-caret-position="51">
+              <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -81,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/exception-log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="5535" column="9" selection-start-line="5535" selection-start-column="9" selection-end-line="5535" selection-end-column="9" />
+            <state relative-caret-position="-2233">
+              <caret line="5679" selection-start-line="5679" selection-end-line="5679" />
             </state>
           </provider>
         </entry>
@@ -91,8 +62,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>fecha</find>
       <find>registra</find>
+      <find>fecha</find>
+      <find>delet</find>
+      <find>carri</find>
+      <find>hidd</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -116,11 +90,13 @@
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Views/Mostrarproducto/MostrarProducto.php" />
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/agregarAlCarrito.js" />
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Models/tarjeta_de_credito.php" />
-        <option value="$PROJECT_DIR$/Codigo Fuente/src/Controllers/UsuarioController.php" />
-        <option value="$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/comprar.js" />
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Controllers/CompraController.php" />
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Views/Registrar/registrar.php" />
+        <option value="$PROJECT_DIR$/Codigo Fuente/src/Controllers/UsuarioController.php" />
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Views/Compra/compra.php" />
+        <option value="$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/comprar.js" />
+        <option value="$PROJECT_DIR$/Codigo Fuente/src/Views/Carrito/carrito.php" />
+        <option value="$PROJECT_DIR$/Codigo Fuente/src/Controllers/CarritoController.php" />
       </list>
     </option>
   </component>
@@ -185,6 +161,13 @@
               <item name="TrabajoDePrograWeb2" type="462c0819:PsiDirectoryNode" />
               <item name="Codigo Fuente" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrabajoDePrograWeb2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrabajoDePrograWeb2" type="462c0819:PsiDirectoryNode" />
+              <item name="Codigo Fuente" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -193,7 +176,15 @@
               <item name="Codigo Fuente" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
-              <item name="Registrar" type="462c0819:PsiDirectoryNode" />
+              <item name="Buscador" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TrabajoDePrograWeb2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TrabajoDePrograWeb2" type="462c0819:PsiDirectoryNode" />
+              <item name="Codigo Fuente" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+              <item name="Compra" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TrabajoDePrograWeb2" type="b2602c69:ProjectViewProjectNode" />
@@ -251,18 +242,18 @@
       <option name="presentableId" value="Default" />
       <updated>1558972340796</updated>
       <workItem from="1558972351356" duration="9156000" />
-      <workItem from="1561243534484" duration="6867000" />
+      <workItem from="1561243534484" duration="15226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16023000" />
+    <option name="totallyTimeSpent" value="24382000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18532526" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18532526" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -350,11 +341,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/buscador.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Models/imagen.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -366,20 +352,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/agregarAlCarrito.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/exception-log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5535" column="9" selection-start-line="5535" selection-start-column="9" selection-end-line="5535" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -397,48 +369,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/sql-log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="12557" column="27" selection-start-line="12557" selection-start-column="23" selection-end-line="12557" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Models/tarjeta_de_credito.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/CarritoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Buscador/buscador.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/UsuarioController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="68" column="40" selection-start-line="68" selection-start-column="40" selection-end-line="68" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/comprar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-85">
-          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/CompraController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -449,17 +383,111 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/sql-log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12557" column="27" selection-start-line="12557" selection-start-column="23" selection-end-line="12557" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/comprar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="86" column="85" selection-start-line="86" selection-start-column="85" selection-end-line="86" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Mostrarproducto/MostrarProducto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="74" selection-start-line="1" selection-start-column="74" selection-end-line="1" selection-end-column="74" />
+        <state>
+          <caret selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Core/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-180">
+          <caret line="201" column="29" selection-start-line="201" selection-start-column="24" selection-end-line="201" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/BuscadorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/UsuarioController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Buscador/buscador.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="57" column="17" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/buscador.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="69" column="17" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/exception-log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2233">
+          <caret line="5679" selection-start-line="5679" selection-end-line="5679" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Compra/compra.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="-238">
+          <caret line="2" column="74" selection-start-line="2" selection-start-column="74" selection-end-line="2" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Buscador/navLogueado.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="27" column="71" selection-start-line="27" selection-start-column="66" selection-end-line="27" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/agregarAlCarrito.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/CompraController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Carrito/carrito.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="49" column="83" selection-start-line="49" selection-start-column="83" selection-end-line="49" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#i#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/CarritoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="81" column="45" selection-start-line="81" selection-start-column="45" selection-end-line="81" selection-end-column="45" />
         </state>
       </provider>
     </entry>

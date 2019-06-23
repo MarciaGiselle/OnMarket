@@ -52,7 +52,7 @@ class CarritoController extends Controller
         $id=$data->idProducto;
         $cantidad=$data->cantidad;
 
-        if( $_SESSION["logueado"]) {
+        if(isset( $_SESSION["logueado"])) {
             if (!isset($_SESSION["carrito"])) {
                 $_SESSION["carrito"] = array();
                 $array = ["id" => $id,  "cantidad" => $cantidad];
@@ -63,7 +63,7 @@ class CarritoController extends Controller
             }
 
         }else{
-            throw new CarritoFallido("Debe iniciar sesión", CodigoError::CarritoFallido);
+            throw new CarritoFallido("Debe iniciar sesión para administrar su carrito de compras.", CodigoError::CarritoFallido);
         }
 
         echo json_encode($id);
@@ -72,5 +72,21 @@ class CarritoController extends Controller
     }
 
 
+    function eliminarProducto($producto){
+
+        $idProducto=$producto["idEliminado"];
+
+
+            for ($i=0;$i<count($_SESSION["carrito"]); $i++){
+            if ($_SESSION["carrito"][$i]["id"]==$idProducto){
+                unset($_SESSION['carrito'][$i]);
+                $_SESSION["carrito"] = array_values($_SESSION["carrito"]);
+                echo "Eliminado";
+        }
+        };
+
+        var_dump($_SESSION["carrito"]);
+
+}
 
 }

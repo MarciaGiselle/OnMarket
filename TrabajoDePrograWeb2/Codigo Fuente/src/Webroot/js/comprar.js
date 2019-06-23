@@ -74,17 +74,24 @@ confirmar.click(function () {
     var validacion = validarNumeroTarjeta() && validarCodigo() && validarFecha();
     if(true) {
         var obj = {};
-        obj.total = $('#total').val();
-        obj.numeroTarjeta = $('#numero').val();
-        obj.codigo = $('#codigo').val();
-        obj.fecha = $('#fecha').val();
+        obj.total = inputtotal.val();
+        obj.numeroTarjeta = inputnumeroTarjeta.val();
+        obj.codigoDeSeguridad = inputcodigo.val();
+        obj.fechaDeVencimiento = inputfecha.val();
 
         llamadaAjax(pathCompra, JSON.stringify(obj), true, "loginExitoso", "loginFallido");
     }
 });
 
 function loginExitoso(dummy) {
-    alertify.alert("Mi Compra", "Compra exitosa");
+    alertify.alert("¡Compra Exitosa!", "Espere unos segundos y será redireccionado al inicio");
+
+    setTimeout(function () {
+
+        window.location.href = pathHome;
+
+    }, 5000);
+
 }
 
 function loginFallido(err) {

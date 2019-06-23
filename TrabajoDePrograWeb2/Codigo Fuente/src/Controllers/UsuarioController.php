@@ -68,7 +68,7 @@ class UsuarioController extends Controller
         $total=$data->total;
         $codigo=$data->codigoDeSeguridad;
         $fecha=$data->fechaDeVencimiento;
-        $numeroTarjeta=$data->numeroDeTarjeta;
+        $numeroTarjeta=$data->numeroTarjeta;
         $idUser=$_SESSION["logueado"];
         if(isset($idUser)){
             $tarjeta= new tarjeta_de_credito();
