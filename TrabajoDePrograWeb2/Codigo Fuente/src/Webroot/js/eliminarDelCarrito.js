@@ -13,6 +13,12 @@ eliminar.click(function(){
 
 function eliminacionExitosa(){
     alertify.alert("Mi Carrito", "Eliminado");
+    setTimeout(function () {
+
+        window.location.reload();
+
+    }, 3000);
+
 }
 
 function eliminacionFallida(err){

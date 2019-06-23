@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b89dafb0-d707-404c-ab13-5ad5a14491cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Codigo Fuente/src/Exceptions/EliminarCarritoException.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codigo Fuente/src/Enums/CodigoError.php" beforeDir="false" afterPath="$PROJECT_DIR$/Codigo Fuente/src/Enums/CodigoError.php" afterDir="false" />
-    </list>
+    <list default="true" id="b89dafb0-d707-404c-ab13-5ad5a14491cb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,16 +22,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/eliminarDelCarrito.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="323">
+              <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/comprar.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="92" column="13" lean-forward="true" selection-start-line="88" selection-start-column="3" selection-end-line="92" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/CarritoController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="464">
@@ -118,8 +123,8 @@
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Exceptions/EliminarCarritoException.php" />
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Enums/CodigoError.php" />
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Views/Carrito/carrito.php" />
-        <option value="$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/eliminarDelCarrito.js" />
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Controllers/CarritoController.php" />
+        <option value="$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/eliminarDelCarrito.js" />
       </list>
     </option>
   </component>
@@ -260,12 +265,12 @@
       <option name="presentableId" value="Default" />
       <updated>1558972340796</updated>
       <workItem from="1558972351356" duration="9156000" />
-      <workItem from="1561243534484" duration="19663000" />
+      <workItem from="1561243534484" duration="20402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28819000" />
+    <option name="totallyTimeSpent" value="29558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -429,13 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/comprar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="86" column="85" selection-start-line="86" selection-start-column="85" selection-end-line="86" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Mostrarproducto/MostrarProducto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -534,13 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Enums/CodigoError.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/exception-log.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3273">
@@ -558,13 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Exceptions/EliminarCarritoException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/agregarAlCarrito.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -572,17 +556,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/eliminarDelCarrito.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/CarritoController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="464">
           <caret line="95" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Enums/CodigoError.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Exceptions/EliminarCarritoException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/comprar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="92" column="13" lean-forward="true" selection-start-line="88" selection-start-column="3" selection-end-line="92" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/eliminarDelCarrito.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="8" />
         </state>
       </provider>
     </entry>
