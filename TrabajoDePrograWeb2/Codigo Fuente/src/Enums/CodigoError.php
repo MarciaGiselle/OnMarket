@@ -13,8 +13,8 @@ abstract class CodigoError
     const UsuarioNoEncontrado = 15;
     const ProductoNoEncontrado = 20;
     const PublicacionInvalida = 25;
-    const CarritoFallido = 25;
-    
+    const CarritoFallido = 30;
+    const EliminarCarritoFallido = 35;
 
 
     //nuestras

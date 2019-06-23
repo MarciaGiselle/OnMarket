@@ -1,3 +1,7 @@
+<script>
+    const pathEliminar = "<?php echo getBaseAddress() . "Carrito/eliminarProducto"; ?>";
+</script>
+
 <body>
 <?php
 
@@ -37,7 +41,7 @@ if (isset($_SESSION["logueado"])) {
             $subtotal = $cantidad * $precio;
             $total += $subtotal;
             $nro = $i + 1;
-            echo '<button>
+            echo '<tr>
                 <th scope="row">' . $nro . '</th>
                 <td> ' . $nombre . '  </td>
                 <td> ' . $precio . ' </td>
@@ -46,8 +50,9 @@ if (isset($_SESSION["logueado"])) {
                 <td>
                 
             <form action="' . getBaseAddress() . 'Carrito/eliminarProducto' . '" method="POST">
-                <button type="submit" id="eliminar">
+               
                 <input type="hidden" name="idEliminado" id="idEliminado" value= "'.$idProducto.'">
+                 <button type="submit" id="eliminar">
                 <i class="far fa-trash-alt fa-lg" style="color: red;" ></i>
                 </button>
                 </tr>
