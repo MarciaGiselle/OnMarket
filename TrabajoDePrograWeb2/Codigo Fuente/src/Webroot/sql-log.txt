@@ -13256,3 +13256,664 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-23 17:27:50]  select * from Producto  where idProducto=87 limit 0, 10
 [2019-06-23 17:27:56]  DESC Producto
 [2019-06-23 17:28:18]  DESC Producto
+[2019-06-23 18:40:55]  DESC Usuario
+[2019-06-23 18:40:55]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-23 19:29:20]  DESC Usuario
+[2019-06-23 19:29:20]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-23 19:29:49]  DESC Publicacion
+[2019-06-23 19:29:49]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 19:29:49]  DESC Producto
+[2019-06-23 19:29:49]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 19:29:50]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 19:32:45]  DESC Publicacion
+[2019-06-23 19:32:45]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 19:32:45]  DESC Producto
+[2019-06-23 19:32:45]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 19:32:45]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 19:34:24]  DESC Publicacion
+[2019-06-23 19:34:24]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 19:34:24]  DESC Producto
+[2019-06-23 19:34:24]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 19:34:24]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 19:34:51]  DESC Publicacion
+[2019-06-23 19:34:51]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 19:34:51]  DESC Producto
+[2019-06-23 19:34:52]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 19:34:52]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 19:35:26]  DESC Publicacion
+[2019-06-23 19:35:26]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 19:35:26]  DESC Producto
+[2019-06-23 19:35:27]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 19:35:27]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 19:36:15]  DESC Publicacion
+[2019-06-23 19:36:16]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 19:36:16]  DESC Producto
+[2019-06-23 19:36:16]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 19:36:16]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 19:37:31]  DESC Publicacion
+[2019-06-23 19:37:32]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 19:37:32]  DESC Producto
+[2019-06-23 19:37:33]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 19:37:33]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 19:40:15]  DESC Publicacion
+[2019-06-23 19:40:16]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 19:40:16]  DESC Producto
+[2019-06-23 19:40:16]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 19:40:16]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 19:40:58]  DESC Publicacion
+[2019-06-23 19:40:58]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 19:40:58]  DESC Producto
+[2019-06-23 19:40:59]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 19:40:59]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 19:41:34]  DESC Publicacion
+[2019-06-23 19:41:35]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 19:41:35]  DESC Producto
+[2019-06-23 19:41:35]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 19:41:35]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 19:41:48]  DESC Publicacion
+[2019-06-23 19:41:49]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 19:41:49]  DESC Producto
+[2019-06-23 19:41:49]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 19:41:49]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 19:42:05]  DESC Publicacion
+[2019-06-23 19:42:06]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 19:42:06]  DESC Producto
+[2019-06-23 19:42:06]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 19:42:06]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 19:44:58]  DESC Publicacion
+[2019-06-23 19:44:59]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 19:44:59]  DESC Producto
+[2019-06-23 19:44:59]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 19:44:59]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 19:45:13]  DESC Publicacion
+[2019-06-23 19:45:13]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 19:45:13]  DESC Producto
+[2019-06-23 19:45:14]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 19:45:14]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 19:45:54]  DESC Publicacion
+[2019-06-23 19:45:54]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 19:45:54]  DESC Producto
+[2019-06-23 19:45:54]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 19:45:54]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 20:01:42]  DESC Publicacion
+[2019-06-23 20:01:42]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 20:01:42]  DESC Producto
+[2019-06-23 20:01:42]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 20:01:42]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 20:03:53]  DESC Publicacion
+[2019-06-23 20:03:53]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 20:03:53]  DESC Producto
+[2019-06-23 20:03:54]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 20:03:54]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 20:04:46]  DESC Publicacion
+[2019-06-23 20:04:47]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 20:04:47]  DESC Producto
+[2019-06-23 20:04:47]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 20:04:47]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 20:04:51]  DESC Publicacion
+[2019-06-23 20:04:51]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 20:04:51]  DESC Producto
+[2019-06-23 20:04:52]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 20:04:52]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-23 20:05:11]  DESC Publicacion
+[2019-06-23 20:05:12]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-23 20:05:12]  DESC Producto
+[2019-06-23 20:05:12]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-23 20:05:12]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-24 13:57:49]  DESC Publicacion
+[2019-06-24 13:57:50]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-24 13:57:50]  DESC Producto
+[2019-06-24 13:57:51]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-24 13:57:51]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-24 14:23:17]  DESC Publicacion
+[2019-06-24 14:23:17]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-24 14:23:17]  DESC Producto
+[2019-06-24 14:23:17]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-24 14:23:17]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-24 14:23:19]  DESC Producto
+[2019-06-24 14:23:19]  DESC Publicacion
+[2019-06-24 14:23:19]  DESC Categoria
+[2019-06-24 14:23:19]  DESC Imagen
+[2019-06-24 14:23:19]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:23:19]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:23:19]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:23:19]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:25:40]  DESC Producto
+[2019-06-24 14:25:41]  DESC Publicacion
+[2019-06-24 14:25:41]  DESC Categoria
+[2019-06-24 14:25:41]  DESC Imagen
+[2019-06-24 14:25:41]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:25:41]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:25:41]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:25:41]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:26:18]  DESC Producto
+[2019-06-24 14:26:18]  DESC Publicacion
+[2019-06-24 14:26:18]  DESC Categoria
+[2019-06-24 14:26:18]  DESC Imagen
+[2019-06-24 14:26:18]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:26:18]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:26:18]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:26:18]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:26:59]  DESC Producto
+[2019-06-24 14:27:00]  DESC Publicacion
+[2019-06-24 14:27:00]  DESC Categoria
+[2019-06-24 14:27:00]  DESC Imagen
+[2019-06-24 14:27:00]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:27:00]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:27:00]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:27:00]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:27:23]  DESC Producto
+[2019-06-24 14:27:23]  DESC Publicacion
+[2019-06-24 14:27:23]  DESC Categoria
+[2019-06-24 14:27:23]  DESC Imagen
+[2019-06-24 14:27:23]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:27:23]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:27:23]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:27:23]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:27:51]  DESC Producto
+[2019-06-24 14:27:51]  DESC Publicacion
+[2019-06-24 14:27:51]  DESC Categoria
+[2019-06-24 14:27:51]  DESC Imagen
+[2019-06-24 14:27:52]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:27:52]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:27:52]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:27:52]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:28:02]  DESC Producto
+[2019-06-24 14:28:02]  DESC Publicacion
+[2019-06-24 14:28:02]  DESC Categoria
+[2019-06-24 14:28:02]  DESC Imagen
+[2019-06-24 14:28:02]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:28:02]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:28:02]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:28:02]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:28:35]  DESC Producto
+[2019-06-24 14:28:35]  DESC Publicacion
+[2019-06-24 14:28:36]  DESC Categoria
+[2019-06-24 14:28:36]  DESC Imagen
+[2019-06-24 14:28:36]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:28:36]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:28:36]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:28:36]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:28:59]  DESC Producto
+[2019-06-24 14:29:00]  DESC Publicacion
+[2019-06-24 14:29:00]  DESC Categoria
+[2019-06-24 14:29:00]  DESC Imagen
+[2019-06-24 14:29:01]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:29:01]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:29:01]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:29:01]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:29:24]  DESC Producto
+[2019-06-24 14:29:24]  DESC Publicacion
+[2019-06-24 14:29:25]  DESC Categoria
+[2019-06-24 14:29:25]  DESC Imagen
+[2019-06-24 14:29:25]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:29:25]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:29:25]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:29:25]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:29:28]  DESC Producto
+[2019-06-24 14:29:28]  DESC Publicacion
+[2019-06-24 14:29:28]  DESC Categoria
+[2019-06-24 14:29:28]  DESC Imagen
+[2019-06-24 14:29:28]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:29:28]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:29:28]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:29:28]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:29:39]  DESC Producto
+[2019-06-24 14:29:39]  DESC Publicacion
+[2019-06-24 14:29:40]  DESC Categoria
+[2019-06-24 14:29:40]  DESC Imagen
+[2019-06-24 14:29:40]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:29:40]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:29:40]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:29:40]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:30:14]  DESC Producto
+[2019-06-24 14:30:14]  DESC Publicacion
+[2019-06-24 14:30:14]  DESC Categoria
+[2019-06-24 14:30:14]  DESC Imagen
+[2019-06-24 14:30:14]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:30:14]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:30:14]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:30:14]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:30:48]  DESC Producto
+[2019-06-24 14:30:48]  DESC Publicacion
+[2019-06-24 14:30:48]  DESC Categoria
+[2019-06-24 14:30:48]  DESC Imagen
+[2019-06-24 14:30:48]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:30:49]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:30:49]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:30:49]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:31:39]  DESC Producto
+[2019-06-24 14:31:39]  DESC Publicacion
+[2019-06-24 14:31:39]  DESC Categoria
+[2019-06-24 14:31:39]  DESC Imagen
+[2019-06-24 14:31:39]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:31:39]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:31:39]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:31:39]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:32:13]  DESC Producto
+[2019-06-24 14:32:13]  DESC Publicacion
+[2019-06-24 14:32:13]  DESC Categoria
+[2019-06-24 14:32:13]  DESC Imagen
+[2019-06-24 14:32:13]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:32:13]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:32:13]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:32:13]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:33:28]  DESC Producto
+[2019-06-24 14:33:28]  DESC Publicacion
+[2019-06-24 14:33:29]  DESC Categoria
+[2019-06-24 14:33:29]  DESC Imagen
+[2019-06-24 14:33:29]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:33:29]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:33:29]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:33:29]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:33:47]  DESC Producto
+[2019-06-24 14:33:47]  DESC Publicacion
+[2019-06-24 14:33:47]  DESC Categoria
+[2019-06-24 14:33:47]  DESC Imagen
+[2019-06-24 14:33:47]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:33:47]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:33:47]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:33:48]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:34:52]  DESC Producto
+[2019-06-24 14:34:53]  DESC Publicacion
+[2019-06-24 14:34:53]  DESC Categoria
+[2019-06-24 14:34:53]  DESC Imagen
+[2019-06-24 14:34:53]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:34:53]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:34:53]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:34:53]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:35:19]  DESC Producto
+[2019-06-24 14:35:19]  DESC Publicacion
+[2019-06-24 14:35:19]  DESC Categoria
+[2019-06-24 14:35:19]  DESC Imagen
+[2019-06-24 14:35:19]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:35:19]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:35:19]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:35:19]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:36:38]  DESC Producto
+[2019-06-24 14:36:38]  DESC Publicacion
+[2019-06-24 14:36:39]  DESC Categoria
+[2019-06-24 14:36:39]  DESC Imagen
+[2019-06-24 14:36:39]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:36:39]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:36:40]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:36:40]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:37:32]  DESC Producto
+[2019-06-24 14:37:32]  DESC Publicacion
+[2019-06-24 14:37:32]  DESC Categoria
+[2019-06-24 14:37:32]  DESC Imagen
+[2019-06-24 14:37:32]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:37:32]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:37:32]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:37:32]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:38:45]  DESC Producto
+[2019-06-24 14:38:45]  DESC Publicacion
+[2019-06-24 14:38:45]  DESC Categoria
+[2019-06-24 14:38:45]  DESC Imagen
+[2019-06-24 14:38:45]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:38:45]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:38:45]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:38:45]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:39:19]  DESC Producto
+[2019-06-24 14:39:19]  DESC Publicacion
+[2019-06-24 14:39:19]  DESC Categoria
+[2019-06-24 14:39:19]  DESC Imagen
+[2019-06-24 14:39:19]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:39:20]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:39:20]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:39:20]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:39:37]  DESC Producto
+[2019-06-24 14:39:38]  DESC Publicacion
+[2019-06-24 14:39:38]  DESC Categoria
+[2019-06-24 14:39:38]  DESC Imagen
+[2019-06-24 14:39:38]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:39:38]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:39:38]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:39:38]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:40:07]  DESC Producto
+[2019-06-24 14:40:07]  DESC Publicacion
+[2019-06-24 14:40:07]  DESC Categoria
+[2019-06-24 14:40:07]  DESC Imagen
+[2019-06-24 14:40:07]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:40:07]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:40:07]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:40:07]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:40:39]  DESC Producto
+[2019-06-24 14:40:39]  DESC Publicacion
+[2019-06-24 14:40:39]  DESC Categoria
+[2019-06-24 14:40:39]  DESC Imagen
+[2019-06-24 14:40:39]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:40:39]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:40:39]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:40:39]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:41:25]  DESC Producto
+[2019-06-24 14:41:26]  DESC Publicacion
+[2019-06-24 14:41:26]  DESC Categoria
+[2019-06-24 14:41:26]  DESC Imagen
+[2019-06-24 14:41:26]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:41:26]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:41:26]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:41:26]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:41:41]  DESC Producto
+[2019-06-24 14:41:41]  DESC Publicacion
+[2019-06-24 14:41:41]  DESC Categoria
+[2019-06-24 14:41:41]  DESC Imagen
+[2019-06-24 14:41:41]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:41:41]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:41:41]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:41:41]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:46:04]  DESC Producto
+[2019-06-24 14:46:04]  DESC Publicacion
+[2019-06-24 14:46:04]  DESC Categoria
+[2019-06-24 14:46:04]  DESC Imagen
+[2019-06-24 14:46:04]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:46:04]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:46:04]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:46:04]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:58:24]  DESC Producto
+[2019-06-24 14:58:24]  DESC Publicacion
+[2019-06-24 14:58:24]  DESC Categoria
+[2019-06-24 14:58:24]  DESC Imagen
+[2019-06-24 14:58:24]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 14:58:24]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 14:58:24]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 14:58:24]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 14:58:26]  DESC Producto
+[2019-06-24 14:58:26]  DESC Categoria
+[2019-06-24 14:58:26]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 14:58:57]  DESC Producto
+[2019-06-24 14:58:57]  DESC Imagen
+[2019-06-24 14:58:57]  select * from Producto  where nombre like '%cartera%' limit 0, 100
+[2019-06-24 14:58:57]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-24 14:58:57]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-06-24 15:00:29]  DESC Producto
+[2019-06-24 15:00:29]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:00:29]  DESC Imagen
+[2019-06-24 15:00:29]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 15:00:35]  DESC Producto
+[2019-06-24 15:00:35]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-24 15:01:15]  DESC Usuario
+[2019-06-24 15:01:15]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-24 15:01:17]  DESC Publicacion
+[2019-06-24 15:01:17]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-24 15:01:17]  DESC Producto
+[2019-06-24 15:01:17]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-24 15:01:17]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-24 15:01:23]  DESC Producto
+[2019-06-24 15:01:23]  DESC Publicacion
+[2019-06-24 15:01:23]  DESC Categoria
+[2019-06-24 15:01:23]  DESC Imagen
+[2019-06-24 15:01:24]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:01:24]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 15:01:24]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 15:01:24]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 15:01:32]  DESC Producto
+[2019-06-24 15:01:32]  DESC Categoria
+[2019-06-24 15:01:32]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:03:36]  DESC Usuario
+[2019-06-24 15:03:36]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-24 15:03:37]  DESC Publicacion
+[2019-06-24 15:03:38]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-24 15:03:38]  DESC Producto
+[2019-06-24 15:03:38]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-24 15:03:38]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-24 15:03:40]  DESC Producto
+[2019-06-24 15:03:40]  DESC Publicacion
+[2019-06-24 15:03:40]  DESC Categoria
+[2019-06-24 15:03:40]  DESC Imagen
+[2019-06-24 15:03:40]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:03:40]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 15:03:40]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 15:03:40]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 15:03:43]  DESC Producto
+[2019-06-24 15:03:43]  DESC Publicacion
+[2019-06-24 15:03:44]  DESC Categoria
+[2019-06-24 15:03:44]  DESC Imagen
+[2019-06-24 15:03:45]  DESC Producto
+[2019-06-24 15:03:45]  DESC Publicacion
+[2019-06-24 15:03:45]  DESC Categoria
+[2019-06-24 15:03:45]  DESC Imagen
+[2019-06-24 15:03:45]  DESC Producto
+[2019-06-24 15:03:46]  DESC Publicacion
+[2019-06-24 15:03:46]  DESC Categoria
+[2019-06-24 15:03:46]  DESC Imagen
+[2019-06-24 15:03:46]  DESC Producto
+[2019-06-24 15:03:46]  DESC Publicacion
+[2019-06-24 15:03:46]  DESC Categoria
+[2019-06-24 15:03:46]  DESC Imagen
+[2019-06-24 15:05:22]  DESC Usuario
+[2019-06-24 15:05:23]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-24 15:05:25]  DESC Publicacion
+[2019-06-24 15:05:25]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-24 15:05:25]  DESC Producto
+[2019-06-24 15:05:25]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-24 15:05:25]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-24 15:05:26]  DESC Producto
+[2019-06-24 15:05:26]  DESC Publicacion
+[2019-06-24 15:05:26]  DESC Categoria
+[2019-06-24 15:05:27]  DESC Imagen
+[2019-06-24 15:05:27]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:05:27]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 15:05:27]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 15:05:27]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 15:05:31]  DESC Producto
+[2019-06-24 15:05:31]  DESC Publicacion
+[2019-06-24 15:05:31]  DESC Categoria
+[2019-06-24 15:05:31]  DESC Imagen
+[2019-06-24 15:07:42]  DESC Usuario
+[2019-06-24 15:07:42]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-24 15:07:44]  DESC Publicacion
+[2019-06-24 15:07:45]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-24 15:07:45]  DESC Producto
+[2019-06-24 15:07:45]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-24 15:07:45]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-24 15:07:46]  DESC Producto
+[2019-06-24 15:07:46]  DESC Publicacion
+[2019-06-24 15:07:46]  DESC Categoria
+[2019-06-24 15:07:46]  DESC Imagen
+[2019-06-24 15:07:46]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:07:46]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 15:07:46]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 15:07:46]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 15:07:49]  DESC Producto
+[2019-06-24 15:07:49]  DESC Publicacion
+[2019-06-24 15:07:49]  DESC Categoria
+[2019-06-24 15:07:49]  DESC Imagen
+[2019-06-24 15:08:36]  DESC Producto
+[2019-06-24 15:08:36]  DESC Publicacion
+[2019-06-24 15:08:36]  DESC Categoria
+[2019-06-24 15:08:37]  DESC Imagen
+[2019-06-24 15:08:40]  DESC Publicacion
+[2019-06-24 15:08:41]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-24 15:08:41]  DESC Producto
+[2019-06-24 15:08:41]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-24 15:08:41]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-24 15:08:43]  DESC Producto
+[2019-06-24 15:08:43]  DESC Publicacion
+[2019-06-24 15:08:44]  DESC Categoria
+[2019-06-24 15:08:44]  DESC Imagen
+[2019-06-24 15:08:44]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:08:44]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 15:08:44]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 15:08:44]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 15:09:09]  DESC Producto
+[2019-06-24 15:09:09]  DESC Categoria
+[2019-06-24 15:10:39]  DESC Producto
+[2019-06-24 15:10:39]  DESC Categoria
+[2019-06-24 15:12:33]  DESC Producto
+[2019-06-24 15:12:34]  DESC Categoria
+[2019-06-24 15:12:53]  DESC Producto
+[2019-06-24 15:12:53]  DESC Categoria
+[2019-06-24 15:15:31]  DESC Producto
+[2019-06-24 15:15:31]  DESC Categoria
+[2019-06-24 15:15:48]  DESC Producto
+[2019-06-24 15:15:48]  DESC Categoria
+[2019-06-24 15:15:59]  DESC Producto
+[2019-06-24 15:15:59]  DESC Categoria
+[2019-06-24 15:16:40]  DESC Producto
+[2019-06-24 15:16:41]  DESC Categoria
+[2019-06-24 15:17:50]  DESC Producto
+[2019-06-24 15:17:50]  DESC Categoria
+[2019-06-24 15:18:28]  DESC Producto
+[2019-06-24 15:18:28]  DESC Categoria
+[2019-06-24 15:18:30]  DESC Producto
+[2019-06-24 15:18:30]  DESC Categoria
+[2019-06-24 15:18:34]  DESC Publicacion
+[2019-06-24 15:18:34]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-24 15:18:34]  DESC Producto
+[2019-06-24 15:18:34]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-24 15:18:34]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-24 15:18:36]  DESC Producto
+[2019-06-24 15:18:36]  DESC Publicacion
+[2019-06-24 15:18:36]  DESC Categoria
+[2019-06-24 15:18:37]  DESC Imagen
+[2019-06-24 15:18:37]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:18:37]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 15:18:37]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 15:18:37]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 15:18:40]  DESC Producto
+[2019-06-24 15:18:40]  DESC Categoria
+[2019-06-24 15:18:40]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:19:31]  DESC Producto
+[2019-06-24 15:19:31]  DESC Categoria
+[2019-06-24 15:19:31]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:20:26]  DESC Producto
+[2019-06-24 15:20:27]  DESC Categoria
+[2019-06-24 15:20:27]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:20:40]  DESC Producto
+[2019-06-24 15:20:41]  DESC Categoria
+[2019-06-24 15:20:41]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:22:46]  DESC Producto
+[2019-06-24 15:22:47]  DESC Categoria
+[2019-06-24 15:22:47]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:23:16]  DESC Producto
+[2019-06-24 15:23:16]  DESC Categoria
+[2019-06-24 15:23:16]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:23:27]  DESC Producto
+[2019-06-24 15:23:27]  DESC Categoria
+[2019-06-24 15:23:27]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:28:30]  DESC Producto
+[2019-06-24 15:28:30]  DESC Categoria
+[2019-06-24 15:29:05]  DESC Publicacion
+[2019-06-24 15:29:05]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-24 15:29:05]  DESC Producto
+[2019-06-24 15:29:05]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-24 15:29:05]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-24 15:29:08]  DESC Producto
+[2019-06-24 15:29:08]  DESC Publicacion
+[2019-06-24 15:29:08]  DESC Categoria
+[2019-06-24 15:29:08]  DESC Imagen
+[2019-06-24 15:29:08]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:29:08]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 15:29:08]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 15:29:08]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 15:29:11]  DESC Producto
+[2019-06-24 15:29:11]  DESC Categoria
+[2019-06-24 15:29:39]  DESC Publicacion
+[2019-06-24 15:29:39]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-24 15:29:39]  DESC Producto
+[2019-06-24 15:29:39]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-24 15:29:39]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-24 15:29:41]  DESC Producto
+[2019-06-24 15:29:41]  DESC Publicacion
+[2019-06-24 15:29:41]  DESC Categoria
+[2019-06-24 15:29:41]  DESC Imagen
+[2019-06-24 15:29:41]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:29:41]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 15:29:41]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 15:29:41]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 15:30:20]  DESC Producto
+[2019-06-24 15:30:20]  DESC Publicacion
+[2019-06-24 15:30:20]  DESC Categoria
+[2019-06-24 15:30:20]  DESC Imagen
+[2019-06-24 15:30:20]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:30:20]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 15:30:21]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 15:30:21]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 15:30:25]  DESC Producto
+[2019-06-24 15:30:25]  DESC Categoria
+[2019-06-24 15:30:25]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:30:25]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:31:53]  DESC Producto
+[2019-06-24 15:31:54]  DESC Categoria
+[2019-06-24 15:31:54]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:31:54]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:32:55]  DESC Producto
+[2019-06-24 15:32:55]  DESC Categoria
+[2019-06-24 15:32:55]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:32:55]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:33:53]  DESC Producto
+[2019-06-24 15:33:53]  DESC Categoria
+[2019-06-24 15:33:53]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:33:53]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:34:00]  DESC Producto
+[2019-06-24 15:34:00]  DESC Categoria
+[2019-06-24 15:34:00]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:34:00]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:35:27]  DESC Producto
+[2019-06-24 15:35:27]  DESC Categoria
+[2019-06-24 15:35:27]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:35:27]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:35:36]  DESC Publicacion
+[2019-06-24 15:35:37]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-24 15:35:37]  DESC Producto
+[2019-06-24 15:35:37]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-24 15:35:37]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-24 15:35:39]  DESC Producto
+[2019-06-24 15:35:39]  DESC Publicacion
+[2019-06-24 15:35:39]  DESC Categoria
+[2019-06-24 15:35:39]  DESC Imagen
+[2019-06-24 15:35:39]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:35:39]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 15:35:39]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 15:35:39]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 15:35:42]  DESC Producto
+[2019-06-24 15:35:42]  DESC Categoria
+[2019-06-24 15:35:42]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:35:42]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:36:07]  DESC Producto
+[2019-06-24 15:36:07]  DESC Categoria
+[2019-06-24 15:36:07]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:36:07]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:36:44]  DESC Producto
+[2019-06-24 15:36:45]  DESC Categoria
+[2019-06-24 15:36:45]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:36:45]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:38:25]  DESC Publicacion
+[2019-06-24 15:38:25]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-24 15:38:25]  DESC Producto
+[2019-06-24 15:38:25]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-24 15:38:25]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-24 15:38:27]  DESC Publicacion
+[2019-06-24 15:38:27]  select * from Publicacion  where id_user=4 limit 0, 10
+[2019-06-24 15:38:27]  DESC Producto
+[2019-06-24 15:38:28]  select * from Producto  where idProducto=112 limit 0, 10
+[2019-06-24 15:38:28]  select * from Producto  where idProducto=113 limit 0, 10
+[2019-06-24 15:38:29]  DESC Producto
+[2019-06-24 15:38:29]  DESC Publicacion
+[2019-06-24 15:38:30]  DESC Categoria
+[2019-06-24 15:38:30]  DESC Imagen
+[2019-06-24 15:38:30]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:38:30]  select * from Publicacion  where id=32 limit 0, 1
+[2019-06-24 15:38:30]  select * from Categoria  where IdCategoria='5' limit 0, 1
+[2019-06-24 15:38:30]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-06-24 15:38:35]  DESC Producto
+[2019-06-24 15:38:35]  DESC Categoria
+[2019-06-24 15:38:36]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:38:36]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:43:27]  DESC Producto
+[2019-06-24 15:43:28]  DESC Categoria
+[2019-06-24 15:43:28]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:43:28]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:44:51]  DESC Producto
+[2019-06-24 15:44:51]  DESC Categoria
+[2019-06-24 15:44:51]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:44:51]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:45:51]  DESC Producto
+[2019-06-24 15:45:52]  DESC Categoria
+[2019-06-24 15:45:52]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:45:52]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-06-24 15:47:46]  DESC Producto
+[2019-06-24 15:47:46]  DESC Categoria
+[2019-06-24 15:47:47]  select * from Producto  where idProducto=112 limit 0, 1
+[2019-06-24 15:47:47]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
