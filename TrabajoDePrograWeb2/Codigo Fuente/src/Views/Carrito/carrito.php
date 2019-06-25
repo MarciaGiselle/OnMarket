@@ -68,7 +68,7 @@ if (isset($_SESSION["logueado"])) {
 
         ?>
 
-        <table>
+        </table>
 
             <form action="<?php echo getBaseAddress() . 'Compra/ingresarTarjeta' ?>" method="POST">
                 <input type='hidden' name='total' value='<?php echo $total; ?>'/>
