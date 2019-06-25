@@ -40,7 +40,7 @@ class Publicacion extends Model
 
     public function  traePublicaionesPorIdUser($idUser){
 
-          $resultado=$this->pageRows(0,10, "id_user=$idUser");
+          $resultado=$this->pageRows(1,100, "id_user=$idUser");
 
           return $resultado;
 

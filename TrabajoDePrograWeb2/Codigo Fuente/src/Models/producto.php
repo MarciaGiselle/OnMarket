@@ -23,17 +23,27 @@ class Producto extends Model
        return $this->getIdProducto();
     }
 
-    public function modificarProducto(){
+    function modificarProducto(){
         $array=[
+            "idProducto"=> $this->getIdProducto(),
             "nombre"=> $this->getNombre(),
             "descripcion"=>$this->getDescripcion(),
             "cantidad"=>$this->getCantidad(),
             "precio"=>$this->getPrecio(),
             "idCategoria"=>$this->getIdCategoria(),
-
         ] ;
-        $this->setIdProducto($this->update($array));
-        return $this->getIdProducto();
+
+
+        $sql="UPDATE producto SET nombre='$this->nombre', descripcion='$this->descripcion', cantidad='$this->cantidad',
+                precio='$this->precio' WHERE idProducto='$this->idProducto'";
+
+        if ($this->db->query($sql)) {
+            return true;
+        }else{
+            return false;
+        }
+        //return $this->update($array);
+
     }
 
 
@@ -58,7 +68,7 @@ class Producto extends Model
     }
 
     function filasPorPk($pk){
-        $resultado=$this->pageRows(0,10, "idProducto=$pk");
+        $resultado=$this->pageRows(0,100, "idProducto=$pk");
       //$resultado=$this->selectByPk($pk);
         return $resultado;
     }

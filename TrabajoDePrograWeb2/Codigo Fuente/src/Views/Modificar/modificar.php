@@ -111,14 +111,14 @@
 
 
                     <div class="row">
-                       <h2>Preguntar si quiere o no modifcar la foto</h2>
+                       <h2>Preguntar si quiere o no modificar la foto</h2>
                     </div>
 
                     <br>
                     <hr>
 
             </div>
-            <input type="hidden"  value="<?php echo $producto["idProducto"] ?>" name="id" >
+            <input type="hidden"  value="<?php echo $producto["idProducto"] ?>" name="idProducto" >
 
 
                 <input type="submit"  value="confirmar cambios" class="btn primary"  >

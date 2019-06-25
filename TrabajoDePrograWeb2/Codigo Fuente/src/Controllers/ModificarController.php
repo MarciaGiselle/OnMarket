@@ -29,10 +29,10 @@ class ModificarController extends Controller
     function realizarCambios($datos){
         $producto = new Producto();
         $categoria = new Categoria();
-        $obtenerProducto=$producto->buscarUnProductoPorPk($datos["id"]);
-        $idProducto=$obtenerProducto["idProducto"];
 
-        $producto->setIdProducto( $idProducto);
+
+        $producto->setIdProducto($datos["idProducto"]);
+
         $error=0;
         //conceptos generales
         if (FuncionesComunes::validarCadena($datos["nombre"])) {
@@ -63,55 +63,15 @@ class ModificarController extends Controller
                 $producto->setIdCategoria($idCategoria);
             }
         }
+        echo "id: ".$producto->getIdProducto()."<br>nombre:".$producto->getNombre()."<br>";
+            $sql=$producto->ModificarProducto();
+if ($sql != false){
+    echo "cambios realizados";
+}
+        //$this->modificarPublicacion($datos, $idProducto);
 
-
-        //imagenes
-        /*$countfiles = count($_FILES["imagen"]["name"]);
-        if ($countfiles >= 2 || $countfiles > 10) {
-            for ($i = 0; $countfiles > $i; $i++) {
-                $arrayImagenes[$i] = $_FILES['imagen']['name'][$i];
-            }
-        }else{
-            $error.=1;
-        }
-
-        if($error>0){
-            $mensaje="carga incorrecta";
-            echo "<script> alert('$mensaje') </script>";
-        }else{*/
-         var_dump($producto);
-            $idProducto = $producto->ModificarProducto();
-           // $this->insertarImagenes($arrayImagenes, $idProducto);
-           // $this->guardarImagenes($publicacion, $countfiles);
-           $this->modificarPublicacion($datos, $idProducto);
-        /*}*/
     }
 
-    /* function insertarImagenes($arrayImagenes, $idProducto)
-     {
-         foreach ($arrayImagenes as $imagen) {
-             $imagenNueva = new Imagen();
-             $imagenNueva->setNombre($imagen);
-             $imagenNueva->setIdProducto($idProducto);
-             $imagenNueva->insertarImagen();
-         }
-     }
-
-     function guardarImagenes($publicacion, $countfiles)
-     {
-         for ($i = 0; $countfiles > $i; $i++) {
-             $archivo = $_FILES["imagen"]['name'][$i];
-             $tmpName = $_FILES['imagen']['tmp_name'][$i];
-             var_dump($_FILES);
-             // $prefijo = substr(md5(uniqid(rand())),0,6);
-
-             if ($archivo != "") {
-                 // guardamos el archivo a la carpeta files
-                 $destino = $publicacion['destino'] . "/" . $archivo;
-                 copy($tmpName, $destino);
-             }
-         }
-     }*/
     function modificarPublicacion($datos, $idProducto)
     {
         $publicar = new Publicacion();
