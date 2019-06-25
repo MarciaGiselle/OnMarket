@@ -23,6 +23,19 @@ class Producto extends Model
        return $this->getIdProducto();
     }
 
+    public function modificarProducto(){
+        $array=[
+            "nombre"=> $this->getNombre(),
+            "descripcion"=>$this->getDescripcion(),
+            "cantidad"=>$this->getCantidad(),
+            "precio"=>$this->getPrecio(),
+            "idCategoria"=>$this->getIdCategoria(),
+
+        ] ;
+        $this->setIdProducto($this->update($array));
+        return $this->getIdProducto();
+    }
+
 
     function validarFormatos(){
         //validacion de formatos

@@ -18,6 +18,15 @@ class Categoria extends Model
      }
     }
 
+    function obtenerValorDeGategoria($idCtageoria){
+        $res=$this->pageRows(0,1, "IdCategoria='$idCtageoria'");
+        if(!empty($res[0])) {
+            $respuesta = $res[0];
+            $id = $respuesta["nombreCategoria"];
+            return $id;
+        }
+    }
+
 
     /**
      * @return mixed

@@ -24,8 +24,39 @@ class Publicacion extends Model
         return $this->getIdPublicacion();
     }
 
+    public function modificarPublicacion(){
+        $array=[
+            "fecha"=> $this->getFecha(),
+            "titulo"=>$this->getTitulo(),
+            "id_user"=>$this->getId_user(),
+            "id_Producto"=>$this->getId_Producto(),
+             // "pk"=>$this->getIdPublicacion()
+        ];
+
+        $this->setIdPublicacion($this->update($array));
+        return $this->getIdPublicacion();
+    }
 
 
+    public function  traePublicaionesPorIdUser($idUser){
+
+          $resultado=$this->pageRows(0,10, "id_user=$idUser");
+
+          return $resultado;
+
+
+  }
+
+
+
+    public function  traePublicaionPorId($idUser){
+
+        $resultado=$this->pageRows(0,1, "id=$idUser");
+
+        return $resultado;
+
+
+    }
     /**
      * @return mixed
      */

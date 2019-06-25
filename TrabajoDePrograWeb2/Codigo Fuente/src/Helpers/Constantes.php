@@ -19,6 +19,8 @@ abstract class Constantes
     const CARRITOVIEW = "carrito";
     const NAVLOGUEADOVIEW = "navLogueado";
     const NAVNOLOGUEADOVIEW = "navNoLogueado";
+    const PUBLICACIONESVIEW="mispublicaciones";
+    const MODIFICARPUBLICACIONESVIEW="modificar";
 
 
 
