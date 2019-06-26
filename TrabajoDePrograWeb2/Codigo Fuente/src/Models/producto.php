@@ -34,15 +34,15 @@ class Producto extends Model
         ] ;
 
 
-        $sql="UPDATE producto SET nombre='$this->nombre', descripcion='$this->descripcion', cantidad='$this->cantidad',
-                precio='$this->precio' WHERE idProducto='$this->idProducto'";
+        $sql="UPDATE producto SET nombre='$this->nombre', descripcion='$this->descripcion', cantidad='$this->cantidad', precio='$this->precio' WHERE idProducto='$this->idProducto'";
 
         if ($this->db->query($sql)) {
             return true;
         }else{
             return false;
         }
-        //return $this->update($array);
+
+       // return $this->update($array);
 
     }
 

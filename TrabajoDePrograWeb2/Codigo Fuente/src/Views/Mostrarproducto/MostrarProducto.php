@@ -52,11 +52,37 @@ if(isset($_SESSION["logueado"])){
 
 
             <input type="hidden" name="id" id="id" value="<?php echo $resultado["idProducto"]; ?>">
-
-
         </div>
     </div>
 </div>
+
+<div class="container mt-5">
+<?php
+    $tope="";
+    if(count($productosRelacionados)>5){
+        $tope=5;
+    }else{
+        $tope=count($productosRelacionados);
+    }
+echo '<div class="card-group">';
+    for($i = 0; $i <$tope; $i++){
+
+     echo'   <div class="card">
+    <img class="card-img-top" src="../Webroot/imgCargadas/'.$productosRelacionados[$i]["imagen"][0]["nombre"].'" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">'.$productosRelacionados[$i]["prod"][0]["nombre"].'</h5>
+      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    </div>
+  </div>';
+     
+    }
+  
+
+?>
+
+</div>
+
 
 </body>
 <script src="<?php echo getBaseAddress() . "Webroot/js/agregarAlCarrito.js" ?>"></script>

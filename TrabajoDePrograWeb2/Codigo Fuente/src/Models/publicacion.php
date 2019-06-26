@@ -3,7 +3,7 @@
 
 class Publicacion extends Model
 {
-    private $idPublicacion;
+    private $id;
     private $titulo;
     private $duracion;
     private $fecha;
@@ -16,25 +16,23 @@ class Publicacion extends Model
          "fecha"=> $this->getFecha(),
          "titulo"=>$this->getTitulo(),
          "id_user"=>$this->getId_user(),
-            "id_Producto"=>$this->getId_Producto()
+        "id_Producto"=>$this->getId_Producto()
 
         ];
 
-        $this->setIdPublicacion($this->insert($array));
-        return $this->getIdPublicacion();
+        $this->setId($this->insert($array));
+        return $this->getId();
     }
 
     public function modificarPublicacion(){
         $array=[
+            "id"=> $this->getId(),
             "fecha"=> $this->getFecha(),
-            "titulo"=>$this->getTitulo(),
-            "id_user"=>$this->getId_user(),
-            "id_Producto"=>$this->getId_Producto(),
-             // "pk"=>$this->getIdPublicacion()
+            "titulo"=>$this->getTitulo(),            
         ];
 
-        $this->setIdPublicacion($this->update($array));
-        return $this->getIdPublicacion();
+       
+        return $this->update($array);
     }
 
 
@@ -60,17 +58,17 @@ class Publicacion extends Model
     /**
      * @return mixed
      */
-    public function getIdPublicacion()
+    public function getId()
     {
-        return $this->idPublicacion;
+        return $this->id;
     }
 
     /**
      * @param mixed $idPublicacion
      */
-    public function setIdPublicacion($idPublicacion)
+    public function setId($idPublicacion)
     {
-        $this->idPublicacion = $idPublicacion;
+        $this->id = $idPublicacion;
     }
 
     /**

@@ -19,8 +19,8 @@ class ModificarController extends Controller
         $d["producto"] =  $productoAmostrar;
         $d["imagenes"] =  $imagenesAmostrar;
         $d["categoria"] =  $categoriaAmostrar;
+        
         $this->set($d);
-
         $this->render(Constantes::MODIFICARPUBLICACIONESVIEW);
 
 
@@ -65,10 +65,11 @@ class ModificarController extends Controller
         }
         echo "id: ".$producto->getIdProducto()."<br>nombre:".$producto->getNombre()."<br>";
             $sql=$producto->ModificarProducto();
-if ($sql != false){
-    echo "cambios realizados";
-}
-        //$this->modificarPublicacion($datos, $idProducto);
+      
+        if ($sql != false){
+         echo "cambios realizados";
+         }
+        $this->modificarPublicacion($datos, $datos["idProducto"]);
 
     }
 
@@ -83,21 +84,20 @@ if ($sql != false){
         } else {
             $validacion = false;
         }
-        if (!empty($publicacion["envio"])) {
+      /*  if (!empty($publicacion["envio"])) {
             $entrega = $publicacion["envio"];
             $entregaPubli = new formaentrega();
            // $idEntrega = $entregaPubli->obtenerIdMetodoEntrega($entrega);
         } else {
             $validacion = false;
-        }
+        }*/
         if ($validacion) {
             $fecha_actual = date("y-m-d");
             $publicar->setFecha($fecha_actual);
-            $publicar->setId_user($_SESSION["idUser"]);
-            $publicar->setId_Producto($idProducto);
             $publicacion_Entrega = new Publicacion_Entrega();
+            $publicar->setId($datos["idPublicacion"]);
             $idPublicacion = $publicar->modificarPublicacion();
-            $publicacion_Entrega->setIdPublicacion($idPublicacion);
+            //$publicacion_Entrega->setIdPublicacion($idPublicacion);
 
           //  for ($i = 0; $i < (count($idEntrega)); $i++) {
             //    $publicacion_Entrega->setIdEntrega($idEntrega[$i]);

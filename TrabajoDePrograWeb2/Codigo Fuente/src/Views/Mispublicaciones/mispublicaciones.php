@@ -8,7 +8,9 @@
         <td scope="col">precio</td>
         <td scope="col">cantidad</td>
         <td scope="col">descripcion</td>
-        <td scope="col"></td>
+        <td scope="col">id</td>
+
+
 
     <tr>
     </thead>
@@ -18,8 +20,8 @@
         <?php
         $total = 0;
         $tope = count($publicaciones);
-        echo $tope;
-        for ($i = 0; $i <= $tope; $i++) {
+        
+        for ($i = 0; $i <$tope; $i++) {
             $titulo = $publicaciones[$i]["titulo"];
             $idPublicacion= $publicaciones[$i]["id"];
             $nombreProducto = $productos[$i][0]["nombre"];
@@ -36,6 +38,8 @@
                 <td> ' . $precio . '</td>
                 <td>' . $cantidad . ' </td>
                 <td>' . $descripcion . ' </td>
+                <td>' . $idPublicacion . ' </td>
+
                 <td> 
                 
             <form action="' . getBaseAddress() . 'Modificar/modificar' . '" method="POST">

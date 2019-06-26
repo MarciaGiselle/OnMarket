@@ -78,8 +78,8 @@
 
             <div class="form-group col-md-12">
                 <label class="text-primary">Describí tu producto*</label>
-                <textarea class="form-control"  rows="3" value="<?php echo $producto["descripcion"] ?>" name="descripcion" id="descripcion"
-                          placeholder="Aprovechá para contar otros detalles de tu producto. Ordenalos en forma de lista para que sea más fácil de leer."></textarea>
+                <textarea class="form-control"  rows="3"  name="descripcion" id="descripcion"
+                          placeholder="Aprovechá para contar otros detalles de tu producto. Ordenalos en forma de lista para que sea más fácil de leer."><?php echo $producto["descripcion"] ?></textarea>
                 <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="eerorDescripcion">
                     <i class="fa fa-exclamation-circle error"></i>
                     <small class="text-left"></small>
@@ -119,7 +119,8 @@
 
             </div>
             <input type="hidden"  value="<?php echo $producto["idProducto"] ?>" name="idProducto" >
-
+            <label>ID</label>
+            <input type="text"  value="<?php echo $publicacion["0"]["id"] ?>" name="idPublicacion" >
 
                 <input type="submit"  value="confirmar cambios" class="btn primary"  >
 
