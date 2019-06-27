@@ -26,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Views/Mostrarproducto/MostrarProducto.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="174">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -35,7 +35,7 @@
         <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/imagen.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
-              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -267,17 +267,18 @@
       <workItem from="1560862441218" duration="1918000" />
       <workItem from="1561230971086" duration="63000" />
       <workItem from="1561231100580" duration="7681000" />
+      <workItem from="1561575916020" duration="281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26861000" />
+    <option name="totallyTimeSpent" value="27142000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1107" height="589" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2702961" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27602676" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -394,13 +395,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Views/Tarjeta/compra.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Views/Tarjeta/compra.php" />
     <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Helpers/Constantes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -497,24 +492,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/Imagick.php">
+    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/Imagick.php" />
+    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Views/Mostrarproducto/MostrarProducto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="20" lean-forward="true" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
+        <state relative-caret-position="174">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/imagen.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Views/Mostrarproducto/MostrarProducto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
         </state>
       </provider>
     </entry>

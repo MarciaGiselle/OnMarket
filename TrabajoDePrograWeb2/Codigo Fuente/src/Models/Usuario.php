@@ -28,6 +28,17 @@ class Usuario extends Model
         return false;
     }
     }
+
+    public function buscarRolDelUsuario($id){
+        $resultado=$this->pageRows(0,1,"id='$id'");
+        if (!empty($resultado)){
+            $respuesta=$resultado[0];
+            $rol=$respuesta["rol"];
+            return $rol;
+        }else{
+            return false;
+        }
+    }
     public  function consultarLogin(){
         $error=0;
         $mensaje="";
@@ -88,6 +99,34 @@ class Usuario extends Model
           return false;
       }
 }
+  function traerUserPorPk($pk){
+      $res=$this->pageRows(0,1, "id='$pk'");
+      if(!empty($res[0])){
+          return $res[0];
+      }else{
+          return false;
+      }
+
+  }
+  function bloquearUsuario($pk){
+    $array=[
+        "id"=> $pk,
+        "estado"=>0,
+    ];
+
+
+    return $this->update($array);
+}
+
+    function desbloquearUsuario($pk){
+        $array=[
+            "id"=> $pk,
+            "estado"=>1,
+        ];
+
+
+        return $this->update($array);
+    }
 
   function validarFormatos($terminosYcondiciones){
 
@@ -137,7 +176,33 @@ class Usuario extends Model
 
     }
 
- //para el registrar
+    public function consultarEstadoDelUsuario($pk){
+        $resultado=$this->pageRows(0,1,"id='$pk'");
+        if (!empty($resultado)){
+            $respuesta=$resultado[0];
+            $estado=$respuesta["estado"];
+            return $estado;
+        }else{
+            return false;
+        }
+    }
+
+  public function traerTodosLosUsuarios(){
+
+      $res=$this->pageRows(0,100);
+      if(!empty($res[0])){
+          $array=[];
+          for($i=0 ;$i< count($res);$i++) {
+               $id = $res[$i]["id"];
+               $id_admin=$_SESSION["logueado"];
+               if($id!==$id_admin){
+               array_push($array,$res[$i] );
+          }}
+          return $array;
+      }else{
+          return false;
+      }
+  }
 
     /**
      *

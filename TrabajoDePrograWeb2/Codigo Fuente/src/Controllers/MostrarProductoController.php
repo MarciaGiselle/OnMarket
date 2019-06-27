@@ -10,7 +10,10 @@ class MostrarProductoController extends Controller
 {
     function verProducto($datos)
     {
+        //error en linea 13
             $id=$datos["idProducto"];
+
+            echo $id;
 
             $producto = new Producto();
             $prodEncontrado= $producto->buscarUnProductoPorPk($id);
@@ -58,7 +61,7 @@ class MostrarProductoController extends Controller
             $producto=$productosEncontrados[$i];
             $imagen=$imagenesEncontradas[$i];
 
-            if($producto[0]["idProducto"]!==$id){
+            if($producto[0]["id"]!==$id){
                 $arrayProducto=[
                 "prod"=>$producto,
                 "imagen"=>$imagen];

@@ -13,7 +13,7 @@ class ModificarController extends Controller
         $productoAmostrar=$producto->buscarUnProductoPorPk($datos["idProducto"]);
         $publicacionAmostrar=$publicacion->traePublicaionPorId($datos["idPublicacion"]);
         $categoriaAmostrar=$categoria->obtenerValorDeGategoria($productoAmostrar["idCategoria"]);
-        $imagenesAmostrar= $imagenes->imagenPk($productoAmostrar["idProducto"]);
+        $imagenesAmostrar= $imagenes->imagenPk($productoAmostrar["id"]);
 
         $d["publicacion"] =  $publicacionAmostrar;
         $d["producto"] =  $productoAmostrar;
@@ -31,7 +31,7 @@ class ModificarController extends Controller
         $categoria = new Categoria();
 
 
-        $producto->setIdProducto($datos["idProducto"]);
+        $producto->setId($datos["idProducto"]);
 
         $error=0;
         //conceptos generales
@@ -63,7 +63,7 @@ class ModificarController extends Controller
                 $producto->setIdCategoria($idCategoria);
             }
         }
-        echo "id: ".$producto->getIdProducto()."<br>nombre:".$producto->getNombre()."<br>";
+        echo "id: ".$producto->getId()."<br>nombre:".$producto->getNombre()."<br>";
             $sql=$producto->ModificarProducto();
       
         if ($sql != false){

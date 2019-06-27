@@ -17,6 +17,7 @@ if(isset($_SESSION["logueado"])){
 ?>
 <!-- Buscador-->
 <br>
+
 <div class="container">
     <h3 class="text-primary text-center mt-3">Qué estás buscando?</h3>
 

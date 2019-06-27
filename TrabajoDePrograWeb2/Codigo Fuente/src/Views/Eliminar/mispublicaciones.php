@@ -1,14 +1,4 @@
 <body>
-
-<?php
-
-if(isset($_SESSION["logueado"])){
-
-    include_once ("navLogueado.php") ;
-}else{
-    include_once ("navNoLogueado.php");
-}
-?>
 <table class=" table table-hover text-center mt-4">
     <thead>
     <tr class="font-weight-bold">

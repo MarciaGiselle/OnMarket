@@ -31,14 +31,22 @@ class UsuarioController extends Controller
 
             if (!empty($idUsuario)) {
                 $_SESSION["logueado"] = $idUsuario;
-                $d["title"] = "MiCuenta";
+                $user=new Usuario();
+
+               $estado=$user->consultarEstadoDelUsuario($_SESSION["logueado"]);
+
+               if($estado==1){
+                   $rol= $user->buscarRolDelUsuario($_SESSION["logueado"]);
+               }else{
+                   throw new NombreOPassInvalidoException("su usuario esta bloqueado ",CodigoError::NombreOPassInvalidoException);
+               }
 
             }else{
 
                throw new NombreOPassInvalidoException("Nombre o password incorrectos",CodigoError::NombreOPassInvalidoException);
             }
 
-        echo json_encode(true);
+        echo json_encode($rol);
     }
 }
 
@@ -54,7 +62,15 @@ class UsuarioController extends Controller
 
     function mostrarInicio()
     {
-        $d["title"] = "Index";
+        $d["title"] = "Mi Cuenta";
+        $this->set($d);
+        $this->render(Constantes::USUARIOVIEW);
+
+    }
+
+    function admin()
+    {
+        $d["title"] = "Cuenta Admin";
         $this->set($d);
         $this->render(Constantes::USUARIOVIEW);
 

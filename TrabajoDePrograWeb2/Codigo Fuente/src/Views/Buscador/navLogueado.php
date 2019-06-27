@@ -7,13 +7,13 @@
 <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
     <ul class="navbar-nav mr-2 mt-2 mt-lg-0">
         <li class="nav-item ">
-            <a class="nav-link active" href="#">Inicio<span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="<?php echo getBaseAddress() . "Usuario/mostrarInicio" ?>">Inicio<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-            <a class="nav-link disabled" href="#">Historial</a>
+            <a class="nav-link active" href="<?php echo getBaseAddress() . "PerfilesDeUsuarios/usuarios" ?>">Usuarios</a>
         </li>
         <li class="nav-item ">
-            <a class="nav-link disabled" href= "#">Publicar</a>
+            <a class="nav-link active" href= "<?php echo getBaseAddress() . "Producto/publicar" ?>">Publicar</a>
     </ul>
 
     <!--boton busqueda -->

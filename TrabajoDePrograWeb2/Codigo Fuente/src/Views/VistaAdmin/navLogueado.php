@@ -12,6 +12,11 @@
         <li class="nav-item">
             <a class="nav-link active" href="<?php echo getBaseAddress() . "MisPublicaciones/publicaciones" ?>">Historial</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="<?php echo getBaseAddress() . "PerfilesDeUsuarios/usuarios" ?>">perfiles</a>
+        </li>
+
+
         <li class="nav-item ">
             <a class="nav-link active" href= "<?php echo getBaseAddress() . "Producto/publicar" ?>">Publicar</a>
     </ul>

@@ -34,11 +34,13 @@ class Publicacion extends Model
        
         return $this->update($array);
     }
-
+    function eliminar($pk){
+        return  $this->delete($pk);
+    }
 
     public function  traePublicaionesPorIdUser($idUser){
 
-          $resultado=$this->pageRows(1,100, "id_user=$idUser");
+          $resultado=$this->pageRows(0,100, "id_user=$idUser");
 
           return $resultado;
 
@@ -66,9 +68,9 @@ class Publicacion extends Model
     /**
      * @param mixed $idPublicacion
      */
-    public function setId($idPublicacion)
+    public function setId($id)
     {
-        $this->id = $idPublicacion;
+        $this->id = $id;
     }
 
     /**

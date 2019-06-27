@@ -59,8 +59,16 @@ ingresar.click(function () {
     }
 });
 
-function loginExitoso(dummy) {
-   window.location.href = pathHome;
+function loginExitoso($rol) {
+   // $rol=1;
+    if($rol===2){
+        alert("comun");
+        window.location.href = pathHome;
+    }else{
+        alert("admin");
+        window.location.href = pathAdmin;
+    }
+
 }
 
 function loginFallido(err) {

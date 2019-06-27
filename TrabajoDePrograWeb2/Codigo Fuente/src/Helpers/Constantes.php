@@ -22,7 +22,11 @@ abstract class Constantes
     const PUBLICACIONESVIEW="mispublicaciones";
     const MODIFICARPUBLICACIONESVIEW="modificar";
 
+    const ELIMINARPUBLICACIONESVIEW="eliminarProducto";
 
+    const PERFILESVIEW="perfiles";
+    const BLOQUEARWIEW="bloquear";
+    const DESBLOQUEARWIEW="desbloquear";
 
 
     const INICIOVIEW = "inicio";

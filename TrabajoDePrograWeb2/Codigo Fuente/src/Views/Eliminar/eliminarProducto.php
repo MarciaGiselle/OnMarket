@@ -13,7 +13,7 @@ if(isset($_SESSION["logueado"])){
 <br>
 <div class="container">
     <h3 class="text-primary">Modificar publicación</h3>
-    <form  action="<?php echo getBaseAddress(). "Modificar/realizarCambios" ?>" method="post" enctype="multipart/form-data">
+    <form  action="<?php echo getBaseAddress(). "Eliminar/confirmarEliminacion" ?>" method="post" enctype="multipart/form-data">
 
         <div class="form-group col-md-12">
             <label class="text-primary">Indicá un título para tu publicación*</label>
@@ -109,19 +109,20 @@ if(isset($_SESSION["logueado"])){
                 <br>
 
 
-                    <div class="row">
-                       <h2>Preguntar si quiere o no modificar la foto</h2>
-                    </div>
+                <div class="row">
+                    <h2>Preguntar si quiere o no modificar la foto</h2>
+                </div>
 
-                    <br>
-                    <hr>
+                <br>
+                <hr>
 
             </div>
-            <input type="hidden"  value="<?php echo $producto["id"] ?>" name="idProducto" >
-            <label>ID</label>
-            <input type="text"  value="<?php echo $publicacion["0"]["id"] ?>" name="idPublicacion" >
+            <h2>¿Seguro que desea eliminar esta publicacion ?</h2><br>
+            <input type="hidden"  value="<?php echo $producto["id"] ?>" name="idProducto" ><br>
 
-                <input type="submit"  value="confirmar cambios" class="btn primary"  >
+            <input type="hidden"  value="<?php echo $publicacion["0"]["id"] ?>" name="idPublicacion" >
+
+            <input type="submit"  value="Eliminar" class="btn primary"  >
 
 
             <a href="<?php echo getBaseAddress(). "MisPublicaciones/publicaciones" ?>">
