@@ -49,7 +49,7 @@ if (isset($_SESSION["logueado"])) {
 
             <div class="btn btn-primary btn-lg btn-block">
 
-                <input type="submit" value="Confirmar datos" class="btn btn-primary" id="confirmar">
+                <input type="submit" value="Finalizar compra" class="btn btn-primary" id="confirmar">
 
             </div>
 
