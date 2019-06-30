@@ -2,7 +2,7 @@
     const pathHome = "<?php echo getBaseAddress(). "Usuario/mostrarInicio" ; ?>";
     const pathLoguear = "<?php echo getBaseAddress() .  "Usuario/login" ; ?>";
     const pathBuscar = "<?php echo getBaseAddress() .  "Index/buscarProducto" ; ?>";
-    const pathAdmin = "<?php echo getBaseAddress(). "Usuario/admin" ; ?>";
+    const pathAdmin = "<?php echo getBaseAddress(). "VistaAdmin/admin" ; ?>";
 </script>
 
 <body>
