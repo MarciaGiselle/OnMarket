@@ -68,15 +68,7 @@ class UsuarioController extends Controller
 
     }
 
-    function admin()
-    {
-        $d["title"] = "Cuenta Admin";
-        $this->set($d);
 
-        //CREO Q ESTA YENDO SIEMPRE A LA MISMA VISTA
-        $this->render(Constantes::USUARIOVIEW);
-
-    }
 
 
     function realizarCompra($datos){
