@@ -19,6 +19,7 @@ function eliminacionExitosa(){
 
     }, 3000);
 
+
 }
 
 function eliminacionFallida(err){

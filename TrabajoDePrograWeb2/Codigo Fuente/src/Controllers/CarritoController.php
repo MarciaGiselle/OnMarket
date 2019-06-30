@@ -12,10 +12,9 @@ class CarritoController extends Controller
     {
         $d["title"] = "Mi carrito";
 
+        if ((isset($_SESSION["carrito"])) || (count($_SESSION["carrito"])>0)) {
 
-        if (!isset($_SESSION["carrito"])) {
-            echo "No ha cargado ningún producto al carrito";
-        } else {
+            $d["mensaje"]=  " " ;
             $productoABuscar = new Producto();
             $productosEncontrados = [];
             $cantidades = [];
@@ -40,8 +39,8 @@ class CarritoController extends Controller
             $d["listaProductos"] = $arrayCarritoProducto;
             $this->set($d);
 
-            $this->render(Constantes::CARRITOVIEW);
         }
+        $this->render(Constantes::CARRITOVIEW);
     }
 
     function agregarAlCarrito($idProducto)
