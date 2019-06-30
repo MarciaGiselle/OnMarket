@@ -51,7 +51,7 @@ if(isset($_SESSION["logueado"])){
             </div>
 
 
-            <input type="hidden" name="id" id="id" value="<?php echo $resultado["idProducto"]; ?>">
+            <input type="hidden" name="id" id="id" value="<?php echo $resultado["id"]; ?>">
         </div>
     </div>
 </div>
