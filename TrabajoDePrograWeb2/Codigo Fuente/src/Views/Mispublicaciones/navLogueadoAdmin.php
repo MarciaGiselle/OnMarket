@@ -9,10 +9,10 @@
         <li class="nav-item ">
             <a class="nav-link active" href="<?php echo getBaseAddress() . "VistaAdmin/admin" ?>">Inicio<span class="sr-only">(current)</span></a>
         </li>
-
         <li class="nav-item">
             <a class="nav-link active" href="<?php echo getBaseAddress() . "PerfilesDeUsuarios/usuarios" ?>">Perfiles</a>
         </li>
+
 
 
 
@@ -23,6 +23,7 @@
         <input type="submit" value="Realizar una búsqueda" class="btn btn-light">
     </form>
 </div>
+
 
 <div class="d-inline-flex mr-2">
     <form method="post" action= "<?php echo getBaseAddress() . "Usuario/cerrarSesion" ?>" >

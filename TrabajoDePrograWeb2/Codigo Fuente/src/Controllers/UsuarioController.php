@@ -36,7 +36,7 @@ class UsuarioController extends Controller
 
                if($estado==1){
                    $rol= $user->buscarRolDelUsuario($_SESSION["logueado"]);
-
+                    if($rol==1){$_SESSION["admin"]=true;}
                }else{
                    throw new NombreOPassInvalidoException("su usuario esta bloqueado ",CodigoError::NombreOPassInvalidoException);
                }

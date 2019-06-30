@@ -3,8 +3,12 @@
 <?php
 
 if(isset($_SESSION["logueado"])){
-
+if(isset($_SESSION["admin"])){
+    include_once ("navLogueadoAdmin.php") ;
+}else{
     include_once ("navLogueado.php") ;
+}
+
 }else{
     include_once ("navNoLogueado.php");
 }

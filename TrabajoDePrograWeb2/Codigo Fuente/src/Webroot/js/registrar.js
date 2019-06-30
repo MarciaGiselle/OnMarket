@@ -171,7 +171,7 @@ function validarCorreo() {
 
 enviar.click(function () {
     // $(".error").fadeOut();
-
+alert("entro al js ");
     var validacion = validarTerminos()&& validarCuit() && validarNombre() && validarApellido() && validarNombreUsuario() &&  validarCorreo()&&  validarSexo()&&  validarPass();
 
     if(validacion) {

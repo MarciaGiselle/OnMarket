@@ -16689,3 +16689,68 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-30 01:48:15]  DESC Producto
 [2019-06-30 01:48:15]  DESC Imagen
 [2019-06-30 01:48:15]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-30 09:53:02]  DESC Usuario
+[2019-06-30 09:53:06]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-30 09:53:07]  DESC Usuario
+[2019-06-30 09:53:07]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 09:53:07]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 09:54:31]  DESC Usuario
+[2019-06-30 09:54:31]  select * from Usuario  where name= 'Axel' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-30 09:54:46]  DESC Usuario
+[2019-06-30 09:54:47]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-30 09:54:47]  DESC Usuario
+[2019-06-30 09:54:47]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 09:54:47]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 10:04:13]  DESC Usuario
+[2019-06-30 10:04:13]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-30 10:04:13]  DESC Usuario
+[2019-06-30 10:04:13]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 10:04:13]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 10:18:59]  DESC Usuario
+[2019-06-30 10:19:00]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-30 10:19:00]  DESC Usuario
+[2019-06-30 10:19:00]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 10:19:00]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 10:20:02]  DESC Usuario
+[2019-06-30 10:20:03]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-30 10:20:03]  DESC Usuario
+[2019-06-30 10:20:03]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 10:20:03]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 10:22:40]  DESC Usuario
+[2019-06-30 10:22:40]  select * from Usuario limit 0, 100
+[2019-06-30 10:22:44]  DESC Publicacion
+[2019-06-30 10:22:45]  select * from Publicacion  where id_user=2 limit 0, 100
+[2019-06-30 10:22:45]  DESC Producto
+[2019-06-30 10:22:48]  DESC Usuario
+[2019-06-30 10:22:48]  select * from Usuario limit 0, 100
+[2019-06-30 10:22:50]  DESC Publicacion
+[2019-06-30 10:22:51]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-06-30 10:22:51]  DESC Producto
+[2019-06-30 10:22:51]  select * from Producto  where id=112 limit 0, 100
+[2019-06-30 10:22:51]  select * from Producto  where id=114 limit 0, 100
+[2019-06-30 10:30:42]  DESC Usuario
+[2019-06-30 10:30:42]  select * from Usuario limit 0, 100
+[2019-06-30 10:31:32]  DESC Usuario
+[2019-06-30 10:31:32]  select * from Usuario  where id='2' limit 0, 1
+[2019-06-30 10:31:34]  DESC Usuario
+[2019-06-30 10:31:34]  UPDATE `Usuario` SET `estado`='0' WHERE `id`=2
+[2019-06-30 10:31:42]  DESC Usuario
+[2019-06-30 10:31:42]  select * from Usuario limit 0, 100
+[2019-06-30 10:39:03]  DESC Usuario
+[2019-06-30 10:39:03]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-30 10:39:03]  DESC Usuario
+[2019-06-30 10:39:03]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 10:39:03]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 10:40:19]  DESC Usuario
+[2019-06-30 10:40:19]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-30 10:40:19]  DESC Usuario
+[2019-06-30 10:40:19]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 10:40:19]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 10:40:22]  DESC Usuario
+[2019-06-30 10:40:23]  select * from Usuario limit 0, 100
+[2019-06-30 10:40:24]  DESC Publicacion
+[2019-06-30 10:40:24]  select * from Publicacion  where id_user=2 limit 0, 100
+[2019-06-30 10:40:24]  DESC Producto
+[2019-06-30 10:41:29]  DESC Publicacion
+[2019-06-30 10:41:29]  select * from Publicacion  where id_user=2 limit 0, 100
+[2019-06-30 10:41:29]  DESC Producto

@@ -7463,3 +7463,23 @@ StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDeProg
 #3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #4 {main}
 
+[2019-06-30 09:54:32]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 46
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 10:39:03]  Excepción no controlada: 'Undefined index: admin' en el archivo UsuarioController.php en la línea 39
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(39): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-30 10:40:25]  Excepción no controlada: 'include_once(navLogueadoAdmin.php): failed to open stream: No such file or directory' en el archivo mispublicaciones.php en la línea 7
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mispublicaciones\mispublicaciones.php(7): globalErrorHandler(2, 'include_once(na...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mispublicaciones\mispublicaciones.php(7): include_once()
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisPublicacionesController.php(54): Controller->render('mispublicacione...')
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisPublicacionesController->verPublicacionesComoAdmin(Array)
+#5 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
