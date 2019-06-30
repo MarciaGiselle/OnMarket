@@ -11,7 +11,6 @@ class UsuarioController extends Controller
 
     function login($usuario)
     {
-
         header("Content-type: application/json");
         $data = json_decode(utf8_decode($usuario['data']));
 
@@ -37,6 +36,7 @@ class UsuarioController extends Controller
 
                if($estado==1){
                    $rol= $user->buscarRolDelUsuario($_SESSION["logueado"]);
+
                }else{
                    throw new NombreOPassInvalidoException("su usuario esta bloqueado ",CodigoError::NombreOPassInvalidoException);
                }
@@ -72,6 +72,8 @@ class UsuarioController extends Controller
     {
         $d["title"] = "Cuenta Admin";
         $this->set($d);
+
+        //CREO Q ESTA YENDO SIEMPRE A LA MISMA VISTA
         $this->render(Constantes::USUARIOVIEW);
 
     }

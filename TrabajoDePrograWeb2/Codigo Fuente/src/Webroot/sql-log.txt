@@ -16575,3 +16575,117 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-26 21:02:49]  DESC Usuario
 [2019-06-26 21:02:49]  select * from Usuario  where id='4' limit 0, 1
 [2019-06-26 21:02:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-29 23:40:02]  DESC Usuario
+[2019-06-29 23:40:02]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-29 23:40:02]  DESC Usuario
+[2019-06-29 23:40:02]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-29 23:40:21]  DESC Usuario
+[2019-06-29 23:40:21]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-29 23:40:21]  DESC Usuario
+[2019-06-29 23:40:21]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:15:12]  DESC Usuario
+[2019-06-30 00:15:12]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-30 00:15:12]  DESC Usuario
+[2019-06-30 00:15:12]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 00:15:42]  DESC Usuario
+[2019-06-30 00:15:42]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-30 00:15:42]  DESC Usuario
+[2019-06-30 00:15:42]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 00:15:42]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 00:20:06]  DESC Usuario
+[2019-06-30 00:20:06]  select * from Usuario  where name= 'Margi' and password='58f0744907ea8bd8e0f51e568f1536289ceb40a5' limit 0, 1
+[2019-06-30 00:20:27]  DESC Usuario
+[2019-06-30 00:20:27]  select * from Usuario  where name= 'mar' and password='58f0744907ea8bd8e0f51e568f1536289ceb40a5' limit 0, 1
+[2019-06-30 00:21:24]  DESC Usuario
+[2019-06-30 00:21:24]  select * from Usuario  where name= 'Marcia' and password='58f0744907ea8bd8e0f51e568f1536289ceb40a5' limit 0, 1
+[2019-06-30 00:21:24]  DESC Usuario
+[2019-06-30 00:21:24]  select * from Usuario  where id='3' limit 0, 1
+[2019-06-30 00:21:24]  select * from Usuario  where id='3' limit 0, 1
+[2019-06-30 00:21:46]  DESC Usuario
+[2019-06-30 00:21:46]  select * from Usuario  where name= 'axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-30 00:21:46]  DESC Usuario
+[2019-06-30 00:21:46]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:21:46]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:29:24]  DESC Usuario
+[2019-06-30 00:29:24]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-30 00:29:24]  DESC Usuario
+[2019-06-30 00:29:24]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 00:29:24]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 00:29:42]  DESC Usuario
+[2019-06-30 00:29:42]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-30 00:29:42]  DESC Usuario
+[2019-06-30 00:29:42]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:29:42]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:30:02]  DESC Usuario
+[2019-06-30 00:30:03]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-30 00:30:03]  DESC Usuario
+[2019-06-30 00:30:03]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 00:30:03]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 00:30:13]  DESC Usuario
+[2019-06-30 00:30:14]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-30 00:30:14]  DESC Usuario
+[2019-06-30 00:30:14]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:30:14]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:31:19]  DESC Usuario
+[2019-06-30 00:31:19]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-30 00:31:19]  DESC Usuario
+[2019-06-30 00:31:19]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:31:19]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:31:31]  DESC Usuario
+[2019-06-30 00:31:31]  select * from Usuario  where name= 'axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-30 00:31:31]  DESC Usuario
+[2019-06-30 00:31:31]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:31:31]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:32:50]  DESC Usuario
+[2019-06-30 00:32:50]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-30 00:32:50]  DESC Usuario
+[2019-06-30 00:32:50]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:32:50]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:33:09]  DESC Usuario
+[2019-06-30 00:33:09]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-30 00:33:09]  DESC Usuario
+[2019-06-30 00:33:09]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:33:09]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:34:48]  DESC Usuario
+[2019-06-30 00:34:48]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-30 00:34:48]  DESC Usuario
+[2019-06-30 00:34:48]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:34:48]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:37:10]  DESC Usuario
+[2019-06-30 00:37:10]  select * from Usuario  where name= 'axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-30 00:37:10]  DESC Usuario
+[2019-06-30 00:37:10]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:37:10]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:37:59]  DESC Usuario
+[2019-06-30 00:37:59]  select * from Usuario  where name= 'axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-30 00:37:59]  DESC Usuario
+[2019-06-30 00:37:59]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:37:59]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:39:04]  DESC Usuario
+[2019-06-30 00:39:04]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-30 00:39:04]  DESC Usuario
+[2019-06-30 00:39:04]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:39:04]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:39:54]  DESC Usuario
+[2019-06-30 00:39:54]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-30 00:39:54]  DESC Usuario
+[2019-06-30 00:39:54]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 00:39:54]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 01:10:08]  DESC Usuario
+[2019-06-30 01:10:08]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-30 01:10:08]  DESC Usuario
+[2019-06-30 01:10:08]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 01:10:08]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 01:14:56]  DESC Usuario
+[2019-06-30 01:14:56]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-30 01:14:56]  DESC Usuario
+[2019-06-30 01:14:56]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 01:14:56]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 01:48:02]  DESC Usuario
+[2019-06-30 01:48:02]  select * from Usuario  where name= 'axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-30 01:48:02]  DESC Usuario
+[2019-06-30 01:48:02]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 01:48:02]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 01:48:15]  DESC Producto
+[2019-06-30 01:48:15]  DESC Imagen
+[2019-06-30 01:48:15]  select * from Producto  where nombre like '%vini%' limit 0, 100

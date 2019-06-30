@@ -21,6 +21,8 @@ abstract class Constantes
     const NAVNOLOGUEADOVIEW = "navNoLogueado";
     const PUBLICACIONESVIEW="mispublicaciones";
     const MODIFICARPUBLICACIONESVIEW="modificar";
+    const INDEXADMINVIEW="vistaAdmin";
+
 
     const ELIMINARPUBLICACIONESVIEW="eliminarProducto";
 

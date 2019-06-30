@@ -59,9 +59,9 @@ ingresar.click(function () {
     }
 });
 
-function loginExitoso($rol) {
-   // $rol=1;
-    if($rol===2){
+function loginExitoso(rol) {
+    var rolUser = JSON.parse(JSON.stringify(rol));
+    if(rolUser == 2){
         alert("comun");
         window.location.href = pathHome;
     }else{
