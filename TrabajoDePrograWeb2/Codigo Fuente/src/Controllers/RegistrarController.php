@@ -34,16 +34,21 @@ class RegistrarController extends Controller
 
         $rolASetear=$rol->determinarRol();
        $usuario->setRol($rolASetear);
-        $pass2=$datos->pass2;
+        $pass=$datos->pass;
+         $pass2=$datos->pass2;
 
-        if($usuario->validarFormatos($terminosYcondiciones)) {
+
            if (!$usuario->consultarUserName()) {
             throw new ExcentionRegistar("Nombre de usuario ya existente", CodigoError::ExcentionRegistar);
-          }else
+          }
 
-            if ($usuario->consultarPass($pass2)) {
-                $usuario->insertarRegistro();
-                //$this->redireccionarALaPaginaDelUsuario();
+              if ($pass==$pass2) {
+                  $passSHA = sha1($pass2);
+                  $usuario->setPassword($passSHA);
+                  $usuario->setEstado(1);
+                  $_SESSION["logueado"]= $usuario->insertarRegistro();
+
+
                }else{
                 throw new ExcentionRegistar("las contraseñas no son iguales", CodigoError::ExcentionRegistar);
 
@@ -51,7 +56,6 @@ class RegistrarController extends Controller
 
 
             echo json_encode(true);
-        }
     }
 
 

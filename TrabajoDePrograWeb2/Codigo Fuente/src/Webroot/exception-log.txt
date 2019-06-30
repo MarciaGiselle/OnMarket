@@ -7483,3 +7483,180 @@ StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Vi
 #5 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #6 {main}
 
+[2019-06-30 13:23:22]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 13:23:29]  Excepción no controlada: 'Use of undefined constant registrado - assumed 'registrado'' en el archivo RegistrarController.php en la línea 53
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\RegistrarController.php(53): globalErrorHandler(8, 'Use of undefine...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-30 13:24:39]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 13:28:22]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 13:30:33]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 13:31:48]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 13:34:30]  Error 20: 'las contraseñas no son iguales' en el archivo RegistrarController.php en la línea 47
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 13:35:25]  Error 20: 'las contraseñas no son iguales' en el archivo RegistrarController.php en la línea 47
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 13:35:49]  Error 20: 'las contraseñas no son iguales' en el archivo RegistrarController.php en la línea 47
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 13:36:20]  Error 20: 'las contraseñas no son iguales' en el archivo RegistrarController.php en la línea 47
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 13:36:55]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 13:38:03]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 13:38:09]  Error 20: 'las contraseñas no son iguales' en el archivo RegistrarController.php en la línea 46
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 13:38:51]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 13:40:35]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 13:42:35]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 13:44:49]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 14:02:56]  Excepción no controlada: 'Use of undefined constant pass2 - assumed 'pass2'' en el archivo RegistrarController.php en la línea 44
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\RegistrarController.php(44): globalErrorHandler(8, 'Use of undefine...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-06-30 14:03:31]  Excepción no controlada: 'Object of class Usuario could not be converted to string' en el archivo Usuario.php en la línea 228
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Usuario.php(228): globalErrorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 228, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\RegistrarController.php(48): Usuario->insertarRegistro()
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-30 14:04:19]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 14:05:06]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 14:06:51]  Excepción no controlada: 'Object of class Usuario could not be converted to string' en el archivo Usuario.php en la línea 228
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Usuario.php(228): globalErrorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 228, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\RegistrarController.php(48): Usuario->insertarRegistro()
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-30 14:07:37]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 14:08:37]  Excepción no controlada: 'Object of class Usuario could not be converted to string' en el archivo Usuario.php en la línea 228
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Usuario.php(228): globalErrorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 228, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\RegistrarController.php(48): Usuario->insertarRegistro()
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-30 14:09:43]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 14:10:31]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 14:11:06]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 14:11:41]  Excepción no controlada: 'Object of class Usuario could not be converted to string' en el archivo Usuario.php en la línea 228
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Usuario.php(228): globalErrorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 228, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\RegistrarController.php(48): Usuario->insertarRegistro()
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-30 14:14:00]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 14:15:13]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 14:16:34]  Excepción no controlada: 'Object of class Usuario could not be converted to string' en el archivo Usuario.php en la línea 228
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Usuario.php(228): globalErrorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 228, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\RegistrarController.php(48): Usuario->insertarRegistro()
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-06-30 14:20:09]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-06-30 14:31:32]  Error 20: 'las contraseñas no son iguales' en el archivo RegistrarController.php en la línea 53
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
