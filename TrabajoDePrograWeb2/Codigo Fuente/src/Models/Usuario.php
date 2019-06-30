@@ -17,7 +17,7 @@ class Usuario extends Model
     private $userName;
     private $sexo;
     private $rol;
-
+     private $estado;
     function buscarUsuario(){
     $resultado=$this->pageRows(0,1,"name= '$this->name' and password='$this->password'");
     if (!empty($resultado)){
@@ -220,12 +220,30 @@ class Usuario extends Model
           "userName"=>$this->getUserName(),
            "sexo"=>$this->getSexo(),
             "rol"=>$this->getRol(),
+         "estado"=>$this->getEstado()
 
         ];
 
-        $this->insert($array);
+        $this->setId($this->insert($array));
+        return $this->getId();
 
    }
+
+    /**
+     * @return mixed
+     */
+    public function getEstado()
+    {
+        return $this->estado;
+    }
+
+    /**
+     * @param mixed $estado
+     */
+    public function setEstado($estado)
+    {
+        $this->estado = $estado;
+    }
 
 
 

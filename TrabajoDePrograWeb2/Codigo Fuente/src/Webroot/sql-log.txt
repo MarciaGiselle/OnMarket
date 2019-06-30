@@ -16953,3 +16953,259 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-30 10:41:29]  DESC Publicacion
 [2019-06-30 10:41:29]  select * from Publicacion  where id_user=2 limit 0, 100
 [2019-06-30 10:41:29]  DESC Producto
+[2019-06-30 13:15:26]  DESC Usuario
+[2019-06-30 13:15:28]  DESC Rol
+[2019-06-30 13:15:28]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:20:09]  DESC Usuario
+[2019-06-30 13:20:09]  DESC Rol
+[2019-06-30 13:20:10]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:20:10]  select * from Usuario  where userName='toto' limit 0, 1
+[2019-06-30 13:20:10]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','123','toto@gmail.com','toto','Hombre','2')
+[2019-06-30 13:23:22]  DESC Usuario
+[2019-06-30 13:23:22]  DESC Rol
+[2019-06-30 13:23:22]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:23:22]  select * from Usuario  where userName='toto' limit 0, 1
+[2019-06-30 13:23:29]  DESC Usuario
+[2019-06-30 13:23:29]  DESC Rol
+[2019-06-30 13:23:29]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:23:29]  select * from Usuario  where userName='toto66' limit 0, 1
+[2019-06-30 13:23:29]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','123','toto@gmail.com','toto66','Hombre','2')
+[2019-06-30 13:24:37]  DESC Usuario
+[2019-06-30 13:24:38]  DESC Rol
+[2019-06-30 13:24:38]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:24:38]  select * from Usuario  where userName='toto66' limit 0, 1
+[2019-06-30 13:24:46]  DESC Usuario
+[2019-06-30 13:24:46]  DESC Rol
+[2019-06-30 13:24:47]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:24:47]  select * from Usuario  where userName='toto99' limit 0, 1
+[2019-06-30 13:24:47]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','123','toto@gmail.com','toto99','Hombre','2')
+[2019-06-30 13:26:02]  DESC Usuario
+[2019-06-30 13:26:02]  DESC Rol
+[2019-06-30 13:26:02]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:26:02]  select * from Usuario  where userName='tot7' limit 0, 1
+[2019-06-30 13:26:02]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','123','toto@gmail.com','tot7','Hombre','2')
+[2019-06-30 13:26:39]  DESC Usuario
+[2019-06-30 13:26:39]  DESC Rol
+[2019-06-30 13:26:39]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:26:39]  select * from Usuario  where userName='rororor' limit 0, 1
+[2019-06-30 13:26:39]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','123','toto@gmail.com','rororor','Hombre','2')
+[2019-06-30 13:27:21]  DESC Usuario
+[2019-06-30 13:27:21]  DESC Rol
+[2019-06-30 13:27:22]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:27:22]  select * from Usuario  where userName='totototo' limit 0, 1
+[2019-06-30 13:27:22]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','123','toto@gmail.com','totototo','Hombre','2')
+[2019-06-30 13:28:21]  DESC Usuario
+[2019-06-30 13:28:22]  DESC Rol
+[2019-06-30 13:28:22]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:28:22]  select * from Usuario  where userName='totototo' limit 0, 1
+[2019-06-30 13:28:32]  DESC Usuario
+[2019-06-30 13:28:32]  DESC Rol
+[2019-06-30 13:28:32]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:28:32]  select * from Usuario  where userName='totototo6' limit 0, 1
+[2019-06-30 13:28:33]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','123','toto@gmail.com','totototo6','Hombre','2')
+[2019-06-30 13:29:56]  DESC Usuario
+[2019-06-30 13:29:56]  DESC Rol
+[2019-06-30 13:29:56]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:29:56]  select * from Usuario  where userName='totojl' limit 0, 1
+[2019-06-30 13:29:56]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','586','totto@gmail.com','totojl','Hombre','2')
+[2019-06-30 13:30:33]  DESC Usuario
+[2019-06-30 13:30:33]  DESC Rol
+[2019-06-30 13:30:33]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:30:33]  select * from Usuario  where userName='totojl' limit 0, 1
+[2019-06-30 13:30:41]  DESC Usuario
+[2019-06-30 13:30:41]  DESC Rol
+[2019-06-30 13:30:42]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:30:42]  select * from Usuario  where userName='totojlx' limit 0, 1
+[2019-06-30 13:30:42]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','586','totto@gmail.com','totojlx','Hombre','2')
+[2019-06-30 13:31:07]  DESC Usuario
+[2019-06-30 13:31:07]  DESC Rol
+[2019-06-30 13:31:08]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:31:08]  select * from Usuario  where userName='totojlxyy' limit 0, 1
+[2019-06-30 13:31:08]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','586','totto@gmail.com','totojlxyy','Hombre','2')
+[2019-06-30 13:31:48]  DESC Usuario
+[2019-06-30 13:31:48]  DESC Rol
+[2019-06-30 13:31:48]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:31:48]  select * from Usuario  where userName='totojlxyy' limit 0, 1
+[2019-06-30 13:31:51]  DESC Usuario
+[2019-06-30 13:31:52]  DESC Rol
+[2019-06-30 13:31:52]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:31:52]  select * from Usuario  where userName='totojlxyydf' limit 0, 1
+[2019-06-30 13:31:52]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','586','totto@gmail.com','totojlxyydf','Hombre','2')
+[2019-06-30 13:34:30]  DESC Usuario
+[2019-06-30 13:34:30]  DESC Rol
+[2019-06-30 13:34:30]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:34:30]  select * from Usuario  where userName='tot123' limit 0, 1
+[2019-06-30 13:35:24]  DESC Usuario
+[2019-06-30 13:35:25]  DESC Rol
+[2019-06-30 13:35:25]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:35:25]  select * from Usuario  where userName='tot123' limit 0, 1
+[2019-06-30 13:35:49]  DESC Usuario
+[2019-06-30 13:35:49]  DESC Rol
+[2019-06-30 13:35:49]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:35:49]  select * from Usuario  where userName='tot123' limit 0, 1
+[2019-06-30 13:36:20]  DESC Usuario
+[2019-06-30 13:36:20]  DESC Rol
+[2019-06-30 13:36:20]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:36:20]  select * from Usuario  where userName='tot123' limit 0, 1
+[2019-06-30 13:36:29]  DESC Usuario
+[2019-06-30 13:36:29]  DESC Rol
+[2019-06-30 13:36:29]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:36:29]  select * from Usuario  where userName='tot123' limit 0, 1
+[2019-06-30 13:36:29]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','132','toto@gmail.com','tot123','Hombre','2')
+[2019-06-30 13:36:55]  DESC Usuario
+[2019-06-30 13:36:55]  DESC Rol
+[2019-06-30 13:36:55]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:36:55]  select * from Usuario  where userName='tot123' limit 0, 1
+[2019-06-30 13:37:25]  DESC Usuario
+[2019-06-30 13:37:25]  DESC Rol
+[2019-06-30 13:37:25]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:37:25]  select * from Usuario  where userName='tot123g' limit 0, 1
+[2019-06-30 13:37:25]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','132','toto@gmail.com','tot123g','Hombre','2')
+[2019-06-30 13:38:02]  DESC Usuario
+[2019-06-30 13:38:02]  DESC Rol
+[2019-06-30 13:38:03]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:38:03]  select * from Usuario  where userName='tot123g' limit 0, 1
+[2019-06-30 13:38:08]  DESC Usuario
+[2019-06-30 13:38:08]  DESC Rol
+[2019-06-30 13:38:08]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:38:09]  select * from Usuario  where userName='tot123gdf' limit 0, 1
+[2019-06-30 13:38:29]  DESC Usuario
+[2019-06-30 13:38:29]  DESC Rol
+[2019-06-30 13:38:30]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:38:30]  select * from Usuario  where userName='tot123gdf' limit 0, 1
+[2019-06-30 13:38:30]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','132','toto@gmail.com','tot123gdf','Hombre','2')
+[2019-06-30 13:38:50]  DESC Usuario
+[2019-06-30 13:38:50]  DESC Rol
+[2019-06-30 13:38:50]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:38:50]  select * from Usuario  where userName='tot123gdf' limit 0, 1
+[2019-06-30 13:38:55]  DESC Usuario
+[2019-06-30 13:38:55]  DESC Rol
+[2019-06-30 13:38:56]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:38:56]  select * from Usuario  where userName='tot123gdfdf' limit 0, 1
+[2019-06-30 13:38:56]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','132','toto@gmail.com','tot123gdfdf','Hombre','2')
+[2019-06-30 13:40:35]  DESC Usuario
+[2019-06-30 13:40:35]  DESC Rol
+[2019-06-30 13:40:35]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:40:35]  select * from Usuario  where userName='tot123gdfdf' limit 0, 1
+[2019-06-30 13:40:40]  DESC Usuario
+[2019-06-30 13:40:40]  DESC Rol
+[2019-06-30 13:40:40]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:40:40]  select * from Usuario  where userName='tot123gdfdfh' limit 0, 1
+[2019-06-30 13:40:40]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','132','toto@gmail.com','tot123gdfdfh','Hombre','2')
+[2019-06-30 13:42:35]  DESC Usuario
+[2019-06-30 13:42:35]  DESC Rol
+[2019-06-30 13:42:35]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:42:35]  select * from Usuario  where userName='tot123gdfdfh' limit 0, 1
+[2019-06-30 13:42:41]  DESC Usuario
+[2019-06-30 13:42:42]  DESC Rol
+[2019-06-30 13:42:42]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:42:42]  select * from Usuario  where userName='tot123gdfdfhdfs' limit 0, 1
+[2019-06-30 13:42:42]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','132','toto@gmail.com','tot123gdfdfhdfs','Hombre','2')
+[2019-06-30 13:44:48]  DESC Usuario
+[2019-06-30 13:44:49]  DESC Rol
+[2019-06-30 13:44:49]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:44:49]  select * from Usuario  where userName='tot123gdfdfhdfs' limit 0, 1
+[2019-06-30 13:44:54]  DESC Usuario
+[2019-06-30 13:44:54]  DESC Rol
+[2019-06-30 13:44:55]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 13:44:55]  select * from Usuario  where userName='tot123gdfdfhdfsdf' limit 0, 1
+[2019-06-30 13:44:55]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','132','toto@gmail.com','tot123gdfdfhdfsdf','Hombre','2')
+[2019-06-30 14:02:56]  DESC Usuario
+[2019-06-30 14:02:56]  DESC Rol
+[2019-06-30 14:02:56]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:02:56]  select * from Usuario  where userName='toto99' limit 0, 1
+[2019-06-30 14:03:30]  DESC Usuario
+[2019-06-30 14:03:30]  DESC Rol
+[2019-06-30 14:03:31]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:03:31]  select * from Usuario  where userName='toto99' limit 0, 1
+[2019-06-30 14:03:31]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('tototo','toto','9adcb29710e807607b683f62e555c22dc5659713','123','ttoto@gmail.com','toto99','Hombre','2','1')
+[2019-06-30 14:04:19]  DESC Usuario
+[2019-06-30 14:04:19]  DESC Rol
+[2019-06-30 14:04:19]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:04:19]  select * from Usuario  where userName='toto99' limit 0, 1
+[2019-06-30 14:05:06]  DESC Usuario
+[2019-06-30 14:05:06]  DESC Rol
+[2019-06-30 14:05:06]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:05:06]  select * from Usuario  where userName='toto99' limit 0, 1
+[2019-06-30 14:06:50]  DESC Usuario
+[2019-06-30 14:06:50]  DESC Rol
+[2019-06-30 14:06:51]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:06:51]  select * from Usuario  where userName='toto99' limit 0, 1
+[2019-06-30 14:06:51]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('toto','toto','9adcb29710e807607b683f62e555c22dc5659713','45646','toto@gmail.com','toto99','Hombre','2','1')
+[2019-06-30 14:07:36]  DESC Usuario
+[2019-06-30 14:07:36]  DESC Rol
+[2019-06-30 14:07:37]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:07:37]  select * from Usuario  where userName='toto99' limit 0, 1
+[2019-06-30 14:08:36]  DESC Usuario
+[2019-06-30 14:08:36]  DESC Rol
+[2019-06-30 14:08:36]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:08:36]  select * from Usuario  where userName='tot99' limit 0, 1
+[2019-06-30 14:08:37]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','123375','toto@gmail.com','tot99','Hombre','2','')
+[2019-06-30 14:09:42]  DESC Usuario
+[2019-06-30 14:09:43]  DESC Rol
+[2019-06-30 14:09:43]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:09:43]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-30 14:10:30]  DESC Usuario
+[2019-06-30 14:10:31]  DESC Rol
+[2019-06-30 14:10:31]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:10:31]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-30 14:11:05]  DESC Usuario
+[2019-06-30 14:11:06]  DESC Rol
+[2019-06-30 14:11:06]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:11:06]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-06-30 14:11:41]  DESC Usuario
+[2019-06-30 14:11:41]  DESC Rol
+[2019-06-30 14:11:41]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:11:41]  select * from Usuario  where userName='toto' limit 0, 1
+[2019-06-30 14:11:41]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`) VALUES ('toto','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','13254','toto@gmail.com','toto','Hombre','2')
+[2019-06-30 14:14:00]  DESC Usuario
+[2019-06-30 14:14:00]  DESC Rol
+[2019-06-30 14:14:00]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:14:00]  select * from Usuario  where userName='toto' limit 0, 1
+[2019-06-30 14:15:12]  DESC Usuario
+[2019-06-30 14:15:12]  DESC Rol
+[2019-06-30 14:15:12]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:15:12]  select * from Usuario  where userName='toto' limit 0, 1
+[2019-06-30 14:16:33]  DESC Usuario
+[2019-06-30 14:16:33]  DESC Rol
+[2019-06-30 14:16:33]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:16:33]  select * from Usuario  where userName='toto' limit 0, 1
+[2019-06-30 14:16:33]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('toto2','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','123','toto@gmail.com','toto','Hombre','2','')
+[2019-06-30 14:20:09]  DESC Usuario
+[2019-06-30 14:20:09]  DESC Rol
+[2019-06-30 14:20:09]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:20:09]  select * from Usuario  where userName='toto' limit 0, 1
+[2019-06-30 14:20:19]  DESC Usuario
+[2019-06-30 14:20:19]  DESC Rol
+[2019-06-30 14:20:19]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:20:19]  select * from Usuario  where userName='toto9' limit 0, 1
+[2019-06-30 14:20:19]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('toto2','toto','40bd001563085fc35165329ea1ff5c5ecbdbbeef','123','toto@gmail.com','toto9','Hombre','2','')
+[2019-06-30 14:21:49]  DESC Usuario
+[2019-06-30 14:21:49]  DESC Rol
+[2019-06-30 14:21:49]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:21:50]  select * from Usuario  where userName='oto' limit 0, 1
+[2019-06-30 14:21:50]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('oto','toto','9adcb29710e807607b683f62e555c22dc5659713','756746','oto@gmail.com','oto','Hombre','2','1')
+[2019-06-30 14:26:32]  DESC Usuario
+[2019-06-30 14:26:33]  DESC Rol
+[2019-06-30 14:26:33]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:26:33]  select * from Usuario  where userName='holakase' limit 0, 1
+[2019-06-30 14:26:33]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('toto','toto','9adcb29710e807607b683f62e555c22dc5659713','356768','toto@gmail.com','holakase','Hombre','2','1')
+[2019-06-30 14:27:12]  DESC Usuario
+[2019-06-30 14:27:13]  DESC Rol
+[2019-06-30 14:27:13]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:27:13]  select * from Usuario  where userName='oro' limit 0, 1
+[2019-06-30 14:27:13]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('toto','toto','209d5fae8b2ba427d30650dd0250942af944a0c9','123','toto@gmail.com','oro','Hombre','2','1')
+[2019-06-30 14:29:44]  DESC Usuario
+[2019-06-30 14:29:45]  DESC Rol
+[2019-06-30 14:29:46]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:29:46]  select * from Usuario  where userName='ahora' limit 0, 1
+[2019-06-30 14:29:46]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('toto','toto','209d5fae8b2ba427d30650dd0250942af944a0c9','546','toto@gmail.com','ahora','Hombre','2','1')
+[2019-06-30 14:31:31]  DESC Usuario
+[2019-06-30 14:31:31]  DESC Rol
+[2019-06-30 14:31:32]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:31:32]  select * from Usuario  where userName='tro' limit 0, 1
+[2019-06-30 14:31:40]  DESC Usuario
+[2019-06-30 14:31:40]  DESC Rol
+[2019-06-30 14:31:41]  select * from Rol  where id=1 limit 0, 1
+[2019-06-30 14:31:41]  select * from Usuario  where userName='tro' limit 0, 1
+[2019-06-30 14:31:41]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('rororor','oor','9adcb29710e807607b683f62e555c22dc5659713','123','roro@gmail.com','tro','Hombre','2','1')
