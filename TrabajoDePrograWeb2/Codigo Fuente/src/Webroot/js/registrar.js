@@ -3,7 +3,7 @@ const regexNumeros = /^[0-9]+/;
 const regexLetras = /[A-Za-z]+/;
 const regexCorreo = /^(([A-Za-z0-9]+_+)|([A-Za-z0-9]+\-+)|([A-Za-z0-9]+\.+)|([A-Za-z0-9]+\++))*[A-Za-z0-9]+@((\w+\-+)|(\w+\.))*\w{1,63}\.[a-zA-Z]{2,6}$/;
 
-var inputName = $('#nombre');
+var inputName = $('#name');
 var inputApellido = $('#apellido');
 var inputCorreo = $("#correo");
 var inputCuit =$("#cuit");
@@ -13,7 +13,7 @@ var inputPass2 = $("#pass2");
 var inputSexo = $("#sexo");
 var inputTerminos = $("#terminos");
 
-var enviar = $("#enviar");
+
 //falta el de terminos y condiciones
 
 function validarCuit() {
@@ -22,10 +22,16 @@ function validarCuit() {
     var cuit = inputCuit.val();
 
     if(cuit === null || cuit.length === 0 || cuit === "") {
+        $("#errorCuit").removeClass("d-none").addClass("d-flex").find("small").text("cuit vacio");
+        $("#errorCuit").fadeIn("slow");
 
     } else if(!regexNumeros.test(cuit)) {
 
+        $("#errorCuit").removeClass("d-none").addClass("d-flex").find("small").text("el cuit deben ser solo numeros");
+        $("#errorCuit").fadeIn("slow");
+
     } else {
+        $("#errorCuit").removeClass("d-flex").addClass("d-none");
 
         validacion = true;
     }
@@ -35,17 +41,19 @@ function validarCuit() {
 function validarTerminos() {
 
     var validacion = false;
-    var terminos = inputTerminos.val();
+
+    var terminos = document.getElementById('terminos').checked;
+
+    if(terminos ===false){
+        $("#errorTerminos").removeClass("d-none").addClass("d-flex").find("small").text("acepte los terminos");
+        $("#errorTerminos").fadeIn("slow");
 
 
-    //if(terminos ===null){
-   //  alert("error");
-
-   // } else {
-
+    } else {
+        $("#errorTerminos").removeClass("d-flex").addClass("d-none");
 
         validacion = true;
-   // }
+    }
 
     return validacion;
 }
@@ -71,16 +79,19 @@ function validarSexo() {
 function validarPass() {
 
     var validacion = false;
-    var pass = inputPass.val();
+    var pass = $("#pass").val();
 
     if(pass === null || pass.length === 0 || pass === "") {
-        //  errorName.fadeIn("slow");
+        $("#errorContraseña").removeClass("d-none").addClass("d-flex").find("small").text("contraseña vacio");
+        $("#errorContraseña").fadeIn("slow");
 
     } else if(!regexLetrasYNumeros.test(pass)) {
-        // errorName.fadeIn("slow");
+        $("#errorContraseña").removeClass("d-none").addClass("d-flex").find("small").text("contraseña invalida");
+        $("#errorContraseña").fadeIn("slow");
 
     } else {
 
+        $("#errorContraseña").removeClass("d-flex").addClass("d-none");
 
         validacion = true;
     }
@@ -91,14 +102,19 @@ function validarPass() {
 function validarNombre() {
 
     var validacion = false;
-    var name = inputName.val();
+    var name = $("#name").val();
+
 
     if(name === null || name.length === 0 || name === "") {
+        $("#errorName").removeClass("d-none").addClass("d-flex").find("small").text("nombre vacio");
+        $("#errorName").fadeIn("slow");
 
     } else if(!regexLetras.test(name)) {
-
+        $("#errorName").removeClass("d-none").addClass("d-flex").find("small").text("nombre invalido");
+        $("#errorName").fadeIn("slow");
     } else {
 
+        $("#errorName").removeClass("d-flex").addClass("d-none");
         validacion = true;
     }
 
@@ -111,13 +127,15 @@ function validarApellido() {
     var apellido = inputApellido.val();
 
     if(apellido === null || apellido.length === 0 || apellido === "") {
-       // errorName.fadeIn("slow");
+        $("#errorApellido").removeClass("d-none").addClass("d-flex").find("small").text("apellido vacio");
+        $("#errorApellido").fadeIn("slow");
 
     } else if(!regexLetras.test(apellido)) {
-       // errorName.fadeIn("slow");
+        $("#errorApellido").removeClass("d-none").addClass("d-flex").find("small").text("apellido invalido");
+        $("#errorApellido").fadeIn("slow");
 
     } else {
-
+        $("#errorApellido").removeClass("d-flex").addClass("d-none");
 
         validacion = true;
     }
@@ -134,14 +152,16 @@ function validarNombreUsuario() {
     var nombreUsuario = inputNombreUsuario .val();
 
     if(nombreUsuario  === null || nombreUsuario .length === 0 || nombreUsuario  === "") {
-        // errorName.fadeIn("slow");
+        $("#errorNombreUsuario").removeClass("d-none").addClass("d-flex").find("small").text("NombreUsuario vacio");
+        $("#errorNombreUsuario").fadeIn("slow");
 
     } else if(!regexLetrasYNumeros.test(nombreUsuario )) {
-        // errorName.fadeIn("slow");
+        $("#errorNombreUsuario").removeClass("d-none").addClass("d-flex").find("small").text("NombreUsuario invalido");
+        $("#errorNombreUsuario").fadeIn("slow");
 
     } else {
 
-
+        $("#errorNombreUsuario").removeClass("d-flex").addClass("d-none");
         validacion = true;
     }
 
@@ -154,14 +174,15 @@ function validarCorreo() {
     var correo = inputCorreo.val();
 
     if(correo === null || correo.length === 0 || correo === "") {
-        // errorName.fadeIn("slow");
+        $("#errorCorreo").removeClass("d-none").addClass("d-flex").find("small").text("Correo invalido");
+        $("#errorCorreo").fadeIn("slow");
 
     } else if(!regexCorreo.test(correo)) {
-        // errorName.fadeIn("slow");
-
+        $("#errorCorreo").removeClass("d-none").addClass("d-flex").find("small").text("Correo invalido");
+        $("#errorCorreo").fadeIn("slow");
     } else {
 
-
+        $("#errorCorreo").removeClass("d-flex").addClass("d-none");
         validacion = true;
     }
 
@@ -169,39 +190,38 @@ function validarCorreo() {
 }
 
 
-enviar.click(function () {
-    // $(".error").fadeOut();
+$("#registrar").click(function () {
+
 
     var validacion = validarTerminos()&& validarCuit() && validarNombre() && validarApellido() && validarNombreUsuario() &&  validarCorreo()&&  validarSexo()&&  validarPass();
 
     if(validacion) {
-        $("input").prop("disabled", true);
-     enviar.prop("disabled", true);
+alert("valido");
         var obj = {};
-        obj.nombre = inputName.val();
-        obj.apellido=inputApellido.val();
-        obj.pass = inputPass.val();
-        obj.pass2 = inputPass2.val();
-        obj.cuit= inputCuit.val();
-        obj.correo=inputCorreo.val();
-        obj.nombreUsuario=inputNombreUsuario.val();
-        obj.sexo=inputSexo.val();
-        obj.terminos=inputTerminos.val();
+        obj.nombre = $("#name").val();
+        obj.apellido=$("#apellido").val();
+        obj.pass = $("#pass").val();
+        obj.pass2 = $("#pass2").val();
+        obj.cuit= $("#cuit").val();
+        obj.correo=$("#correo").val();
+        obj.nombreUsuario=$("#nombreUsuario").val();
+        obj.sexo=$("#sexo").val();
+        obj.terminos=$("#terminos").val();
 
         llamadaAjax(pathRegistrar, JSON.stringify(obj), true, "loginExitoso", "loginFallido");
     }
 });
 
 function loginExitoso(dummy) {
-
+alert("registro bien ");
     window.location.href = pathHome;
 }
 
 function loginFallido(err) {
-
+    alert("registro mal ");
 
     $("input").prop("disabled", false);
-    enviar.prop("disabled", false);
+
     alertify.alert("Error de Logueo", err);
 }
 

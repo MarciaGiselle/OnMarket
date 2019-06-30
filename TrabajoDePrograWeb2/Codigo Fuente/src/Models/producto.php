@@ -4,7 +4,7 @@
 
 class Producto extends Model
 {
-    private $idProducto;
+    private $id;
     private $nombre;
     private $descripcion;
     private $cantidad;
@@ -19,10 +19,30 @@ class Producto extends Model
          "precio"=>$this->getPrecio(),
          "idCategoria"=>$this->getIdCategoria(),
      ] ;      
-       $this->setIdProducto($this->insert($array));
-       return $this->getIdProducto();
+       $this->setId($this->insert($array));
+       return $this->getId();
     }
 
+    function modificarProducto(){
+        $array=[
+            "id"=> $this->getId(),
+            "nombre"=> $this->getNombre(),
+            "descripcion"=>$this->getDescripcion(),
+            "cantidad"=>$this->getCantidad(),
+            "precio"=>$this->getPrecio(),
+            "idCategoria"=>$this->getIdCategoria(),
+        ] ;
+
+
+
+
+        return $this->update($array);
+
+
+    }
+   function eliminar($pk){
+       return  $this->delete($pk);
+   }
 
     function validarFormatos(){
         //validacion de formatos
@@ -38,32 +58,42 @@ class Producto extends Model
         $idArray=[];
        if(!empty($resultadoDeLaBusqueda[0])){
             for($i=0;$i<count($resultadoDeLaBusqueda);$i++){
-                array_push($idArray, $resultadoDeLaBusqueda[$i]["idProducto"]);
+                array_push($idArray, $resultadoDeLaBusqueda[$i]["id"]);
              }
         }
         return $idArray;
     }
 
     function filasPorPk($pk){
-        $resultado=$this->pageRows(0,10, "idProducto=$pk");
-        //$resultado=$this->selectByPk($pk);
+        $resultado=$this->pageRows(0,100, "id=$pk");
+      //$resultado=$this->selectByPk($pk);
         return $resultado;
     }
+
+    /**
+     * @param $pk
+     * @return array
+     */
+    function buscarUnProductoPorPk($pk){
+        $resultado=$this->pageRows(0,1, "id=$pk");
+        return $resultado[0];
+    }
+
 
         /**
      * @return mixed
      */
-    public function getIdProducto()
+    public function getId()
     {
-        return $this->idProducto;
+        return $this->id;
     }
 
     /**
-     * @param mixed $idProducto
+     * @param mixed $id
      */
-    public function setIdProducto($idProducto)
+    public function setId($id)
     {
-        $this->idProducto = $idProducto;
+        $this->id = $id;
     }
 
     /**

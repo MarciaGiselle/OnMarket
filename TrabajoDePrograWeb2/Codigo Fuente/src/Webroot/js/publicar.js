@@ -21,18 +21,24 @@ function validarNombre() {
     var nombre = inputNombre.val();
 
     if(nombre === null || nombre.length === 0 || nombre === "") {
-
+        $("#errorNombre").removeClass("d-none").addClass("d-flex").find("small").text("Ingrese un nombre para el producto");
+        $("#errorNombre").fadeIn("slow");
     } else if(!regexLetras.test(nombre)) {
-
+        $("#errorNombre").removeClass("d-none").addClass("d-flex").find("small").text("El nombre debe contener sólo letras");
+        $("#errorNombre").fadeIn("slow");
     } else {
         validacion = true;
     }
-
     return validacion;
 }
 
+
 btnPublicar.click(function () {
     // $(".error").fadeOut();
+    if(validarNombre()){
+        $(".error").fadeOut();
+        $(".error").removeClass("d-flex").addClass("d-none").find("span").text("");
+    }
 
     var validacion = validarNombre();
 

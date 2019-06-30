@@ -14,7 +14,21 @@ abstract class Constantes
  	const REGISTRARVIEW = "registrar";
 	const PUBLICARVIEW = "publicar";
     const BUSCADORVIEW = "buscador";
+    const MOSTRARVIEW = "MostrarProducto";
+    const COMPRAVIEW="compra";
+    const CARRITOVIEW = "carrito";
+    const NAVLOGUEADOVIEW = "navLogueado";
+    const NAVNOLOGUEADOVIEW = "navNoLogueado";
+    const PUBLICACIONESVIEW="mispublicaciones";
+    const MODIFICARPUBLICACIONESVIEW="modificar";
+    const INDEXADMINVIEW="vistaAdmin";
 
+
+    const ELIMINARPUBLICACIONESVIEW="eliminarProducto";
+
+    const PERFILESVIEW="perfiles";
+    const BLOQUEARWIEW="bloquear";
+    const DESBLOQUEARWIEW="desbloquear";
 
 
     const INICIOVIEW = "inicio";

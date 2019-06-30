@@ -8,6 +8,7 @@ class BuscadorController extends Controller
         $this->render(Constantes::BUSCADORVIEW);
     }
 
+
     function buscarProducto($buscador){
 
         header("Content-type: application/json");

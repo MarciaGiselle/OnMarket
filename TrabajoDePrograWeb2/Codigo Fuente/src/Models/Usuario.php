@@ -17,7 +17,7 @@ class Usuario extends Model
     private $userName;
     private $sexo;
     private $rol;
-
+     private $estado;
     function buscarUsuario(){
     $resultado=$this->pageRows(0,1,"name= '$this->name' and password='$this->password'");
     if (!empty($resultado)){
@@ -27,6 +27,17 @@ class Usuario extends Model
     }else{
         return false;
     }
+    }
+
+    public function buscarRolDelUsuario($id){
+        $resultado=$this->pageRows(0,1,"id='$id'");
+        if (!empty($resultado)){
+            $respuesta=$resultado[0];
+            $rol=$respuesta["rol"];
+            return $rol;
+        }else{
+            return false;
+        }
     }
     public  function consultarLogin(){
         $error=0;
@@ -78,8 +89,44 @@ class Usuario extends Model
 
 
     }
+  public  function traeIdPorNombre($nombre){
+      $res=$this->pageRows(0,1, "userName='$nombre'");
+      if(!empty($res[0])){
+          $respuesta=$res[0];
+          $id=$respuesta["id"];
+          return $id;
+      }else{
+          return false;
+      }
+}
+  function traerUserPorPk($pk){
+      $res=$this->pageRows(0,1, "id='$pk'");
+      if(!empty($res[0])){
+          return $res[0];
+      }else{
+          return false;
+      }
+
+  }
+  function bloquearUsuario($pk){
+    $array=[
+        "id"=> $pk,
+        "estado"=>0,
+    ];
 
 
+    return $this->update($array);
+}
+
+    function desbloquearUsuario($pk){
+        $array=[
+            "id"=> $pk,
+            "estado"=>1,
+        ];
+
+
+        return $this->update($array);
+    }
 
   function validarFormatos($terminosYcondiciones){
 
@@ -129,7 +176,33 @@ class Usuario extends Model
 
     }
 
- //para el registrar
+    public function consultarEstadoDelUsuario($pk){
+        $resultado=$this->pageRows(0,1,"id='$pk'");
+        if (!empty($resultado)){
+            $respuesta=$resultado[0];
+            $estado=$respuesta["estado"];
+            return $estado;
+        }else{
+            return false;
+        }
+    }
+
+  public function traerTodosLosUsuarios(){
+
+      $res=$this->pageRows(0,100);
+      if(!empty($res[0])){
+          $array=[];
+          for($i=0 ;$i< count($res);$i++) {
+               $id = $res[$i]["id"];
+               $id_admin=$_SESSION["logueado"];
+               if($id!==$id_admin){
+               array_push($array,$res[$i] );
+          }}
+          return $array;
+      }else{
+          return false;
+      }
+  }
 
     /**
      *
@@ -147,12 +220,30 @@ class Usuario extends Model
           "userName"=>$this->getUserName(),
            "sexo"=>$this->getSexo(),
             "rol"=>$this->getRol(),
+         "estado"=>$this->getEstado()
 
         ];
 
-        $this->insert($array);
+        $this->setId($this->insert($array));
+        return $this->getId();
 
    }
+
+    /**
+     * @return mixed
+     */
+    public function getEstado()
+    {
+        return $this->estado;
+    }
+
+    /**
+     * @param mixed $estado
+     */
+    public function setEstado($estado)
+    {
+        $this->estado = $estado;
+    }
 
 
 

@@ -3,7 +3,7 @@
 
 class Publicacion extends Model
 {
-    private $idPublicacion;
+    private $id;
     private $titulo;
     private $duracion;
     private $fecha;
@@ -16,30 +16,61 @@ class Publicacion extends Model
          "fecha"=> $this->getFecha(),
          "titulo"=>$this->getTitulo(),
          "id_user"=>$this->getId_user(),
-            "id_Producto"=>$this->getId_Producto()
+        "id_Producto"=>$this->getId_Producto()
 
         ];
 
-        $this->setIdPublicacion($this->insert($array));
-        return $this->getIdPublicacion();
+        $this->setId($this->insert($array));
+        return $this->getId();
     }
 
+    public function modificarPublicacion(){
+        $array=[
+            "id"=> $this->getId(),
+            "fecha"=> $this->getFecha(),
+            "titulo"=>$this->getTitulo(),            
+        ];
+
+       
+        return $this->update($array);
+    }
+    function eliminar($pk){
+        return  $this->delete($pk);
+    }
+
+    public function  traePublicaionesPorIdUser($idUser){
+
+          $resultado=$this->pageRows(0,100, "id_user=$idUser");
+
+          return $resultado;
 
 
+  }
+
+
+
+    public function  traePublicaionPorId($idUser){
+
+        $resultado=$this->pageRows(0,1, "id=$idUser");
+
+        return $resultado;
+
+
+    }
     /**
      * @return mixed
      */
-    public function getIdPublicacion()
+    public function getId()
     {
-        return $this->idPublicacion;
+        return $this->id;
     }
 
     /**
      * @param mixed $idPublicacion
      */
-    public function setIdPublicacion($idPublicacion)
+    public function setId($id)
     {
-        $this->idPublicacion = $idPublicacion;
+        $this->id = $id;
     }
 
     /**

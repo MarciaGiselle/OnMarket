@@ -1,45 +1,13 @@
 
-<nav class="navbar navbar-expand-lg  navbar-dark bg-primary">
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-            aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <a class="navbar-brand" href=#><img id="logo-nav" src="../Webroot/img/logotipo.png" alt="Logo de OnMarket"></a>
+<?php
 
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-        <ul class="navbar-nav mr-2 mt-2 mt-lg-0">
-            <li class="nav-item ">
-                <a class="nav-link active" href="<?php echo getBaseAddress() . "Usuario/mostrarInicio" ?>">Inicio<span
-                            class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" href="#">Historial</a>
-            </li>
-            <li class="nav-item ">
-                <a class="nav-link active">Publicar</a>
-        </ul>
+if(isset($_SESSION["logueado"])){
 
-        <!-- Buscador-->
-        <div class="input-group mr-2">
-            <input type="search" class="form-control" placeholder="Que estás buscando?"  id="buscador">
-            <div class="input-group-append">
-                <span type="submit" class="input-group-text" id="btnBuscar"><i class="fa fa-search" ></i></span>
-            </div>
-        </div>
-
-    </div>
-    <!-- Cerrar sesion -->
-    <div class="d-inline-flex mr-2">
-        <form action="<?php echo getBaseAddress() . "Usuario/cerrarSesion" ?>" method="post">
-            <!-- cambiar url -->
-
-            <input type="submit" value="Cerrar Sesión " class="btn btn-outline-light">
-
-        </form>
-    </div>
-
-
-</nav>
+    include_once ("navLogueado.php") ;
+}else{
+    include_once ("navNoLogueado.php");
+}
+?>
 
 
 <script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
@@ -99,10 +67,14 @@
 
                 <div class="form-group col-md-6">
                     <label class="text-primary">Indicá un nombre para tu producto*</label>
-                    <input class="form-control" type="text" placeholder="Nombre...  " name="nombre" id="nombre">
+                    <input class="form-control" type="text" placeholder="Nombre..." name="nombre" id="nombre">
                     <small id="passwordHelpBlock" class="form-text text-muted">Usá palabras clave para que lo encuentren
                         fácilmente.
                     </small>
+                    <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="errorNombre">
+                        <i class="fa fa-exclamation-circle error"></i>
+                        <small class="text-left"></small>
+                    </div>
                 </div>
 
 
@@ -110,7 +82,10 @@
                     <label class="text-primary">Describí tu producto*</label>
                     <textarea class="form-control"  rows="3" name="descripcion" id="descripcion"
                               placeholder="Aprovechá para contar otros detalles de tu producto. Ordenalos en forma de lista para que sea más fácil de leer."></textarea>
-
+                    <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="eerorDescripcion">
+                        <i class="fa fa-exclamation-circle error"></i>
+                        <small class="text-left"></small>
+                    </div>
                 </div>
 
                 <div class="form-group col-md-6">

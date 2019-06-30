@@ -7,6 +7,14 @@ class Imagen extends Model
     private $nombre;
     private $idProducto;
 
+   /* function adaptiveResizeImage($imagePath, $width, $height, $bestFit)
+    {
+        $imagick = new Imagick(realpath($imagePath));
+        $imagick->adaptiveResizeImage($width, $height, $bestFit);
+        header("Content-Type: image/jpg");
+        echo $imagick->getImageBlob();
+    }
+*/
 
     function insertarImagen(){
         $array=[
@@ -30,7 +38,11 @@ class Imagen extends Model
         return $imagenes;
     }
 
-
+    function imagenPk($pk){
+        $resultado=$this->pageRows(0,10, "idProducto=$pk");
+        //$resultado=$this->selectByPk($pk);
+        return $resultado;
+    }
     /**
      * @return mixed
      */

@@ -57,7 +57,7 @@ class ProductoController extends Controller
 
         //imagenes
         $countfiles = count($_FILES["imagen"]["name"]);
-        if ($countfiles > 2 || $countfiles > 10) {
+        if ($countfiles >= 2 || $countfiles > 10) {
             for ($i = 0; $countfiles > $i; $i++) {
                 $arrayImagenes[$i] = $_FILES['imagen']['name'][$i];
             }

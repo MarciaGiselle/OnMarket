@@ -3,19 +3,16 @@ const regexLetrasYNumeros2 = /^[0-9a-zA-Z]+$/;
 var inputName = $('#inputName');
 var inputPass = $('#inputPass');
 var ingresar = $("#ingresar");
-var errorName = $("#errorName");
-
 
 function validarName() {
     var validacion = false;
     var name = inputName.val();
-
     if(name === null || name.length === 0 || name === "") {
-        errorName.fadeIn("slow");
-
+        $("#errorNombre").removeClass("d-none").addClass("d-flex").find("small").text("Ingrese su nombre");
+        $("#errorNombre").fadeIn("slow");
     } else if(!regexLetrasYNumeros2.test(name)) {
-        errorName.fadeIn("slow");
-
+        $("#errorNombre").removeClass("d-none").addClass("d-flex").find("small").text("Deben ser letras y numeros");
+        $("#errorNombre").fadeIn("slow");
     } else {
 
 
@@ -30,20 +27,25 @@ function validarPassword() {
     var pass = inputPass.val();
 
     if (pass === null || pass.length === 0 || pass === "") {
+        $("#errorPass").removeClass("d-none").addClass("d-flex").find("small").text("Contraseña Invalida");
         $("#errorPass").fadeIn("slow");
         return false;
     } else if(!regexLetrasYNumeros2.test(pass)) {
-        $("#errorPass2").fadeIn("slow");
+        $("#errorPass").removeClass("d-none").addClass("d-flex").find("small").text("Deben ser letras y numeros");
+        $("#errorPass").fadeIn("slow");
     } else {
+
         validacion = true;
     }
-
     return validacion;
 }
 
 ingresar.click(function () {
 
-   // $(".error").fadeOut();
+    if(validarName()){
+        $(".error").fadeOut();
+        $(".error").removeClass("d-flex").addClass("d-none").find("span").text("");
+    }
 
     var validacion = validarName() && validarPassword();
 
@@ -53,15 +55,20 @@ ingresar.click(function () {
         var obj = {};
         obj.nombre = inputName.val();
         obj.password = inputPass.val();
-
         llamadaAjax(pathLoguear, JSON.stringify(obj), true, "loginExitoso", "loginFallido");
-    }else{
-        alert("malll");
     }
 });
 
-function loginExitoso(dummy) {
-   window.location.href = pathHome;
+function loginExitoso(rol) {
+    var rolUser = JSON.parse(JSON.stringify(rol));
+    if(rolUser == 2){
+        alert("comun");
+        window.location.href = pathHome;
+    }else{
+        alert("admin");
+        window.location.href = pathAdmin;
+    }
+
 }
 
 function loginFallido(err) {
@@ -70,20 +77,3 @@ function loginFallido(err) {
     alertify.alert("Error de Logueo", err);
 }
 
-
-// llamadoAWebService: Ejecuta un Servicio Web
-// --------------------------------------------------------------------------------------------------------------------------
-// urlServicioWeb = Url del Servicio Web que serà llamado por POST (ej: )
-
-// datosServicioWeb = Datos en formato jSon a enviar al Servicio Web indicado (ej: )
-// esAsincronico = Indica si el llamado al Servicio Web es asincrònico
-// funcionEscenarioExitoso = Función que se ejecutarà en caso de que sea exitoso
-// el llamado al Servicio Web indicado.
-// El paràmetro se recibe como un String, pero al realizar el eval se ejecuta
-// como funciòn.
-// funcionEscenarioErroneo = Función que se ejecutarà en caso de que devuelva
-// error el llamado al Servicio Web indicado.
-// El paràmetro se recibe como un String, pero al realizar el eval se ejecuta
-// como funciòn.
-// Retornno: devuelve un booleano indicando si hubo errores
-// --------------------------------------------------------------------------------------------------------------------------
