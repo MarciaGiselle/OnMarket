@@ -65,7 +65,7 @@ class RegistrarController extends Controller
     /**
      * @return bool
      */
-//no valida distintas constraseñas
+
 
 
   
