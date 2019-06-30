@@ -10,11 +10,7 @@ class MostrarProductoController extends Controller
 {
     function verProducto($datos)
     {
-        //error en linea 13
-            $id=$datos["idProducto"];
-
-            echo $id;
-
+            $id=$datos["id"];
             $producto = new Producto();
             $prodEncontrado= $producto->buscarUnProductoPorPk($id);
 

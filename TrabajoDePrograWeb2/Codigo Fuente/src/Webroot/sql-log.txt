@@ -16689,6 +16689,205 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-30 01:48:15]  DESC Producto
 [2019-06-30 01:48:15]  DESC Imagen
 [2019-06-30 01:48:15]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-30 10:41:31]  DESC Usuario
+[2019-06-30 10:41:31]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-06-30 10:41:31]  DESC Usuario
+[2019-06-30 10:41:31]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 10:41:31]  select * from Usuario  where id='1' limit 0, 1
+[2019-06-30 10:41:52]  DESC Usuario
+[2019-06-30 10:41:52]  select * from Usuario  where name= 'axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-06-30 10:41:52]  DESC Usuario
+[2019-06-30 10:41:52]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 10:41:52]  select * from Usuario  where id='4' limit 0, 1
+[2019-06-30 11:49:47]  DESC Producto
+[2019-06-30 11:49:47]  DESC Imagen
+[2019-06-30 11:49:47]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-30 11:55:22]  DESC Producto
+[2019-06-30 11:55:22]  DESC Imagen
+[2019-06-30 11:55:22]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-30 11:55:22]  select * from Producto  where id=86 limit 0, 100
+[2019-06-30 11:55:22]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-30 11:55:22]  select * from Producto  where id=87 limit 0, 100
+[2019-06-30 11:55:22]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-30 11:55:22]  select * from Producto  where id=107 limit 0, 100
+[2019-06-30 11:55:22]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-30 11:55:22]  select * from Producto  where id=108 limit 0, 100
+[2019-06-30 11:55:22]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-30 11:56:04]  DESC Producto
+[2019-06-30 11:56:04]  select * from Producto  where id=undefined limit 0, 1
+[2019-06-30 12:02:17]  DESC Producto
+[2019-06-30 12:02:17]  DESC Imagen
+[2019-06-30 12:02:17]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-30 12:02:17]  select * from Producto  where id=86 limit 0, 100
+[2019-06-30 12:02:17]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-30 12:02:17]  select * from Producto  where id=87 limit 0, 100
+[2019-06-30 12:02:17]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-30 12:02:17]  select * from Producto  where id=107 limit 0, 100
+[2019-06-30 12:02:17]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-30 12:02:17]  select * from Producto  where id=108 limit 0, 100
+[2019-06-30 12:02:17]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-30 12:04:02]  DESC Producto
+[2019-06-30 12:04:02]  DESC Imagen
+[2019-06-30 12:04:02]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-30 12:04:02]  select * from Producto  where id=86 limit 0, 100
+[2019-06-30 12:04:02]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-30 12:04:02]  select * from Producto  where id=87 limit 0, 100
+[2019-06-30 12:04:02]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-30 12:04:02]  select * from Producto  where id=107 limit 0, 100
+[2019-06-30 12:04:02]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-30 12:04:02]  select * from Producto  where id=108 limit 0, 100
+[2019-06-30 12:04:02]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-30 12:05:05]  DESC Producto
+[2019-06-30 12:05:05]  DESC Imagen
+[2019-06-30 12:05:05]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-30 12:05:05]  select * from Producto  where id=86 limit 0, 100
+[2019-06-30 12:05:05]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-30 12:05:05]  select * from Producto  where id=87 limit 0, 100
+[2019-06-30 12:05:05]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-30 12:05:05]  select * from Producto  where id=107 limit 0, 100
+[2019-06-30 12:05:06]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-30 12:05:06]  select * from Producto  where id=108 limit 0, 100
+[2019-06-30 12:05:06]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-30 12:06:17]  DESC Producto
+[2019-06-30 12:06:17]  DESC Imagen
+[2019-06-30 12:06:17]  select * from Producto  where nombre like '%vinilos%' limit 0, 100
+[2019-06-30 12:06:17]  select * from Producto  where id=86 limit 0, 100
+[2019-06-30 12:06:17]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-30 12:06:17]  select * from Producto  where id=87 limit 0, 100
+[2019-06-30 12:06:17]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-30 12:06:17]  select * from Producto  where id=107 limit 0, 100
+[2019-06-30 12:06:17]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-30 12:06:17]  select * from Producto  where id=108 limit 0, 100
+[2019-06-30 12:06:17]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-30 12:06:51]  DESC Producto
+[2019-06-30 12:06:51]  DESC Imagen
+[2019-06-30 12:06:51]  select * from Producto  where nombre like '%VINILO%' limit 0, 100
+[2019-06-30 12:06:51]  select * from Producto  where id=86 limit 0, 100
+[2019-06-30 12:06:51]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-30 12:06:51]  select * from Producto  where id=87 limit 0, 100
+[2019-06-30 12:06:51]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-30 12:06:51]  select * from Producto  where id=107 limit 0, 100
+[2019-06-30 12:06:51]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-30 12:06:51]  select * from Producto  where id=108 limit 0, 100
+[2019-06-30 12:06:51]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-30 12:08:35]  DESC Producto
+[2019-06-30 12:08:35]  DESC Imagen
+[2019-06-30 12:08:35]  select * from Producto  where nombre like '%vi%' limit 0, 100
+[2019-06-30 12:08:35]  select * from Producto  where id=86 limit 0, 100
+[2019-06-30 12:08:35]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-30 12:08:35]  select * from Producto  where id=87 limit 0, 100
+[2019-06-30 12:08:35]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-30 12:08:35]  select * from Producto  where id=107 limit 0, 100
+[2019-06-30 12:08:35]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-30 12:08:35]  select * from Producto  where id=108 limit 0, 100
+[2019-06-30 12:08:35]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-30 12:08:54]  DESC Producto
+[2019-06-30 12:08:54]  DESC Imagen
+[2019-06-30 12:08:54]  select * from Producto  where nombre like '%vi%' limit 0, 100
+[2019-06-30 12:08:54]  select * from Producto  where id=86 limit 0, 100
+[2019-06-30 12:08:54]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-30 12:08:54]  select * from Producto  where id=87 limit 0, 100
+[2019-06-30 12:08:54]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-30 12:08:54]  select * from Producto  where id=107 limit 0, 100
+[2019-06-30 12:08:54]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-30 12:08:54]  select * from Producto  where id=108 limit 0, 100
+[2019-06-30 12:08:54]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-30 12:09:21]  DESC Producto
+[2019-06-30 12:09:21]  DESC Imagen
+[2019-06-30 12:09:21]  select * from Producto  where nombre like '%vi%' limit 0, 100
+[2019-06-30 12:09:21]  select * from Producto  where id=86 limit 0, 100
+[2019-06-30 12:09:21]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-30 12:09:21]  select * from Producto  where id=87 limit 0, 100
+[2019-06-30 12:09:21]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-30 12:09:21]  select * from Producto  where id=107 limit 0, 100
+[2019-06-30 12:09:21]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-30 12:09:21]  select * from Producto  where id=108 limit 0, 100
+[2019-06-30 12:09:21]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-30 12:09:43]  DESC Producto
+[2019-06-30 12:09:44]  DESC Imagen
+[2019-06-30 12:09:44]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-30 12:09:44]  select * from Producto  where id=86 limit 0, 100
+[2019-06-30 12:09:44]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-30 12:09:44]  select * from Producto  where id=87 limit 0, 100
+[2019-06-30 12:09:44]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-30 12:09:44]  select * from Producto  where id=107 limit 0, 100
+[2019-06-30 12:09:44]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-30 12:09:44]  select * from Producto  where id=108 limit 0, 100
+[2019-06-30 12:09:44]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-30 12:10:19]  DESC Producto
+[2019-06-30 12:10:19]  DESC Imagen
+[2019-06-30 12:10:19]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-30 12:10:19]  select * from Producto  where id=86 limit 0, 100
+[2019-06-30 12:10:19]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-30 12:10:19]  select * from Producto  where id=87 limit 0, 100
+[2019-06-30 12:10:19]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-30 12:10:19]  select * from Producto  where id=107 limit 0, 100
+[2019-06-30 12:10:19]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-30 12:10:19]  select * from Producto  where id=108 limit 0, 100
+[2019-06-30 12:10:19]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-30 12:10:44]  DESC Producto
+[2019-06-30 12:10:44]  DESC Imagen
+[2019-06-30 12:10:44]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-30 12:10:44]  select * from Producto  where id=86 limit 0, 100
+[2019-06-30 12:10:44]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-30 12:10:44]  select * from Producto  where id=87 limit 0, 100
+[2019-06-30 12:10:44]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-30 12:10:44]  select * from Producto  where id=107 limit 0, 100
+[2019-06-30 12:10:44]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-30 12:10:44]  select * from Producto  where id=108 limit 0, 100
+[2019-06-30 12:10:44]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-30 12:13:36]  DESC Producto
+[2019-06-30 12:13:36]  DESC Imagen
+[2019-06-30 12:13:36]  select * from Producto  where nombre like '%vi%' limit 0, 100
+[2019-06-30 12:13:36]  select * from Producto  where id=86 limit 0, 100
+[2019-06-30 12:13:36]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-30 12:13:36]  select * from Producto  where id=87 limit 0, 100
+[2019-06-30 12:13:36]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-30 12:13:36]  select * from Producto  where id=107 limit 0, 100
+[2019-06-30 12:13:36]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-30 12:13:36]  select * from Producto  where id=108 limit 0, 100
+[2019-06-30 12:13:36]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-30 12:13:38]  DESC Producto
+[2019-06-30 12:13:38]  select * from Producto  where id=87 limit 0, 1
+[2019-06-30 12:13:38]  DESC Imagen
+[2019-06-30 12:13:38]  select * from Imagen  where idProducto=87 limit 0, 10
+[2019-06-30 12:13:38]  DESC Producto
+[2019-06-30 12:13:38]  DESC Imagen
+[2019-06-30 12:13:38]  select * from Producto  where nombre like '%Vinilos%' limit 0, 100
+[2019-06-30 12:13:38]  select * from Producto  where id=86 limit 0, 100
+[2019-06-30 12:13:38]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-30 12:13:38]  select * from Producto  where id=87 limit 0, 100
+[2019-06-30 12:13:38]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-30 12:13:38]  select * from Producto  where id=107 limit 0, 100
+[2019-06-30 12:13:38]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-30 12:13:38]  select * from Producto  where id=108 limit 0, 100
+[2019-06-30 12:13:38]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-30 12:14:13]  DESC Producto
+[2019-06-30 12:14:13]  DESC Imagen
+[2019-06-30 12:14:13]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-06-30 12:14:13]  select * from Producto  where id=86 limit 0, 100
+[2019-06-30 12:14:13]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-30 12:14:13]  select * from Producto  where id=87 limit 0, 100
+[2019-06-30 12:14:13]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-30 12:14:13]  select * from Producto  where id=107 limit 0, 100
+[2019-06-30 12:14:13]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-30 12:14:13]  select * from Producto  where id=108 limit 0, 100
+[2019-06-30 12:14:13]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-06-30 12:14:15]  DESC Producto
+[2019-06-30 12:14:15]  select * from Producto  where id=107 limit 0, 1
+[2019-06-30 12:14:15]  DESC Imagen
+[2019-06-30 12:14:15]  select * from Imagen  where idProducto=107 limit 0, 10
+[2019-06-30 12:14:15]  DESC Producto
+[2019-06-30 12:14:15]  DESC Imagen
+[2019-06-30 12:14:15]  select * from Producto  where nombre like '%Vinilos%' limit 0, 100
+[2019-06-30 12:14:15]  select * from Producto  where id=86 limit 0, 100
+[2019-06-30 12:14:15]  select * from Imagen  where idProducto=86 limit 0, 1
+[2019-06-30 12:14:15]  select * from Producto  where id=87 limit 0, 100
+[2019-06-30 12:14:15]  select * from Imagen  where idProducto=87 limit 0, 1
+[2019-06-30 12:14:15]  select * from Producto  where id=107 limit 0, 100
+[2019-06-30 12:14:15]  select * from Imagen  where idProducto=107 limit 0, 1
+[2019-06-30 12:14:15]  select * from Producto  where id=108 limit 0, 100
+[2019-06-30 12:14:15]  select * from Imagen  where idProducto=108 limit 0, 1
 [2019-06-30 09:53:02]  DESC Usuario
 [2019-06-30 09:53:06]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
 [2019-06-30 09:53:07]  DESC Usuario

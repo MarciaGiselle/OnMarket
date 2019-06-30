@@ -41,6 +41,7 @@ function realizarBusqueda(){
 function busquedaExitosa(resultados){
     var datos = JSON.parse(JSON.stringify(resultados));
 
+
     $('#resultados').removeClass('d-none');
 
     tabla.append(
@@ -50,7 +51,7 @@ function busquedaExitosa(resultados){
     );
     for (i = 0; i < datos.length; i++){
         var name= datos[i].imagen[0].nombre;
-        var id = datos[i].prod[0].idProducto;
+        var id = datos[i].prod[0].id;
 
         tabla.append('<tr>' +
             '<td align="center"> '+ datos[i].prod[0].nombre + '</td>'+
@@ -58,7 +59,7 @@ function busquedaExitosa(resultados){
             '<td align="center" >'+ datos[i].prod[0].descripcion+id+'</td>'+
             '<td align="center" >'+ '<img height="100px" src="../Webroot/imgCargadas/'+ name +'">'+
             '<input type="submit" value="ver"  onclick="enviarId('+id+')">' +
-            '<input type="hidden" name="idProducto"  value="'+id+'">'+
+            '<input type="hidden" name="id"  value="'+id+'">'+
             '</td>'+
             '</tr>'
         );
@@ -69,7 +70,7 @@ function busquedaExitosa(resultados){
 
 function enviarId(id){
     tabla.append(
-        '<input type="hidden" name="idProducto"  value="'+id+'">'
+        '<input type="hidden" name="id"  value="'+id+'">'
     );
 }
 
