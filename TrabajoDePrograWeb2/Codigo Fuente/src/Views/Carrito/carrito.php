@@ -34,7 +34,7 @@ if (isset($_SESSION["logueado"])) {
         $total = 0;
         $tope = count($listaProductos);
         for ($i = 0; $i < $tope; $i++) {
-            $idProducto = $listaProductos[$i]["producto"][0]["idProducto"];
+            $idProducto = $listaProductos[$i]["producto"][0]["id"];
             $nombre = $listaProductos[$i]["producto"][0]["nombre"];
             $cantidad = $listaProductos[$i]["cantidad"];
             $precio = $listaProductos[$i]["producto"][0]["precio"];
