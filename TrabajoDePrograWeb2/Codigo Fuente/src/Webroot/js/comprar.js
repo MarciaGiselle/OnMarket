@@ -12,14 +12,16 @@ function validarCodigo(){
     var validacion = false;
     var codigo = inputcodigo.val();
     if(codigo === null || codigo.length === 0 || codigo === "") {
-      //  $("#errorNombre").removeClass("d-none").addClass("d-flex").find("small").text("Ingrese el codigo de seguridad");
-     //   $("#errorNombre").fadeIn("slow");
-    } else if(!regexNumeros.test(codigo)) {
-      //  $("#errorNombre").removeClass("d-none").addClass("d-flex").find("small").text("El codigo de seguirad debe ser numerico");
-       // $("#errorNombre").fadeIn("slow");
+        $("#errorCodigo").removeClass("d-none").addClass("d-flex").find("small").text("Ingrese el código de seguridad");
+      $("#errorCodigo").fadeIn("slow");
+    } else if ((codigo.length) != 3){
+        $("#errorCodigo").removeClass("d-none").addClass("d-flex").find("small").text("El código de seguridad debe tener 3 digitos");
+        $("#errorCodigo").fadeIn("slow");
+    }
+    else if(!regexNumeros.test(codigo)) {
+      $("#errorNombre").removeClass("d-none").addClass("d-flex").find("small").text("El codigo de seguridad debe ser numérico");
+      $("#errorNombre").fadeIn("slow");
     } else {
-
-
         validacion = true;
     }
 
@@ -70,9 +72,13 @@ function validarNumeroTarjeta(){
 
 confirmar.click(function () {
 
+    if(validarCodigo()){
+        $(".error").fadeOut();
+        $(".error").removeClass("d-flex").addClass("d-none").find("span").text("");
+    }
 
-    var validacion = validarNumeroTarjeta() && validarCodigo() && validarFecha();
-    if(true) {
+    var validacion = validarCodigo();
+    if(validacion) {
         var obj = {};
         obj.total = inputtotal.val();
         obj.numeroTarjeta = inputnumeroTarjeta.val();
