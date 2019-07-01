@@ -23,11 +23,6 @@
             <a class="nav-link active" href= "<?php echo getBaseAddress() . "Producto/publicar" ?>">Publicar</a>
     </ul>
 
-    <!--boton busqueda -->
-    <form action="<?php echo getBaseAddress() . "Buscador/busqueda" ?>" method="post">
-        <input type="submit" value="Realizar una búsqueda" class="btn btn-light">
-    </form>
-</div>
 
 
 <div class="d-inline-flex mr-2">
