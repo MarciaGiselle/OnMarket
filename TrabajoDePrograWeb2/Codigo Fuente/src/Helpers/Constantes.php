@@ -22,7 +22,7 @@ abstract class Constantes
     const PUBLICACIONESVIEW="mispublicaciones";
     const MODIFICARPUBLICACIONESVIEW="modificar";
     const INDEXADMINVIEW="vistaAdmin";
-
+    const BUSCARUSERSVIEW="buscarUsuarios";
 
     const ELIMINARPUBLICACIONESVIEW="eliminarProducto";
 

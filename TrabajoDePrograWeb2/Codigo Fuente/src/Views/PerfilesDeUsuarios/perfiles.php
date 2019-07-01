@@ -1,24 +1,47 @@
 <body>
 <?php
 if(isset($_SESSION["logueado"])){
-
-    include_once ("navLogueado.php") ;
+if(isset($_SESSION["admin"])){
+include_once ("navLogueadoAdmin.php") ;
 }else{
-    include_once ("navNoLogueado.php");
+include_once ("navLogueado.php") ;
 }
 
+}else{
+include_once ("navNoLogueado.php");
+}
 ?>
-<table>
-    <tr>
-        <td>Nombre de usuario</td>
 
+<div class="container">
+
+
+    <form  class="input-group mt-5 mb-5" action="<?php echo getBaseAddress() . "PerfilesDeUsuarios/buscarUsuario" ?>" method="post">
+        <input   class="form-control" type="search" name="nombre" placeholder="busque un usuario por su nombre">
+
+            <input class=' btn btn-primary ' type="submit" value="buscar">
+       </div>
+
+    </form>
+
+
+
+</div>
+<table class=" table table-hover text-center mt-4">
+    <tr>
+        <td>Id</td>
+        <td>Nombre de usuario</td>
+        <td>Publicaciones</td>
+        <td>Compras</td>
+        <td>Estado</td>
     </tr>
 
 <?php
 $tope=count($usuarios);
 for($i=0;$i< $tope;$i++){
    echo "<tr>
-    <td>Usuario:".$usuarios[$i]["userName"]."<br>
+     
+   <th scope='row'>#" . $usuarios[$i]["id"] . "</th>
+    <td>".$usuarios[$i]["userName"]."<br>
      </td>
     
    
@@ -29,16 +52,16 @@ for($i=0;$i< $tope;$i++){
     
     <td> 
         <form method='post' action='".getBaseAddress() . 'MisPublicaciones/verPublicacionesComoAdmin' ."' >
-         Id:".$usuarios[$i]["id"]."
+         
         <input type='hidden' name='id_user' value='".$usuarios[$i]["id"]."'>
-        <input type='submit' value='Publicaciones'> 
+        <input class='btn btn-lg btn-primary' type='submit' value='ver'> 
         </form>                            
     </td>
     
     <td> 
        <form method='post' action='".getBaseAddress() . 'MisCompras/verComprasComoAdmin' ."' >
         <input type='hidden' name='id_user' value='".$usuarios[$i]["id"]."'>
-        <input type='submit' value='Compras'> 
+        <input class='btn btn-lg btn-primary' type='submit' value='ver'> 
         </form>                            
     </td>";
 
@@ -46,14 +69,14 @@ for($i=0;$i< $tope;$i++){
        echo "<td> 
        <form method='post' action='".getBaseAddress() . 'Bloquear/Bloquear' ."' >
         <input type='hidden'  name='id_user' value='".$usuarios[$i]["id"]."'>
-        <input type='submit' value='Bloquear'> 
+        <input  class='btn btn-lg btn-primary' type='submit' value='Bloquear'> 
         </form>                            
     </td>";
    }else{
        echo "<td> 
        <form method='post' action='".getBaseAddress() . 'Desbloquear/desbloquear' ."' >
         <input type='hidden'  name='id_user' value='".$usuarios[$i]["id"]."'>
-        <input type='submit' value='Desbloquear'> 
+        <input class='btn btn-lg btn-primary' type='submit' value='Desbloquear'> 
         </form>                            
     </td>";
    }

@@ -7904,4 +7904,53 @@ StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDeProg
 #1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CompraController->IngresarTarjeta(Array)
 #2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #3 {main}
+[2019-07-01 13:29:50]  Excepción no controlada: 'Undefined class constant 'BUSCARUSERSVIEW'' en el archivo PerfilesDeUsuariosController.php en la línea 35
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PerfilesDeUsuariosController->buscarUsuario(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-01 13:30:45]  Excepción no controlada: 'Undefined variable: title' en el archivo layout.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Shared\layout.php(12): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(25): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PerfilesDeUsuariosController.php(35): Controller->render('buscarUsuarios')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PerfilesDeUsuariosController->buscarUsuario(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-01 13:30:52]  Excepción no controlada: 'Undefined variable: title' en el archivo layout.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Shared\layout.php(12): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(25): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PerfilesDeUsuariosController.php(35): Controller->render('buscarUsuarios')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PerfilesDeUsuariosController->buscarUsuario(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-01 13:31:42]  Excepción no controlada: 'Undefined variable: usuarios' en el archivo buscarUsuarios.php en la línea 22
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\PerfilesDeUsuarios\buscarUsuarios.php(22): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PerfilesDeUsuariosController.php(36): Controller->render('buscarUsuarios')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PerfilesDeUsuariosController->buscarUsuario(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-01 13:32:22]  Excepción no controlada: 'Undefined variable: title' en el archivo layout.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Shared\layout.php(12): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(25): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PerfilesDeUsuariosController.php(36): Controller->render('buscarUsuarios')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PerfilesDeUsuariosController->buscarUsuario(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-01 13:32:39]  Excepción no controlada: 'Undefined variable: title' en el archivo layout.php en la línea 12
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Shared\layout.php(12): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 12, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(25): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PerfilesDeUsuariosController.php(36): Controller->render('buscarUsuarios')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PerfilesDeUsuariosController->buscarUsuario(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-01 13:47:00]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 46
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
 
