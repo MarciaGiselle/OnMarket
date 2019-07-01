@@ -61,7 +61,7 @@ if (isset($_SESSION["logueado"])) {
 
             <div class="text-center align-items-center">
                 <div class="valoracion">
-                <form method="post" action="<?php echo getBaseAddress() . "Usuario/valorarAlVendedor" ?>" method="post">
+                <form method="post" action="<?php echo getBaseAddress() . "Usuario/valorarPublicacion" ?>" method="post">
 
                     <input class="d-none" id="radio1" type="radio" name="estrellas" value="5">
                     <label for="radio1"><i class="far fa-star fa-3x"></i></label>
