@@ -96,10 +96,15 @@ class UsuarioController extends Controller
         echo json_encode(true);
 
 
+    }
+
+    function valorarAlvendedor($datos){
+
+        $valoracion= $datos["estrellas"];
+        echo $valoracion;
 
 
     }
-
 }
  
 
