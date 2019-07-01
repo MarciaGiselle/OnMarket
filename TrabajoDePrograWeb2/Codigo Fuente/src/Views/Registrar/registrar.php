@@ -17,6 +17,8 @@ if(isset($_SESSION["logueado"])){
     include_once ("navNoLogueado.php");
 }
 ?>
+
+
 <main>
     <div class="container">
         <br>
@@ -98,19 +100,26 @@ if(isset($_SESSION["logueado"])){
 
 
             </div>
+            <div "form-group col-md-6">
+            <?php
+           include_once ("mapa2.php")
+         ?>
+            </div>
+            <input type="hidden" id="lat">
+            <input type="hidden" id="lon">
 
-
-            <div class=" custom-checkbox my-1 mr-sm-2">
+            <div class=" form-group col-md-6">
                 <input  type="checkbox"  id="terminos"/>
                 <label class="text-primary" for="terminos">Acepto términos y condiciones</label>
             </div>
             <div class="d-none alert-danger p-1 rounded justify-content-around error" id="errorTerminos">
                 <i class="fa fa-exclamation-circle error"></i>
                 <small class="text-left"></small>
-            </div>
+            </div class="">
 
             <hr>
             <br>
+            
 
             <div class="btn btn-primary btn-lg btn-block">
                 <input class="btn btn-primary" type="button"  id="registrar" value="Enviar registro">
@@ -121,7 +130,7 @@ if(isset($_SESSION["logueado"])){
 
     </div>
 </main>
-
+ 
 <br>
 
 <footer class="bg-primary page-footer font-small blue pt-4">

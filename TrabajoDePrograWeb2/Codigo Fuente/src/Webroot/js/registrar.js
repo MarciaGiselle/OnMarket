@@ -4,6 +4,8 @@ const regexLetras = /[A-Za-z]+/;
 const regexCorreo = /^(([A-Za-z0-9]+_+)|([A-Za-z0-9]+\-+)|([A-Za-z0-9]+\.+)|([A-Za-z0-9]+\++))*[A-Za-z0-9]+@((\w+\-+)|(\w+\.))*\w{1,63}\.[a-zA-Z]{2,6}$/;
 
 var inputName = $('#name');
+var lat = $('#lat');
+var lon = $('#lon');
 var inputApellido = $('#apellido');
 var inputCorreo = $("#correo");
 var inputCuit =$("#cuit");
@@ -207,6 +209,8 @@ alert("valido");
         obj.nombreUsuario=$("#nombreUsuario").val();
         obj.sexo=$("#sexo").val();
         obj.terminos=$("#terminos").val();
+        obj.lat=$("#lat").val();
+        obj.lon=$("#lon").val();
 
         llamadaAjax(pathRegistrar, JSON.stringify(obj), true, "loginExitoso", "loginFallido");
     }

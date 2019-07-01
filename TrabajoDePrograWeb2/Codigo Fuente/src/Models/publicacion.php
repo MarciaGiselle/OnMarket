@@ -46,7 +46,13 @@ class Publicacion extends Model
 
 
   }
+  //se supone q esta funcion con nombre feo me traer el id del usuario q hizo la publicacion donde esta el producto
+public function traerPublicaciondelProducto($idProd){
+    $resultado=$this->pageRows(0,1, "id_producto=$idProd");
 
+    return $resultado[0];
+
+}
 
 
     public function  traePublicaionPorId($idUser){
