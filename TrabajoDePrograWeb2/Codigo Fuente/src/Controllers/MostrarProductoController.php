@@ -19,22 +19,17 @@ class MostrarProductoController extends Controller
 
             $publicacion=new Publicacion();
 
-            /*$publicacionDelProducto=$publicacion->traerPublicaciondelProducto($id);
+            $publicacionDelProducto=$publicacion->traerPublicaciondelProducto($id);
 
              $idUser=$publicacionDelProducto["id_user"];
-            $usuario=new Usuario();
 
-            $usuarioDeLaPublicacion=$usuario->traerUserPorPk($idUser);
+              $localizacion=new Localizacion();
 
-            $idLocalizacion=  $usuarioDeLaPublicacion["id_localizacion"];
-            $localizacion=new Localizacion();
-
-            $localizacionDelUser=$localizacion->traerLocalizacionPorId($idLocalizacion);
+            $localizacionDelUser=$localizacion->traerLocalizacionPorIdUser($idUser);
 
             $lat=$localizacionDelUser["latitud"];
-            $lon=$localizacionDelUser["longitud"];*/
-        $lat=-34.6686986;
-        $lon=-58.5614947;
+            $lon=$localizacionDelUser["longitud"];
+
             $imagen =new Imagen();
             $d["imagen"] = $imagen->imagenPk($id);
             $nombre=explode(" ", $prodEncontrado["nombre"]);

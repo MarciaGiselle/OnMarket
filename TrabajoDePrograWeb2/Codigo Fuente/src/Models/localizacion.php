@@ -6,7 +6,7 @@ class localizacion extends Model
   private $id;
   private $longitud;
   private $latitud;
-
+  private $id_user;
     /**
      * @return mixed
      */
@@ -48,6 +48,22 @@ class localizacion extends Model
     }
 
     /**
+     * @return mixed
+     */
+    public function getIdUser()
+    {
+        return $this->id_user;
+    }
+
+    /**
+     * @param mixed $id_user
+     */
+    public function setIdUser($id_user)
+    {
+        $this->id_user = $id_user;
+    }
+
+    /**
      * @param mixed $latitud
      */
     public function setLatitud($latitud)
@@ -63,8 +79,8 @@ class localizacion extends Model
         $this->setId($this->insert($array));
         return $this->getId();
     }
- public function traerLocalizacionPorId($id){
-     $resultado=$this->pageRows(0,1, "id=$id");
+ public function traerLocalizacionPorIdUser($id){
+     $resultado=$this->pageRows(0,1, "id_user=$id");
      //$resultado=$this->selectByPk($pk);
      return $resultado[0];
 

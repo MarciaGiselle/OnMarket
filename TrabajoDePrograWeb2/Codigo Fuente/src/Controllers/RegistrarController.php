@@ -52,17 +52,23 @@ class RegistrarController extends Controller
                   $localizacion=new Localizacion();
                   $localizacion->setLatitud($datos->lat);
                   $localizacion->setLongitud($datos->lon);
-                  $idLocalizacion=$localizacion->insertarLocalizacion();
 
-                  if(isset($idLocalizacion)){
-                  $usuario->setIdLocalizacion($idLocalizacion);
+
+
+
                   $passSHA = sha1($pass2);
                   $usuario->setPassword($passSHA);
 
                   $usuario->setEstado(1);
-                  $_SESSION["logueado"]= $usuario->insertarRegistro();
 
-                  }
+                      $id_user= $usuario->insertarRegistro();
+                      $_SESSION["logueado"]=$id_user;
+
+                      if(isset($id_user)){
+                      $localizacion->setIdUser($id_user);
+                      $localizacion->insertarLocalizacion();
+                      }
+
                }else{
                 throw new ExcentionRegistar("las contraseñas no son iguales", CodigoError::ExcentionRegistar);
 

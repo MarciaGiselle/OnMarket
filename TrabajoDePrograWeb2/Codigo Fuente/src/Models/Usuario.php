@@ -18,7 +18,7 @@ class Usuario extends Model
     private $sexo;
     private $rol;
      private $estado;
-     private $id_localizacion;
+
     function buscarUsuario(){
     $resultado=$this->pageRows(0,1,"name= '$this->name' and password='$this->password'");
     if (!empty($resultado)){
@@ -222,7 +222,7 @@ class Usuario extends Model
            "sexo"=>$this->getSexo(),
             "rol"=>$this->getRol(),
          "estado"=>$this->getEstado(),
-         "id_localizacion"=>$this->getIdLocalizacion()
+
 
         ];
 
@@ -230,22 +230,6 @@ class Usuario extends Model
         return $this->getId();
 
    }
-
-    /**
-     * @return mixed
-     */
-    public function getIdLocalizacion()
-    {
-        return $this->id_localizacion;
-    }
-
-    /**
-     * @param mixed $id_localizacion
-     */
-    public function setIdLocalizacion($id_localizacion)
-    {
-        $this->id_localizacion = $id_localizacion;
-    }
 
     /**
      * @return mixed

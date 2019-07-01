@@ -50,7 +50,7 @@ class Publicacion extends Model
 public function traerPublicaciondelProducto($idProd){
     $resultado=$this->pageRows(0,1, "id_producto=$idProd");
 
-    return $resultado;
+    return $resultado[0];
 
 }
 
