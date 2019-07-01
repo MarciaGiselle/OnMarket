@@ -100,18 +100,23 @@ confirmar.click(function () {
         obj.codigoDeSeguridad = inputcodigo.val();
         obj.fechaDeVencimiento = inputfecha.val();
 
-        llamadaAjax(pathCompra, JSON.stringify(obj), true, "loginExitoso", "loginFallido");
+        llamadaAjax(pathCompra, JSON.stringify(obj), true, "compraExitosa", "loginFallido");
     }
 });
 
-function loginExitoso(dummy) {
+function compraExitosa(dummy) {
     alertify.alert("¡Compra Exitosa!", "Espere unos segundos y será redireccionado al inicio");
-
+    valorar();
     setTimeout(function () {
 
         window.location.href = pathHome;
 
     }, 5000);
+
+}
+
+function valorar(){
+
 
 }
 
