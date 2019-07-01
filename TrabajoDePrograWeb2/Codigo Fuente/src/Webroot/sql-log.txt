@@ -17209,3 +17209,7 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-30 14:31:41]  select * from Rol  where id=1 limit 0, 1
 [2019-06-30 14:31:41]  select * from Usuario  where userName='tro' limit 0, 1
 [2019-06-30 14:31:41]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('rororor','oor','9adcb29710e807607b683f62e555c22dc5659713','123','roro@gmail.com','tro','Hombre','2','1')
+[2019-06-30 20:44:06]  DESC Producto
+[2019-06-30 20:44:06]  select * from Producto  where id=87 limit 0, 100
+[2019-06-30 23:13:32]  DESC Producto
+[2019-06-30 23:13:32]  select * from Producto  where id=87 limit 0, 100
