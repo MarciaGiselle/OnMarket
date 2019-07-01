@@ -29,68 +29,73 @@ if(isset($_SESSION["logueado"])){
 
         <div class="form-row">
 
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-5">
                 <label class="text-primary " for="name">Nombre:</label>
                 <input class="form-control" type="text" id="name" name="name">
-            </div>
-            <div class="d-none alert-danger p-1 rounded justify-content-around error" id="errorName">
-                <i class="fa fa-exclamation-circle error"></i>
-                <small class="text-left"></small>
+                <div class="d-none alert-danger p-1 rounded form-group col-md-4  error" id="errorName">
+                    <i class="fa fa-exclamation-circle error"></i>
+                    <small class="text-left"></small>
+                </div>
             </div>
 
 
-            <div class="form-group col-md-6">
+
+            <div class="form-group col-md-5">
                 <label class="text-primary " for="apellido">Apellido:</label>
                 <input class="form-control" type="text" id="apellido" name="apellido">
-            </div>
-            <div class="d-none alert-danger p-1 rounded justify-content-around error" id="errorApellido">
-                <i class="fa fa-exclamation-circle error"></i>
-                <small class="text-left"></small>
+                <div class="d-none alert-danger p-1 rounded  form-group col-md-4 error" id="errorApellido">
+                    <i class="fa fa-exclamation-circle error"></i>
+                    <small class="text-left"></small>
+                </div>
             </div>
 
-            <div class="form-group col-md-6">
+
+            <div class="form-group col-md-5">
                 <label class="text-primary " for="correo">Correo:</label>
                 <input class="form-control" type="email" id="correo" name="correo">
-            </div>
-            <div class="d-none alert-danger p-1 rounded justify-content-around error" id="errorCorreo">
-                <i class="fa fa-exclamation-circle error"></i>
-                <small class="text-left"></small>
+                <div class="d-none alert-danger p-1 rounded  form-group col-md-4 error" id="errorCorreo">
+                    <i class="fa fa-exclamation-circle error"></i>
+                    <small class="text-left"></small>
+                </div>
             </div>
 
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-5">
                 <label class="text-primary " for="cuit">Cuit:</label>
                 <input class="form-control" type="text" id="cuit" name="cuit">
-            </div>
-            <div class="d-none alert-danger p-1 rounded justify-content-around error" id="errorCuit">
-                <i class="fa fa-exclamation-circle error"></i>
-                <small class="text-left"></small>
+                <div class="d-none alert-danger p-1 rounded  form-group col-md-5 error" id="errorCuit">
+                    <i class="fa fa-exclamation-circle error"></i>
+                    <small class="text-left"></small>
+                </div>
             </div>
 
-            <div class="form-group col-md-6">
+
+            <div class="form-group col-md-5">
                 <label class="text-primary " for="nombreUsuario">Nombre de usuario:</label>
                 <input class="form-control" type="text" id="nombreUsuario" name="nombreUsuario">
-            </div>
-            <div class="d-none alert-danger p-1 rounded justify-content-around error" id="errorNombreUsuario">
-                <i class="fa fa-exclamation-circle error"></i>
-                <small class="text-left"></small>
+                <div class="d-none alert-danger p-1 rounded  form-group col-md-4 error" id="errorNombreUsuario">
+                    <i class="fa fa-exclamation-circle error"></i>
+                    <small class="text-left"></small>
+                </div>
             </div>
 
-            <div class="form-group col-md-6">
+
+            <div class="form-group col-md-5">
                 <label class="text-primary " for="pass">Contraseña:</label>
                 <input class="form-control" type="password" id="pass" name="pass">
-            </div>
-            <div class="d-none alert-danger p-1 rounded justify-content-around error" id="errorContraseña">
-                <i class="fa fa-exclamation-circle error"></i>
-                <small class="text-left"></small>
+                <div class="d-none alert-danger p-1 rounded  form-group col-md-4 error" id="errorContraseña">
+                    <i class="fa fa-exclamation-circle error"></i>
+                    <small class="text-left"></small>
+                </div>
             </div>
 
-            <div class="form-group col-md-6">
+
+            <div class="form-group col-md-5">
                 <label class="text-primary" for="pass2">Repetir Contraseña:</label>
                 <input class="form-control" type="password" id="pass2" name="pass2">
             </div>
 
 
-            <div class="form-group col-md-6">
+            <div class="form-group col-md-5">
                 <label class="text-primary " for="sexo">Sexo:</label>
                 <select class="form-control" id="sexo" name="sexo">
                     <option>Hombre</option>
@@ -100,22 +105,26 @@ if(isset($_SESSION["logueado"])){
 
 
             </div>
-            <div "form-group col-md-6">
-            <?php
-           include_once ("mapa2.php")
-         ?>
-            </div>
-            <input type="hidden" id="lat">
-            <input type="hidden" id="lon">
 
-            <div class=" form-group col-md-6">
+
+            <div class=" form-group col-md-5">
                 <input  type="checkbox"  id="terminos"/>
                 <label class="text-primary" for="terminos">Acepto términos y condiciones</label>
+                <div class="d-none alert-danger p-1 rounded form-group col-md-4 error" id="errorTerminos">
+                    <i class="fa fa-exclamation-circle error"></i><br>
+                    <small class="text-left"></small>
+                </div>
+
             </div>
-            <div class="d-none alert-danger p-1 rounded justify-content-around error" id="errorTerminos">
-                <i class="fa fa-exclamation-circle error"></i>
-                <small class="text-left"></small>
-            </div class="">
+
+            <div class=" form-group col-md-5">
+                <?php
+                include_once ("mapa2.php")
+                ?>
+
+                <input class="form-control" type="hidden" id="lat">
+                <input class="form-control" type="hidden" id="lon">
+            </div>
 
             <hr>
             <br>

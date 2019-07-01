@@ -231,6 +231,11 @@ class Usuario extends Model
 
    }
 
+
+   public function buscarUsuariosPorUserName($nombre){
+       $resultado=$this->pageRows(0,100, "userName like '%$nombre%'");
+       return $resultado;
+   }
     /**
      * @return mixed
      */

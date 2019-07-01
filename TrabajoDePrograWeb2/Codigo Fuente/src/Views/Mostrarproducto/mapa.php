@@ -41,8 +41,8 @@
     </script>
 </head>
 <body onload="loadMap()">
-
-<div id="mapa" style="width:500px; height:400px;"></div>
+<label class="text-secondary mt-2" for="id">Ubicacion del producto:</label>
+<div class="mt-2" id="mapa" style="width:250px; height:200px;"></div>
 
 
 
