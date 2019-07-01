@@ -46,11 +46,20 @@ if(isset($_SESSION["logueado"])){
                 <label class="text-secondary mt-2" for="id">Unidades a comprar:</label>
                 <input class="rounded d-block" type="number" value="1" name="id" id="cantidad">
 
+
+
+
+
                 <input class="btn btn-primary mt-5 mr-2" type="reset" value="Cancelar">
                 <button class="btn btn-primary mt-5" id="agregar">Agregar Al carrito</button>
             </div>
 
+            <div>
+                <?php
+                include_once ("mapa.php");
 
+                ?>
+            </div>
             <input type="hidden" name="id" id="id" value="<?php echo $resultado["id"]; ?>">
         </div>
     </div>

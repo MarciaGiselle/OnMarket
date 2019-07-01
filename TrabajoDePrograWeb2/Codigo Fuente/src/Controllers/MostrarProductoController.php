@@ -17,10 +17,32 @@ class MostrarProductoController extends Controller
             $d["resultado"] = $prodEncontrado;
             $d["title"]=$prodEncontrado["nombre"];
 
+            $publicacion=new Publicacion();
+
+            /*$publicacionDelProducto=$publicacion->traerPublicaciondelProducto($id);
+
+             $idUser=$publicacionDelProducto["id_user"];
+            $usuario=new Usuario();
+
+            $usuarioDeLaPublicacion=$usuario->traerUserPorPk($idUser);
+
+            $idLocalizacion=  $usuarioDeLaPublicacion["id_localizacion"];
+            $localizacion=new Localizacion();
+
+            $localizacionDelUser=$localizacion->traerLocalizacionPorId($idLocalizacion);
+
+            $lat=$localizacionDelUser["latitud"];
+            $lon=$localizacionDelUser["longitud"];*/
+        $lat=-34.6686986;
+        $lon=-58.5614947;
             $imagen =new Imagen();
             $d["imagen"] = $imagen->imagenPk($id);
             $nombre=explode(" ", $prodEncontrado["nombre"]);
             $d["productosRelacionados"]=($this->mostrarProductosRelacionados($nombre[0],$id));
+            $d["lat"] = $lat;
+           $d["lon"] = $lon;
+
+
             $this->set($d);
             $this->render(Constantes::MOSTRARVIEW);
         

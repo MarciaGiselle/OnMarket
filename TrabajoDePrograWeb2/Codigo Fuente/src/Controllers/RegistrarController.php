@@ -34,6 +34,11 @@ class RegistrarController extends Controller
 
         $rolASetear=$rol->determinarRol();
        $usuario->setRol($rolASetear);
+
+
+
+
+
         $pass=$datos->pass;
          $pass2=$datos->pass2;
 
@@ -43,12 +48,21 @@ class RegistrarController extends Controller
           }
 
               if ($pass==$pass2) {
+                  //creo su logalizacion para luego setearla
+                  $localizacion=new Localizacion();
+                  $localizacion->setLatitud($datos->lat);
+                  $localizacion->setLongitud($datos->lon);
+                  $idLocalizacion=$localizacion->insertarLocalizacion();
+
+                  if(isset($idLocalizacion)){
+                  $usuario->setIdLocalizacion($idLocalizacion);
                   $passSHA = sha1($pass2);
                   $usuario->setPassword($passSHA);
+
                   $usuario->setEstado(1);
                   $_SESSION["logueado"]= $usuario->insertarRegistro();
 
-
+                  }
                }else{
                 throw new ExcentionRegistar("las contraseñas no son iguales", CodigoError::ExcentionRegistar);
 
