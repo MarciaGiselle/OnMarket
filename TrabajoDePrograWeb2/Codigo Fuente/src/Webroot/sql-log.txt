@@ -17672,3 +17672,95 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-30 23:39:39]  DESC localizacion
 [2019-06-30 23:39:39]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('gd','gdfg','9adcb29710e807607b683f62e555c22dc5659713','78','dgdf@gmail.com','rotofyrey','Hombre','2','1')
 [2019-06-30 23:39:39]  INSERT INTO `localizacion` (`longitud`,`latitud`) VALUES ('-71.54296899999997','-35.675147')
+[2019-07-01 10:02:04]  DESC Usuario
+[2019-07-01 10:02:05]  DESC Rol
+[2019-07-01 10:02:05]  select * from Rol  where id=1 limit 0, 1
+[2019-07-01 10:02:05]  select * from Usuario  where userName='gonza' limit 0, 1
+[2019-07-01 10:02:05]  DESC localizacion
+[2019-07-01 10:02:05]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('gonzalo','ds','9adcb29710e807607b683f62e555c22dc5659713','4856','rocio@gmail.com','gonza','Hombre','2','1')
+[2019-07-01 10:02:05]  INSERT INTO `localizacion` (`longitud`,`latitud`) VALUES ('-71.54296899999997','-35.675147')
+[2019-07-01 10:04:37]  DESC Usuario
+[2019-07-01 10:04:37]  DESC Rol
+[2019-07-01 10:04:37]  select * from Rol  where id=1 limit 0, 1
+[2019-07-01 10:04:37]  select * from Usuario  where userName='gonza' limit 0, 1
+[2019-07-01 10:04:55]  DESC Usuario
+[2019-07-01 10:04:56]  DESC Rol
+[2019-07-01 10:04:56]  select * from Rol  where id=1 limit 0, 1
+[2019-07-01 10:04:56]  select * from Usuario  where userName='gonzaf' limit 0, 1
+[2019-07-01 10:04:56]  DESC localizacion
+[2019-07-01 10:04:56]  INSERT INTO `localizacion` (`longitud`,`latitud`) VALUES ('-71.54296899999997','-35.675147')
+[2019-07-01 10:05:51]  DESC Usuario
+[2019-07-01 10:05:51]  DESC Rol
+[2019-07-01 10:05:51]  select * from Rol  where id=1 limit 0, 1
+[2019-07-01 10:05:51]  select * from Usuario  where userName='Rocioooo' limit 0, 1
+[2019-07-01 10:05:51]  DESC localizacion
+[2019-07-01 10:05:51]  INSERT INTO `localizacion` (`longitud`,`latitud`) VALUES ('-71.54296899999997','-35.675147')
+[2019-07-01 10:10:57]  DESC localizacion
+[2019-07-01 10:10:57]  INSERT INTO `localizacion` (`longitud`,`latitud`) VALUES ('-71.54296899999997','-35.675147')
+[2019-07-01 10:14:02]  DESC Usuario
+[2019-07-01 10:14:02]  DESC Rol
+[2019-07-01 10:14:02]  select * from Rol  where id=1 limit 0, 1
+[2019-07-01 10:14:02]  select * from Usuario  where userName='dfds' limit 0, 1
+[2019-07-01 10:14:02]  DESC localizacion
+[2019-07-01 10:14:02]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('dfsf','dsfsdf','9adcb29710e807607b683f62e555c22dc5659713','123','fsfs@gmail.com','dfds','Otros','2','1')
+[2019-07-01 10:14:03]  INSERT INTO `localizacion` (`longitud`,`latitud`) VALUES ('-71.54296899999997','-35.675147')
+[2019-07-01 10:16:08]  DESC Usuario
+[2019-07-01 10:16:09]  DESC Rol
+[2019-07-01 10:16:09]  select * from Rol  where id=1 limit 0, 1
+[2019-07-01 10:16:09]  select * from Usuario  where userName='rogo' limit 0, 1
+[2019-07-01 10:16:09]  DESC localizacion
+[2019-07-01 10:16:09]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('dasd','adsad','9adcb29710e807607b683f62e555c22dc5659713','132','sda@gmail.com','rogo','Hombre','2','1')
+[2019-07-01 10:17:50]  DESC Usuario
+[2019-07-01 10:17:50]  DESC Rol
+[2019-07-01 10:17:50]  select * from Rol  where id=1 limit 0, 1
+[2019-07-01 10:17:50]  select * from Usuario  where userName='holama' limit 0, 1
+[2019-07-01 10:18:07]  DESC Usuario
+[2019-07-01 10:18:07]  DESC Rol
+[2019-07-01 10:18:07]  select * from Rol  where id=1 limit 0, 1
+[2019-07-01 10:18:08]  select * from Usuario  where userName='holama' limit 0, 1
+[2019-07-01 10:18:08]  DESC localizacion
+[2019-07-01 10:18:08]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('dad','asdas','9adcb29710e807607b683f62e555c22dc5659713','123','sad@gmail.com','holama','Hombre','2','1')
+[2019-07-01 10:18:08]  INSERT INTO `localizacion` (`longitud`,`latitud`) VALUES ('-71.54296899999997','-35.675147')
+[2019-07-01 10:18:58]  DESC Usuario
+[2019-07-01 10:18:58]  DESC Rol
+[2019-07-01 10:18:59]  select * from Rol  where id=1 limit 0, 1
+[2019-07-01 10:18:59]  select * from Usuario  where userName='holama' limit 0, 1
+[2019-07-01 10:19:09]  DESC Usuario
+[2019-07-01 10:19:09]  DESC Rol
+[2019-07-01 10:19:09]  select * from Rol  where id=1 limit 0, 1
+[2019-07-01 10:19:09]  select * from Usuario  where userName='holamadsa' limit 0, 1
+[2019-07-01 10:19:09]  DESC localizacion
+[2019-07-01 10:19:09]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('dad','asdas','9adcb29710e807607b683f62e555c22dc5659713','123','sad@gmail.com','holamadsa','Hombre','2','1')
+[2019-07-01 10:19:09]  INSERT INTO `localizacion` (`longitud`,`latitud`) VALUES ('-71.54296899999997','-35.675147')
+[2019-07-01 10:26:15]  DESC Usuario
+[2019-07-01 10:26:15]  DESC Rol
+[2019-07-01 10:26:15]  select * from Rol  where id=1 limit 0, 1
+[2019-07-01 10:26:15]  select * from Usuario  where userName='holamadsa' limit 0, 1
+[2019-07-01 10:26:23]  DESC Usuario
+[2019-07-01 10:26:23]  DESC Rol
+[2019-07-01 10:26:23]  select * from Rol  where id=1 limit 0, 1
+[2019-07-01 10:26:23]  select * from Usuario  where userName='holamadsaf' limit 0, 1
+[2019-07-01 10:26:23]  DESC localizacion
+[2019-07-01 10:26:23]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('dad','asdas','9adcb29710e807607b683f62e555c22dc5659713','123','sad@gmail.com','holamadsaf','Hombre','2','1')
+[2019-07-01 10:26:23]  INSERT INTO `localizacion` (`longitud`,`latitud`) VALUES ('-71.54296899999997','-35.675147')
+[2019-07-01 10:28:17]  DESC Usuario
+[2019-07-01 10:28:17]  DESC Rol
+[2019-07-01 10:28:17]  select * from Rol  where id=1 limit 0, 1
+[2019-07-01 10:28:17]  select * from Usuario  where userName='holamadsafdf' limit 0, 1
+[2019-07-01 10:28:17]  DESC localizacion
+[2019-07-01 10:28:18]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('dad','asdas','9adcb29710e807607b683f62e555c22dc5659713','123','sad@gmail.com','holamadsafdf','Hombre','2','1')
+[2019-07-01 10:28:18]  INSERT INTO `localizacion` (`longitud`,`latitud`,`id_user`) VALUES ('-71.54296899999997','-35.675147','13')
+[2019-07-01 10:30:47]  DESC Usuario
+[2019-07-01 10:30:48]  DESC Rol
+[2019-07-01 10:30:48]  select * from Rol  where id=1 limit 0, 1
+[2019-07-01 10:30:48]  select * from Usuario  where userName='Tomy66' limit 0, 1
+[2019-07-01 10:30:48]  DESC localizacion
+[2019-07-01 10:30:48]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('Tomy','tomas','3d2a34c7b4f68d10409cf0396858ef533db01ac7','123','tomy@gmail.com','Tomy66','Hombre','2','1')
+[2019-07-01 10:30:49]  INSERT INTO `localizacion` (`longitud`,`latitud`,`id_user`) VALUES ('-71.54296899999997','-35.675147','13')
+[2019-07-01 10:34:04]  DESC Usuario
+[2019-07-01 10:34:04]  DESC Rol
+[2019-07-01 10:34:05]  select * from Rol  where id=1 limit 0, 1
+[2019-07-01 10:34:05]  select * from Usuario  where userName='tomy2' limit 0, 1
+[2019-07-01 10:34:05]  DESC localizacion
+[2019-07-01 10:34:07]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('Tomy2','pepito','9adcb29710e807607b683f62e555c22dc5659713','12345','tomy@gmail.com','tomy2','Hombre','2','1')
+[2019-07-01 10:34:07]  INSERT INTO `localizacion` (`longitud`,`latitud`,`id_user`) VALUES ('-71.54296899999997','-35.675147','67')

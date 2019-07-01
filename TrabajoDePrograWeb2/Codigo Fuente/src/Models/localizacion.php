@@ -74,7 +74,8 @@ class localizacion extends Model
     public function insertarLocalizacion(){
         $array=[
             "longitud"=> $this->getLongitud(),
-            "latitud"=>$this->getLatitud()
+            "latitud"=>$this->getLatitud(),
+            "id_user"=>$this->getIdUser()
         ] ;
         $this->setId($this->insert($array));
         return $this->getId();

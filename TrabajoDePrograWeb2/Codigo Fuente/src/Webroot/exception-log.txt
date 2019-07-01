@@ -7879,3 +7879,23 @@ StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\di
 #1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #2 {main}
 
+[2019-07-01 10:04:38]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 47
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-01 10:17:51]  Error 20: 'las contraseñas no son iguales' en el archivo RegistrarController.php en la línea 71
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-01 10:18:59]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 47
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-01 10:26:15]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 47
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+

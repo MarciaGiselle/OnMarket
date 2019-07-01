@@ -45,9 +45,7 @@ class RegistrarController extends Controller
 
            if (!$usuario->consultarUserName()) {
             throw new ExcentionRegistar("Nombre de usuario ya existente", CodigoError::ExcentionRegistar);
-          }
-
-              if ($pass==$pass2) {
+          }else if ($pass==$pass2) {
                   //creo su logalizacion para luego setearla
                   $localizacion=new Localizacion();
                   $localizacion->setLatitud($datos->lat);
