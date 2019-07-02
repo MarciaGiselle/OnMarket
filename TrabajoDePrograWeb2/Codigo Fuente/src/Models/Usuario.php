@@ -18,6 +18,8 @@ class Usuario extends Model
     private $sexo;
     private $rol;
      private $estado;
+    private $tipo_por_valoracion;
+
 
     function buscarUsuario(){
     $resultado=$this->pageRows(0,1,"name= '$this->name' and password='$this->password'");
@@ -407,6 +409,22 @@ class Usuario extends Model
     public function setRol($rol)
     {
         $this->rol = $rol;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getTipoPorValoracion()
+    {
+        return $this->tipo_por_valoracion;
+    }
+
+    /**
+     * @param mixed $tipo_por_valoracion
+     */
+    public function setTipoPorValoracion($tipo_por_valoracion)
+    {
+        $this->tipo_por_valoracion = $tipo_por_valoracion;
     }
 
 

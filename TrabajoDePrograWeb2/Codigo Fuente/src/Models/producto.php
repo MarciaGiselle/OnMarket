@@ -33,13 +33,9 @@ class Producto extends Model
             "idCategoria"=>$this->getIdCategoria(),
         ] ;
 
-
-
-
         return $this->update($array);
-
-
     }
+
    function eliminar($pk){
        return  $this->delete($pk);
    }
