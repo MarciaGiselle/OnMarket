@@ -125,9 +125,8 @@ class UsuarioController extends Controller
 
         if($error==0){
           $idValoracion=$valoracion->insert($valoracion);
-          //retona bajo, medio o alto segun el contador q sea mayor
-          $valoracionMayor=$valoracion->realizarConteoPorPk($idVendedor);
-          $idValoracion=$tipoValoracion->buscarIdPorDescripcion($valoracionMayor);
+          $promedio=$valoracion->realizarPromedioPorPk($idVendedor);
+          $idValoracion=$tipoValoracion->definirIdPorPromedio($promedio);
           $usuario->setTipoPorValoracion($idValoracion);
 
         }
