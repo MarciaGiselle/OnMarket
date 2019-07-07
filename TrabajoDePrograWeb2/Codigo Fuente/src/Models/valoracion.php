@@ -5,7 +5,7 @@ class valoracion extends Model{
     private $id;
     private $numero;
     private $comentario;
-    private $idPublicacion;
+    private $idVendedor;
 
     /**
      * @return mixed
@@ -58,17 +58,17 @@ class valoracion extends Model{
     /**
      * @return mixed
      */
-    public function getIdPublicacion()
+    public function getIdVendedor()
     {
-        return $this->idPublicacion;
+        return $this->idVendedor;
     }
 
     /**
-     * @param mixed $idPublicacion
+     * @param mixed $idVendedor
      */
-    public function setIdPublicacion($idPublicacion)
+    public function setIdVendedor($idVendedor)
     {
-        $this->idPublicacion = $idPublicacion;
+        $this->idVendedor = $idVendedor;
     }
 
 

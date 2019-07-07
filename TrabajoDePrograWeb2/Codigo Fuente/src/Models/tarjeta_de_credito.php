@@ -35,10 +35,6 @@ class tarjeta_de_credito extends Model{
       unset($_SESSION["carrito"]);
 
 
-
-
-
-
   }
 
 

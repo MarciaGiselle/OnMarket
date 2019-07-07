@@ -77,15 +77,19 @@ class UsuarioController extends Controller
         $codigo=$data->codigoDeSeguridad;
         $fecha=$data->fechaDeVencimiento;
         $numeroTarjeta=$data->numeroTarjeta;
+
         $idUser=$_SESSION["logueado"];
+
         if(isset($idUser)){
             $tarjeta= new tarjeta_de_credito();
             $tarjeta->setIdUser($idUser);
             $tarjeta->setCodSeguridad($codigo);
             $tarjeta->setFechaVencimiento($fecha);
             $idTarjeta=$tarjeta->insertar();
+
             if(isset($idTarjeta)) {
                 $idCobranza=$tarjeta->pagar( $idTarjeta, $fecha,$total);
+
             }
         }else{
             throw new ExcentionRegistar("Compra fallida", CodigoError::ExcentionRegistar);
@@ -97,15 +101,19 @@ class UsuarioController extends Controller
     }
 
     function valorarPublicacion($datos){
-        $valoracion= new valoracion();
         $usuario= new Usuario();
+        $producto= new Producto();
+        $publicacion= new Publicacion();
+
+
         $tipoValoracion= new tipodeusuarioporvaloracion();
 
+        $prodEncontrado=$producto->buscarUnProductoPorPk($datos["idProducto"]);
+        $publicEncontrada=$publicacion->traerPublicaciondelProducto($datos["idProducto"]);
 
-        $idVendedor=$valoracion->buscarVendedorPorPkPublicacion($datos["idPublicacion"]);
-
-        $valoracion->setIdPublicacion($datos["idPublicacion"]);
-
+        $valoracion= new valoracion();
+        $valoracion->setIdVendedor($publicEncontrada["id_user"]);
+        
         $error=0;
         if(FuncionesComunes::validarNumeros($datos["estrellas"])){
         $valoracion->setNumero($datos["estrellas"]);

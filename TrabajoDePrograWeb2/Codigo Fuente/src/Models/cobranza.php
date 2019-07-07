@@ -24,6 +24,11 @@ class cobranza extends Model
     /**
      * @return mixed
      */
+    function buscarMisCompras($id){
+        $resultado=$this->pageRows(0,100,"id=$id");
+        return $resultado;
+}
+
     public function getTotal()
     {
         return $this->total;

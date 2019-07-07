@@ -43,7 +43,7 @@ if (isset($_SESSION["logueado"])) {
 
         <tr>
         </thead>
-        <tbody><tr>
+        <tbody><td>
                 <th scope="row">' . $nro . '</th>
                 <td> ' . $nombre . '  </td>
                 <td> ' . $precio . ' </td>
@@ -57,7 +57,7 @@ if (isset($_SESSION["logueado"])) {
                  <button type="submit" id="eliminar">
                 <i class="far fa-trash-alt fa-lg" style="color: red;" ></i>
                 </button>
-                </tr>
+                </td>
               </form>';
         }
 
