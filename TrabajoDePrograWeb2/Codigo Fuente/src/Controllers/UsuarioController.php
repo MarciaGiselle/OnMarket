@@ -69,6 +69,8 @@ class UsuarioController extends Controller
     }
 
 
+
+
     function realizarCompra($datos){
         header("Content-type: application/json");
         $data = json_decode(utf8_decode($datos['data']));
@@ -143,8 +145,8 @@ class UsuarioController extends Controller
 
 
 
-
     }
+
 }
  
 

@@ -65,11 +65,12 @@ if (isset($_SESSION["logueado"])) {
         <th scope="row"></th>
         <td class="font-weight-bold" colspan="3">Total:</td>
       <td class="font-weight-bold">$ '. $total .' </td>
+
        </tr>
             </table>
 
             <form action="'. getBaseAddress() . 'Compra/ingresarTarjeta' .'" method="POST">
-                <input type="hidden" name="total" value=.$total. />
+                <input type="hidden" name="total" value="'.$total.'" />
                 <div class="btn btn-primary btn-lg btn-block">
                     <input type="submit" value="Siguiente Paso" class="btn btn-primary">
                 </div>

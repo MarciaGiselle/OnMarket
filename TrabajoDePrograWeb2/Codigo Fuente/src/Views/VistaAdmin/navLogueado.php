@@ -14,6 +14,10 @@
             <a class="nav-link active" href="<?php echo getBaseAddress() . "PerfilesDeUsuarios/usuarios" ?>">Perfiles</a>
         </li>
 
+        <li class="nav-item">
+            <a class="nav-link active" href="<?php echo getBaseAddress() . "Estadisticas/estadisticas" ?>">Estadisticas</a>
+        </li>
+
 
 
     </ul>

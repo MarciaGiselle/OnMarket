@@ -81,6 +81,7 @@ function validarFecha(){
 
 confirmar.click(function () {
 
+
     if(validarNumeroTarjeta() ){
         $(".error").fadeOut();
         $(".error").removeClass("d-flex").addClass("d-none").find("span").text("");
@@ -97,30 +98,25 @@ confirmar.click(function () {
     var validacion = validarCodigo() && validarNumeroTarjeta() && validarFecha();
     if(validacion) {
         var obj = {};
-        obj.total = inputtotal.val();
+        obj.total = $("#total2").val();
         obj.numeroTarjeta = inputnumeroTarjeta.val();
         obj.codigoDeSeguridad = inputcodigo.val();
         obj.fechaDeVencimiento = inputfecha.val();
         obj.carrito = carrito.val();
 
 
-        llamadaAjax(pathCompra, JSON.stringify(obj), true, "compraExitosa", "loginFallido");
+        llamadaAjax(pathCompra, JSON.stringify(obj), true, "loginExitoso", "loginFallido");
     }
 });
 
 function compraExitosa(dummy) {
     alertify.alert("¡Compra Exitosa!", "Espere unos segundos y será redireccionado a una página de valoraciones al vendedor");
-    valorar();
+
     setTimeout(function () {
 
         window.location.href = pathMisCompras;
 
     }, 5000);
-
-}
-
-function valorar(){
-
 
 }
 

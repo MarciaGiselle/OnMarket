@@ -26,6 +26,8 @@ abstract class Constantes
     const MISCOMPRASVIEW="misCompras";
 
 
+    const ESTADISTICASVIEW="estadisticas";
+
     const ELIMINARPUBLICACIONESVIEW="eliminarProducto";
 
     const PERFILESVIEW="perfiles";

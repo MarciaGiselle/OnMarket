@@ -47,13 +47,14 @@ if (isset($_SESSION["logueado"])) {
 
             </div>
 
-                <input type="hidden" id="total" value="<?php echo $total; ?>">
+                <input type="hidden" id="total" value="<?php echo $total ?>">
+
 
             </div>
 
             <div class="btn btn-primary btn-lg btn-block">
 
-                <input type="submit" value="Finalizar compra" class="btn btn-primary " id="confirmar">
+                <input type="submit" value="Finalizar compra" class="btn btn-primary" id="confirmar">
 
             </div>
 
