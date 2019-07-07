@@ -69,6 +69,8 @@ class UsuarioController extends Controller
     }
 
 
+
+
     function realizarCompra($datos){
         header("Content-type: application/json");
         $data = json_decode(utf8_decode($datos['data']));
@@ -86,6 +88,7 @@ class UsuarioController extends Controller
             $idTarjeta=$tarjeta->insertar();
             if(isset($idTarjeta)) {
                 $idCobranza=$tarjeta->pagar( $idTarjeta, $fecha,$total);
+
             }
         }else{
             throw new ExcentionRegistar("Compra fallida", CodigoError::ExcentionRegistar);
@@ -94,50 +97,10 @@ class UsuarioController extends Controller
         echo json_encode(true);
 
 
-    }
-
-    function valorarPublicacion($datos){
-        $valoracion= new valoracion();
-        $usuario= new Usuario();
-        $tipoValoracion= new tipodeusuarioporvaloracion();
-
-
-        $idVendedor=$valoracion->buscarVendedorPorPkPublicacion($datos["idPublicacion"]);
-
-        $valoracion->setIdPublicacion($datos["idPublicacion"]);
-
-        $error=0;
-        if(FuncionesComunes::validarNumeros($datos["estrellas"])){
-        $valoracion->setNumero($datos["estrellas"]);
-        }else{
-            $error.=1;
-
-        }
-
-        if(isset($datos["comentario"])){
-            if(FuncionesComunes::validarCadenaNumerosYEspacios($datos["comentario"])){
-                $valoracion->setComentario($datos["comentario"]);
-            }else{
-                $error.=1;
-
-            }
-        }
-
-        if($error==0){
-          $idValoracion=$valoracion->insert($valoracion);
-          //retona bajo, medio o alto segun el contador q sea mayor
-          $valoracionMayor=$valoracion->realizarConteoPorPk($idVendedor);
-          $idValoracion=$tipoValoracion->buscarIdPorDescripcion($valoracionMayor);
-          $usuario->setTipoPorValoracion($idValoracion);
-
-        }
-
-
-
-
 
 
     }
+
 }
  
 

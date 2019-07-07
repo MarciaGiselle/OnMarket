@@ -17209,10 +17209,6 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-06-30 14:31:41]  select * from Rol  where id=1 limit 0, 1
 [2019-06-30 14:31:41]  select * from Usuario  where userName='tro' limit 0, 1
 [2019-06-30 14:31:41]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('rororor','oor','9adcb29710e807607b683f62e555c22dc5659713','123','roro@gmail.com','tro','Hombre','2','1')
-[2019-06-30 20:44:06]  DESC Producto
-[2019-06-30 20:44:06]  select * from Producto  where id=87 limit 0, 100
-[2019-06-30 23:13:32]  DESC Producto
-[2019-06-30 23:13:32]  select * from Producto  where id=87 limit 0, 100
 [2019-06-30 19:23:26]  DESC Usuario
 [2019-06-30 19:23:27]  DESC Rol
 [2019-06-30 19:23:28]  select * from Rol  where id=1 limit 0, 1
@@ -18419,3 +18415,2401 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-07-01 14:07:29]  select * from Usuario limit 0, 100
 [2019-07-01 14:07:35]  DESC Usuario
 [2019-07-01 14:07:35]  select * from Usuario  where userName like '%ro%' limit 0, 100
+[2019-07-06 15:55:28]  DESC Usuario
+[2019-07-06 15:55:29]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-06 15:55:29]  DESC Usuario
+[2019-07-06 15:55:29]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-06 15:55:29]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-06 16:33:18]  DESC Usuario
+[2019-07-06 16:33:18]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-06 16:33:18]  DESC Usuario
+[2019-07-06 16:33:18]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-06 16:33:18]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-06 16:33:31]  DESC Producto
+[2019-07-06 16:33:31]  DESC Imagen
+[2019-07-06 16:33:31]  select * from Producto  where nombre like '%cartera%' limit 0, 100
+[2019-07-06 16:33:31]  select * from Producto  where id=112 limit 0, 100
+[2019-07-06 16:33:31]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-07-06 16:33:31]  select * from Producto  where id=114 limit 0, 100
+[2019-07-06 16:33:31]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-06 16:33:31]  DESC Estadisticas
+[2019-07-06 16:33:31]  select * from Estadisticas  where id_Producto=112 limit 0, 1
+[2019-07-06 16:40:07]  DESC Producto
+[2019-07-06 16:40:07]  DESC Imagen
+[2019-07-06 16:40:07]  select * from Producto  where nombre like '%cartera%' limit 0, 100
+[2019-07-06 16:40:07]  select * from Producto  where id=112 limit 0, 100
+[2019-07-06 16:40:07]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-07-06 16:40:07]  select * from Producto  where id=114 limit 0, 100
+[2019-07-06 16:40:07]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-06 16:40:07]  DESC Estadisticas
+[2019-07-06 16:40:07]  select * from Estadisticas  where id_Producto=112 limit 0, 1
+[2019-07-06 16:40:07]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('112','1')
+[2019-07-06 16:40:08]  select * from Estadisticas  where id_Producto=114 limit 0, 1
+[2019-07-06 16:40:08]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('114','1')
+[2019-07-06 16:40:39]  DESC Producto
+[2019-07-06 16:40:39]  DESC Imagen
+[2019-07-06 16:40:39]  select * from Producto  where nombre like '%cartera%' limit 0, 100
+[2019-07-06 16:40:39]  select * from Producto  where id=112 limit 0, 100
+[2019-07-06 16:40:39]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-07-06 16:40:39]  select * from Producto  where id=114 limit 0, 100
+[2019-07-06 16:40:39]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-06 16:40:39]  DESC Estadisticas
+[2019-07-06 16:40:40]  select * from Estadisticas  where id_Producto=112 limit 0, 1
+[2019-07-06 16:40:40]  select * from Estadisticas  where id_Producto=112 limit 0, 1
+[2019-07-06 16:40:40]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('','1')
+[2019-07-06 16:42:42]  DESC Producto
+[2019-07-06 16:42:42]  DESC Imagen
+[2019-07-06 16:42:43]  select * from Producto  where nombre like '%cartera%' limit 0, 100
+[2019-07-06 16:42:43]  select * from Producto  where id=112 limit 0, 100
+[2019-07-06 16:42:43]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-07-06 16:42:43]  select * from Producto  where id=114 limit 0, 100
+[2019-07-06 16:42:43]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-06 16:42:43]  DESC Estadisticas
+[2019-07-06 16:42:43]  select * from Estadisticas  where id_Producto=112 limit 0, 1
+[2019-07-06 16:42:43]  select * from Estadisticas  where id_Producto=112 limit 0, 1
+[2019-07-06 16:42:43]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('112','1')
+[2019-07-06 16:42:43]  select * from Estadisticas  where id_Producto=114 limit 0, 1
+[2019-07-06 16:42:43]  select * from Estadisticas  where id_Producto=114 limit 0, 1
+[2019-07-06 16:42:43]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('114','2')
+[2019-07-06 16:42:52]  DESC Producto
+[2019-07-06 16:42:52]  DESC Imagen
+[2019-07-06 16:42:52]  select * from Producto  where nombre like '%cartera%' limit 0, 100
+[2019-07-06 16:42:52]  select * from Producto  where id=112 limit 0, 100
+[2019-07-06 16:42:52]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-07-06 16:42:52]  select * from Producto  where id=114 limit 0, 100
+[2019-07-06 16:42:52]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-06 16:42:52]  DESC Estadisticas
+[2019-07-06 16:42:52]  select * from Estadisticas  where id_Producto=112 limit 0, 1
+[2019-07-06 16:42:52]  select * from Estadisticas  where id_Producto=112 limit 0, 1
+[2019-07-06 16:42:52]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('112','1')
+[2019-07-06 16:42:52]  select * from Estadisticas  where id_Producto=114 limit 0, 1
+[2019-07-06 16:42:52]  select * from Estadisticas  where id_Producto=114 limit 0, 1
+[2019-07-06 16:42:52]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('114','2')
+[2019-07-06 16:46:36]  DESC Producto
+[2019-07-06 16:46:37]  DESC Imagen
+[2019-07-06 16:46:37]  select * from Producto  where nombre like '%cartera%' limit 0, 100
+[2019-07-06 16:46:37]  select * from Producto  where id=112 limit 0, 100
+[2019-07-06 16:46:37]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-07-06 16:46:37]  select * from Producto  where id=114 limit 0, 100
+[2019-07-06 16:46:37]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-06 16:46:37]  DESC Estadisticas
+[2019-07-06 16:46:37]  select * from Estadisticas  where id_Producto=112 limit 0, 1
+[2019-07-06 16:46:37]  select * from Estadisticas  where id_Producto=112 limit 0, 1
+[2019-07-06 16:46:37]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=1
+[2019-07-06 16:46:38]  select * from Estadisticas  where id_Producto=114 limit 0, 1
+[2019-07-06 16:46:38]  select * from Estadisticas  where id_Producto=114 limit 0, 1
+[2019-07-06 16:46:38]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=2
+[2019-07-06 17:08:44]  DESC Usuario
+[2019-07-06 17:08:45]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-06 17:08:45]  DESC Usuario
+[2019-07-06 17:08:45]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-06 17:08:45]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-06 17:09:37]  DESC Estadisticas
+[2019-07-06 17:09:37]  ASD Estadisticas
+[2019-07-06 17:10:09]  DESC Estadisticas
+[2019-07-06 17:10:09]  ASC Estadisticas
+[2019-07-06 17:10:33]  DESC Estadisticas
+[2019-07-06 17:10:34]  Estadisticas
+[2019-07-06 17:11:10]  DESC Estadisticas
+[2019-07-06 17:11:10]  Select * from estadisticas
+[2019-07-06 17:11:44]  DESC Estadisticas
+[2019-07-06 17:11:44]  Select * from estadisticas
+[2019-07-06 17:13:54]  DESC Estadisticas
+[2019-07-06 17:13:54]  Select max(cantidad) from estadisticas
+[2019-07-06 17:15:53]  DESC Estadisticas
+[2019-07-06 17:15:53]  Select * from estadisticas ORDER BY cantidad ASC 
+[2019-07-06 17:18:01]  DESC Estadisticas
+[2019-07-06 17:18:02]  Select * from estadisticas ORDER BY cantidad ASC 
+[2019-07-06 17:18:27]  DESC Estadisticas
+[2019-07-06 17:18:27]  Select * from estadisticas ORDER BY cantidad DESC 
+[2019-07-06 17:19:19]  DESC Estadisticas
+[2019-07-06 17:19:19]  Select * from estadisticas ORDER BY cantidad DESC 1 
+[2019-07-06 17:20:45]  DESC Estadisticas
+[2019-07-06 17:20:45]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 1 
+[2019-07-06 17:20:58]  DESC Estadisticas
+[2019-07-06 17:20:59]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 5 
+[2019-07-06 17:31:54]  DESC Estadisticas
+[2019-07-06 17:31:55]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 5 
+[2019-07-06 17:31:55]  DESC Producto
+[2019-07-06 17:31:55]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:32:33]  DESC Estadisticas
+[2019-07-06 17:32:34]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 5 
+[2019-07-06 17:32:34]  DESC Producto
+[2019-07-06 17:32:34]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:32:34]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:32:41]  DESC Estadisticas
+[2019-07-06 17:32:42]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 5 
+[2019-07-06 17:32:42]  DESC Producto
+[2019-07-06 17:32:42]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:32:42]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:33:15]  DESC Estadisticas
+[2019-07-06 17:33:15]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 5 
+[2019-07-06 17:33:15]  DESC Producto
+[2019-07-06 17:33:15]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:33:15]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:33:18]  DESC Estadisticas
+[2019-07-06 17:33:18]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 5 
+[2019-07-06 17:33:18]  DESC Producto
+[2019-07-06 17:33:18]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:33:18]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:33:56]  DESC Estadisticas
+[2019-07-06 17:33:56]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 5 
+[2019-07-06 17:33:56]  DESC Producto
+[2019-07-06 17:33:57]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:33:57]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:34:13]  DESC Estadisticas
+[2019-07-06 17:34:13]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 5 
+[2019-07-06 17:34:13]  DESC Producto
+[2019-07-06 17:34:13]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:34:13]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:35:20]  DESC Estadisticas
+[2019-07-06 17:35:20]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 5 
+[2019-07-06 17:35:20]  DESC Producto
+[2019-07-06 17:35:20]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:35:20]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:35:52]  DESC Estadisticas
+[2019-07-06 17:35:52]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 5 
+[2019-07-06 17:35:53]  DESC Producto
+[2019-07-06 17:35:53]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:35:53]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:37:08]  DESC Estadisticas
+[2019-07-06 17:37:08]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 8 
+[2019-07-06 17:37:08]  DESC Producto
+[2019-07-06 17:37:09]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:37:09]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:37:25]  DESC Estadisticas
+[2019-07-06 17:37:25]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 8 
+[2019-07-06 17:37:25]  DESC Producto
+[2019-07-06 17:37:26]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:37:26]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:38:10]  DESC Estadisticas
+[2019-07-06 17:38:10]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 8 
+[2019-07-06 17:38:10]  DESC Producto
+[2019-07-06 17:38:11]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:38:11]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:38:13]  DESC Estadisticas
+[2019-07-06 17:38:13]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 8 
+[2019-07-06 17:38:13]  DESC Producto
+[2019-07-06 17:38:13]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:38:13]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:38:40]  DESC Estadisticas
+[2019-07-06 17:38:40]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 8 
+[2019-07-06 17:38:40]  DESC Producto
+[2019-07-06 17:38:40]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:38:40]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:39:07]  DESC Estadisticas
+[2019-07-06 17:39:07]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 8 
+[2019-07-06 17:39:07]  DESC Producto
+[2019-07-06 17:39:07]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:39:07]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:39:35]  DESC Estadisticas
+[2019-07-06 17:39:35]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 8 
+[2019-07-06 17:39:35]  DESC Producto
+[2019-07-06 17:39:35]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:39:35]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:39:58]  DESC Estadisticas
+[2019-07-06 17:39:59]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 8 
+[2019-07-06 17:39:59]  DESC Producto
+[2019-07-06 17:39:59]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:39:59]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:41:51]  DESC Estadisticas
+[2019-07-06 17:41:51]  Select * from estadisticas ORDER BY cantidad DESC LIMIT 8 
+[2019-07-06 17:41:51]  DESC Producto
+[2019-07-06 17:41:51]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:41:51]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:45:49]  DESC Estadisticas
+[2019-07-06 17:45:49]  Select * from EstadisticasORDER BY cantidad DESC LIMIT 8 
+[2019-07-06 17:46:29]  DESC Estadisticas
+[2019-07-06 17:46:30]  Select * from estadisticasORDER BY cantidad DESC LIMIT 8 
+[2019-07-06 17:47:09]  DESC Estadisticas
+[2019-07-06 17:47:09]  Select * from `Estadisticas` ORDER BY cantidad DESC LIMIT 8 
+[2019-07-06 17:47:09]  DESC Producto
+[2019-07-06 17:47:10]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:47:10]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:47:39]  DESC Estadisticas
+[2019-07-06 17:47:39]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 17:47:39]  DESC Producto
+[2019-07-06 17:47:39]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:47:39]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:49:22]  DESC Estadisticas
+[2019-07-06 17:49:22]  Select * from `Estadisticas` ORDER BY `cantidad` DESC `8` 
+[2019-07-06 17:49:41]  DESC Estadisticas
+[2019-07-06 17:49:41]  Select * from `Estadisticas` ORDER BY `cantidad` DESC `8` 
+[2019-07-06 17:50:03]  DESC Estadisticas
+[2019-07-06 17:50:03]  Select * from `Estadisticas` ORDER BY `cantidad` DESC 8 
+[2019-07-06 17:51:08]  DESC Estadisticas
+[2019-07-06 17:51:08]  Select * from `Estadisticas` ORDER BY cantidad DESC 8 
+[2019-07-06 17:51:20]  DESC Estadisticas
+[2019-07-06 17:51:20]  Select * from Estadisticas ORDER BY cantidad DESC 8 
+[2019-07-06 17:51:45]  DESC Estadisticas
+[2019-07-06 17:51:45]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 17:51:45]  DESC Producto
+[2019-07-06 17:51:45]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:51:45]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:52:25]  DESC Estadisticas
+[2019-07-06 17:52:25]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT `8` 
+[2019-07-06 17:52:36]  DESC Estadisticas
+[2019-07-06 17:52:36]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT `8` 
+[2019-07-06 17:52:37]  DESC Estadisticas
+[2019-07-06 17:52:37]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT `8` 
+[2019-07-06 17:52:42]  DESC Estadisticas
+[2019-07-06 17:52:43]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT `8` 
+[2019-07-06 17:52:57]  DESC Estadisticas
+[2019-07-06 17:52:57]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 17:52:57]  DESC Producto
+[2019-07-06 17:52:57]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:52:57]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:53:17]  DESC Estadisticas
+[2019-07-06 17:53:17]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT `8` 
+[2019-07-06 17:53:28]  DESC Estadisticas
+[2019-07-06 17:53:28]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 17:53:28]  DESC Producto
+[2019-07-06 17:53:29]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:53:29]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:54:12]  DESC Estadisticas
+[2019-07-06 17:54:12]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 17:54:12]  DESC Producto
+[2019-07-06 17:54:13]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:54:13]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:58:11]  DESC Estadisticas
+[2019-07-06 17:58:11]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 17:58:11]  DESC Producto
+[2019-07-06 17:58:11]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:58:11]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:58:38]  DESC Estadisticas
+[2019-07-06 17:58:38]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 17:58:38]  DESC Producto
+[2019-07-06 17:58:38]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:58:38]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:58:41]  DESC Estadisticas
+[2019-07-06 17:58:41]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 17:58:41]  DESC Producto
+[2019-07-06 17:58:41]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:58:41]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 17:59:22]  DESC Estadisticas
+[2019-07-06 17:59:22]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 17:59:22]  DESC Producto
+[2019-07-06 17:59:22]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 17:59:22]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:01:30]  DESC Estadisticas
+[2019-07-06 18:01:30]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:01:30]  DESC Producto
+[2019-07-06 18:01:30]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:01:30]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:03:39]  DESC Estadisticas
+[2019-07-06 18:03:39]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:03:40]  DESC Producto
+[2019-07-06 18:03:40]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:03:40]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:04:11]  DESC Estadisticas
+[2019-07-06 18:04:12]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:04:12]  DESC Producto
+[2019-07-06 18:04:12]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:04:12]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:05:06]  DESC Estadisticas
+[2019-07-06 18:05:06]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:05:06]  DESC Producto
+[2019-07-06 18:05:06]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:05:06]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:05:19]  DESC Estadisticas
+[2019-07-06 18:05:19]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:05:19]  DESC Producto
+[2019-07-06 18:05:19]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:05:19]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:11:29]  DESC Estadisticas
+[2019-07-06 18:11:29]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:11:29]  DESC Producto
+[2019-07-06 18:11:29]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:11:29]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:14:45]  DESC Estadisticas
+[2019-07-06 18:14:46]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:14:46]  DESC Producto
+[2019-07-06 18:14:46]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:14:46]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:15:22]  DESC Estadisticas
+[2019-07-06 18:15:22]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:15:23]  DESC Producto
+[2019-07-06 18:15:23]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:15:23]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:15:55]  DESC Estadisticas
+[2019-07-06 18:15:55]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:15:55]  DESC Producto
+[2019-07-06 18:15:56]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:15:56]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:17:14]  DESC Estadisticas
+[2019-07-06 18:17:14]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:17:14]  DESC Producto
+[2019-07-06 18:17:14]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:17:14]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:17:57]  DESC Estadisticas
+[2019-07-06 18:17:57]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:17:57]  DESC Producto
+[2019-07-06 18:17:57]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:17:57]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:18:09]  DESC Estadisticas
+[2019-07-06 18:18:09]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:18:09]  DESC Producto
+[2019-07-06 18:18:10]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:18:10]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:18:59]  DESC Estadisticas
+[2019-07-06 18:18:59]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:18:59]  DESC Producto
+[2019-07-06 18:19:00]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:19:00]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:19:24]  DESC Estadisticas
+[2019-07-06 18:19:24]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:19:24]  DESC Producto
+[2019-07-06 18:19:24]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:19:24]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:19:49]  DESC Estadisticas
+[2019-07-06 18:19:49]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:19:49]  DESC Producto
+[2019-07-06 18:19:50]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:19:50]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:20:06]  DESC Estadisticas
+[2019-07-06 18:20:06]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:20:06]  DESC Producto
+[2019-07-06 18:20:06]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:20:06]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:20:43]  DESC Estadisticas
+[2019-07-06 18:20:43]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:20:43]  DESC Producto
+[2019-07-06 18:20:43]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:20:43]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:21:09]  DESC Estadisticas
+[2019-07-06 18:21:09]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:21:09]  DESC Producto
+[2019-07-06 18:21:09]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:21:09]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:22:25]  DESC Estadisticas
+[2019-07-06 18:22:25]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:22:25]  DESC Producto
+[2019-07-06 18:22:25]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:22:25]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:22:46]  DESC Estadisticas
+[2019-07-06 18:22:46]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:22:46]  DESC Producto
+[2019-07-06 18:22:46]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:22:46]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:23:15]  DESC Estadisticas
+[2019-07-06 18:23:15]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:23:15]  DESC Producto
+[2019-07-06 18:23:16]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:23:16]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:30:42]  DESC Estadisticas
+[2019-07-06 18:30:42]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:30:42]  DESC Producto
+[2019-07-06 18:30:42]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:30:42]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:30:57]  DESC Estadisticas
+[2019-07-06 18:30:57]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:30:57]  DESC Producto
+[2019-07-06 18:30:57]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:30:57]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:31:14]  DESC Estadisticas
+[2019-07-06 18:31:14]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:31:14]  DESC Producto
+[2019-07-06 18:31:14]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:31:14]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:31:28]  DESC Estadisticas
+[2019-07-06 18:31:29]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:31:29]  DESC Producto
+[2019-07-06 18:31:29]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:31:29]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:41:26]  DESC Estadisticas
+[2019-07-06 18:41:27]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:41:27]  DESC Producto
+[2019-07-06 18:41:27]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:41:28]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:41:59]  DESC Estadisticas
+[2019-07-06 18:42:00]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:42:00]  DESC Producto
+[2019-07-06 18:42:00]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:42:00]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:42:24]  DESC Estadisticas
+[2019-07-06 18:42:24]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:42:24]  DESC Producto
+[2019-07-06 18:42:24]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:42:24]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:42:42]  DESC Estadisticas
+[2019-07-06 18:42:42]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:42:42]  DESC Producto
+[2019-07-06 18:42:42]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:42:42]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:47:17]  DESC Estadisticas
+[2019-07-06 18:47:17]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:47:18]  DESC Producto
+[2019-07-06 18:47:18]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:47:18]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:47:59]  DESC Estadisticas
+[2019-07-06 18:47:59]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:47:59]  DESC Producto
+[2019-07-06 18:47:59]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:48:00]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:52:34]  DESC Estadisticas
+[2019-07-06 18:52:34]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:52:34]  DESC Producto
+[2019-07-06 18:52:34]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:52:34]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 18:53:06]  DESC Estadisticas
+[2019-07-06 18:53:06]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 18:53:06]  DESC Producto
+[2019-07-06 18:53:06]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 18:53:06]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 19:00:38]  DESC Estadisticas
+[2019-07-06 19:00:38]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 19:01:49]  DESC Usuario
+[2019-07-06 19:01:49]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-06 19:01:49]  DESC Usuario
+[2019-07-06 19:01:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-06 19:01:50]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-06 19:03:02]  DESC Producto
+[2019-07-06 19:03:02]  DESC Categoria
+[2019-07-06 19:03:02]  select * from Categoria  where nombreCategoria='electronica' limit 0, 1
+[2019-07-06 19:03:02]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Camara sonic','nueva','25','200','1')
+[2019-07-06 19:03:02]  DESC Imagen
+[2019-07-06 19:03:02]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('1543_D750_front.png','115')
+[2019-07-06 19:03:03]  DESC Imagen
+[2019-07-06 19:03:03]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('1590_D3500_front.png','115')
+[2019-07-06 19:03:03]  DESC Publicacion
+[2019-07-06 19:03:03]  DESC FormaEntrega
+[2019-07-06 19:03:03]  select * from FormaEntrega  where  descripcion='acordarConElVendedor'  limit 0, 1
+[2019-07-06 19:03:03]  DESC Publicacion_Entrega
+[2019-07-06 19:03:03]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-06','camara','4','115')
+[2019-07-06 19:03:03]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('35','1')
+[2019-07-06 19:03:12]  DESC Producto
+[2019-07-06 19:03:12]  DESC Categoria
+[2019-07-06 19:03:12]  select * from Categoria  where nombreCategoria='electronica' limit 0, 1
+[2019-07-06 19:03:12]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Camara sonic','nueva','25','200','1')
+[2019-07-06 19:03:13]  DESC Imagen
+[2019-07-06 19:03:13]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('1543_D750_front.png','116')
+[2019-07-06 19:03:13]  DESC Imagen
+[2019-07-06 19:03:13]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('1590_D3500_front.png','116')
+[2019-07-06 19:03:13]  DESC Publicacion
+[2019-07-06 19:03:13]  DESC FormaEntrega
+[2019-07-06 19:03:13]  select * from FormaEntrega  where  descripcion='acordarConElVendedor'  limit 0, 1
+[2019-07-06 19:03:13]  DESC Publicacion_Entrega
+[2019-07-06 19:03:13]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-06','camara','4','116')
+[2019-07-06 19:03:13]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('36','1')
+[2019-07-06 19:03:17]  DESC Producto
+[2019-07-06 19:03:17]  DESC Categoria
+[2019-07-06 19:03:17]  select * from Categoria  where nombreCategoria='electronica' limit 0, 1
+[2019-07-06 19:03:17]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Camara sonic','nueva','25','200','1')
+[2019-07-06 19:03:17]  DESC Imagen
+[2019-07-06 19:03:17]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('1543_D750_front.png','117')
+[2019-07-06 19:03:18]  DESC Imagen
+[2019-07-06 19:03:18]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('1590_D3500_front.png','117')
+[2019-07-06 19:03:18]  DESC Publicacion
+[2019-07-06 19:03:18]  DESC FormaEntrega
+[2019-07-06 19:03:18]  select * from FormaEntrega  where  descripcion='acordarConElVendedor'  limit 0, 1
+[2019-07-06 19:03:18]  DESC Publicacion_Entrega
+[2019-07-06 19:03:19]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-06','camara','4','117')
+[2019-07-06 19:03:19]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('37','1')
+[2019-07-06 19:04:00]  DESC Producto
+[2019-07-06 19:04:01]  DESC Categoria
+[2019-07-06 19:04:01]  select * from Categoria  where nombreCategoria='electronica' limit 0, 1
+[2019-07-06 19:04:01]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Camara instantanea','nueva','25','200','1')
+[2019-07-06 19:04:01]  DESC Imagen
+[2019-07-06 19:04:01]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('f4477a6194ecb64c5ba9576650b7a61e.jpg','118')
+[2019-07-06 19:04:01]  DESC Imagen
+[2019-07-06 19:04:01]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('fundas-para-Instax-Mini-8.png','118')
+[2019-07-06 19:04:01]  DESC Publicacion
+[2019-07-06 19:04:01]  DESC FormaEntrega
+[2019-07-06 19:04:02]  select * from FormaEntrega  where  descripcion='acordarConElVendedor'  limit 0, 1
+[2019-07-06 19:04:02]  DESC Publicacion_Entrega
+[2019-07-06 19:04:02]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-06','camara','4','118')
+[2019-07-06 19:04:02]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('38','1')
+[2019-07-06 19:04:11]  DESC Producto
+[2019-07-06 19:04:12]  DESC Categoria
+[2019-07-06 19:04:12]  select * from Categoria  where nombreCategoria='electronica' limit 0, 1
+[2019-07-06 19:04:12]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Camara instantanea','nueva','25','200','1')
+[2019-07-06 19:04:12]  DESC Imagen
+[2019-07-06 19:04:12]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('f4477a6194ecb64c5ba9576650b7a61e.jpg','119')
+[2019-07-06 19:04:12]  DESC Imagen
+[2019-07-06 19:04:12]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('fundas-para-Instax-Mini-8.png','119')
+[2019-07-06 19:04:12]  DESC Publicacion
+[2019-07-06 19:04:12]  DESC FormaEntrega
+[2019-07-06 19:04:12]  select * from FormaEntrega  where  descripcion='acordarConElVendedor'  limit 0, 1
+[2019-07-06 19:04:12]  DESC Publicacion_Entrega
+[2019-07-06 19:04:12]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-06','camara instantanea','4','119')
+[2019-07-06 19:04:13]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('39','1')
+[2019-07-06 19:04:57]  DESC Producto
+[2019-07-06 19:04:57]  DESC Categoria
+[2019-07-06 19:04:57]  select * from Categoria  where nombreCategoria='musica' limit 0, 1
+[2019-07-06 19:04:57]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('mapa','de coleccion','25','200','7')
+[2019-07-06 19:04:57]  DESC Imagen
+[2019-07-06 19:04:58]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('3aa534b2c3feceb7df9615767b2b6705.png','120')
+[2019-07-06 19:04:58]  DESC Imagen
+[2019-07-06 19:04:58]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('fotoo-articulo.jpg','120')
+[2019-07-06 19:04:58]  DESC Imagen
+[2019-07-06 19:04:58]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('mercatorrrrr1-4c1d9929b35639c81b15348077970310-1024-1024.png','120')
+[2019-07-06 19:05:11]  DESC Producto
+[2019-07-06 19:05:11]  DESC Categoria
+[2019-07-06 19:05:11]  select * from Categoria  where nombreCategoria='musica' limit 0, 1
+[2019-07-06 19:05:11]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('mapa','de coleccion','25','200','7')
+[2019-07-06 19:05:11]  DESC Imagen
+[2019-07-06 19:05:11]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('3aa534b2c3feceb7df9615767b2b6705.png','121')
+[2019-07-06 19:05:11]  DESC Imagen
+[2019-07-06 19:05:11]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('fotoo-articulo.jpg','121')
+[2019-07-06 19:05:11]  DESC Imagen
+[2019-07-06 19:05:11]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('mercatorrrrr1-4c1d9929b35639c81b15348077970310-1024-1024.png','121')
+[2019-07-06 19:13:28]  DESC Usuario
+[2019-07-06 19:13:28]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-06 19:13:28]  DESC Usuario
+[2019-07-06 19:13:28]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-06 19:13:28]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-06 19:14:58]  DESC Producto
+[2019-07-06 19:14:58]  DESC Categoria
+[2019-07-06 19:14:58]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-07-06 19:14:58]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Herramientas Kitts','Muy resistentes','12','200','4')
+[2019-07-06 19:14:58]  DESC Imagen
+[2019-07-06 19:14:58]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('102-piezas-combinaci-n-hogar-conjunto-de-Herramientas-de-mano-accesorios-de-kits-de-reparaci-n.jpg_640x640.jpg','122')
+[2019-07-06 19:14:58]  DESC Imagen
+[2019-07-06 19:14:58]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('kit-de-herramientas-42-pz-con-estuche-plastico-pretul-22101-D_NQ_NP_825194-MLM27492504987_062018-Q.jpg','122')
+[2019-07-06 19:14:58]  DESC Publicacion
+[2019-07-06 19:14:59]  DESC FormaEntrega
+[2019-07-06 19:14:59]  select * from FormaEntrega  where  descripcion='Correo'  limit 0, 1
+[2019-07-06 19:14:59]  DESC Publicacion_Entrega
+[2019-07-06 19:14:59]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-06','Herramientas  Kitts','4','122')
+[2019-07-06 19:14:59]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('40','2')
+[2019-07-06 19:15:28]  DESC Producto
+[2019-07-06 19:15:28]  DESC Categoria
+[2019-07-06 19:15:28]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-07-06 19:15:28]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Herramientas Kitts','Muy resistentes','12','200','4')
+[2019-07-06 19:15:29]  DESC Imagen
+[2019-07-06 19:15:29]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('91QfGUK95eL._SY450_.jpg','123')
+[2019-07-06 19:15:29]  DESC Imagen
+[2019-07-06 19:15:30]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('kit-de-herramientas-42-pz-con-estuche-plastico-pretul-22101-D_NQ_NP_825194-MLM27492504987_062018-Q.jpg','123')
+[2019-07-06 19:15:30]  DESC Publicacion
+[2019-07-06 19:15:30]  DESC FormaEntrega
+[2019-07-06 19:15:31]  select * from FormaEntrega  where  descripcion='Correo'  limit 0, 1
+[2019-07-06 19:15:31]  DESC Publicacion_Entrega
+[2019-07-06 19:15:31]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-06','Herramientas  Kitts','4','123')
+[2019-07-06 19:15:31]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('41','2')
+[2019-07-06 19:16:56]  DESC Producto
+[2019-07-06 19:16:56]  DESC Categoria
+[2019-07-06 19:16:56]  select * from Categoria  where nombreCategoria='herramientas' limit 0, 1
+[2019-07-06 19:16:56]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Netbook','ultimo modelo','12','200','4')
+[2019-07-06 19:16:56]  DESC Imagen
+[2019-07-06 19:16:57]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('41SgAGSKTzL._SX355_.jpg','124')
+[2019-07-06 19:16:57]  DESC Imagen
+[2019-07-06 19:16:57]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('repuestos-netbook-samsung-np310-mother-funcionando-D_NQ_NP_138725-MLA25493784334_042017-Q.jpg','124')
+[2019-07-06 19:16:57]  DESC Publicacion
+[2019-07-06 19:16:57]  DESC FormaEntrega
+[2019-07-06 19:16:57]  select * from FormaEntrega  where  descripcion='Correo'  limit 0, 1
+[2019-07-06 19:16:57]  DESC Publicacion_Entrega
+[2019-07-06 19:16:57]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-06','Netbook','4','124')
+[2019-07-06 19:16:57]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('42','2')
+[2019-07-06 19:17:31]  DESC Producto
+[2019-07-06 19:17:31]  DESC Categoria
+[2019-07-06 19:17:31]  select * from Categoria  where nombreCategoria='electronica' limit 0, 1
+[2019-07-06 19:17:31]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Netbook','ultimo modelo','12','200','1')
+[2019-07-06 19:17:31]  DESC Imagen
+[2019-07-06 19:17:31]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('41SgAGSKTzL._SX355_.jpg','125')
+[2019-07-06 19:17:31]  DESC Imagen
+[2019-07-06 19:17:31]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('repuestos-netbook-samsung-np310-mother-funcionando-D_NQ_NP_138725-MLA25493784334_042017-Q.jpg','125')
+[2019-07-06 19:17:31]  DESC Publicacion
+[2019-07-06 19:17:31]  DESC FormaEntrega
+[2019-07-06 19:17:31]  select * from FormaEntrega  where  descripcion='Correo'  limit 0, 1
+[2019-07-06 19:17:31]  DESC Publicacion_Entrega
+[2019-07-06 19:17:31]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-06','Netbook','4','125')
+[2019-07-06 19:17:31]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('43','2')
+[2019-07-06 19:18:23]  DESC Producto
+[2019-07-06 19:18:24]  DESC Categoria
+[2019-07-06 19:18:24]  select * from Categoria  where nombreCategoria='mascotas' limit 0, 1
+[2019-07-06 19:18:24]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Juguetes para mascotas','muy lindos y economicos','12','200','3')
+[2019-07-06 19:18:24]  DESC Imagen
+[2019-07-06 19:18:24]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('71ZRM0ijHNL._SY355_.jpg','126')
+[2019-07-06 19:18:24]  DESC Imagen
+[2019-07-06 19:18:24]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('715JGvsNcML._SX355_.jpg','126')
+[2019-07-06 19:18:25]  DESC Publicacion
+[2019-07-06 19:18:25]  DESC FormaEntrega
+[2019-07-06 19:18:25]  select * from FormaEntrega  where  descripcion='Correo'  limit 0, 1
+[2019-07-06 19:18:25]  DESC Publicacion_Entrega
+[2019-07-06 19:18:25]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-06','Juguetes para mascotas','4','126')
+[2019-07-06 19:18:25]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('44','2')
+[2019-07-06 19:19:41]  DESC Producto
+[2019-07-06 19:19:41]  DESC Categoria
+[2019-07-06 19:19:41]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-07-06 19:19:41]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('sillones','muy lindos y economicos','12','500','5')
+[2019-07-06 19:19:41]  DESC Imagen
+[2019-07-06 19:19:41]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('SofaNewKasoli-01-380x214.jpg','127')
+[2019-07-06 19:19:42]  DESC Imagen
+[2019-07-06 19:19:42]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('SofaSynthesis.jpg','127')
+[2019-07-06 19:19:42]  DESC Publicacion
+[2019-07-06 19:19:42]  DESC FormaEntrega
+[2019-07-06 19:19:43]  select * from FormaEntrega  where  descripcion='Correo'  limit 0, 1
+[2019-07-06 19:19:43]  DESC Publicacion_Entrega
+[2019-07-06 19:19:43]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-06','sillones','4','127')
+[2019-07-06 19:19:43]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('45','2')
+[2019-07-06 19:19:47]  DESC Producto
+[2019-07-06 19:19:47]  DESC Categoria
+[2019-07-06 19:19:47]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-07-06 19:19:47]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('sillones','muy lindos y economicos','12','500','5')
+[2019-07-06 19:19:47]  DESC Imagen
+[2019-07-06 19:19:47]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('SofaNewKasoli-01-380x214.jpg','128')
+[2019-07-06 19:19:47]  DESC Imagen
+[2019-07-06 19:19:47]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('SofaSynthesis.jpg','128')
+[2019-07-06 19:19:47]  DESC Publicacion
+[2019-07-06 19:19:47]  DESC FormaEntrega
+[2019-07-06 19:19:48]  select * from FormaEntrega  where  descripcion='Correo'  limit 0, 1
+[2019-07-06 19:19:48]  DESC Publicacion_Entrega
+[2019-07-06 19:19:48]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-06','sillones','4','128')
+[2019-07-06 19:19:48]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('46','2')
+[2019-07-06 19:20:24]  DESC Producto
+[2019-07-06 19:20:24]  DESC Categoria
+[2019-07-06 19:20:24]  select * from Categoria  where nombreCategoria='jardin' limit 0, 1
+[2019-07-06 19:20:24]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('podadora','muy lindos y economicos','12','500','8')
+[2019-07-06 19:20:24]  DESC Imagen
+[2019-07-06 19:20:24]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('61oI+mOUz8L._SX425_.jpg','129')
+[2019-07-06 19:20:25]  DESC Imagen
+[2019-07-06 19:20:25]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('102-piezas-combinaci-n-hogar-conjunto-de-Herramientas-de-mano-accesorios-de-kits-de-reparaci-n.jpg_640x640.jpg','129')
+[2019-07-06 19:20:25]  DESC Publicacion
+[2019-07-06 19:20:25]  DESC FormaEntrega
+[2019-07-06 19:20:25]  select * from FormaEntrega  where  descripcion='Correo'  limit 0, 1
+[2019-07-06 19:20:25]  DESC Publicacion_Entrega
+[2019-07-06 19:20:25]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-06','Podadora','4','129')
+[2019-07-06 19:20:25]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('47','2')
+[2019-07-06 19:21:00]  DESC Producto
+[2019-07-06 19:21:00]  DESC Categoria
+[2019-07-06 19:21:00]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-07-06 19:21:00]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('vestido de 15','muy lindos y economicos','12','500','2')
+[2019-07-06 19:21:00]  DESC Imagen
+[2019-07-06 19:21:00]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('rBVaR1vZjECAFleSAAKh6TY9v5Y749.jpg','130')
+[2019-07-06 19:21:00]  DESC Imagen
+[2019-07-06 19:21:00]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('vestidos-D_NP_611414-MCO28024181966_082018-Q.jpg','130')
+[2019-07-06 19:21:01]  DESC Publicacion
+[2019-07-06 19:21:01]  DESC FormaEntrega
+[2019-07-06 19:21:01]  select * from FormaEntrega  where  descripcion='Correo'  limit 0, 1
+[2019-07-06 19:21:01]  DESC Publicacion_Entrega
+[2019-07-06 19:21:01]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-06','Vestido de 15','4','130')
+[2019-07-06 19:21:01]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('48','2')
+[2019-07-06 19:21:23]  DESC Producto
+[2019-07-06 19:21:23]  DESC Categoria
+[2019-07-06 19:21:23]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-07-06 19:21:23]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('vestidos','muy lindos y economicos','12','500','2')
+[2019-07-06 19:21:23]  DESC Imagen
+[2019-07-06 19:21:23]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('vestidos-de-chifon-casual-D_NQ_NP_913106-MLV28480558420_102018-Q.jpg','131')
+[2019-07-06 19:21:23]  DESC Imagen
+[2019-07-06 19:21:23]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('vestidos-mujer-D_NP_284421-MLV20780138424_062016-Q.jpg','131')
+[2019-07-06 19:21:23]  DESC Publicacion
+[2019-07-06 19:21:24]  DESC FormaEntrega
+[2019-07-06 19:21:24]  select * from FormaEntrega  where  descripcion='Correo'  limit 0, 1
+[2019-07-06 19:21:24]  DESC Publicacion_Entrega
+[2019-07-06 19:21:24]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-06','Vestidos','4','131')
+[2019-07-06 19:21:24]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('49','2')
+[2019-07-06 19:22:02]  DESC Producto
+[2019-07-06 19:22:02]  DESC Categoria
+[2019-07-06 19:22:02]  select * from Categoria  where nombreCategoria='muebles' limit 0, 1
+[2019-07-06 19:22:02]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Ropero','muy lindos y economicos','34','500','5')
+[2019-07-06 19:22:02]  DESC Imagen
+[2019-07-06 19:22:02]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('13651-05.jpg','132')
+[2019-07-06 19:22:02]  DESC Imagen
+[2019-07-06 19:22:02]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('placard-maximo-6-puertas.jpg','132')
+[2019-07-06 19:22:02]  DESC Publicacion
+[2019-07-06 19:22:02]  DESC FormaEntrega
+[2019-07-06 19:22:02]  select * from FormaEntrega  where  descripcion='Correo'  limit 0, 1
+[2019-07-06 19:22:02]  DESC Publicacion_Entrega
+[2019-07-06 19:22:02]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-06','Ropera','4','132')
+[2019-07-06 19:22:02]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('50','2')
+[2019-07-06 19:25:00]  DESC Producto
+[2019-07-06 19:25:01]  DESC Categoria
+[2019-07-06 19:25:01]  select * from Categoria  where nombreCategoria='deportes' limit 0, 1
+[2019-07-06 19:25:01]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Bicicletas','Rapidas','4','1233','6')
+[2019-07-06 19:25:01]  DESC Imagen
+[2019-07-06 19:25:01]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('bicicleta-mountain-bike-topmega-thor-r29-24v-shimano-linga-D_NQ_NP_961310-MLA28192098142_092018-Q.jpg','133')
+[2019-07-06 19:25:01]  DESC Imagen
+[2019-07-06 19:25:01]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('bicicleta-ray-fixie.jpg','133')
+[2019-07-06 19:25:01]  DESC Publicacion
+[2019-07-06 19:25:01]  DESC FormaEntrega
+[2019-07-06 19:25:01]  select * from FormaEntrega  where  descripcion='acordarConElVendedor'  limit 0, 1
+[2019-07-06 19:25:01]  DESC Publicacion_Entrega
+[2019-07-06 19:25:01]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-06','Bicicletas','4','133')
+[2019-07-06 19:25:02]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('51','1')
+[2019-07-06 19:25:14]  DESC Producto
+[2019-07-06 19:25:14]  DESC Imagen
+[2019-07-06 19:25:14]  select * from Producto  where nombre like '%bici%' limit 0, 100
+[2019-07-06 19:25:14]  select * from Producto  where id=133 limit 0, 100
+[2019-07-06 19:25:14]  select * from Imagen  where idProducto=133 limit 0, 1
+[2019-07-06 19:25:14]  DESC Estadisticas
+[2019-07-06 19:25:14]  select * from Estadisticas  where id_Producto=133 limit 0, 1
+[2019-07-06 19:25:14]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('133','1')
+[2019-07-06 19:25:20]  DESC Producto
+[2019-07-06 19:25:20]  DESC Imagen
+[2019-07-06 19:25:20]  select * from Producto  where nombre like '%vest%' limit 0, 100
+[2019-07-06 19:25:20]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 19:25:20]  select * from Imagen  where idProducto=130 limit 0, 1
+[2019-07-06 19:25:21]  select * from Producto  where id=131 limit 0, 100
+[2019-07-06 19:25:21]  select * from Imagen  where idProducto=131 limit 0, 1
+[2019-07-06 19:25:21]  DESC Estadisticas
+[2019-07-06 19:25:21]  select * from Estadisticas  where id_Producto=130 limit 0, 1
+[2019-07-06 19:25:21]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('130','1')
+[2019-07-06 19:25:21]  select * from Estadisticas  where id_Producto=131 limit 0, 1
+[2019-07-06 19:25:21]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('131','1')
+[2019-07-06 19:25:28]  DESC Producto
+[2019-07-06 19:25:28]  DESC Imagen
+[2019-07-06 19:25:28]  select * from Producto  where nombre like '%ju%' limit 0, 100
+[2019-07-06 19:25:28]  select * from Producto  where id=126 limit 0, 100
+[2019-07-06 19:25:28]  select * from Imagen  where idProducto=126 limit 0, 1
+[2019-07-06 19:25:28]  DESC Estadisticas
+[2019-07-06 19:25:28]  select * from Estadisticas  where id_Producto=126 limit 0, 1
+[2019-07-06 19:25:28]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('126','1')
+[2019-07-06 19:25:32]  DESC Producto
+[2019-07-06 19:25:33]  DESC Imagen
+[2019-07-06 19:25:33]  select * from Producto  where nombre like '%ro%' limit 0, 100
+[2019-07-06 19:25:33]  select * from Producto  where id=132 limit 0, 100
+[2019-07-06 19:25:33]  select * from Imagen  where idProducto=132 limit 0, 1
+[2019-07-06 19:25:33]  DESC Estadisticas
+[2019-07-06 19:25:33]  select * from Estadisticas  where id_Producto=132 limit 0, 1
+[2019-07-06 19:25:33]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('132','1')
+[2019-07-06 19:25:37]  DESC Producto
+[2019-07-06 19:25:37]  DESC Imagen
+[2019-07-06 19:25:37]  select * from Producto  where nombre like '%s%' limit 0, 100
+[2019-07-06 19:25:37]  select * from Producto  where id=115 limit 0, 100
+[2019-07-06 19:25:38]  select * from Imagen  where idProducto=115 limit 0, 1
+[2019-07-06 19:25:38]  select * from Producto  where id=116 limit 0, 100
+[2019-07-06 19:25:38]  select * from Imagen  where idProducto=116 limit 0, 1
+[2019-07-06 19:25:38]  select * from Producto  where id=117 limit 0, 100
+[2019-07-06 19:25:38]  select * from Imagen  where idProducto=117 limit 0, 1
+[2019-07-06 19:25:38]  select * from Producto  where id=118 limit 0, 100
+[2019-07-06 19:25:38]  select * from Imagen  where idProducto=118 limit 0, 1
+[2019-07-06 19:25:38]  select * from Producto  where id=119 limit 0, 100
+[2019-07-06 19:25:38]  select * from Imagen  where idProducto=119 limit 0, 1
+[2019-07-06 19:25:38]  select * from Producto  where id=122 limit 0, 100
+[2019-07-06 19:25:38]  select * from Imagen  where idProducto=122 limit 0, 1
+[2019-07-06 19:25:38]  select * from Producto  where id=123 limit 0, 100
+[2019-07-06 19:25:38]  select * from Imagen  where idProducto=123 limit 0, 1
+[2019-07-06 19:25:38]  select * from Producto  where id=126 limit 0, 100
+[2019-07-06 19:25:38]  select * from Imagen  where idProducto=126 limit 0, 1
+[2019-07-06 19:25:38]  select * from Producto  where id=127 limit 0, 100
+[2019-07-06 19:25:38]  select * from Imagen  where idProducto=127 limit 0, 1
+[2019-07-06 19:25:38]  select * from Producto  where id=128 limit 0, 100
+[2019-07-06 19:25:38]  select * from Imagen  where idProducto=128 limit 0, 1
+[2019-07-06 19:25:38]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 19:25:38]  select * from Imagen  where idProducto=130 limit 0, 1
+[2019-07-06 19:25:38]  select * from Producto  where id=131 limit 0, 100
+[2019-07-06 19:25:38]  select * from Imagen  where idProducto=131 limit 0, 1
+[2019-07-06 19:25:38]  select * from Producto  where id=133 limit 0, 100
+[2019-07-06 19:25:38]  select * from Imagen  where idProducto=133 limit 0, 1
+[2019-07-06 19:25:38]  DESC Estadisticas
+[2019-07-06 19:25:39]  select * from Estadisticas  where id_Producto=115 limit 0, 1
+[2019-07-06 19:25:39]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('115','1')
+[2019-07-06 19:25:39]  select * from Estadisticas  where id_Producto=116 limit 0, 1
+[2019-07-06 19:25:39]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('116','1')
+[2019-07-06 19:25:39]  select * from Estadisticas  where id_Producto=117 limit 0, 1
+[2019-07-06 19:25:39]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('117','1')
+[2019-07-06 19:25:39]  select * from Estadisticas  where id_Producto=118 limit 0, 1
+[2019-07-06 19:25:39]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('118','1')
+[2019-07-06 19:25:39]  select * from Estadisticas  where id_Producto=119 limit 0, 1
+[2019-07-06 19:25:39]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('119','1')
+[2019-07-06 19:25:40]  select * from Estadisticas  where id_Producto=122 limit 0, 1
+[2019-07-06 19:25:40]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('122','1')
+[2019-07-06 19:25:40]  select * from Estadisticas  where id_Producto=123 limit 0, 1
+[2019-07-06 19:25:40]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('123','1')
+[2019-07-06 19:25:40]  select * from Estadisticas  where id_Producto=126 limit 0, 1
+[2019-07-06 19:25:40]  select * from Estadisticas  where id_Producto=126 limit 0, 1
+[2019-07-06 19:25:40]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=11
+[2019-07-06 19:25:40]  select * from Estadisticas  where id_Producto=127 limit 0, 1
+[2019-07-06 19:25:40]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('127','1')
+[2019-07-06 19:25:40]  select * from Estadisticas  where id_Producto=128 limit 0, 1
+[2019-07-06 19:25:40]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('128','1')
+[2019-07-06 19:25:40]  select * from Estadisticas  where id_Producto=130 limit 0, 1
+[2019-07-06 19:25:40]  select * from Estadisticas  where id_Producto=130 limit 0, 1
+[2019-07-06 19:25:40]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=9
+[2019-07-06 19:25:40]  select * from Estadisticas  where id_Producto=131 limit 0, 1
+[2019-07-06 19:25:40]  select * from Estadisticas  where id_Producto=131 limit 0, 1
+[2019-07-06 19:25:40]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=10
+[2019-07-06 19:25:41]  select * from Estadisticas  where id_Producto=133 limit 0, 1
+[2019-07-06 19:25:41]  select * from Estadisticas  where id_Producto=133 limit 0, 1
+[2019-07-06 19:25:41]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=8
+[2019-07-06 19:25:41]  DESC Producto
+[2019-07-06 19:25:41]  DESC Imagen
+[2019-07-06 19:25:41]  select * from Producto  where nombre like '%s%' limit 0, 100
+[2019-07-06 19:25:41]  select * from Producto  where id=115 limit 0, 100
+[2019-07-06 19:25:41]  select * from Imagen  where idProducto=115 limit 0, 1
+[2019-07-06 19:25:41]  select * from Producto  where id=116 limit 0, 100
+[2019-07-06 19:25:41]  select * from Imagen  where idProducto=116 limit 0, 1
+[2019-07-06 19:25:41]  select * from Producto  where id=117 limit 0, 100
+[2019-07-06 19:25:41]  select * from Imagen  where idProducto=117 limit 0, 1
+[2019-07-06 19:25:41]  select * from Producto  where id=118 limit 0, 100
+[2019-07-06 19:25:41]  select * from Imagen  where idProducto=118 limit 0, 1
+[2019-07-06 19:25:41]  select * from Producto  where id=119 limit 0, 100
+[2019-07-06 19:25:41]  select * from Imagen  where idProducto=119 limit 0, 1
+[2019-07-06 19:25:41]  select * from Producto  where id=122 limit 0, 100
+[2019-07-06 19:25:41]  select * from Imagen  where idProducto=122 limit 0, 1
+[2019-07-06 19:25:42]  select * from Producto  where id=123 limit 0, 100
+[2019-07-06 19:25:42]  select * from Imagen  where idProducto=123 limit 0, 1
+[2019-07-06 19:25:42]  select * from Producto  where id=126 limit 0, 100
+[2019-07-06 19:25:42]  select * from Imagen  where idProducto=126 limit 0, 1
+[2019-07-06 19:25:42]  select * from Producto  where id=127 limit 0, 100
+[2019-07-06 19:25:42]  select * from Imagen  where idProducto=127 limit 0, 1
+[2019-07-06 19:25:42]  select * from Producto  where id=128 limit 0, 100
+[2019-07-06 19:25:42]  select * from Imagen  where idProducto=128 limit 0, 1
+[2019-07-06 19:25:42]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 19:25:42]  select * from Imagen  where idProducto=130 limit 0, 1
+[2019-07-06 19:25:42]  select * from Producto  where id=131 limit 0, 100
+[2019-07-06 19:25:42]  select * from Imagen  where idProducto=131 limit 0, 1
+[2019-07-06 19:25:42]  select * from Producto  where id=133 limit 0, 100
+[2019-07-06 19:25:42]  select * from Imagen  where idProducto=133 limit 0, 1
+[2019-07-06 19:25:42]  DESC Estadisticas
+[2019-07-06 19:25:42]  select * from Estadisticas  where id_Producto=115 limit 0, 1
+[2019-07-06 19:25:42]  select * from Estadisticas  where id_Producto=115 limit 0, 1
+[2019-07-06 19:25:42]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=13
+[2019-07-06 19:25:42]  select * from Estadisticas  where id_Producto=116 limit 0, 1
+[2019-07-06 19:25:42]  select * from Estadisticas  where id_Producto=116 limit 0, 1
+[2019-07-06 19:25:42]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=14
+[2019-07-06 19:25:42]  select * from Estadisticas  where id_Producto=117 limit 0, 1
+[2019-07-06 19:25:42]  select * from Estadisticas  where id_Producto=117 limit 0, 1
+[2019-07-06 19:25:42]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=15
+[2019-07-06 19:25:42]  select * from Estadisticas  where id_Producto=118 limit 0, 1
+[2019-07-06 19:25:42]  select * from Estadisticas  where id_Producto=118 limit 0, 1
+[2019-07-06 19:25:42]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=16
+[2019-07-06 19:25:42]  select * from Estadisticas  where id_Producto=119 limit 0, 1
+[2019-07-06 19:25:42]  select * from Estadisticas  where id_Producto=119 limit 0, 1
+[2019-07-06 19:25:42]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=17
+[2019-07-06 19:25:42]  select * from Estadisticas  where id_Producto=122 limit 0, 1
+[2019-07-06 19:25:42]  select * from Estadisticas  where id_Producto=122 limit 0, 1
+[2019-07-06 19:25:42]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=18
+[2019-07-06 19:25:43]  select * from Estadisticas  where id_Producto=123 limit 0, 1
+[2019-07-06 19:25:43]  select * from Estadisticas  where id_Producto=123 limit 0, 1
+[2019-07-06 19:25:43]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=19
+[2019-07-06 19:25:43]  select * from Estadisticas  where id_Producto=126 limit 0, 1
+[2019-07-06 19:25:43]  select * from Estadisticas  where id_Producto=126 limit 0, 1
+[2019-07-06 19:25:43]  UPDATE `Estadisticas` SET `cantidad`='3' WHERE `id`=11
+[2019-07-06 19:25:43]  select * from Estadisticas  where id_Producto=127 limit 0, 1
+[2019-07-06 19:25:43]  select * from Estadisticas  where id_Producto=127 limit 0, 1
+[2019-07-06 19:25:43]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=20
+[2019-07-06 19:25:43]  select * from Estadisticas  where id_Producto=128 limit 0, 1
+[2019-07-06 19:25:43]  select * from Estadisticas  where id_Producto=128 limit 0, 1
+[2019-07-06 19:25:43]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=21
+[2019-07-06 19:25:43]  select * from Estadisticas  where id_Producto=130 limit 0, 1
+[2019-07-06 19:25:43]  select * from Estadisticas  where id_Producto=130 limit 0, 1
+[2019-07-06 19:25:44]  UPDATE `Estadisticas` SET `cantidad`='3' WHERE `id`=9
+[2019-07-06 19:25:44]  select * from Estadisticas  where id_Producto=131 limit 0, 1
+[2019-07-06 19:25:44]  select * from Estadisticas  where id_Producto=131 limit 0, 1
+[2019-07-06 19:25:44]  UPDATE `Estadisticas` SET `cantidad`='3' WHERE `id`=10
+[2019-07-06 19:25:44]  select * from Estadisticas  where id_Producto=133 limit 0, 1
+[2019-07-06 19:25:44]  select * from Estadisticas  where id_Producto=133 limit 0, 1
+[2019-07-06 19:25:44]  UPDATE `Estadisticas` SET `cantidad`='3' WHERE `id`=8
+[2019-07-06 19:25:57]  DESC Usuario
+[2019-07-06 19:25:58]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-06 19:25:58]  DESC Usuario
+[2019-07-06 19:25:58]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-06 19:25:58]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-06 19:26:01]  DESC Estadisticas
+[2019-07-06 19:26:02]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 19:26:02]  DESC Producto
+[2019-07-06 19:26:02]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 19:26:02]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 19:26:02]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 19:26:02]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 19:26:02]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 19:26:02]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 19:26:02]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 19:26:02]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 19:26:40]  DESC Estadisticas
+[2019-07-06 19:26:40]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 19:26:40]  DESC Producto
+[2019-07-06 19:26:40]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 19:26:40]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 19:26:40]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 19:26:41]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 19:26:41]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 19:26:41]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 19:26:41]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 19:26:41]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 19:27:08]  DESC Estadisticas
+[2019-07-06 19:27:09]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 19:27:09]  DESC Producto
+[2019-07-06 19:27:09]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 19:27:09]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 19:27:09]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 19:27:10]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 19:27:10]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 19:27:10]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 19:27:10]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 19:27:10]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 19:27:38]  DESC Estadisticas
+[2019-07-06 19:27:38]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 19:27:38]  DESC Producto
+[2019-07-06 19:27:38]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 19:27:38]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 19:27:38]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 19:27:38]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 19:27:38]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 19:27:38]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 19:27:38]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 19:27:38]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 19:28:14]  DESC Estadisticas
+[2019-07-06 19:28:14]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 19:28:14]  DESC Producto
+[2019-07-06 19:28:14]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 19:28:14]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 19:28:14]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 19:28:14]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 19:28:14]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 19:28:14]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 19:28:14]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 19:28:14]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 19:30:37]  DESC Estadisticas
+[2019-07-06 19:30:39]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 19:30:39]  DESC Producto
+[2019-07-06 19:30:40]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 19:30:40]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 19:30:40]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 19:30:40]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 19:30:40]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 19:30:41]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 19:30:41]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 19:30:41]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 19:31:53]  DESC Estadisticas
+[2019-07-06 19:31:53]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 19:31:53]  DESC Producto
+[2019-07-06 19:31:53]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 19:31:53]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 19:31:53]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 19:31:54]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 19:31:54]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 19:31:54]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 19:31:54]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 19:31:54]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 19:33:58]  DESC Estadisticas
+[2019-07-06 19:33:59]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 19:33:59]  DESC Producto
+[2019-07-06 19:33:59]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 19:33:59]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 19:33:59]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 19:33:59]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 19:33:59]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 19:33:59]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 19:33:59]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 19:33:59]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 19:35:16]  DESC Estadisticas
+[2019-07-06 19:35:16]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 19:35:16]  DESC Producto
+[2019-07-06 19:35:16]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 19:35:16]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 19:35:16]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 19:35:16]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 19:35:16]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 19:35:16]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 19:35:16]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 19:35:16]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 19:36:32]  DESC Estadisticas
+[2019-07-06 19:36:32]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 19:36:32]  DESC Producto
+[2019-07-06 19:36:32]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 19:36:33]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 19:36:33]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 19:36:33]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 19:36:33]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 19:36:33]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 19:36:33]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 19:36:33]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 19:37:15]  DESC Estadisticas
+[2019-07-06 19:37:15]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 19:37:15]  DESC Producto
+[2019-07-06 19:37:16]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 19:37:16]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 19:37:16]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 19:37:16]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 19:37:16]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 19:37:16]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 19:37:16]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 19:37:16]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 19:38:01]  DESC Estadisticas
+[2019-07-06 19:38:01]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 19:38:01]  DESC Producto
+[2019-07-06 19:38:01]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 19:38:01]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 19:38:02]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 19:38:02]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 19:38:02]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 19:38:02]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 19:38:02]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 19:38:02]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 19:40:15]  DESC Estadisticas
+[2019-07-06 19:40:15]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 19:40:15]  DESC Producto
+[2019-07-06 19:40:15]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 19:40:15]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 19:40:15]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 19:40:15]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 19:40:15]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 19:40:15]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 19:40:15]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 19:40:15]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 20:31:04]  DESC Estadisticas
+[2019-07-06 20:31:04]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 20:31:04]  DESC Producto
+[2019-07-06 20:31:05]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 20:31:05]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 20:31:05]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 20:31:05]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 20:31:05]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 20:31:05]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 20:31:06]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 20:31:06]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 20:31:06]  DESC cobranza
+[2019-07-06 20:31:06]  DESC Producto
+[2019-07-06 20:31:06]  select * from cobranza limit 0, 400
+[2019-07-06 20:32:02]  DESC Estadisticas
+[2019-07-06 20:32:02]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 20:32:02]  DESC Producto
+[2019-07-06 20:32:02]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 20:32:02]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 20:32:02]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 20:32:02]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 20:32:03]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 20:32:03]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 20:32:03]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 20:32:03]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 20:32:03]  DESC cobranza
+[2019-07-06 20:32:03]  DESC Producto
+[2019-07-06 20:32:03]  select * from cobranza limit 0, 400
+[2019-07-06 20:32:47]  DESC Estadisticas
+[2019-07-06 20:32:47]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 20:32:47]  DESC Producto
+[2019-07-06 20:32:47]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 20:32:47]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 20:32:47]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 20:32:48]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 20:32:48]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 20:32:48]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 20:32:48]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 20:32:48]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 20:32:48]  DESC cobranza
+[2019-07-06 20:32:48]  DESC Producto
+[2019-07-06 20:32:48]  select * from cobranza limit 0, 400
+[2019-07-06 20:34:20]  DESC Estadisticas
+[2019-07-06 20:34:21]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 20:34:21]  DESC Producto
+[2019-07-06 20:34:21]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 20:34:21]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 20:34:21]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 20:34:21]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 20:34:21]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 20:34:21]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 20:34:21]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 20:34:21]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 20:34:22]  DESC cobranza
+[2019-07-06 20:34:22]  DESC Producto
+[2019-07-06 20:34:22]  select * from cobranza limit 0, 400
+[2019-07-06 20:36:10]  DESC Usuario
+[2019-07-06 20:36:11]  DESC Rol
+[2019-07-06 20:36:11]  select * from Rol  where id=1 limit 0, 1
+[2019-07-06 20:36:11]  select * from Usuario  where userName='toto' limit 0, 1
+[2019-07-06 20:36:11]  DESC localizacion
+[2019-07-06 20:36:11]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('toto','Centurion','9adcb29710e807607b683f62e555c22dc5659713','123456','roci@hotmail.com','toto','Mujer','2','1')
+[2019-07-06 20:36:11]  INSERT INTO `localizacion` (`longitud`,`latitud`,`id_user`) VALUES ('-58.675397799999985','-34.6570243','68')
+[2019-07-06 20:36:25]  DESC Producto
+[2019-07-06 20:36:26]  DESC Imagen
+[2019-07-06 20:36:26]  select * from Producto  where nombre like '%bici%' limit 0, 100
+[2019-07-06 20:36:26]  select * from Producto  where id=133 limit 0, 100
+[2019-07-06 20:36:26]  select * from Imagen  where idProducto=133 limit 0, 1
+[2019-07-06 20:36:26]  DESC Estadisticas
+[2019-07-06 20:36:26]  select * from Estadisticas  where id_Producto=133 limit 0, 1
+[2019-07-06 20:36:26]  select * from Estadisticas  where id_Producto=133 limit 0, 1
+[2019-07-06 20:36:26]  UPDATE `Estadisticas` SET `cantidad`='4' WHERE `id`=8
+[2019-07-06 20:36:30]  DESC Producto
+[2019-07-06 20:36:30]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 20:36:30]  DESC Publicacion
+[2019-07-06 20:36:30]  select * from Publicacion  where id_producto=133 limit 0, 1
+[2019-07-06 20:36:30]  DESC localizacion
+[2019-07-06 20:36:30]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-06 20:36:30]  DESC Imagen
+[2019-07-06 20:36:30]  select * from Imagen  where idProducto=133 limit 0, 10
+[2019-07-06 20:36:30]  DESC Producto
+[2019-07-06 20:36:30]  DESC Imagen
+[2019-07-06 20:36:30]  select * from Producto  where nombre like '%Bicicletas%' limit 0, 100
+[2019-07-06 20:36:31]  select * from Producto  where id=133 limit 0, 100
+[2019-07-06 20:36:31]  select * from Imagen  where idProducto=133 limit 0, 1
+[2019-07-06 20:36:49]  DESC Producto
+[2019-07-06 20:36:49]  DESC Imagen
+[2019-07-06 20:36:49]  select * from Producto  where nombre like '%cartera%' limit 0, 100
+[2019-07-06 20:36:49]  select * from Producto  where id=112 limit 0, 100
+[2019-07-06 20:36:49]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-07-06 20:36:49]  select * from Producto  where id=114 limit 0, 100
+[2019-07-06 20:36:49]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-06 20:36:49]  DESC Estadisticas
+[2019-07-06 20:36:49]  select * from Estadisticas  where id_Producto=112 limit 0, 1
+[2019-07-06 20:36:49]  select * from Estadisticas  where id_Producto=112 limit 0, 1
+[2019-07-06 20:36:49]  UPDATE `Estadisticas` SET `cantidad`='3' WHERE `id`=1
+[2019-07-06 20:36:49]  select * from Estadisticas  where id_Producto=114 limit 0, 1
+[2019-07-06 20:36:49]  select * from Estadisticas  where id_Producto=114 limit 0, 1
+[2019-07-06 20:36:49]  UPDATE `Estadisticas` SET `cantidad`='8' WHERE `id`=2
+[2019-07-06 20:36:51]  DESC Producto
+[2019-07-06 20:36:51]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 20:36:51]  DESC Publicacion
+[2019-07-06 20:36:51]  select * from Publicacion  where id_producto=114 limit 0, 1
+[2019-07-06 20:36:51]  DESC localizacion
+[2019-07-06 20:36:51]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-06 20:36:51]  DESC Imagen
+[2019-07-06 20:36:51]  select * from Imagen  where idProducto=114 limit 0, 10
+[2019-07-06 20:36:51]  DESC Producto
+[2019-07-06 20:36:51]  DESC Imagen
+[2019-07-06 20:36:51]  select * from Producto  where nombre like '%cartera2%' limit 0, 100
+[2019-07-06 20:36:51]  select * from Producto  where id=114 limit 0, 100
+[2019-07-06 20:36:51]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-06 20:37:07]  DESC Producto
+[2019-07-06 20:37:08]  DESC Imagen
+[2019-07-06 20:37:09]  select * from Producto  where nombre like '%vestidos%' limit 0, 100
+[2019-07-06 20:37:09]  select * from Producto  where id=131 limit 0, 100
+[2019-07-06 20:37:09]  select * from Imagen  where idProducto=131 limit 0, 1
+[2019-07-06 20:37:09]  DESC Estadisticas
+[2019-07-06 20:37:10]  select * from Estadisticas  where id_Producto=131 limit 0, 1
+[2019-07-06 20:37:10]  select * from Estadisticas  where id_Producto=131 limit 0, 1
+[2019-07-06 20:37:10]  UPDATE `Estadisticas` SET `cantidad`='4' WHERE `id`=10
+[2019-07-06 20:37:13]  DESC Producto
+[2019-07-06 20:37:13]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 20:37:13]  DESC Publicacion
+[2019-07-06 20:37:13]  select * from Publicacion  where id_producto=131 limit 0, 1
+[2019-07-06 20:37:13]  DESC localizacion
+[2019-07-06 20:37:13]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-06 20:37:13]  DESC Imagen
+[2019-07-06 20:37:13]  select * from Imagen  where idProducto=131 limit 0, 10
+[2019-07-06 20:37:13]  DESC Producto
+[2019-07-06 20:37:13]  DESC Imagen
+[2019-07-06 20:37:13]  select * from Producto  where nombre like '%vestidos%' limit 0, 100
+[2019-07-06 20:37:13]  select * from Producto  where id=131 limit 0, 100
+[2019-07-06 20:37:13]  select * from Imagen  where idProducto=131 limit 0, 1
+[2019-07-06 20:37:25]  DESC Producto
+[2019-07-06 20:37:25]  DESC Imagen
+[2019-07-06 20:37:25]  select * from Producto  where nombre like '%vestido de 15%' limit 0, 100
+[2019-07-06 20:37:25]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 20:37:25]  select * from Imagen  where idProducto=130 limit 0, 1
+[2019-07-06 20:37:26]  DESC Estadisticas
+[2019-07-06 20:37:26]  select * from Estadisticas  where id_Producto=130 limit 0, 1
+[2019-07-06 20:37:26]  select * from Estadisticas  where id_Producto=130 limit 0, 1
+[2019-07-06 20:37:26]  UPDATE `Estadisticas` SET `cantidad`='4' WHERE `id`=9
+[2019-07-06 20:37:27]  DESC Producto
+[2019-07-06 20:37:27]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 20:37:27]  DESC Publicacion
+[2019-07-06 20:37:27]  select * from Publicacion  where id_producto=130 limit 0, 1
+[2019-07-06 20:37:28]  DESC localizacion
+[2019-07-06 20:37:28]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-06 20:37:28]  DESC Imagen
+[2019-07-06 20:37:28]  select * from Imagen  where idProducto=130 limit 0, 10
+[2019-07-06 20:37:28]  DESC Producto
+[2019-07-06 20:37:28]  DESC Imagen
+[2019-07-06 20:37:28]  select * from Producto  where nombre like '%vestido%' limit 0, 100
+[2019-07-06 20:37:28]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 20:37:28]  select * from Imagen  where idProducto=130 limit 0, 1
+[2019-07-06 20:37:28]  select * from Producto  where id=131 limit 0, 100
+[2019-07-06 20:37:28]  select * from Imagen  where idProducto=131 limit 0, 1
+[2019-07-06 20:37:44]  DESC Producto
+[2019-07-06 20:37:44]  DESC Imagen
+[2019-07-06 20:37:45]  select * from Producto  where nombre like '%net%' limit 0, 100
+[2019-07-06 20:37:45]  select * from Producto  where id=124 limit 0, 100
+[2019-07-06 20:37:45]  select * from Imagen  where idProducto=124 limit 0, 1
+[2019-07-06 20:37:45]  select * from Producto  where id=125 limit 0, 100
+[2019-07-06 20:37:45]  select * from Imagen  where idProducto=125 limit 0, 1
+[2019-07-06 20:37:45]  DESC Estadisticas
+[2019-07-06 20:37:45]  select * from Estadisticas  where id_Producto=124 limit 0, 1
+[2019-07-06 20:37:45]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('124','1')
+[2019-07-06 20:37:45]  select * from Estadisticas  where id_Producto=125 limit 0, 1
+[2019-07-06 20:37:45]  INSERT INTO `Estadisticas` (`id_Producto`,`cantidad`) VALUES ('125','1')
+[2019-07-06 20:37:47]  DESC Producto
+[2019-07-06 20:37:47]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 20:37:47]  DESC Publicacion
+[2019-07-06 20:37:47]  select * from Publicacion  where id_producto=125 limit 0, 1
+[2019-07-06 20:37:47]  DESC localizacion
+[2019-07-06 20:37:47]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-06 20:37:47]  DESC Imagen
+[2019-07-06 20:37:47]  select * from Imagen  where idProducto=125 limit 0, 10
+[2019-07-06 20:37:47]  DESC Producto
+[2019-07-06 20:37:47]  DESC Imagen
+[2019-07-06 20:37:47]  select * from Producto  where nombre like '%Netbook%' limit 0, 100
+[2019-07-06 20:37:47]  select * from Producto  where id=124 limit 0, 100
+[2019-07-06 20:37:47]  select * from Imagen  where idProducto=124 limit 0, 1
+[2019-07-06 20:37:47]  select * from Producto  where id=125 limit 0, 100
+[2019-07-06 20:37:47]  select * from Imagen  where idProducto=125 limit 0, 1
+[2019-07-06 20:37:55]  DESC Producto
+[2019-07-06 20:37:55]  select * from Producto  where id=133 limit 0, 100
+[2019-07-06 20:37:55]  select * from Producto  where id=114 limit 0, 100
+[2019-07-06 20:37:55]  select * from Producto  where id=131 limit 0, 100
+[2019-07-06 20:37:55]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 20:37:55]  select * from Producto  where id=125 limit 0, 100
+[2019-07-06 20:38:18]  DESC tarjeta_de_credito
+[2019-07-06 20:38:18]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','68','123','2019-07-18')
+[2019-07-06 20:38:18]  DESC cobranza
+[2019-07-06 20:38:18]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('2','2019-07-18','133','.$total.')
+[2019-07-06 20:38:18]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('2','2019-07-18','114','.$total.')
+[2019-07-06 20:38:18]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('2','2019-07-18','131','.$total.')
+[2019-07-06 20:38:18]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('2','2019-07-18','130','.$total.')
+[2019-07-06 20:38:18]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('2','2019-07-18','125','.$total.')
+[2019-07-06 20:38:35]  DESC Usuario
+[2019-07-06 20:38:35]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-06 20:38:36]  DESC Usuario
+[2019-07-06 20:38:36]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-06 20:38:36]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-06 20:38:40]  DESC Estadisticas
+[2019-07-06 20:38:40]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 20:38:40]  DESC Producto
+[2019-07-06 20:38:41]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 20:38:41]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 20:38:41]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 20:38:41]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 20:38:41]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 20:38:41]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 20:38:41]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 20:38:42]  select * from Producto  where id=116 limit 0, 1
+[2019-07-06 20:38:42]  DESC cobranza
+[2019-07-06 20:38:42]  DESC Producto
+[2019-07-06 20:38:42]  select * from cobranza limit 0, 400
+[2019-07-06 20:38:42]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 20:38:42]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 20:38:42]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 20:38:42]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 20:38:42]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 20:40:30]  DESC Estadisticas
+[2019-07-06 20:40:30]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 20:40:30]  DESC Producto
+[2019-07-06 20:40:31]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 20:40:31]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 20:40:31]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 20:40:31]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 20:40:31]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 20:40:31]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 20:40:31]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 20:40:31]  select * from Producto  where id=116 limit 0, 1
+[2019-07-06 20:40:31]  DESC cobranza
+[2019-07-06 20:40:32]  DESC Producto
+[2019-07-06 20:40:32]  select * from cobranza limit 0, 400
+[2019-07-06 20:40:32]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 20:40:32]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 20:40:32]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 20:40:32]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 20:40:33]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 20:43:46]  DESC Estadisticas
+[2019-07-06 20:43:46]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 20:43:46]  DESC Producto
+[2019-07-06 20:43:46]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 20:43:46]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 20:43:46]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 20:43:46]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 20:43:46]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 20:43:46]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 20:43:46]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 20:43:46]  select * from Producto  where id=116 limit 0, 1
+[2019-07-06 20:43:46]  DESC cobranza
+[2019-07-06 20:43:47]  DESC Producto
+[2019-07-06 20:43:47]  select * from cobranza limit 0, 400
+[2019-07-06 20:43:47]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 20:43:47]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 20:43:47]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 20:43:47]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 20:43:47]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 20:44:38]  DESC Estadisticas
+[2019-07-06 20:44:38]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 20:44:39]  DESC Producto
+[2019-07-06 20:44:39]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 20:44:39]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 20:44:39]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 20:44:39]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 20:44:39]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 20:44:39]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 20:44:39]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 20:44:39]  select * from Producto  where id=116 limit 0, 1
+[2019-07-06 20:44:39]  DESC cobranza
+[2019-07-06 20:44:39]  DESC Producto
+[2019-07-06 20:44:39]  select * from cobranza limit 0, 400
+[2019-07-06 20:44:39]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 20:44:39]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 20:44:39]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 20:44:39]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 20:44:39]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 20:45:20]  DESC Estadisticas
+[2019-07-06 20:45:20]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 20:45:20]  DESC Producto
+[2019-07-06 20:45:20]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 20:45:20]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 20:45:20]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 20:45:20]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 20:45:20]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 20:45:20]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 20:45:20]  select * from Producto  where id=115 limit 0, 1
+[2019-07-06 20:45:20]  select * from Producto  where id=116 limit 0, 1
+[2019-07-06 20:45:20]  DESC cobranza
+[2019-07-06 20:45:21]  DESC Producto
+[2019-07-06 20:45:21]  select * from cobranza limit 0, 400
+[2019-07-06 20:45:21]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 20:45:21]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 20:45:21]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 20:45:21]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 20:45:21]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 20:47:26]  DESC Usuario
+[2019-07-06 20:47:26]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-06 20:47:26]  DESC Usuario
+[2019-07-06 20:47:26]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-06 20:47:26]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-06 20:47:39]  DESC Producto
+[2019-07-06 20:47:39]  DESC Imagen
+[2019-07-06 20:47:39]  select * from Producto  where nombre like '%si%' limit 0, 100
+[2019-07-06 20:47:39]  select * from Producto  where id=127 limit 0, 100
+[2019-07-06 20:47:39]  select * from Imagen  where idProducto=127 limit 0, 1
+[2019-07-06 20:47:39]  select * from Producto  where id=128 limit 0, 100
+[2019-07-06 20:47:39]  select * from Imagen  where idProducto=128 limit 0, 1
+[2019-07-06 20:47:39]  DESC Estadisticas
+[2019-07-06 20:47:39]  select * from Estadisticas  where id_Producto=127 limit 0, 1
+[2019-07-06 20:47:39]  select * from Estadisticas  where id_Producto=127 limit 0, 1
+[2019-07-06 20:47:39]  UPDATE `Estadisticas` SET `cantidad`='3' WHERE `id`=20
+[2019-07-06 20:47:39]  select * from Estadisticas  where id_Producto=128 limit 0, 1
+[2019-07-06 20:47:39]  select * from Estadisticas  where id_Producto=128 limit 0, 1
+[2019-07-06 20:47:39]  UPDATE `Estadisticas` SET `cantidad`='3' WHERE `id`=21
+[2019-07-06 20:47:41]  DESC Producto
+[2019-07-06 20:47:41]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 20:47:41]  DESC Publicacion
+[2019-07-06 20:47:42]  select * from Publicacion  where id_producto=127 limit 0, 1
+[2019-07-06 20:47:42]  DESC localizacion
+[2019-07-06 20:47:42]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-06 20:47:42]  DESC Imagen
+[2019-07-06 20:47:42]  select * from Imagen  where idProducto=127 limit 0, 10
+[2019-07-06 20:47:43]  DESC Producto
+[2019-07-06 20:47:43]  DESC Imagen
+[2019-07-06 20:47:43]  select * from Producto  where nombre like '%sillones%' limit 0, 100
+[2019-07-06 20:47:43]  select * from Producto  where id=127 limit 0, 100
+[2019-07-06 20:47:43]  select * from Imagen  where idProducto=127 limit 0, 1
+[2019-07-06 20:47:43]  select * from Producto  where id=128 limit 0, 100
+[2019-07-06 20:47:43]  select * from Imagen  where idProducto=128 limit 0, 1
+[2019-07-06 20:47:49]  DESC Producto
+[2019-07-06 20:47:49]  select * from Producto  where id=127 limit 0, 100
+[2019-07-06 20:48:17]  DESC tarjeta_de_credito
+[2019-07-06 20:48:17]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','123','2019-07-26')
+[2019-07-06 20:48:17]  DESC cobranza
+[2019-07-06 20:48:17]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('3','2019-07-26','127','.$total.')
+[2019-07-06 20:51:18]  DESC Producto
+[2019-07-06 20:51:18]  DESC Imagen
+[2019-07-06 20:51:18]  select * from Producto  where nombre like '%v%' limit 0, 100
+[2019-07-06 20:51:18]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 20:51:18]  select * from Imagen  where idProducto=130 limit 0, 1
+[2019-07-06 20:51:18]  select * from Producto  where id=131 limit 0, 100
+[2019-07-06 20:51:18]  select * from Imagen  where idProducto=131 limit 0, 1
+[2019-07-06 20:51:18]  DESC Estadisticas
+[2019-07-06 20:51:18]  select * from Estadisticas  where id_Producto=130 limit 0, 1
+[2019-07-06 20:51:18]  select * from Estadisticas  where id_Producto=130 limit 0, 1
+[2019-07-06 20:51:19]  UPDATE `Estadisticas` SET `cantidad`='5' WHERE `id`=9
+[2019-07-06 20:51:19]  select * from Estadisticas  where id_Producto=131 limit 0, 1
+[2019-07-06 20:51:19]  select * from Estadisticas  where id_Producto=131 limit 0, 1
+[2019-07-06 20:51:19]  UPDATE `Estadisticas` SET `cantidad`='5' WHERE `id`=10
+[2019-07-06 20:51:20]  DESC Producto
+[2019-07-06 20:51:20]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 20:51:20]  DESC Publicacion
+[2019-07-06 20:51:20]  select * from Publicacion  where id_producto=130 limit 0, 1
+[2019-07-06 20:51:20]  DESC localizacion
+[2019-07-06 20:51:20]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-06 20:51:21]  DESC Imagen
+[2019-07-06 20:51:21]  select * from Imagen  where idProducto=130 limit 0, 10
+[2019-07-06 20:51:21]  DESC Producto
+[2019-07-06 20:51:21]  DESC Imagen
+[2019-07-06 20:51:21]  select * from Producto  where nombre like '%vestido%' limit 0, 100
+[2019-07-06 20:51:21]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 20:51:21]  select * from Imagen  where idProducto=130 limit 0, 1
+[2019-07-06 20:51:21]  select * from Producto  where id=131 limit 0, 100
+[2019-07-06 20:51:21]  select * from Imagen  where idProducto=131 limit 0, 1
+[2019-07-06 20:51:27]  DESC Producto
+[2019-07-06 20:51:27]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 20:54:19]  DESC Producto
+[2019-07-06 20:54:20]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 20:55:29]  DESC Producto
+[2019-07-06 20:55:30]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 20:55:49]  DESC Producto
+[2019-07-06 20:55:49]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 20:56:22]  DESC Producto
+[2019-07-06 20:56:22]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 20:56:42]  DESC Producto
+[2019-07-06 20:56:42]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 20:57:30]  DESC Producto
+[2019-07-06 20:57:30]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 20:57:39]  DESC Producto
+[2019-07-06 20:57:40]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 20:59:04]  DESC Producto
+[2019-07-06 20:59:06]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 20:59:12]  DESC Producto
+[2019-07-06 20:59:12]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 20:59:48]  DESC Producto
+[2019-07-06 20:59:48]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 21:01:18]  DESC Usuario
+[2019-07-06 21:01:18]  select * from Usuario  where name= 'axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-06 21:01:18]  DESC Usuario
+[2019-07-06 21:01:18]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-06 21:01:18]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-06 21:01:27]  DESC Producto
+[2019-07-06 21:01:28]  DESC Imagen
+[2019-07-06 21:01:28]  select * from Producto  where nombre like '%car%' limit 0, 100
+[2019-07-06 21:01:28]  select * from Producto  where id=112 limit 0, 100
+[2019-07-06 21:01:28]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-07-06 21:01:28]  select * from Producto  where id=114 limit 0, 100
+[2019-07-06 21:01:28]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-06 21:01:28]  DESC Estadisticas
+[2019-07-06 21:01:29]  select * from Estadisticas  where id_Producto=112 limit 0, 1
+[2019-07-06 21:01:29]  select * from Estadisticas  where id_Producto=112 limit 0, 1
+[2019-07-06 21:01:29]  UPDATE `Estadisticas` SET `cantidad`='4' WHERE `id`=1
+[2019-07-06 21:01:29]  select * from Estadisticas  where id_Producto=114 limit 0, 1
+[2019-07-06 21:01:29]  select * from Estadisticas  where id_Producto=114 limit 0, 1
+[2019-07-06 21:01:29]  UPDATE `Estadisticas` SET `cantidad`='9' WHERE `id`=2
+[2019-07-06 21:01:30]  DESC Producto
+[2019-07-06 21:01:31]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 21:01:31]  DESC Publicacion
+[2019-07-06 21:01:31]  select * from Publicacion  where id_producto=112 limit 0, 1
+[2019-07-06 21:01:31]  DESC localizacion
+[2019-07-06 21:01:31]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-06 21:01:31]  DESC Imagen
+[2019-07-06 21:01:31]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-07-06 21:01:31]  DESC Producto
+[2019-07-06 21:01:31]  DESC Imagen
+[2019-07-06 21:01:31]  select * from Producto  where nombre like '%Cartera%' limit 0, 100
+[2019-07-06 21:01:31]  select * from Producto  where id=112 limit 0, 100
+[2019-07-06 21:01:31]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-07-06 21:01:31]  select * from Producto  where id=114 limit 0, 100
+[2019-07-06 21:01:31]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-06 21:01:39]  DESC Producto
+[2019-07-06 21:01:39]  select * from Producto  where id=112 limit 0, 100
+[2019-07-06 21:01:55]  DESC Producto
+[2019-07-06 21:01:55]  select * from Producto  where id=112 limit 0, 100
+[2019-07-06 21:02:19]  DESC Producto
+[2019-07-06 21:02:19]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 21:02:34]  DESC tarjeta_de_credito
+[2019-07-06 21:02:34]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','123','2019-07-19')
+[2019-07-06 21:02:34]  DESC cobranza
+[2019-07-06 21:02:35]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('4','2019-07-19','130','.$total.')
+[2019-07-06 21:04:23]  DESC tarjeta_de_credito
+[2019-07-06 21:04:23]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','125','2019-10-07')
+[2019-07-06 21:04:23]  DESC cobranza
+[2019-07-06 21:04:23]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('5','2019-10-07','112','.$total.')
+[2019-07-06 21:05:31]  DESC Producto
+[2019-07-06 21:05:32]  DESC Imagen
+[2019-07-06 21:05:32]  select * from Producto  where nombre like '%v%' limit 0, 100
+[2019-07-06 21:05:32]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 21:05:32]  select * from Imagen  where idProducto=130 limit 0, 1
+[2019-07-06 21:05:32]  select * from Producto  where id=131 limit 0, 100
+[2019-07-06 21:05:32]  select * from Imagen  where idProducto=131 limit 0, 1
+[2019-07-06 21:05:32]  DESC Estadisticas
+[2019-07-06 21:05:33]  select * from Estadisticas  where id_Producto=130 limit 0, 1
+[2019-07-06 21:05:33]  select * from Estadisticas  where id_Producto=130 limit 0, 1
+[2019-07-06 21:05:33]  UPDATE `Estadisticas` SET `cantidad`='6' WHERE `id`=9
+[2019-07-06 21:05:33]  select * from Estadisticas  where id_Producto=131 limit 0, 1
+[2019-07-06 21:05:33]  select * from Estadisticas  where id_Producto=131 limit 0, 1
+[2019-07-06 21:05:33]  UPDATE `Estadisticas` SET `cantidad`='6' WHERE `id`=10
+[2019-07-06 21:05:35]  DESC Producto
+[2019-07-06 21:05:35]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 21:05:35]  DESC Publicacion
+[2019-07-06 21:05:35]  select * from Publicacion  where id_producto=130 limit 0, 1
+[2019-07-06 21:05:35]  DESC localizacion
+[2019-07-06 21:05:35]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-06 21:05:35]  DESC Imagen
+[2019-07-06 21:05:35]  select * from Imagen  where idProducto=130 limit 0, 10
+[2019-07-06 21:05:35]  DESC Producto
+[2019-07-06 21:05:35]  DESC Imagen
+[2019-07-06 21:05:35]  select * from Producto  where nombre like '%vestido%' limit 0, 100
+[2019-07-06 21:05:36]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 21:05:36]  select * from Imagen  where idProducto=130 limit 0, 1
+[2019-07-06 21:05:36]  select * from Producto  where id=131 limit 0, 100
+[2019-07-06 21:05:36]  select * from Imagen  where idProducto=131 limit 0, 1
+[2019-07-06 21:05:41]  DESC Producto
+[2019-07-06 21:05:41]  select * from Producto  where id=130 limit 0, 100
+[2019-07-06 21:07:48]  DESC Producto
+[2019-07-06 21:07:48]  DESC Imagen
+[2019-07-06 21:07:48]  select * from Producto  where nombre like '%j%' limit 0, 100
+[2019-07-06 21:07:48]  select * from Producto  where id=126 limit 0, 100
+[2019-07-06 21:07:48]  select * from Imagen  where idProducto=126 limit 0, 1
+[2019-07-06 21:07:48]  DESC Estadisticas
+[2019-07-06 21:07:48]  select * from Estadisticas  where id_Producto=126 limit 0, 1
+[2019-07-06 21:07:48]  select * from Estadisticas  where id_Producto=126 limit 0, 1
+[2019-07-06 21:07:48]  UPDATE `Estadisticas` SET `cantidad`='4' WHERE `id`=11
+[2019-07-06 21:07:50]  DESC Producto
+[2019-07-06 21:07:50]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 21:07:50]  DESC Publicacion
+[2019-07-06 21:07:51]  select * from Publicacion  where id_producto=126 limit 0, 1
+[2019-07-06 21:07:51]  DESC localizacion
+[2019-07-06 21:07:51]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-06 21:07:51]  DESC Imagen
+[2019-07-06 21:07:51]  select * from Imagen  where idProducto=126 limit 0, 10
+[2019-07-06 21:07:51]  DESC Producto
+[2019-07-06 21:07:51]  DESC Imagen
+[2019-07-06 21:07:52]  select * from Producto  where nombre like '%Juguetes%' limit 0, 100
+[2019-07-06 21:07:52]  select * from Producto  where id=126 limit 0, 100
+[2019-07-06 21:07:52]  select * from Imagen  where idProducto=126 limit 0, 1
+[2019-07-06 21:07:57]  DESC Producto
+[2019-07-06 21:07:58]  select * from Producto  where id=126 limit 0, 100
+[2019-07-06 21:08:15]  DESC tarjeta_de_credito
+[2019-07-06 21:08:15]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','123','2019-07-27')
+[2019-07-06 21:08:15]  DESC cobranza
+[2019-07-06 21:08:15]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`total`) VALUES ('6','2019-07-27','126','200')
+[2019-07-06 21:42:48]  DESC Usuario
+[2019-07-06 21:42:48]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-06 21:42:48]  DESC Usuario
+[2019-07-06 21:42:48]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-06 21:42:48]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-06 21:42:55]  DESC Estadisticas
+[2019-07-06 21:42:55]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 21:42:55]  DESC Producto
+[2019-07-06 21:42:55]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 21:42:55]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 21:42:55]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 21:42:55]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 21:42:55]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 21:42:55]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 21:42:55]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 21:42:55]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 21:42:55]  DESC cobranza
+[2019-07-06 21:42:56]  DESC Producto
+[2019-07-06 21:42:56]  select * from cobranza limit 0, 400
+[2019-07-06 21:42:56]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 21:42:56]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 21:42:56]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 21:42:56]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 21:42:56]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 21:42:56]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 21:42:56]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 21:42:56]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 21:42:56]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 21:48:55]  DESC Estadisticas
+[2019-07-06 21:48:55]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 21:48:55]  DESC Producto
+[2019-07-06 21:48:55]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 21:48:55]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 21:48:56]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 21:48:56]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 21:48:56]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 21:48:56]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 21:48:56]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 21:48:56]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 21:48:56]  DESC cobranza
+[2019-07-06 21:48:56]  DESC Producto
+[2019-07-06 21:48:56]  select * from cobranza limit 0, 400
+[2019-07-06 21:48:56]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 21:48:56]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 21:48:57]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 21:48:57]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 21:48:57]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 21:48:57]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 21:48:57]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 21:48:57]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 21:48:57]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 21:49:24]  DESC Estadisticas
+[2019-07-06 21:49:24]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 21:49:24]  DESC Producto
+[2019-07-06 21:49:24]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 21:49:24]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 21:49:24]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 21:49:24]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 21:49:24]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 21:49:24]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 21:49:24]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 21:49:24]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 21:49:25]  DESC cobranza
+[2019-07-06 21:49:25]  DESC Producto
+[2019-07-06 21:49:25]  select * from cobranza limit 0, 400
+[2019-07-06 21:49:25]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 21:49:25]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 21:49:25]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 21:49:25]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 21:49:25]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 21:49:25]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 21:49:25]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 21:49:26]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 21:49:26]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 21:50:16]  DESC Estadisticas
+[2019-07-06 21:50:17]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 21:50:17]  DESC Producto
+[2019-07-06 21:50:17]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 21:50:18]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 21:50:18]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 21:50:18]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 21:50:18]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 21:50:18]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 21:50:18]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 21:50:18]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 21:50:18]  DESC cobranza
+[2019-07-06 21:50:19]  DESC Producto
+[2019-07-06 21:50:19]  select * from cobranza limit 0, 400
+[2019-07-06 21:50:19]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 21:50:19]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 21:50:19]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 21:50:19]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 21:50:19]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 21:50:19]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 21:50:19]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 21:50:19]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 21:50:19]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:03:38]  DESC Estadisticas
+[2019-07-06 22:03:39]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:03:39]  DESC Producto
+[2019-07-06 22:03:39]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:03:40]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:03:40]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:03:40]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:03:40]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:03:40]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:03:40]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:03:40]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:03:41]  DESC cobranza
+[2019-07-06 22:03:41]  DESC Producto
+[2019-07-06 22:03:42]  select * from cobranza limit 0, 400
+[2019-07-06 22:03:42]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:03:42]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:03:42]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:03:42]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:03:43]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:03:43]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:03:43]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:03:43]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:03:43]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:03:43]  DESC cobranza
+[2019-07-06 22:03:44]  DESC Producto
+[2019-07-06 22:03:44]  select * from cobranza limit 0, 400
+[2019-07-06 22:04:03]  DESC Estadisticas
+[2019-07-06 22:04:03]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:04:03]  DESC Producto
+[2019-07-06 22:04:03]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:04:03]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:04:03]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:04:03]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:04:03]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:04:03]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:04:03]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:04:03]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:04:03]  DESC cobranza
+[2019-07-06 22:04:04]  DESC Producto
+[2019-07-06 22:04:04]  select * from cobranza limit 0, 400
+[2019-07-06 22:04:04]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:04:04]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:04:04]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:04:04]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:04:04]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:04:04]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:04:04]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:04:04]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:04:04]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:04:04]  DESC cobranza
+[2019-07-06 22:04:04]  DESC Producto
+[2019-07-06 22:04:04]  select * from cobranza limit 0, 400
+[2019-07-06 22:04:06]  DESC Estadisticas
+[2019-07-06 22:04:06]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:04:06]  DESC Producto
+[2019-07-06 22:04:06]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:04:06]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:04:06]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:04:07]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:04:07]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:04:07]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:04:07]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:04:07]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:04:07]  DESC cobranza
+[2019-07-06 22:04:07]  DESC Producto
+[2019-07-06 22:04:08]  select * from cobranza limit 0, 400
+[2019-07-06 22:04:08]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:04:08]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:04:08]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:04:08]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:04:08]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:04:08]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:04:08]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:04:08]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:04:08]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:04:08]  DESC cobranza
+[2019-07-06 22:04:09]  DESC Producto
+[2019-07-06 22:04:09]  select * from cobranza limit 0, 400
+[2019-07-06 22:04:53]  DESC Estadisticas
+[2019-07-06 22:04:54]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:04:54]  DESC Producto
+[2019-07-06 22:04:54]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:04:54]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:04:54]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:04:54]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:04:55]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:04:55]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:04:55]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:04:55]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:04:55]  DESC cobranza
+[2019-07-06 22:04:55]  DESC Producto
+[2019-07-06 22:04:55]  select * from cobranza limit 0, 400
+[2019-07-06 22:04:55]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:04:55]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:04:56]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:04:56]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:04:56]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:04:56]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:04:56]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:04:56]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:04:56]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:04:56]  DESC cobranza
+[2019-07-06 22:04:56]  DESC Producto
+[2019-07-06 22:04:56]  select * from cobranza limit 0, 400
+[2019-07-06 22:05:42]  DESC Estadisticas
+[2019-07-06 22:05:42]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:05:42]  DESC Producto
+[2019-07-06 22:05:43]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:05:43]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:05:43]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:05:43]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:05:43]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:05:43]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:05:43]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:05:43]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:05:43]  DESC cobranza
+[2019-07-06 22:05:43]  DESC Producto
+[2019-07-06 22:05:44]  select * from cobranza limit 0, 400
+[2019-07-06 22:05:44]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:05:44]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:05:44]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:05:44]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:05:44]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:05:44]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:05:44]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:05:44]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:05:44]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:05:45]  DESC cobranza
+[2019-07-06 22:05:45]  DESC Producto
+[2019-07-06 22:05:45]  select * from cobranza limit 0, 400
+[2019-07-06 22:06:21]  DESC Estadisticas
+[2019-07-06 22:06:22]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:06:22]  DESC Producto
+[2019-07-06 22:06:23]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:06:23]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:06:23]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:06:23]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:06:23]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:06:23]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:06:23]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:06:23]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:06:23]  DESC cobranza
+[2019-07-06 22:06:24]  DESC Producto
+[2019-07-06 22:06:24]  select * from cobranza limit 0, 400
+[2019-07-06 22:06:24]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:06:24]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:06:24]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:06:24]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:06:24]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:06:24]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:06:25]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:06:25]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:06:25]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:06:25]  DESC cobranza
+[2019-07-06 22:06:25]  DESC Producto
+[2019-07-06 22:06:25]  select * from cobranza limit 0, 400
+[2019-07-06 22:06:52]  DESC Estadisticas
+[2019-07-06 22:06:52]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:06:52]  DESC Producto
+[2019-07-06 22:06:52]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:06:52]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:06:52]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:06:52]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:06:53]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:06:53]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:06:53]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:06:53]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:06:53]  DESC cobranza
+[2019-07-06 22:06:53]  DESC Producto
+[2019-07-06 22:06:54]  select * from cobranza limit 0, 400
+[2019-07-06 22:06:54]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:06:54]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:06:54]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:06:54]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:06:54]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:06:54]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:06:54]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:06:55]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:06:55]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:06:55]  DESC cobranza
+[2019-07-06 22:06:55]  DESC Producto
+[2019-07-06 22:06:56]  select * from cobranza limit 0, 400
+[2019-07-06 22:18:07]  DESC Estadisticas
+[2019-07-06 22:18:08]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:18:08]  DESC Producto
+[2019-07-06 22:18:09]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:18:09]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:18:09]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:18:09]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:18:09]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:18:09]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:18:09]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:18:09]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:18:10]  DESC cobranza
+[2019-07-06 22:18:10]  DESC Producto
+[2019-07-06 22:18:10]  select * from cobranza limit 0, 400
+[2019-07-06 22:18:10]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:18:11]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:18:11]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:18:11]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:18:11]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:18:11]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:18:11]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:18:11]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:18:11]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:18:11]  DESC cobranza
+[2019-07-06 22:18:11]  DESC Producto
+[2019-07-06 22:18:11]  select * from cobranza limit 0, 400
+[2019-07-06 22:19:45]  DESC Estadisticas
+[2019-07-06 22:19:45]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:19:45]  DESC Producto
+[2019-07-06 22:19:45]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:19:45]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:19:45]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:19:46]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:19:46]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:19:46]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:19:46]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:19:46]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:19:46]  DESC cobranza
+[2019-07-06 22:19:47]  DESC Producto
+[2019-07-06 22:19:47]  select * from cobranza limit 0, 400
+[2019-07-06 22:19:47]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:19:47]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:19:47]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:19:47]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:19:47]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:19:48]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:19:48]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:19:48]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:19:48]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:19:48]  DESC cobranza
+[2019-07-06 22:19:48]  DESC Producto
+[2019-07-06 22:19:48]  select * from cobranza limit 0, 400
+[2019-07-06 22:20:54]  DESC Estadisticas
+[2019-07-06 22:20:56]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:20:56]  DESC Producto
+[2019-07-06 22:20:57]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:20:58]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:20:58]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:20:58]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:20:58]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:20:58]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:20:58]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:20:58]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:20:59]  DESC cobranza
+[2019-07-06 22:20:59]  DESC Producto
+[2019-07-06 22:20:59]  select * from cobranza limit 0, 400
+[2019-07-06 22:20:59]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:20:59]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:20:59]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:20:59]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:21:00]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:21:00]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:21:00]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:21:00]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:21:00]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:21:00]  DESC cobranza
+[2019-07-06 22:21:00]  DESC Producto
+[2019-07-06 22:21:00]  select * from cobranza limit 0, 400
+[2019-07-06 22:21:41]  DESC Estadisticas
+[2019-07-06 22:21:41]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:21:41]  DESC Producto
+[2019-07-06 22:21:41]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:21:41]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:21:41]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:21:41]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:21:41]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:21:41]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:21:42]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:21:42]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:21:42]  DESC cobranza
+[2019-07-06 22:21:42]  DESC Producto
+[2019-07-06 22:21:42]  select * from cobranza limit 0, 400
+[2019-07-06 22:21:42]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:21:42]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:21:42]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:21:43]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:21:43]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:21:43]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:21:43]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:21:43]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:21:43]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:21:43]  DESC cobranza
+[2019-07-06 22:21:44]  DESC Producto
+[2019-07-06 22:21:44]  select * from cobranza limit 0, 400
+[2019-07-06 22:22:06]  DESC Estadisticas
+[2019-07-06 22:22:06]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:22:06]  DESC Producto
+[2019-07-06 22:22:06]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:22:06]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:22:06]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:22:06]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:22:06]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:22:06]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:22:06]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:22:06]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:22:06]  DESC cobranza
+[2019-07-06 22:22:07]  DESC Producto
+[2019-07-06 22:22:07]  select * from cobranza limit 0, 400
+[2019-07-06 22:22:07]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:22:07]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:22:07]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:22:07]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:22:07]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:22:07]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:22:07]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:22:07]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:22:07]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:22:07]  DESC cobranza
+[2019-07-06 22:22:07]  DESC Producto
+[2019-07-06 22:22:07]  select * from cobranza limit 0, 400
+[2019-07-06 22:22:40]  DESC Estadisticas
+[2019-07-06 22:22:41]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:22:41]  DESC Producto
+[2019-07-06 22:22:41]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:22:42]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:22:42]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:22:42]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:22:42]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:22:42]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:22:42]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:22:42]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:22:42]  DESC cobranza
+[2019-07-06 22:22:42]  DESC Producto
+[2019-07-06 22:22:42]  select * from cobranza limit 0, 400
+[2019-07-06 22:22:43]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:22:43]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:22:43]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:22:43]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:22:43]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:22:44]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:22:44]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:22:44]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:22:44]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:22:44]  DESC cobranza
+[2019-07-06 22:22:44]  DESC Producto
+[2019-07-06 22:22:44]  select * from cobranza limit 0, 400
+[2019-07-06 22:23:20]  DESC Estadisticas
+[2019-07-06 22:23:20]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:23:20]  DESC Producto
+[2019-07-06 22:23:21]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:23:21]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:23:21]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:23:21]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:23:21]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:23:21]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:23:21]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:23:21]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:23:21]  DESC cobranza
+[2019-07-06 22:23:21]  DESC Producto
+[2019-07-06 22:23:21]  select * from cobranza limit 0, 400
+[2019-07-06 22:23:21]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:23:21]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:23:21]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:23:21]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:23:21]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:23:21]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:23:21]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:23:21]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:23:22]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:23:22]  DESC cobranza
+[2019-07-06 22:23:22]  DESC Producto
+[2019-07-06 22:23:22]  select * from cobranza limit 0, 400
+[2019-07-06 22:25:28]  DESC Estadisticas
+[2019-07-06 22:25:29]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:25:29]  DESC Producto
+[2019-07-06 22:25:29]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:25:30]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:25:30]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:25:30]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:25:30]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:25:30]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:25:30]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:25:30]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:25:30]  DESC cobranza
+[2019-07-06 22:25:30]  DESC Producto
+[2019-07-06 22:25:30]  select * from cobranza limit 0, 400
+[2019-07-06 22:25:30]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:25:30]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:25:31]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:25:31]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:25:31]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:25:31]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:25:31]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:25:31]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:25:31]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:25:31]  DESC cobranza
+[2019-07-06 22:25:31]  DESC Producto
+[2019-07-06 22:25:31]  select * from cobranza limit 0, 400
+[2019-07-06 22:25:51]  DESC Estadisticas
+[2019-07-06 22:25:52]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:25:52]  DESC Producto
+[2019-07-06 22:25:52]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:25:52]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:25:52]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:25:52]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:25:52]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:25:52]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:25:53]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:25:53]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:25:53]  DESC cobranza
+[2019-07-06 22:25:54]  DESC Producto
+[2019-07-06 22:25:54]  select * from cobranza limit 0, 400
+[2019-07-06 22:25:54]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:25:55]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:25:55]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:25:55]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:25:55]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:25:55]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:25:55]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:25:55]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:25:55]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:25:55]  DESC cobranza
+[2019-07-06 22:25:55]  DESC Producto
+[2019-07-06 22:25:56]  select * from cobranza limit 0, 400
+[2019-07-06 22:26:16]  DESC Estadisticas
+[2019-07-06 22:26:16]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:26:16]  DESC Producto
+[2019-07-06 22:26:16]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:26:16]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:26:16]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:26:16]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:26:16]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:26:16]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:26:16]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:26:17]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:26:17]  DESC cobranza
+[2019-07-06 22:26:17]  DESC Producto
+[2019-07-06 22:26:17]  select * from cobranza limit 0, 400
+[2019-07-06 22:26:18]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:26:18]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:26:18]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:26:18]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:26:18]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:26:18]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:26:18]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:26:18]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:26:18]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:26:18]  DESC cobranza
+[2019-07-06 22:26:19]  DESC Producto
+[2019-07-06 22:26:19]  select * from cobranza limit 0, 400
+[2019-07-06 22:26:48]  DESC Estadisticas
+[2019-07-06 22:26:48]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:26:48]  DESC Producto
+[2019-07-06 22:26:49]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:26:49]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:26:49]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:26:49]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:26:49]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:26:49]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:26:50]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:26:50]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:26:50]  DESC cobranza
+[2019-07-06 22:26:50]  DESC Producto
+[2019-07-06 22:26:51]  select * from cobranza limit 0, 400
+[2019-07-06 22:26:51]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:26:51]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:26:51]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:26:51]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:26:51]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:26:52]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:26:52]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:26:52]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:26:52]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:26:52]  DESC cobranza
+[2019-07-06 22:26:52]  DESC Producto
+[2019-07-06 22:26:52]  select * from cobranza limit 0, 400
+[2019-07-06 22:29:39]  DESC Estadisticas
+[2019-07-06 22:29:39]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:29:39]  DESC Producto
+[2019-07-06 22:29:39]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:29:40]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:29:40]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:29:40]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:29:40]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:29:40]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:29:40]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:29:40]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:29:41]  DESC cobranza
+[2019-07-06 22:29:41]  DESC Producto
+[2019-07-06 22:29:41]  select * from cobranza limit 0, 400
+[2019-07-06 22:29:41]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:29:41]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:29:42]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:29:42]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:29:42]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:29:42]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:29:42]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:29:42]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:29:42]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:29:42]  DESC cobranza
+[2019-07-06 22:29:43]  DESC Producto
+[2019-07-06 22:29:44]  select * from cobranza limit 0, 400
+[2019-07-06 22:31:52]  DESC Estadisticas
+[2019-07-06 22:31:52]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 22:31:53]  DESC Producto
+[2019-07-06 22:31:53]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:31:53]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:31:53]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:31:53]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:31:53]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:31:54]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:31:54]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:31:54]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 22:31:54]  DESC cobranza
+[2019-07-06 22:31:55]  DESC Producto
+[2019-07-06 22:31:55]  select * from cobranza limit 0, 400
+[2019-07-06 22:31:55]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 22:31:55]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 22:31:55]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 22:31:56]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:31:56]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 22:31:56]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 22:31:56]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 22:31:56]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 22:31:56]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 22:31:56]  DESC cobranza
+[2019-07-06 22:31:56]  DESC Producto
+[2019-07-06 22:31:56]  select * from cobranza limit 0, 400
+[2019-07-06 23:41:22]  DESC Estadisticas
+[2019-07-06 23:41:22]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 23:41:23]  DESC Producto
+[2019-07-06 23:41:23]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:41:23]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:41:23]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:41:23]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:41:23]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:41:23]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:41:23]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:41:23]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 23:41:23]  DESC cobranza
+[2019-07-06 23:41:23]  DESC Producto
+[2019-07-06 23:41:23]  select * from cobranza limit 0, 400
+[2019-07-06 23:41:23]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:41:24]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:41:24]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:41:24]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:41:24]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 23:41:24]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:41:24]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:41:24]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:41:24]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:41:24]  DESC cobranza
+[2019-07-06 23:41:24]  DESC Producto
+[2019-07-06 23:41:24]  select * from cobranza limit 0, 400
+[2019-07-06 23:42:32]  DESC Estadisticas
+[2019-07-06 23:42:33]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 23:42:33]  DESC Producto
+[2019-07-06 23:42:33]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:42:34]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:42:34]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:42:34]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:42:34]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:42:34]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:42:34]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:42:34]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 23:42:34]  DESC cobranza
+[2019-07-06 23:42:35]  DESC Producto
+[2019-07-06 23:42:35]  select * from cobranza limit 0, 400
+[2019-07-06 23:42:35]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:42:35]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:42:35]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:42:35]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:42:35]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 23:42:35]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:42:35]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:42:35]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:42:35]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:42:35]  DESC cobranza
+[2019-07-06 23:42:35]  DESC Producto
+[2019-07-06 23:42:35]  select * from cobranza limit 0, 400
+[2019-07-06 23:43:20]  DESC Estadisticas
+[2019-07-06 23:43:20]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 23:43:21]  DESC Producto
+[2019-07-06 23:43:21]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:43:21]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:43:21]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:43:21]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:43:21]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:43:21]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:43:21]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:43:21]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 23:43:21]  DESC cobranza
+[2019-07-06 23:43:21]  DESC Producto
+[2019-07-06 23:43:22]  select * from cobranza limit 0, 400
+[2019-07-06 23:43:22]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:43:22]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:43:22]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:43:22]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:43:22]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 23:43:22]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:43:22]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:43:22]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:43:22]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:43:22]  DESC cobranza
+[2019-07-06 23:43:22]  DESC Producto
+[2019-07-06 23:43:22]  select * from cobranza limit 0, 400
+[2019-07-06 23:44:29]  DESC Estadisticas
+[2019-07-06 23:44:30]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 23:44:30]  DESC Producto
+[2019-07-06 23:44:31]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:44:31]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:44:31]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:44:31]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:44:31]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:44:31]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:44:31]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:44:31]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 23:44:31]  DESC cobranza
+[2019-07-06 23:44:31]  DESC Producto
+[2019-07-06 23:44:32]  select * from cobranza limit 0, 400
+[2019-07-06 23:44:32]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:44:32]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:44:32]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:44:32]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:44:32]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 23:44:32]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:44:32]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:44:32]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:44:32]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:44:32]  DESC cobranza
+[2019-07-06 23:44:32]  DESC Producto
+[2019-07-06 23:44:33]  select * from cobranza limit 0, 400
+[2019-07-06 23:45:14]  DESC Estadisticas
+[2019-07-06 23:45:14]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 23:45:14]  DESC Producto
+[2019-07-06 23:45:15]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:45:15]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:45:15]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:45:15]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:45:15]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:45:15]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:45:15]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:45:15]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 23:45:15]  DESC cobranza
+[2019-07-06 23:45:16]  DESC Producto
+[2019-07-06 23:45:16]  select * from cobranza limit 0, 400
+[2019-07-06 23:45:16]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:45:16]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:45:16]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:45:16]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:45:16]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 23:45:16]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:45:16]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:45:16]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:45:16]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:45:16]  DESC cobranza
+[2019-07-06 23:45:17]  DESC Producto
+[2019-07-06 23:45:17]  select * from cobranza limit 0, 400
+[2019-07-06 23:46:36]  DESC Estadisticas
+[2019-07-06 23:46:36]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 23:46:36]  DESC Producto
+[2019-07-06 23:46:36]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:46:36]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:46:36]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:46:36]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:46:36]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:46:36]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:46:36]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:46:36]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 23:46:36]  DESC cobranza
+[2019-07-06 23:46:36]  DESC Producto
+[2019-07-06 23:46:36]  select * from cobranza limit 0, 400
+[2019-07-06 23:46:36]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:46:37]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:46:37]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:46:37]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:46:37]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 23:46:37]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:46:37]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:46:37]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:46:37]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:46:37]  DESC cobranza
+[2019-07-06 23:46:37]  DESC Producto
+[2019-07-06 23:46:38]  select * from cobranza limit 0, 400
+[2019-07-06 23:46:39]  DESC Estadisticas
+[2019-07-06 23:46:39]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 23:46:39]  DESC Producto
+[2019-07-06 23:46:39]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:46:39]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:46:39]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:46:39]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:46:39]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:46:39]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:46:39]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:46:39]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 23:46:39]  DESC cobranza
+[2019-07-06 23:46:39]  DESC Producto
+[2019-07-06 23:46:39]  select * from cobranza limit 0, 400
+[2019-07-06 23:46:39]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:46:40]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:46:40]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:46:40]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:46:40]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 23:46:40]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:46:40]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:46:40]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:46:40]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:46:40]  DESC cobranza
+[2019-07-06 23:46:40]  DESC Producto
+[2019-07-06 23:46:41]  select * from cobranza limit 0, 400
+[2019-07-06 23:46:53]  DESC Estadisticas
+[2019-07-06 23:46:53]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 23:46:53]  DESC Producto
+[2019-07-06 23:46:53]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:46:54]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:46:54]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:46:54]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:46:54]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:46:54]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:46:54]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:46:54]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 23:46:54]  DESC cobranza
+[2019-07-06 23:46:55]  DESC Producto
+[2019-07-06 23:46:55]  select * from cobranza limit 0, 400
+[2019-07-06 23:46:55]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:46:55]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:46:55]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:46:55]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:46:55]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 23:46:55]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:46:55]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:46:55]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:46:55]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:46:55]  DESC cobranza
+[2019-07-06 23:46:56]  DESC Producto
+[2019-07-06 23:46:56]  select * from cobranza limit 0, 400
+[2019-07-06 23:47:26]  DESC Estadisticas
+[2019-07-06 23:47:27]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-06 23:47:27]  DESC Producto
+[2019-07-06 23:47:27]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:47:27]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:47:27]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:47:27]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:47:27]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:47:27]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:47:27]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:47:27]  select * from Producto  where id=128 limit 0, 1
+[2019-07-06 23:47:27]  DESC cobranza
+[2019-07-06 23:47:27]  DESC Producto
+[2019-07-06 23:47:27]  select * from cobranza limit 0, 400
+[2019-07-06 23:47:27]  select * from Producto  where id=133 limit 0, 1
+[2019-07-06 23:47:27]  select * from Producto  where id=114 limit 0, 1
+[2019-07-06 23:47:28]  select * from Producto  where id=131 limit 0, 1
+[2019-07-06 23:47:28]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:47:28]  select * from Producto  where id=125 limit 0, 1
+[2019-07-06 23:47:28]  select * from Producto  where id=127 limit 0, 1
+[2019-07-06 23:47:28]  select * from Producto  where id=130 limit 0, 1
+[2019-07-06 23:47:28]  select * from Producto  where id=112 limit 0, 1
+[2019-07-06 23:47:28]  select * from Producto  where id=126 limit 0, 1
+[2019-07-06 23:47:28]  DESC cobranza
+[2019-07-06 23:47:28]  DESC Producto
+[2019-07-06 23:47:28]  select * from cobranza limit 0, 400
+[2019-07-07 00:22:11]  DESC Estadisticas
+[2019-07-07 00:22:12]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-07 00:22:12]  DESC Producto
+[2019-07-07 00:22:14]  select * from Producto  where id=114 limit 0, 1
+[2019-07-07 00:22:14]  select * from Producto  where id=130 limit 0, 1
+[2019-07-07 00:22:14]  select * from Producto  where id=131 limit 0, 1
+[2019-07-07 00:22:14]  select * from Producto  where id=112 limit 0, 1
+[2019-07-07 00:22:14]  select * from Producto  where id=133 limit 0, 1
+[2019-07-07 00:22:14]  select * from Producto  where id=126 limit 0, 1
+[2019-07-07 00:22:14]  select * from Producto  where id=127 limit 0, 1
+[2019-07-07 00:22:14]  select * from Producto  where id=128 limit 0, 1
+[2019-07-07 00:22:15]  DESC cobranza
+[2019-07-07 00:22:15]  DESC Producto
+[2019-07-07 00:22:15]  select * from cobranza limit 0, 400
+[2019-07-07 00:22:15]  select * from Producto  where id=133 limit 0, 1
+[2019-07-07 00:22:15]  select * from Producto  where id=114 limit 0, 1
+[2019-07-07 00:22:15]  select * from Producto  where id=131 limit 0, 1
+[2019-07-07 00:22:15]  select * from Producto  where id=130 limit 0, 1
+[2019-07-07 00:22:16]  select * from Producto  where id=125 limit 0, 1
+[2019-07-07 00:22:16]  select * from Producto  where id=127 limit 0, 1
+[2019-07-07 00:22:16]  select * from Producto  where id=130 limit 0, 1
+[2019-07-07 00:22:16]  select * from Producto  where id=112 limit 0, 1
+[2019-07-07 00:22:16]  select * from Producto  where id=126 limit 0, 1
+[2019-07-07 00:22:16]  DESC cobranza
+[2019-07-07 00:22:16]  DESC Producto
+[2019-07-07 00:22:16]  select * from cobranza limit 0, 400

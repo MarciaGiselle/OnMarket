@@ -9,6 +9,33 @@ class cobranza extends Model
     private $idProducto;
     private $total;
 
+ public function traerTodosLosIdDeProdDeLaCobranzas(){
+     $resultado= $this->pageRows(0,400);
+     $array=[ ];
+     if(!empty($resultado)){
+         foreach($resultado as $r){
+            $id= $r["idProducto"];
+             array_push($array,$id);
+         }
+
+     }
+     return $array;
+
+ }
+
+    public function traerTodosLosMonstosDeLaCobranzas(){
+        $resultado= $this->pageRows(0,400);
+        $array=[ ];
+        if(!empty($resultado)){
+            foreach($resultado as $r){
+                $total= $r["total"];
+                array_push($array,$total);
+            }
+
+        }
+        return $array;
+
+    }
 
     public function insertarCobranza(){
         $array=[

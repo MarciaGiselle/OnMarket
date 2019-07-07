@@ -4,6 +4,8 @@
     const pathBuscar = "<?php echo getBaseAddress() .  "Index/buscarProducto" ; ?>";
     const pathAdmin = "<?php echo getBaseAddress(). "VistaAdmin/admin" ; ?>";
 </script>
+<head>
+
 
 <body>
 <?php

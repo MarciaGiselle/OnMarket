@@ -43,72 +43,17 @@ if (isset($_SESSION["logueado"])) {
                     <small class="text-left"></small>
                 </div>
 
-                <input type="hidden" id="total" value="<?php echo $total; ?>">
+                <input type="hidden" id="total" value="<?php echo $total ?>">
 
             </div>
 
             <div class="btn btn-primary btn-lg btn-block">
 
-                <input type="submit" value="Finalizar compra" class="btn btn-primary " id="confirmar">
+                <input type="submit" value="Finalizar compra" class="btn btn-primary" id="confirmar">
 
             </div>
 
         </div>
-
-        <!--Valoracion -->
-        <div class="container mt-5" id="valoracion">
-        <h5 class="text-primary text-center ">Valorá la compra</h5>
-
-            <div class="text-center align-items-center">
-                <div class="valoracion">
-                <form method="post" action="<?php echo getBaseAddress() . "Usuario/valorarPublicacion" ?>" method="post">
-
-                    <input class="d-none" id="radio1" type="radio" name="estrellas" value="5">
-                    <label for="radio1"><i class="far fa-star fa-3x"></i></label>
-
-                    <input class="d-none" id="radio2" type="radio" name="estrellas" value="4">
-                    <label for="radio2"> <i class="far fa-star fa-3x"></i></label>
-
-                    <input class="d-none" id="radio3" type="radio" name="estrellas" value="3">
-                    <label for="radio3"> <i class="far fa-star fa-3x"></i></label>
-
-
-                    <input class="d-none" id="radio4" type="radio" name="estrellas" value="2">
-                    <label for="radio4"> <i class="far fa-star fa-3x"></i></label>
-
-                    <input class="d-none" id="radio5" type="radio" name="estrellas" value="1">
-                    <label for="radio5"> <i class="far fa-star fa-3x"></i></label>
-            </div>
-
-                    <input type="submit" class="btn btn-primary" id="enviarValoracion" value="Valorar">
-                </form>
-        </div>
-        </div>
-
-        <style>
-           label {
-                color: grey;
-            }
-
-            .valoracion {
-                direction: rtl; /* right to left */
-                unicode-bidi: bidi-override; /* bidi de bidireccional */
-            }
-
-            div.valoracion label:hover,
-            div.valoracion label:hover ~ label {
-                color: orange;
-            }
-
-            div.valoracion input[type="radio"]:checked ~ label {
-                color: orange;
-            }
-        </style>
-
-
-    </div>
-
-
 </main>
 
 <br>

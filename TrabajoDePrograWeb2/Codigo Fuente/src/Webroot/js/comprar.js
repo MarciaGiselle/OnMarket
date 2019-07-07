@@ -79,6 +79,7 @@ function validarFecha(){
 
 confirmar.click(function () {
 
+
     if(validarNumeroTarjeta() ){
         $(".error").fadeOut();
         $(".error").removeClass("d-flex").addClass("d-none").find("span").text("");
@@ -95,28 +96,23 @@ confirmar.click(function () {
     var validacion = validarCodigo() && validarNumeroTarjeta() && validarFecha();
     if(validacion) {
         var obj = {};
-        obj.total = inputtotal.val();
+        obj.total = $("#total2").val();
         obj.numeroTarjeta = inputnumeroTarjeta.val();
         obj.codigoDeSeguridad = inputcodigo.val();
         obj.fechaDeVencimiento = inputfecha.val();
 
-        llamadaAjax(pathCompra, JSON.stringify(obj), true, "compraExitosa", "loginFallido");
+        llamadaAjax(pathCompra, JSON.stringify(obj), true, "loginExitoso", "loginFallido");
     }
 });
 
-function compraExitosa(dummy) {
+function loginExitoso(dummy) {
     alertify.alert("¡Compra Exitosa!", "Espere unos segundos y será redireccionado al inicio");
-    valorar();
+
     setTimeout(function () {
 
         window.location.href = pathHome;
 
     }, 5000);
-
-}
-
-function valorar(){
-
 
 }
 
