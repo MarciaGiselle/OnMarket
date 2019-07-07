@@ -98,14 +98,13 @@ confirmar.click(function () {
     var validacion = validarCodigo() && validarNumeroTarjeta() && validarFecha();
     if(validacion) {
         var obj = {};
-        obj.total = $("#total2").val();
+        obj.total = inputtotal.val();
         obj.numeroTarjeta = inputnumeroTarjeta.val();
         obj.codigoDeSeguridad = inputcodigo.val();
         obj.fechaDeVencimiento = inputfecha.val();
-        obj.carrito = carrito.val();
 
 
-        llamadaAjax(pathCompra, JSON.stringify(obj), true, "loginExitoso", "loginFallido");
+        llamadaAjax(pathCompra, JSON.stringify(obj), true, "compraExitosa", "loginFallido");
     }
 });
 

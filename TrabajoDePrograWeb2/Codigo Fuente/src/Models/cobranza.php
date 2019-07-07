@@ -7,7 +7,10 @@ class cobranza extends Model
     private $idTarjeta;
     private $fecha;
     private $idProducto;
+    private $cantidad;
     private $total;
+    private $idComprador;
+    private $idVendedor;
 
  public function traerTodosLosIdDeProdDeLaCobranzas(){
      $resultado= $this->pageRows(0,400);
@@ -43,11 +46,16 @@ class cobranza extends Model
             "idTarjeta"=>$this->getIdTarjeta(),
             "fecha"=>$this->getFecha(),
             "idProducto"=>$this->getIdProducto(),
-            "total"=>$this->getTotal()
+            "idVendedor"=>$this->getIdVendedor(),
+            "idComprador"=>$this->getIdComprador(),
+            "cantidad"=>$this->getCantidad(),
+            "total"=>$this->getTotal(),
         ] ;
         $this->setId($this->insert($array));
         return $this->getId();
     }
+
+
     /**
      * @return mixed
      */
@@ -131,6 +139,54 @@ class cobranza extends Model
     public function setIdProducto($idProducto)
     {
         $this->idProducto = $idProducto;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getIdComprador()
+    {
+        return $this->idComprador;
+    }
+
+    /**
+     * @param mixed $idComprador
+     */
+    public function setIdComprador($idComprador)
+    {
+        $this->idComprador = $idComprador;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getIdVendedor()
+    {
+        return $this->idVendedor;
+    }
+
+    /**
+     * @param mixed $idVendedor
+     */
+    public function setIdVendedor($idVendedor)
+    {
+        $this->idVendedor = $idVendedor;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getCantidad()
+    {
+        return $this->cantidad;
+    }
+
+    /**
+     * @param mixed $cantidad
+     */
+    public function setCantidad($cantidad)
+    {
+        $this->cantidad = $cantidad;
     }
 
 

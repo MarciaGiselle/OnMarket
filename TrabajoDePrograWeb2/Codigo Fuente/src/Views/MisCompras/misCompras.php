@@ -18,6 +18,7 @@
     <tbody>
     <tr>
         <?php
+        var_dump($misCompras);
         $total = 0;
         $tope = count($misCompras);
         if ($tope > 0) {
@@ -27,8 +28,8 @@
                 echo '
       
         <th scope="row">' . $nro . '</th>
-        <td> ' . $misCompras[$i]["idProducto"] . '  </td>
-        <td> ' . $misCompras[$i]["fecha"] . ' </td>
+        <td> ' . $misCompras[$i]["prod"]["idProducto"] . '  </td>
+        <td> ' . $misCompras[$i]["compra"]["fecha"] . ' </td>
         <td>
         
         <!--Valoracion -->
@@ -58,7 +59,7 @@
                       </td>
                     <td>
      
-                         <input type="hidden" name="idProducto" value="'. $misCompras[$i]["idProducto"] . '">
+                         <input type="hidden" name="idProducto" value="' . $misCompras[$i]["prod"]["idProducto"] . '">
 
                     <input type="submit" class="btn btn-primary" id="enviarValoracion" value="Valorar">
                     </td>      

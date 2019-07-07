@@ -18,25 +18,6 @@ class tarjeta_de_credito extends Model{
         return $this->getId();
     }
 
-  function pagar($idTarjeta,$fecha,$total){
-      $cobranza=new cobranza();
-
-      $cobranza->setIdTarjeta($idTarjeta);
-      $cobranza->setFecha($fecha);
-      $cobranza->setTotal($total);
-
-  //    for para recorrer el array de ids e insertarlos
-      $tope=count($_SESSION["carrito"]);
-      for($i=0;$i<$tope;$i++ ){
-          $cobranza->setIdProducto($_SESSION["carrito"][$i]["id"]);
-          $idCobranza= $cobranza->insertarCobranza();
-      }
-
-      unset($_SESSION["carrito"]);
-
-
-  }
-
 
 
 

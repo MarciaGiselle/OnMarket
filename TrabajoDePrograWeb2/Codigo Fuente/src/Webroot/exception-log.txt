@@ -8299,3 +8299,196 @@ StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Co
 #2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #3 {main}
 
+[2019-07-07 12:32:03]  Excepción no controlada: 'Undefined index: idProducto' en el archivo MisComprasController.php en la línea 18
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisComprasController.php(18): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisComprasController->mostrarHistorial(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 12:32:15]  Excepción no controlada: 'Undefined index: carrito' en el archivo CarritoController.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(15): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 12:35:27]  Excepción no controlada: 'Undefined property: stdClass::$total' en el archivo UsuarioController.php en la línea 78
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(78): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 12:37:40]  Excepción no controlada: 'Undefined property: stdClass::$total' en el archivo UsuarioController.php en la línea 78
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(78): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 12:38:48]  Excepción no controlada: 'Undefined property: stdClass::$total' en el archivo UsuarioController.php en la línea 78
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(78): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 78, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 12:39:07]  Excepción no controlada: 'Undefined index: carrito' en el archivo tarjeta_de_credito.php en la línea 29
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\tarjeta_de_credito.php(29): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(93): tarjeta_de_credito->pagar(25, '2019-07-31', '150')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-07 12:40:14]  Excepción no controlada: 'Undefined index: carrito' en el archivo tarjeta_de_credito.php en la línea 29
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\tarjeta_de_credito.php(29): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(93): tarjeta_de_credito->pagar(26, '2019-07-31', '150')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-07 12:41:32]  Excepción no controlada: 'Undefined index: carrito' en el archivo tarjeta_de_credito.php en la línea 29
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\tarjeta_de_credito.php(29): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(93): tarjeta_de_credito->pagar(28, '2019-07-31', '700')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-07 12:41:51]  Excepción no controlada: 'Undefined index: carrito' en el archivo CarritoController.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(15): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 12:41:56]  Excepción no controlada: 'Undefined index: carrito' en el archivo CompraController.php en la línea 7
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CompraController.php(7): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CompraController->IngresarTarjeta(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 12:41:57]  Excepción no controlada: 'Undefined index: carrito' en el archivo CarritoController.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(15): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 12:42:04]  Excepción no controlada: 'Undefined index: carrito' en el archivo CarritoController.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(15): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 12:43:27]  Excepción no controlada: 'Undefined index: carrito' en el archivo CompraController.php en la línea 7
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CompraController.php(7): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CompraController->IngresarTarjeta(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 12:43:28]  Excepción no controlada: 'Undefined index: carrito' en el archivo CarritoController.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(15): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 12:43:36]  Excepción no controlada: 'Undefined index: carrito' en el archivo CarritoController.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(15): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 12:44:06]  Excepción no controlada: 'Undefined index: idProducto' en el archivo MisComprasController.php en la línea 18
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisComprasController.php(18): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisComprasController->mostrarHistorial(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 12:48:40]  Excepción no controlada: 'Undefined index: idProducto' en el archivo MisComprasController.php en la línea 18
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisComprasController.php(18): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisComprasController->mostrarHistorial(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 12:48:41]  Excepción no controlada: 'Undefined index: idProducto' en el archivo MisComprasController.php en la línea 18
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisComprasController.php(18): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisComprasController->mostrarHistorial(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 12:49:08]  Excepción no controlada: 'array_push() expects parameter 1 to be array, null given' en el archivo MisComprasController.php en la línea 27
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'array_push() ex...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisComprasController.php(27): array_push(NULL, Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisComprasController->mostrarHistorial(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-07 12:49:34]  Excepción no controlada: 'Undefined index: idProducto' en el archivo misCompras.php en la línea 31
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\MisCompras\misCompras.php(31): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisComprasController.php(37): Controller->render('misCompras')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisComprasController->mostrarHistorial(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-07 13:36:15]  Excepción no controlada: 'Call to undefined method UsuarioController::traerUserPorPk()' en el archivo UsuarioController.php en la línea 113
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-07 13:37:25]  Excepción no controlada: 'Undefined index: idProducto' en el archivo misCompras.php en la línea 31
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\MisCompras\misCompras.php(31): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisComprasController.php(39): Controller->render('misCompras')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisComprasController->mostrarHistorial(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-07 13:42:46]  Excepción no controlada: 'Undefined index: carrito' en el archivo CompraController.php en la línea 7
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CompraController.php(7): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CompraController->IngresarTarjeta(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 13:42:48]  Excepción no controlada: 'Undefined index: carrito' en el archivo CompraController.php en la línea 7
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CompraController.php(7): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CompraController->IngresarTarjeta(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 13:43:27]  Excepción no controlada: 'Array to string conversion' en el archivo Model.php en la línea 92
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(92): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 92, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\cobranza.php(52): Model->insert(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(118): cobranza->insertarCobranza()
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-07 13:47:21]  Excepción no controlada: 'Undefined index: idProducto' en el archivo misCompras.php en la línea 31
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\MisCompras\misCompras.php(31): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisComprasController.php(39): Controller->render('misCompras')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisComprasController->mostrarHistorial(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-07 13:52:37]  Excepción no controlada: 'Undefined index: carrito' en el archivo CompraController.php en la línea 7
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CompraController.php(7): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CompraController->IngresarTarjeta(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-07 13:53:00]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 53
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(53): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(22): Publicacion->traerPublicaciondelProducto('107')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-07 14:03:16]  Excepción no controlada: 'Call to undefined method cobranza::setCantidad()' en el archivo UsuarioController.php en la línea 112
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-07 14:03:51]  Excepción no controlada: 'Undefined index: idProducto' en el archivo misCompras.php en la línea 31
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\MisCompras\misCompras.php(31): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisComprasController.php(39): Controller->render('misCompras')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisComprasController->mostrarHistorial(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
