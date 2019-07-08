@@ -92,6 +92,7 @@ class UsuarioController extends Controller
 
             $tarjeta->setIdUser($idUser);
             $tarjeta->setCodSeguridad($codigo);
+            $tarjeta->setNumero($numeroTarjeta);
             $tarjeta->setFechaVencimiento($fecha);
             $idTarjeta = $tarjeta->insertar();
             $fecha_actual = date("y-m-d");
@@ -137,37 +138,36 @@ class UsuarioController extends Controller
 
     function valorarPublicacion($datos)
     {
-        $usuario = new Usuario();
-
-
-        $tipoValoracion = new tipodeusuarioporvaloracion();
-
-
+        $vendedor = new Usuario();
+        $tipoValoracion = new tipo_valoracion();
         $valoracion = new valoracion();
-        $valoracion->setIdVendedor($datos["id_user"]);
+
+        $idVendedor= $datos["vendedor"];
+        $valoracion->setIdVendedor($idVendedor);
 
         $error = 0;
         if (FuncionesComunes::validarNumeros($datos["estrellas"])) {
             $valoracion->setNumero($datos["estrellas"]);
         } else {
             $error .= 1;
-
         }
-
-        if (isset($datos["comentario"])) {
+       /* if (isset($datos["comentario"])) {
             if (FuncionesComunes::validarCadenaNumerosYEspacios($datos["comentario"])) {
                 $valoracion->setComentario($datos["comentario"]);
             } else {
                 $error .= 1;
 
             }
-        }
-
+        }*/
         if ($error == 0) {
-            $idValoracion = $valoracion->insert($valoracion);
-            $promedio = $valoracion->realizarPromedioPorPk($idVendedor);
+            $valoracion->insertarValoracion();
+            $promedio = $valoracion->realizarPromedioPorPk($datos["vendedor"]);
             $idValoracion = $tipoValoracion->definirIdPorPromedio($promedio);
-            $usuario->setTipoPorValoracion($idValoracion);
+            $vendedor->setId($idVendedor);
+            $vendedor->setIdTipo($idValoracion);
+            var_dump($vendedor);
+            $vendedor->actualizarTipo();
+
 
         }
 

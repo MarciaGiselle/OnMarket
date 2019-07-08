@@ -3,7 +3,8 @@ class tarjeta_de_credito extends Model{
    private $id;
    private $idUser;
    private $cod_seguridad;
-   private $fecha_vencimiento;
+    private $numero;
+    private $fecha_vencimiento;
 
 
     public function insertar(){
@@ -12,13 +13,17 @@ class tarjeta_de_credito extends Model{
             "id"=>$this->getId(),
             "idUser"=>$this->getIdUser(),
             "cod_seguridad"=>$this->getCodSeguridad(),
+            "numero"=>$this->getNumero(),
             "fecha_vencimiento"=>$this->getFechaVencimiento()
         ] ;
         $this->setId($this->insert($array));
         return $this->getId();
     }
 
-
+public function traerPorPk($id){
+    $res=$this->pageRows(0,1, "id='$id'");
+    return $res[0];
+}
 
 
 public function traerPorIdDeUser($idUser){
@@ -31,6 +36,8 @@ public function traerPorIdDeUser($idUser){
         return false;
     }
 }
+
+
 
 
    /**
@@ -94,6 +101,22 @@ public function setFechaVencimiento($fecha_vencimiento)
 {
     $this->fecha_vencimiento = $fecha_vencimiento;
 }
+
+    /**
+     * @return mixed
+     */
+    public function getNumero()
+    {
+        return $this->numero;
+    }
+
+    /**
+     * @param mixed $numero
+     */
+    public function setNumero($numero)
+    {
+        $this->numero = $numero;
+    }
 
 
 

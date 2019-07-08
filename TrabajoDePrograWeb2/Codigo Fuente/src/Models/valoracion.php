@@ -7,6 +7,29 @@ class valoracion extends Model{
     private $comentario;
     private $idVendedor;
 
+
+    function insertarValoracion(){
+        $array=[
+            "numero"=> $this->getNumero(),
+            "comentario"=>$this->getComentario(),
+            "idVendedor"=>$this->getIdVendedor(),
+        ];
+
+        $this->setId($this->insert($array));
+        return $this->getId();
+    }
+
+    public function realizarPromedioPorPk($pk){
+        $resultado=$this->pageRows(0,100, "idVendedor=$pk");
+        $suma=0;
+        for ($i=0;$i < count($resultado); $i++){
+            $suma+=$resultado[$i]["numero"];
+        }
+        $promedio=$suma/ count($resultado);
+        return $promedio;
+
+    }
+
     /**
      * @return mixed
      */

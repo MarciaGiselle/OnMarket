@@ -7,30 +7,24 @@ class MisComprasController EXTENDS Controller
         $d["title"] = "Historial de Compras";
         $miCobranza = new Cobranza ();
         $producto = new Producto();
-        $publicacion = new Publicacion();
         $usuario = new Usuario();
+        $tarjeta = new tarjeta_de_credito();
 
 
         $misCompras = $miCobranza->buscarMisCompras($_SESSION["logueado"]);
 
-        $arrayProductoVendedor=[];
+        $arrayProductoVendedor = [];
 
-        for ($i=0;$i<count($misCompras);$i++){
+        for ($i = 0; $i < count($misCompras); $i++) {
             $prodEncontrado = $producto->buscarUnProductoPorPk($misCompras[$i]["idProducto"]);
-            $publicEncontrada = $publicacion->traerPublicaciondelProducto($misCompras[$i]["idProducto"]);
-            $vendedor= $usuario->traerUserPorPk($publicEncontrada["id_user"]);
-
-
-                $arrayProducto=[
-                    "compra"=>$misCompras[$i],
-                    "prod"=>$prodEncontrado,
-                    "vendedor"=>$vendedor];
-
+            $vendedor = $usuario->traerUserPorPk($misCompras[$i]["idVendedor"]);
+            $tarjetaUsada = $tarjeta->traerPorPk($misCompras[$i]["idTarjeta"]);
+            $arrayProducto = [
+                "compra" => $misCompras[$i],
+                "prod" => $prodEncontrado,
+                "tarjeta" => $tarjetaUsada,
+                "vendedor" => $vendedor];
             array_push($arrayProductoVendedor, $arrayProducto);
-
-
-
-
         }
 
         $d["misCompras"] = $arrayProductoVendedor;

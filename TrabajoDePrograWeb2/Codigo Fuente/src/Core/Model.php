@@ -38,6 +38,8 @@
            return $this->db->getAll($sql);
         }
 
+
+
         /**
 
          * Obtiene una lista de los campos de una tabla

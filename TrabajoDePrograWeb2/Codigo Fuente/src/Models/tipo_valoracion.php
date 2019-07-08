@@ -1,9 +1,23 @@
 <?php
 
 
-class tipodeusuarioporvaloracion extends Model{
+class tipo_valoracion extends Model{
     private $id;
     private $descripcion;
+
+    public function definirIdPorPromedio($promedio){
+        $menor=1.6;
+        $intermedio=3.2;
+
+        if($promedio>0 && $promedio <= $menor ){
+            return 3;
+        }elseif ($promedio> $menor && $promedio <= $intermedio ){
+            return 2;
+        }else{
+            return 1;
+        }
+
+    }
 
     /**
      * @return mixed

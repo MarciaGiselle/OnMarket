@@ -60,7 +60,7 @@ class cobranza extends Model
      * @return mixed
      */
     function buscarMisCompras($id){
-        $resultado=$this->pageRows(0,100,"id=$id");
+        $resultado=$this->pageRows(0,100,"idComprador=$id");
         return $resultado;
 }
 

@@ -18,6 +18,8 @@ class Usuario extends Model
     private $sexo;
     private $rol;
      private $estado;
+    private $idTipo;
+
 
     function buscarUsuario(){
     $resultado=$this->pageRows(0,1,"name= '$this->name' and password='$this->password'");
@@ -129,6 +131,7 @@ class Usuario extends Model
         return $this->update($array);
     }
 
+
   function validarFormatos($terminosYcondiciones){
 
       //validacion de formatos
@@ -236,6 +239,17 @@ class Usuario extends Model
        $resultado=$this->pageRows(0,100, "userName like '%$nombre%'");
        return $resultado;
    }
+
+   public function actualizarTipo(){
+       $array=[
+           "id"=> $this->getId(),
+           "idTipo" => $this->getIdTipo()
+       ];
+
+       return $this->update($array);
+
+   }
+
     /**
      * @return mixed
      */
@@ -251,6 +265,26 @@ class Usuario extends Model
     {
         $this->estado = $estado;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getIdTipo()
+    {
+        return $this->idTipo;
+    }
+
+    /**
+     * @param mixed $idTipo
+     */
+    public function setIdTipo($idTipo)
+    {
+        $this->idTipo = $idTipo;
+    }
+
+
+
+
 
 
 
