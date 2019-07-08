@@ -15,6 +15,22 @@ class Imagen extends Model
         echo $imagick->getImageBlob();
     }
 */
+  function actualizarImagen(){
+      $array=[
+          "id"=>$this->getId(),
+          "nombre"=> $this->getNombre(),
+          "idProducto"=>$this->getIdProducto(),
+      ];
+      $this->update($array);
+  }
+    function eliminarImagen(){
+        $array=[
+            "id"=>$this->getId(),
+            "nombre"=> $this->getNombre(),
+            "idProducto"=>$this->getIdProducto(),
+        ];
+        $this->delete($array);
+    }
 
     function insertarImagen(){
         $array=[

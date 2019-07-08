@@ -8613,3 +8613,165 @@ StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Co
 #2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #3 {main}
 
+[2019-07-08 19:05:13]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 48
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-08 19:09:23]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 48
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-08 19:09:32]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 48
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-08 19:10:30]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 48
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-08 19:11:00]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 48
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-08 19:12:05]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 48
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-08 19:15:59]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 48
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-08 19:16:27]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 48
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-08 19:18:02]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 47
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-08 19:22:22]  Error 7: 'su usuario esta bloqueado ' en el archivo UsuarioController.php en la línea 43
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-08 19:29:25]  Excepción no controlada: 'Call to undefined method Imagen::actualizarImagen()' en el archivo ModificarController.php en la línea 183
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(84): ModificarController->actualizarImagenes(Array, '4')
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-08 19:35:22]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 53
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(53): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(22): Publicacion->traerPublicaciondelProducto('2')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-08 19:35:42]  Excepción no controlada: 'Undefined offset: 0' en el archivo localizacion.php en la línea 86
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\localizacion.php(86): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(28): localizacion->traerLocalizacionPorIdUser('4')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-08 19:37:39]  Excepción no controlada: 'Undefined index: latitud' en el archivo MostrarProductoController.php en la línea 30
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(30): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-08 19:38:50]  Excepción no controlada: 'Undefined offset: 0' en el archivo localizacion.php en la línea 86
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\localizacion.php(86): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(28): localizacion->traerLocalizacionPorIdUser('4')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-08 19:40:12]  Excepción no controlada: 'Undefined offset: 0' en el archivo localizacion.php en la línea 86
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\localizacion.php(86): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 86, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(28): localizacion->traerLocalizacionPorIdUser('4')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-08 19:40:33]  Excepción no controlada: 'Undefined offset: 0' en el archivo localizacion.php en la línea 87
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\localizacion.php(87): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 87, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(28): localizacion->traerLocalizacionPorIdUser(4)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-08 19:40:46]  Excepción no controlada: 'Undefined index: latitud' en el archivo MostrarProductoController.php en la línea 30
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(30): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-08 19:41:18]  Excepción no controlada: 'Undefined offset: 0' en el archivo MostrarProductoController.php en la línea 30
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(30): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-08 19:41:55]  Excepción no controlada: 'Undefined offset: 0' en el archivo MostrarProductoController.php en la línea 30
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(30): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 30, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-08 19:44:03]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 53
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(53): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(22): Publicacion->traerPublicaciondelProducto('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-08 19:44:19]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 53
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(53): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(22): Publicacion->traerPublicaciondelProducto('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-08 19:44:37]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 53
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(53): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(22): Publicacion->traerPublicaciondelProducto('2')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-08 19:50:37]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 53
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(53): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 53, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(22): Publicacion->traerPublicaciondelProducto('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-08 19:51:39]  Excepción no controlada: 'Undefined index: numero' en el archivo misCompras.php en la línea 52
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\MisCompras\misCompras.php(52): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 52, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisComprasController.php(33): Controller->render('misCompras')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisComprasController->mostrarHistorial(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-08 19:52:38]  Excepción no controlada: 'Undefined index: carrito' en el archivo CarritoController.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(15): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-08 19:53:13]  Error 20: 'las contraseñas no son iguales' en el archivo RegistrarController.php en la línea 71
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+

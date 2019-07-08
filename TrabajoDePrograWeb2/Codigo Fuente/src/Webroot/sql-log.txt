@@ -23073,3 +23073,455 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-07-07 18:27:23]  DESC Usuario
 [2019-07-07 18:27:23]  select * from Usuario  where id='4' limit 0, 1
 [2019-07-07 18:27:23]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-08 19:05:12]  DESC Usuario
+[2019-07-08 19:05:13]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-08 19:06:35]  DESC Usuario
+[2019-07-08 19:06:35]  DESC Rol
+[2019-07-08 19:06:35]  select * from Rol  where id=1 limit 0, 1
+[2019-07-08 19:06:35]  select * from Usuario  where userName='Axel' limit 0, 1
+[2019-07-08 19:06:36]  DESC localizacion
+[2019-07-08 19:06:36]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('Axel','fernadez','9adcb29710e807607b683f62e555c22dc5659713','123456','axel@gmail.com','Axel','Hombre','2','1')
+[2019-07-08 19:06:36]  INSERT INTO `localizacion` (`longitud`,`latitud`,`id_user`) VALUES ('-58.675397799999985','-34.6570243','1')
+[2019-07-08 19:06:42]  DESC Publicacion
+[2019-07-08 19:06:42]  select * from Publicacion  where id_user=1 limit 0, 100
+[2019-07-08 19:06:42]  DESC Producto
+[2019-07-08 19:07:17]  DESC Producto
+[2019-07-08 19:07:17]  DESC Categoria
+[2019-07-08 19:07:17]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-07-08 19:07:17]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('cartera','roja','12','500','2')
+[2019-07-08 19:07:17]  DESC Imagen
+[2019-07-08 19:07:17]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('580b585b2edbce24c47b2459.png','1')
+[2019-07-08 19:07:18]  DESC Imagen
+[2019-07-08 19:07:18]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('927d37195e1e3dbc2d28cc77ff44408b.png','1')
+[2019-07-08 19:07:18]  DESC Publicacion
+[2019-07-08 19:07:18]  DESC FormaEntrega
+[2019-07-08 19:07:18]  select * from FormaEntrega  where  descripcion='Correo'  limit 0, 1
+[2019-07-08 19:07:18]  DESC Publicacion_Entrega
+[2019-07-08 19:07:18]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-08','Cartera','','1')
+[2019-07-08 19:07:25]  DESC Publicacion
+[2019-07-08 19:07:25]  select * from Publicacion  where id_user=1 limit 0, 100
+[2019-07-08 19:07:25]  DESC Producto
+[2019-07-08 19:07:49]  DESC Producto
+[2019-07-08 19:07:49]  DESC Categoria
+[2019-07-08 19:07:49]  select * from Categoria  where nombreCategoria='moda' limit 0, 1
+[2019-07-08 19:07:49]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('campera','roja','25','500','2')
+[2019-07-08 19:07:50]  DESC Imagen
+[2019-07-08 19:07:50]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('_105170650_gettyimages-899668068.jpg','2')
+[2019-07-08 19:07:50]  DESC Imagen
+[2019-07-08 19:07:50]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('0001 - copia.jpg','2')
+[2019-07-08 19:07:50]  DESC Publicacion
+[2019-07-08 19:07:50]  DESC FormaEntrega
+[2019-07-08 19:07:50]  select * from FormaEntrega  where  descripcion='acordarConElVendedor'  limit 0, 1
+[2019-07-08 19:07:50]  DESC Publicacion_Entrega
+[2019-07-08 19:07:50]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-08','Cartera','','2')
+[2019-07-08 19:09:23]  DESC Usuario
+[2019-07-08 19:09:23]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-08 19:09:32]  DESC Usuario
+[2019-07-08 19:09:32]  select * from Usuario  where name= 'Axel' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-08 19:10:17]  DESC Usuario
+[2019-07-08 19:10:18]  DESC Rol
+[2019-07-08 19:10:18]  select * from Rol  where id=1 limit 0, 1
+[2019-07-08 19:10:18]  select * from Usuario  where userName='Rocio' limit 0, 1
+[2019-07-08 19:10:18]  DESC localizacion
+[2019-07-08 19:10:18]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('Rocio ','Centurion','9adcb29710e807607b683f62e555c22dc5659713','14785','roci@hotmail.com','Rocio','Mujer','2','1')
+[2019-07-08 19:10:18]  INSERT INTO `localizacion` (`longitud`,`latitud`,`id_user`) VALUES ('-58.675397799999985','-34.6570243','2')
+[2019-07-08 19:10:30]  DESC Usuario
+[2019-07-08 19:10:30]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-08 19:11:00]  DESC Usuario
+[2019-07-08 19:11:00]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-08 19:11:49]  DESC Usuario
+[2019-07-08 19:11:50]  DESC Rol
+[2019-07-08 19:11:50]  select * from Rol  where id=1 limit 0, 1
+[2019-07-08 19:11:50]  select * from Usuario  where userName='toto' limit 0, 1
+[2019-07-08 19:11:50]  DESC localizacion
+[2019-07-08 19:11:50]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('toto','centurion','9adcb29710e807607b683f62e555c22dc5659713','14785','roci@hotmail.com','toto','Mujer','2','1')
+[2019-07-08 19:11:50]  INSERT INTO `localizacion` (`longitud`,`latitud`,`id_user`) VALUES ('-58.381559100000004','-34.6036844','3')
+[2019-07-08 19:12:05]  DESC Usuario
+[2019-07-08 19:12:05]  select * from Usuario  where name= 'toto' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-08 19:15:59]  DESC Usuario
+[2019-07-08 19:15:59]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-08 19:16:26]  DESC Usuario
+[2019-07-08 19:16:27]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-08 19:18:01]  DESC Usuario
+[2019-07-08 19:18:01]  DESC Rol
+[2019-07-08 19:18:02]  select * from Rol  where id=1 limit 0, 1
+[2019-07-08 19:18:02]  select * from Usuario  where userName='toto' limit 0, 1
+[2019-07-08 19:18:13]  DESC Usuario
+[2019-07-08 19:18:13]  DESC Rol
+[2019-07-08 19:18:13]  select * from Rol  where id=1 limit 0, 1
+[2019-07-08 19:18:13]  select * from Usuario  where userName='toto7' limit 0, 1
+[2019-07-08 19:18:13]  DESC localizacion
+[2019-07-08 19:18:14]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('Rocio','Centurion','9adcb29710e807607b683f62e555c22dc5659713','14785','roci@hotmail.com','toto7','Hombre','2','1')
+[2019-07-08 19:18:14]  INSERT INTO `localizacion` (`longitud`,`latitud`,`id_user`) VALUES ('-58.675397799999985','-34.6570243','5')
+[2019-07-08 19:18:47]  DESC Producto
+[2019-07-08 19:18:49]  DESC Categoria
+[2019-07-08 19:18:49]  select * from Categoria  where nombreCategoria='mascotas' limit 0, 1
+[2019-07-08 19:18:49]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('campera','sdfs','25','44444','3')
+[2019-07-08 19:18:50]  DESC Imagen
+[2019-07-08 19:18:50]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('_105170650_gettyimages-899668068.jpg','3')
+[2019-07-08 19:18:51]  DESC Imagen
+[2019-07-08 19:18:51]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('0000000000WM-01405496Parker-Sonnet--06 - copia.png','3')
+[2019-07-08 19:18:52]  DESC Publicacion
+[2019-07-08 19:18:52]  DESC FormaEntrega
+[2019-07-08 19:18:52]  select * from FormaEntrega  where  descripcion='Correo'  limit 0, 1
+[2019-07-08 19:18:52]  DESC Publicacion_Entrega
+[2019-07-08 19:18:52]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-08','Cartera','','3')
+[2019-07-08 19:22:22]  DESC Usuario
+[2019-07-08 19:22:22]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-08 19:22:22]  DESC Usuario
+[2019-07-08 19:22:22]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-08 19:22:57]  DESC Usuario
+[2019-07-08 19:22:57]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-08 19:22:58]  DESC Usuario
+[2019-07-08 19:22:58]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-08 19:22:58]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-08 19:23:02]  DESC Publicacion
+[2019-07-08 19:23:02]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-08 19:23:02]  DESC Producto
+[2019-07-08 19:23:34]  DESC Producto
+[2019-07-08 19:23:35]  DESC Categoria
+[2019-07-08 19:23:35]  select * from Categoria  where nombreCategoria='electronica' limit 0, 1
+[2019-07-08 19:23:35]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('campera','dfd','25','44444','1')
+[2019-07-08 19:23:35]  DESC Imagen
+[2019-07-08 19:23:35]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('0000000000WM-01405496Parker-Sonnet--06 - copia.png','4')
+[2019-07-08 19:23:36]  DESC Imagen
+[2019-07-08 19:23:37]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('0000000000WM-01405496Parker-Sonnet--06.png','4')
+[2019-07-08 19:23:37]  DESC Publicacion
+[2019-07-08 19:23:38]  DESC FormaEntrega
+[2019-07-08 19:23:38]  select * from FormaEntrega  where  descripcion='acordarConElVendedor'  limit 0, 1
+[2019-07-08 19:23:38]  DESC Publicacion_Entrega
+[2019-07-08 19:23:39]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-08','Cartera','4','4')
+[2019-07-08 19:23:39]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('4','')
+[2019-07-08 19:24:16]  DESC Producto
+[2019-07-08 19:24:16]  DESC Categoria
+[2019-07-08 19:24:17]  select * from Categoria  where nombreCategoria='electronica' limit 0, 1
+[2019-07-08 19:24:17]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('campera','dfd','25','44444','1')
+[2019-07-08 19:24:17]  DESC Imagen
+[2019-07-08 19:24:17]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('0000000000WM-01405496Parker-Sonnet--06 - copia.png','5')
+[2019-07-08 19:24:17]  DESC Imagen
+[2019-07-08 19:24:18]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('0000000000WM-01405496Parker-Sonnet--06.png','5')
+[2019-07-08 19:24:18]  DESC Publicacion
+[2019-07-08 19:24:18]  DESC FormaEntrega
+[2019-07-08 19:24:18]  select * from FormaEntrega  where  descripcion='acordarConElVendedor' OR descripcion='Correo'  limit 0, 2
+[2019-07-08 19:24:19]  DESC Publicacion_Entrega
+[2019-07-08 19:24:19]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`) VALUES ('19-07-08','Cartera','4','5')
+[2019-07-08 19:24:19]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('5','')
+[2019-07-08 19:24:37]  DESC Publicacion
+[2019-07-08 19:24:37]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-08 19:24:37]  DESC Producto
+[2019-07-08 19:24:37]  select * from Producto  where id=4 limit 0, 100
+[2019-07-08 19:24:37]  select * from Producto  where id=5 limit 0, 100
+[2019-07-08 19:24:40]  DESC Producto
+[2019-07-08 19:24:40]  DESC Publicacion
+[2019-07-08 19:24:40]  DESC Categoria
+[2019-07-08 19:24:41]  DESC Imagen
+[2019-07-08 19:24:41]  select * from Producto  where id=4 limit 0, 1
+[2019-07-08 19:24:41]  select * from Publicacion  where id=4 limit 0, 1
+[2019-07-08 19:24:41]  select * from Categoria  where IdCategoria='1' limit 0, 1
+[2019-07-08 19:24:41]  select * from Imagen  where idProducto=4 limit 0, 10
+[2019-07-08 19:24:56]  DESC Producto
+[2019-07-08 19:24:57]  DESC Categoria
+[2019-07-08 19:24:57]  select * from Categoria  where nombreCategoria='electronica' limit 0, 1
+[2019-07-08 19:24:57]  UPDATE `Producto` SET `nombre`='campera',`descripcion`='dfd',`cantidad`='25',`precio`='44444',`idCategoria`='1' WHERE `id`=4
+[2019-07-08 19:24:57]  DESC Imagen
+[2019-07-08 19:24:58]  select * from Imagen  where idProducto= limit 0, 10
+[2019-07-08 19:29:24]  DESC Producto
+[2019-07-08 19:29:24]  DESC Categoria
+[2019-07-08 19:29:25]  select * from Categoria  where nombreCategoria='electronica' limit 0, 1
+[2019-07-08 19:29:25]  UPDATE `Producto` SET `nombre`='campera',`descripcion`='dfd',`cantidad`='25',`precio`='44444',`idCategoria`='1' WHERE `id`=4
+[2019-07-08 19:29:25]  DESC Imagen
+[2019-07-08 19:29:25]  select * from Imagen  where idProducto=4 limit 0, 10
+[2019-07-08 19:29:25]  DESC Imagen
+[2019-07-08 19:33:29]  DESC Producto
+[2019-07-08 19:33:30]  DESC Categoria
+[2019-07-08 19:33:30]  select * from Categoria  where nombreCategoria='electronica' limit 0, 1
+[2019-07-08 19:33:30]  UPDATE `Producto` SET `nombre`='campera',`descripcion`='dfd',`cantidad`='25',`precio`='44444',`idCategoria`='1' WHERE `id`=4
+[2019-07-08 19:33:30]  DESC Imagen
+[2019-07-08 19:33:30]  select * from Imagen  where idProducto=4 limit 0, 10
+[2019-07-08 19:33:30]  DESC Imagen
+[2019-07-08 19:33:30]  UPDATE `Imagen` SET `nombre`='0001 - copia.jpg',`idProducto`='4' WHERE `id`=7
+[2019-07-08 19:33:30]  DESC Imagen
+[2019-07-08 19:33:31]  UPDATE `Imagen` SET `nombre`='0001.jpg',`idProducto`='4' WHERE `id`=8
+[2019-07-08 19:33:31]  UPDATE `Producto` SET `nombre`='campera',`descripcion`='dfd',`cantidad`='25',`precio`='44444',`idCategoria`='1' WHERE `id`=4
+[2019-07-08 19:33:31]  DESC Publicacion
+[2019-07-08 19:33:31]  DESC Publicacion_Entrega
+[2019-07-08 19:33:31]  UPDATE `Publicacion` SET `fecha`='19-07-08',`titulo`='Cartera' WHERE `id`=4
+[2019-07-08 19:33:52]  DESC Publicacion
+[2019-07-08 19:33:52]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-08 19:33:52]  DESC Producto
+[2019-07-08 19:33:52]  select * from Producto  where id=4 limit 0, 100
+[2019-07-08 19:33:53]  select * from Producto  where id=5 limit 0, 100
+[2019-07-08 19:34:01]  DESC Producto
+[2019-07-08 19:34:01]  DESC Publicacion
+[2019-07-08 19:34:01]  DESC Categoria
+[2019-07-08 19:34:01]  DESC Imagen
+[2019-07-08 19:34:02]  select * from Producto  where id=4 limit 0, 1
+[2019-07-08 19:34:02]  select * from Publicacion  where id=4 limit 0, 1
+[2019-07-08 19:34:02]  select * from Categoria  where IdCategoria='1' limit 0, 1
+[2019-07-08 19:34:02]  select * from Imagen  where idProducto=4 limit 0, 10
+[2019-07-08 19:34:19]  DESC Producto
+[2019-07-08 19:34:20]  DESC Categoria
+[2019-07-08 19:34:20]  select * from Categoria  where nombreCategoria='electronica' limit 0, 1
+[2019-07-08 19:34:20]  UPDATE `Producto` SET `nombre`='campera',`descripcion`='dfd',`cantidad`='25',`precio`='44444',`idCategoria`='1' WHERE `id`=4
+[2019-07-08 19:34:20]  DESC Imagen
+[2019-07-08 19:34:20]  select * from Imagen  where idProducto=4 limit 0, 10
+[2019-07-08 19:34:20]  DESC Imagen
+[2019-07-08 19:34:20]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('_105170650_gettyimages-899668068.jpg','4')
+[2019-07-08 19:34:20]  UPDATE `Producto` SET `nombre`='campera',`descripcion`='dfd',`cantidad`='25',`precio`='44444',`idCategoria`='1' WHERE `id`=4
+[2019-07-08 19:34:20]  DESC Publicacion
+[2019-07-08 19:34:20]  DESC Publicacion_Entrega
+[2019-07-08 19:34:20]  UPDATE `Publicacion` SET `fecha`='19-07-08',`titulo`='Cartera' WHERE `id`=4
+[2019-07-08 19:35:04]  DESC Publicacion
+[2019-07-08 19:35:05]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-08 19:35:05]  DESC Producto
+[2019-07-08 19:35:06]  select * from Producto  where id=4 limit 0, 100
+[2019-07-08 19:35:06]  select * from Producto  where id=5 limit 0, 100
+[2019-07-08 19:35:17]  DESC Producto
+[2019-07-08 19:35:17]  DESC Imagen
+[2019-07-08 19:35:17]  select * from Producto  where nombre like '%campera%' limit 0, 100
+[2019-07-08 19:35:17]  select * from Producto  where id=2 limit 0, 100
+[2019-07-08 19:35:17]  select * from Imagen  where idProducto=2 limit 0, 1
+[2019-07-08 19:35:17]  select * from Producto  where id=3 limit 0, 100
+[2019-07-08 19:35:17]  select * from Imagen  where idProducto=3 limit 0, 1
+[2019-07-08 19:35:17]  select * from Producto  where id=4 limit 0, 100
+[2019-07-08 19:35:17]  select * from Imagen  where idProducto=4 limit 0, 1
+[2019-07-08 19:35:17]  select * from Producto  where id=5 limit 0, 100
+[2019-07-08 19:35:17]  select * from Imagen  where idProducto=5 limit 0, 1
+[2019-07-08 19:35:21]  DESC Producto
+[2019-07-08 19:35:21]  select * from Producto  where id=2 limit 0, 1
+[2019-07-08 19:35:21]  DESC Publicacion
+[2019-07-08 19:35:21]  select * from Publicacion  where id_producto=2 limit 0, 1
+[2019-07-08 19:35:29]  DESC Publicacion
+[2019-07-08 19:35:30]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-08 19:35:30]  DESC Producto
+[2019-07-08 19:35:30]  select * from Producto  where id=4 limit 0, 100
+[2019-07-08 19:35:30]  select * from Producto  where id=5 limit 0, 100
+[2019-07-08 19:35:38]  DESC Producto
+[2019-07-08 19:35:38]  DESC Imagen
+[2019-07-08 19:35:38]  select * from Producto  where nombre like '%campera%' limit 0, 100
+[2019-07-08 19:35:38]  select * from Producto  where id=2 limit 0, 100
+[2019-07-08 19:35:38]  select * from Imagen  where idProducto=2 limit 0, 1
+[2019-07-08 19:35:38]  select * from Producto  where id=3 limit 0, 100
+[2019-07-08 19:35:39]  select * from Imagen  where idProducto=3 limit 0, 1
+[2019-07-08 19:35:39]  select * from Producto  where id=4 limit 0, 100
+[2019-07-08 19:35:39]  select * from Imagen  where idProducto=4 limit 0, 1
+[2019-07-08 19:35:39]  select * from Producto  where id=5 limit 0, 100
+[2019-07-08 19:35:39]  select * from Imagen  where idProducto=5 limit 0, 1
+[2019-07-08 19:35:42]  DESC Producto
+[2019-07-08 19:35:42]  select * from Producto  where id=5 limit 0, 1
+[2019-07-08 19:35:42]  DESC Publicacion
+[2019-07-08 19:35:42]  select * from Publicacion  where id_producto=5 limit 0, 1
+[2019-07-08 19:35:42]  DESC localizacion
+[2019-07-08 19:35:42]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-08 19:37:38]  DESC Producto
+[2019-07-08 19:37:38]  select * from Producto  where id=5 limit 0, 1
+[2019-07-08 19:37:38]  DESC Publicacion
+[2019-07-08 19:37:38]  select * from Publicacion  where id_producto=5 limit 0, 1
+[2019-07-08 19:37:39]  DESC localizacion
+[2019-07-08 19:37:39]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-08 19:38:49]  DESC Producto
+[2019-07-08 19:38:49]  select * from Producto  where id=5 limit 0, 1
+[2019-07-08 19:38:49]  DESC Publicacion
+[2019-07-08 19:38:50]  select * from Publicacion  where id_producto=5 limit 0, 1
+[2019-07-08 19:38:50]  DESC localizacion
+[2019-07-08 19:38:50]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-08 19:40:11]  DESC Producto
+[2019-07-08 19:40:12]  select * from Producto  where id=5 limit 0, 1
+[2019-07-08 19:40:12]  DESC Publicacion
+[2019-07-08 19:40:12]  select * from Publicacion  where id_producto=5 limit 0, 1
+[2019-07-08 19:40:12]  DESC localizacion
+[2019-07-08 19:40:12]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-08 19:40:33]  DESC Producto
+[2019-07-08 19:40:33]  select * from Producto  where id=5 limit 0, 1
+[2019-07-08 19:40:33]  DESC Publicacion
+[2019-07-08 19:40:33]  select * from Publicacion  where id_producto=5 limit 0, 1
+[2019-07-08 19:40:33]  DESC localizacion
+[2019-07-08 19:40:33]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-08 19:40:46]  DESC Producto
+[2019-07-08 19:40:46]  select * from Producto  where id=5 limit 0, 1
+[2019-07-08 19:40:46]  DESC Publicacion
+[2019-07-08 19:40:46]  select * from Publicacion  where id_producto=5 limit 0, 1
+[2019-07-08 19:40:46]  DESC localizacion
+[2019-07-08 19:40:46]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-08 19:41:17]  DESC Producto
+[2019-07-08 19:41:17]  select * from Producto  where id=5 limit 0, 1
+[2019-07-08 19:41:18]  DESC Publicacion
+[2019-07-08 19:41:18]  select * from Publicacion  where id_producto=5 limit 0, 1
+[2019-07-08 19:41:18]  DESC localizacion
+[2019-07-08 19:41:18]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-08 19:41:55]  DESC Producto
+[2019-07-08 19:41:55]  select * from Producto  where id=5 limit 0, 1
+[2019-07-08 19:41:55]  DESC Publicacion
+[2019-07-08 19:41:55]  select * from Publicacion  where id_producto=5 limit 0, 1
+[2019-07-08 19:41:55]  DESC localizacion
+[2019-07-08 19:41:55]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-08 19:43:38]  DESC Producto
+[2019-07-08 19:43:38]  select * from Producto  where id=5 limit 0, 1
+[2019-07-08 19:43:38]  DESC Publicacion
+[2019-07-08 19:43:38]  select * from Publicacion  where id_producto=5 limit 0, 1
+[2019-07-08 19:43:38]  DESC localizacion
+[2019-07-08 19:43:39]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-08 19:43:39]  DESC Imagen
+[2019-07-08 19:43:39]  select * from Imagen  where idProducto=5 limit 0, 10
+[2019-07-08 19:43:39]  DESC Producto
+[2019-07-08 19:43:39]  DESC Imagen
+[2019-07-08 19:43:39]  select * from Producto  where nombre like '%campera%' limit 0, 100
+[2019-07-08 19:43:39]  select * from Producto  where id=2 limit 0, 100
+[2019-07-08 19:43:39]  select * from Imagen  where idProducto=2 limit 0, 1
+[2019-07-08 19:43:39]  select * from Producto  where id=3 limit 0, 100
+[2019-07-08 19:43:39]  select * from Imagen  where idProducto=3 limit 0, 1
+[2019-07-08 19:43:39]  select * from Producto  where id=4 limit 0, 100
+[2019-07-08 19:43:39]  select * from Imagen  where idProducto=4 limit 0, 1
+[2019-07-08 19:43:39]  select * from Producto  where id=5 limit 0, 100
+[2019-07-08 19:43:39]  select * from Imagen  where idProducto=5 limit 0, 1
+[2019-07-08 19:43:52]  DESC Publicacion
+[2019-07-08 19:43:52]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-08 19:43:52]  DESC Producto
+[2019-07-08 19:43:52]  select * from Producto  where id=4 limit 0, 100
+[2019-07-08 19:43:52]  select * from Producto  where id=5 limit 0, 100
+[2019-07-08 19:44:00]  DESC Producto
+[2019-07-08 19:44:00]  DESC Imagen
+[2019-07-08 19:44:00]  select * from Producto  where nombre like '%cartera%' limit 0, 100
+[2019-07-08 19:44:00]  select * from Producto  where id=1 limit 0, 100
+[2019-07-08 19:44:00]  select * from Imagen  where idProducto=1 limit 0, 1
+[2019-07-08 19:44:03]  DESC Producto
+[2019-07-08 19:44:03]  select * from Producto  where id=1 limit 0, 1
+[2019-07-08 19:44:03]  DESC Publicacion
+[2019-07-08 19:44:03]  select * from Publicacion  where id_producto=1 limit 0, 1
+[2019-07-08 19:44:18]  DESC Producto
+[2019-07-08 19:44:18]  select * from Producto  where id=1 limit 0, 1
+[2019-07-08 19:44:18]  DESC Publicacion
+[2019-07-08 19:44:19]  select * from Publicacion  where id_producto=1 limit 0, 1
+[2019-07-08 19:44:21]  DESC Publicacion
+[2019-07-08 19:44:21]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-08 19:44:21]  DESC Producto
+[2019-07-08 19:44:22]  select * from Producto  where id=4 limit 0, 100
+[2019-07-08 19:44:22]  select * from Producto  where id=5 limit 0, 100
+[2019-07-08 19:44:34]  DESC Producto
+[2019-07-08 19:44:34]  DESC Imagen
+[2019-07-08 19:44:34]  select * from Producto  where nombre like '%campera%' limit 0, 100
+[2019-07-08 19:44:34]  select * from Producto  where id=2 limit 0, 100
+[2019-07-08 19:44:34]  select * from Imagen  where idProducto=2 limit 0, 1
+[2019-07-08 19:44:34]  select * from Producto  where id=3 limit 0, 100
+[2019-07-08 19:44:34]  select * from Imagen  where idProducto=3 limit 0, 1
+[2019-07-08 19:44:34]  select * from Producto  where id=4 limit 0, 100
+[2019-07-08 19:44:35]  select * from Imagen  where idProducto=4 limit 0, 1
+[2019-07-08 19:44:35]  select * from Producto  where id=5 limit 0, 100
+[2019-07-08 19:44:35]  select * from Imagen  where idProducto=5 limit 0, 1
+[2019-07-08 19:44:37]  DESC Producto
+[2019-07-08 19:44:37]  select * from Producto  where id=2 limit 0, 1
+[2019-07-08 19:44:37]  DESC Publicacion
+[2019-07-08 19:44:37]  select * from Publicacion  where id_producto=2 limit 0, 1
+[2019-07-08 19:44:44]  DESC Publicacion
+[2019-07-08 19:44:45]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-08 19:44:45]  DESC Producto
+[2019-07-08 19:44:45]  select * from Producto  where id=4 limit 0, 100
+[2019-07-08 19:44:45]  select * from Producto  where id=5 limit 0, 100
+[2019-07-08 19:45:10]  DESC Producto
+[2019-07-08 19:45:10]  DESC Imagen
+[2019-07-08 19:45:10]  select * from Producto  where nombre like '%cartera%' limit 0, 100
+[2019-07-08 19:45:10]  select * from Producto  where id=1 limit 0, 100
+[2019-07-08 19:45:10]  select * from Imagen  where idProducto=1 limit 0, 1
+[2019-07-08 19:45:30]  DESC Producto
+[2019-07-08 19:45:30]  DESC Imagen
+[2019-07-08 19:45:30]  select * from Producto  where nombre like '%campera%' limit 0, 100
+[2019-07-08 19:45:30]  select * from Producto  where id=2 limit 0, 100
+[2019-07-08 19:45:30]  select * from Imagen  where idProducto=2 limit 0, 1
+[2019-07-08 19:45:30]  select * from Producto  where id=3 limit 0, 100
+[2019-07-08 19:45:30]  select * from Imagen  where idProducto=3 limit 0, 1
+[2019-07-08 19:45:30]  select * from Producto  where id=4 limit 0, 100
+[2019-07-08 19:45:30]  select * from Imagen  where idProducto=4 limit 0, 1
+[2019-07-08 19:45:31]  select * from Producto  where id=5 limit 0, 100
+[2019-07-08 19:45:31]  select * from Imagen  where idProducto=5 limit 0, 1
+[2019-07-08 19:45:34]  DESC Producto
+[2019-07-08 19:45:34]  select * from Producto  where id=4 limit 0, 1
+[2019-07-08 19:45:34]  DESC Publicacion
+[2019-07-08 19:45:34]  select * from Publicacion  where id_producto=4 limit 0, 1
+[2019-07-08 19:45:34]  DESC localizacion
+[2019-07-08 19:45:34]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-08 19:45:34]  DESC Imagen
+[2019-07-08 19:45:34]  select * from Imagen  where idProducto=4 limit 0, 10
+[2019-07-08 19:45:34]  DESC Producto
+[2019-07-08 19:45:34]  DESC Imagen
+[2019-07-08 19:45:34]  select * from Producto  where nombre like '%campera%' limit 0, 100
+[2019-07-08 19:45:34]  select * from Producto  where id=2 limit 0, 100
+[2019-07-08 19:45:34]  select * from Imagen  where idProducto=2 limit 0, 1
+[2019-07-08 19:45:34]  select * from Producto  where id=3 limit 0, 100
+[2019-07-08 19:45:34]  select * from Imagen  where idProducto=3 limit 0, 1
+[2019-07-08 19:45:34]  select * from Producto  where id=4 limit 0, 100
+[2019-07-08 19:45:34]  select * from Imagen  where idProducto=4 limit 0, 1
+[2019-07-08 19:45:35]  select * from Producto  where id=5 limit 0, 100
+[2019-07-08 19:45:35]  select * from Imagen  where idProducto=5 limit 0, 1
+[2019-07-08 19:49:42]  DESC Usuario
+[2019-07-08 19:49:42]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-08 19:49:42]  DESC Usuario
+[2019-07-08 19:49:42]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-08 19:49:42]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-08 19:50:35]  DESC Producto
+[2019-07-08 19:50:35]  DESC Imagen
+[2019-07-08 19:50:35]  select * from Producto  where nombre like '%cartera%' limit 0, 100
+[2019-07-08 19:50:35]  select * from Producto  where id=1 limit 0, 100
+[2019-07-08 19:50:35]  select * from Imagen  where idProducto=1 limit 0, 1
+[2019-07-08 19:50:36]  DESC Producto
+[2019-07-08 19:50:37]  select * from Producto  where id=1 limit 0, 1
+[2019-07-08 19:50:37]  DESC Publicacion
+[2019-07-08 19:50:37]  select * from Publicacion  where id_producto=1 limit 0, 1
+[2019-07-08 19:50:54]  DESC Producto
+[2019-07-08 19:50:54]  DESC Imagen
+[2019-07-08 19:50:54]  select * from Producto  where nombre like '%campera%' limit 0, 100
+[2019-07-08 19:50:54]  select * from Producto  where id=2 limit 0, 100
+[2019-07-08 19:50:54]  select * from Imagen  where idProducto=2 limit 0, 1
+[2019-07-08 19:50:55]  select * from Producto  where id=3 limit 0, 100
+[2019-07-08 19:50:55]  select * from Imagen  where idProducto=3 limit 0, 1
+[2019-07-08 19:50:55]  select * from Producto  where id=4 limit 0, 100
+[2019-07-08 19:50:55]  select * from Imagen  where idProducto=4 limit 0, 1
+[2019-07-08 19:50:55]  select * from Producto  where id=5 limit 0, 100
+[2019-07-08 19:50:55]  select * from Imagen  where idProducto=5 limit 0, 1
+[2019-07-08 19:50:58]  DESC Producto
+[2019-07-08 19:50:58]  select * from Producto  where id=4 limit 0, 1
+[2019-07-08 19:50:58]  DESC Publicacion
+[2019-07-08 19:50:58]  select * from Publicacion  where id_producto=4 limit 0, 1
+[2019-07-08 19:50:58]  DESC localizacion
+[2019-07-08 19:50:58]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-08 19:50:58]  DESC Imagen
+[2019-07-08 19:50:59]  select * from Imagen  where idProducto=4 limit 0, 10
+[2019-07-08 19:50:59]  DESC Producto
+[2019-07-08 19:50:59]  DESC Imagen
+[2019-07-08 19:50:59]  select * from Producto  where nombre like '%campera%' limit 0, 100
+[2019-07-08 19:50:59]  select * from Producto  where id=2 limit 0, 100
+[2019-07-08 19:50:59]  select * from Imagen  where idProducto=2 limit 0, 1
+[2019-07-08 19:50:59]  select * from Producto  where id=3 limit 0, 100
+[2019-07-08 19:50:59]  select * from Imagen  where idProducto=3 limit 0, 1
+[2019-07-08 19:50:59]  select * from Producto  where id=4 limit 0, 100
+[2019-07-08 19:50:59]  select * from Imagen  where idProducto=4 limit 0, 1
+[2019-07-08 19:50:59]  select * from Producto  where id=5 limit 0, 100
+[2019-07-08 19:50:59]  select * from Imagen  where idProducto=5 limit 0, 1
+[2019-07-08 19:51:07]  DESC Producto
+[2019-07-08 19:51:07]  select * from Producto  where id=4 limit 0, 100
+[2019-07-08 19:51:32]  DESC tarjeta_de_credito
+[2019-07-08 19:51:32]  DESC Producto
+[2019-07-08 19:51:32]  DESC Publicacion
+[2019-07-08 19:51:32]  DESC Usuario
+[2019-07-08 19:51:32]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`fecha_vencimiento`) VALUES ('','4','123','2019-07-20')
+[2019-07-08 19:51:32]  DESC cobranza
+[2019-07-08 19:51:32]  select * from Producto  where id=4 limit 0, 1
+[2019-07-08 19:51:32]  select * from Publicacion  where id_producto=4 limit 0, 1
+[2019-07-08 19:51:32]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-08 19:51:32]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`idVendedor`,`idComprador`,`cantidad`,`total`) VALUES ('1','19-07-08','4','4','4','1','44444')
+[2019-07-08 19:51:38]  DESC cobranza
+[2019-07-08 19:51:38]  DESC Producto
+[2019-07-08 19:51:39]  DESC Usuario
+[2019-07-08 19:51:39]  DESC tarjeta_de_credito
+[2019-07-08 19:51:39]  select * from cobranza  where idComprador=4 limit 0, 100
+[2019-07-08 19:51:39]  select * from Producto  where id=4 limit 0, 1
+[2019-07-08 19:51:39]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-08 19:51:39]  select * from tarjeta_de_credito  where id='1' limit 0, 1
+[2019-07-08 19:53:12]  DESC Usuario
+[2019-07-08 19:53:12]  DESC Rol
+[2019-07-08 19:53:13]  select * from Rol  where id=1 limit 0, 1
+[2019-07-08 19:53:13]  select * from Usuario  where userName='toto' limit 0, 1
+[2019-07-08 19:54:10]  DESC Usuario
+[2019-07-08 19:54:10]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-08 19:54:10]  DESC Usuario
+[2019-07-08 19:54:11]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-08 19:54:11]  select * from Usuario  where id='4' limit 0, 1

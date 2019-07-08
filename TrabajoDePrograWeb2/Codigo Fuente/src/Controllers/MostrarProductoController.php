@@ -27,8 +27,8 @@ class MostrarProductoController extends Controller
 
             $localizacionDelUser=$localizacion->traerLocalizacionPorIdUser($idUser);
 
-            $lat=$localizacionDelUser["latitud"];
-            $lon=$localizacionDelUser["longitud"];
+            $lat=$localizacionDelUser[0]["latitud"];
+            $lon=$localizacionDelUser[0]["longitud"];
 
             $imagen =new Imagen();
             $d["imagen"] = $imagen->imagenPk($id);
