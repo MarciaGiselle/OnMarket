@@ -106,15 +106,41 @@ if(isset($_SESSION["logueado"])){
                 <small id="passwordHelpBlock" class="form-text text-muted">Mostralo en detalle, con fondo blanco y
                     bien iluminado. No incluyas logos, banners ni textos promocionales. Mínimo 1(una) imagen.
                 </small>
-                <br>
-
-
+                <div class="container mt-4">
                     <div class="row">
-                       <h2>Preguntar si quiere o no modificar la foto</h2>
-                    </div>
 
-                    <br>
-                    <hr>
+                        <div class="col-md-6">
+
+                            <?php
+
+                            $tope = count($imagen);
+
+                            for ($i = 0; $i < $tope; $i++) {
+
+                                $img = $imagen[$i]["nombre"];
+
+                                echo '<img class="rounded float-left" width="30%" height="30%" src="../Webroot/imgCargadas/' . $img . ' " alt="' . $img . '">';
+                            }
+                            ?>
+
+                        </div>
+                    </div>
+                    <form class="container">
+
+                        <div class="row">
+
+                            <div class="col-sm">
+                                <div class="form-group">
+                                    <input name="enviar" type="submit" value="subir archivo" />
+                                    <input type="hidden" value="<?php echo "../Webroot/imgCargadas" ?>" name="destino">
+                                    <input type="file" class="form-control-file" name="imagen[]" accept="image/png, .jpeg, .jpg" multiple id="imagen">
+                                </div>
+                            </div>
+                        </div>
+
+                        <br>
+                        <hr>
+                    </form>
 
             </div>
             <input type="hidden"  value="<?php echo $producto["id"] ?>" name="idProducto" >

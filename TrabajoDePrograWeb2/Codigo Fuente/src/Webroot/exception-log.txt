@@ -8492,3 +8492,30 @@ StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDeProg
 #4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #5 {main}
 
+[2019-07-07 18:33:05]  Excepción no controlada: 'mail(): Bad Message Return Path' en el archivo ContactoController.php en la línea 22
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'mail(): Bad Mes...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ContactoController.php(22): mail('rocio.centurion...', 'hola', 'si anduvo yiii')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ContactoController->enviarMensaje(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-07 18:34:06]  Excepción no controlada: 'mail(): Bad Message Return Path' en el archivo ContactoController.php en la línea 22
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'mail(): Bad Mes...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ContactoController.php(22): mail('rocio.centurion...', 'hola', 'mensaje')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ContactoController->enviarMensaje(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-07 18:34:14]  Excepción no controlada: 'mail(): Bad Message Return Path' en el archivo ContactoController.php en la línea 22
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'mail(): Bad Mes...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ContactoController.php(22): mail('rocio.centurion...', 'hola', 'mensaje')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ContactoController->enviarMensaje(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-07 22:32:38]  Excepción no controlada: 'Use of undefined constant datos - assumed 'datos'' en el archivo ContactoController.php en la línea 35
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ContactoController.php(35): globalErrorHandler(8, 'Use of undefine...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ContactoController->enviarMensaje(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+

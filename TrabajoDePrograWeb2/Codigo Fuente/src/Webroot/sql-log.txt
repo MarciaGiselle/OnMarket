@@ -21495,3 +21495,34 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-07-07 14:03:51]  select * from Producto  where id=87 limit 0, 1
 [2019-07-07 14:03:51]  select * from Publicacion  where id_producto=87 limit 0, 1
 [2019-07-07 14:03:51]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-07 18:06:31]  DESC Estadisticas
+[2019-07-07 18:06:32]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-07 18:06:33]  DESC Producto
+[2019-07-07 18:06:33]  select * from Producto  where id=114 limit 0, 1
+[2019-07-07 18:06:33]  select * from Producto  where id=130 limit 0, 1
+[2019-07-07 18:06:33]  select * from Producto  where id=131 limit 0, 1
+[2019-07-07 18:06:33]  select * from Producto  where id=112 limit 0, 1
+[2019-07-07 18:06:33]  select * from Producto  where id=133 limit 0, 1
+[2019-07-07 18:06:33]  select * from Producto  where id=126 limit 0, 1
+[2019-07-07 18:06:33]  select * from Producto  where id=127 limit 0, 1
+[2019-07-07 18:06:33]  select * from Producto  where id=128 limit 0, 1
+[2019-07-07 18:06:33]  DESC cobranza
+[2019-07-07 18:06:34]  DESC Producto
+[2019-07-07 18:06:34]  select * from cobranza limit 0, 400
+[2019-07-07 18:06:34]  select * from Producto  where id=133 limit 0, 1
+[2019-07-07 18:06:34]  select * from Producto  where id=114 limit 0, 1
+[2019-07-07 18:06:35]  select * from Producto  where id=131 limit 0, 1
+[2019-07-07 18:06:35]  select * from Producto  where id=130 limit 0, 1
+[2019-07-07 18:06:35]  select * from Producto  where id=125 limit 0, 1
+[2019-07-07 18:06:35]  select * from Producto  where id=127 limit 0, 1
+[2019-07-07 18:06:35]  select * from Producto  where id=130 limit 0, 1
+[2019-07-07 18:06:35]  select * from Producto  where id=112 limit 0, 1
+[2019-07-07 18:06:35]  select * from Producto  where id=126 limit 0, 1
+[2019-07-07 18:06:35]  DESC cobranza
+[2019-07-07 18:06:35]  DESC Producto
+[2019-07-07 18:06:35]  select * from cobranza limit 0, 400
+[2019-07-07 18:27:23]  DESC Usuario
+[2019-07-07 18:27:23]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-07 18:27:23]  DESC Usuario
+[2019-07-07 18:27:23]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-07 18:27:23]  select * from Usuario  where id='4' limit 0, 1
