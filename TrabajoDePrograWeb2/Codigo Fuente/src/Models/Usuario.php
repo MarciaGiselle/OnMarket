@@ -213,12 +213,11 @@ class Usuario extends Model
      */
     public  function insertarRegistro(){
 
-       $pass=sha1($this->getPassword());
      $array=[
 
             "name"=> $this->getName(),
          "lastname"=> $this->getLastname(),
-         "password"=>$pass,
+         "password"=>$this->getPassword(),
          "cuit"=>$this->getCuit(),
          "email"=>$this->getEmail(),
           "userName"=>$this->getUserName(),

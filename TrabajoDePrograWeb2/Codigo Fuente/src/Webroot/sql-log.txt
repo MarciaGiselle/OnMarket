@@ -23073,3 +23073,177 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-07-07 18:27:23]  DESC Usuario
 [2019-07-07 18:27:23]  select * from Usuario  where id='4' limit 0, 1
 [2019-07-07 18:27:23]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-08 18:57:54]  DESC cobranza
+[2019-07-08 18:57:54]  DESC Producto
+[2019-07-08 18:57:54]  DESC Usuario
+[2019-07-08 18:57:54]  DESC tarjeta_de_credito
+[2019-07-08 18:57:54]  select * from cobranza  where idComprador=4 limit 0, 100
+[2019-07-08 18:57:54]  select * from Producto  where id=87 limit 0, 1
+[2019-07-08 18:57:54]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-08 18:57:54]  select * from tarjeta_de_credito  where id='34' limit 0, 1
+[2019-07-08 18:57:54]  select * from Producto  where id=87 limit 0, 1
+[2019-07-08 18:57:54]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-08 18:57:54]  select * from tarjeta_de_credito  where id='36' limit 0, 1
+[2019-07-08 18:57:54]  select * from Producto  where id=108 limit 0, 1
+[2019-07-08 18:57:54]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-08 18:57:54]  select * from tarjeta_de_credito  where id='36' limit 0, 1
+[2019-07-08 18:57:54]  select * from Producto  where id=87 limit 0, 1
+[2019-07-08 18:57:54]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-08 18:57:54]  select * from tarjeta_de_credito  where id='37' limit 0, 1
+[2019-07-08 19:00:05]  DESC Publicacion
+[2019-07-08 19:00:05]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-08 19:00:05]  DESC Producto
+[2019-07-08 19:00:05]  select * from Producto  where id=112 limit 0, 100
+[2019-07-08 19:00:07]  DESC Producto
+[2019-07-08 19:00:07]  DESC Publicacion
+[2019-07-08 19:00:07]  DESC Categoria
+[2019-07-08 19:00:07]  DESC Imagen
+[2019-07-08 19:00:07]  select * from Producto  where id=112 limit 0, 1
+[2019-07-08 19:00:07]  select * from Publicacion  where id=32 limit 0, 1
+[2019-07-08 19:00:07]  select * from Categoria  where IdCategoria='7' limit 0, 1
+[2019-07-08 19:00:07]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-07-08 19:00:49]  DESC Producto
+[2019-07-08 19:00:49]  DESC Categoria
+[2019-07-08 19:00:49]  select * from Categoria  where nombreCategoria='musica' limit 0, 1
+[2019-07-08 19:00:49]  UPDATE `Producto` SET `nombre`='Dibujos personalizados',`descripcion`='dasdsa',`cantidad`='3',`precio`='150',`idCategoria`='7' WHERE `id`=112
+[2019-07-08 19:00:49]  DESC Imagen
+[2019-07-08 19:00:49]  select * from Imagen  where idProducto= limit 0, 10
+[2019-07-08 19:01:54]  DESC Producto
+[2019-07-08 19:01:54]  DESC Publicacion
+[2019-07-08 19:01:54]  DESC Categoria
+[2019-07-08 19:01:54]  DESC Imagen
+[2019-07-08 19:01:54]  select * from Producto  where id=112 limit 0, 1
+[2019-07-08 19:01:54]  select * from Publicacion  where id=32 limit 0, 1
+[2019-07-08 19:01:54]  select * from Categoria  where IdCategoria='7' limit 0, 1
+[2019-07-08 19:01:54]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-07-08 19:11:25]  DESC Publicacion
+[2019-07-08 19:11:25]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-08 19:11:25]  DESC Producto
+[2019-07-08 19:11:25]  select * from Producto  where id=112 limit 0, 100
+[2019-07-08 19:14:27]  DESC cobranza
+[2019-07-08 19:14:27]  DESC Producto
+[2019-07-08 19:14:27]  DESC Usuario
+[2019-07-08 19:14:27]  DESC tarjeta_de_credito
+[2019-07-08 19:14:27]  select * from cobranza  where idComprador=4 limit 0, 100
+[2019-07-08 19:14:27]  select * from Producto  where id=87 limit 0, 1
+[2019-07-08 19:14:27]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-08 19:14:27]  select * from tarjeta_de_credito  where id='34' limit 0, 1
+[2019-07-08 19:14:27]  select * from Producto  where id=87 limit 0, 1
+[2019-07-08 19:14:27]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-08 19:14:27]  select * from tarjeta_de_credito  where id='36' limit 0, 1
+[2019-07-08 19:14:27]  select * from Producto  where id=108 limit 0, 1
+[2019-07-08 19:14:27]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-08 19:14:27]  select * from tarjeta_de_credito  where id='36' limit 0, 1
+[2019-07-08 19:14:27]  select * from Producto  where id=87 limit 0, 1
+[2019-07-08 19:14:27]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-08 19:14:27]  select * from tarjeta_de_credito  where id='37' limit 0, 1
+[2019-07-08 19:16:50]  DESC Usuario
+[2019-07-08 19:16:50]  DESC Rol
+[2019-07-08 19:16:50]  select * from Rol  where id=1 limit 0, 1
+[2019-07-08 19:16:50]  select * from Usuario  where userName='mar' limit 0, 1
+[2019-07-08 19:17:03]  DESC Usuario
+[2019-07-08 19:17:03]  DESC Rol
+[2019-07-08 19:17:03]  select * from Rol  where id=1 limit 0, 1
+[2019-07-08 19:17:03]  select * from Usuario  where userName='mar18' limit 0, 1
+[2019-07-08 19:17:03]  DESC localizacion
+[2019-07-08 19:17:03]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('Marcia','Giselle','0f2c595baa1fac2457a5970eb17f735ffedd0c40','2338701736','margisetoledo@gmail.com','mar18','Mujer','2','1')
+[2019-07-08 19:17:04]  INSERT INTO `localizacion` (`longitud`,`latitud`,`id_user`) VALUES ('-58.59419129999998','-34.7107108','14')
+[2019-07-08 19:17:36]  DESC Usuario
+[2019-07-08 19:17:36]  select * from Usuario  where name= 'Marcia' and password='6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' limit 0, 1
+[2019-07-08 19:17:59]  DESC Usuario
+[2019-07-08 19:17:59]  select * from Usuario  where name= 'Mar18' and password='6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' limit 0, 1
+[2019-07-08 19:18:07]  DESC Usuario
+[2019-07-08 19:18:07]  select * from Usuario  where name= 'marcia' and password='6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' limit 0, 1
+[2019-07-08 19:18:18]  DESC Usuario
+[2019-07-08 19:18:18]  select * from Usuario  where name= 'marcia' and password='6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' limit 0, 1
+[2019-07-08 19:19:44]  DESC Usuario
+[2019-07-08 19:19:44]  select * from Usuario  where name= 'marcia' and password='6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' limit 0, 1
+[2019-07-08 19:20:27]  DESC Usuario
+[2019-07-08 19:20:27]  select * from Usuario  where name= 'marcia' and password='6216f8a75fd5bb3d5f22b6f9958cdede3fc086c2' limit 0, 1
+[2019-07-08 19:27:31]  DESC Usuario
+[2019-07-08 19:27:31]  DESC Rol
+[2019-07-08 19:27:31]  select * from Rol  where id=1 limit 0, 1
+[2019-07-08 19:27:31]  select * from Usuario  where userName='nati' limit 0, 1
+[2019-07-08 19:27:31]  DESC localizacion
+[2019-07-08 19:27:31]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('Natalia','Toledo','9adcb29710e807607b683f62e555c22dc5659713','12345689','nati@gmail.com','nati','Mujer','2','1')
+[2019-07-08 19:27:31]  INSERT INTO `localizacion` (`longitud`,`latitud`,`id_user`) VALUES ('-58.59419129999998','-34.7107108','15')
+[2019-07-08 19:27:52]  DESC Usuario
+[2019-07-08 19:27:52]  select * from Usuario  where name= 'natalia' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-08 19:28:25]  DESC Usuario
+[2019-07-08 19:28:25]  select * from Usuario  where name= 'natalia' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-08 19:38:25]  DESC Usuario
+[2019-07-08 19:38:25]  DESC Rol
+[2019-07-08 19:38:25]  select * from Rol  where id=1 limit 0, 1
+[2019-07-08 19:38:25]  select * from Usuario  where userName='agustole' limit 0, 1
+[2019-07-08 19:38:38]  DESC Usuario
+[2019-07-08 19:38:38]  DESC Rol
+[2019-07-08 19:38:38]  select * from Rol  where id=1 limit 0, 1
+[2019-07-08 19:38:38]  select * from Usuario  where userName='agustole' limit 0, 1
+[2019-07-08 19:38:38]  DESC localizacion
+[2019-07-08 19:38:38]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('Agustin','Toledo','3d2a34c7b4f68d10409cf0396858ef533db01ac7','123456789','agus782@gmail.com','agustole','Hombre','2','1')
+[2019-07-08 19:38:38]  INSERT INTO `localizacion` (`longitud`,`latitud`,`id_user`) VALUES ('-58.59419129999998','-34.7107108','16')
+[2019-07-08 19:38:59]  DESC Usuario
+[2019-07-08 19:38:59]  DESC Rol
+[2019-07-08 19:38:59]  select * from Rol  where id=1 limit 0, 1
+[2019-07-08 19:38:59]  select * from Usuario  where userName='agustole' limit 0, 1
+[2019-07-08 19:41:39]  DESC Usuario
+[2019-07-08 19:41:39]  DESC Rol
+[2019-07-08 19:41:39]  select * from Rol  where id=1 limit 0, 1
+[2019-07-08 19:41:39]  select * from Usuario  where userName='marce' limit 0, 1
+[2019-07-08 19:41:39]  DESC localizacion
+[2019-07-08 19:41:39]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('Marcelo','Toledo','fc1200c7a7aa52109d762a9f005b149abef01479','789456123','marcelo@gmail.com','marce','Hombre','2','1')
+[2019-07-08 19:41:39]  INSERT INTO `localizacion` (`longitud`,`latitud`,`id_user`) VALUES ('-58.59797420000001','-34.7093701','17')
+[2019-07-08 19:42:58]  DESC Usuario
+[2019-07-08 19:42:58]  select * from Usuario  where name= 'marcelo' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-08 19:42:58]  DESC Usuario
+[2019-07-08 19:42:58]  select * from Usuario  where id='17' limit 0, 1
+[2019-07-08 19:42:58]  select * from Usuario  where id='17' limit 0, 1
+[2019-07-08 19:44:37]  DESC Usuario
+[2019-07-08 19:44:37]  DESC Rol
+[2019-07-08 19:44:37]  select * from Rol  where id=1 limit 0, 1
+[2019-07-08 19:44:37]  select * from Usuario  where userName='dadas' limit 0, 1
+[2019-07-08 19:44:37]  DESC localizacion
+[2019-07-08 19:44:37]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('dsadas','dada','7110eda4d09e062aa5e4a390b0a572ac0d2c0220','34654123','mar@gmail.com','dadas','Hombre','2','1')
+[2019-07-08 19:44:37]  INSERT INTO `localizacion` (`longitud`,`latitud`,`id_user`) VALUES ('-102.55278399999997','23.634501','18')
+[2019-07-08 19:45:55]  DESC Usuario
+[2019-07-08 19:45:55]  select * from Usuario  where name= 'axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-08 19:45:55]  DESC Usuario
+[2019-07-08 19:45:55]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-08 19:45:55]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-08 19:46:06]  DESC cobranza
+[2019-07-08 19:46:06]  DESC Producto
+[2019-07-08 19:46:06]  DESC Usuario
+[2019-07-08 19:46:06]  DESC tarjeta_de_credito
+[2019-07-08 19:46:06]  select * from cobranza  where idComprador=4 limit 0, 100
+[2019-07-08 19:46:06]  select * from Producto  where id=87 limit 0, 1
+[2019-07-08 19:46:06]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-08 19:46:06]  select * from tarjeta_de_credito  where id='34' limit 0, 1
+[2019-07-08 19:46:06]  select * from Producto  where id=87 limit 0, 1
+[2019-07-08 19:46:07]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-08 19:46:07]  select * from tarjeta_de_credito  where id='36' limit 0, 1
+[2019-07-08 19:46:07]  select * from Producto  where id=108 limit 0, 1
+[2019-07-08 19:46:07]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-08 19:46:07]  select * from tarjeta_de_credito  where id='36' limit 0, 1
+[2019-07-08 19:46:07]  select * from Producto  where id=87 limit 0, 1
+[2019-07-08 19:46:07]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-08 19:46:07]  select * from tarjeta_de_credito  where id='37' limit 0, 1
+[2019-07-08 19:46:51]  DESC Usuario
+[2019-07-08 19:46:51]  DESC tipo_valoracion
+[2019-07-08 19:46:51]  DESC valoracion
+[2019-07-08 19:46:52]  DESC cobranza
+[2019-07-08 19:46:52]  DESC Producto
+[2019-07-08 19:46:52]  DESC Usuario
+[2019-07-08 19:46:52]  DESC tarjeta_de_credito
+[2019-07-08 19:46:52]  select * from cobranza  where idComprador=4 limit 0, 100
+[2019-07-08 19:46:52]  select * from Producto  where id=87 limit 0, 1
+[2019-07-08 19:46:52]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-08 19:46:52]  select * from tarjeta_de_credito  where id='34' limit 0, 1
+[2019-07-08 19:46:52]  select * from Producto  where id=87 limit 0, 1
+[2019-07-08 19:46:52]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-08 19:46:52]  select * from tarjeta_de_credito  where id='36' limit 0, 1
+[2019-07-08 19:46:52]  select * from Producto  where id=108 limit 0, 1
+[2019-07-08 19:46:52]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-08 19:46:52]  select * from tarjeta_de_credito  where id='36' limit 0, 1
+[2019-07-08 19:46:52]  select * from Producto  where id=87 limit 0, 1
+[2019-07-08 19:46:52]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-08 19:46:52]  select * from tarjeta_de_credito  where id='37' limit 0, 1
