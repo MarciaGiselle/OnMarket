@@ -26,10 +26,9 @@ if(isset($_SESSION["logueado"])){
 
                 $img = $imagen[$i]["nombre"];
 
-                echo '<img class="rounded float-left" width="90%" height="30%" src="../Webroot/imgCargadas/' . $img . ' " alt="' . $img . '">';
+                echo '<img class="rounded float-left" width="30%" height="30%" src="../Webroot/imgCargadas/' . $img . ' " alt="' . $img . '">';
             }
             ?>
-
         </div>
 
         <div class="col-md-4">

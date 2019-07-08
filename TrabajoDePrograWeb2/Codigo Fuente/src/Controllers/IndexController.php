@@ -11,18 +11,6 @@ class IndexController extends Controller
 
     }
 
-/*if(isset($_SESSION["logueado"])){
-$d["title"] = "Index";
-$this->set($d);
-$this->render(Constantes::NAVLOGUEADOVIEW);
-$this->render(Constantes::INDEXVIEW);
-
-}else{
-    $d["title"] = "Index";
-    $this->set($d);
-    $this->render(Constantes::NAVNOLOGUEADOVIEW);
-    $this->render(Constantes::INDEXVIEW);
-}*/
 
     
 }

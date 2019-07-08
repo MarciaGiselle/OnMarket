@@ -2,7 +2,7 @@
 <script src="<?php echo getBaseAddress() . 'Webroot/amcharts4/core.js'?>"></script>
 <script src="<?php echo getBaseAddress() . '/Webroot/amcharts4/charts.js'?>"> </script>
 <script src="<?php echo getBaseAddress() . 'Webroot/amcharts4/themes/animated.js'?>"></script>
-<script src="<?php echo getBaseAddress() . 'Webroot/amcharts4/index.js' ?>"></script>
+<script src="<?php echo getBaseAddress() . 'Webroot/amcharts4/maps.js'?>"></script>
 
 
 
@@ -18,10 +18,11 @@
     <?php if(Empty($mensaje)){ ?>
 
     <script>
+
         am4core.useTheme(am4themes_animated);
 
         var chart = am4core.create("chartdiv", am4charts.PieChart);
-        var i; var tope=<?php echo count($arrayProd) ?>;
+
 
 
         chart.data = [{
@@ -57,6 +58,11 @@
         series.hiddenState.properties.startAngle = -90;
 
         chart.legend = new am4charts.Legend();
+        chart.cursor = new am4charts.XYCursor();
+        chart.cursor.lineX.strokeOpacity = 0;
+        chart.cursor.lineY.strokeOpacity = 0;
+
+        chart.exporting.menu = new am4core.ExportMenu();
     </script>
 
     <?php }else{
@@ -107,7 +113,7 @@
         }];
 
 
-        chart.padding(40, 40, 40, 40);
+        chart2.padding(40, 40, 40, 40);
 
         var categoryAxis = chart2.xAxes.push(new am4charts.CategoryAxis());
         categoryAxis.renderer.grid.template.location = 0;
@@ -122,12 +128,16 @@
         series.tooltipText = "{valueY.value}"
         series.columns.template.strokeOpacity = 0;
 
-        chart.cursor = new am4charts.XYCursor();
+        chart2.cursor = new am4charts.XYCursor();
 
         // as by default columns of the same series are of the same color, we add adapter which takes colors from chart.colors color set
         series.columns.template.adapter.add("fill", function (fill, target) {
             return chart2.colors.getIndex(target.dataItem.index);
         });
+        chart2.cursor.lineX.strokeOpacity = 0;
+        chart2.cursor.lineY.strokeOpacity = 0;
+
+        chart2.exporting.menu = new am4core.ExportMenu();
 
     </script>
 
@@ -146,31 +156,31 @@
     var data5 = [];
 
     chart5.data = [{
-        "year": " $50.0 y $200.0",
+        "year": " $50-$200",
         "income": <?php echo $arrayMontos[0] ?>,
 
     }, {
-        "year": "Entre $200.0 y $600.0",
+        "year": "$200-$600",
         "income": <?php echo $arrayMontos[1] ?>,
 
     }, {
-        "year": " $600.0 y $1000.0",
+        "year": " $600-$1000",
         "income": <?php echo $arrayMontos[2] ?>,
 
     }, {
-        "year": " $1000.0 y $1500.0",
+        "year": " $1000-$1500",
         "income": <?php echo $arrayMontos[3] ?>,
 
     }, {
-        "year": " $1500.0 y $3000.0",
+        "year": " $1500-$3000",
         "income": <?php echo $arrayMontos[4] ?>,
 
     }, {
-        "year": " $3000.0 y $5000.0",
+        "year": " $3000-$5000",
         "income": <?php echo $arrayMontos[5] ?>,
 
     }, {
-        "year": "Mas de $5000.0",
+        "year": "$5000+",
         "income": <?php echo $arrayMontos[6] ?>,
 
     }];
@@ -245,9 +255,14 @@
 
     chart5.cursor = new am4charts.XYCursor();
     chart5.cursor.behavior = "none";
-    chart5.cursor.lineX.opacity = 0;
-    chart5.cursor.lineY.opacity = 0;
+    chart5.cursor.lineX.strokeOpacity = 0;
+    chart5.cursor.lineY.strokeOpacity = 0;
+
+    chart5.exporting.menu = new am4core.ExportMenu();
 </script>
+
+
+
 
 
 
