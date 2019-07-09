@@ -15,6 +15,15 @@ class Imagen extends Model
         echo $imagick->getImageBlob();
     }
 */
+
+   function cambiarTamaño($temporal){
+       //esto se haria antes del metodo
+      // $temporal=$_FILES["imagen"]["tmp_name"];
+       $original=imagecreatefromjpeg($temporal);
+       $copia=imagecreatetruecolor(400,400);
+       $r=imagecopyresampled($copia,$original,0,0,0,0,400,700,imagesx($original),imagesy($original));
+       return $copia;
+   }
   function actualizarImagen(){
       $array=[
           "id"=>$this->getId(),

@@ -69,10 +69,13 @@ class ProductoController extends Controller
             $mensaje="carga incorrecta";
             echo "<script> alert('$mensaje') </script>";
         }else{
+
             $idProducto = $producto->insertarProducto();
+            $this->altaPublicacion($publicacion, $idProducto);
             $this->insertarImagenes($arrayImagenes, $idProducto);
             $this->guardarImagenes($publicacion, $countfiles);
-            $this->altaPublicacion($publicacion, $idProducto);
+
+
         }
     }
 
@@ -87,17 +90,20 @@ class ProductoController extends Controller
     }
 
     function guardarImagenes($publicacion, $countfiles)
-    {
+    { $img=new Imagen();
         for ($i = 0; $countfiles > $i; $i++) {
             $archivo = $_FILES["imagen"]['name'][$i];
+            var_dump($archivo);
             $tmpName = $_FILES['imagen']['tmp_name'][$i];
-            var_dump($_FILES);
+
+            $guardar=$img->cambiarTamaño($tmpName);
             // $prefijo = substr(md5(uniqid(rand())),0,6);
 
             if ($archivo != "") {
                 // guardamos el archivo a la carpeta files
                 $destino = $publicacion['destino'] . "/" . $archivo;
-                copy($tmpName, $destino);
+                imagejpeg($guardar, $destino);
+
             }
         }
     }

@@ -21,6 +21,8 @@ class MostrarProductoController extends Controller
 
             $publicacionDelProducto=$publicacion->traerPublicaciondelProducto($id);
 
+
+
              $idUser=$publicacionDelProducto["id_user"];
 
               $localizacion=new Localizacion();
