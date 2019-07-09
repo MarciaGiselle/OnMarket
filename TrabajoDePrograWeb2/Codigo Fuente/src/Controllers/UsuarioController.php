@@ -135,25 +135,39 @@ class UsuarioController extends Controller
 
 
     }
-    function valorarVendedor($datos)
 
-    {
+    function valorar($datos){
+
+        header("Content-type: application/json");
+        $data = json_decode(utf8_decode($datos['data']));
+
         $vendedor = new Usuario();
+        $publicacion = new Publicacion();
         $tipoValoracion = new tipo_valoracion();
         $valoracion = new valoracion();
 
-        $idVendedor= $datos["idValorado"];
-        $valoracion->setIdVendedor($idVendedor);
+        $idProducto= $data->idValorado;
+        $estrellas= $data->estrellas;
+        $comentario= $data->comentario;
+
+        $publicEncontrada = $publicacion->traerPublicaciondelProducto($idProducto);
+        $idVendedor= $vendedor->traerUserPorPk($publicEncontrada["id_user"]);
+
+
+        $valoracion->setIdVendedor($idVendedor["id"]);
+        $valoracion->setIdLogueado($_SESSION["logueado"]);
+        $valoracion->setIdProducto($idProducto);
+
 
         $error = 0;
-        if (FuncionesComunes::validarNumeros($datos["estrellas"])) {
-            $valoracion->setNumero($datos["estrellas"]);
+        if (FuncionesComunes::validarNumeros($estrellas)) {
+            $valoracion->setNumero($estrellas);
         } else {
             $error .= 1;
         }
-        if (isset($datos["comentario"])) {
-            if (FuncionesComunes::validarCadenaNumerosYEspacios($datos["comentario"])) {
-                $valoracion->setComentario($datos["comentario"]);
+        if (isset($comentario)) {
+            if (FuncionesComunes::validarCadenaNumerosYEspacios($comentario)) {
+                $valoracion->setComentario($comentario);
             } else {
                 $error .= 1;
 
@@ -161,16 +175,17 @@ class UsuarioController extends Controller
         }
         if ($error == 0) {
             $valoracion->insertarValoracion();
-            $promedio = $valoracion->realizarPromedioPorPk($idVendedor);
+            $promedio = $valoracion->realizarPromedioPorPk($idVendedor["id"]);
             $idValoracion = $tipoValoracion->definirIdPorPromedio($promedio);
-            $vendedor->setId($idVendedor);
+            $vendedor->setId($idVendedor["id"]);
             $vendedor->setIdTipo($idValoracion);
             $vendedor->actualizarTipo();
 
 
 
         }
-        header("Location:" .getBaseAddress(). "misCompras/mostrarHistorial");
+
+        echo json_encode(true);
     }
 
 }

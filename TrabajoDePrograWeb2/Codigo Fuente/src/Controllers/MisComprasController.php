@@ -9,6 +9,7 @@ class MisComprasController EXTENDS Controller
         $producto = new Producto();
         $usuario = new Usuario();
         $tarjeta = new tarjeta_de_credito();
+        $valoracion= new valoracion();
 
 
         $misCompras = $miCobranza->buscarMisCompras($_SESSION["logueado"]);
@@ -16,14 +17,17 @@ class MisComprasController EXTENDS Controller
         $arrayProductoVendedor = [];
 
         for ($i = 0; $i < count($misCompras); $i++) {
+
             $prodEncontrado = $producto->buscarUnProductoPorPk($misCompras[$i]["idProducto"]);
             $vendedor = $usuario->traerUserPorPk($misCompras[$i]["idVendedor"]);
             $tarjetaUsada = $tarjeta->traerPorPk($misCompras[$i]["idTarjeta"]);
+            $estado = $valoracion->consultarEstadoDeValoracionPorPk($misCompras[$i]["idProducto"],$vendedor["id"]);
             $arrayProducto = [
                 "compra" => $misCompras[$i],
                 "prod" => $prodEncontrado,
                 "tarjeta" => $tarjetaUsada,
-                "vendedor" => $vendedor];
+                "vendedor" => $vendedor,
+                "estado"=> $estado];
             array_push($arrayProductoVendedor, $arrayProducto);
         }
 
