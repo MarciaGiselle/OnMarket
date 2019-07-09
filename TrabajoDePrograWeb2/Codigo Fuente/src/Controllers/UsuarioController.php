@@ -135,14 +135,14 @@ class UsuarioController extends Controller
 
 
     }
+    function valorarVendedor($datos)
 
-    function valorarPublicacion($datos)
     {
         $vendedor = new Usuario();
         $tipoValoracion = new tipo_valoracion();
         $valoracion = new valoracion();
 
-        $idVendedor= $datos["vendedor"];
+        $idVendedor= $datos["idValorado"];
         $valoracion->setIdVendedor($idVendedor);
 
         $error = 0;
@@ -151,27 +151,26 @@ class UsuarioController extends Controller
         } else {
             $error .= 1;
         }
-       /* if (isset($datos["comentario"])) {
+        if (isset($datos["comentario"])) {
             if (FuncionesComunes::validarCadenaNumerosYEspacios($datos["comentario"])) {
                 $valoracion->setComentario($datos["comentario"]);
             } else {
                 $error .= 1;
 
             }
-        }*/
+        }
         if ($error == 0) {
             $valoracion->insertarValoracion();
-            $promedio = $valoracion->realizarPromedioPorPk($datos["vendedor"]);
+            $promedio = $valoracion->realizarPromedioPorPk($idVendedor);
             $idValoracion = $tipoValoracion->definirIdPorPromedio($promedio);
             $vendedor->setId($idVendedor);
             $vendedor->setIdTipo($idValoracion);
-            var_dump($vendedor);
             $vendedor->actualizarTipo();
 
 
+
         }
-
-
+        header("Location:" .getBaseAddress(). "misCompras/mostrarHistorial");
     }
 
 }

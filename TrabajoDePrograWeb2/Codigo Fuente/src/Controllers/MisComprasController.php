@@ -33,4 +33,7 @@ class MisComprasController EXTENDS Controller
         $this->render(Constantes::MISCOMPRASVIEW);
 
     }
+
+
+
 }
