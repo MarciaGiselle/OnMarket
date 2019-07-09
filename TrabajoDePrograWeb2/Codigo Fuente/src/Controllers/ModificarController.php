@@ -17,7 +17,7 @@ class ModificarController extends Controller
 
         $d["publicacion"] =  $publicacionAmostrar;
         $d["producto"] =  $productoAmostrar;
-        $d["imagenes"] =  $imagenesAmostrar;
+        $d["imagen"] =  $imagenesAmostrar;
         $d["categoria"] =  $categoriaAmostrar;
         
         $this->set($d);
@@ -62,14 +62,41 @@ class ModificarController extends Controller
             if ($idCategoria != false) {
                 $producto->setIdCategoria($idCategoria);
             }
+
+            $producto->ModificarProducto();
+            $this->modificarPublicacion($datos, $datos["idProducto"]);
+
+            //PARTE DE LAS IMAGENES
+
+            if(!empty($_FILES["imagen"]["name"])){
+
+                $countfiles = count($_FILES["imagen"]["name"]);
+                if ($countfiles >= 2 || $countfiles > 10) {
+                    for ($i = 0; $countfiles > $i; $i++) {
+                        $arrayImagenes[$i] = $_FILES['imagen']['name'][$i];
+                    }
+                }else{
+                    $error.=1;
+                }
+
+                if($error>0){
+                    $mensaje="carga incorrecta";
+                    echo "<script> alert('$mensaje') </script>";
+                }else{
+                    $idProducto = $producto->modificarProducto();
+                    $this->actualizarImagenes($arrayImagenes, $idProducto);
+                   $this->guardarImagenes($datos, $countfiles);
+
+                }
+
+
+
+            }
+
         }
-        echo "id: ".$producto->getId()."<br>nombre:".$producto->getNombre()."<br>";
-            $sql=$producto->ModificarProducto();
-      
-        if ($sql != false){
-         echo "cambios realizados";
-         }
-        $this->modificarPublicacion($datos, $datos["idProducto"]);
+
+
+
 
     }
 
@@ -108,5 +135,74 @@ class ModificarController extends Controller
         return $validacion;
 
     }
+
+
+    function actualizarImagenes($arrayImagenes, $idProducto)
+    {
+        $imagen =new Imagen();
+    //trae un array con imagenes del prod
+        $arrayImg= $imagen->imagenPk($idProducto);
+         $nuevas=count($arrayImagenes);
+         $viejas=count($arrayImg);
+         $diferencia=0;
+
+         if($nuevas>$viejas){
+             $diferencia=$nuevas-$viejas;
+
+             //se insertan las nuevas
+             for($i=0;$i< $diferencia;$i++) {
+                  $imagenNueva = new Imagen();
+                 $imagenNueva->setNombre($arrayImagenes[$i]);
+                 $imagenNueva->setIdProducto($idProducto);
+                 $imagenNueva->insertarImagen();
+
+             }
+          }else{
+             $diferencia=$viejas-$nuevas;
+             //se eliminan las viejas
+
+             for($i=0;$i< $diferencia;$i++) {
+                 $imagenNueva = new Imagen();
+                 $imagenNueva->setId($arrayImg[$i]["id"]);
+                 $imagenNueva->eliminarImagen();
+
+             }
+         }
+
+        $tope=$viejas-$diferencia;
+         echo $viejas;
+         echo $diferencia;
+         echo $tope;
+        for($i=$diferencia;$i<$tope;$i++) {
+
+            $imagenNueva = new Imagen();
+
+            $imagenNueva->setId($arrayImg[$i]["id"]);
+            $imagenNueva->setNombre($arrayImagenes[$i]);
+            $imagenNueva->setIdProducto($idProducto);
+            $imagenNueva->actualizarImagen();
+
+        }
+    }
+
+    function guardarImagenes($publicacion, $countfiles)
+    { $img =new Imagen();
+        for ($i = 0; $countfiles > $i; $i++) {
+            $archivo = $_FILES["imagen"]['name'][$i];
+            $tmpName = $_FILES['imagen']['tmp_name'][$i];
+
+            // $prefijo = substr(md5(uniqid(rand())),0,6);
+            $guardar=$img->cambiarTamaño($tmpName);
+            // $prefijo = substr(md5(uniqid(rand())),0,6);
+
+            if ($archivo != "") {
+                // guardamos el archivo a la carpeta files
+                $destino = $publicacion['destino'] . "/" . $archivo;
+                imagejpeg($guardar, $destino);
+            }
+        }
+    }
+
+
 
 }

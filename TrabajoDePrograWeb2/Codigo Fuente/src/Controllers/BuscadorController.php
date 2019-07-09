@@ -36,6 +36,28 @@ class BuscadorController extends Controller
                     array_push($imagenesEncontradas, $imagenABuscar->primerImagenPorPk($pk));
                 }
 
+                //Parte para las estadisticas de los productos mas buscados
+                /* $estadistica=new Estadisticas();
+                    foreach($idsProductos as $id){
+
+                        if($estadistica->verificarSiExisteEstadistica( $id)){
+
+                             $estadistica->setCantidad(1);
+                             $estadistica->setIdProducto($id);
+                            $estadistica->insertarEstadistica();
+
+                        }else{
+                            // se agrega a la estadistica
+                            $estadisticaAmodificar=$estadistica->TrearEstadisticaPorPkProducto($id);
+                            $estadistica->setId($estadisticaAmodificar["id"]);
+                           $estadistica->setCantidad($estadisticaAmodificar["cantidad"]+1);
+                            $estadistica->AumentarCantidadEnUnaEstadisticaPorPk();
+
+
+
+                        }
+                    }*/
+
                 $arrayProductoImagen=[];
 
                 for($i=0;$i<count($idsProductos); $i++){
@@ -47,6 +69,10 @@ class BuscadorController extends Controller
                     array_push($arrayProductoImagen, $arrayProducto);
 
                 }
+
+
+
+
 
                 }
                 echo json_encode($arrayProductoImagen);

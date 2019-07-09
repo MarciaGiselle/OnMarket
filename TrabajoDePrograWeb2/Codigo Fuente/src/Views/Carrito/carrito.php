@@ -15,7 +15,18 @@ if (isset($_SESSION["logueado"])) {
 <div class="container text-center align-items-center"><br>
     <h2 class="text-primary text-center mt-3 mb-3">Tus Productos</h2>
 
+    <table class=" table table-hover text-center mt-4">
+        <thead>
+        <tr class="font-weight-bold">
+            <th scope="row">#</th>
+            <th scope="col">Producto</th>
+            <th scope="col">Precio</th>
+            <th scope="col">Cantidad</th>
+            <th scope="col">Subtotal</th>
+            <th scope="col"></th>
 
+        <tr>
+        </thead>
 
 
         <?php
@@ -31,18 +42,7 @@ if (isset($_SESSION["logueado"])) {
             $total += $subtotal;
             $nro = $i + 1;
             echo '
-    <table class=" table table-hover text-center mt-4">
-        <thead>
-        <tr class="font-weight-bold">
-            <td scope="col">#</td>
-            <td scope="col">Producto</td>
-            <td scope="col">Precio</td>
-            <td scope="col">Cantidad</td>
-            <td scope="col">Subtotal</td>
-            <td scope="col"></td>
-
-        <tr>
-        </thead>
+   
         <tbody><tr>
                 <th scope="row">' . $nro . '</th>
                 <td> ' . $nombre . '  </td>
@@ -57,7 +57,7 @@ if (isset($_SESSION["logueado"])) {
                  <button type="submit" id="eliminar">
                 <i class="far fa-trash-alt fa-lg" style="color: red;" ></i>
                 </button>
-                </tr>
+                </td>
               </form>';
         }
 
@@ -65,11 +65,12 @@ if (isset($_SESSION["logueado"])) {
         <th scope="row"></th>
         <td class="font-weight-bold" colspan="3">Total:</td>
       <td class="font-weight-bold">$ '. $total .' </td>
+
        </tr>
             </table>
 
             <form action="'. getBaseAddress() . 'Compra/ingresarTarjeta' .'" method="POST">
-                <input type="hidden" name="total" value=.$total. />
+                <input type="hidden" name="total" value="'.$total.'" />
                 <div class="btn btn-primary btn-lg btn-block">
                     <input type="submit" value="Siguiente Paso" class="btn btn-primary">
                 </div>

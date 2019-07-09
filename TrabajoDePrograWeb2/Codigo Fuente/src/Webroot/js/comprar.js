@@ -7,6 +7,8 @@ var inputnumeroTarjeta = $("#numeroDeTarjeta");
 var inputcodigo = $("#codigoDeSeguridad");
 var inputfecha = $("#fechaDeVencimiento");
 var inputtotal = $('#total');
+var carrito = $('#carrito');
+
 
 function validarNumeroTarjeta(){
     var validacion = false;
@@ -79,6 +81,7 @@ function validarFecha(){
 
 confirmar.click(function () {
 
+
     if(validarNumeroTarjeta() ){
         $(".error").fadeOut();
         $(".error").removeClass("d-flex").addClass("d-none").find("span").text("");
@@ -100,16 +103,17 @@ confirmar.click(function () {
         obj.codigoDeSeguridad = inputcodigo.val();
         obj.fechaDeVencimiento = inputfecha.val();
 
-        llamadaAjax(pathCompra, JSON.stringify(obj), true, "loginExitoso", "loginFallido");
+
+        llamadaAjax(pathCompra, JSON.stringify(obj), true, "compraExitosa", "loginFallido");
     }
 });
 
-function loginExitoso(dummy) {
-    alertify.alert("¡Compra Exitosa!", "Espere unos segundos y será redireccionado al inicio");
+function compraExitosa(dummy) {
+    alertify.alert("¡Compra Exitosa!", "Espere unos segundos y será redireccionado a una página de valoraciones al vendedor");
 
     setTimeout(function () {
 
-        window.location.href = pathHome;
+        window.location.href = pathMisCompras;
 
     }, 5000);
 

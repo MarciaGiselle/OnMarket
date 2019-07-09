@@ -14,6 +14,10 @@
         </li>
         <li class="nav-item ">
             <a class="nav-link active" href= "<?php echo getBaseAddress() . "Producto/publicar" ?>">Publicar</a>
+        </li>
+        <li class="nav-item ">
+            <a class="nav-link active" href= "<?php echo getBaseAddress() . "MisCompras/mostrarHistorial" ?>">Mis compras</a>
+        </li>
     </ul>
 
     <!--boton busqueda -->

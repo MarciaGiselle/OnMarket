@@ -13,13 +13,19 @@
         <li class="nav-item">
             <a class="nav-link active" href="<?php echo getBaseAddress() . "MisPublicaciones/publicaciones" ?>">Historial</a>
         </li>
-
-
-
+        <li class="nav-item ">
+            <a class="nav-link active" href= "<?php echo getBaseAddress() . "Producto/publicar" ?>">Publicar</a>
+        </li>
 
 
         <li class="nav-item ">
-            <a class="nav-link active" href= "<?php echo getBaseAddress() . "Producto/publicar" ?>">Publicar</a>
+            <a class="nav-link active" href= "<?php echo getBaseAddress() . "Contacto/formularioContacto" ?>">Contacto</a>
+        </li>
+
+
+
+
+
     </ul>
 
     <!--boton busqueda -->

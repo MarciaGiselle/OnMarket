@@ -1,6 +1,8 @@
 <script>
     const pathCompra = "<?php echo getBaseAddress() . "Usuario/realizarCompra"; ?>";
     const pathHome = "<?php echo getBaseAddress() . "Usuario/mostrarInicio"; ?>";
+    const pathMisCompras = "<?php echo getBaseAddress() . "MisCompras/mostrarHistorial"; ?>";
+
 
 </script>
 <body>
@@ -43,7 +45,10 @@ if (isset($_SESSION["logueado"])) {
                     <small class="text-left"></small>
                 </div>
 
-                <input type="hidden" id="total" value="<?php echo $total; ?>">
+            </div>
+
+                <input type="hidden" id="total" value="<?php echo $total ?>">
+
 
             </div>
 
@@ -54,6 +59,16 @@ if (isset($_SESSION["logueado"])) {
             </div>
 
         </div>
+
+
+
+        </div>
+        </div>
+
+
+    </div>
+
+
 </main>
 
 <br>

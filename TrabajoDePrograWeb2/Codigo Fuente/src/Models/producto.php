@@ -36,7 +36,8 @@ class Producto extends Model
 
 
 
-        return $this->update($array);
+       $this->update($array);
+       return $this->getId();
 
 
     }

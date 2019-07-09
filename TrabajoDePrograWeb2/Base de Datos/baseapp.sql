@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 4.8.5
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 16-06-2019 a las 05:03:53
--- Versión del servidor: 10.3.15-MariaDB
--- Versión de PHP: 7.1.30
+-- Tiempo de generación: 07-07-2019 a las 20:10:35
+-- Versión del servidor: 10.1.38-MariaDB
+-- Versión de PHP: 7.1.28
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -55,10 +55,25 @@ INSERT INTO `categoria` (`idCategoria`, `nombreCategoria`) VALUES
 
 CREATE TABLE `cobranza` (
   `id` int(11) NOT NULL,
-  `fecha` date DEFAULT NULL,
+  `fecha` date NOT NULL,
   `idTarjeta` int(11) NOT NULL,
-  `total` double DEFAULT NULL,
-  `idProducto` int(11) NOT NULL
+  `total` double NOT NULL,
+  `idProducto` int(11) NOT NULL,
+  `cantidad` int(11) NOT NULL,
+  `idComprador` int(11) NOT NULL,
+  `idVendedor` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `estadisticas`
+--
+
+CREATE TABLE `estadisticas` (
+  `id` int(11) NOT NULL,
+  `id_Producto` int(11) NOT NULL,
+  `cantidad` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -72,13 +87,16 @@ CREATE TABLE `formaentrega` (
   `descripcion` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+-- --------------------------------------------------------
+
 --
--- Volcado de datos para la tabla `formaentrega`
+-- Estructura de tabla para la tabla `genero`
 --
 
-INSERT INTO `formaentrega` (`idEntrega`, `descripcion`) VALUES
-(1, 'acordarConElVendedor'),
-(2, 'Correo');
+CREATE TABLE `genero` (
+  `nombre` varchar(20) COLLATE utf8_bin DEFAULT NULL,
+  `id` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 -- --------------------------------------------------------
 
@@ -92,16 +110,6 @@ CREATE TABLE `imagen` (
   `idProducto` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Volcado de datos para la tabla `imagen`
---
-
-INSERT INTO `imagen` (`id`, `nombre`, `idProducto`) VALUES
-(140, 'NuevoDocumento 2019-05-31 14.38.50_1.jpg', 112),
-(141, 'NuevoDocumento 2019-05-31 14.38.50_2.jpg', 112),
-(142, 'NuevoDocumento 2019-05-31 14.38.50_1.jpg', 113),
-(143, 'NuevoDocumento 2019-05-31 14.38.50_2.jpg', 113);
-
 -- --------------------------------------------------------
 
 --
@@ -110,8 +118,9 @@ INSERT INTO `imagen` (`id`, `nombre`, `idProducto`) VALUES
 
 CREATE TABLE `localizacion` (
   `id` int(11) NOT NULL,
-  `latitud` int(30) NOT NULL,
-  `longitud` int(30) NOT NULL
+  `latitud` double DEFAULT NULL,
+  `longitud` double DEFAULT NULL,
+  `id_user` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
@@ -121,21 +130,13 @@ CREATE TABLE `localizacion` (
 --
 
 CREATE TABLE `producto` (
-  `idProducto` int(11) NOT NULL,
+  `id` int(11) NOT NULL,
   `descripcion` text NOT NULL,
   `cantidad` int(11) NOT NULL,
   `precio` int(11) NOT NULL,
   `idCategoria` int(11) DEFAULT NULL,
   `nombre` varchar(191) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `producto`
---
-
-INSERT INTO `producto` (`idProducto`, `descripcion`, `cantidad`, `precio`, `idCategoria`, `nombre`) VALUES
-(112, 'roja', 25, 1233, 5, 'Cartera'),
-(113, 'campera', 25, 44444, 1, 'campera');
 
 -- --------------------------------------------------------
 
@@ -152,14 +153,6 @@ CREATE TABLE `publicacion` (
   `id_Producto` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- Volcado de datos para la tabla `publicacion`
---
-
-INSERT INTO `publicacion` (`id`, `titulo`, `duracion`, `fecha`, `id_user`, `id_Producto`) VALUES
-(32, 'Cartera', 0, '2019-06-15', 4, 112),
-(33, 'campera', 0, '2019-06-15', 4, 113);
-
 -- --------------------------------------------------------
 
 --
@@ -170,14 +163,6 @@ CREATE TABLE `publicacion_entrega` (
   `idEntrega` int(11) NOT NULL,
   `idPublicacion` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Volcado de datos para la tabla `publicacion_entrega`
---
-
-INSERT INTO `publicacion_entrega` (`idEntrega`, `idPublicacion`) VALUES
-(1, 32),
-(1, 33);
 
 -- --------------------------------------------------------
 
@@ -211,12 +196,16 @@ CREATE TABLE `tarjeta_de_credito` (
   `fecha_vencimiento` date DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+-- --------------------------------------------------------
+
 --
--- Volcado de datos para la tabla `tarjeta_de_credito`
+-- Estructura de tabla para la tabla `tipodeusuarioporvaloracion`
 --
 
-INSERT INTO `tarjeta_de_credito` (`id`, `idUser`, `cod_seguridad`, `fecha_vencimiento`) VALUES
-(1, 4, '29059', '2020-09-13');
+CREATE TABLE `tipodeusuarioporvaloracion` (
+  `id` int(11) NOT NULL,
+  `descripcion` varchar(50) COLLATE utf8_bin NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 -- --------------------------------------------------------
 
@@ -233,21 +222,23 @@ CREATE TABLE `usuario` (
   `email` varchar(30) NOT NULL,
   `rol` int(11) NOT NULL,
   `sexo` varchar(191) NOT NULL,
-  `cuit` int(11) NOT NULL
+  `cuit` int(11) NOT NULL,
+  `estado` int(11) NOT NULL,
+  `tipo_por_valoracion` int(1) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+-- --------------------------------------------------------
+
 --
--- Volcado de datos para la tabla `usuario`
+-- Estructura de tabla para la tabla `valoracion`
 --
 
-INSERT INTO `usuario` (`id`, `userName`, `password`, `name`, `lastname`, `email`, `rol`, `sexo`, `cuit`) VALUES
-(1, 'RoCentu', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Rocio', 'Centu', 'rocio_perez@hotmail.com', 1, 'femenino', 2147483647),
-(2, 'MariaR', '51eac6b471a284d3341d8c0c63d0f1a286262a18', 'Maria', 'Robles', 'maria.72@hotmail.com', 2, 'femenino', 2147483647),
-(3, 'Margi', '58f0744907ea8bd8e0f51e568f1536289ceb40a5', 'Marcia', 'Toledo', 'martoledo@hotmail.com', 2, 'femenino', 2147483647),
-(4, 'Axel', 'fc1200c7a7aa52109d762a9f005b149abef01479', 'Axel', 'Sanchez', 'axel_rios@hotmail.com', 2, 'masculino', 2147483647),
-(9, 'LuMar', 'fc1200c7a7aa52109d762a9f005b149abef01479', 'Lucia', 'Martinez', 'lu@gmail.com', 2, 'Mujer', 4567895),
-(12, 'mar', '35139ef894b28b73bea022755166a23933c7d9cb', 'Marcia', 'Toledo', 'mar@gmail.com', 2, 'Mujer', 2147483647),
-(13, 'roger', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Roger', 'Federer', 'rogerfedQ@gmail.com', 2, 'Hombre', 2147483647);
+CREATE TABLE `valoracion` (
+  `id` int(11) NOT NULL,
+  `numero` int(11) NOT NULL,
+  `comentario` varchar(100) COLLATE utf8_bin DEFAULT NULL,
+  `idPublicacion` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
 
 --
 -- Índices para tablas volcadas
@@ -265,13 +256,28 @@ ALTER TABLE `categoria`
 ALTER TABLE `cobranza`
   ADD PRIMARY KEY (`id`),
   ADD KEY `idTarjeta` (`idTarjeta`),
-  ADD KEY `idProducto` (`idProducto`);
+  ADD KEY `idProducto` (`idProducto`),
+  ADD KEY `idComprador` (`idComprador`),
+  ADD KEY `idVendedor` (`idVendedor`);
+
+--
+-- Indices de la tabla `estadisticas`
+--
+ALTER TABLE `estadisticas`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `id_Producto` (`id_Producto`);
 
 --
 -- Indices de la tabla `formaentrega`
 --
 ALTER TABLE `formaentrega`
   ADD PRIMARY KEY (`idEntrega`);
+
+--
+-- Indices de la tabla `genero`
+--
+ALTER TABLE `genero`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indices de la tabla `imagen`
@@ -281,10 +287,16 @@ ALTER TABLE `imagen`
   ADD KEY `idProducto` (`idProducto`);
 
 --
+-- Indices de la tabla `localizacion`
+--
+ALTER TABLE `localizacion`
+  ADD KEY `id_user` (`id_user`);
+
+--
 -- Indices de la tabla `producto`
 --
 ALTER TABLE `producto`
-  ADD PRIMARY KEY (`idProducto`),
+  ADD PRIMARY KEY (`id`),
   ADD KEY `idCategoria` (`idCategoria`);
 
 --
@@ -317,11 +329,25 @@ ALTER TABLE `tarjeta_de_credito`
   ADD KEY `idUser` (`idUser`);
 
 --
+-- Indices de la tabla `tipodeusuarioporvaloracion`
+--
+ALTER TABLE `tipodeusuarioporvaloracion`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indices de la tabla `usuario`
 --
 ALTER TABLE `usuario`
   ADD PRIMARY KEY (`id`),
-  ADD KEY `rol` (`rol`);
+  ADD KEY `rol` (`rol`),
+  ADD KEY `tipo_por_valoracion` (`tipo_por_valoracion`) USING BTREE;
+
+--
+-- Indices de la tabla `valoracion`
+--
+ALTER TABLE `valoracion`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `idPublicacion` (`idPublicacion`);
 
 --
 -- AUTO_INCREMENT de las tablas volcadas
@@ -337,31 +363,37 @@ ALTER TABLE `categoria`
 -- AUTO_INCREMENT de la tabla `cobranza`
 --
 ALTER TABLE `cobranza`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `estadisticas`
+--
+ALTER TABLE `estadisticas`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `formaentrega`
 --
 ALTER TABLE `formaentrega`
-  MODIFY `idEntrega` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
+  MODIFY `idEntrega` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `imagen`
 --
 ALTER TABLE `imagen`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=144;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `producto`
 --
 ALTER TABLE `producto`
-  MODIFY `idProducto` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=114;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `publicacion`
 --
 ALTER TABLE `publicacion`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `rol`
@@ -373,13 +405,25 @@ ALTER TABLE `rol`
 -- AUTO_INCREMENT de la tabla `tarjeta_de_credito`
 --
 ALTER TABLE `tarjeta_de_credito`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `tipodeusuarioporvaloracion`
+--
+ALTER TABLE `tipodeusuarioporvaloracion`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+
+--
+-- AUTO_INCREMENT de la tabla `valoracion`
+--
+ALTER TABLE `valoracion`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
 -- Restricciones para tablas volcadas
@@ -390,13 +434,19 @@ ALTER TABLE `usuario`
 --
 ALTER TABLE `cobranza`
   ADD CONSTRAINT `cobranza_ibfk_1` FOREIGN KEY (`idTarjeta`) REFERENCES `tarjeta_de_credito` (`id`),
-  ADD CONSTRAINT `cobranza_ibfk_2` FOREIGN KEY (`idProducto`) REFERENCES `producto` (`idProducto`);
+  ADD CONSTRAINT `cobranza_ibfk_2` FOREIGN KEY (`idProducto`) REFERENCES `producto` (`id`);
+
+--
+-- Filtros para la tabla `estadisticas`
+--
+ALTER TABLE `estadisticas`
+  ADD CONSTRAINT `estadisticas_ibfk_1` FOREIGN KEY (`id_Producto`) REFERENCES `producto` (`id`);
 
 --
 -- Filtros para la tabla `imagen`
 --
 ALTER TABLE `imagen`
-  ADD CONSTRAINT `imagen_ibfk_1` FOREIGN KEY (`idProducto`) REFERENCES `producto` (`idProducto`);
+  ADD CONSTRAINT `imagen_ibfk_1` FOREIGN KEY (`idProducto`) REFERENCES `producto` (`id`);
 
 --
 -- Filtros para la tabla `producto`
@@ -428,6 +478,12 @@ ALTER TABLE `tarjeta_de_credito`
 --
 ALTER TABLE `usuario`
   ADD CONSTRAINT `usuario_ibfk_1` FOREIGN KEY (`rol`) REFERENCES `rol` (`id`);
+
+--
+-- Filtros para la tabla `valoracion`
+--
+ALTER TABLE `valoracion`
+  ADD CONSTRAINT `valoracion_ibfk_1` FOREIGN KEY (`idPublicacion`) REFERENCES `publicacion` (`id`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

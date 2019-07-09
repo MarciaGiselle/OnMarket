@@ -18,6 +18,9 @@ class Usuario extends Model
     private $sexo;
     private $rol;
      private $estado;
+    private $idTipo;
+
+
     function buscarUsuario(){
     $resultado=$this->pageRows(0,1,"name= '$this->name' and password='$this->password'");
     if (!empty($resultado)){
@@ -128,6 +131,7 @@ class Usuario extends Model
         return $this->update($array);
     }
 
+
   function validarFormatos($terminosYcondiciones){
 
       //validacion de formatos
@@ -209,23 +213,39 @@ class Usuario extends Model
      */
     public  function insertarRegistro(){
 
-       $pass=sha1($this->getPassword());
      $array=[
 
             "name"=> $this->getName(),
          "lastname"=> $this->getLastname(),
-         "password"=>$pass,
+         "password"=>$this->getPassword(),
          "cuit"=>$this->getCuit(),
          "email"=>$this->getEmail(),
           "userName"=>$this->getUserName(),
            "sexo"=>$this->getSexo(),
             "rol"=>$this->getRol(),
-         "estado"=>$this->getEstado()
+         "estado"=>$this->getEstado(),
+
 
         ];
 
         $this->setId($this->insert($array));
         return $this->getId();
+
+   }
+
+
+   public function buscarUsuariosPorUserName($nombre){
+       $resultado=$this->pageRows(0,100, "userName like '%$nombre%'");
+       return $resultado;
+   }
+
+   public function actualizarTipo(){
+       $array=[
+           "id"=> $this->getId(),
+           "idTipo" => $this->getIdTipo()
+       ];
+
+       return $this->update($array);
 
    }
 
@@ -244,6 +264,26 @@ class Usuario extends Model
     {
         $this->estado = $estado;
     }
+
+    /**
+     * @return mixed
+     */
+    public function getIdTipo()
+    {
+        return $this->idTipo;
+    }
+
+    /**
+     * @param mixed $idTipo
+     */
+    public function setIdTipo($idTipo)
+    {
+        $this->idTipo = $idTipo;
+    }
+
+
+
+
 
 
 

@@ -29,6 +29,17 @@
 
         }
 
+
+
+
+        public function getFieldsASD($campo,$limit){
+
+            $sql = "Select * from `{$this->table}` ORDER BY `{$campo}` DESC LIMIT {$limit} ";
+           return $this->db->getAll($sql);
+        }
+
+
+
         /**
 
          * Obtiene una lista de los campos de una tabla

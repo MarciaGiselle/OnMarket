@@ -23,4 +23,20 @@ class PerfilesDeUsuariosController extends  Controller
        $this->set($d);
        $this->render(Constantes::PERFILESVIEW);
    }
+
+   function buscarUsuario($datos){
+
+       $nombreUserAbuscar=$datos["nombre"];
+
+       $usuario=new Usuario();
+       $usuariosResultado=$usuario->buscarUsuariosPorUserName($nombreUserAbuscar);
+       $d["title"] = "usuarios encontrados";
+       $d["usuarios"] = $usuariosResultado ;
+       $this->set($d);
+       $this->render(Constantes::PERFILESVIEW);
+
+
+
+
+   }
 }
