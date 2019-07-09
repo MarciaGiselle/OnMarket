@@ -13,25 +13,49 @@ if(isset($_SESSION["logueado"])){
 }
 ?>
 
-<div class="container mt-4">
+
+<div class="container">
     <div class="row">
+        <div class="col col-md-7">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
-        <div class="col-md-6">
+                <div class="carousel-inner">
 
-            <?php
+                    <?php
 
-            $tope = count($imagen);
+                    $tope = count($imagen);
 
-            for ($i = 0; $i < $tope; $i++) {
+                    for ($i = 0; $i < $tope; $i++) {
+                        $img = $imagen[$i]["nombre"];
+                        if($i!=0){
+                            echo "comun";
+                            echo '<div class="carousel-item ">
+                                        <img class="d-block w-100" src="../Webroot/imgCargadas/' . $img . ' " alt="First slide">
+                                      </div>';
+                        }else {
 
-                $img = $imagen[$i]["nombre"];
+                            echo '<div class="carousel-item active">
+                                        <img class="d-block w-100" src="../Webroot/imgCargadas/' . $img . ' " alt="First slide">
+                                      </div>';
+                        }
 
-                echo '<img class="rounded float-left" width="30%" height="30%" src="../Webroot/imgCargadas/' . $img . ' " alt="' . $img . '">';
-            }
-            ?>
+                    }
+                    ?>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+
         </div>
 
-        <div class="col-md-4">
+        <div class="col col col-md-5">
             <div class="card-body">
                 <h3 class="card-title"><?php echo $resultado["nombre"]; ?></h3>
                 <h4 class="card-subtitle mb-1 text-muted">$<?php echo $resultado["precio"]; ?></h4>
@@ -46,25 +70,33 @@ if(isset($_SESSION["logueado"])){
                 <input class="col-md-4 rounded d-block" type="number" value="1" name="id" id="cantidad">
 
 
-                    <?php
-                    include_once ("mapa.php");
-
-                    ?>
-
-
-
-
-                <input class="btn btn-primary mt-5 mr-2" type="reset" value="Cancelar">
-                <button class="btn btn-primary mt-5" id="agregar">Agregar Al carrito</button>
             </div>
 
 
-            <input type="hidden" name="id" id="id" value="<?php echo $resultado["id"]; ?>">
         </div>
+
+
     </div>
+    <div class="row">
+        <div class="col">
+            <?php
+            include_once ("mapa.php");
+
+            ?>
+
+        </div>
+        <div class="col">
+            <input type="hidden" name="id" id="id" value="<?php echo $resultado["id"]; ?>">
+
+            <input class="btn btn-primary mt-5 mr-2" type="reset" value="Cancelar">
+            <button class="btn btn-primary mt-5" id="agregar">Agregar Al carrito</button>
+        </div>
+
+    </div>
+
 </div>
 
-<div class="container mt-5">
+<div class="container ">
 <?php
     $tope="";
     if(count($productosRelacionados)>5){

@@ -16,6 +16,31 @@ class Imagen extends Model
     }
 */
 
+   function cambiarTamaño($temporal){
+       //esto se haria antes del metodo
+      // $temporal=$_FILES["imagen"]["tmp_name"];
+       $original=imagecreatefromjpeg($temporal);
+       $copia=imagecreatetruecolor(400,400);
+       $r=imagecopyresampled($copia,$original,0,0,0,0,400,700,imagesx($original),imagesy($original));
+       return $copia;
+   }
+  function actualizarImagen(){
+      $array=[
+          "id"=>$this->getId(),
+          "nombre"=> $this->getNombre(),
+          "idProducto"=>$this->getIdProducto(),
+      ];
+      $this->update($array);
+  }
+    function eliminarImagen(){
+        $array=[
+            "id"=>$this->getId(),
+            "nombre"=> $this->getNombre(),
+            "idProducto"=>$this->getIdProducto(),
+        ];
+        $this->delete($array);
+    }
+
     function insertarImagen(){
         $array=[
             "nombre"=> $this->getNombre(),

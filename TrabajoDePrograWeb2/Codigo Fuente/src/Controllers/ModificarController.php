@@ -63,6 +63,9 @@ class ModificarController extends Controller
                 $producto->setIdCategoria($idCategoria);
             }
 
+            $producto->ModificarProducto();
+            $this->modificarPublicacion($datos, $datos["idProducto"]);
+
             //PARTE DE LAS IMAGENES
 
             if(!empty($_FILES["imagen"]["name"])){
@@ -93,10 +96,7 @@ class ModificarController extends Controller
         }
 
 
-            $sql=$producto->ModificarProducto();
-      
 
-        $this->modificarPublicacion($datos, $datos["idProducto"]);
 
     }
 
@@ -186,17 +186,19 @@ class ModificarController extends Controller
     }
 
     function guardarImagenes($publicacion, $countfiles)
-    {
+    { $img =new Imagen();
         for ($i = 0; $countfiles > $i; $i++) {
             $archivo = $_FILES["imagen"]['name'][$i];
             $tmpName = $_FILES['imagen']['tmp_name'][$i];
 
             // $prefijo = substr(md5(uniqid(rand())),0,6);
+            $guardar=$img->cambiarTamaño($tmpName);
+            // $prefijo = substr(md5(uniqid(rand())),0,6);
 
             if ($archivo != "") {
                 // guardamos el archivo a la carpeta files
                 $destino = $publicacion['destino'] . "/" . $archivo;
-                copy($tmpName, $destino);
+                imagejpeg($guardar, $destino);
             }
         }
     }

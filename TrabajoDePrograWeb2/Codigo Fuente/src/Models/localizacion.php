@@ -81,9 +81,10 @@ class localizacion extends Model
         return $this->getId();
     }
  public function traerLocalizacionPorIdUser($id){
+
      $resultado=$this->pageRows(0,1, "id_user=$id");
-     //$resultado=$this->selectByPk($pk);
-     return $resultado[0];
+
+     return $resultado;
 
 }
 

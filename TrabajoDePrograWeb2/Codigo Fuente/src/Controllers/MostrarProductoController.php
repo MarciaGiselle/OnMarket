@@ -21,14 +21,16 @@ class MostrarProductoController extends Controller
 
             $publicacionDelProducto=$publicacion->traerPublicaciondelProducto($id);
 
+
+
              $idUser=$publicacionDelProducto["id_user"];
 
               $localizacion=new Localizacion();
 
             $localizacionDelUser=$localizacion->traerLocalizacionPorIdUser($idUser);
 
-            $lat=$localizacionDelUser["latitud"];
-            $lon=$localizacionDelUser["longitud"];
+            $lat=$localizacionDelUser[0]["latitud"];
+            $lon=$localizacionDelUser[0]["longitud"];
 
             $imagen =new Imagen();
             $d["imagen"] = $imagen->imagenPk($id);

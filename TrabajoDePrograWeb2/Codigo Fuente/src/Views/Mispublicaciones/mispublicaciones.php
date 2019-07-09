@@ -59,7 +59,7 @@ if(isset($_SESSION["admin"])){
             <form action="' . getBaseAddress() . 'Modificar/modificar' . '" method="POST">
              <input type="hidden" name="idProducto"  value="'.$idProducto.'">
             <input type="hidden" name="idPublicacion"  value="'.$idPublicacion.'">
-             <input type="submit" value="Modificar">
+             <input class="btn btn-primary" type="submit" value="Modificar">
             
             </form></td> 
             
@@ -68,7 +68,7 @@ if(isset($_SESSION["admin"])){
             <form action="' . getBaseAddress() . 'Eliminar/eliminarPublicacion' . '" method="POST">
              <input type="hidden" name="idProducto"  value="'.$idProducto.'">
             <input type="hidden" name="idPublicacion"  value="'.$idPublicacion.'">
-             <input type="submit" value="eliminar">
+             <input class="btn btn-primary" type="submit" value="eliminar">
             
             </form></td> 
             </tr>';

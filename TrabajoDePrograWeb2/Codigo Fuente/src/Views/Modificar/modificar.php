@@ -68,6 +68,7 @@ if(isset($_SESSION["logueado"])){
                 <small id="passwordHelpBlock" class="form-text text-muted">Usá palabras clave para que lo encuentren
                     fácilmente.
                 </small>
+                //carrusel
                 <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="errorNombre">
                     <i class="fa fa-exclamation-circle error"></i>
                     <small class="text-left"></small>
@@ -104,36 +105,58 @@ if(isset($_SESSION["logueado"])){
             <div class="form-group col-md-12">
                 <label class="text-primary">Seleccioná las imágenes*</label>
                 <small id="passwordHelpBlock" class="form-text text-muted">Mostralo en detalle, con fondo blanco y
-                    bien iluminado. No incluyas logos, banners ni textos promocionales. Mínimo 1(una) imagen.
+                    bien iluminado. No incluyas logos, banners ni textos promocionales. Mínimo 2(dos) imagen.
                 </small>
-                <div class="container mt-4">
-                    <div class="row">
 
-                        <div class="col-md-6">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
-                            <?php
+                    <div class="carousel-inner">
 
-                            $tope = count($imagen);
+                        <?php
 
-                            for ($i = 0; $i < $tope; $i++) {
+                        $tope = count($imagen);
 
-                                $img = $imagen[$i]["nombre"];
+                        for ($i = 0; $i < $tope; $i++) {
+                            $img = $imagen[$i]["nombre"];
+                            if($i!=0){
+                                echo "comun";
+                                echo '<div class="carousel-item ">
+                                        <img class="d-block w-100" src="../Webroot/imgCargadas/' . $img . ' " alt="First slide">
+                                      </div>';
+                            }else {
 
-                                echo '<img class="rounded float-left" width="30%" height="30%" src="../Webroot/imgCargadas/' . $img . ' " alt="' . $img . '">';
+                                echo '<div class="carousel-item active">
+                                        <img class="d-block w-100" src="../Webroot/imgCargadas/' . $img . ' " alt="First slide">
+                                      </div>';
                             }
-                            ?>
 
-                        </div>
+                        }
+                        ?>
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+
+
+
+
+
                     <form class="container">
 
                         <div class="row">
 
                             <div class="col-sm">
                                 <div class="form-group">
-                                    <input name="enviar" type="submit" value="subir archivo" />
+
                                     <input type="hidden" value="<?php echo "../Webroot/imgCargadas" ?>" name="destino">
-                                    <input type="file" class="form-control-file" name="imagen[]" accept="image/png, .jpeg, .jpg" multiple id="imagen">
+                                    <input type="file" class="form-control-file" name="imagen[]" accept=" .jpeg, .jpg" multiple id="imagen">
                                 </div>
                             </div>
                         </div>
@@ -144,11 +167,10 @@ if(isset($_SESSION["logueado"])){
 
             </div>
             <input type="hidden"  value="<?php echo $producto["id"] ?>" name="idProducto" >
-            <label>ID</label>
-            <input type="text"  value="<?php echo $publicacion["0"]["id"] ?>" name="idPublicacion" >
 
-                <input type="submit"  value="confirmar cambios" class="btn primary"  >
-
+             <div>
+                <input type="submit"  value="confirmar cambios" class="btn btn-primary "  >
+             </div>
 
             <a href="<?php echo getBaseAddress(). "MisPublicaciones/publicaciones" ?>">
                 <input   value="cancelar" class="btn btn-primary" id="publicar" >
