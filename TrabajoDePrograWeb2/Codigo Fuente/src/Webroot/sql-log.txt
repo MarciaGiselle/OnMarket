@@ -33071,3 +33071,44 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-07-09 23:29:45]  DESC tipo_valoracion
 [2019-07-09 23:29:45]  select * from Usuario  where id='17' limit 0, 1
 [2019-07-09 23:29:45]  select * from tipo_valoracion  where id= 1 limit 0, 1
+[2019-07-09 23:34:25]  DESC Producto
+[2019-07-09 23:34:25]  select * from Producto  where id=113 limit 0, 100
+[2019-07-09 23:34:48]  DESC tarjeta_de_credito
+[2019-07-09 23:34:48]  DESC Producto
+[2019-07-09 23:34:49]  DESC Publicacion
+[2019-07-09 23:34:49]  DESC Usuario
+[2019-07-09 23:34:49]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`numero`,`fecha_vencimiento`) VALUES ('','17','123','1234567894561234','2019-07-31')
+[2019-07-09 23:34:49]  DESC cobranza
+[2019-07-09 23:34:49]  select * from Producto  where id=113 limit 0, 1
+[2019-07-09 23:34:49]  select * from Publicacion  where id_producto=113 limit 0, 1
+[2019-07-09 23:34:49]  select * from Usuario  where id='17' limit 0, 1
+[2019-07-09 23:34:49]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`idVendedor`,`idComprador`,`cantidad`,`total`) VALUES ('40','19-07-09','113','17','17','1','200')
+[2019-07-09 23:34:54]  DESC cobranza
+[2019-07-09 23:34:54]  DESC Producto
+[2019-07-09 23:34:54]  DESC Usuario
+[2019-07-09 23:34:54]  DESC tarjeta_de_credito
+[2019-07-09 23:34:54]  DESC valoracion
+[2019-07-09 23:34:54]  select * from cobranza  where idComprador=17 limit 0, 100
+[2019-07-09 23:34:54]  select * from Producto  where id=113 limit 0, 1
+[2019-07-09 23:34:54]  select * from Usuario  where id='17' limit 0, 1
+[2019-07-09 23:34:54]  select * from tarjeta_de_credito  where id='40' limit 0, 1
+[2019-07-09 23:34:54]  select * from valoracion  where idVendedor='17' and idProducto='113' and idLogueado='17' limit 0, 100
+[2019-07-09 23:35:12]  DESC Usuario
+[2019-07-09 23:35:12]  DESC Publicacion
+[2019-07-09 23:35:12]  DESC tipo_valoracion
+[2019-07-09 23:35:12]  DESC valoracion
+[2019-07-09 23:35:12]  select * from Publicacion  where id_producto=113 limit 0, 1
+[2019-07-09 23:35:12]  select * from Usuario  where id='17' limit 0, 1
+[2019-07-09 23:35:12]  INSERT INTO `valoracion` (`numero`,`comentario`,`idVendedor`,`idLogueado`,`idProducto`) VALUES ('3','hola','17','17','113')
+[2019-07-09 23:35:12]  select * from valoracion  where idVendedor=17 limit 0, 100
+[2019-07-09 23:35:12]  UPDATE `Usuario` SET `idTipo`='2' WHERE `id`=17
+[2019-07-09 23:35:12]  DESC cobranza
+[2019-07-09 23:35:12]  DESC Producto
+[2019-07-09 23:35:12]  DESC Usuario
+[2019-07-09 23:35:12]  DESC tarjeta_de_credito
+[2019-07-09 23:35:12]  DESC valoracion
+[2019-07-09 23:35:12]  select * from cobranza  where idComprador=17 limit 0, 100
+[2019-07-09 23:35:12]  select * from Producto  where id=113 limit 0, 1
+[2019-07-09 23:35:12]  select * from Usuario  where id='17' limit 0, 1
+[2019-07-09 23:35:12]  select * from tarjeta_de_credito  where id='40' limit 0, 1
+[2019-07-09 23:35:12]  select * from valoracion  where idVendedor='17' and idProducto='113' and idLogueado='17' limit 0, 100
