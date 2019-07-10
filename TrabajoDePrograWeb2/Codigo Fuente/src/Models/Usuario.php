@@ -249,6 +249,8 @@ class Usuario extends Model
 
    }
 
+
+
     /**
      * @return mixed
      */

@@ -2,6 +2,8 @@
     const pathCarrito = "<?php echo getBaseAddress() . "Carrito/agregarAlCarrito"; ?>";
 
 </script>
+<link rel="stylesheet" href="<?php echo getBaseAddress() . "Webroot/css/estrellasAlMostrar.css" ?>">
+
 <body>
 <?php
 
@@ -28,7 +30,6 @@ if(isset($_SESSION["logueado"])){
                     for ($i = 0; $i < $tope; $i++) {
                         $img = $imagen[$i]["nombre"];
                         if($i!=0){
-                            echo "comun";
                             echo '<div class="carousel-item ">
                                         <img class="d-block w-100" src="../Webroot/imgCargadas/' . $img . ' " alt="First slide">
                                       </div>';
@@ -66,6 +67,58 @@ if(isset($_SESSION["logueado"])){
                 <label class="text-secondary d-inline" for="descripcion">Descripción:</label>
                 <h6 id="descripcion"><?php echo $resultado["descripcion"]; ?></h6>
 
+                <hr>
+                <label class="text-secondary" for="vendedor">Vendedor:</label>
+                <h6  class="d-inline-block"  id="vendedor"><?php echo $nombreVendedor[0]." ".$nombreVendedor[1]; ?></h6>
+<br>
+                <label class="text-secondary" for="tipoVendedor">Calificación:</label>
+                <h6  class="d-inline-block" id="tipoVendedor"><?php echo $tipoVendedor[0]; ?></h6>
+
+                <?php
+                if($tipoVendedor[1]==1){
+                echo    '<div class="valoracion" >
+
+                <input class="d-none" id="radio3" type="radio" name="estrellas" value="3" disabled>
+                <label class="my-0" for="radio3"> <i class="far fa-star fa-2x"></i></label>
+
+                <input class="d-none" id="radio4" type="radio" name="estrellas" value="2" disabled>
+                <label class="my-0" for="radio4"> <i class="far fa-star fa-2x"></i></label>
+
+                <input class="d-none" id="radio5" type="radio" name="estrellas" value="1" checked disabled>
+                <label class="my-0" for="radio5"> <i class="far fa-star fa-2x"></i></label>
+
+                </div>';
+                }elseif ($tipoVendedor[1]==2){
+    echo'<div class="valoracion" >
+
+                <input class="d-none" id="radio3" type="radio" name="estrellas" value="3" disabled>
+                <label class="my-0" for="radio3"> <i class="far fa-star fa-2x"></i></label>
+
+                <input class="d-none" id="radio4" type="radio" name="estrellas" value="2" checked disabled>
+                <label class="my-0" for="radio4"> <i class="far fa-star fa-2x"></i></label>
+
+                <input class="d-none" id="radio5" type="radio" name="estrellas" value="1" disabled>
+                <label class="my-0" for="radio5"> <i class="far fa-star fa-2x"></i></label>
+
+                </div>';}
+                else{
+                    echo'<div class="valoracion" >
+
+                <input class="d-none" id="radio3" type="radio" name="estrellas" value="3" checked disabled>
+                <label class="my-0" for="radio3"> <i class="far fa-star fa-2x"></i></label>
+
+                <input class="d-none" id="radio4" type="radio" name="estrellas" value="2"  disabled>
+                <label class="my-0" for="radio4"> <i class="far fa-star fa-2x"></i></label>
+
+                <input class="d-none" id="radio5" type="radio" name="estrellas" value="1" disabled>
+                <label class="my-0" for="radio5"> <i class="far fa-star fa-2x"></i></label>
+
+                </div>';
+                }
+                ?>
+
+
+<hr>
                 <label class="text-secondary mt-2" for="id">Unidades a comprar:</label>
                 <input class="col-md-4 rounded d-block" type="number" value="1" name="id" id="cantidad">
 

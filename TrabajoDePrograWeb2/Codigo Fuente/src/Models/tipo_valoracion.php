@@ -19,6 +19,12 @@ class tipo_valoracion extends Model{
 
     }
 
+    public function traerNombrePorId($id){
+        $resultado=$this->pageRows(0,1,"id= $id");
+        return $resultado[0]["descripcion"];
+
+    }
+
     /**
      * @return mixed
      */

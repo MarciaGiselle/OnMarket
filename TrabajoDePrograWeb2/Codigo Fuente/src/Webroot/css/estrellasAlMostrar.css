@@ -1,0 +1,13 @@
+label {
+    color: grey;
+}
+
+.valoracion {
+    direction: rtl; /* right to left */
+    unicode-bidi: bidi-override; /* bidi de bidireccional */
+}
+
+
+.valoracion input[type="radio"]:checked ~ label {
+    color: orange;
+}

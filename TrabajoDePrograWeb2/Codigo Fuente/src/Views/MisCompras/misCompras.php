@@ -16,8 +16,13 @@ if(isset($_SESSION["logueado"])){
 
 <body>
 <h3 class="text-primary text-center mt-4 mb-3">Tus compras</h3>
-<div class="container-fluid mb-5">
-    <table class=" table table-hover text-center mt-4 mb-2">
+
+        <?php
+        $total = 0;
+        $tope = count($misCompras);
+        if ($tope > 0) {
+            echo '<div class="container-fluid mb-5">
+<table class=" table table-hover text-center mt-4 mb-2">
         <thead>
         <tr class="font-weight-bold">
             <th scope="col">#</th>
@@ -32,11 +37,7 @@ if(isset($_SESSION["logueado"])){
         </tr>
         </thead>
 
-        <tbody id="cuadro" class="justify-content-around align-items-center text-center my-auto">
-        <?php
-        $total = 0;
-        $tope = count($misCompras);
-        if ($tope > 0) {
+        <tbody id="cuadro" class="justify-content-around align-items-center text-center my-auto">';
             for ($i = 0; $i < $tope; $i++) {
                 $nro = $i + 1;
                 $idProducto= $misCompras[$i]["prod"]["id"];
