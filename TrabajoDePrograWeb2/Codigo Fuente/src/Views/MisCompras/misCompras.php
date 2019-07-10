@@ -27,7 +27,6 @@ if(isset($_SESSION["logueado"])){
             <th scope="col">Número de tarjeta</th>
             <th scope="col">Vendedor</th>
             <th scope="col">Valorá al vendedor</th>
-            <th scope="col">estado</th>
 
 
         </tr>
@@ -48,7 +47,6 @@ if(isset($_SESSION["logueado"])){
         <td> ' . $misCompras[$i]["compra"]["fecha"] . ' </td>
         <td> ' . $misCompras[$i]["tarjeta"]["numero"] . '  </td>
         <td> ' . $misCompras[$i]["vendedor"]["userName"] . '  </td>
-        <td> ' . $misCompras[$i]["estado"] . '  </td>
        
 
         <td>';

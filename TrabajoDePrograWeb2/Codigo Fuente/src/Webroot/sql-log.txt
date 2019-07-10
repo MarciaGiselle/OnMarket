@@ -32200,3 +32200,80 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-07-09 20:37:47]  select * from Usuario  where id='4' limit 0, 1
 [2019-07-09 20:37:47]  select * from tarjeta_de_credito  where id='39' limit 0, 1
 [2019-07-09 20:37:47]  select * from valoracion  where idVendedor='4' and idProducto='112' and idLogueado='4' limit 0, 100
+[2019-07-09 20:45:39]  DESC Usuario
+[2019-07-09 20:45:39]  DESC Publicacion
+[2019-07-09 20:45:39]  DESC tipo_valoracion
+[2019-07-09 20:45:39]  DESC valoracion
+[2019-07-09 20:45:39]  select * from Publicacion  where id_producto=112 limit 0, 1
+[2019-07-09 20:45:39]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-09 20:45:39]  INSERT INTO `valoracion` (`numero`,`comentario`,`idVendedor`,`idLogueado`,`idProducto`) VALUES ('5','','4','4','112')
+[2019-07-09 20:45:39]  select * from valoracion  where idVendedor=4 limit 0, 100
+[2019-07-09 20:45:39]  UPDATE `Usuario` SET `idTipo`='1' WHERE `id`=4
+[2019-07-09 20:45:39]  DESC cobranza
+[2019-07-09 20:45:39]  DESC Producto
+[2019-07-09 20:45:39]  DESC Usuario
+[2019-07-09 20:45:39]  DESC tarjeta_de_credito
+[2019-07-09 20:45:40]  DESC valoracion
+[2019-07-09 20:45:40]  select * from cobranza  where idComprador=4 limit 0, 100
+[2019-07-09 20:45:40]  select * from Producto  where id=87 limit 0, 1
+[2019-07-09 20:45:40]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-09 20:45:40]  select * from tarjeta_de_credito  where id='34' limit 0, 1
+[2019-07-09 20:45:40]  select * from valoracion  where idVendedor='1' and idProducto='87' and idLogueado='4' limit 0, 100
+[2019-07-09 20:45:40]  select * from Producto  where id=87 limit 0, 1
+[2019-07-09 20:45:40]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-09 20:45:40]  select * from tarjeta_de_credito  where id='36' limit 0, 1
+[2019-07-09 20:45:40]  select * from valoracion  where idVendedor='1' and idProducto='87' and idLogueado='4' limit 0, 100
+[2019-07-09 20:45:40]  select * from Producto  where id=108 limit 0, 1
+[2019-07-09 20:45:40]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-09 20:45:40]  select * from tarjeta_de_credito  where id='36' limit 0, 1
+[2019-07-09 20:45:40]  select * from valoracion  where idVendedor='1' and idProducto='108' and idLogueado='4' limit 0, 100
+[2019-07-09 20:45:40]  select * from Producto  where id=87 limit 0, 1
+[2019-07-09 20:45:40]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-09 20:45:40]  select * from tarjeta_de_credito  where id='37' limit 0, 1
+[2019-07-09 20:45:40]  select * from valoracion  where idVendedor='1' and idProducto='87' and idLogueado='4' limit 0, 100
+[2019-07-09 20:45:40]  select * from Producto  where id=87 limit 0, 1
+[2019-07-09 20:45:40]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-09 20:45:40]  select * from tarjeta_de_credito  where id='38' limit 0, 1
+[2019-07-09 20:45:40]  select * from valoracion  where idVendedor='1' and idProducto='87' and idLogueado='4' limit 0, 100
+[2019-07-09 20:45:40]  select * from Producto  where id=112 limit 0, 1
+[2019-07-09 20:45:40]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-09 20:45:40]  select * from tarjeta_de_credito  where id='39' limit 0, 1
+[2019-07-09 20:45:40]  select * from valoracion  where idVendedor='4' and idProducto='112' and idLogueado='4' limit 0, 100
+[2019-07-09 20:45:40]  select * from Producto  where id=112 limit 0, 1
+[2019-07-09 20:45:40]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-09 20:45:40]  select * from tarjeta_de_credito  where id='39' limit 0, 1
+[2019-07-09 20:45:40]  select * from valoracion  where idVendedor='4' and idProducto='112' and idLogueado='4' limit 0, 100
+[2019-07-09 21:44:44]  DESC cobranza
+[2019-07-09 21:44:44]  DESC Producto
+[2019-07-09 21:44:44]  DESC Usuario
+[2019-07-09 21:44:44]  DESC tarjeta_de_credito
+[2019-07-09 21:44:44]  DESC valoracion
+[2019-07-09 21:44:44]  select * from cobranza  where idComprador=4 limit 0, 100
+[2019-07-09 21:44:44]  select * from Producto  where id=87 limit 0, 1
+[2019-07-09 21:44:44]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-09 21:44:44]  select * from tarjeta_de_credito  where id='34' limit 0, 1
+[2019-07-09 21:44:44]  select * from valoracion  where idVendedor='1' and idProducto='87' and idLogueado='4' limit 0, 100
+[2019-07-09 21:44:44]  select * from Producto  where id=87 limit 0, 1
+[2019-07-09 21:44:44]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-09 21:44:44]  select * from tarjeta_de_credito  where id='36' limit 0, 1
+[2019-07-09 21:44:44]  select * from valoracion  where idVendedor='1' and idProducto='87' and idLogueado='4' limit 0, 100
+[2019-07-09 21:44:44]  select * from Producto  where id=108 limit 0, 1
+[2019-07-09 21:44:44]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-09 21:44:44]  select * from tarjeta_de_credito  where id='36' limit 0, 1
+[2019-07-09 21:44:44]  select * from valoracion  where idVendedor='1' and idProducto='108' and idLogueado='4' limit 0, 100
+[2019-07-09 21:44:44]  select * from Producto  where id=87 limit 0, 1
+[2019-07-09 21:44:44]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-09 21:44:44]  select * from tarjeta_de_credito  where id='37' limit 0, 1
+[2019-07-09 21:44:44]  select * from valoracion  where idVendedor='1' and idProducto='87' and idLogueado='4' limit 0, 100
+[2019-07-09 21:44:44]  select * from Producto  where id=87 limit 0, 1
+[2019-07-09 21:44:44]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-09 21:44:44]  select * from tarjeta_de_credito  where id='38' limit 0, 1
+[2019-07-09 21:44:44]  select * from valoracion  where idVendedor='1' and idProducto='87' and idLogueado='4' limit 0, 100
+[2019-07-09 21:44:44]  select * from Producto  where id=112 limit 0, 1
+[2019-07-09 21:44:44]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-09 21:44:44]  select * from tarjeta_de_credito  where id='39' limit 0, 1
+[2019-07-09 21:44:44]  select * from valoracion  where idVendedor='4' and idProducto='112' and idLogueado='4' limit 0, 100
+[2019-07-09 21:44:44]  select * from Producto  where id=112 limit 0, 1
+[2019-07-09 21:44:44]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-09 21:44:44]  select * from tarjeta_de_credito  where id='39' limit 0, 1
+[2019-07-09 21:44:44]  select * from valoracion  where idVendedor='4' and idProducto='112' and idLogueado='4' limit 0, 100
