@@ -33112,3 +33112,138 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-07-09 23:35:12]  select * from Usuario  where id='17' limit 0, 1
 [2019-07-09 23:35:12]  select * from tarjeta_de_credito  where id='40' limit 0, 1
 [2019-07-09 23:35:12]  select * from valoracion  where idVendedor='17' and idProducto='113' and idLogueado='17' limit 0, 100
+[2019-07-10 14:04:15]  DESC Usuario
+[2019-07-10 14:04:15]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-10 14:04:15]  DESC Usuario
+[2019-07-10 14:04:15]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-10 14:04:15]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-10 14:05:34]  DESC Usuario
+[2019-07-10 14:05:34]  select * from Usuario limit 0, 100
+[2019-07-10 14:06:17]  DESC Usuario
+[2019-07-10 14:06:17]  select * from Usuario  where userName like '%rocio%' limit 0, 100
+[2019-07-10 14:06:22]  DESC Usuario
+[2019-07-10 14:06:22]  select * from Usuario  where userName like '%Rocio%' limit 0, 100
+[2019-07-10 14:06:26]  DESC Usuario
+[2019-07-10 14:06:26]  select * from Usuario  where userName like '%rocio%' limit 0, 100
+[2019-07-10 14:06:29]  DESC Usuario
+[2019-07-10 14:06:29]  select * from Usuario limit 0, 100
+[2019-07-10 14:06:47]  DESC Usuario
+[2019-07-10 14:06:47]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-10 14:06:47]  DESC Usuario
+[2019-07-10 14:06:47]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-10 14:06:47]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-10 14:07:09]  DESC Usuario
+[2019-07-10 14:07:09]  select * from Usuario limit 0, 100
+[2019-07-10 14:07:25]  DESC Publicacion
+[2019-07-10 14:07:26]  select * from Publicacion  where id_user=2 limit 0, 100
+[2019-07-10 14:07:26]  DESC Producto
+[2019-07-10 14:07:29]  DESC Usuario
+[2019-07-10 14:07:29]  select * from Usuario limit 0, 100
+[2019-07-10 14:07:32]  DESC Usuario
+[2019-07-10 14:07:32]  select * from Usuario limit 0, 100
+[2019-07-10 14:07:36]  DESC Usuario
+[2019-07-10 14:07:36]  select * from Usuario limit 0, 100
+[2019-07-10 14:07:38]  DESC Publicacion
+[2019-07-10 14:07:38]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-10 14:07:38]  DESC Producto
+[2019-07-10 14:07:38]  select * from Producto  where id=112 limit 0, 100
+[2019-07-10 14:07:49]  DESC Producto
+[2019-07-10 14:07:49]  DESC Publicacion
+[2019-07-10 14:07:49]  DESC Categoria
+[2019-07-10 14:07:49]  DESC Imagen
+[2019-07-10 14:07:49]  select * from Producto  where id=112 limit 0, 1
+[2019-07-10 14:07:49]  select * from Publicacion  where id=32 limit 0, 1
+[2019-07-10 14:07:49]  select * from Categoria  where IdCategoria='7' limit 0, 1
+[2019-07-10 14:07:49]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-07-10 14:07:56]  DESC Usuario
+[2019-07-10 14:07:56]  select * from Usuario limit 0, 100
+[2019-07-10 14:07:57]  DESC Usuario
+[2019-07-10 14:07:57]  select * from Usuario limit 0, 100
+[2019-07-10 14:08:01]  DESC Usuario
+[2019-07-10 14:08:01]  select * from Usuario limit 0, 100
+[2019-07-10 14:08:30]  DESC Publicacion
+[2019-07-10 14:08:30]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-10 14:08:30]  DESC Producto
+[2019-07-10 14:08:30]  select * from Producto  where id=112 limit 0, 100
+[2019-07-10 14:08:34]  DESC Usuario
+[2019-07-10 14:08:34]  select * from Usuario limit 0, 100
+[2019-07-10 14:08:51]  DESC Estadisticas
+[2019-07-10 14:08:51]  Select * from `Estadisticas` ORDER BY `cantidad` DESC LIMIT 8 
+[2019-07-10 14:08:51]  DESC cobranza
+[2019-07-10 14:08:51]  DESC Producto
+[2019-07-10 14:08:51]  select * from cobranza limit 0, 400
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=107 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=21 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=89 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=89 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=107 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=107 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=108 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=108 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=87 limit 0, 1
+[2019-07-10 14:08:51]  select * from Producto  where id=112 limit 0, 1
+[2019-07-10 14:08:52]  select * from Producto  where id=112 limit 0, 1
+[2019-07-10 14:08:52]  select * from Producto  where id=113 limit 0, 1
+[2019-07-10 14:08:52]  DESC cobranza
+[2019-07-10 14:08:52]  DESC Producto
+[2019-07-10 14:08:52]  select * from cobranza limit 0, 400
+[2019-07-10 14:13:04]  DESC Usuario
+[2019-07-10 14:13:04]  select * from Usuario limit 0, 100
+[2019-07-10 14:16:19]  DESC Usuario
+[2019-07-10 14:16:19]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-10 14:16:19]  DESC Usuario
+[2019-07-10 14:16:19]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-10 14:16:19]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-10 14:16:45]  DESC Usuario
+[2019-07-10 14:16:45]  select * from Usuario limit 0, 100
+[2019-07-10 14:16:50]  DESC Publicacion
+[2019-07-10 14:16:50]  select * from Publicacion  where id_user=2 limit 0, 100
+[2019-07-10 14:16:51]  DESC Producto
+[2019-07-10 14:16:52]  DESC Usuario
+[2019-07-10 14:16:52]  select * from Usuario limit 0, 100
+[2019-07-10 14:16:54]  DESC Publicacion
+[2019-07-10 14:16:55]  select * from Publicacion  where id_user=9 limit 0, 100
+[2019-07-10 14:16:55]  DESC Producto
+[2019-07-10 14:16:57]  DESC Usuario
+[2019-07-10 14:16:57]  select * from Usuario limit 0, 100
+[2019-07-10 14:16:59]  DESC Publicacion
+[2019-07-10 14:16:59]  select * from Publicacion  where id_user=13 limit 0, 100
+[2019-07-10 14:16:59]  DESC Producto
+[2019-07-10 14:17:01]  DESC Usuario
+[2019-07-10 14:17:01]  select * from Usuario limit 0, 100
+[2019-07-10 14:17:03]  DESC Publicacion
+[2019-07-10 14:17:03]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-10 14:17:03]  DESC Producto
+[2019-07-10 14:17:03]  select * from Producto  where id=112 limit 0, 100
+[2019-07-10 14:19:10]  DESC Usuario
+[2019-07-10 14:19:10]  select * from Usuario limit 0, 100
+[2019-07-10 14:19:19]  DESC Usuario
+[2019-07-10 14:19:19]  select * from Usuario  where id='15' limit 0, 1
+[2019-07-10 14:19:26]  DESC Usuario
+[2019-07-10 14:19:26]  select * from Usuario limit 0, 100
+[2019-07-10 14:25:13]  DESC Usuario
+[2019-07-10 14:25:13]  select * from Usuario limit 0, 100
+[2019-07-10 14:25:18]  DESC Usuario
+[2019-07-10 14:25:18]  select * from Usuario limit 0, 100
+[2019-07-10 14:25:21]  DESC Usuario
+[2019-07-10 14:25:21]  select * from Usuario limit 0, 100
+[2019-07-10 14:25:24]  DESC Usuario
+[2019-07-10 14:25:24]  select * from Usuario limit 0, 100
