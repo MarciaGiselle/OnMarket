@@ -39007,3 +39007,26 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-07-11 20:29:08]  DESC tipo_valoracion
 [2019-07-11 20:29:08]  select * from Usuario  where id='1' limit 0, 1
 [2019-07-11 20:29:08]  select * from tipo_valoracion  where id= 2 limit 0, 1
+[2019-07-11 20:55:07]  DESC Producto
+[2019-07-11 20:55:07]  DESC Categoria
+[2019-07-11 20:55:07]  select * from Categoria  where nombreCategoria='jardin' limit 0, 1
+[2019-07-11 20:55:07]  INSERT INTO `Producto` (`nombre`,`descripcion`,`cantidad`,`precio`,`idCategoria`) VALUES ('Vinilos dia de la madre','Coloridos y de excelente calidad','200','1200','8')
+[2019-07-11 20:55:07]  DESC Publicacion
+[2019-07-11 20:55:07]  DESC FormaEntrega
+[2019-07-11 20:55:07]  select * from FormaEntrega  where  descripcion='acordarConElVendedor'  limit 0, 1
+[2019-07-11 20:55:07]  DESC Estado
+[2019-07-11 20:55:07]  select * from Estado  where id=1 limit 0, 1
+[2019-07-11 20:55:07]  DESC Publicacion_Entrega
+[2019-07-11 20:55:07]  INSERT INTO `Publicacion` (`fecha`,`titulo`,`id_user`,`id_Producto`,`id_Estado`) VALUES ('19-07-11','Vinilos decorativos','7','114','1')
+[2019-07-11 20:55:07]  INSERT INTO `Publicacion_Entrega` (`idPublicacion`,`idEntrega`) VALUES ('28','1')
+[2019-07-11 20:55:08]  DESC Imagen
+[2019-07-11 20:55:08]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('8d.png','114')
+[2019-07-11 20:55:08]  DESC Imagen
+[2019-07-11 20:55:08]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('7d.png','114')
+[2019-07-11 20:55:08]  DESC Imagen
+[2019-07-11 20:55:08]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('6d.png','114')
+[2019-07-11 20:55:08]  DESC Imagen
+[2019-07-11 20:55:08]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('5d.png','114')
+[2019-07-11 20:55:08]  DESC Imagen
+[2019-07-11 20:55:08]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('4d.png','114')
+[2019-07-11 20:55:08]  DESC Imagen

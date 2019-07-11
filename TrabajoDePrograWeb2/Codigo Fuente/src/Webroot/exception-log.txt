@@ -10714,3 +10714,12 @@ StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\di
 #1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #2 {main}
 
+[2019-07-11 20:55:08]  Excepción no controlada: 'imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: ' en el archivo imagen.php en la línea 22
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'imagecreatefrom...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\imagen.php(22): imagecreatefromjpeg('C:\\xampp\\tmp\\ph...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(106): Imagen->cambiarTamaño('C:\\xampp\\tmp\\ph...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(83): ProductoController->guardarImagenes(Array, 5)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
