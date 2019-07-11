@@ -46,7 +46,12 @@ function busquedaExitosa(resultados){
 
     tabla.append(
         '<thead><tr>'+
-        '<th class="text-primary">RESULTADOS ENCONTRADOS</th>'+
+        '<th class="text-primary ">Nombre</th>'+
+        '<th class="text-primary ">Precio</th>'+
+       '<th class="text-primary ">Descripcion</th>'+
+       '<th class="text-primary ">Imagen</th>'+
+        '<th class="text-primary "></th>'+
+        '</tr>'+
         '</thead>'
     );
     for (i = 0; i < datos.length; i++){
@@ -57,8 +62,8 @@ function busquedaExitosa(resultados){
             '<td align="center"> '+ datos[i].prod[0].nombre + '</td>'+
             '<td align="center">' + datos[i].prod[0].precio + '</td>'+
             '<td align="center" >'+ datos[i].prod[0].descripcion+id+'</td>'+
-            '<td align="center" >'+ '<img height="100px" src="../Webroot/imgCargadas/'+ name +'">'+
-            '<input type="submit" value="ver"  onclick="enviarId('+id+')">' +
+            '<td align="center" >'+ '<img height="100px" src="../Webroot/imgCargadas/'+ name +'"></td>'+
+            '<td><button class="btn btn-info align-items-center" type="submit"  onclick="enviarId('+id+')"><i class="fas fa-eye fa-2x" style="color: whitesmoke;" ></i>  </button>' +
             '<input type="hidden" name="id"  value="'+id+'">'+
             '</td>'+
             '</tr>'

@@ -30,11 +30,7 @@ if(isset($_SESSION["logueado"])){
         <div class='container d-none' id="resultados">
             <form action="<?php echo getBaseAddress() . "MostrarProducto/verProducto" ?>" method="post">
                 <table id="tablaBuscador" class='table table-hover text-center mt-4'>
-                    <thead>
-                    <tr>
-                        <th class="text-primary ">RESULTADOS ENCONTRADOS</th>
-                    </tr>
-                    </thead>
+                    
 
                 </table>
             </form>

@@ -37,7 +37,7 @@ class BuscadorController extends Controller
                 }
 
                 //Parte para las estadisticas de los productos mas buscados
-                 $estadistica=new Estadisticas();
+               /*  $estadistica=new Estadisticas();
                     foreach($idsProductos as $id){
 
                         if($estadistica->verificarSiExisteEstadistica( $id)){
@@ -57,7 +57,7 @@ class BuscadorController extends Controller
 
                         }
                     }
-
+*/
                 $arrayProductoImagen=[];
 
                 for($i=0;$i<count($idsProductos); $i++){

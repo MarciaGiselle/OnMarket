@@ -75,7 +75,6 @@ class UsuarioController extends Controller
     {
         header("Content-type: application/json");
         $data = json_decode(utf8_decode($datos['data']));
-
         $total = $data->total;
         $codigo = $data->codigoDeSeguridad;
         $fecha = $data->fechaDeVencimiento;

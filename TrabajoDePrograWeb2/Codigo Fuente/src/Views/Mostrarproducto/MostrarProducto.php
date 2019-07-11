@@ -24,7 +24,6 @@ if(isset($_SESSION["logueado"])){
                 <div class="carousel-inner">
 
                     <?php
-
                     $tope = count($imagen);
 
                     for ($i = 0; $i < $tope; $i++) {
@@ -160,8 +159,8 @@ if(isset($_SESSION["logueado"])){
 
         </div>
         <div class="col">
-            <input type="hidden" name="idVendedor" id="idVendedor" value="<?php echo $idVendedor; ?>"
-            <input type="hidden" name="id" id="id" value="<?php echo $resultado["id"]; ?>">
+            <input type="hidden" name="idVendedor" id="idVendedor" value="<?php echo $idVendedor; ?>">
+            <input type="hidden" id="idProducto" name="idProducto" value="<?php echo $resultado["id"]; ?>">
 
             <input class="btn btn-primary mt-5 mr-2" type="reset" value="Cancelar">
             <button class="btn btn-primary mt-5" id="agregar">Agregar Al carrito</button>

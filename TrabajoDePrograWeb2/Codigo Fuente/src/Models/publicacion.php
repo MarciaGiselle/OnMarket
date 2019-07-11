@@ -9,6 +9,8 @@ class Publicacion extends Model
     private $fecha;
     private $id_user;
     private $id_Producto;
+    private $id_Estado;
+
 
 
     public function insertarPublicacion(){
@@ -157,6 +159,22 @@ public function traerPublicaciondelProducto($idProd){
     public function setId_Producto($id_producto)
     {
         $this->id_Producto = $id_producto;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getIdEstado()
+    {
+        return $this->id_Estado;
+    }
+
+    /**
+     * @param mixed $id_Estado
+     */
+    public function setIdEstado($id_Estado)
+    {
+        $this->id_Estado = $id_Estado;
     }
    
    

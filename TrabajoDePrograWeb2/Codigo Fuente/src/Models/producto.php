@@ -66,7 +66,7 @@ class Producto extends Model
     }
 
     function filasPorPk($pk){
-        $resultado=$this->pageRows(0,100, "id=$pk");
+        $resultado=$this->pageRows(0,100, "id= $pk ");
       //$resultado=$this->selectByPk($pk);
         return $resultado;
     }

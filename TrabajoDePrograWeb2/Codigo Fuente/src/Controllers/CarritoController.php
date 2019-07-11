@@ -13,10 +13,6 @@ class CarritoController extends Controller
         $d["title"] = "Mi carrito";
 
         if ((isset($_SESSION["carrito"])) || (count($_SESSION["carrito"])>0)) {
-
-
-
-
             $d["mensaje"]=  " " ;
             $productoABuscar = new Producto();
             $formaentrega=new FormaEntrega();
@@ -24,8 +20,11 @@ class CarritoController extends Controller
             $cantidades = [];
             $metodosDeEntrega = [];
             $arrayCarritoProducto = [];
+            var_dump($_SESSION["carrito"]);
+
             for ($i = 0; $i < count($_SESSION["carrito"]); $i++) {
                 $pk = $_SESSION["carrito"][$i]["id"];
+                echo $pk;
                 array_push($productosEncontrados, $productoABuscar->filasPorPk($pk));
             }
             for ($i = 0; $i < count($_SESSION["carrito"]); $i++) {
@@ -61,7 +60,8 @@ class CarritoController extends Controller
         header("Content-type: application/json");
         $data = json_decode(utf8_decode($idProducto['data']));
         $idVendedor=$data->idVendedor;
-        if(!$_SESSION["logueado"]==$idVendedor) {
+        if($_SESSION["logueado"] != $idVendedor) {
+            var_dump($data);
             $id = $data->idProducto;
             $cantidad = $data->cantidad;
             $metodo = $data->metodo;

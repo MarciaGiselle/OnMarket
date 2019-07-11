@@ -139,7 +139,7 @@ confirmar.click(function () {
         obj.numeroTarjeta = inputnumeroTarjeta.val();
         obj.codigoDeSeguridad = inputcodigo.val();
         obj.fechaDeVencimiento = inputfecha.val();
-        obj.direccion=$('#direccion').val();
+        obj.direccion = $('#direccion').val();
         obj.email=inputEmail.val();
 
 
