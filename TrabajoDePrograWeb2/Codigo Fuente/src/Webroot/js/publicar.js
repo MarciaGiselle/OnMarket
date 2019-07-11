@@ -1,72 +1,105 @@
 const regexLetrasYNumeros = /^[0-9a-zA-Z]+$/;
 const regexNumeros = /^[0-9]+/;
 const regexLetras = /[A-Za-z]+/;
+const regexCorreo = /^(([A-Za-z0-9]+_+)|([A-Za-z0-9]+\-+)|([A-Za-z0-9]+\.+)|([A-Za-z0-9]+\++))*[A-Za-z0-9]+@((\w+\-+)|(\w+\.))*\w{1,63}\.[a-zA-Z]{2,6}$/;
 
-var inputNombre = $('#nombre');
-var inputDescripcion = $('#descripcion');
-var inputCantidad = $("#cantidad");
-var inputPrecio =$("#precio");
-//var inputCategoria = $("#categoria");
-//var inputEnvio = $("#entrega");
-var inputTitulo = $("#titulo");
+$("#nombre").keyup(function(){
 
+    var name=$("#nombre").val();
+    if(name === null || name.length === 0 || name === "") {
+        $("#errorName").removeClass("d-none").addClass("d-flex").find("small").text("nombre vacio");
+        $("#errorName").fadeIn("slow");
 
-inputImagen.cargarImagen();
+    } else if(!regexLetras.test(name)) {
+        $("#errorName").removeClass("d-none").addClass("d-flex").find("small").text("nombre invalido");
+        $("#errorName").fadeIn("slow");
 
-var btnPublicar= $("#publicar");
-
-function validarNombre() {
-
-    var validacion = false;
-    var nombre = inputNombre.val();
-
-    if(nombre === null || nombre.length === 0 || nombre === "") {
-        $("#errorNombre").removeClass("d-none").addClass("d-flex").find("small").text("Ingrese un nombre para el producto");
-        $("#errorNombre").fadeIn("slow");
-    } else if(!regexLetras.test(nombre)) {
-        $("#errorNombre").removeClass("d-none").addClass("d-flex").find("small").text("El nombre debe contener sólo letras");
-        $("#errorNombre").fadeIn("slow");
     } else {
-        validacion = true;
-    }
-    return validacion;
-}
 
+        $("#errorName").removeClass("d-flex").addClass("d-none");
 
-btnPublicar.click(function () {
-    // $(".error").fadeOut();
-    if(validarNombre()){
-        $(".error").fadeOut();
-        $(".error").removeClass("d-flex").addClass("d-none").find("span").text("");
     }
 
-    var validacion = validarNombre();
-
-    if(validacion) {
-        $("input").prop("disabled", true);
-        btnPublicar.prop("disabled", true);
-        var obj = {};
-        obj.nombre = inputNombre.val();
-        obj.descripcion=inputDescripcion.val();
-        obj.cantidad = inputCantidad.val();
-        obj.precio=inputPrecio.val();
-        obj.categoria=inputCategoria.val();
-        obj.envio=inputEnvio.val();
-        obj.titulo=inputTitulo.val();
-        obj.imagen=inputImagen.val();
-
-        llamadaAjax(pathPublicar, JSON.stringify(obj), true, "publicacionExitosa", "publicacionFallida");
-    }
 });
 
-function publicacionExitosa(dummy) {
+$("#descripcion").keyup(function(){
+    var name=$("#descripcion").val();
+    if(name === null || name.length === 0 || name === "") {
+        $("#errordescripcion").removeClass("d-none").addClass("d-flex").find("small").text("descripcion no puede quedar  vacia");
+        $("#errordescripcion").fadeIn("slow");
 
-    window.location.href = pathHome;
-}
+    } else {
 
-function publicacionFallida(err) {
+        $("#errordescripcion").removeClass("d-flex").addClass("d-none");
 
-    $("input").prop("disabled", false);
-    btnPublicar.prop("disabled", false);
-    alertify.alert("Error al realizar la publicación", err);
-}
+    }
+
+});
+
+$("#titulo").keyup(function(){
+    var name=$("#titulo").val();
+    if(name === null || name.length === 0 || name === "") {
+        $("#errortitulo").removeClass("d-none").addClass("d-flex").find("small").text("el titulo no puede estar vacio");
+        $("#errortitulo").fadeIn("slow");
+
+    } else {
+
+        $("#errortitulo").removeClass("d-flex").addClass("d-none");
+
+    }
+
+});
+
+$("#precio").keyup(function(){
+    var precio=$("#precio").val();
+    if(precio === null || precio.length === 0 || precio === "") {
+        $("#errorprecio").removeClass("d-none").addClass("d-flex").find("small").text("el precio no puede estar vacio");
+        $("#errorprecio").fadeIn("slow");
+
+    } else if(!regexNumeros.test(precio)) {
+
+        $("#errorprecio").removeClass("d-none").addClass("d-flex").find("small").text("el precio es  numerico");
+        $("#errorprecio").fadeIn("slow");
+
+    } else {
+        $("#errorprecio").removeClass("d-flex").addClass("d-none");
+
+
+    }
+
+});
+
+$("#cantidad").keyup(function(){
+    var cantidad=$("#cantidad").val();
+    if(cantidad === null || cantidad.length === 0 || cantidad === "") {
+        $("#errorcantidad").removeClass("d-none").addClass("d-flex").find("small").text("la cantidad no puede quedar vacia");
+        $("#errorcantidad").fadeIn("slow");
+
+    } else if(!regexNumeros.test(cantidad)) {
+
+        $("#errorcantidad").removeClass("d-none").addClass("d-flex").find("small").text("la cantidad es numerica");
+        $("#errorprecio").fadeIn("slow");
+
+    } else {
+        $("#errorcantidad").removeClass("d-flex").addClass("d-none");
+
+
+    }
+
+});
+
+$("#envio").keyup(function(){
+    var envio=$("#envio").val();
+    if(terminos ===false){
+        $("#errorenvio").removeClass("d-none").addClass("d-flex").find("small").text("seleccione un metodo de envio");
+        $("#errorenvio").fadeIn("slow");
+        error++;
+
+    } else {
+        $("#errorenvio").removeClass("d-flex").addClass("d-none");
+        error--;
+
+    }
+
+
+});

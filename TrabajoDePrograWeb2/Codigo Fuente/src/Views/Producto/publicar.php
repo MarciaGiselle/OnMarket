@@ -24,6 +24,10 @@ if(isset($_SESSION["logueado"])){
             <small id="passwordHelpBlock" class="form-text text-muted">Usá palabras clave para que lo encuentren
                 fácilmente.
             </small>
+            <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="errortitulo">
+                <i class="fa fa-exclamation-circle error"></i>
+                <small class="text-left"></small>
+            </div>
         </div>
 
         <div class="form-group col-md-12">
@@ -36,9 +40,14 @@ if(isset($_SESSION["logueado"])){
 
 
             <div class="form-check">
-                <input type="checkbox" name="envio[]" value="Correo" id="entrega">
+                <input type="checkbox" name="envio[]" value="Correo" id="envio">
                 <label class="form-check-label">Realizar envío por correo</label>
             </div>
+            <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="errorenvio">
+                <i class="fa fa-exclamation-circle error"></i>
+                <small class="text-left"></small>
+            </div>
+
         </div>
 
 
@@ -71,7 +80,7 @@ if(isset($_SESSION["logueado"])){
                     <small id="passwordHelpBlock" class="form-text text-muted">Usá palabras clave para que lo encuentren
                         fácilmente.
                     </small>
-                    <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="errorNombre">
+                    <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="errorName">
                         <i class="fa fa-exclamation-circle error"></i>
                         <small class="text-left"></small>
                     </div>
@@ -82,7 +91,7 @@ if(isset($_SESSION["logueado"])){
                     <label class="text-primary">Describí tu producto*</label>
                     <textarea class="form-control"  rows="3" name="descripcion" id="descripcion"
                               placeholder="Aprovechá para contar otros detalles de tu producto. Ordenalos en forma de lista para que sea más fácil de leer."></textarea>
-                    <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="eerorDescripcion">
+                    <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="errordescripcion">
                         <i class="fa fa-exclamation-circle error"></i>
                         <small class="text-left"></small>
                     </div>
@@ -91,6 +100,10 @@ if(isset($_SESSION["logueado"])){
                 <div class="form-group col-md-6">
                     <label class="text-primary">Cantidad disponible*</label>
                     <input type="text" class="form-control" name="cantidad" placeholder="Unidades en stock" id="cantidad">
+                    <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="errorcantidad">
+                        <i class="fa fa-exclamation-circle error"></i>
+                        <small class="text-left"></small>
+                    </div>
                 </div>
 
                 <div class="form-group col-md-6">
@@ -101,6 +114,10 @@ if(isset($_SESSION["logueado"])){
                         </div>
                         <input type="text" class="form-control" name="precio" id="precio"
                                placeholder="Precio">
+                    </div>
+                    <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="errorprecio">
+                        <i class="fa fa-exclamation-circle error"></i>
+                        <small class="text-left"></small>
                     </div>
                 </div>
 

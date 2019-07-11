@@ -80,6 +80,9 @@ class UsuarioController extends Controller
         $codigo = $data->codigoDeSeguridad;
         $fecha = $data->fechaDeVencimiento;
         $numeroTarjeta = $data->numeroTarjeta;
+        $direccion=$data->direccion;
+
+        $email=$data->email;
 
         $idUser = $_SESSION["logueado"];
 
@@ -111,7 +114,10 @@ class UsuarioController extends Controller
                     $cobranza->setIdComprador($_SESSION["logueado"]);
                     $cobranza->setIdProducto($_SESSION["carrito"][$i]["id"]);
                     $cobranza->setCantidad($_SESSION["carrito"][$i]["cantidad"]);
+                    $metodo=$_SESSION["carrito"][$i]["metodo"];
 
+                   // if($metododo=1){$this->enviarMensajeAlVendedor("Acordar con el vendedor",$email,$_SESSION["carrito"][$i]["id"]);}
+                   // if($metododo=2){$this->enviarMensajeAlVendedor("Envio por correo ",$direccion,$_SESSION["carrito"][$i]["id"]);}
                     $prodEncontrado = $producto->buscarUnProductoPorPk($cobranza->getIdProducto());
                     $publicEncontrada = $publicacion->traerPublicaciondelProducto($prodEncontrado["id"]);
                     $vendedor= $usuario->traerUserPorPk($publicEncontrada["id_user"]);
@@ -135,7 +141,34 @@ class UsuarioController extends Controller
 
 
     }
+ function enviarMensajeAlVendedor($asunto,$mensaje,$idProd){
+     $cuerpo = '
+        <!DOCTYPE html>
+        <html>
+        <head>
+         <title></title>
+        </head>
+        <body>
+        '.$mensaje.'
+        </body>
+        </html>';
+     $user=new Usuario();
+     $publicacion=new Publicacion();
+     $publicacionActual=$publicacion->traerPublicaciondelProducto($idProd);
+     $idVendedor=$publicacionActual["id_user"];
+     $vendedor=$user->traerUserPorPk($idVendedor);
+      $emailVendedor=$vendedor["email"];
+     $usuario=$user->traerUserPorPk($_SESSION["logueado"]);
+     $headers  = "MIME-Version: 1.0\r\n";
+     $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
+     //dirección del remitente
+     $headers .= "From: ".$usuario['name']."   ".$usuario['lastname'].">\r\n";
+    //seria el mail del vendedor pongo el mio para comprobar q ande ,ademas los emial son de mentira los de los vendedores
+     mail("rocio.centurion367@gmail.com",$asunto,$cuerpo,$headers);
 
+
+
+ }
     function valorar($datos){
 
         header("Content-type: application/json");

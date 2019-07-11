@@ -34,12 +34,28 @@ class MostrarProductoController extends Controller
         $d["lat"] = $lat;
         $d["lon"] = $lon;
 
+        $entregaPublicacion=new Publicacion_Entrega();
+        $entrega=new FormaEntrega();
+        $arrayEntrega=[];
+         $arrayEntregaIds= $entregaPublicacion->traerEntrgaPorPublicacion($publicacionDelProducto["id"]);
+
+         foreach($arrayEntregaIds as $entregaid){
+             $registro=$entrega->traerEntrega($entregaid["idEntrega"]);
+             array_push($arrayEntrega,$registro);
+         }
+
+
+        $d["entrega"] = $arrayEntrega;
+
         $usuario = new Usuario();
         $valoracion = new tipo_valoracion();
         $vendedor = $usuario->traerUserPorPk($idUser);
         $nombreValoracion = $valoracion->traerNombrePorId($vendedor['idTipo']);
         $d["tipoVendedor"] = [$nombreValoracion,$vendedor["idTipo"]];
         $d["nombreVendedor"] = [$vendedor["name"], $vendedor["lastname"]];
+
+        $d["idVendedor"] = $publicacionDelProducto["id_user"];
+
 
         $this->set($d);
         $this->render(Constantes::MOSTRARVIEW);

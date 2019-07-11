@@ -20,8 +20,8 @@ class Imagen extends Model
        //esto se haria antes del metodo
       // $temporal=$_FILES["imagen"]["tmp_name"];
        $original=imagecreatefromjpeg($temporal);
-       $copia=imagecreatetruecolor(400,400);
-       $r=imagecopyresampled($copia,$original,0,0,0,0,400,700,imagesx($original),imagesy($original));
+       $copia=imagecreatetruecolor(300,300);
+       $r=imagecopyresampled($copia,$original,0,0,0,0,300,300,imagesx($original),imagesy($original));
        return $copia;
    }
   function actualizarImagen(){
@@ -35,7 +35,6 @@ class Imagen extends Model
     function eliminarImagen(){
         $array=[
             "id"=>$this->getId(),
-            "nombre"=> $this->getNombre(),
             "idProducto"=>$this->getIdProducto(),
         ];
         $this->delete($array);

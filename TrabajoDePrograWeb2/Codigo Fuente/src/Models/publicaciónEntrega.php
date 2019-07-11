@@ -18,8 +18,15 @@ class Publicacion_Entrega extends Model
         return $this->getIdEntrega();
     }
 
+    function traerEntrgaPorPublicacion($pk){
+        $resultado=$this->pageRows(0,2, "idPublicacion=$pk");
 
-
+        return $resultado;
+    }
+function eliminar(){
+      $this->Eliminartablaintermedia( $this->getIdPublicacion());
+       
+    }
 
     /**
      * @return mixed
