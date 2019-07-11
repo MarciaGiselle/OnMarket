@@ -206,7 +206,9 @@ CREATE TABLE `cobranza` (
   `cantidad` int(11) NOT NULL,
   `idComprador` integer NOT NULL,
   `idVendedor` integer NOT NULL,
+  `idCuenta` integer NOT NULL,
   constraint PK_Cobranza primary key (id),
+  constraint FK_Cobranza_Cuenta foreign key (idCuenta) references cuenta(id),
   constraint FK_Cobranza_Tarjeta foreign key (idTarjeta) references tarjeta_de_credito(id),
   constraint FK_Cobranza_Comprador foreign key (idComprador) references usuario(id),
   constraint FK_Cobranza_Vendedor foreign key (idVendedor) references usuario(id)
