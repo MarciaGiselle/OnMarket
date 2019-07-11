@@ -418,11 +418,16 @@ INSERT INTO `permiso` (`nombre`) VALUES
 ('bloquearUsuario'),
 ('consultarEstadisticas');
 
-INSERT INTO `permiso_rol` (`id_permiso`, `id_rol` ) VALUES
+INSERT INTO `permiso_rol` (`idPermiso`, `idRol` ) VALUES
 (1,2),
 (2,2);
-
-
+INSERT INTO `estado` (`id`, `nombre` ) VALUES
+(1,'activo'),
+(2,'inactivo');
+INSERT INTO `tipo_estadistica` (`id`, `nombre` ) VALUES
+(1,'producto'),
+(2,'categoria'),
+(3,'monto');
 
 --
 -- Volcado de datos para la tabla `usuario`

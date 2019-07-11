@@ -43,9 +43,6 @@
         }, {
             "country": "<?php echo $arrayProd[5]['nombre'] ?>",
             "litres": <?php echo$arrayCant[5]?>
-        }, {
-            "country": "<?php echo $arrayProd[6]['nombre'] ?>",
-            "litres": <?php echo$arrayCant[6]?>
         }];
 
         var series = chart.series.push(new am4charts.PieSeries());

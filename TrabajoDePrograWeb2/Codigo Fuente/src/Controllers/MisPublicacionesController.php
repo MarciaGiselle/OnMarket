@@ -7,9 +7,19 @@ class MisPublicacionesController extends Controller
         $d["title"] = "Index";
 
         $publicaciones=new Publicacion();
+
         $misPublicaciones=$publicaciones->traePublicaionesPorIdUser($_SESSION["logueado"]);
 
         $d["publicaciones"] =  $misPublicaciones;
+
+        $estados=[];
+        $estado=new Estado();
+        foreach($misPublicaciones as $p){
+            $estadoPublicacion=$estado->traerEstado($p["id_Estado"]);
+            array_push($estados,$estadoPublicacion);
+        }
+        $d["estados"] =  $estados;
+
          $arrayProductoDePublicaciones=[];
         $productos=new Producto();
          for($i=0 ;$i<count( $misPublicaciones);$i++){
@@ -19,8 +29,6 @@ class MisPublicacionesController extends Controller
          }
 
 
-        //guarda un valor nulo en la posicion 21
-        // var_dump($arrayProductoDePublicaciones);
 
         $d["productos"] =  $arrayProductoDePublicaciones;
         $this->set($d);
@@ -54,5 +62,22 @@ class MisPublicacionesController extends Controller
           $this->render(Constantes::PUBLICACIONESVIEW);
 }
 
+ function publicacionActiva($datos){
+      $publicacion=new Publicacion();
+     $PublicacionBase=$publicacion->traePublicaionPorId($datos["idPublicacion"]);
+
+     $publicacionAmodificar=new Publicacion();
+     $publicacionAmodificar->setId($PublicacionBase[0]["id"]);
+     $publicacionAmodificar->ActivarPublicacion();
+}
+
+    function publicacionInactiva($datos){
+        $publicacion=new Publicacion();
+        $PublicacionBase=$publicacion->traePublicaionPorId($datos["idPublicacion"]);
+
+        $publicacionAmodificar=new Publicacion();
+        $publicacionAmodificar->setId($PublicacionBase[0]["id"]);
+        $publicacionAmodificar->InactivarPublicacion();
+    }
 
 }

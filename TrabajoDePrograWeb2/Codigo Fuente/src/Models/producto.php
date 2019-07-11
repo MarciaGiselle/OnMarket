@@ -10,6 +10,7 @@ class Producto extends Model
     private $cantidad;
     private $precio;
     private $idCategoria;
+    private $id_estadisticas;
 
     public function insertarProducto(){
         $array=[
@@ -41,6 +42,17 @@ class Producto extends Model
 
 
     }
+
+    function insertarEstadisticasAlProducto(){
+        $array=[
+            "id"=> $this->getId(),
+            "id_estadistica"=>$this->getIdEstadisticas(),
+        ] ;
+      $this->update($array);
+        return $this->getId();
+
+
+    }
    function eliminar($pk){
        return  $this->delete($pk);
    }
@@ -69,6 +81,22 @@ class Producto extends Model
         $resultado=$this->pageRows(0,100, "id=$pk");
       //$resultado=$this->selectByPk($pk);
         return $resultado;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getIdEstadisticas()
+    {
+        return $this->id_estadisticas;
+    }
+
+    /**
+     * @param mixed $id_estadisticas
+     */
+    public function setIdEstadisticas($id_estadisticas)
+    {
+        $this->id_estadisticas = $id_estadisticas;
     }
 
     /**

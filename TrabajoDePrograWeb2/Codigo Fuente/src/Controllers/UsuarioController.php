@@ -81,7 +81,6 @@ class UsuarioController extends Controller
         $fecha = $data->fechaDeVencimiento;
         $numeroTarjeta = $data->numeroTarjeta;
         $direccion=$data->direccion;
-
         $email=$data->email;
 
         $idUser = $_SESSION["logueado"];
@@ -108,6 +107,13 @@ class UsuarioController extends Controller
                 $tope = count($_SESSION["carrito"]);
 
                 for ($i = 0; $i < $tope; $i++) {
+                    //parte para las estadisticas
+                    $prod=new Producto();
+                    $productoCompra=$prod->buscarUnProductoPorPk($_SESSION["carrito"][$i]["id"]);
+                    //metodo de estadisticas
+                    $this->realizarEstadisticas( $productoCompra);
+
+                    //realizar compra
                     $cobranza->setIdTarjeta($idTarjeta);
                     $cobranza->setFecha($fecha_actual);
                     $cobranza->setTotal($total);
@@ -141,6 +147,45 @@ class UsuarioController extends Controller
 
 
     }
+
+
+    function realizarEstadisticas( $productoCompra){
+        $categoria=new Categoria();
+        $categoriaProd=$productoCompra["idCategoria"];
+
+        if(empty($categoriaProd)){
+            $estadistica=new Estadisticas();
+            $estadistica->setCantidad(1);
+            $estadistica->setIdTipo(2);
+            $idEstadistica=$estadistica->insertarEstadistica();
+            $categoria->setIdCategoria($categoriaProd);
+            $categoria->setIdEstadistica($idEstadistica);
+            $categoria->insertarEstadisticasAlaCategoria();
+
+        }else{
+            // se agrega a la estadistica
+            $estadistic=new Estadisticas();
+            $estadisticaDelProd=$estadistic->traerEstadistica($categoriaProd,2);
+
+            $estadistic->setId($estadisticaDelProd["id"]);
+            $cantidad=$estadisticaDelProd["cantidad"]+1;
+
+            $estadistic->setCantidad($cantidad);
+            $estadistic->actualizarEstadistica();
+
+
+
+
+        }
+    }
+
+
+
+
+
+
+
+
  function enviarMensajeAlVendedor($asunto,$mensaje,$idProd){
      $cuerpo = '
         <!DOCTYPE html>

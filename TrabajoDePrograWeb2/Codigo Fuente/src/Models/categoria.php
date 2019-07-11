@@ -3,8 +3,9 @@
 
 class Categoria extends Model
 {
-    private $idCategoria;
+    private $id;
     private $nombreCategoria;
+    private $id_estadistica;
 
 
     function obtenerIdCategoria($nombreCat){
@@ -28,12 +29,55 @@ class Categoria extends Model
     }
 
 
+    function insertarEstadisticasAlaCategoria(){
+        $array=[
+            "id"=> $this->getIdCategoria(),
+            "id_estadistica"=>$this->getIdEstadistica(),
+        ] ;
+        $this->update($array);
+        return $this->getIdCategoria();
+
+
+    }
+    /**
+     * @return Database
+     */
+    public function getDb()
+    {
+        return $this->db;
+    }
+
+    /**
+     * @param Database $db
+     */
+    public function setDb($db)
+    {
+        $this->db = $db;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getIdEstadistica()
+    {
+        return $this->id_estadistica;
+    }
+
+    /**
+     * @param mixed $id_estadistica
+     */
+    public function setIdEstadistica($id_estadistica)
+    {
+        $this->id_estadistica = $id_estadistica;
+    }
+
+
     /**
      * @return mixed
      */
     public function getIdCategoria()
     {
-        return $this->idCategoria;
+        return $this->id;
     }
 
     /**
@@ -41,7 +85,7 @@ class Categoria extends Model
      */
     public function setIdCategoria($idCategoria)
     {
-        $this->idCategoria = $idCategoria;
+        $this->id = $idCategoria;
     }
 
     /**

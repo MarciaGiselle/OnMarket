@@ -32,9 +32,9 @@
 
 
 
-        public function getFieldsASD($campo,$limit){
+        public function getFieldsAsdProd($campo,$limit,$id_tipo){
 
-            $sql = "Select * from `{$this->table}` ORDER BY `{$campo}` DESC LIMIT {$limit} ";
+            $sql = "Select * from `{$this->table}` WHERE id_tipo={$id_tipo} ORDER BY `{$campo}` DESC LIMIT {$limit} ";
            return $this->db->getAll($sql);
         }
 
