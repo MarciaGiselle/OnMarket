@@ -8,30 +8,23 @@ class EstadisticasController extends Controller
 
         $d["title"] = "Estadisticas";
 
-        $registrosDeEstadisticas =$this->filtrarDiezProductosMasBuscados();
+        $estadistica=new Estadisticas();
+        $registrosProd=$estadistica->traerEstasdisticasProd();
 
-        if(count( $registrosDeEstadisticas )>=6) {
+        if(count($registrosProd)>=5) {
             $producto = new Producto();
             $ArrayProd = [];
-            foreach ($registrosDeEstadisticas as $id_prod) {
-                array_push($ArrayProd, $producto->buscarUnProductoPorPk($id_prod["id_Producto"]));
-            }
 
-            $ArrayCantidad = [];
-            foreach ($registrosDeEstadisticas as $cantidad) {
 
-                array_push($ArrayCantidad, $cantidad["cantidad"]);
-            }
-
-            $d["arrayProd"] = $ArrayProd;
-            $d["arrayCant"] = $ArrayCantidad;
+            //$d["arrayProd"] = $this->sacarMaximosTop5();
+           // $d["arrayCant"] = $ArrayCantidad;
         }else{
 
             $d["mensaje"] ="no hay estadisticas que mostrar por el momento";
         }
 
-        $arrayCat=$this->estadisticasDeCategoria();
-        $d["arrayCat"] = $arrayCat;
+        //$arrayCat=$this->estadisticasDeCategoria();
+        //$d["arrayCat"] = $arrayCat;
 
         $arrayMontos=$this->estadisticasMontos();
         $d["arrayMontos"] = $arrayMontos;
@@ -39,13 +32,7 @@ class EstadisticasController extends Controller
         $this->render(Constantes::ESTADISTICASVIEW);
 
     }
-        function filtrarDiezProductosMasBuscados(){
-        $e=new Estadisticas();
 
-        return $e->EstadisticasDeProductos("cantidad",8);
-
-
-}
 
       function estadisticasDeCategoria(){
         $cobranza=new Cobranza();
@@ -105,4 +92,7 @@ class EstadisticasController extends Controller
 
 
     }
+
+
+
 }

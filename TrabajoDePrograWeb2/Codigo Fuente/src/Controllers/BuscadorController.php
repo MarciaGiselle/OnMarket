@@ -21,46 +21,74 @@ class BuscadorController extends Controller
                 $imagenABuscar= new Imagen();
 
                 $productoABuscar->setNombre($nombreProducto);
-
                 $idsProductos=$productoABuscar->buscarProductoEnLaBase();
 
-                if(empty($idsProductos)){
+                $publicacion=new Publicacion();
+
+                $idsFinal=[];
+                $publicaciones=[];
+
+                for($i=0;$i<count($idsProductos) ;$i++){
+
+                    array_push($publicaciones,$publicacion->traerPublicaciondelProducto($idsProductos[$i]));
+                }
+                foreach($publicaciones as $p){
+                    if($p["id_Estado"]==1){
+                        array_push($idsFinal,$p["id_Producto"]);
+                    }
+
+                }
+
+
+                if(empty($idsFinal)){
                     throw new ProductoNoEncontradoException("No hay coincidencias con la búsqueda", CodigoError::ProductoNoEncontrado);
                 }else{
 
                 $productosEncontrados=[];
                 $imagenesEncontradas=[];
 
-                foreach ($idsProductos as $pk){
+                foreach ($idsFinal as $pk){
                     array_push($productosEncontrados, $productoABuscar->filasPorPk($pk));
                     array_push($imagenesEncontradas, $imagenABuscar->primerImagenPorPk($pk));
                 }
 
                 //Parte para las estadisticas de los productos mas buscados
-               /*  $estadistica=new Estadisticas();
-                    foreach($idsProductos as $id){
+                $estadistica=new Estadisticas();
+                   
 
-                        if($estadistica->verificarSiExisteEstadistica( $id)){
+                    for($i=0;$i< count($idsFinal);$i++){
+                         $prod=new Producto();
+                         $producto=$prod->buscarUnProductoPorPk($idsFinal[$i]);
 
+                        if(empty($producto["id_estadistica"])){
+                            $estadistica=new Estadisticas();
                              $estadistica->setCantidad(1);
-                             $estadistica->setIdProducto($id);
-                            $estadistica->insertarEstadistica();
+                             $estadistica->setIdTipo(1);
+                             $idEstadistica=$estadistica->insertarEstadistica();
+                             $prod->setId($producto["id"]);
+                             $prod->setIdEstadisticas($idEstadistica);
+                             $prod->insertarEstadisticasAlProducto();
 
                         }else{
                             // se agrega a la estadistica
-                            $estadisticaAmodificar=$estadistica->TrearEstadisticaPorPkProducto($id);
-                            $estadistica->setId($estadisticaAmodificar["id"]);
-                           $estadistica->setCantidad($estadisticaAmodificar["cantidad"]+1);
-                            $estadistica->AumentarCantidadEnUnaEstadisticaPorPk();
+                            $estadistic=new Estadisticas();
+                            $estadisticaDelProd=$estadistic->traerEstadistica($producto["id_estadistica"],1);
+
+                            $estadistic->setId($estadisticaDelProd["id"]);
+                            $cantidad=$estadisticaDelProd["cantidad"]+1;
+
+                            $estadistic->setCantidad($cantidad);
+                            $estadistic->actualizarEstadistica();
+
 
 
 
                         }
                     }
-*/
+
                 $arrayProductoImagen=[];
 
-                for($i=0;$i<count($idsProductos); $i++){
+                for($i=0;$i<count($idsFinal); $i++){
                     $producto=$productosEncontrados[$i];
                     $imagen=$imagenesEncontradas[$i];
                     $arrayProducto=[
@@ -69,6 +97,7 @@ class BuscadorController extends Controller
                     array_push($arrayProductoImagen, $arrayProducto);
 
                 }
+
 
 
 

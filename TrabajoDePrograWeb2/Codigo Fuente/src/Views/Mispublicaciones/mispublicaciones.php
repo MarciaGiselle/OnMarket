@@ -23,6 +23,7 @@ if(isset($_SESSION["admin"])){
         <td scope="col">cantidad</td>
         <td scope="col">descripcion</td>
         <td scope="col">id</td>
+        <td scope="col">Estado</td>
 
 
 
@@ -38,11 +39,13 @@ if(isset($_SESSION["admin"])){
         for ($i = 0; $i <$tope; $i++) {
             $titulo = $publicaciones[$i]["titulo"];
             $idPublicacion= $publicaciones[$i]["id"];
+            $estado= $publicaciones[$i]["id_Estado"];
             $nombreProducto = $productos[$i][0]["nombre"];
             $precio = $productos[$i][0]["precio"];
             $descripcion=$productos[$i][0]["descripcion"];
             $cantidad=$productos[$i][0]["cantidad"];
             $idProducto=$productos[$i][0]["id"];
+            $nombreEstado=$estados[$i][0]["nombre"];
             $nro = $i + 1;
 
             echo '<tr>
@@ -53,7 +56,7 @@ if(isset($_SESSION["admin"])){
                 <td>' . $cantidad . ' </td>
                 <td>' . $descripcion . ' </td>
                 <td>' . $idPublicacion . ' </td>
-
+                <td>' . $nombreEstado . ' </td>
                 <td> 
                 
             <form action="' . getBaseAddress() . 'Modificar/modificar' . '" method="POST">
@@ -65,13 +68,29 @@ if(isset($_SESSION["admin"])){
             
              <td> 
                 
-            <form action="' . getBaseAddress() . 'Eliminar/eliminarPublicacion' . '" method="POST">
-             <input type="hidden" name="idProducto"  value="'.$idProducto.'">
-            <input type="hidden" name="idPublicacion"  value="'.$idPublicacion.'">
-             <input class="btn btn-primary" type="submit" value="eliminar">
+            ';
+
+            if ($estado == 1) {
+                echo '<form action="' . getBaseAddress() . 'MisPublicaciones/publicacionInactiva' . '" method="POST">
             
-            </form></td> 
+                   <input type="hidden" name="idPublicacion"  value="' . $idPublicacion . '">
+                  <input class="btn btn-primary" type="submit" value="Inactivar Publicacion">
+            
+                   </form>';
+
+            } else {
+                echo '<form action="' . getBaseAddress() . 'MisPublicaciones/publicacionActiva' . '" method="POST">
+            
+                   <input type="hidden" name="idPublicacion"  value="' . $idPublicacion . '">
+                  <input class="btn btn-primary" type="submit" value="Activar Publicacion">
+            
+                   </form>
+                   </td> 
             </tr>';
+            }
+
+
+
         }
 
         ?>

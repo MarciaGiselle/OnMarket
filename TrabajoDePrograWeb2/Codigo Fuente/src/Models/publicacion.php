@@ -5,7 +5,7 @@ class Publicacion extends Model
 {
     private $id;
     private $titulo;
-    private $duracion;
+    private $id_Estado;
     private $fecha;
     private $id_user;
     private $id_Producto;
@@ -18,7 +18,8 @@ class Publicacion extends Model
          "fecha"=> $this->getFecha(),
          "titulo"=>$this->getTitulo(),
          "id_user"=>$this->getId_user(),
-        "id_Producto"=>$this->getId_Producto()
+        "id_Producto"=>$this->getId_Producto(),
+            "id_Estado"=>$this->getIdEstado()
 
         ];
 
@@ -50,27 +51,65 @@ class Publicacion extends Model
   }
   //se supone q esta funcion con nombre feo me traer el id del usuario q hizo la publicacion donde esta el producto
 public function traerPublicaciondelProducto($idProd){
-    $resultado=$this->pageRows(0,1, "id_producto=$idProd");
+    $resultado=$this->pageRows(0,1, "id_Producto=$idProd");
 
     return $resultado[0];
 
 }
 
 
-    public function  traePublicaionPorId($idUser){
+    public function  traePublicaionPorId($id){
 
-        $resultado=$this->pageRows(0,1, "id=$idUser");
+        $resultado=$this->pageRows(0,1, "id=$id");
 
         return $resultado;
 
 
     }
+
+
+
+    function ActivarPublicacion(){
+        $array=[
+            "id"=> $this->getId(),
+            "id_Estado"=> 1,
+        ];
+
+
+        return $this->update($array);
+    }
+    function InactivarPublicacion(){
+        $array=[
+            "id"=> $this->getId(),
+            "id_Estado"=>2,
+        ];
+
+
+        return $this->update($array);
+    }
+
     /**
      * @return mixed
      */
     public function getId()
     {
         return $this->id;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getIdEstado()
+    {
+        return $this->id_Estado;
+    }
+
+    /**
+     * @param mixed $id_estado
+     */
+    public function setIdEstado($id_estado)
+    {
+        $this->id_Estado = $id_estado;
     }
 
     /**
@@ -99,19 +138,8 @@ public function traerPublicaciondelProducto($idProd){
 
     /**
      * @return mixed
-     */
-    public function getDuracion()
-    {
-        return $this->duracion;
-    }
 
-    /**
-     * @param mixed $duracion
-     */
-    public function setDuracion($duracion)
-    {
-        $this->duracion = $duracion;
-    }
+
 
     /**
      * @return mixed

@@ -139,11 +139,19 @@ class ProductoController extends Controller
 
 
         if ($validacion) {
+            $estado=new Estado();
+            $nuevoEstado=$estado->traerEstado(1);
+
             $fecha_actual = date("y-m-d");
             $publicar->setFecha($fecha_actual);
+
+                $publicar->setIdEstado($nuevoEstado[0]["id"]);
+
             $publicar->setId_user($_SESSION["idUser"]);
             $publicar->setId_Producto($idProducto);
             $publicacion_Entrega = new Publicacion_Entrega();
+
+
             $idPublicacion = $publicar->insertarPublicacion();
             $publicacion_Entrega->setIdPublicacion($idPublicacion);
 
