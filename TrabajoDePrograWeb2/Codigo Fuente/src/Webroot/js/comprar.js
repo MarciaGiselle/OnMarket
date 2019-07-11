@@ -1,14 +1,43 @@
 const regexLetrasYNumeros = /^[0-9a-zA-Z]+$/;
 const regexNumeros = /^[0-9]+/;
 const regexLetras = /[A-Za-z]+/;
-
+const regexCorreo = /^(([A-Za-z0-9]+_+)|([A-Za-z0-9]+\-+)|([A-Za-z0-9]+\.+)|([A-Za-z0-9]+\++))*[A-Za-z0-9]+@((\w+\-+)|(\w+\.))*\w{1,63}\.[a-zA-Z]{2,6}$/;
 var confirmar = $("#confirmar");
 var inputnumeroTarjeta = $("#numeroDeTarjeta");
 var inputcodigo = $("#codigoDeSeguridad");
 var inputfecha = $("#fechaDeVencimiento");
 var inputtotal = $('#total');
 var carrito = $('#carrito');
+var inputEmail = $('#email');
+var inputDireccion = $('#direccion');
 
+function validarEmail(){
+    var validacion = false;
+    var email = inputEmail.val();
+    if(email === null || email.length === 0 || email === "") {
+        $("#errorEmail").removeClass("d-none").addClass("d-flex").find("small").text("Ingrese un email");
+        $("#errorEmail").fadeIn("slow");
+    } else if (!regexCorreo.test(email)){
+        $("#errorEmail").removeClass("d-none").addClass("d-flex").find("small").text("El formato del email es invalido ");
+        $("#errorEmail").fadeIn("slow");
+    }  else{
+
+        validacion = true;
+    }
+    return validacion;
+}
+function validarDireccion(){
+    var validacion = false;
+    var direccion = inputDireccion.val();
+    if(direccion === null || direccion.length === 0 || direccion=== "") {
+        $("#errorDireccion").removeClass("d-none").addClass("d-flex").find("small").text("Ingrese una direccion");
+        $("#errorDireccion").fadeIn("slow");
+    }  else{
+
+        validacion = true;
+    }
+    return validacion;
+}
 
 function validarNumeroTarjeta(){
     var validacion = false;
@@ -86,6 +115,14 @@ confirmar.click(function () {
         $(".error").fadeOut();
         $(".error").removeClass("d-flex").addClass("d-none").find("span").text("");
     }
+    if(validarEmail() ){
+        $(".error").fadeOut();
+        $(".error").removeClass("d-flex").addClass("d-none").find("span").text("");
+    }
+    if(validarDireccion() ){
+        $(".error").fadeOut();
+        $(".error").removeClass("d-flex").addClass("d-none").find("span").text("");
+    }
     if(validarCodigo() ){
         $(".error").fadeOut();
         $(".error").removeClass("d-flex").addClass("d-none").find("span").text("");
@@ -95,13 +132,15 @@ confirmar.click(function () {
         $(".error").removeClass("d-flex").addClass("d-none").find("span").text("");
     }
 
-    var validacion = validarCodigo() && validarNumeroTarjeta() && validarFecha();
+    var validacion = validarDireccion()&& validarEmail() && validarCodigo() && validarNumeroTarjeta() && validarFecha();
     if(validacion) {
         var obj = {};
         obj.total = inputtotal.val();
         obj.numeroTarjeta = inputnumeroTarjeta.val();
         obj.codigoDeSeguridad = inputcodigo.val();
         obj.fechaDeVencimiento = inputfecha.val();
+        obj.direccion=$('#direccion').val();
+        obj.email=inputEmail.val();
 
 
         llamadaAjax(pathCompra, JSON.stringify(obj), true, "compraExitosa", "loginFallido");

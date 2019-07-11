@@ -66,6 +66,27 @@ if(isset($_SESSION["logueado"])){
 
                 <label class="text-secondary d-inline" for="descripcion">Descripción:</label>
                 <h6 id="descripcion"><?php echo $resultado["descripcion"]; ?></h6>
+              <div>
+                <h6>Metodo de entrega</h6>
+
+                <?php
+
+                          if(count($entrega)==1){
+                              echo '  <input  type="radio" name="entrega" value="'.$entrega[0]["idEntrega"].'" checked >'.$entrega[0]["descripcion"];
+                          }else {
+                              echo '  <input  type="radio" name="entrega" id="entrega"  value="' . $entrega[0]["idEntrega"] . '" >' . $entrega[0]["descripcion"];
+                              echo '  <input  type="radio" name="entrega" id="entrega"  value="' . $entrega[1]["idEntrega"] . '">' . $entrega[1]["descripcion"];
+                          }
+
+
+                ?>
+
+                <div class="d-none alert-danger p-1 rounded form-group col-md-4 error" id="errorTerminos">
+                    <i class="fa fa-exclamation-circle error"></i><br>
+                    <small class="text-left"></small>
+                </div>
+
+            </div>
 
                 <hr>
                 <label class="text-secondary" for="vendedor">Vendedor:</label>
@@ -139,6 +160,7 @@ if(isset($_SESSION["logueado"])){
 
         </div>
         <div class="col">
+            <input type="hidden" name="idVendedor" id="idVendedor" value="<?php echo $idVendedor; ?>"
             <input type="hidden" name="id" id="id" value="<?php echo $resultado["id"]; ?>">
 
             <input class="btn btn-primary mt-5 mr-2" type="reset" value="Cancelar">

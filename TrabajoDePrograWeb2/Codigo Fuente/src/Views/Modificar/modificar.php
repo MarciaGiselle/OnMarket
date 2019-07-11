@@ -108,9 +108,9 @@ if(isset($_SESSION["logueado"])){
                     bien iluminado. No incluyas logos, banners ni textos promocionales. Mínimo 2(dos) imagen.
                 </small>
 
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              
 
-                    <div class="carousel-inner">
+                    <div class="">
 
                         <?php
 
@@ -118,34 +118,18 @@ if(isset($_SESSION["logueado"])){
 
                         for ($i = 0; $i < $tope; $i++) {
                             $img = $imagen[$i]["nombre"];
-                            if($i!=0){
-                                echo "comun";
-                                echo '<div class="carousel-item ">
-                                        <img class="d-block w-100" src="../Webroot/imgCargadas/' . $img . ' " alt="First slide">
+                          
+                                echo '<div  ">
+                                        <img class="d-block w-100" src="../Webroot/imgCargadas/' . $img . ' " alt="foto">
                                       </div>';
-                            }else {
+                           
 
-                                echo '<div class="carousel-item active">
-                                        <img class="d-block w-100" src="../Webroot/imgCargadas/' . $img . ' " alt="First slide">
-                                      </div>';
-                            }
+                               
 
                         }
                         ?>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-
-                </div>
-
-
-
+                    
 
 
                     <form class="container">

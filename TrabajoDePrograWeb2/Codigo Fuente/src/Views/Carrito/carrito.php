@@ -14,7 +14,7 @@ if (isset($_SESSION["logueado"])) {
 ?>
 <div class="container text-center align-items-center"><br>
     <h2 class="text-primary text-center mt-3 mb-3">Tus Productos</h2>
-
+ <form action="<?php echo getBaseAddress() . 'Compra/ingresarTarjeta' ?>" method="POST">
     <table class=" table table-hover text-center mt-4">
         <thead>
         <tr class="font-weight-bold">
@@ -22,7 +22,9 @@ if (isset($_SESSION["logueado"])) {
             <th scope="col">Producto</th>
             <th scope="col">Precio</th>
             <th scope="col">Cantidad</th>
+            <th scope="col">Metodo de entrega</th>
             <th scope="col">Subtotal</th>
+
             <th scope="col"></th>
 
         <tr>
@@ -38,6 +40,9 @@ if (isset($_SESSION["logueado"])) {
             $nombre = $listaProductos[$i]["producto"][0]["nombre"];
             $cantidad = $listaProductos[$i]["cantidad"];
             $precio = $listaProductos[$i]["producto"][0]["precio"];
+              $metodo = $listaProductos[$i]["metodo"]["descripcion"];
+              $metodoid = $listaProductos[$i]["metodo"]["idEntrega"];
+
             $subtotal = $cantidad * $precio;
             $total += $subtotal;
             $nro = $i + 1;
@@ -48,9 +53,10 @@ if (isset($_SESSION["logueado"])) {
                 <td> ' . $nombre . '  </td>
                 <td> ' . $precio . ' </td>
                 <td> ' . $cantidad . '</td>
+                <td> ' . $metodo . '</td>
                 <td>$ ' . $subtotal . ' </td>
                 <td>
-                
+                  <input type="text" name="metodoid[]"  value= "'.$metodoid.'">
             <form action="' . getBaseAddress() . 'Carrito/eliminarProducto' . '" method="POST">
                
                 <input type="hidden" name="idEliminado" id="idEliminado" value= "'.$idProducto.'">
@@ -69,8 +75,9 @@ if (isset($_SESSION["logueado"])) {
        </tr>
             </table>
 
-            <form action="'. getBaseAddress() . 'Compra/ingresarTarjeta' .'" method="POST">
+
                 <input type="hidden" name="total" value="'.$total.'" />
+
                 <div class="btn btn-primary btn-lg btn-block">
                     <input type="submit" value="Siguiente Paso" class="btn btn-primary">
                 </div>

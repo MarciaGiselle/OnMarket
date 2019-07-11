@@ -38,6 +38,14 @@
            return $this->db->getAll($sql);
         }
 
+           public function Eliminartablaintermedia($idPublicacion){
+
+            $sql = "delete  from `{$this->table}` where `{$idPublicacion}` ";
+           return $this->db->getAll($sql);
+        }
+
+
+
 
 
         /**

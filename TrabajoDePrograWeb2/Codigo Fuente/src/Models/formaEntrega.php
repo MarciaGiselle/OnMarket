@@ -22,6 +22,18 @@ class FormaEntrega extends Model
             return false;
         }
     }
+
+    function traerEntrega($pk){
+        $resultado=$this->pageRows(0,1, "idEntrega=$pk");
+
+        return $resultado[0];
+    }
+
+    function traerTodas(){
+        $resultado=$this->pageRows(0,10);
+
+        return $resultado;
+    }
     /**
      * @return mixed
      */

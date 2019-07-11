@@ -20,10 +20,11 @@ class ProductoController extends Controller
 
     function altaProducto($publicacion)
     {
-
+ //FALTA VALIDAR METODO DE ENTREGA VACIO
         $producto = new Producto();
         $categoria = new Categoria();
         $error=0;
+        $mensaje="";
         //conceptos generales
         if (FuncionesComunes::validarCadena($publicacion["nombre"])) {
             $producto->setNombre($publicacion["nombre"]);
@@ -51,6 +52,11 @@ class ProductoController extends Controller
 
             if ($idCategoria != false) {
                 $producto->setIdCategoria($idCategoria);
+            }else{
+                $error++;
+                $mensaje.="Debe seleccionar una categoria ,";
+
+
             }
         }
 
@@ -62,12 +68,13 @@ class ProductoController extends Controller
                 $arrayImagenes[$i] = $_FILES['imagen']['name'][$i];
             }
         }else{
-            $error.=1;
+            $error++;
         }
 
         if($error>0){
-            $mensaje="carga incorrecta";
+            $mensaje.="El minimo de imagenes son dos y el maximo 10 , porfavor cargue una cantidad aceptable gracias";
             echo "<script> alert('$mensaje') </script>";
+            $this->publicar();
         }else{
 
             $idProducto = $producto->insertarProducto();
@@ -124,8 +131,13 @@ class ProductoController extends Controller
             $entregaPubli = new formaentrega();
             $idEntrega = $entregaPubli->obtenerIdMetodoEntrega($entrega);
         } else {
+
+
             $validacion = false;
         }
+
+
+
         if ($validacion) {
             $fecha_actual = date("y-m-d");
             $publicar->setFecha($fecha_actual);
@@ -138,6 +150,10 @@ class ProductoController extends Controller
             for ($i = 0; $i < (count($idEntrega)); $i++) {
                 $publicacion_Entrega->setIdEntrega($idEntrega[$i]);
                 $publicacion_Entrega->insertarEntrega();
+                 //SOLO PARA QUE REDICRECCIONE
+                $d["title"] = "Publicar";
+                $this->set($d);
+                $this->render(Constantes::PUBLICARVIEW);
             }
 
         }
