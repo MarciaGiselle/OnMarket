@@ -35967,3 +35967,15 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-07-10 21:58:36]  select * from Producto  where id=116 limit 0, 100
 [2019-07-10 21:58:36]  select * from Producto  where id=117 limit 0, 100
 [2019-07-10 21:58:36]  select * from Producto  where id=118 limit 0, 100
+[2019-07-11 14:50:42]  DESC Usuario
+[2019-07-11 14:50:43]  select * from Usuario limit 0, 100
+[2019-07-11 14:50:54]  DESC Usuario
+[2019-07-11 14:50:54]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-11 14:50:54]  DESC Usuario
+[2019-07-11 14:50:54]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-11 14:50:54]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-11 14:51:03]  DESC Usuario
+[2019-07-11 14:51:03]  select * from Usuario  where name= 'Axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-11 14:51:03]  DESC Usuario
+[2019-07-11 14:51:03]  select * from Usuario  where id='2' limit 0, 1
+[2019-07-11 14:51:03]  select * from Usuario  where id='2' limit 0, 1
