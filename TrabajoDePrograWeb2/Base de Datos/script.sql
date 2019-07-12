@@ -95,7 +95,7 @@ CREATE TABLE `usuario`
 CREATE TABLE `cuenta`
 (
     `id`                integer NOT NULL AUTO_INCREMENT,
-    `fecha_deposito`    date    DEFAULT NULL,
+    `fecha_deposito`    date    NOT NULL,
     `monto`             double  NOT NULL,
     `comisionAlSistema` double DEFAULT NULL,
     `idUsuario`         integer NOT NULL,
@@ -103,34 +103,6 @@ CREATE TABLE `cuenta`
     constraint FK_Cuenta_Usuario foreign key (idUsuario) references usuario (id)
 );
 
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `tipo_estadistica`
---
-
-CREATE TABLE `tipo_estadistica`
-(
-    `id`     integer      NOT NULL AUTO_INCREMENT,
-    `nombre` varchar(100) NOT NULL,
-    constraint PK_Tipo_Estadistica primary key (id)
-);
-
-
--- --------------------------------------------------------
-
---
--- Estructura de tabla para la tabla `estadisticas`
---
-
-CREATE TABLE `estadisticas`
-(
-    `id`          integer NOT NULL AUTO_INCREMENT,
-    `cantidad`    int(11) NOT NULL,
-    `id_tipo`     integer NOT NULL,
-    constraint PK_Estadisticas primary key (id),
-    constraint FK_Estadisticas_Tipo foreign key (id_tipo) references tipo_estadistica (id)
-);
 
 -- --------------------------------------------------------
 
@@ -141,8 +113,6 @@ CREATE TABLE categoria
 (
     idCategoria     integer     NOT NULL AUTO_INCREMENT,
     nombreCategoria varchar(30) NOT NULL,
-    `id_estadistica` integer DEFAULT NULL,
-    constraint FK_Categoria_Estadisticas foreign key (id_estadistica) references estadisticas (id),
     constraint PK_Categoria primary key (idCategoria)
 );
 
@@ -173,11 +143,8 @@ CREATE TABLE `producto`
     `precio`      int(11)      NOT NULL,
     `idCategoria` integer DEFAULT NULL,
     `nombre`      varchar(191) NOT NULL,
-    `id_estadistica` integer DEFAULT NULL,
     constraint PK_Producto primary key (id),
-    constraint FK_Producto_Categoria foreign key (idCategoria) references categoria (idCategoria),
-    constraint FK_Producto_Estadistica foreign key (id_estadistica) references estadisticas (id)
-
+    constraint FK_Producto_Categoria foreign key (idCategoria) references categoria (idCategoria)
 );
 -- --------------------------------------------------------
 
@@ -379,6 +346,34 @@ CREATE TABLE `cuenta_liquidacion`
 
 -- --------------------------------------------------------
 
+--
+-- Estructura de tabla para la tabla `tipo_estadistica`
+--
+
+CREATE TABLE `tipo_estadistica`
+(
+    `id`     integer      NOT NULL AUTO_INCREMENT,
+    `nombre` varchar(100) NOT NULL,
+    constraint PK_Tipo_Estadistica primary key (id)
+);
+
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `estadisticas`
+--
+
+CREATE TABLE `estadisticas`
+(
+    `id`          integer NOT NULL AUTO_INCREMENT,
+    `id_Producto` integer NOT NULL,
+    `cantidad`    int(11) NOT NULL,
+    `id_tipo`     integer NOT NULL,
+    constraint PK_Estadisticas primary key (id),
+    constraint FK_Estadisticas_Producto foreign key (id_Producto) references producto (id),
+    constraint FK_Estadisticas_Tipo foreign key (id_tipo) references tipo_estadistica (id)
+);
 
 -- --------------------------------------------------------
 

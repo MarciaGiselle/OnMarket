@@ -11,18 +11,28 @@ class cobranza extends Model
     private $total;
     private $idComprador;
     private $idVendedor;
-    private $idCuenta;
-    private $idLiquidacion;
 
+ public function traerTodosLosIdDeProdDeLaCobranzas(){
+     $resultado= $this->pageRows(0,400);
+     $array=[ ];
+     if(!empty($resultado)){
+         foreach($resultado as $r){
+            $id= $r["idProducto"];
+             array_push($array,$id);
+         }
 
-    public function traerTodosLosIdDeProdDeLaCobranzas()
-    {
-        $resultado = $this->pageRows(0, 400);
-        $array = [];
-        if (!empty($resultado)) {
-            foreach ($resultado as $r) {
-                $id = $r["idProducto"];
-                array_push($array, $id);
+     }
+     return $array;
+
+ }
+
+    public function traerTodosLosMonstosDeLaCobranzas(){
+        $resultado= $this->pageRows(0,400);
+        $array=[ ];
+        if(!empty($resultado)){
+            foreach($resultado as $r){
+                $total= $r["total"];
+                array_push($array,$total);
             }
 
         }
@@ -30,34 +40,17 @@ class cobranza extends Model
 
     }
 
-    public function traerTodosLosMonstosDeLaCobranzas()
-    {
-        $resultado = $this->pageRows(0, 400);
-        $array = [];
-        if (!empty($resultado)) {
-            foreach ($resultado as $r) {
-                $total = $r["total"];
-                array_push($array, $total);
-            }
+    public function insertarCobranza(){
+        $array=[
 
-        }
-        return $array;
-
-    }
-
-    public function insertarCobranza()
-    {
-        $array = [
-
-            "idTarjeta" => $this->getIdTarjeta(),
-            "fecha" => $this->getFecha(),
-            "idProducto" => $this->getIdProducto(),
-            "idVendedor" => $this->getIdVendedor(),
-            "idComprador" => $this->getIdComprador(),
-            "cantidad" => $this->getCantidad(),
-            "total" => $this->getTotal(),
-            "idCuenta" => $this->getIdCuenta(),
-        ];
+            "idTarjeta"=>$this->getIdTarjeta(),
+            "fecha"=>$this->getFecha(),
+            "idProducto"=>$this->getIdProducto(),
+            "idVendedor"=>$this->getIdVendedor(),
+            "idComprador"=>$this->getIdComprador(),
+            "cantidad"=>$this->getCantidad(),
+            "total"=>$this->getTotal(),
+        ] ;
         $this->setId($this->insert($array));
         return $this->getId();
     }
@@ -66,11 +59,10 @@ class cobranza extends Model
     /**
      * @return mixed
      */
-    function buscarMisCompras($id)
-    {
-        $resultado = $this->pageRows(0, 100, "idComprador=$id");
+    function buscarMisCompras($id){
+        $resultado=$this->pageRows(0,100,"idComprador=$id");
         return $resultado;
-    }
+}
 
     public function getTotal()
     {
@@ -197,37 +189,6 @@ class cobranza extends Model
         $this->cantidad = $cantidad;
     }
 
-    /**
-     * @return mixed
-     */
-    public function getIdCuenta()
-    {
-        return $this->idCuenta;
-    }
-
-    /**
-     * @param mixed $idCuenta
-     */
-    public function setIdCuenta($idCuenta)
-    {
-        $this->idCuenta = $idCuenta;
-    }
-
-    /**
-     * @return mixed
-     */
-    public function getIdLiquidacion()
-    {
-        return $this->idLiquidacion;
-    }
-
-    /**
-     * @param mixed $idLiquidacion
-     */
-    public function setIdLiquidacion($idLiquidacion)
-    {
-        $this->idLiquidacion = $idLiquidacion;
-    }
 
 
 }

@@ -16,10 +16,9 @@ class RegistrarController extends Controller
         header("Content-type: application/json");
         $datos = json_decode(utf8_decode($datosUsuario['data']));
 
+
         $usuario = new Usuario();
         $rol = new Rol();
-        $valoracion = new tipo_valoracion();
-
         $usuario->setName($datos->nombre);
         $usuario->setLastname($datos->apellido);
         $usuario->setUserName($datos->nombreUsuario);
@@ -35,13 +34,8 @@ class RegistrarController extends Controller
             $terminosYcondiciones = "no";
         }
 
-        //Rol por Default
         $rolASetear = $rol->determinarRol();
-        //Tipo Valoracion por Default
-        $valoracionASetear= $valoracion->determinarTipoInicial();
-
         $usuario->setRol($rolASetear);
-        $usuario->setIdTipo($valoracionASetear);
 
         $pass = $datos->pass;
         $pass2 = $datos->pass2;
@@ -87,10 +81,6 @@ class RegistrarController extends Controller
 
     function crearCuenta($id){
 
-        $cuenta = new Cuenta();
-        $cuenta->setIdUsuario($id);
-        $cuenta->setMonto(0);
-        $cuenta->insertarCuenta();
 
     }
 

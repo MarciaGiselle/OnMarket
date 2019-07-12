@@ -9,22 +9,6 @@ class Cuenta extends Model
     private $comisionAlSistema;
     private $idUsuario;
 
-    function insertarCuenta(){
-        $array=[
-            "idUsuario"=> $this->getIdUsuario(),
-            "monto"=>$this->getMonto(),
-        ] ;
-        $this->setId($this->insert($array));
-        return $this->getId();
-    }
-
-
-    function consultarCuenta($pk){
-        $resultado = $this->pageRows(0,1,"idUsuario= $pk");
-        return $resultado[0]["id"];
-    }
-
-
     /**
      * @return mixed
      */

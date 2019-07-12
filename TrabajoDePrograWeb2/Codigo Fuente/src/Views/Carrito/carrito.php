@@ -16,33 +16,32 @@ if (isset($_SESSION["logueado"])) {
     <h2 class="text-primary text-center mt-3 mb-3">Tus Productos</h2>
  <form action="<?php echo getBaseAddress() . 'Compra/ingresarTarjeta' ?>" method="POST">
     <table class=" table table-hover text-center mt-4">
-
-
-
-        <?php
-        $total = 0;
-        if(isset($listaProductos)){
-
-            $tope = count($listaProductos);
-
-            echo '<thead>
+        <thead>
         <tr class="font-weight-bold">
             <th scope="row">#</th>
             <th scope="col">Producto</th>
             <th scope="col">Precio</th>
             <th scope="col">Cantidad</th>
+            <th scope="col">Metodo de entrega</th>
             <th scope="col">Subtotal</th>
 
             <th scope="col"></th>
 
         <tr>
-        </thead>';
+        </thead>
 
-            for ($i = 0; $i < $tope; $i++) {
+
+        <?php
+        $total = 0;
+        $tope = count($listaProductos);
+        if($tope>0){
+        for ($i = 0; $i < $tope; $i++) {
             $idProducto = $listaProductos[$i]["producto"][0]["id"];
             $nombre = $listaProductos[$i]["producto"][0]["nombre"];
             $cantidad = $listaProductos[$i]["cantidad"];
             $precio = $listaProductos[$i]["producto"][0]["precio"];
+              $metodo = $listaProductos[$i]["metodo"]["descripcion"];
+              $metodoid = $listaProductos[$i]["metodo"]["idEntrega"];
 
             $subtotal = $cantidad * $precio;
             $total += $subtotal;
@@ -52,11 +51,12 @@ if (isset($_SESSION["logueado"])) {
         <tbody><tr>
                 <th scope="row">' . $nro . '</th>
                 <td> ' . $nombre . '  </td>
-                <td>$ ' . $precio . ' </td>
+                <td> ' . $precio . ' </td>
                 <td> ' . $cantidad . '</td>
+                <td> ' . $metodo . '</td>
                 <td>$ ' . $subtotal . ' </td>
                 <td>
-                
+                  <input type="text" name="metodoid[]"  value= "'.$metodoid.'">
             <form action="' . getBaseAddress() . 'Carrito/eliminarProducto' . '" method="POST">
                
                 <input type="hidden" name="idEliminado" id="idEliminado" value= "'.$idProducto.'">

@@ -1,20 +1,23 @@
-﻿<?php
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Globons
+ * Date: 11/5/2019
+ * Time: 11:41
+ */
 
 class UsuarioController extends Controller
 {
 
     function login($usuario)
-
     {
-
         header("Content-type: application/json");
         $data = json_decode(utf8_decode($usuario['data']));
 
         $nombre = $data->nombre;
         $pass = $data->password;
-        $passSHA = sha1($pass);
-        $rol="";
 
+        $passSHA = sha1($pass);
         $usuario = new Usuario ();
         $usuario->setName($nombre);
         $usuario->setPassword($passSHA);
@@ -24,16 +27,18 @@ class UsuarioController extends Controller
             $usuario->setId($idUsuario);
             $_SESSION["idUser"] = $idUsuario;
 
+
             if (!empty($idUsuario)) {
                 $_SESSION["logueado"] = $idUsuario;
-                $estado = $usuario->consultarEstadoDelUsuario($_SESSION["logueado"]);
+                $user = new Usuario();
+
+                $estado = $user->consultarEstadoDelUsuario($_SESSION["logueado"]);
 
                 if ($estado == 1) {
-                    $rol = $usuario->buscarRolDelUsuario($_SESSION["logueado"]);
+                    $rol = $user->buscarRolDelUsuario($_SESSION["logueado"]);
                     if ($rol == 1) {
                         $_SESSION["admin"] = true;
                     }
-
                 } else {
                     throw new NombreOPassInvalidoException("su usuario esta bloqueado ", CodigoError::NombreOPassInvalidoException);
                 }
@@ -43,10 +48,8 @@ class UsuarioController extends Controller
                 throw new NombreOPassInvalidoException("Nombre o password incorrectos", CodigoError::NombreOPassInvalidoException);
             }
 
-
+            echo json_encode($rol);
         }
-        echo json_encode($rol);
-
     }
 
     function cerrarSesion()
@@ -72,13 +75,12 @@ class UsuarioController extends Controller
     {
         header("Content-type: application/json");
         $data = json_decode(utf8_decode($datos['data']));
-
         $total = $data->total;
         $codigo = $data->codigoDeSeguridad;
         $fecha = $data->fechaDeVencimiento;
         $numeroTarjeta = $data->numeroTarjeta;
-        $direccion = $data->direccion;
-        $email = $data->email;
+        $direccion=$data->direccion;
+        $email=$data->email;
 
         $idUser = $_SESSION["logueado"];
 
@@ -87,9 +89,8 @@ class UsuarioController extends Controller
             $producto = new Producto();
             $publicacion = new Publicacion();
             $usuario = new Usuario();
-            $cuenta = new Cuenta();
 
-            //tarjeta
+
             $tarjeta->setIdUser($idUser);
             $tarjeta->setCodSeguridad($codigo);
             $tarjeta->setNumero($numeroTarjeta);
@@ -99,7 +100,6 @@ class UsuarioController extends Controller
 
             if (isset($idTarjeta)) {
                 $cobranza = new cobranza();
-                $idCuenta = $cuenta->consultarCuenta($idUser);
 
 
                 //    for para recorrer el array de ids e insertarlos
@@ -107,36 +107,33 @@ class UsuarioController extends Controller
 
                 for ($i = 0; $i < $tope; $i++) {
                     //parte para las estadisticas
-                    /*  $prod=new Producto();
-                      $productoCompra=$prod->buscarUnProductoPorPk($_SESSION["carrito"][$i]["id"]);
-                      //metodo de estadisticas
-                      $this->realizarEstadisticas( $productoCompra);*/
-
-                    //$metodo=$_SESSION["carrito"][$i]["metodo"];
-                    // if($metododo=1){$this->enviarMensajeAlVendedor("Acordar con el vendedor",$email,$_SESSION["carrito"][$i]["id"]);}
-                    // if($metododo=2){$this->enviarMensajeAlVendedor("Envio por correo ",$direccion,$_SESSION["carrito"][$i]["id"]);}
+                    $prod=new Producto();
+                    $productoCompra=$prod->buscarUnProductoPorPk($_SESSION["carrito"][$i]["id"]);
+                    //metodo de estadisticas
+                    $this->realizarEstadisticas( $productoCompra);
 
                     //realizar compra
-
                     $cobranza->setIdTarjeta($idTarjeta);
                     $cobranza->setFecha($fecha_actual);
                     $cobranza->setTotal($total);
                     $cobranza->setIdComprador($_SESSION["logueado"]);
                     $cobranza->setIdProducto($_SESSION["carrito"][$i]["id"]);
                     $cobranza->setCantidad($_SESSION["carrito"][$i]["cantidad"]);
-                    $cobranza->setIdCuenta($idCuenta);
+                    $metodo=$_SESSION["carrito"][$i]["metodo"];
 
+                   // if($metododo=1){$this->enviarMensajeAlVendedor("Acordar con el vendedor",$email,$_SESSION["carrito"][$i]["id"]);}
+                   // if($metododo=2){$this->enviarMensajeAlVendedor("Envio por correo ",$direccion,$_SESSION["carrito"][$i]["id"]);}
                     $prodEncontrado = $producto->buscarUnProductoPorPk($cobranza->getIdProducto());
                     $publicEncontrada = $publicacion->traerPublicaciondelProducto($prodEncontrado["id"]);
-                    $vendedor = $usuario->traerUserPorPk($publicEncontrada["id_user"]);
-                    $cobranza->setIdVendedor($vendedor["id"]);
+                    $vendedor= $usuario->traerUserPorPk($publicEncontrada["id_user"]);
 
+                    $cobranza->setIdVendedor($vendedor["id"]);
 
                     $idCobranza = $cobranza->insertarCobranza();
                 }
 
                 if (isset($idCobranza)) {
-                    unset($_SESSION["carrito"]);
+                unset($_SESSION["carrito"]);
                 }
             }
 
@@ -146,72 +143,79 @@ class UsuarioController extends Controller
         }
 
         echo json_encode(true);
+
+
     }
 
 
-    function realizarEstadisticas($productoCompra)
-    {
-        $categoria = new Categoria();
-        $categoriaProd = $categoria->traerCategoriaPorPk($productoCompra["idCategoria"]);
+    function realizarEstadisticas( $productoCompra){
+        $categoria=new Categoria();
+        $categoriaProd=$categoria->traerCategoriaPorPk($productoCompra["idCategoria"]);
 
-        if (empty($categoriaProd["id_estadistica"])) {
+        if(empty($categoriaProd["id_estadistica"])){
 
-            $estadistica = new Estadisticas();
+            $estadistica=new Estadisticas();
             $estadistica->setCantidad(1);
             $estadistica->setIdTipo(2);
-            $idEstadistica = $estadistica->insertarEstadistica();
+            $idEstadistica=$estadistica->insertarEstadistica();
 
-            $categoria->setIdCategoria($categoriaProd["id"]);
+            $categoria->setIdCategoria( $categoriaProd["id"]);
             $categoria->setIdEstadistica($idEstadistica);
             $categoria->insertarEstadisticasAlaCategoria();
 
-        } else {
+        }else{
             // se agrega a la estadistica
-            $estadistic = new Estadisticas();
-            $estadisticaDelProd = $estadistic->traerEstadistica($categoriaProd, 2);
+            $estadistic=new Estadisticas();
+            $estadisticaDelProd=$estadistic->traerEstadistica($categoriaProd,2);
 
             $estadistic->setId($estadisticaDelProd["id"]);
-            $cantidad = $estadisticaDelProd["cantidad"] + 1;
+            $cantidad=$estadisticaDelProd["cantidad"]+1;
 
             $estadistic->setCantidad($cantidad);
             $estadistic->actualizarEstadistica();
+
+
 
 
         }
     }
 
 
-    function enviarMensajeAlVendedor($asunto, $mensaje, $idProd)
-    {
-        $cuerpo = '
+
+
+
+
+
+
+ function enviarMensajeAlVendedor($asunto,$mensaje,$idProd){
+     $cuerpo = '
         <!DOCTYPE html>
         <html>
         <head>
          <title></title>
         </head>
         <body>
-        ' . $mensaje . '
+        '.$mensaje.'
         </body>
         </html>';
-        $user = new Usuario();
-        $publicacion = new Publicacion();
-        $publicacionActual = $publicacion->traerPublicaciondelProducto($idProd);
-        $idVendedor = $publicacionActual["id_user"];
-        $vendedor = $user->traerUserPorPk($idVendedor);
-        $emailVendedor = $vendedor["email"];
-        $usuario = $user->traerUserPorPk($_SESSION["logueado"]);
-        $headers = "MIME-Version: 1.0\r\n";
-        $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
-        //dirección del remitente
-        $headers .= "From: " . $usuario['name'] . "   " . $usuario['lastname'] . ">\r\n";
-        //seria el mail del vendedor pongo el mio para comprobar q ande ,ademas los emial son de mentira los de los vendedores
-        mail("rocio.centurion367@gmail.com", $asunto, $cuerpo, $headers);
+     $user=new Usuario();
+     $publicacion=new Publicacion();
+     $publicacionActual=$publicacion->traerPublicaciondelProducto($idProd);
+     $idVendedor=$publicacionActual["id_user"];
+     $vendedor=$user->traerUserPorPk($idVendedor);
+      $emailVendedor=$vendedor["email"];
+     $usuario=$user->traerUserPorPk($_SESSION["logueado"]);
+     $headers  = "MIME-Version: 1.0\r\n";
+     $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
+     //dirección del remitente
+     $headers .= "From: ".$usuario['name']."   ".$usuario['lastname'].">\r\n";
+    //seria el mail del vendedor pongo el mio para comprobar q ande ,ademas los emial son de mentira los de los vendedores
+     mail("rocio.centurion367@gmail.com",$asunto,$cuerpo,$headers);
 
 
-    }
 
-    function valorar($datos)
-    {
+ }
+    function valorar($datos){
 
         header("Content-type: application/json");
         $data = json_decode(utf8_decode($datos['data']));
@@ -221,12 +225,12 @@ class UsuarioController extends Controller
         $tipoValoracion = new tipo_valoracion();
         $valoracion = new valoracion();
 
-        $idProducto = $data->idValorado;
-        $estrellas = $data->estrellas;
-        $comentario = $data->comentario;
+        $idProducto= $data->idValorado;
+        $estrellas= $data->estrellas;
+        $comentario= $data->comentario;
 
         $publicEncontrada = $publicacion->traerPublicaciondelProducto($idProducto);
-        $idVendedor = $vendedor->traerUserPorPk($publicEncontrada["id_user"]);
+        $idVendedor= $vendedor->traerUserPorPk($publicEncontrada["id_user"]);
 
 
         $valoracion->setIdVendedor($idVendedor["id"]);
@@ -255,6 +259,7 @@ class UsuarioController extends Controller
             $vendedor->setId($idVendedor["id"]);
             $vendedor->setIdTipo($idValoracion);
             $vendedor->actualizarTipo();
+
 
 
         }
