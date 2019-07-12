@@ -39030,3 +39030,161 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-07-11 20:55:08]  DESC Imagen
 [2019-07-11 20:55:08]  INSERT INTO `Imagen` (`nombre`,`idProducto`) VALUES ('4d.png','114')
 [2019-07-11 20:55:08]  DESC Imagen
+[2019-07-11 21:00:00]  DESC Producto
+[2019-07-11 21:00:00]  DESC Imagen
+[2019-07-11 21:00:00]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-07-11 21:00:00]  DESC Publicacion
+[2019-07-11 21:00:00]  select * from Publicacion  where id_Producto=108 limit 0, 1
+[2019-07-11 21:00:00]  select * from Publicacion  where id_Producto=114 limit 0, 1
+[2019-07-11 21:00:00]  select * from Producto  where id= 108  limit 0, 100
+[2019-07-11 21:00:00]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-07-11 21:00:00]  select * from Producto  where id= 114  limit 0, 100
+[2019-07-11 21:00:00]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-11 21:00:00]  DESC Estadisticas
+[2019-07-11 21:00:00]  DESC Producto
+[2019-07-11 21:00:00]  select * from Producto  where id=108 limit 0, 1
+[2019-07-11 21:00:00]  DESC Estadisticas
+[2019-07-11 21:00:00]  INSERT INTO `Estadisticas` (`id_tipo`,`cantidad`) VALUES ('1','1')
+[2019-07-11 21:25:37]  DESC Usuario
+[2019-07-11 21:25:37]  select * from Usuario  where name= 'marcelo' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-11 21:25:37]  DESC Usuario
+[2019-07-11 21:25:37]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-11 21:25:37]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-11 21:25:52]  DESC Producto
+[2019-07-11 21:25:52]  DESC Imagen
+[2019-07-11 21:25:52]  select * from Producto  where nombre like '%cuaderno%' limit 0, 100
+[2019-07-11 21:25:52]  DESC Publicacion
+[2019-07-11 21:25:52]  select * from Publicacion  where id_Producto=70 limit 0, 1
+[2019-07-11 21:25:52]  select * from Producto  where id= 70  limit 0, 100
+[2019-07-11 21:25:52]  select * from Imagen  where idProducto=70 limit 0, 1
+[2019-07-11 21:25:52]  DESC Estadisticas
+[2019-07-11 21:25:52]  DESC Producto
+[2019-07-11 21:25:52]  select * from Producto  where id=70 limit 0, 1
+[2019-07-11 21:25:52]  DESC Estadisticas
+[2019-07-11 21:25:52]  INSERT INTO `Estadisticas` (`id_tipo`,`cantidad`) VALUES ('1','1')
+[2019-07-11 21:28:28]  DESC Producto
+[2019-07-11 21:28:28]  DESC Imagen
+[2019-07-11 21:28:28]  select * from Producto  where nombre like '%cuaderno%' limit 0, 100
+[2019-07-11 21:28:28]  DESC Publicacion
+[2019-07-11 21:28:28]  select * from Publicacion  where id_Producto=70 limit 0, 1
+[2019-07-11 21:28:28]  select * from Producto  where id= 70  limit 0, 100
+[2019-07-11 21:28:28]  select * from Imagen  where idProducto=70 limit 0, 1
+[2019-07-11 21:28:28]  DESC Estadisticas
+[2019-07-11 21:28:28]  DESC Producto
+[2019-07-11 21:28:28]  select * from Producto  where id=70 limit 0, 1
+[2019-07-11 21:28:28]  DESC Estadisticas
+[2019-07-11 21:28:28]  INSERT INTO `Estadisticas` (`id_tipo`,`cantidad`) VALUES ('1','1')
+[2019-07-11 21:31:09]  DESC Producto
+[2019-07-11 21:31:09]  DESC Imagen
+[2019-07-11 21:31:09]  select * from Producto  where nombre like '%cuaderno%' limit 0, 100
+[2019-07-11 21:31:09]  DESC Publicacion
+[2019-07-11 21:31:09]  select * from Publicacion  where id_Producto=70 limit 0, 1
+[2019-07-11 21:31:09]  select * from Producto  where id= 70  limit 0, 100
+[2019-07-11 21:31:09]  select * from Imagen  where idProducto=70 limit 0, 1
+[2019-07-11 21:31:09]  DESC Estadisticas
+[2019-07-11 21:31:09]  DESC Producto
+[2019-07-11 21:31:09]  select * from Producto  where id=70 limit 0, 1
+[2019-07-11 21:31:09]  DESC Estadisticas
+[2019-07-11 21:31:09]  INSERT INTO `Estadisticas` (`id_tipo`,`cantidad`) VALUES ('1','1')
+[2019-07-11 21:31:09]  UPDATE `Producto` SET `id_estadistica`='3' WHERE `id`=70
+[2019-07-11 21:31:24]  DESC Producto
+[2019-07-11 21:31:24]  select * from Producto  where id=70 limit 0, 1
+[2019-07-11 21:31:24]  DESC Publicacion
+[2019-07-11 21:31:24]  select * from Publicacion  where id_Producto=70 limit 0, 1
+[2019-07-11 21:31:25]  DESC localizacion
+[2019-07-11 21:31:25]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-11 21:31:25]  DESC Imagen
+[2019-07-11 21:31:25]  select * from Imagen  where idProducto=70 limit 0, 10
+[2019-07-11 21:31:25]  DESC Producto
+[2019-07-11 21:31:25]  DESC Imagen
+[2019-07-11 21:31:25]  select * from Producto  where nombre like '%cuaderno%' limit 0, 100
+[2019-07-11 21:31:25]  select * from Producto  where id= 70  limit 0, 100
+[2019-07-11 21:31:25]  select * from Imagen  where idProducto=70 limit 0, 1
+[2019-07-11 21:31:25]  DESC Publicacion_Entrega
+[2019-07-11 21:31:25]  DESC FormaEntrega
+[2019-07-11 21:31:25]  select * from Publicacion_Entrega  where idPublicacion=2 limit 0, 2
+[2019-07-11 21:31:25]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-11 21:31:25]  DESC Usuario
+[2019-07-11 21:31:25]  DESC tipo_valoracion
+[2019-07-11 21:31:25]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-11 21:31:25]  select * from tipo_valoracion  where id= 1 limit 0, 1
+[2019-07-11 21:31:32]  DESC Producto
+[2019-07-11 21:31:32]  DESC Imagen
+[2019-07-11 21:31:32]  select * from Producto  where nombre like '%c%' limit 0, 100
+[2019-07-11 21:31:32]  DESC Publicacion
+[2019-07-11 21:31:32]  select * from Publicacion  where id_Producto=59 limit 0, 1
+[2019-07-11 21:31:32]  select * from Publicacion  where id_Producto=70 limit 0, 1
+[2019-07-11 21:31:32]  select * from Publicacion  where id_Producto=77 limit 0, 1
+[2019-07-11 21:31:32]  select * from Publicacion  where id_Producto=108 limit 0, 1
+[2019-07-11 21:31:32]  select * from Publicacion  where id_Producto=111 limit 0, 1
+[2019-07-11 21:31:32]  select * from Producto  where id= 59  limit 0, 100
+[2019-07-11 21:31:32]  select * from Imagen  where idProducto=59 limit 0, 1
+[2019-07-11 21:31:32]  select * from Producto  where id= 70  limit 0, 100
+[2019-07-11 21:31:32]  select * from Imagen  where idProducto=70 limit 0, 1
+[2019-07-11 21:31:32]  select * from Producto  where id= 77  limit 0, 100
+[2019-07-11 21:31:32]  select * from Imagen  where idProducto=77 limit 0, 1
+[2019-07-11 21:31:32]  select * from Producto  where id= 108  limit 0, 100
+[2019-07-11 21:31:32]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-07-11 21:31:32]  select * from Producto  where id= 111  limit 0, 100
+[2019-07-11 21:31:32]  select * from Imagen  where idProducto=111 limit 0, 1
+[2019-07-11 21:31:32]  DESC Estadisticas
+[2019-07-11 21:31:32]  DESC Producto
+[2019-07-11 21:31:32]  select * from Producto  where id=59 limit 0, 1
+[2019-07-11 21:31:32]  DESC Estadisticas
+[2019-07-11 21:31:32]  INSERT INTO `Estadisticas` (`id_tipo`,`cantidad`) VALUES ('1','1')
+[2019-07-11 21:31:32]  UPDATE `Producto` SET `id_estadistica`='4' WHERE `id`=59
+[2019-07-11 21:31:32]  DESC Producto
+[2019-07-11 21:31:32]  select * from Producto  where id=70 limit 0, 1
+[2019-07-11 21:31:32]  DESC Estadisticas
+[2019-07-11 21:31:32]  select * from Estadisticas  where id=3 and id_tipo=1 limit 0, 1
+[2019-07-11 21:31:32]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=3
+[2019-07-11 21:31:32]  DESC Producto
+[2019-07-11 21:31:32]  select * from Producto  where id=77 limit 0, 1
+[2019-07-11 21:31:32]  DESC Estadisticas
+[2019-07-11 21:31:32]  INSERT INTO `Estadisticas` (`id_tipo`,`cantidad`) VALUES ('1','1')
+[2019-07-11 21:31:32]  UPDATE `Producto` SET `id_estadistica`='5' WHERE `id`=77
+[2019-07-11 21:31:33]  DESC Producto
+[2019-07-11 21:31:33]  select * from Producto  where id=108 limit 0, 1
+[2019-07-11 21:31:33]  DESC Estadisticas
+[2019-07-11 21:31:33]  INSERT INTO `Estadisticas` (`id_tipo`,`cantidad`) VALUES ('1','1')
+[2019-07-11 21:31:33]  UPDATE `Producto` SET `id_estadistica`='6' WHERE `id`=108
+[2019-07-11 21:31:33]  DESC Producto
+[2019-07-11 21:31:33]  select * from Producto  where id=111 limit 0, 1
+[2019-07-11 21:31:33]  DESC Estadisticas
+[2019-07-11 21:31:33]  INSERT INTO `Estadisticas` (`id_tipo`,`cantidad`) VALUES ('1','1')
+[2019-07-11 21:31:33]  UPDATE `Producto` SET `id_estadistica`='7' WHERE `id`=111
+[2019-07-12 11:07:22]  DESC Usuario
+[2019-07-12 11:07:22]  DESC Rol
+[2019-07-12 11:07:22]  select * from Rol  where id=1 limit 0, 1
+[2019-07-12 11:07:22]  select * from Usuario  where userName='Jenny' limit 0, 1
+[2019-07-12 11:07:22]  DESC localizacion
+[2019-07-12 11:07:22]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('Jeniffer','Toledo','51eac6b471a284d3341d8c0c63d0f1a286262a18','12457845121','jeni@gmail.com','Jenny','Mujer','2','1')
+[2019-07-12 11:17:33]  DESC Usuario
+[2019-07-12 11:17:33]  DESC Rol
+[2019-07-12 11:17:33]  DESC tipo_valoracion
+[2019-07-12 11:17:33]  select * from Rol  where id=1 limit 0, 1
+[2019-07-12 11:17:33]  select * from Usuario  where userName='axel' limit 0, 1
+[2019-07-12 11:19:06]  DESC Usuario
+[2019-07-12 11:19:06]  DESC Rol
+[2019-07-12 11:19:06]  DESC tipo_valoracion
+[2019-07-12 11:19:06]  select * from Rol  where id=1 limit 0, 1
+[2019-07-12 11:19:06]  select * from Usuario  where userName='Jeny' limit 0, 1
+[2019-07-12 11:19:06]  DESC localizacion
+[2019-07-12 11:19:06]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('Jeniffer','Toledo','51eac6b471a284d3341d8c0c63d0f1a286262a18','12457845121','jeni@gmail.com','Jeny','Mujer','2','1')
+[2019-07-12 11:19:22]  DESC Usuario
+[2019-07-12 11:19:22]  DESC Rol
+[2019-07-12 11:19:22]  DESC tipo_valoracion
+[2019-07-12 11:19:22]  select * from Rol  where id=1 limit 0, 1
+[2019-07-12 11:19:22]  select * from Usuario  where userName='Jeny' limit 0, 1
+[2019-07-12 11:19:22]  DESC localizacion
+[2019-07-12 11:19:22]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`) VALUES ('Jeniffer','Toledo','51eac6b471a284d3341d8c0c63d0f1a286262a18','12457845121','jeni@gmail.com','Jeny','Mujer','2','1')
+[2019-07-12 11:22:43]  DESC Usuario
+[2019-07-12 11:22:43]  DESC Rol
+[2019-07-12 11:22:43]  DESC tipo_valoracion
+[2019-07-12 11:22:43]  select * from Rol  where id=1 limit 0, 1
+[2019-07-12 11:22:43]  select * from Usuario  where userName='Jeny' limit 0, 1
+[2019-07-12 11:22:43]  DESC localizacion
+[2019-07-12 11:22:43]  INSERT INTO `Usuario` (`name`,`lastname`,`password`,`cuit`,`email`,`userName`,`sexo`,`rol`,`estado`,`idTipo`) VALUES ('Jenifer','Toledo','51eac6b471a284d3341d8c0c63d0f1a286262a18','12457845121','jeni@gmail.com','Jeny','Mujer','2','1','1')
+[2019-07-12 11:22:43]  DESC Cuenta
+[2019-07-12 11:22:43]  INSERT INTO `Cuenta` (`idUsuario`,`monto`) VALUES ('11','0')
+[2019-07-12 11:22:43]  INSERT INTO `localizacion` (`longitud`,`latitud`,`id_user`) VALUES ('-58.59419129999998','-34.7107108','11')

@@ -10723,3 +10723,8 @@ StackTrace: #0 [internal function]: globalErrorHandler(2, 'imagecreatefrom...', 
 #5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #6 {main}
 
+[2019-07-12 11:17:33]  Error 20: 'Nombre de usuario ya existente' en el archivo RegistrarController.php en la línea 50
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): RegistrarController->validarRegistro(Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
