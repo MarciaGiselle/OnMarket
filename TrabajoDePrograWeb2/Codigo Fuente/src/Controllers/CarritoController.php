@@ -20,10 +20,9 @@ class CarritoController extends Controller
             $cantidades = [];
             $metodosDeEntrega = [];
             $arrayCarritoProducto = [];
-            var_dump($_SESSION["carrito"]);
-
             for ($i = 0; $i < count($_SESSION["carrito"]); $i++) {
                 $pk = $_SESSION["carrito"][$i]["id"];
+                var_dump($_SESSION["carrito"][$i]);
                 echo $pk;
                 array_push($productosEncontrados, $productoABuscar->filasPorPk($pk));
             }
