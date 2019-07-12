@@ -8,23 +8,62 @@ class EstadisticasController extends Controller
 
         $d["title"] = "Estadisticas";
 
-        $estadistica=new Estadisticas();
-        $registrosProd=$estadistica->traerEstasdisticasProd();
-
-        if(count($registrosProd)>=5) {
-            $producto = new Producto();
-            $ArrayProd = [];
+        $estadistica = new Estadisticas();
+        $registrosProd = $estadistica->traerEstasdisticasProd();
 
 
-            //$d["arrayProd"] = $this->sacarMaximosTop5();
-           // $d["arrayCant"] = $ArrayCantidad;
-        }else{
+        $producto = new Producto();
+        $ArrayProd = [];
+        $ArrayCant = [];
+         $tope=count($registrosProd);
+        $faltantes=6-$tope;
+        for($i=0;$i<$tope;$i++) {
+            $prod = $producto->traerProdPorIdEstadistica($registrosProd[$i]["id"]);
 
-            $d["mensaje"] ="no hay estadisticas que mostrar por el momento";
+             array_push($ArrayProd, $prod['nombre']);
+             array_push($ArrayCant, $registrosProd[$i]["cantidad"]);
+
+
         }
 
-        //$arrayCat=$this->estadisticasDeCategoria();
-        //$d["arrayCat"] = $arrayCat;
+        for($x=0;$x<$faltantes;$x++){
+             array_push($ArrayProd,"sin producto");
+            array_push($ArrayCant, 0);
+          }
+
+
+            $d["arrayProd"] = $ArrayProd;
+            $d["arrayCant"] = $ArrayCant;
+
+
+
+
+
+             $categoria=new Categoria();
+
+            $arrayCantCat = [];
+
+            $arrayDeCat=$categoria->traerTodas();
+
+           foreach ($arrayDeCat as $cat){
+               if(!empty($cat["id_estadistica"])){
+                   $estadisticaDeCat=$estadistica->traerEstadistica($cat["id_estadistica"],2);
+                   array_push($arrayCantCat, $estadisticaDeCat["cantidad"] );
+               }else{
+                   array_push($arrayCantCat, 0 );
+               }
+
+
+
+
+           }
+
+
+
+
+            // $d["arrayCat"] = $arrayCat;
+            $d["arrayCantCat"] = $arrayCantCat;
+
 
         $arrayMontos=$this->estadisticasMontos();
         $d["arrayMontos"] = $arrayMontos;
@@ -34,38 +73,7 @@ class EstadisticasController extends Controller
     }
 
 
-      function estadisticasDeCategoria(){
-        $cobranza=new Cobranza();
-       $producto= new Producto();
-        $arrayId_Prod=$cobranza->traerTodosLosIdDeProdDeLaCobranzas();
-         $cat1=0;$cat2=0;$cat3=0;$cat4=0;$cat5=0;$cat6=0;$cat7=0;$cat8=0;
-          $arrayProd=[7];
-        foreach($arrayId_Prod as $id){
 
-            array_push($arrayProd,$producto->buscarUnProductoPorPk($id));
-
-        }
-          $arrayCat=[];
-
-
-          foreach($arrayProd as $prod){
-              if($prod["idCategoria"]==1){ $cat1++; }
-              if($prod["idCategoria"]==2){ $cat2++;}
-              if($prod["idCategoria"]==3){ $cat3++;}
-              if($prod["idCategoria"]==4){ $cat4++;}
-              if($prod["idCategoria"]==5){ $cat5++; }
-              if($prod["idCategoria"]==6){ $cat6++;}
-              if($prod["idCategoria"]==7){ $cat7++; }
-              if($prod["idCategoria"]==8){ $cat8++; }
-           }
-          $arrayCat[0]=$cat1;  $arrayCat[1]=$cat2;  $arrayCat[2]=$cat3; $arrayCat[3]=$cat4;
-          $arrayCat[4]=$cat5;  $arrayCat[5]=$cat6;  $arrayCat[6]=$cat7; $arrayCat[7]=$cat8;
-
-          return $arrayCat;
-
-
-
-      }
 
     function estadisticasMontos(){
         $cobranza=new Cobranza();

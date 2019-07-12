@@ -26,23 +26,23 @@
 
 
         chart.data = [{
-            "country": "<?php echo $arrayProd[0]['nombre'] ?>",
-            "litres": <?php echo$arrayCant[0]?>
+            "country": "<?php echo $arrayProd[0] ?>",
+            "litres": <?php echo $arrayCant[0]?>
         }, {
-            "country": "<?php echo $arrayProd[1]['nombre'] ?>",
-            "litres": <?php echo$arrayCant[1]?>
+            "country": "<?php echo $arrayProd[1] ?>",
+            "litres": <?php echo $arrayCant[1]?>
         }, {
-            "country": "<?php echo $arrayProd[2]['nombre'] ?>",
-            "litres": <?php echo$arrayCant[2]?>
+            "country": "<?php echo $arrayProd[2] ?>",
+            "litres": <?php echo $arrayCant[2]?>
         }, {
-            "country": "<?php echo $arrayProd[3]['nombre'] ?>",
-            "litres": <?php echo$arrayCant[3]?>
+            "country": "<?php echo $arrayProd[3] ?>",
+            "litres": <?php echo $arrayCant[3]?>
         }, {
-            "country": "<?php echo $arrayProd[4]['nombre'] ?>",
-            "litres": <?php echo$arrayCant[4]?>
+            "country": "<?php echo $arrayProd[4] ?>",
+            "litres": <?php echo $arrayCant[4]?>
         }, {
-            "country": "<?php echo $arrayProd[5]['nombre'] ?>",
-            "litres": <?php echo$arrayCant[5]?>
+            "country": "<?php echo $arrayProd[5] ?>",
+            "litres": <?php echo $arrayCant[5]?>
         }];
 
         var series = chart.series.push(new am4charts.PieSeries());
@@ -85,28 +85,28 @@
 
         chart2.data = [{
             "country": "Electronica",
-            "visits": <?php echo $arrayCat[0]?>
+            "visits": <?php echo $arrayCantCat[0]?>
         }, {
             "country": "Moda",
-            "visits": <?php echo $arrayCat[1]?>
+            "visits": <?php echo $arrayCantCat[1]?>
         }, {
             "country": "Mascotas",
-            "visits": <?php echo $arrayCat[2]?>
+            "visits": <?php echo $arrayCantCat[2]?>
         }, {
             "country": "Herramientas",
-            "visits": <?php echo $arrayCat[3]?>
+            "visits": <?php echo $arrayCantCat[3]?>
         }, {
             "country": "Muebles",
-            "visits": <?php echo $arrayCat[4]?>
+            "visits": <?php echo $arrayCantCat[4]?>
         }, {
             "country": "Deportes",
-            "visits": <?php echo $arrayCat[5]?>
+            "visits": <?php echo $arrayCantCat[5]?>
         }, {
             "country": "Libros y arte",
-            "visits": <?php echo $arrayCat[5]?>
+            "visits": <?php echo $arrayCantCat[5]?>
         }, {
             "country": "Jardin y decoracion",
-            "visits": <?php echo $arrayCat[7]?>
+            "visits": <?php echo $arrayCantCat[7]?>
         }];
 
 

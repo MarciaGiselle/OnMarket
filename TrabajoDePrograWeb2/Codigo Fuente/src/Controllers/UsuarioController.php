@@ -150,14 +150,16 @@ class UsuarioController extends Controller
 
     function realizarEstadisticas( $productoCompra){
         $categoria=new Categoria();
-        $categoriaProd=$productoCompra["idCategoria"];
+        $categoriaProd=$categoria->traerCategoriaPorPk($productoCompra["idCategoria"]);
 
-        if(empty($categoriaProd)){
+        if(empty($categoriaProd["id_estadistica"])){
+
             $estadistica=new Estadisticas();
             $estadistica->setCantidad(1);
             $estadistica->setIdTipo(2);
             $idEstadistica=$estadistica->insertarEstadistica();
-            $categoria->setIdCategoria($categoriaProd);
+
+            $categoria->setIdCategoria( $categoriaProd["id"]);
             $categoria->setIdEstadistica($idEstadistica);
             $categoria->insertarEstadisticasAlaCategoria();
 
