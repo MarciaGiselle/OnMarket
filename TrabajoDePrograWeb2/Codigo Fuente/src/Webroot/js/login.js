@@ -7,10 +7,10 @@ var ingresar = $("#ingresar");
 function validarName() {
     var validacion = false;
     var name = inputName.val();
-    if(name === null || name.length === 0 || name === "") {
+    if (name === null || name.length === 0 || name === "") {
         $("#errorNombre").removeClass("d-none").addClass("d-flex").find("small").text("Ingrese su nombre");
         $("#errorNombre").fadeIn("slow");
-    } else if(!regexLetrasYNumeros2.test(name)) {
+    } else if (!regexLetrasYNumeros2.test(name)) {
         $("#errorNombre").removeClass("d-none").addClass("d-flex").find("small").text("Deben ser letras y numeros");
         $("#errorNombre").fadeIn("slow");
     } else {
@@ -30,7 +30,7 @@ function validarPassword() {
         $("#errorPass").removeClass("d-none").addClass("d-flex").find("small").text("Contraseña Invalida");
         $("#errorPass").fadeIn("slow");
         return false;
-    } else if(!regexLetrasYNumeros2.test(pass)) {
+    } else if (!regexLetrasYNumeros2.test(pass)) {
         $("#errorPass").removeClass("d-none").addClass("d-flex").find("small").text("Deben ser letras y numeros");
         $("#errorPass").fadeIn("slow");
     } else {
@@ -40,35 +40,40 @@ function validarPassword() {
     return validacion;
 }
 
-ingresar.click(function () {
 
-    if(validarName()){
+ingresar.click(function () {
+    if (validarName()) {
         $(".error").fadeOut();
+
         $(".error").removeClass("d-flex").addClass("d-none").find("span").text("");
+
     }
 
     var validacion = validarName() && validarPassword();
 
-    if(validacion) {
+    if (validacion) {
         $("input").prop("disabled", true);
         ingresar.prop("disabled", true);
         var obj = {};
         obj.nombre = inputName.val();
         obj.password = inputPass.val();
+
         llamadaAjax(pathLoguear, JSON.stringify(obj), true, "loginExitoso", "loginFallido");
+
     }
+
 });
+
 
 function loginExitoso(rol) {
     var rolUser = JSON.parse(JSON.stringify(rol));
-    if(rolUser == 2){
+    if (rolUser === 2) {
         alert("comun");
         window.location.href = pathHome;
-    }else{
+    } else {
         alert("admin");
         window.location.href = pathAdmin;
     }
-
 }
 
 function loginFallido(err) {

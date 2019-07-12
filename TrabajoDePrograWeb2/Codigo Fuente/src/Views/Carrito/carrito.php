@@ -16,7 +16,16 @@ if (isset($_SESSION["logueado"])) {
     <h2 class="text-primary text-center mt-3 mb-3">Tus Productos</h2>
  <form action="<?php echo getBaseAddress() . 'Compra/ingresarTarjeta' ?>" method="POST">
     <table class=" table table-hover text-center mt-4">
-        <thead>
+
+
+
+        <?php
+        $total = 0;
+        if(isset($listaProductos)){
+
+            $tope = count($listaProductos);
+
+            echo '<thead>
         <tr class="font-weight-bold">
             <th scope="row">#</th>
             <th scope="col">Producto</th>
@@ -27,13 +36,7 @@ if (isset($_SESSION["logueado"])) {
             <th scope="col"></th>
 
         <tr>
-        </thead>
-
-
-        <?php
-        $total = 0;
-        if(isset($listaProductos)){
-            $tope = count($listaProductos);
+        </thead>';
 
             for ($i = 0; $i < $tope; $i++) {
             $idProducto = $listaProductos[$i]["producto"][0]["id"];

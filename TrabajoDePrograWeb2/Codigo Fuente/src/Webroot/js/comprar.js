@@ -150,15 +150,15 @@ confirmar.click(function () {
 function compraExitosa(dummy) {
     alertify.alert("¡Compra Exitosa!", "Espere unos segundos y será redireccionado a su historial de Compras");
 
-    setTimeout(function () {
+    /*setTimeout(function () {
 
         window.location.href = pathMisCompras;
 
-    }, 5000);
+    }, 5000);*/
 
 }
 
 function loginFallido(err) {
 
-    alertify.alert("Mi Compra", err);
+    alertify.alert("Mi Compraaaa", err);
 }
