@@ -5,15 +5,19 @@ class tipo_valoracion extends Model{
     private $id;
     private $descripcion;
 
+
     public function definirIdPorPromedio($promedio){
         $menor=1.6;
         $intermedio=3.2;
 
         if($promedio>0 && $promedio <= $menor ){
+           //Para atras
             return 3;
         }elseif ($promedio> $menor && $promedio <= $intermedio ){
+           //medio pelo
             return 2;
         }else{
+            //top
             return 1;
         }
 
@@ -23,6 +27,11 @@ class tipo_valoracion extends Model{
         $resultado=$this->pageRows(0,1,"id= $id");
         return $resultado[0]["descripcion"];
 
+    }
+
+    public function determinarTipoInicial(){
+        //top
+        return 1;
     }
 
     /**
