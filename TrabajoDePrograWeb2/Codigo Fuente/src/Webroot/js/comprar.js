@@ -148,7 +148,7 @@ confirmar.click(function () {
 });
 
 function compraExitosa(dummy) {
-    alertify.alert("¡Compra Exitosa!", "Espere unos segundos y será redireccionado a una página de valoraciones al vendedor");
+    alertify.alert("¡Compra Exitosa!", "Espere unos segundos y será redireccionado a su historial de Compras");
 
     setTimeout(function () {
 

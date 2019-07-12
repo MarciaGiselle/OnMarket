@@ -180,12 +180,19 @@ alert("valido");
 });
 
 function loginExitoso(dummy) {
-alert("registro bien ");
-    window.location.href = pathHome;
+    alertify.alert("Registro Exitoso!", "Aguarde unos segundos");
+
+    setTimeout(function () {
+
+        window.location.href = pathHome;
+
+    }, 3000);
+
+
 }
 
 function loginFallido(err) {
-    alert("registro mal ");
+    alertify.alert("Registro Incorrecto", "Verifique los datos ingresados");
 
     $("input").prop("disabled", false);
 
