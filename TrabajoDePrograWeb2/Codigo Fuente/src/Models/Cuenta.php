@@ -21,7 +21,7 @@ class Cuenta extends Model
 
     function consultarCuenta($pk){
         $resultado = $this->pageRows(0,1,"idUsuario= $pk");
-        return $resultado["id"];
+        return $resultado[0]["id"];
     }
 
 

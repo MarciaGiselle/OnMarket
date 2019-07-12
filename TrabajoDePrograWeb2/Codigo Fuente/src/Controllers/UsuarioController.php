@@ -104,16 +104,17 @@ class UsuarioController extends Controller
 
                 for ($i = 0; $i < $tope; $i++) {
                     //parte para las estadisticas
-                    $prod=new Producto();
+                  /*  $prod=new Producto();
                     $productoCompra=$prod->buscarUnProductoPorPk($_SESSION["carrito"][$i]["id"]);
                     //metodo de estadisticas
-                    $this->realizarEstadisticas( $productoCompra);
+                    $this->realizarEstadisticas( $productoCompra);*/
 
-                    $prodEncontrado = $producto->buscarUnProductoPorPk($cobranza->getIdProducto());
-                    $publicEncontrada = $publicacion->traerPublicaciondelProducto($prodEncontrado["id"]);
-                    $vendedor= $usuario->traerUserPorPk($publicEncontrada["id_user"]);
+                    //$metodo=$_SESSION["carrito"][$i]["metodo"];
+                   // if($metododo=1){$this->enviarMensajeAlVendedor("Acordar con el vendedor",$email,$_SESSION["carrito"][$i]["id"]);}
+                   // if($metododo=2){$this->enviarMensajeAlVendedor("Envio por correo ",$direccion,$_SESSION["carrito"][$i]["id"]);}
 
                     //realizar compra
+
                     $cobranza->setIdTarjeta($idTarjeta);
                     $cobranza->setFecha($fecha_actual);
                     $cobranza->setTotal($total);
@@ -121,11 +122,11 @@ class UsuarioController extends Controller
                     $cobranza->setIdProducto($_SESSION["carrito"][$i]["id"]);
                     $cobranza->setCantidad($_SESSION["carrito"][$i]["cantidad"]);
                     $cobranza->setIdCuenta($idCuenta);
-                    $cobranza->setIdVendedor($vendedor["id"]);
 
-                    $metodo=$_SESSION["carrito"][$i]["metodo"];
-                   // if($metododo=1){$this->enviarMensajeAlVendedor("Acordar con el vendedor",$email,$_SESSION["carrito"][$i]["id"]);}
-                   // if($metododo=2){$this->enviarMensajeAlVendedor("Envio por correo ",$direccion,$_SESSION["carrito"][$i]["id"]);}
+                    $prodEncontrado = $producto->buscarUnProductoPorPk($cobranza->getIdProducto());
+                    $publicEncontrada = $publicacion->traerPublicaciondelProducto($prodEncontrado["id"]);
+                    $vendedor= $usuario->traerUserPorPk($publicEncontrada["id_user"]);
+                    $cobranza->setIdVendedor($vendedor["id"]);
 
 
                     $idCobranza = $cobranza->insertarCobranza();
