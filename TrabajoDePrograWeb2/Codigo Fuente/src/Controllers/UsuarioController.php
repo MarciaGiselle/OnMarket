@@ -1,10 +1,4 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Globons
- * Date: 11/5/2019
- * Time: 11:41
- */
+﻿<?php
 
 class UsuarioController extends Controller
 {
