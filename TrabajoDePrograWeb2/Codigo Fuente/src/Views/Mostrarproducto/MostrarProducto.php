@@ -7,11 +7,11 @@
 <body>
 <?php
 
-if(isset($_SESSION["logueado"])){
+if (isset($_SESSION["logueado"])) {
 
-    include_once ("navLogueado.php") ;
-}else{
-    include_once ("navNoLogueado.php");
+    include_once("navLogueado.php");
+} else {
+    include_once("navNoLogueado.php");
 }
 ?>
 
@@ -28,11 +28,11 @@ if(isset($_SESSION["logueado"])){
 
                     for ($i = 0; $i < $tope; $i++) {
                         $img = $imagen[$i]["nombre"];
-                        if($i!=0){
+                        if ($i != 0) {
                             echo '<div class="carousel-item ">
                                         <img class="d-block w-100" src="../Webroot/imgCargadas/' . $img . ' " alt="First slide">
                                       </div>';
-                        }else {
+                        } else {
 
                             echo '<div class="carousel-item active">
                                         <img class="d-block w-100" src="../Webroot/imgCargadas/' . $img . ' " alt="First slide">
@@ -63,40 +63,45 @@ if(isset($_SESSION["logueado"])){
                 <label class="text-secondary d-inline">Cantidad disponible:</label>
                 <h5> <?php echo $resultado["cantidad"]; ?></h5>
 
-                <label class="text-secondary d-inline" for="descripcion">Descripción:</label>
+                <label class="text-secondary d-inline mb-1" for="descripcion">Descripción:</label>
                 <h6 id="descripcion"><?php echo $resultado["descripcion"]; ?></h6>
-              <div>
-                <h6>Metodo de entrega</h6>
+                <hr>
 
-                <?php
+                    <label class="text-secondary d-inline">Métodos de entrega:</label>
+                    <br>
 
-                          if(count($entrega)==1){
-                              echo '  <input  type="radio" name="entrega" value="'.$entrega[0]["idEntrega"].'" checked >'.$entrega[0]["descripcion"];
-                          }else {
-                              echo '  <input  type="radio" name="entrega" id="entrega"  value="' . $entrega[0]["idEntrega"] . '" >' . $entrega[0]["descripcion"];
-                              echo '  <input  type="radio" name="entrega" id="entrega"  value="' . $entrega[1]["idEntrega"] . '">' . $entrega[1]["descripcion"];
-                          }
+                    <?php
+
+                    if (count($entrega) == 1) {
+                        echo '<input type="checkbox" name="entrega[]" value="' . $entrega[0]["idEntrega"] . '" checked disabled>
+                            <h6 class="d-inline-flex">Acordar con el vendedor</h6>';
+                    } else {
+                        echo '
+                            <input  type="checkbox" name="entrega[]" value="' . $entrega[0]["idEntrega"] . '" checked disabled>
+                            <h6 class="d-inline-flex">Acordar con el vendedor</h6>
+                             <br>
+                            <input type="checkbox" name="entrega[]" value="' . $entrega[1]["idEntrega"] . '" checked disabled>
+                             <h6 class="d-inline-flex">Acordar envio por correo</h6>';
+
+                    }
 
 
-                ?>
+                    ?>
 
-                <div class="d-none alert-danger p-1 rounded form-group col-md-4 error" id="errorTerminos">
-                    <i class="fa fa-exclamation-circle error"></i><br>
-                    <small class="text-left"></small>
-                </div>
 
-            </div>
+
 
                 <hr>
                 <label class="text-secondary" for="vendedor">Vendedor:</label>
-                <h6  class="d-inline-block"  id="vendedor"><?php echo $nombreVendedor[0]." ".$nombreVendedor[1]; ?></h6>
-<br>
+                <h6 class="d-inline-block"
+                    id="vendedor"><?php echo $nombreVendedor[0] . " " . $nombreVendedor[1]; ?></h6>
+                <br>
                 <label class="text-secondary" for="tipoVendedor">Calificación:</label>
-                <h6  class="d-inline-block" id="tipoVendedor"><?php echo $tipoVendedor[0]; ?></h6>
+                <h6 class="d-inline-block" id="tipoVendedor"><?php echo $tipoVendedor[0]; ?></h6>
 
                 <?php
-                if($tipoVendedor[1]==1){
-                echo    '<div class="valoracion" >
+                if ($tipoVendedor[1] == 1) {
+                    echo '<div class="valoracion" >
 
                 <input class="d-none" id="radio3" type="radio" name="estrellas" value="3" disabled>
                 <label class="my-0" for="radio3"> <i class="far fa-star fa-2x"></i></label>
@@ -108,8 +113,8 @@ if(isset($_SESSION["logueado"])){
                 <label class="my-0" for="radio5"> <i class="far fa-star fa-2x"></i></label>
 
                 </div>';
-                }elseif ($tipoVendedor[1]==2){
-    echo'<div class="valoracion" >
+                } elseif ($tipoVendedor[1] == 2) {
+                    echo '<div class="valoracion" >
 
                 <input class="d-none" id="radio3" type="radio" name="estrellas" value="3" disabled>
                 <label class="my-0" for="radio3"> <i class="far fa-star fa-2x"></i></label>
@@ -120,9 +125,9 @@ if(isset($_SESSION["logueado"])){
                 <input class="d-none" id="radio5" type="radio" name="estrellas" value="1" disabled>
                 <label class="my-0" for="radio5"> <i class="far fa-star fa-2x"></i></label>
 
-                </div>';}
-                else{
-                    echo'<div class="valoracion" >
+                </div>';
+                } else {
+                    echo '<div class="valoracion" >
 
                 <input class="d-none" id="radio3" type="radio" name="estrellas" value="3" checked disabled>
                 <label class="my-0" for="radio3"> <i class="far fa-star fa-2x"></i></label>
@@ -138,7 +143,7 @@ if(isset($_SESSION["logueado"])){
                 ?>
 
 
-<hr>
+                <hr>
                 <label class="text-secondary mt-2" for="id">Unidades a comprar:</label>
                 <input class="col-md-4 rounded d-block" type="number" value="1" name="id" id="cantidad">
 
@@ -153,7 +158,7 @@ if(isset($_SESSION["logueado"])){
     <div class="row">
         <div class="col">
             <?php
-            include_once ("mapa.php");
+            include_once("mapa.php");
 
             ?>
 
@@ -171,29 +176,29 @@ if(isset($_SESSION["logueado"])){
 </div>
 
 <div class="container ">
-<?php
-    $tope="";
-    if(count($productosRelacionados)>5){
-        $tope=5;
-    }else{
-        $tope=count($productosRelacionados);
+    <?php
+    $tope = "";
+    if (count($productosRelacionados) > 5) {
+        $tope = 5;
+    } else {
+        $tope = count($productosRelacionados);
     }
-echo '<div class="card-group">';
-    for($i = 0; $i <$tope; $i++){
+    echo '<div class="card-group">';
+    for ($i = 0; $i < $tope; $i++) {
 
-     echo'   <div class="card">
-    <img class="card-img-top" src="../Webroot/imgCargadas/'.$productosRelacionados[$i]["imagen"][0]["nombre"].'" alt="Card image cap">
+        echo '   <div class="card">
+    <img class="card-img-top" src="../Webroot/imgCargadas/' . $productosRelacionados[$i]["imagen"][0]["nombre"] . '" alt="Card image cap">
     <div class="card-body">
-      <h5 class="card-title">'.$productosRelacionados[$i]["prod"][0]["nombre"].'</h5>
+      <h5 class="card-title">' . $productosRelacionados[$i]["prod"][0]["nombre"] . '</h5>
       <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
       <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
     </div>
   </div>';
-     
-    }
-  
 
-?>
+    }
+
+
+    ?>
 
 </div>
 

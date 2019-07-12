@@ -100,6 +100,10 @@ $("#envio").keyup(function(){
         error--;
 
     }
-
+    /*if(!this.form.checkbox.checked)
+    {
+        alert('You must agree to the terms first.');
+        return false;
+    }*/
 
 });
