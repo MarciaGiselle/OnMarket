@@ -82,7 +82,11 @@ class Producto extends Model
       //$resultado=$this->selectByPk($pk);
         return $resultado;
     }
+    function traerProdPorIdEstadistica($pk){
+        $resultado=$this->pageRows(0,1, "id_estadistica= $pk ");
 
+        return $resultado[0];
+    }
     /**
      * @return mixed
      */

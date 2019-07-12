@@ -23,64 +23,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Views/Mostrarproducto/MostrarProducto.php">
+        <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Webroot/exception-log.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="-37186">
+              <caret line="8682" column="58" selection-start-line="8682" selection-start-column="58" selection-end-line="8682" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/localizacion.php">
+        <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/CompraController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="83" selection-start-line="83" selection-end-line="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/MostrarProductoController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-221">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/ModificarController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1377">
-              <caret line="81" column="22" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+            <state relative-caret-position="187">
+              <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Webroot/exception-log.txt">
+        <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/UsuarioController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="8690" lean-forward="true" selection-start-line="8690" selection-end-line="8690" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/producto.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/imagen.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+            <state relative-caret-position="255">
+              <caret line="181" lean-forward="true" selection-start-line="150" selection-start-column="3" selection-end-line="181" />
             </state>
           </provider>
         </entry>
@@ -107,7 +71,6 @@
         <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Views/Usuario/indexUsuario.php" />
         <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Helpers/Constantes.php" />
         <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/TarjetaController.php" />
-        <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/UsuarioController.php" />
         <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/CarritoController.php" />
         <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Webroot/js/buscador.js" />
         <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Views/Carrito/carrito.php" />
@@ -117,10 +80,16 @@
         <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Core/Imagick.php" />
         <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/Imagick.php" />
         <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Views/Mostrarproducto/MostrarProducto.php" />
-        <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/producto.php" />
         <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/imagen.php" />
         <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/localizacion.php" />
         <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/MostrarProductoController.php" />
+        <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/Estadisticas.php" />
+        <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/UsuarioController.php" />
+        <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/BuscadorController.php" />
+        <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/producto.php" />
+        <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/categoria.php" />
+        <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Views/Estadisticas/estadisticas.php" />
+        <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/EstadisticasController.php" />
       </list>
     </option>
   </component>
@@ -195,6 +164,15 @@
               <item name="Codigo Fuente" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnMarket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="TrabajoDePrograWeb2" type="462c0819:PsiDirectoryNode" />
+              <item name="Codigo Fuente" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Views" type="462c0819:PsiDirectoryNode" />
+              <item name="Estadisticas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="OnMarket" type="b2602c69:ProjectViewProjectNode" />
@@ -281,17 +259,18 @@
       <workItem from="1561231100580" duration="7681000" />
       <workItem from="1561575916020" duration="281000" />
       <workItem from="1562624602224" duration="1844000" />
+      <workItem from="1562936532631" duration="5594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28986000" />
+    <option name="totallyTimeSpent" value="34580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1107" height="589" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2817574" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28748807" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -339,13 +318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/categoria.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="1" selection-end-line="60" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -416,24 +388,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/UsuarioController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="62" selection-start-line="62" selection-end-line="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Views/Buscador/buscador.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/BuscadorController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -453,20 +411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="52" column="45" lean-forward="true" selection-start-line="52" selection-start-column="45" selection-end-line="52" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/CarritoController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/CompraController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -497,52 +441,108 @@
         <state relative-caret-position="-394543" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/producto.php">
+    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Views/Mostrarproducto/MostrarProducto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/imagen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/ModificarController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1377">
-          <caret line="81" column="22" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+        <state relative-caret-position="425">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/localizacion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="1411">
           <caret line="83" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Views/Mostrarproducto/MostrarProducto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/MostrarProductoController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
+        <state relative-caret-position="391">
           <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/ModificarController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1377">
+          <caret line="81" column="22" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/imagen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/Estadisticas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/CarritoController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/BuscadorController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="76" column="66" selection-start-line="76" selection-start-column="66" selection-end-line="76" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/producto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="88" column="5" selection-start-line="88" selection-start-column="5" selection-end-line="88" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/categoria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="46" column="23" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Views/Estadisticas/estadisticas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/EstadisticasController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Webroot/exception-log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="8690" lean-forward="true" selection-start-line="8690" selection-end-line="8690" />
+        <state relative-caret-position="-37186">
+          <caret line="8682" column="58" selection-start-line="8682" selection-start-column="58" selection-end-line="8682" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/CompraController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="30" lean-forward="true" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/UsuarioController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="181" lean-forward="true" selection-start-line="150" selection-start-column="3" selection-end-line="181" />
         </state>
       </provider>
     </entry>

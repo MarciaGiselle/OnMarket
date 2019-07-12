@@ -35,10 +35,28 @@ class Categoria extends Model
             "id_estadistica"=>$this->getIdEstadistica(),
         ] ;
         $this->update($array);
-        return $this->getIdCategoria();
+
 
 
     }
+    function traerCatPorIdEstadistica($pk){
+        $resultado=$this->pageRows(0,1, "id_estadistica= $pk ");
+
+        return $resultado[0];
+    }
+    function traerTodas(){
+        $resultado=$this->pageRows(0,10);
+
+        return $resultado;
+    }
+
+
+    public function traerCategoriaPorPk($p){
+
+        $resultado=$this->pageRows(0,1, "id=$p");
+        return $resultado[0];
+    }
+
     /**
      * @return Database
      */

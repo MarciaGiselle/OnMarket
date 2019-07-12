@@ -5506,7 +5506,6 @@ StackTrace: #0 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Cor
 #3 C:\xamp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #4 {main}
 
->>>>>>> 3da06b7e95934424f2b5d3626996fe49bed9b89c
 [2019-06-22 19:54:17]  Excepción no controlada: 'Cannot use object of type Imagen as array' en el archivo MostrarProducto.php en la línea 28
 StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require()
 #1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(24): Controller->render('MostrarProducto')
@@ -10740,7 +10739,8 @@ StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDeProg
 #2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #3 {main}
 
-[2019-07-12 12:03:34]  Excepción no controlada: 'syntax error, unexpected '';' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'' en el archivo MostrarProducto.php en la línea 77
+[2019-07-12 12:03:34]  Excepción no controlada: 'syntax error, unexpected '';
+' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';'' en el archivo MostrarProducto.php en la línea 77
 StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(61): Controller->render('MostrarProducto')
 #1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
 #2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
@@ -10769,4 +10769,801 @@ StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDeProg
 #1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
 #2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #3 {main}
+
+#3 {main}
+
+[2019-07-11 16:45:07]  Excepción no controlada: 'Undefined index: id' en el archivo ProductoController.php en la línea 146
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(146): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 146, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(81): ProductoController->altaPublicacion(Array, 5)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 16:45:42]  Excepción no controlada: 'Undefined index: id' en el archivo ProductoController.php en la línea 147
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(147): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 147, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(81): ProductoController->altaPublicacion(Array, 6)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 16:51:42]  Excepción no controlada: 'Undefined index: id_estado' en el archivo mispublicaciones.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mispublicaciones\mispublicaciones.php(42): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 42, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisPublicacionesController.php(36): Controller->render('mispublicacione...')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisPublicacionesController->publicaciones(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-11 16:53:57]  Excepción no controlada: 'Undefined offset: 0' en el archivo mispublicaciones.php en la línea 48
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mispublicaciones\mispublicaciones.php(48): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisPublicacionesController.php(36): Controller->render('mispublicacione...')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisPublicacionesController->publicaciones(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-11 16:54:22]  Excepción no controlada: 'Undefined index: nombre' en el archivo mispublicaciones.php en la línea 48
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mispublicaciones\mispublicaciones.php(48): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisPublicacionesController.php(36): Controller->render('mispublicacione...')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisPublicacionesController->publicaciones(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-11 16:55:05]  Excepción no controlada: 'Undefined offset: 0' en el archivo mispublicaciones.php en la línea 48
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mispublicaciones\mispublicaciones.php(48): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 48, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisPublicacionesController.php(36): Controller->render('mispublicacione...')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisPublicacionesController->publicaciones(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-11 16:55:58]  Excepción no controlada: 'Undefined index: id' en el archivo MisPublicacionesController.php en la línea 79
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisPublicacionesController.php(79): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 79, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisPublicacionesController->publicacionInactiva(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 16:57:52]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'MisPublicacionesController' does not have a method 'publicacionActiva'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 16:58:23]  Excepción no controlada: 'Undefined index: id' en el archivo MisPublicacionesController.php en la línea 70
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisPublicacionesController.php(70): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisPublicacionesController->publicacionActiva(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 17:08:59]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 54
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(54): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(30): Publicacion->traerPublicaciondelProducto('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:10:36]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 54
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(54): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(30): Publicacion->traerPublicaciondelProducto('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:11:06]  Excepción no controlada: 'Undefined index: id_Estado' en el archivo BuscadorController.php en la línea 35
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(35): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 17:12:43]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:13:20]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 54
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(54): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(30): Publicacion->traerPublicaciondelProducto('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:13:44]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 54
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(54): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(30): Publicacion->traerPublicaciondelProducto('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:13:48]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 54
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(54): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(30): Publicacion->traerPublicaciondelProducto('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:14:47]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 54
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(54): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(31): Publicacion->traerPublicaciondelProducto('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:15:46]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 54
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(54): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(31): Publicacion->traerPublicaciondelProducto('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:16:30]  Excepción no controlada: 'Undefined index: id' en el archivo MisPublicacionesController.php en la línea 70
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisPublicacionesController.php(70): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisPublicacionesController->publicacionActiva(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 17:17:55]  Excepción no controlada: 'Undefined index: id' en el archivo MisPublicacionesController.php en la línea 70
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisPublicacionesController.php(70): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 70, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisPublicacionesController->publicacionActiva(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 17:18:49]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 54
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(54): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(31): Publicacion->traerPublicaciondelProducto('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:19:22]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 54
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(54): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(31): Publicacion->traerPublicaciondelProducto('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:20:52]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 54
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(54): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(28): Publicacion->traerPublicaciondelProducto('2')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:22:44]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 54
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(54): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(31): Publicacion->traerPublicaciondelProducto('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:25:27]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 54
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(54): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(31): Publicacion->traerPublicaciondelProducto('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:25:32]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 54
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(54): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(31): Publicacion->traerPublicaciondelProducto('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:29:55]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:30:04]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:30:37]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 28
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:40:01]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 54
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(54): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(31): Publicacion->traerPublicaciondelProducto('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:40:56]  Excepción no controlada: 'array_push() expects parameter 1 to be array, null given' en el archivo BuscadorController.php en la línea 31
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'array_push() ex...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(31): array_push(NULL, Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:41:19]  Excepción no controlada: 'array_push() expects parameter 1 to be array, null given' en el archivo BuscadorController.php en la línea 31
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'array_push() ex...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(31): array_push(NULL, Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:41:52]  Excepción no controlada: 'Undefined offset: 0' en el archivo publicacion.php en la línea 54
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\publicacion.php(54): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 54, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(31): Publicacion->traerPublicaciondelProducto('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:42:14]  Excepción no controlada: 'array_push() expects parameter 1 to be array, null given' en el archivo BuscadorController.php en la línea 31
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'array_push() ex...', 'C:\\xampp\\htdocs...', 31, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(31): array_push(NULL, Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-11 17:43:01]  Excepción no controlada: 'Undefined index: id_estado' en el archivo BuscadorController.php en la línea 34
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(34): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 34, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 17:46:53]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:46:59]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:47:36]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:48:25]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:48:46]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:49:25]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:49:58]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:50:11]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:50:31]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:50:41]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:50:54]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:51:38]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:52:34]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:52:44]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:53:04]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:53:20]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:53:42]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:55:21]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 42
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:56:20]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 43
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:56:34]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 43
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:57:05]  Excepción no controlada: 'Undefined index: id_estado' en el archivo BuscadorController.php en la línea 35
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(35): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 17:59:06]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 43
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:59:30]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 43
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 17:59:46]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 43
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 18:00:13]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 43
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 18:00:48]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 44
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 18:01:31]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 44
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 18:01:47]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 44
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 18:02:24]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 44
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 18:39:25]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 44
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 19:07:16]  Excepción no controlada: 'Undefined index: id_estadisticas' en el archivo BuscadorController.php en la línea 60
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(60): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 19:09:14]  Excepción no controlada: 'Illegal string offset 'id_estadisticas'' en el archivo BuscadorController.php en la línea 60
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(60): globalErrorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 19:09:15]  Excepción no controlada: 'Illegal string offset 'id_estadisticas'' en el archivo BuscadorController.php en la línea 60
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(60): globalErrorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 19:09:48]  Excepción no controlada: 'Illegal string offset 'id_estadistica'' en el archivo BuscadorController.php en la línea 60
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(60): globalErrorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 19:10:55]  Excepción no controlada: 'Illegal string offset 'id_estadistica'' en el archivo BuscadorController.php en la línea 60
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(60): globalErrorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 19:11:46]  Excepción no controlada: 'Undefined offset: 0' en el archivo BuscadorController.php en la línea 60
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(60): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 60, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 19:24:49]  Excepción no controlada: 'syntax error, unexpected ')', expecting ']'' en el archivo BuscadorController.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 19:44:34]  Excepción no controlada: 'Undefined property: stdClass::$idVendedor' en el archivo CarritoController.php en la línea 63
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(63): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->agregarAlCarrito(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 19:45:33]  Excepción no controlada: 'Call to undefined method Estadisticas::EstadisticasDeProductos()' en el archivo EstadisticasController.php en la línea 45
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(11): EstadisticasController->filtrarDiezProductosMasBuscados()
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 20:14:21]  Excepción no controlada: 'Undefined variable: arrayCat' en el archivo estadisticas.php en la línea 91
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(91): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(32): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-11 20:17:37]  Excepción no controlada: 'Undefined variable: arrayCat' en el archivo estadisticas.php en la línea 91
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(91): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(32): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-11 20:19:59]  Excepción no controlada: 'Undefined variable: arrayCat' en el archivo estadisticas.php en la línea 88
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(88): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 88, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(32): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-11 20:21:56]  Excepción no controlada: 'Undefined property: stdClass::$idVendedor' en el archivo CarritoController.php en la línea 63
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(63): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->agregarAlCarrito(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 20:23:53]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProductoController.php en la línea 13
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(13): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 20:26:51]  Error 30: 'no puede comprarse a si mismo ' en el archivo CarritoController.php en la línea 83
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->agregarAlCarrito(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 20:27:40]  Excepción no controlada: 'Undefined property: stdClass::$idVendedor' en el archivo CarritoController.php en la línea 63
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(63): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->agregarAlCarrito(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 20:27:56]  Error 30: 'no puede comprarse a si mismo ' en el archivo CarritoController.php en la línea 83
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->agregarAlCarrito(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 20:28:28]  Excepción no controlada: 'Undefined property: stdClass::$idVendedor' en el archivo CarritoController.php en la línea 63
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(63): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->agregarAlCarrito(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-11 20:28:33]  Error 30: 'no puede comprarse a si mismo ' en el archivo CarritoController.php en la línea 83
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->agregarAlCarrito(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 20:29:11]  Error 30: 'no puede comprarse a si mismo ' en el archivo CarritoController.php en la línea 83
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->agregarAlCarrito(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-11 20:55:08]  Excepción no controlada: 'imagecreatefromjpeg(): gd-jpeg: JPEG library reports unrecoverable error: ' en el archivo imagen.php en la línea 22
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'imagecreatefrom...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\imagen.php(22): imagecreatefromjpeg('C:\\xampp\\tmp\\ph...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(106): Imagen->cambiarTamaño('C:\\xampp\\tmp\\ph...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(83): ProductoController->guardarImagenes(Array, 5)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#5 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2019-07-12 10:02:42]  Excepción no controlada: 'Undefined offset: 0' en el archivo Estadisticas.php en la línea 16
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Estadisticas.php(16): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(167): Estadisticas->traerEstadistica('2', 2)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(113): UsuarioController->realizarEstadisticas(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-12 10:06:28]  Excepción no controlada: 'Undefined offset: 0' en el archivo UsuarioController.php en la línea 169
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(169): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(113): UsuarioController->realizarEstadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-12 10:07:15]  Excepción no controlada: 'Undefined offset: 0' en el archivo UsuarioController.php en la línea 169
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(169): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(113): UsuarioController->realizarEstadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-12 10:07:44]  Excepción no controlada: 'Undefined index: id' en el archivo UsuarioController.php en la línea 169
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(169): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(113): UsuarioController->realizarEstadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-12 10:08:50]  Excepción no controlada: 'Undefined offset: 0' en el archivo UsuarioController.php en la línea 169
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(169): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(113): UsuarioController->realizarEstadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-12 10:09:30]  Excepción no controlada: 'Undefined offset: 0' en el archivo UsuarioController.php en la línea 169
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(169): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(113): UsuarioController->realizarEstadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-12 10:11:21]  Excepción no controlada: 'Undefined offset: 0' en el archivo UsuarioController.php en la línea 169
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(169): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 169, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(113): UsuarioController->realizarEstadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-12 10:21:24]  Excepción no controlada: 'Undefined index: carrito' en el archivo UsuarioController.php en la línea 106
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(106): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 10:22:28]  Excepción no controlada: 'Undefined index: carrito' en el archivo UsuarioController.php en la línea 106
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(106): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 106, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 10:22:42]  Excepción no controlada: 'Undefined index: carrito' en el archivo CarritoController.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(15): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 10:22:46]  Excepción no controlada: 'Undefined index: carrito' en el archivo CarritoController.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(15): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 10:22:53]  Excepción no controlada: 'Undefined index: carrito' en el archivo CarritoController.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(15): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->verCarrito(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 10:23:47]  Excepción no controlada: 'Undefined offset: 0' en el archivo BuscadorController.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(77): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 10:23:54]  Excepción no controlada: 'Undefined offset: 0' en el archivo BuscadorController.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\BuscadorController.php(77): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 10:41:38]  Excepción no controlada: 'Cannot use object of type Estadisticas as array' en el archivo EstadisticasController.php en la línea 47
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-12 10:41:53]  Excepción no controlada: 'Undefined index: cantidad' en el archivo EstadisticasController.php en la línea 46
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(46): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 46, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 10:44:13]  Excepción no controlada: 'Undefined offset: 5' en el archivo estadisticas.php en la línea 103
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(103): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(57): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-12 10:44:29]  Excepción no controlada: 'Undefined offset: 5' en el archivo estadisticas.php en la línea 103
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(103): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(57): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-12 10:45:28]  Excepción no controlada: 'Undefined variable: registrosCat' en el archivo EstadisticasController.php en la línea 38
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(38): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 10:45:41]  Excepción no controlada: 'Undefined offset: 5' en el archivo estadisticas.php en la línea 103
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(103): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 103, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(61): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-12 11:53:34]  Excepción no controlada: 'Undefined offset: 2' en el archivo EstadisticasController.php en la línea 20
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(20): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 11:54:26]  Excepción no controlada: 'Undefined offset: 2' en el archivo EstadisticasController.php en la línea 20
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(20): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 11:54:28]  Excepción no controlada: 'Undefined offset: 2' en el archivo EstadisticasController.php en la línea 20
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(20): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 11:54:54]  Excepción no controlada: 'Undefined offset: 2' en el archivo EstadisticasController.php en la línea 20
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(20): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 11:55:49]  Excepción no controlada: 'Undefined offset: 2' en el archivo EstadisticasController.php en la línea 20
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(20): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 11:56:36]  Excepción no controlada: 'Undefined offset: 2' en el archivo EstadisticasController.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 11:56:54]  Excepción no controlada: 'Undefined offset: 0' en el archivo estadisticas.php en la línea 29
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(29): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(61): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-12 11:57:43]  Excepción no controlada: 'Undefined offset: 2' en el archivo EstadisticasController.php en la línea 20
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(20): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 11:58:13]  Excepción no controlada: 'Undefined offset: 2' en el archivo EstadisticasController.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 11:58:27]  Excepción no controlada: 'Undefined offset: 2' en el archivo EstadisticasController.php en la línea 21
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(21): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 21, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 11:58:54]  Excepción no controlada: 'Undefined offset: 2' en el archivo EstadisticasController.php en la línea 20
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(20): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 11:59:37]  Excepción no controlada: 'Undefined offset: 2' en el archivo EstadisticasController.php en la línea 20
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(20): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 12:00:09]  Excepción no controlada: 'Undefined variable: i' en el archivo EstadisticasController.php en la línea 18
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(18): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 12:00:18]  Excepción no controlada: 'Undefined offset: 2' en el archivo EstadisticasController.php en la línea 24
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(24): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 24, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 12:01:44]  Excepción no controlada: 'Undefined offset: 2' en el archivo EstadisticasController.php en la línea 20
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(20): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 20, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-12 12:06:30]  Excepción no controlada: 'Undefined offset: 2' en el archivo estadisticas.php en la línea 35
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(35): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(71): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-12 12:06:35]  Excepción no controlada: 'Undefined offset: 2' en el archivo estadisticas.php en la línea 35
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(35): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(71): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-12 12:07:07]  Excepción no controlada: 'Undefined offset: 2' en el archivo estadisticas.php en la línea 35
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(35): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 35, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(73): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-12 12:08:16]  Excepción no controlada: 'Undefined offset: 5' en el archivo estadisticas.php en la línea 44
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(44): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(71): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-12 12:08:46]  Excepción no controlada: 'Undefined offset: 5' en el archivo estadisticas.php en la línea 44
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(44): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(71): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-12 12:09:15]  Excepción no controlada: 'Undefined offset: 5' en el archivo estadisticas.php en la línea 44
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(44): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(71): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-12 12:09:28]  Excepción no controlada: 'Undefined offset: 5' en el archivo estadisticas.php en la línea 44
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(44): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(71): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
 
