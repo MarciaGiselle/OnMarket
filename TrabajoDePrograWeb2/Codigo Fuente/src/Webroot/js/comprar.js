@@ -148,13 +148,13 @@ confirmar.click(function () {
 });
 
 function compraExitosa(dummy) {
-    alertify.alert("¡Compra Exitosa!", "Espere unos segundos y será redireccionado a una página de valoraciones al vendedor");
+    alertify.alert("¡Compra Exitosa!", "Espere unos segundos y podrá ver sus compras");
 
     setTimeout(function () {
 
         window.location.href = pathMisCompras;
 
-    }, 5000);
+    }, 3000);
 
 }
 

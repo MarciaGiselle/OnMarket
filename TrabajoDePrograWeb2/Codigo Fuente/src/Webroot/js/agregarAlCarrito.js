@@ -8,7 +8,6 @@ agregar.click(function () {
     //  obj.precio = $("#precio").val();
     obj.cantidad = $("#cantidad").val();
     obj.idProducto = $("#idProducto").val();
-    obj.metodo = $("input[name='entrega']:checked").val();
     obj.idVendedor = $("#idVendedor").val();
 
     llamadaAjax(pathCarrito, JSON.stringify(obj), true, "AgregarAlCarritoExitosa", "AgregrarAlCarritoFallida");

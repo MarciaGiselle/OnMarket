@@ -53,7 +53,7 @@ class Categoria extends Model
 
     public function traerCategoriaPorPk($p){
 
-        $resultado=$this->pageRows(0,1, "id=$p");
+        $resultado=$this->pageRows(0,1, "idCategoria=$p");
         return $resultado[0];
     }
 

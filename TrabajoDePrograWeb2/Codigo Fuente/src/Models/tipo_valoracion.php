@@ -24,6 +24,11 @@ class tipo_valoracion extends Model{
         return $resultado[0]["descripcion"];
 
     }
+    public function determinarTipoInicial(){
+        //top
+        return 1;
+    }
+
 
     /**
      * @return mixed

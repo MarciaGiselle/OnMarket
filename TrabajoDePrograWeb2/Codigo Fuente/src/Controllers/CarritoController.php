@@ -18,32 +18,25 @@ class CarritoController extends Controller
             $formaentrega=new FormaEntrega();
             $productosEncontrados = [];
             $cantidades = [];
-            $metodosDeEntrega = [];
+
             $arrayCarritoProducto = [];
-            var_dump($_SESSION["carrito"]);
 
             for ($i = 0; $i < count($_SESSION["carrito"]); $i++) {
                 $pk = $_SESSION["carrito"][$i]["id"];
-                echo $pk;
                 array_push($productosEncontrados, $productoABuscar->filasPorPk($pk));
             }
             for ($i = 0; $i < count($_SESSION["carrito"]); $i++) {
                 $cantidad = $_SESSION["carrito"][$i]["cantidad"];
                 array_push($cantidades, $cantidad);
             }
-            for($i = 0; $i < count($_SESSION["carrito"]); $i++){
-                $metodo=$formaentrega->traerEntrega( $_SESSION["carrito"][$i]["metodo"]);
-                array_push( $metodosDeEntrega,$metodo);
-            }
 
             for ($i = 0; $i < count($_SESSION["carrito"]); $i++) {
                 $producto = $productosEncontrados[$i];
                 $cantidad = $cantidades[$i];
-                $metodo=$metodosDeEntrega[$i];
                 $arrayProducto = [
                     "producto" => $producto,
                     "cantidad" => $cantidad,
-                    "metodo" => $metodo];
+                    ];
                 array_push($arrayCarritoProducto, $arrayProducto);
 
             }
@@ -61,18 +54,16 @@ class CarritoController extends Controller
         $data = json_decode(utf8_decode($idProducto['data']));
         $idVendedor=$data->idVendedor;
         if($_SESSION["logueado"] != $idVendedor) {
-            var_dump($data);
             $id = $data->idProducto;
             $cantidad = $data->cantidad;
-            $metodo = $data->metodo;
 
             if (isset($_SESSION["logueado"])) {
                 if (!isset($_SESSION["carrito"])) {
                     $_SESSION["carrito"] = array();
-                    $array = ["id" => $id, "cantidad" => $cantidad, "metodo" => $metodo];
+                    $array = ["id" => $id, "cantidad" => $cantidad];
                     array_push($_SESSION["carrito"], $array);
                 } else {
-                    $array = ["id" => $id, "cantidad" => $cantidad, "metodo" => $metodo];
+                    $array = ["id" => $id, "cantidad" => $cantidad];
                     array_push($_SESSION["carrito"], $array);
                 }
 

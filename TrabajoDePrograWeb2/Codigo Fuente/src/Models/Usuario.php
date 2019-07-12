@@ -20,6 +20,27 @@ class Usuario extends Model
      private $estado;
     private $idTipo;
 
+    public  function insertarRegistro(){
+
+        $array=[
+
+            "name"=> $this->getName(),
+            "lastname"=> $this->getLastname(),
+            "password"=>$this->getPassword(),
+            "cuit"=>$this->getCuit(),
+            "email"=>$this->getEmail(),
+            "userName"=>$this->getUserName(),
+            "sexo"=>$this->getSexo(),
+            "rol"=>$this->getRol(),
+            "estado"=>$this->getEstado(),
+            "idTipo"=> $this->getIdTipo()
+
+        ];
+
+        $this->setId($this->insert($array));
+        return $this->getId();
+
+    }
 
     function buscarUsuario(){
     $resultado=$this->pageRows(0,1,"name= '$this->name' and password='$this->password'");
@@ -211,27 +232,7 @@ class Usuario extends Model
     /**
      *
      */
-    public  function insertarRegistro(){
 
-     $array=[
-
-            "name"=> $this->getName(),
-         "lastname"=> $this->getLastname(),
-         "password"=>$this->getPassword(),
-         "cuit"=>$this->getCuit(),
-         "email"=>$this->getEmail(),
-          "userName"=>$this->getUserName(),
-           "sexo"=>$this->getSexo(),
-            "rol"=>$this->getRol(),
-         "estado"=>$this->getEstado(),
-
-
-        ];
-
-        $this->setId($this->insert($array));
-        return $this->getId();
-
-   }
 
 
    public function buscarUsuariosPorUserName($nombre){

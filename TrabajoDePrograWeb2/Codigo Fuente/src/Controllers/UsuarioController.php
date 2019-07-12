@@ -89,6 +89,7 @@ class UsuarioController extends Controller
             $producto = new Producto();
             $publicacion = new Publicacion();
             $usuario = new Usuario();
+            $cuenta = new Cuenta();
 
 
             $tarjeta->setIdUser($idUser);
@@ -101,16 +102,15 @@ class UsuarioController extends Controller
             if (isset($idTarjeta)) {
                 $cobranza = new cobranza();
 
-
                 //    for para recorrer el array de ids e insertarlos
                 $tope = count($_SESSION["carrito"]);
 
                 for ($i = 0; $i < $tope; $i++) {
                     //parte para las estadisticas
-                    $prod=new Producto();
+                   /* $prod=new Producto();
                     $productoCompra=$prod->buscarUnProductoPorPk($_SESSION["carrito"][$i]["id"]);
                     //metodo de estadisticas
-                    $this->realizarEstadisticas( $productoCompra);
+                    $this->realizarEstadisticas( $productoCompra);*/
 
                     //realizar compra
                     $cobranza->setIdTarjeta($idTarjeta);
@@ -119,20 +119,28 @@ class UsuarioController extends Controller
                     $cobranza->setIdComprador($_SESSION["logueado"]);
                     $cobranza->setIdProducto($_SESSION["carrito"][$i]["id"]);
                     $cobranza->setCantidad($_SESSION["carrito"][$i]["cantidad"]);
-                    $metodo=$_SESSION["carrito"][$i]["metodo"];
 
                    // if($metododo=1){$this->enviarMensajeAlVendedor("Acordar con el vendedor",$email,$_SESSION["carrito"][$i]["id"]);}
                    // if($metododo=2){$this->enviarMensajeAlVendedor("Envio por correo ",$direccion,$_SESSION["carrito"][$i]["id"]);}
+
+                    //vendedor
                     $prodEncontrado = $producto->buscarUnProductoPorPk($cobranza->getIdProducto());
                     $publicEncontrada = $publicacion->traerPublicaciondelProducto($prodEncontrado["id"]);
                     $vendedor= $usuario->traerUserPorPk($publicEncontrada["id_user"]);
 
+                    $cuentaVendedor =  $cuenta->consultarCuenta($vendedor["id"]);
+                    $cuenta->setId($cuentaVendedor["id"]);
                     $cobranza->setIdVendedor($vendedor["id"]);
+                    $cobranza->setIdCuenta($cuentaVendedor["id"]);
+
 
                     $idCobranza = $cobranza->insertarCobranza();
                 }
 
                 if (isset($idCobranza)) {
+
+                $cuenta->realizarDeposito($cuentaVendedor,$total);
+                $cuenta->actualizarComisiones($cuentaVendedor);
                 unset($_SESSION["carrito"]);
                 }
             }
@@ -150,7 +158,7 @@ class UsuarioController extends Controller
 
     function realizarEstadisticas( $productoCompra){
         $categoria=new Categoria();
-        $categoriaProd=$categoria->traerCategoriaPorPk($productoCompra["idCategoria"]);
+        $categoriaProd=$categoria->traerCategoriaPorPk($productoCompra["id"]);
 
         if(empty($categoriaProd["id_estadistica"])){
 

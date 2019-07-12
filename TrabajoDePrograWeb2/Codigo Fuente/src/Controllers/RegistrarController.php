@@ -19,6 +19,8 @@ class RegistrarController extends Controller
 
         $usuario = new Usuario();
         $rol = new Rol();
+        $valoracion = new tipo_valoracion();
+
         $usuario->setName($datos->nombre);
         $usuario->setLastname($datos->apellido);
         $usuario->setUserName($datos->nombreUsuario);
@@ -35,7 +37,10 @@ class RegistrarController extends Controller
         }
 
         $rolASetear = $rol->determinarRol();
+        $valoracionASetear= $valoracion->determinarTipoInicial();
+
         $usuario->setRol($rolASetear);
+        $usuario->setIdTipo($valoracionASetear);
 
         $pass = $datos->pass;
         $pass2 = $datos->pass2;
@@ -52,6 +57,8 @@ class RegistrarController extends Controller
             $passSHA = sha1($pass2);
             $usuario->setPassword($passSHA);
             $usuario->setEstado(1);
+
+
             $id_user = $usuario->insertarRegistro();
             $_SESSION["logueado"] = $id_user;
 
@@ -80,8 +87,10 @@ class RegistrarController extends Controller
     }
 
     function crearCuenta($id){
-
-
+        $cuenta = new Cuenta();
+        $cuenta->setIdUsuario($id);
+        $cuenta->setMonto(0);
+        $cuenta->insertarCuenta();
     }
 
 }

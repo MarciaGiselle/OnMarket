@@ -11,6 +11,8 @@ class cobranza extends Model
     private $total;
     private $idComprador;
     private $idVendedor;
+    private $idCuenta;
+
 
  public function traerTodosLosIdDeProdDeLaCobranzas(){
      $resultado= $this->pageRows(0,400);
@@ -50,6 +52,7 @@ class cobranza extends Model
             "idComprador"=>$this->getIdComprador(),
             "cantidad"=>$this->getCantidad(),
             "total"=>$this->getTotal(),
+            "idCuenta" => $this->getIdCuenta(),
         ] ;
         $this->setId($this->insert($array));
         return $this->getId();
@@ -187,6 +190,22 @@ class cobranza extends Model
     public function setCantidad($cantidad)
     {
         $this->cantidad = $cantidad;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getIdCuenta()
+    {
+        return $this->idCuenta;
+    }
+
+    /**
+     * @param mixed $idCuenta
+     */
+    public function setIdCuenta($idCuenta)
+    {
+        $this->idCuenta = $idCuenta;
     }
 
 

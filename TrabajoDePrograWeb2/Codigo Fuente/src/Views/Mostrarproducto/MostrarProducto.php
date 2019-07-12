@@ -65,18 +65,25 @@ if(isset($_SESSION["logueado"])){
 
                 <label class="text-secondary d-inline" for="descripcion">Descripción:</label>
                 <h6 id="descripcion"><?php echo $resultado["descripcion"]; ?></h6>
+
               <div>
-                <h6>Metodo de entrega</h6>
+                  <hr>
+                  <label class="text-secondary d-inline">Métodos de entrega:</label>
+   <br>
 
-                <?php
+                  <?php
 
-                          if(count($entrega)==1){
-                              echo '  <input  type="radio" name="entrega" value="'.$entrega[0]["idEntrega"].'" checked >'.$entrega[0]["descripcion"];
-                          }else {
-                              echo '  <input  type="radio" name="entrega" id="entrega"  value="' . $entrega[0]["idEntrega"] . '" >' . $entrega[0]["descripcion"];
-                              echo '  <input  type="radio" name="entrega" id="entrega"  value="' . $entrega[1]["idEntrega"] . '">' . $entrega[1]["descripcion"];
-                          }
+                if (count($entrega) == 1) {
 
+                    echo '<input type="checkbox" name="entrega[]" value="' . $entrega[0]["idEntrega"] . '" checked disabled>
+                            <h6 class="d-inline-flex">Acordar con el vendedor</h6>';
+                } else {
+                    echo '<input  type="checkbox" name="entrega[]" value="' . $entrega[0]["idEntrega"] . '" checked disabled>
+                            <h6 class="d-inline-flex">Acordar con el vendedor</h6>
+                             <br>
+                            <input type="checkbox" name="entrega[]" value="' . $entrega[1]["idEntrega"] . '" checked disabled>
+                             <h6 class="d-inline-flex">Acordar envio por correo</h6>';
+                }
 
                 ?>
 
