@@ -140,7 +140,7 @@ class UsuarioController extends Controller
                 if (isset($idCobranza)) {
 
                 $cuenta->realizarDeposito($cuentaVendedor,$total);
-                $cuenta->actualizarComisiones($cuentaVendedor);
+
                 unset($_SESSION["carrito"]);
                 }
             }

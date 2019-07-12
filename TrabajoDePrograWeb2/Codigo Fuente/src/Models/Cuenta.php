@@ -26,13 +26,22 @@ class Cuenta extends Model
         return $resultado[0];
 
     }
-    
+
     function realizarDeposito($cuenta,$montoADepositar){
-    $m=$this->setMonto(($cuenta["monto"])+$montoADepositar);
-    echo $m;
+        $porcentajeComision = 0.04;
+        $fecha_actual = date("y-m-d");
+        $m=$cuenta["monto"]+$montoADepositar;
+        $calculoComision = $m * $porcentajeComision;
+
+        $this->setMonto(round(($m-$calculoComision)*100)/100);
+        $this->setComisionAlSistema(round(($calculoComision)*100)/100);
+        $this->setFechaDeposito($fecha_actual);
+
         $array=[
             "id"=> $this->getId(),
             "monto"=>$this->getMonto(),
+            "comisionAlSistema"=> $this->getComisionAlSistema(),
+            "fecha_deposito"=> $this->getFechaDeposito()
         ] ;
         $this->update($array);
     }

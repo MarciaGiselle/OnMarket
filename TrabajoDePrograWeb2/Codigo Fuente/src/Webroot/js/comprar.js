@@ -154,7 +154,7 @@ function compraExitosa(dummy) {
 
         window.location.href = pathMisCompras;
 
-    }, 3000);
+    }, 1000);
 
 }
 

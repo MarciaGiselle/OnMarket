@@ -90,6 +90,7 @@ class RegistrarController extends Controller
         $cuenta = new Cuenta();
         $cuenta->setIdUsuario($id);
         $cuenta->setMonto(0);
+        $cuenta->setComisionAlSistema(0);
         $cuenta->insertarCuenta();
     }
 
