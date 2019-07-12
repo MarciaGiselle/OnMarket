@@ -89,8 +89,9 @@ class UsuarioController extends Controller
             $producto = new Producto();
             $publicacion = new Publicacion();
             $usuario = new Usuario();
+            $cuenta = new Cuenta();
 
-
+            //tarjeta
             $tarjeta->setIdUser($idUser);
             $tarjeta->setCodSeguridad($codigo);
             $tarjeta->setNumero($numeroTarjeta);
@@ -100,6 +101,7 @@ class UsuarioController extends Controller
 
             if (isset($idTarjeta)) {
                 $cobranza = new cobranza();
+                $idCuenta =  $cuenta->consultarCuenta($idUser);
 
 
                 //    for para recorrer el array de ids e insertarlos
@@ -112,6 +114,10 @@ class UsuarioController extends Controller
                     //metodo de estadisticas
                     $this->realizarEstadisticas( $productoCompra);
 
+                    $prodEncontrado = $producto->buscarUnProductoPorPk($cobranza->getIdProducto());
+                    $publicEncontrada = $publicacion->traerPublicaciondelProducto($prodEncontrado["id"]);
+                    $vendedor= $usuario->traerUserPorPk($publicEncontrada["id_user"]);
+
                     //realizar compra
                     $cobranza->setIdTarjeta($idTarjeta);
                     $cobranza->setFecha($fecha_actual);
@@ -119,15 +125,13 @@ class UsuarioController extends Controller
                     $cobranza->setIdComprador($_SESSION["logueado"]);
                     $cobranza->setIdProducto($_SESSION["carrito"][$i]["id"]);
                     $cobranza->setCantidad($_SESSION["carrito"][$i]["cantidad"]);
-                    $metodo=$_SESSION["carrito"][$i]["metodo"];
+                    $cobranza->setIdCuenta($idCuenta);
+                    $cobranza->setIdVendedor($vendedor["id"]);
 
+                    $metodo=$_SESSION["carrito"][$i]["metodo"];
                    // if($metododo=1){$this->enviarMensajeAlVendedor("Acordar con el vendedor",$email,$_SESSION["carrito"][$i]["id"]);}
                    // if($metododo=2){$this->enviarMensajeAlVendedor("Envio por correo ",$direccion,$_SESSION["carrito"][$i]["id"]);}
-                    $prodEncontrado = $producto->buscarUnProductoPorPk($cobranza->getIdProducto());
-                    $publicEncontrada = $publicacion->traerPublicaciondelProducto($prodEncontrado["id"]);
-                    $vendedor= $usuario->traerUserPorPk($publicEncontrada["id_user"]);
 
-                    $cobranza->setIdVendedor($vendedor["id"]);
 
                     $idCobranza = $cobranza->insertarCobranza();
                 }
