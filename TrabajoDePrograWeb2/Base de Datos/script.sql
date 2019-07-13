@@ -321,6 +321,23 @@ CREATE TABLE `publicacion_entrega`
 
 -- --------------------------------------------------------
 
+
+CREATE TABLE mes
+(
+    `id`     integer     NOT NULL AUTO_INCREMENT,
+    `nombre` varchar(20) NOT NULL,
+    constraint PK_Mes primary key (id)
+);
+
+CREATE TABLE year
+(
+    `id`   integer NOT NULL AUTO_INCREMENT,
+    `year` year    NOT NULL,
+    constraint PK_year primary key (id)
+);
+
+
+
 --
 -- Estructura de tabla para la tabla `liquidacion`
 --
@@ -328,10 +345,14 @@ CREATE TABLE `publicacion_entrega`
 CREATE TABLE `liquidacion`
 (
     `id`                integer NOT NULL AUTO_INCREMENT,
-    `fecha_liquidacion` date    NOT NULL,
+    `fecha_liquidacion` datetime    NOT NULL,
     `total`             double  NOT NULL,
-    `ganancia`          double DEFAULT NULL,
-    constraint PK_Liquidacion primary key (id)
+    `ganancia`          double  NOT NULL,
+    `idYear`            integer NOT NULL,
+    `idMes`             integer NOT NULL,
+    constraint PK_Liquidacion primary key (id),
+    constraint FK_Liquidacion_Y foreign key (idMes) references mes (id),
+    constraint FK_Liquidacion_M foreign key (idYear) references year (id)
 );
 
 
@@ -379,14 +400,13 @@ CREATE TABLE `cuenta_liquidacion`
 
 CREATE TABLE rango_montos
 (
-    id       int not null AUTO_INCREMENT,
-    desde    int not null,
-    hasta    int not null,
-    id_estadistica int ,
+    id             integer not null AUTO_INCREMENT,
+    desde          int not null,
+    hasta          int not null,
+    id_estadistica integer,
     primary key (id),
-    FOREIGN Key(id_estadistica) references estadisticas(id)
+    FOREIGN Key (id_estadistica) references estadisticas (id)
 );
-
 
 
 
@@ -558,3 +578,21 @@ VALUES (0, 500),
        (1000, 1500),
        (1500, 3000),
        (3000, 10000);
+
+INSERT INTO mes (id, nombre)
+VALUES (1, 'enero'),
+       (2, 'febrero'),
+       (3, 'marzo'),
+       (4, 'abril'),
+       (5, 'mayo'),
+       (6, 'junio'),
+       (7, 'julio'),
+       (8, 'agosto'),
+       (9, 'septiembre'),
+       (10, 'octubre'),
+       (11, 'noviembre'),
+       (12, 'diciembre');
+
+INSERT INTO year (year)
+values (2018),
+       (2019);
