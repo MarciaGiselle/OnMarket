@@ -11213,3 +11213,49 @@ StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Co
 #3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #4 {main}
 
+[2019-07-13 11:08:28]  Excepción no controlada: 'Cannot use object of type Rango_montos as array' en el archivo UsuarioController.php en la línea 171
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\UsuarioController.php(123): UsuarioController->estadisticasMontos('150')
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->realizarCompra(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-13 11:16:34]  Excepción no controlada: 'Undefined variable: arrayCantCat' en el archivo estadisticas.php en la línea 100
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(100): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(71): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 11:17:05]  Excepción no controlada: 'Undefined variable: arrayCantCat' en el archivo estadisticas.php en la línea 100
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(100): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(72): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 11:17:59]  Excepción no controlada: 'Undefined variable: arrayCantCat' en el archivo estadisticas.php en la línea 100
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(100): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(71): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 11:18:46]  Excepción no controlada: 'Undefined variable: arrayCantCat' en el archivo estadisticas.php en la línea 101
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(101): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 101, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(71): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 11:19:21]  Excepción no controlada: 'Undefined variable: arrayCantCat' en el archivo estadisticas.php en la línea 17
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Estadisticas\estadisticas.php(17): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\EstadisticasController.php(71): Controller->render('estadisticas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): EstadisticasController->estadisticas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+

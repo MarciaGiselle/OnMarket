@@ -26,7 +26,9 @@ class Estadisticas extends Model
         return   $this->getFieldsAsdProd("cantidad",5,2);
     }
 
-
+    public function traerEstasdisticasMontos(){
+        return   $this->getFieldsAsdProd("cantidad",5,3);
+    }
 
 
 

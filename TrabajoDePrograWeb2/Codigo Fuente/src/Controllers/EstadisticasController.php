@@ -11,7 +11,7 @@ class EstadisticasController extends Controller
         $estadistica = new Estadisticas();
         $registrosProd = $estadistica->traerEstasdisticasProd();
 
-
+       //parte de producto
         $producto = new Producto();
         $ArrayProd = [];
         $ArrayCant = [];
@@ -35,10 +35,7 @@ class EstadisticasController extends Controller
         $d["arrayProd"] = $ArrayProd;
         $d["arrayCant"] = $ArrayCant;
 
-
-
-
-
+        //parte de categoria
         $categoria=new Categoria();
 
         $arrayCantCat = [];
@@ -53,12 +50,23 @@ class EstadisticasController extends Controller
                 array_push($arrayCantCat, 0 );
             }
         }
-         // $d["arrayCat"] = $arrayCat;
         $d["arrayCantCat"] = $arrayCantCat;
 
+        //parte de montos
+        $arrayCantMontos = [];
         $rango=new Rango_montos();
         $rangos=$rango->traerTodas();
-        $d["arrayMontos"] = $rangos;
+        foreach ($rangos as $rango){
+            if(!empty($rango["id_estadistica"])){
+                $estadisticaDeMontos=$estadistica->traerEstadistica($rango["id_estadistica"],3);
+                array_push($arrayCantMontos, $estadisticaDeMontos["cantidad"] );
+            }else{
+                array_push($arrayCantMontos, 0 );
+            }
+        }
+
+
+        $d["arrayMontos"] = $arrayCantMontos;
         $this->set($d);
         $this->render(Constantes::ESTADISTICASVIEW);
 
