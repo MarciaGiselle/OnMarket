@@ -30,11 +30,10 @@ class Cuenta extends Model
     function realizarDeposito($cuenta,$montoADepositar){
         $porcentajeComision = 0.04;
         $fecha_actual = date("y-m-d");
-        $m=$cuenta["monto"]+$montoADepositar;
-        $calculoComision = $m * $porcentajeComision;
-
-        $this->setMonto(round(($m-$calculoComision)*100)/100);
-        $this->setComisionAlSistema(round(($calculoComision)*100)/100);
+        $calculoComision = $montoADepositar * $porcentajeComision;
+        $m = $montoADepositar - $calculoComision;
+        $this->setMonto(round(($m+$cuenta["monto"])*100)/100);
+        $this->setComisionAlSistema(round(($calculoComision+$cuenta["comisionAlSistema"])*100)/100);
         $this->setFechaDeposito($fecha_actual);
 
         $array=[

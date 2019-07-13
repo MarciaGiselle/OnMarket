@@ -132,8 +132,9 @@ class UsuarioController extends Controller
                     $cuenta->setId($cuentaVendedor["id"]);
                     $cobranza->setIdVendedor($vendedor["id"]);
 
+                    $precio= $cobranza->getCantidad()*$prodEncontrado["precio"];
                     $cobranza->setIdCuenta($cuentaVendedor["id"]);
-                    $cuenta->realizarDeposito($cuentaVendedor,$prodEncontrado["precio"]);
+                    $cuenta->realizarDeposito($cuentaVendedor,$precio);
 
                     $idCobranza = $cobranza->insertarCobranza();
                 }
