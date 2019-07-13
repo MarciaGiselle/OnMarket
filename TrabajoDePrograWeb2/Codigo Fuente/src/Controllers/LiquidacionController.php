@@ -19,7 +19,7 @@ class LiquidacionController extends Controller
 
         $cobranza = new Cobranza();
         $liquidacion = new Liquidacion();
-        
+
         $facturacion = 0;
         $fecha_actual = date("y-m-d");
         $estado= $liquidacion->consultarEstadoDeLiquidacion($mes,$year);
