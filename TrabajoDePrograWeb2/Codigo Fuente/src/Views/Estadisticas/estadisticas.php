@@ -14,6 +14,7 @@ if(isset($_SESSION["logueado"])){
 }else{
     include_once ("navNoLogueado.php");
 }
+
 ?>
 
 
@@ -166,23 +167,23 @@ if(isset($_SESSION["logueado"])){
 
     chart5.data = [{
         "year": " $0-$500",
-        "income": <?php echo $arrayMontos[0]["cantidad"] ?>,
+        "income": <?php echo $arrayMontos[0] ?>,
 
     }, {
         "year": "$500-$1000",
-        "income": <?php echo $arrayMontos[1]["cantidad"] ?>,
+        "income": <?php echo $arrayMontos[1] ?>,
 
     }, {
         "year": " $1000-$1500",
-        "income": <?php echo $arrayMontos[2]["cantidad"] ?>,
+        "income": <?php echo $arrayMontos[2] ?>,
 
     }, {
         "year": " $1500-3000",
-        "income": <?php echo $arrayMontos[3]["cantidad"] ?>,
+        "income": <?php echo $arrayMontos[3] ?>,
 
     }, {
         "year": " $3000-$10000",
-        "income": <?php echo $arrayMontos[4] ["cantidad"]?>,
+        "income": <?php echo $arrayMontos[4] ?>,
 
     }];
 

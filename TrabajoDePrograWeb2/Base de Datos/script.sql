@@ -382,8 +382,9 @@ CREATE TABLE rango_montos
     id       int not null AUTO_INCREMENT,
     desde    int not null,
     hasta    int not null,
-    cantidad int not null,
-    primary key (id)
+    id_estadistica int ,
+    primary key (id),
+    FOREIGN Key(id_estadistica) references estadisticas(id)
 );
 
 
@@ -551,9 +552,9 @@ VALUES (1, '2019-07-12', 0, 0, 1),
        (7, '2019-07-12', 0, 0, 7)
 ;
 
-INSERT INTO `rango_montos`(`desde`, `hasta`, `cantidad`)
-VALUES (0, 500, 0),
-       (500, 1000, 0),
-       (1000, 1500, 0),
-       (1500, 3000, 0),
-       (3000, 10000, 0);
+INSERT INTO `rango_montos`(`desde`, `hasta`)
+VALUES (0, 500),
+       (500, 1000),
+       (1000, 1500),
+       (1500, 3000),
+       (3000, 10000);

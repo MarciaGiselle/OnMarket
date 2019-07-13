@@ -161,10 +161,28 @@ $rangos=$rango->traerTodas();
 
 foreach($rangos as $rango){
     if($total>=$rango["desde"]&& $total<$rango["hasta"]){
-         $nuevoRango=new Rango_montos();
-         $nuevoRango->setId($rango["id"]);
-         $nuevoRango->setCantidad($rango["cantidad"]+1);
-         $nuevoRango->actualizar();
+        if(empty($rango["id_estadistica"])){
+            $rangoNuevo=new Rango_montos();
+            $estadistica=new Estadisticas();
+            $estadistica->setCantidad(1);
+            $estadistica->setIdTipo(3);
+            $idEstadistica=$estadistica->insertarEstadistica();
+
+            $rangoNuevo->setId( $rango["id"]);
+            $rangoNuevo->setIdEstadistica($idEstadistica);
+            $rangoNuevo->insertarEstadisticasAlMonto();
+        }else{
+            // se agrega a la estadistica
+            $estadistic=new Estadisticas();
+
+            $estadisticaDelMonto=$estadistic->traerEstadistica($rango["id_estadistica"],3);
+             $estadistic->setId($estadisticaDelMonto["id"]);
+            $cantidad=$estadisticaDelMonto["cantidad"]+1;
+
+            $estadistic->setCantidad($cantidad);
+            $estadistic->actualizarEstadistica();
+        }
+
     }
 }
 

@@ -13,10 +13,7 @@ class Categoria extends Model
             "id_estadistica"=>$this->getIdEstadistica(),
         ] ;
         $this->update($array);
-
-
-
-    }
+  }
     function traerCatPorIdEstadistica($pk){
         $resultado=$this->pageRows(0,1, "id_estadistica= $pk ");
 

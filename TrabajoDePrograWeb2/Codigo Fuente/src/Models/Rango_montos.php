@@ -6,7 +6,8 @@ class Rango_montos extends Model
 private $id;
 private $desde;
 private $hasta;
-private $cantidad;
+
+private $id_estadistica;
 
 function traerTodas(){
     $resultado=$this->pageRows(0,10);
@@ -18,17 +19,13 @@ function traerTodas(){
 
         return $resultado[0];
     }
-function actualizar(){
-    $array=[
-        "id"=> $this->getId(),
-        "cantidad"=>$this->getCantidad(),
-    ] ;
-    $this->update($array);
-    return $this->getId();
-
-}
-
-
+    function insertarEstadisticasAlMonto(){
+        $array=[
+            "id"=> $this->getId(),
+            "id_estadistica"=>$this->getIdEstadistica(),
+        ] ;
+        $this->update($array);
+    }
 
     /**
      * @return Database
@@ -97,18 +94,27 @@ function actualizar(){
     /**
      * @return mixed
      */
-    public function getCantidad()
+    public function getIdEstadistica()
     {
-        return $this->cantidad;
+        return $this->id_estadistica;
     }
 
     /**
-     * @param mixed $cantidad
+     * @param mixed $id_estadistica
      */
-    public function setCantidad($cantidad)
+    public function setIdEstadistica($id_estadistica)
     {
-        $this->cantidad = $cantidad;
+        $this->id_estadistica = $id_estadistica;
     }
+/*function actualizar(){
+    $array=[
+        "id"=> $this->getId(),
+        "cantidad"=>$this->getCantidad(),
+    ] ;
+    $this->update($array);
+    return $this->getId();
+
+}*/
 
 
 
