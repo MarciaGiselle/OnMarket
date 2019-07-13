@@ -834,14 +834,3 @@ COMMIT;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 --tabla de montos
-CREATE TABLE rango_montos(
-id int not null AUTO_INCREMENT,
-desde int not null,
-hasta int not null,
-cantidad int not null,
-primary key(id)
-);
-
-
-INSERT INTO `rango_montos`( `desde`, `hasta`, `cantidad`)
-VALUES (0,500,0),(500,1000,0),(1000,1500,0),(1500,3000,0),(3000,10000,0);
