@@ -41393,3 +41393,584 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-07-12 21:01:35]  select * from Producto  where id= 114  limit 0, 100
 [2019-07-12 21:01:36]  DESC FormaEntrega
 [2019-07-12 21:02:20]  DESC FormaEntrega
+[2019-07-12 21:11:47]  DESC tarjeta_de_credito
+[2019-07-12 21:11:47]  DESC Producto
+[2019-07-12 21:11:47]  DESC Publicacion
+[2019-07-12 21:11:47]  DESC Usuario
+[2019-07-12 21:11:47]  DESC Cuenta
+[2019-07-12 21:11:47]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`numero`,`fecha_vencimiento`) VALUES ('','14','456','7777888899994444','2019-07-31')
+[2019-07-12 21:11:47]  DESC cobranza
+[2019-07-12 21:11:47]  select * from Producto  where id=112 limit 0, 1
+[2019-07-12 21:11:47]  select * from Publicacion  where id_Producto=112 limit 0, 1
+[2019-07-12 21:11:47]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:47]  select * from Cuenta  where idUsuario= 4 limit 0, 1
+[2019-07-12 21:11:47]  UPDATE `Cuenta` SET `monto`='2036',`comisionAlSistema`='84.83',`fecha_deposito`='19-07-12' WHERE `id`=3
+[2019-07-12 21:11:47]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`idVendedor`,`idComprador`,`cantidad`,`total`,`idCuenta`) VALUES ('40','19-07-12','112','4','14','1','1350','3')
+[2019-07-12 21:11:47]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:11:47]  select * from Publicacion  where id_Producto=114 limit 0, 1
+[2019-07-12 21:11:47]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:11:47]  select * from Cuenta  where idUsuario= 7 limit 0, 1
+[2019-07-12 21:11:47]  UPDATE `Cuenta` SET `monto`='2396.16',`comisionAlSistema`='99.84',`fecha_deposito`='19-07-12' WHERE `id`=4
+[2019-07-12 21:11:47]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`idVendedor`,`idComprador`,`cantidad`,`total`,`idCuenta`) VALUES ('40','19-07-12','114','7','14','1','1350','4')
+[2019-07-12 21:11:48]  DESC cobranza
+[2019-07-12 21:11:49]  DESC Producto
+[2019-07-12 21:11:49]  DESC Usuario
+[2019-07-12 21:11:49]  DESC tarjeta_de_credito
+[2019-07-12 21:11:49]  DESC valoracion
+[2019-07-12 21:11:49]  select * from cobranza  where idComprador=14 limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=70 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='25' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='4' and idProducto='70' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=108 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='26' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='4' and idProducto='108' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=70 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='27' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='4' and idProducto='70' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=77 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='28' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='4' and idProducto='77' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=77 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='29' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='4' and idProducto='77' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=77 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='30' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='4' and idProducto='77' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=59 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='31' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='4' and idProducto='59' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=59 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='32' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='4' and idProducto='59' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=77 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='33' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='4' and idProducto='77' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=77 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='34' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='4' and idProducto='77' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=77 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='35' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='4' and idProducto='77' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=70 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='36' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='4' and idProducto='70' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=77 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='37' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='4' and idProducto='77' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=77 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='38' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='4' and idProducto='77' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=77 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='38' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='4' and idProducto='77' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=112 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='39' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='4' and idProducto='112' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='39' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='7' and idProducto='114' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=112 limit 0, 1
+[2019-07-12 21:11:49]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:11:49]  select * from tarjeta_de_credito  where id='40' limit 0, 1
+[2019-07-12 21:11:49]  select * from valoracion  where idVendedor='4' and idProducto='112' and idLogueado='14' limit 0, 100
+[2019-07-12 21:11:49]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:11:50]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:11:50]  select * from tarjeta_de_credito  where id='40' limit 0, 1
+[2019-07-12 21:11:50]  select * from valoracion  where idVendedor='7' and idProducto='114' and idLogueado='14' limit 0, 100
+[2019-07-12 21:28:14]  DESC cobranza
+[2019-07-12 21:28:14]  DESC Producto
+[2019-07-12 21:28:14]  DESC Usuario
+[2019-07-12 21:28:14]  DESC tarjeta_de_credito
+[2019-07-12 21:28:14]  DESC valoracion
+[2019-07-12 21:28:14]  select * from cobranza  where idComprador=14 limit 0, 100
+[2019-07-12 21:28:26]  DESC Producto
+[2019-07-12 21:28:26]  DESC Imagen
+[2019-07-12 21:28:26]  select * from Producto  where nombre like '%dibujos%' limit 0, 100
+[2019-07-12 21:28:26]  DESC Publicacion
+[2019-07-12 21:28:26]  select * from Publicacion  where id_Producto=112 limit 0, 1
+[2019-07-12 21:28:26]  select * from Producto  where id= 112  limit 0, 100
+[2019-07-12 21:28:26]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-07-12 21:28:26]  DESC Estadisticas
+[2019-07-12 21:28:26]  DESC Producto
+[2019-07-12 21:28:26]  select * from Producto  where id=112 limit 0, 1
+[2019-07-12 21:28:26]  DESC Estadisticas
+[2019-07-12 21:28:26]  select * from Estadisticas  where id=11 and id_tipo=1 limit 0, 1
+[2019-07-12 21:28:26]  UPDATE `Estadisticas` SET `cantidad`='3' WHERE `id`=11
+[2019-07-12 21:28:27]  DESC Producto
+[2019-07-12 21:28:27]  select * from Producto  where id=112 limit 0, 1
+[2019-07-12 21:28:27]  DESC Publicacion
+[2019-07-12 21:28:27]  select * from Publicacion  where id_Producto=112 limit 0, 1
+[2019-07-12 21:28:27]  DESC localizacion
+[2019-07-12 21:28:27]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-12 21:28:27]  DESC Imagen
+[2019-07-12 21:28:27]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-07-12 21:28:27]  DESC Producto
+[2019-07-12 21:28:27]  DESC Imagen
+[2019-07-12 21:28:27]  select * from Producto  where nombre like '%Dibujos%' limit 0, 100
+[2019-07-12 21:28:27]  select * from Producto  where id= 112  limit 0, 100
+[2019-07-12 21:28:27]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-07-12 21:28:27]  DESC Publicacion_Entrega
+[2019-07-12 21:28:27]  DESC FormaEntrega
+[2019-07-12 21:28:27]  select * from Publicacion_Entrega  where idPublicacion=6 limit 0, 2
+[2019-07-12 21:28:27]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-12 21:28:27]  DESC Usuario
+[2019-07-12 21:28:28]  DESC tipo_valoracion
+[2019-07-12 21:28:28]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:28:28]  select * from tipo_valoracion  where id= 2 limit 0, 1
+[2019-07-12 21:28:38]  DESC Producto
+[2019-07-12 21:28:38]  DESC Imagen
+[2019-07-12 21:28:38]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-07-12 21:28:38]  DESC Publicacion
+[2019-07-12 21:28:38]  select * from Publicacion  where id_Producto=108 limit 0, 1
+[2019-07-12 21:28:38]  select * from Publicacion  where id_Producto=114 limit 0, 1
+[2019-07-12 21:28:38]  select * from Producto  where id= 108  limit 0, 100
+[2019-07-12 21:28:38]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-07-12 21:28:38]  select * from Producto  where id= 114  limit 0, 100
+[2019-07-12 21:28:38]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-12 21:28:38]  DESC Estadisticas
+[2019-07-12 21:28:38]  DESC Producto
+[2019-07-12 21:28:38]  select * from Producto  where id=108 limit 0, 1
+[2019-07-12 21:28:38]  DESC Estadisticas
+[2019-07-12 21:28:38]  select * from Estadisticas  where id=6 and id_tipo=1 limit 0, 1
+[2019-07-12 21:28:38]  UPDATE `Estadisticas` SET `cantidad`='11' WHERE `id`=6
+[2019-07-12 21:28:39]  DESC Producto
+[2019-07-12 21:28:39]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:28:39]  DESC Estadisticas
+[2019-07-12 21:28:39]  select * from Estadisticas  where id=10 and id_tipo=1 limit 0, 1
+[2019-07-12 21:28:39]  UPDATE `Estadisticas` SET `cantidad`='6' WHERE `id`=10
+[2019-07-12 21:28:40]  DESC Producto
+[2019-07-12 21:28:40]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:28:40]  DESC Publicacion
+[2019-07-12 21:28:40]  select * from Publicacion  where id_Producto=114 limit 0, 1
+[2019-07-12 21:28:40]  DESC localizacion
+[2019-07-12 21:28:40]  select * from localizacion  where id_user=7 limit 0, 1
+[2019-07-12 21:28:40]  DESC Imagen
+[2019-07-12 21:28:40]  select * from Imagen  where idProducto=114 limit 0, 10
+[2019-07-12 21:28:40]  DESC Producto
+[2019-07-12 21:28:40]  DESC Imagen
+[2019-07-12 21:28:40]  select * from Producto  where nombre like '%Vinilos%' limit 0, 100
+[2019-07-12 21:28:40]  select * from Producto  where id= 108  limit 0, 100
+[2019-07-12 21:28:40]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-07-12 21:28:40]  select * from Producto  where id= 114  limit 0, 100
+[2019-07-12 21:28:40]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-12 21:28:40]  DESC Publicacion_Entrega
+[2019-07-12 21:28:40]  DESC FormaEntrega
+[2019-07-12 21:28:40]  select * from Publicacion_Entrega  where idPublicacion=28 limit 0, 2
+[2019-07-12 21:28:40]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-12 21:28:40]  DESC Usuario
+[2019-07-12 21:28:40]  DESC tipo_valoracion
+[2019-07-12 21:28:40]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:28:40]  select * from tipo_valoracion  where id= 2 limit 0, 1
+[2019-07-12 21:28:45]  DESC Producto
+[2019-07-12 21:28:45]  DESC FormaEntrega
+[2019-07-12 21:28:45]  select * from Producto  where id= 112  limit 0, 100
+[2019-07-12 21:28:45]  select * from Producto  where id= 114  limit 0, 100
+[2019-07-12 21:28:57]  DESC FormaEntrega
+[2019-07-12 21:29:11]  DESC tarjeta_de_credito
+[2019-07-12 21:29:11]  DESC Producto
+[2019-07-12 21:29:11]  DESC Publicacion
+[2019-07-12 21:29:11]  DESC Usuario
+[2019-07-12 21:29:11]  DESC Cuenta
+[2019-07-12 21:29:11]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`numero`,`fecha_vencimiento`) VALUES ('','14','456','1111444477778888','2019-07-31')
+[2019-07-12 21:29:11]  DESC cobranza
+[2019-07-12 21:29:11]  select * from Producto  where id=112 limit 0, 1
+[2019-07-12 21:29:11]  select * from Publicacion  where id_Producto=112 limit 0, 1
+[2019-07-12 21:29:11]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:29:11]  select * from Cuenta  where idUsuario= 4 limit 0, 1
+[2019-07-12 21:29:11]  UPDATE `Cuenta` SET `monto`='144',`comisionAlSistema`='6',`fecha_deposito`='19-07-12' WHERE `id`=3
+[2019-07-12 21:29:11]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`idVendedor`,`idComprador`,`cantidad`,`total`,`idCuenta`) VALUES ('41','19-07-12','112','4','14','1','1350','3')
+[2019-07-12 21:29:11]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:29:11]  select * from Publicacion  where id_Producto=114 limit 0, 1
+[2019-07-12 21:29:11]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:29:11]  select * from Cuenta  where idUsuario= 7 limit 0, 1
+[2019-07-12 21:29:11]  UPDATE `Cuenta` SET `monto`='1152',`comisionAlSistema`='48',`fecha_deposito`='19-07-12' WHERE `id`=4
+[2019-07-12 21:29:11]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`idVendedor`,`idComprador`,`cantidad`,`total`,`idCuenta`) VALUES ('41','19-07-12','114','7','14','1','1350','4')
+[2019-07-12 21:29:12]  DESC cobranza
+[2019-07-12 21:29:12]  DESC Producto
+[2019-07-12 21:29:12]  DESC Usuario
+[2019-07-12 21:29:12]  DESC tarjeta_de_credito
+[2019-07-12 21:29:13]  DESC valoracion
+[2019-07-12 21:29:13]  select * from cobranza  where idComprador=14 limit 0, 100
+[2019-07-12 21:29:13]  select * from Producto  where id=112 limit 0, 1
+[2019-07-12 21:29:13]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:29:13]  select * from tarjeta_de_credito  where id='41' limit 0, 1
+[2019-07-12 21:29:13]  select * from valoracion  where idVendedor='4' and idProducto='112' and idLogueado='14' limit 0, 100
+[2019-07-12 21:29:13]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:29:13]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:29:13]  select * from tarjeta_de_credito  where id='41' limit 0, 1
+[2019-07-12 21:29:13]  select * from valoracion  where idVendedor='7' and idProducto='114' and idLogueado='14' limit 0, 100
+[2019-07-12 21:30:14]  DESC Producto
+[2019-07-12 21:30:14]  DESC Imagen
+[2019-07-12 21:30:14]  select * from Producto  where nombre like '%dib%' limit 0, 100
+[2019-07-12 21:30:14]  DESC Publicacion
+[2019-07-12 21:30:14]  select * from Publicacion  where id_Producto=112 limit 0, 1
+[2019-07-12 21:30:14]  select * from Producto  where id= 112  limit 0, 100
+[2019-07-12 21:30:14]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-07-12 21:30:14]  DESC Estadisticas
+[2019-07-12 21:30:14]  DESC Producto
+[2019-07-12 21:30:14]  select * from Producto  where id=112 limit 0, 1
+[2019-07-12 21:30:14]  DESC Estadisticas
+[2019-07-12 21:30:14]  select * from Estadisticas  where id=11 and id_tipo=1 limit 0, 1
+[2019-07-12 21:30:14]  UPDATE `Estadisticas` SET `cantidad`='4' WHERE `id`=11
+[2019-07-12 21:30:15]  DESC Producto
+[2019-07-12 21:30:15]  select * from Producto  where id=112 limit 0, 1
+[2019-07-12 21:30:15]  DESC Publicacion
+[2019-07-12 21:30:15]  select * from Publicacion  where id_Producto=112 limit 0, 1
+[2019-07-12 21:30:15]  DESC localizacion
+[2019-07-12 21:30:15]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-12 21:30:15]  DESC Imagen
+[2019-07-12 21:30:15]  select * from Imagen  where idProducto=112 limit 0, 10
+[2019-07-12 21:30:15]  DESC Producto
+[2019-07-12 21:30:15]  DESC Imagen
+[2019-07-12 21:30:15]  select * from Producto  where nombre like '%Dibujos%' limit 0, 100
+[2019-07-12 21:30:15]  select * from Producto  where id= 112  limit 0, 100
+[2019-07-12 21:30:15]  select * from Imagen  where idProducto=112 limit 0, 1
+[2019-07-12 21:30:15]  DESC Publicacion_Entrega
+[2019-07-12 21:30:15]  DESC FormaEntrega
+[2019-07-12 21:30:15]  select * from Publicacion_Entrega  where idPublicacion=6 limit 0, 2
+[2019-07-12 21:30:15]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-12 21:30:15]  DESC Usuario
+[2019-07-12 21:30:15]  DESC tipo_valoracion
+[2019-07-12 21:30:15]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:30:15]  select * from tipo_valoracion  where id= 2 limit 0, 1
+[2019-07-12 21:30:25]  DESC Producto
+[2019-07-12 21:30:25]  DESC Imagen
+[2019-07-12 21:30:25]  select * from Producto  where nombre like '%vi%' limit 0, 100
+[2019-07-12 21:30:25]  DESC Publicacion
+[2019-07-12 21:30:25]  select * from Publicacion  where id_Producto=108 limit 0, 1
+[2019-07-12 21:30:25]  select * from Publicacion  where id_Producto=114 limit 0, 1
+[2019-07-12 21:30:25]  select * from Producto  where id= 108  limit 0, 100
+[2019-07-12 21:30:25]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-07-12 21:30:25]  select * from Producto  where id= 114  limit 0, 100
+[2019-07-12 21:30:25]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-12 21:30:25]  DESC Estadisticas
+[2019-07-12 21:30:25]  DESC Producto
+[2019-07-12 21:30:25]  select * from Producto  where id=108 limit 0, 1
+[2019-07-12 21:30:25]  DESC Estadisticas
+[2019-07-12 21:30:25]  select * from Estadisticas  where id=6 and id_tipo=1 limit 0, 1
+[2019-07-12 21:30:25]  UPDATE `Estadisticas` SET `cantidad`='12' WHERE `id`=6
+[2019-07-12 21:30:25]  DESC Producto
+[2019-07-12 21:30:25]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:30:25]  DESC Estadisticas
+[2019-07-12 21:30:25]  select * from Estadisticas  where id=10 and id_tipo=1 limit 0, 1
+[2019-07-12 21:30:25]  UPDATE `Estadisticas` SET `cantidad`='7' WHERE `id`=10
+[2019-07-12 21:30:26]  DESC Producto
+[2019-07-12 21:30:26]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:30:26]  DESC Publicacion
+[2019-07-12 21:30:26]  select * from Publicacion  where id_Producto=114 limit 0, 1
+[2019-07-12 21:30:26]  DESC localizacion
+[2019-07-12 21:30:26]  select * from localizacion  where id_user=7 limit 0, 1
+[2019-07-12 21:30:26]  DESC Imagen
+[2019-07-12 21:30:26]  select * from Imagen  where idProducto=114 limit 0, 10
+[2019-07-12 21:30:26]  DESC Producto
+[2019-07-12 21:30:26]  DESC Imagen
+[2019-07-12 21:30:26]  select * from Producto  where nombre like '%Vinilos%' limit 0, 100
+[2019-07-12 21:30:26]  select * from Producto  where id= 108  limit 0, 100
+[2019-07-12 21:30:27]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-07-12 21:30:27]  select * from Producto  where id= 114  limit 0, 100
+[2019-07-12 21:30:27]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-12 21:30:27]  DESC Publicacion_Entrega
+[2019-07-12 21:30:27]  DESC FormaEntrega
+[2019-07-12 21:30:27]  select * from Publicacion_Entrega  where idPublicacion=28 limit 0, 2
+[2019-07-12 21:30:27]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-12 21:30:27]  DESC Usuario
+[2019-07-12 21:30:27]  DESC tipo_valoracion
+[2019-07-12 21:30:27]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:30:27]  select * from tipo_valoracion  where id= 2 limit 0, 1
+[2019-07-12 21:30:31]  DESC Producto
+[2019-07-12 21:30:31]  DESC FormaEntrega
+[2019-07-12 21:30:31]  select * from Producto  where id= 112  limit 0, 100
+[2019-07-12 21:30:31]  select * from Producto  where id= 114  limit 0, 100
+[2019-07-12 21:30:32]  DESC FormaEntrega
+[2019-07-12 21:30:43]  DESC tarjeta_de_credito
+[2019-07-12 21:30:43]  DESC Producto
+[2019-07-12 21:30:43]  DESC Publicacion
+[2019-07-12 21:30:43]  DESC Usuario
+[2019-07-12 21:30:43]  DESC Cuenta
+[2019-07-12 21:30:43]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`numero`,`fecha_vencimiento`) VALUES ('','14','789','1111222244445555','2019-07-31')
+[2019-07-12 21:30:44]  DESC cobranza
+[2019-07-12 21:30:44]  select * from Producto  where id=112 limit 0, 1
+[2019-07-12 21:30:44]  select * from Publicacion  where id_Producto=112 limit 0, 1
+[2019-07-12 21:30:44]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:30:44]  select * from Cuenta  where idUsuario= 4 limit 0, 1
+[2019-07-12 21:30:44]  UPDATE `Cuenta` SET `monto`='288',`comisionAlSistema`='12',`fecha_deposito`='19-07-12' WHERE `id`=3
+[2019-07-12 21:30:44]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`idVendedor`,`idComprador`,`cantidad`,`total`,`idCuenta`) VALUES ('42','19-07-12','112','4','14','2','1500','3')
+[2019-07-12 21:30:44]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:30:44]  select * from Publicacion  where id_Producto=114 limit 0, 1
+[2019-07-12 21:30:44]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:30:44]  select * from Cuenta  where idUsuario= 7 limit 0, 1
+[2019-07-12 21:30:44]  UPDATE `Cuenta` SET `monto`='2304',`comisionAlSistema`='96',`fecha_deposito`='19-07-12' WHERE `id`=4
+[2019-07-12 21:30:44]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`idVendedor`,`idComprador`,`cantidad`,`total`,`idCuenta`) VALUES ('42','19-07-12','114','7','14','1','1500','4')
+[2019-07-12 21:30:45]  DESC cobranza
+[2019-07-12 21:30:45]  DESC Producto
+[2019-07-12 21:30:45]  DESC Usuario
+[2019-07-12 21:30:45]  DESC tarjeta_de_credito
+[2019-07-12 21:30:45]  DESC valoracion
+[2019-07-12 21:30:45]  select * from cobranza  where idComprador=14 limit 0, 100
+[2019-07-12 21:30:45]  select * from Producto  where id=112 limit 0, 1
+[2019-07-12 21:30:45]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:30:45]  select * from tarjeta_de_credito  where id='41' limit 0, 1
+[2019-07-12 21:30:45]  select * from valoracion  where idVendedor='4' and idProducto='112' and idLogueado='14' limit 0, 100
+[2019-07-12 21:30:45]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:30:45]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:30:45]  select * from tarjeta_de_credito  where id='41' limit 0, 1
+[2019-07-12 21:30:45]  select * from valoracion  where idVendedor='7' and idProducto='114' and idLogueado='14' limit 0, 100
+[2019-07-12 21:30:45]  select * from Producto  where id=112 limit 0, 1
+[2019-07-12 21:30:45]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:30:45]  select * from tarjeta_de_credito  where id='42' limit 0, 1
+[2019-07-12 21:30:45]  select * from valoracion  where idVendedor='4' and idProducto='112' and idLogueado='14' limit 0, 100
+[2019-07-12 21:30:45]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:30:45]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:30:45]  select * from tarjeta_de_credito  where id='42' limit 0, 1
+[2019-07-12 21:30:45]  select * from valoracion  where idVendedor='7' and idProducto='114' and idLogueado='14' limit 0, 100
+[2019-07-12 21:36:55]  DESC Producto
+[2019-07-12 21:36:55]  DESC Imagen
+[2019-07-12 21:36:55]  select * from Producto  where nombre like '%vinilo%' limit 0, 100
+[2019-07-12 21:36:55]  DESC Publicacion
+[2019-07-12 21:36:55]  select * from Publicacion  where id_Producto=108 limit 0, 1
+[2019-07-12 21:36:55]  select * from Publicacion  where id_Producto=114 limit 0, 1
+[2019-07-12 21:36:55]  select * from Producto  where id= 108  limit 0, 100
+[2019-07-12 21:36:55]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-07-12 21:36:55]  select * from Producto  where id= 114  limit 0, 100
+[2019-07-12 21:36:55]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-12 21:36:55]  DESC Estadisticas
+[2019-07-12 21:36:55]  DESC Producto
+[2019-07-12 21:36:55]  select * from Producto  where id=108 limit 0, 1
+[2019-07-12 21:36:55]  DESC Estadisticas
+[2019-07-12 21:36:55]  select * from Estadisticas  where id=6 and id_tipo=1 limit 0, 1
+[2019-07-12 21:36:55]  UPDATE `Estadisticas` SET `cantidad`='13' WHERE `id`=6
+[2019-07-12 21:36:55]  DESC Producto
+[2019-07-12 21:36:55]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:36:55]  DESC Estadisticas
+[2019-07-12 21:36:55]  select * from Estadisticas  where id=10 and id_tipo=1 limit 0, 1
+[2019-07-12 21:36:55]  UPDATE `Estadisticas` SET `cantidad`='8' WHERE `id`=10
+[2019-07-12 21:36:59]  DESC Producto
+[2019-07-12 21:36:59]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:36:59]  DESC Publicacion
+[2019-07-12 21:36:59]  select * from Publicacion  where id_Producto=114 limit 0, 1
+[2019-07-12 21:36:59]  DESC localizacion
+[2019-07-12 21:36:59]  select * from localizacion  where id_user=7 limit 0, 1
+[2019-07-12 21:36:59]  DESC Imagen
+[2019-07-12 21:36:59]  select * from Imagen  where idProducto=114 limit 0, 10
+[2019-07-12 21:36:59]  DESC Producto
+[2019-07-12 21:36:59]  DESC Imagen
+[2019-07-12 21:36:59]  select * from Producto  where nombre like '%Vinilos%' limit 0, 100
+[2019-07-12 21:36:59]  select * from Producto  where id= 108  limit 0, 100
+[2019-07-12 21:36:59]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-07-12 21:36:59]  select * from Producto  where id= 114  limit 0, 100
+[2019-07-12 21:36:59]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-12 21:36:59]  DESC Publicacion_Entrega
+[2019-07-12 21:36:59]  DESC FormaEntrega
+[2019-07-12 21:36:59]  select * from Publicacion_Entrega  where idPublicacion=28 limit 0, 2
+[2019-07-12 21:36:59]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-12 21:36:59]  DESC Usuario
+[2019-07-12 21:36:59]  DESC tipo_valoracion
+[2019-07-12 21:36:59]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:36:59]  select * from tipo_valoracion  where id= 2 limit 0, 1
+[2019-07-12 21:37:09]  DESC Producto
+[2019-07-12 21:37:09]  DESC FormaEntrega
+[2019-07-12 21:37:09]  select * from Producto  where id= 114  limit 0, 100
+[2019-07-12 21:37:11]  DESC FormaEntrega
+[2019-07-12 21:37:25]  DESC tarjeta_de_credito
+[2019-07-12 21:37:25]  DESC Producto
+[2019-07-12 21:37:25]  DESC Publicacion
+[2019-07-12 21:37:25]  DESC Usuario
+[2019-07-12 21:37:26]  DESC Cuenta
+[2019-07-12 21:37:26]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`numero`,`fecha_vencimiento`) VALUES ('','14','789','1111222244445555','2019-07-31')
+[2019-07-12 21:37:26]  DESC cobranza
+[2019-07-12 21:37:26]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:37:26]  select * from Publicacion  where id_Producto=114 limit 0, 1
+[2019-07-12 21:37:26]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:37:26]  select * from Cuenta  where idUsuario= 7 limit 0, 1
+[2019-07-12 21:37:26]  UPDATE `Cuenta` SET `monto`='4608',`comisionAlSistema`='192',`fecha_deposito`='19-07-12' WHERE `id`=4
+[2019-07-12 21:37:26]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`idVendedor`,`idComprador`,`cantidad`,`total`,`idCuenta`) VALUES ('43','19-07-12','114','7','14','2','2400','4')
+[2019-07-12 21:37:27]  DESC cobranza
+[2019-07-12 21:37:27]  DESC Producto
+[2019-07-12 21:37:27]  DESC Usuario
+[2019-07-12 21:37:27]  DESC tarjeta_de_credito
+[2019-07-12 21:37:27]  DESC valoracion
+[2019-07-12 21:37:27]  select * from cobranza  where idComprador=14 limit 0, 100
+[2019-07-12 21:37:27]  select * from Producto  where id=112 limit 0, 1
+[2019-07-12 21:37:27]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:37:27]  select * from tarjeta_de_credito  where id='41' limit 0, 1
+[2019-07-12 21:37:27]  select * from valoracion  where idVendedor='4' and idProducto='112' and idLogueado='14' limit 0, 100
+[2019-07-12 21:37:27]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:37:27]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:37:27]  select * from tarjeta_de_credito  where id='41' limit 0, 1
+[2019-07-12 21:37:27]  select * from valoracion  where idVendedor='7' and idProducto='114' and idLogueado='14' limit 0, 100
+[2019-07-12 21:37:27]  select * from Producto  where id=112 limit 0, 1
+[2019-07-12 21:37:27]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:37:27]  select * from tarjeta_de_credito  where id='42' limit 0, 1
+[2019-07-12 21:37:27]  select * from valoracion  where idVendedor='4' and idProducto='112' and idLogueado='14' limit 0, 100
+[2019-07-12 21:37:27]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:37:27]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:37:27]  select * from tarjeta_de_credito  where id='42' limit 0, 1
+[2019-07-12 21:37:27]  select * from valoracion  where idVendedor='7' and idProducto='114' and idLogueado='14' limit 0, 100
+[2019-07-12 21:37:27]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:37:27]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:37:27]  select * from tarjeta_de_credito  where id='43' limit 0, 1
+[2019-07-12 21:37:27]  select * from valoracion  where idVendedor='7' and idProducto='114' and idLogueado='14' limit 0, 100
+[2019-07-12 21:39:39]  DESC Producto
+[2019-07-12 21:39:39]  DESC Imagen
+[2019-07-12 21:39:39]  select * from Producto  where nombre like '%cartuchera%' limit 0, 100
+[2019-07-12 21:39:39]  DESC Publicacion
+[2019-07-12 21:39:39]  select * from Publicacion  where id_Producto=77 limit 0, 1
+[2019-07-12 21:39:39]  select * from Producto  where id= 77  limit 0, 100
+[2019-07-12 21:39:39]  select * from Imagen  where idProducto=77 limit 0, 1
+[2019-07-12 21:39:39]  DESC Estadisticas
+[2019-07-12 21:39:39]  DESC Producto
+[2019-07-12 21:39:39]  select * from Producto  where id=77 limit 0, 1
+[2019-07-12 21:39:39]  DESC Estadisticas
+[2019-07-12 21:39:39]  select * from Estadisticas  where id=5 and id_tipo=1 limit 0, 1
+[2019-07-12 21:39:39]  UPDATE `Estadisticas` SET `cantidad`='14' WHERE `id`=5
+[2019-07-12 21:39:40]  DESC Producto
+[2019-07-12 21:39:40]  select * from Producto  where id=77 limit 0, 1
+[2019-07-12 21:39:40]  DESC Publicacion
+[2019-07-12 21:39:40]  select * from Publicacion  where id_Producto=77 limit 0, 1
+[2019-07-12 21:39:40]  DESC localizacion
+[2019-07-12 21:39:40]  select * from localizacion  where id_user=14 limit 0, 1
+[2019-07-12 21:39:40]  DESC Imagen
+[2019-07-12 21:39:40]  select * from Imagen  where idProducto=77 limit 0, 10
+[2019-07-12 21:39:40]  DESC Producto
+[2019-07-12 21:39:40]  DESC Imagen
+[2019-07-12 21:39:40]  select * from Producto  where nombre like '%Cartuchera%' limit 0, 100
+[2019-07-12 21:39:40]  select * from Producto  where id= 77  limit 0, 100
+[2019-07-12 21:39:40]  select * from Imagen  where idProducto=77 limit 0, 1
+[2019-07-12 21:39:40]  DESC Publicacion_Entrega
+[2019-07-12 21:39:40]  DESC FormaEntrega
+[2019-07-12 21:39:40]  select * from Publicacion_Entrega  where idPublicacion=3 limit 0, 2
+[2019-07-12 21:39:40]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-12 21:39:40]  DESC Usuario
+[2019-07-12 21:39:41]  DESC tipo_valoracion
+[2019-07-12 21:39:41]  select * from Usuario  where id='14' limit 0, 1
+[2019-07-12 21:39:41]  select * from tipo_valoracion  where id= 1 limit 0, 1
+[2019-07-12 21:40:31]  DESC Producto
+[2019-07-12 21:40:31]  select * from Producto  where id=77 limit 0, 1
+[2019-07-12 21:40:31]  DESC Publicacion
+[2019-07-12 21:40:31]  select * from Publicacion  where id_Producto=77 limit 0, 1
+[2019-07-12 21:40:31]  DESC localizacion
+[2019-07-12 21:40:31]  select * from localizacion  where id_user=11 limit 0, 1
+[2019-07-12 21:40:31]  DESC Imagen
+[2019-07-12 21:40:31]  select * from Imagen  where idProducto=77 limit 0, 10
+[2019-07-12 21:40:31]  DESC Producto
+[2019-07-12 21:40:31]  DESC Imagen
+[2019-07-12 21:40:31]  select * from Producto  where nombre like '%Cartuchera%' limit 0, 100
+[2019-07-12 21:40:32]  select * from Producto  where id= 77  limit 0, 100
+[2019-07-12 21:40:32]  select * from Imagen  where idProducto=77 limit 0, 1
+[2019-07-12 21:40:32]  DESC Publicacion_Entrega
+[2019-07-12 21:40:32]  DESC FormaEntrega
+[2019-07-12 21:40:32]  select * from Publicacion_Entrega  where idPublicacion=3 limit 0, 2
+[2019-07-12 21:40:32]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-12 21:40:32]  DESC Usuario
+[2019-07-12 21:40:32]  DESC tipo_valoracion
+[2019-07-12 21:40:32]  select * from Usuario  where id='11' limit 0, 1
+[2019-07-12 21:40:32]  select * from tipo_valoracion  where id= 1 limit 0, 1
+[2019-07-12 21:40:35]  DESC Producto
+[2019-07-12 21:40:35]  DESC FormaEntrega
+[2019-07-12 21:40:35]  select * from Producto  where id= 77  limit 0, 100
+[2019-07-12 21:40:36]  DESC FormaEntrega
+[2019-07-12 21:40:41]  DESC Producto
+[2019-07-12 21:40:41]  DESC FormaEntrega
+[2019-07-12 21:40:41]  select * from Producto  where id= 77  limit 0, 100
+[2019-07-12 21:40:48]  DESC Producto
+[2019-07-12 21:40:48]  DESC FormaEntrega
+[2019-07-12 21:40:55]  DESC Producto
+[2019-07-12 21:40:55]  DESC FormaEntrega
+[2019-07-12 21:41:34]  DESC Producto
+[2019-07-12 21:41:34]  DESC Imagen
+[2019-07-12 21:41:34]  select * from Producto  where nombre like '%cart%' limit 0, 100
+[2019-07-12 21:41:34]  DESC Publicacion
+[2019-07-12 21:41:34]  select * from Publicacion  where id_Producto=77 limit 0, 1
+[2019-07-12 21:41:34]  select * from Producto  where id= 77  limit 0, 100
+[2019-07-12 21:41:34]  select * from Imagen  where idProducto=77 limit 0, 1
+[2019-07-12 21:41:35]  DESC Estadisticas
+[2019-07-12 21:41:35]  DESC Producto
+[2019-07-12 21:41:35]  select * from Producto  where id=77 limit 0, 1
+[2019-07-12 21:41:35]  DESC Estadisticas
+[2019-07-12 21:41:35]  select * from Estadisticas  where id=5 and id_tipo=1 limit 0, 1
+[2019-07-12 21:41:35]  UPDATE `Estadisticas` SET `cantidad`='15' WHERE `id`=5
+[2019-07-12 21:41:36]  DESC Producto
+[2019-07-12 21:41:36]  select * from Producto  where id=77 limit 0, 1
+[2019-07-12 21:41:36]  DESC Publicacion
+[2019-07-12 21:41:36]  select * from Publicacion  where id_Producto=77 limit 0, 1
+[2019-07-12 21:41:36]  DESC localizacion
+[2019-07-12 21:41:36]  select * from localizacion  where id_user=11 limit 0, 1
+[2019-07-12 21:41:36]  DESC Imagen
+[2019-07-12 21:41:36]  select * from Imagen  where idProducto=77 limit 0, 10
+[2019-07-12 21:41:36]  DESC Producto
+[2019-07-12 21:41:36]  DESC Imagen
+[2019-07-12 21:41:36]  select * from Producto  where nombre like '%Cartuchera%' limit 0, 100
+[2019-07-12 21:41:36]  select * from Producto  where id= 77  limit 0, 100
+[2019-07-12 21:41:36]  select * from Imagen  where idProducto=77 limit 0, 1
+[2019-07-12 21:41:36]  DESC Publicacion_Entrega
+[2019-07-12 21:41:36]  DESC FormaEntrega
+[2019-07-12 21:41:36]  select * from Publicacion_Entrega  where idPublicacion=3 limit 0, 2
+[2019-07-12 21:41:36]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-12 21:41:36]  DESC Usuario
+[2019-07-12 21:41:37]  DESC tipo_valoracion
+[2019-07-12 21:41:37]  select * from Usuario  where id='11' limit 0, 1
+[2019-07-12 21:41:37]  select * from tipo_valoracion  where id= 1 limit 0, 1
+[2019-07-12 21:41:42]  DESC Producto
+[2019-07-12 21:41:42]  DESC FormaEntrega
+[2019-07-12 21:41:42]  select * from Producto  where id= 77  limit 0, 100
+[2019-07-12 21:41:44]  DESC FormaEntrega
+[2019-07-12 21:41:57]  DESC tarjeta_de_credito
+[2019-07-12 21:41:57]  DESC Producto
+[2019-07-12 21:41:57]  DESC Publicacion
+[2019-07-12 21:41:57]  DESC Usuario
+[2019-07-12 21:41:58]  DESC Cuenta
+[2019-07-12 21:41:58]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`numero`,`fecha_vencimiento`) VALUES ('','14','123','1111222233334444','2019-07-31')
+[2019-07-12 21:41:58]  DESC cobranza
+[2019-07-12 21:41:58]  select * from Producto  where id=77 limit 0, 1
+[2019-07-12 21:41:58]  select * from Publicacion  where id_Producto=77 limit 0, 1
+[2019-07-12 21:41:58]  select * from Usuario  where id='11' limit 0, 1
+[2019-07-12 21:41:58]  select * from Cuenta  where idUsuario= 11 limit 0, 1
+[2019-07-12 21:41:58]  UPDATE `Cuenta` SET `monto`='432',`comisionAlSistema`='18',`fecha_deposito`='19-07-12' WHERE `id`=1
+[2019-07-12 21:41:58]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`idVendedor`,`idComprador`,`cantidad`,`total`,`idCuenta`) VALUES ('44','19-07-12','77','11','14','3','450','1')
+[2019-07-12 21:41:59]  DESC cobranza
+[2019-07-12 21:41:59]  DESC Producto
+[2019-07-12 21:41:59]  DESC Usuario
+[2019-07-12 21:41:59]  DESC tarjeta_de_credito
+[2019-07-12 21:41:59]  DESC valoracion
+[2019-07-12 21:41:59]  select * from cobranza  where idComprador=14 limit 0, 100
+[2019-07-12 21:41:59]  select * from Producto  where id=112 limit 0, 1
+[2019-07-12 21:41:59]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:41:59]  select * from tarjeta_de_credito  where id='41' limit 0, 1
+[2019-07-12 21:41:59]  select * from valoracion  where idVendedor='4' and idProducto='112' and idLogueado='14' limit 0, 100
+[2019-07-12 21:41:59]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:41:59]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:41:59]  select * from tarjeta_de_credito  where id='41' limit 0, 1
+[2019-07-12 21:41:59]  select * from valoracion  where idVendedor='7' and idProducto='114' and idLogueado='14' limit 0, 100
+[2019-07-12 21:41:59]  select * from Producto  where id=112 limit 0, 1
+[2019-07-12 21:41:59]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-12 21:41:59]  select * from tarjeta_de_credito  where id='42' limit 0, 1
+[2019-07-12 21:41:59]  select * from valoracion  where idVendedor='4' and idProducto='112' and idLogueado='14' limit 0, 100
+[2019-07-12 21:41:59]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:41:59]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:41:59]  select * from tarjeta_de_credito  where id='42' limit 0, 1
+[2019-07-12 21:41:59]  select * from valoracion  where idVendedor='7' and idProducto='114' and idLogueado='14' limit 0, 100
+[2019-07-12 21:41:59]  select * from Producto  where id=114 limit 0, 1
+[2019-07-12 21:41:59]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-12 21:41:59]  select * from tarjeta_de_credito  where id='43' limit 0, 1
+[2019-07-12 21:41:59]  select * from valoracion  where idVendedor='7' and idProducto='114' and idLogueado='14' limit 0, 100
+[2019-07-12 21:41:59]  select * from Producto  where id=77 limit 0, 1
+[2019-07-12 21:41:59]  select * from Usuario  where id='11' limit 0, 1
+[2019-07-12 21:41:59]  select * from tarjeta_de_credito  where id='44' limit 0, 1
+[2019-07-12 21:41:59]  select * from valoracion  where idVendedor='11' and idProducto='77' and idLogueado='14' limit 0, 100
