@@ -26,6 +26,10 @@ class Estadisticas extends Model
         return   $this->getFieldsAsdProd("cantidad",5,2);
     }
 
+
+
+
+
     public function insertarEstadistica(){
         $array=[
 
@@ -39,11 +43,11 @@ class Estadisticas extends Model
 
     public function actualizarEstadistica(){
         $array=[
-             "id"=>$this->getId(),
-             "cantidad"=>$this->getCantidad(),
+            "id"=>$this->getId(),
+            "cantidad"=>$this->getCantidad(),
 
         ] ;
-       $this->update($array);
+        $this->update($array);
 
     }
 

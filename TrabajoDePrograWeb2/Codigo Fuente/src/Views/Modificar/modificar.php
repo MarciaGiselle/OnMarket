@@ -151,7 +151,7 @@ if(isset($_SESSION["logueado"])){
 
             </div>
             <input type="hidden"  value="<?php echo $producto["id"] ?>" name="idProducto" >
-
+            <input type="hidden"  value="<?php echo $publicacion[0]["id"] ?>" name="idPublicacion" >
              <div>
                 <input type="submit"  value="confirmar cambios" class="btn btn-primary "  >
              </div>

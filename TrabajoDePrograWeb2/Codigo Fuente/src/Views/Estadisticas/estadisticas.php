@@ -3,6 +3,18 @@
 <script src="<?php echo getBaseAddress() . '/Webroot/amcharts4/charts.js'?>"> </script>
 <script src="<?php echo getBaseAddress() . 'Webroot/amcharts4/themes/animated.js'?>"></script>
 <script src="<?php echo getBaseAddress() . 'Webroot/amcharts4/maps.js'?>"></script>
+<?php
+if(isset($_SESSION["logueado"])){
+    if(isset($_SESSION["admin"])){
+        include_once ("navLogueadoAdmin.php") ;
+    }else{
+        include_once ("navLogueado.php") ;
+    }
+
+}else{
+    include_once ("navNoLogueado.php");
+}
+?>
 
 
 
@@ -153,32 +165,24 @@
     var data5 = [];
 
     chart5.data = [{
-        "year": " $50-$200",
-        "income": <?php echo $arrayMontos[0] ?>,
+        "year": " $0-$500",
+        "income": <?php echo $arrayMontos[0]["cantidad"] ?>,
 
     }, {
-        "year": "$200-$600",
-        "income": <?php echo $arrayMontos[1] ?>,
-
-    }, {
-        "year": " $600-$1000",
-        "income": <?php echo $arrayMontos[2] ?>,
+        "year": "$500-$1000",
+        "income": <?php echo $arrayMontos[1]["cantidad"] ?>,
 
     }, {
         "year": " $1000-$1500",
-        "income": <?php echo $arrayMontos[3] ?>,
+        "income": <?php echo $arrayMontos[2]["cantidad"] ?>,
 
     }, {
-        "year": " $1500-$3000",
-        "income": <?php echo $arrayMontos[4] ?>,
+        "year": " $1500-3000",
+        "income": <?php echo $arrayMontos[3]["cantidad"] ?>,
 
     }, {
-        "year": " $3000-$5000",
-        "income": <?php echo $arrayMontos[5] ?>,
-
-    }, {
-        "year": "$5000+",
-        "income": <?php echo $arrayMontos[6] ?>,
+        "year": " $3000-$10000",
+        "income": <?php echo $arrayMontos[4] ["cantidad"]?>,
 
     }];
 
