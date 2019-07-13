@@ -107,10 +107,10 @@ class UsuarioController extends Controller
 
                 for ($i = 0; $i < $tope; $i++) {
                     //parte para las estadisticas
-                   /* $prod=new Producto();
+                  $prod=new Producto();
                     $productoCompra=$prod->buscarUnProductoPorPk($_SESSION["carrito"][$i]["id"]);
                     //metodo de estadisticas
-                    $this->realizarEstadisticas( $productoCompra);*/
+                    $this->realizarEstadisticas( $productoCompra);
 
                     //realizar compra
                     $cobranza->setIdTarjeta($idTarjeta);
@@ -119,6 +119,8 @@ class UsuarioController extends Controller
                     $cobranza->setIdComprador($_SESSION["logueado"]);
                     $cobranza->setIdProducto($_SESSION["carrito"][$i]["id"]);
                     $cobranza->setCantidad($_SESSION["carrito"][$i]["cantidad"]);
+                    //estadistica de montos
+                    $this->estadisticasMontos($total);
 
                    // if($metododo=1){$this->enviarMensajeAlVendedor("Acordar con el vendedor",$email,$_SESSION["carrito"][$i]["id"]);}
                    // if($metododo=2){$this->enviarMensajeAlVendedor("Envio por correo ",$direccion,$_SESSION["carrito"][$i]["id"]);}
@@ -153,11 +155,24 @@ class UsuarioController extends Controller
 
 
     }
+function estadisticasMontos($total){
+$rango=new Rango_montos();
+$rangos=$rango->traerTodas();
 
+foreach($rangos as $rango){
+    if($total>=$rango["desde"]&& $total<$rango["hasta"]){
+         $nuevoRango=new Rango_montos();
+         $nuevoRango->setId($rango["id"]);
+         $nuevoRango->setCantidad($rango["cantidad"]+1);
+         $nuevoRango->actualizar();
+    }
+}
+
+}
 
     function realizarEstadisticas( $productoCompra){
         $categoria=new Categoria();
-        $categoriaProd=$categoria->traerCategoriaPorPk($productoCompra["id"]);
+        $categoriaProd=$categoria->traerCategoriaPorPk($productoCompra["idCategoria"]);
 
         if(empty($categoriaProd["id_estadistica"])){
 
@@ -173,7 +188,9 @@ class UsuarioController extends Controller
         }else{
             // se agrega a la estadistica
             $estadistic=new Estadisticas();
-            $estadisticaDelProd=$estadistic->traerEstadistica($categoriaProd,2);
+
+            $estadisticaDelProd=$estadistic->traerEstadistica($categoriaProd["id_estadistica"],2);
+
 
             $estadistic->setId($estadisticaDelProd["id"]);
             $cantidad=$estadisticaDelProd["cantidad"]+1;

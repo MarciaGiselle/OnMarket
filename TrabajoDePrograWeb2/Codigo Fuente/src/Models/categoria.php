@@ -7,28 +7,6 @@ class Categoria extends Model
     private $nombreCategoria;
     private $id_estadistica;
 
-
-    function obtenerIdCategoria($nombreCat){
-    $res=$this->pageRows(0,1, "nombreCategoria='$nombreCat'");
-     if(!empty($res[0])){
-         $respuesta=$res[0];
-         $id=$respuesta["idCategoria"];
-         return $id;
-     }else{
-         return false;
-     }
-    }
-
-    function obtenerValorDeGategoria($idCtageoria){
-        $res=$this->pageRows(0,1, "IdCategoria='$idCtageoria'");
-        if(!empty($res[0])) {
-            $respuesta = $res[0];
-            $id = $respuesta["nombreCategoria"];
-            return $id;
-        }
-    }
-
-
     function insertarEstadisticasAlaCategoria(){
         $array=[
             "id"=> $this->getIdCategoria(),
@@ -53,9 +31,33 @@ class Categoria extends Model
 
     public function traerCategoriaPorPk($p){
 
-        $resultado=$this->pageRows(0,1, "idCategoria=$p");
+        $resultado=$this->pageRows(0,1, "id=$p");
         return $resultado[0];
     }
+
+
+
+    function obtenerIdCategoria($nombreCat){
+    $res=$this->pageRows(0,1, "nombreCategoria='$nombreCat'");
+     if(!empty($res[0])){
+         $respuesta=$res[0];
+         $id=$respuesta["id"];
+         return $id;
+     }else{
+         return false;
+     }
+    }
+
+    function obtenerValorDeGategoria($idCtageoria){
+        $res=$this->pageRows(0,1, "id='$idCtageoria'");
+        if(!empty($res[0])) {
+            $respuesta = $res[0];
+            $id = $respuesta["nombreCategoria"];
+            return $id;
+        }
+    }
+
+
 
     /**
      * @return Database

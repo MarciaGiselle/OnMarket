@@ -33,28 +33,40 @@ class ModificarController extends Controller
 
         $producto->setId($datos["idProducto"]);
 
+        $mensaje="";
         $error=0;
+        $error2=0;
         //conceptos generales
         if (FuncionesComunes::validarCadena($datos["nombre"])) {
             $producto->setNombre($datos["nombre"]);
         }else{
+            $mensaje.="nombre invalido,";
             $error.=1;
         }
         if (FuncionesComunes::validarCadenaNumerosYEspacios($datos["descripcion"])) {
               $producto->setDescripcion($datos["descripcion"]);
         }else{
+            $mensaje.="descripcion invalido,";
             $error.=1;
         }
         if (FuncionesComunes::validarNumeros($datos["cantidad"])) {
           $producto->setCantidad($datos["cantidad"]);
         }else{
+            $mensaje.="cantidad invalido,";
             $error.=1;
         }
         if (FuncionesComunes::validarNumeros($datos["precio"])) {
           $producto->setPrecio($datos["precio"]);
         }else{
+            $mensaje.="precio invalido,";
             $error.=1;
         }
+        
+        if($error>0){
+            echo "<script> alert($mensaje)</script>";
+
+        }
+
         if (!empty($datos["categoria"]) && FuncionesComunes::validarCadena($datos['categoria'])) {
             //categoria obtener id y setearlo
             $idCategoria = $categoria->obtenerIdCategoria($datos["categoria"]);
@@ -76,14 +88,14 @@ class ModificarController extends Controller
                         $arrayImagenes[$i] = $_FILES['imagen']['name'][$i];
                     }
                 }else{
-                    $error.=1;
+                    $error2.=1;
                 }
 
-                if($error>0){
+                if($error2>0){
                     $mensaje="carga incorrecta";
                     echo "<script> alert('$mensaje') </script>";
                 }else{
-                    $idProducto = $producto->modificarProducto();
+
                     $this->actualizarImagenes($arrayImagenes, $idProducto);
                    $this->guardarImagenes($datos, $countfiles);
 

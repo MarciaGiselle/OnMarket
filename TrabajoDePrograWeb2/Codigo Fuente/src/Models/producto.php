@@ -43,28 +43,6 @@ class Producto extends Model
 
     }
 
-    function insertarEstadisticasAlProducto(){
-        $array=[
-            "id"=> $this->getId(),
-            "id_estadistica"=>$this->getIdEstadisticas(),
-        ] ;
-      $this->update($array);
-        return $this->getId();
-
-
-    }
-   function eliminar($pk){
-       return  $this->delete($pk);
-   }
-
-    function validarFormatos(){
-        //validacion de formatos
-        $error=0;
-        $mensaje="";
-
-
-
-    }
 
     function buscarProductoEnLaBase(){
         $resultadoDeLaBusqueda= $this->pageRows(0,100, "nombre like '%$this->nombre%'");
@@ -87,6 +65,25 @@ class Producto extends Model
 
         return $resultado[0];
     }
+
+    function insertarEstadisticasAlProducto(){
+        $array=[
+            "id"=> $this->getId(),
+            "id_estadistica"=>$this->getIdEstadisticas(),
+        ] ;
+        $this->update($array);
+        return $this->getId();
+
+
+    }
+
+
+
+    function buscarUnProductoPorPk($pk){
+        $resultado=$this->pageRows(0,1, "id=$pk");
+        return $resultado[0];
+    }
+
     /**
      * @return mixed
      */
@@ -101,15 +98,6 @@ class Producto extends Model
     public function setIdEstadisticas($id_estadisticas)
     {
         $this->id_estadisticas = $id_estadisticas;
-    }
-
-    /**
-     * @param $pk
-     * @return array
-     */
-    function buscarUnProductoPorPk($pk){
-        $resultado=$this->pageRows(0,1, "id=$pk");
-        return $resultado[0];
     }
 
 
