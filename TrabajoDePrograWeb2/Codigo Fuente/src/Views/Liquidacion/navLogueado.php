@@ -18,15 +18,8 @@
             <a class="nav-link active" href="<?php echo getBaseAddress() . "Estadisticas/estadisticas" ?>">Estadisticas</a>
         </li>
 
-        <li class="nav-item dropdown active">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Liquidaciones</a>
-            <div class="dropdown-menu">
-                <a class="dropdown-item" href="<?php echo getBaseAddress() . "Liquidacion/liquidacion" ?>">Nueva Liquidación</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Separated link</a>
-            </div>
+        <li class="nav-item">
+            <a class="nav-link active" href="<?php echo getBaseAddress() . "Liquidacion/liquidacion" ?>">Liquidaciones</a>
         </li>
 
 

@@ -58,8 +58,10 @@ class cobranza extends Model
         return $this->getId();
     }
 
-    function consultarCobranzasDelMes($mes){
+    function consultarCobranzasDelMes($mes,$a){
      //por medio de la fecha, traer solo las q corresponden a ese mes
+        $resultado = $this->pageRows(0, PHP_INT_MAX, "MONTH(fecha)=$mes AND YEAR(fecha)=$a");
+        return $resultado;
     }
 
 

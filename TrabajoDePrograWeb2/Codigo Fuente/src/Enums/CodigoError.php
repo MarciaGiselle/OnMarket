@@ -17,6 +17,10 @@ abstract class CodigoError
     const EliminarCarritoFallido = 35;
 
 
+    const liquidacionExistenteException = 40;
+    const nullCobranzasException = 45;
+    const fechaInvalidaException = 50;
+
     //nuestras
     const NombreOPassInvalidoException = 7;
     const ExcentionRegistar=20;
