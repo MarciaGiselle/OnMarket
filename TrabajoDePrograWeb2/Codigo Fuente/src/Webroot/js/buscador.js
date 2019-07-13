@@ -61,8 +61,8 @@ function busquedaExitosa(resultados){
         tabla.append('<tr>' +
             '<td align="center"> '+ datos[i].prod[0].nombre + '</td>'+
             '<td align="center">' + datos[i].prod[0].precio + '</td>'+
-            '<td align="center" >'+ datos[i].prod[0].descripcion+id+'</td>'+
-            '<td align="center" >'+ '<img height="100px" src="../Webroot/imgCargadas/'+ name +'"></td>'+
+            '<td align="center" >' + datos[i].prod[0].descripcion + '</td>'+
+            '<td align="center" >' + '<img height="100px" src="../Webroot/imgCargadas/'+ name +'"></td>'+
             '<td><button class="btn btn-info align-items-center" type="submit"  onclick="enviarId('+id+')"><i class="fas fa-eye fa-2x" style="color: whitesmoke;" ></i>  </button>' +
             '<input type="hidden" name="id"  value="'+id+'">'+
             '</td>'+
