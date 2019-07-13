@@ -8,6 +8,23 @@ class liquidacion extends Model
     private $total;
     private $ganancia;
 
+    function crearLiquidacion(){
+        $array= [
+            "fecha_liquidacion" => $this->getFechaLiquidacion(),
+            "total" => $this->getTotal(),
+            "ganancia" => $this->getGanancia()
+        ];
+        $this->setId($this->insert($array));
+        return $this->getId();
+    }
+
+    function consultarEstadoDeLiquidacion($mes,$year){
+        //consulta a la base del estado por mes y year
+    }
+
+    function consultarLiquidacion(){
+        //consulta la liquidacion creada para actualizarlo en la vista
+    }
     /**
      * @return mixed
      */

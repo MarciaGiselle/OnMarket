@@ -14,6 +14,7 @@ class Cuenta extends Model
         $array=[
             "idUsuario"=> $this->getIdUsuario(),
             "monto"=>$this->getMonto(),
+            "comisionAlSistema" => $this->getComisionAlSistema(),
         ] ;
 
         $this->setId($this->insert($array));
