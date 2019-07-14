@@ -52,11 +52,17 @@ liquidar.click(function () {
 
 function LiquidacionExitosa(id){
     var numero = JSON.parse(JSON.stringify(id));
-
-    alertify.alert("Nueva liquidación", "La liquidación # ha sido creada exitosamente!");
+    $("select").prop("disabled", false);
+    liquidar.prop("disabled", false);
+    alertify.alert("Nueva liquidación", "La liquidación # "+numero+" ha sido creada exitosamente!");
+    setTimeout(function () {
+        window.location.reload();
+    }, 3000);
 }
 
 function LiquidacionFallida(err){
+    $("select").prop("disabled", false);
+    liquidar.prop("disabled", false);
     alertify.alert("Nueva liquidación",err);
 }
 

@@ -9,21 +9,20 @@ class LiquidacionController extends Controller
         $year = new Year();
         $mes = new Mes();
 
+
         $years = $year -> getAllYears();
         $meses = $mes -> getallMeses();
 
         $d["meses"] = $meses;
         $d["year"] = $years;
 
+        $liquidacion = $this->traerTodasLasLiquidaciones();
+
+        $d["liquidaciones"] = $liquidacion;
         $this->set($d);
         $this->render(Constantes::LIQUIDACIONVIEW);
     }
 
-    function mostrarLiquidaciones(){
-        //path q va a regarcgar el escenario exitoso
-        $liquidacion = new Liquidacion();
-        $liquidaciones= $liquidacion->consultarLiquidacion($_SESSION["id"]);
-    }
     function crearLiquidacion($datos){
 
         header("Content-type: application/json");
@@ -37,6 +36,7 @@ class LiquidacionController extends Controller
         $year = new Year();
 
         $facturacion = 0;
+        $id = 0;
         $fecha_actual = date('Y-m-d H:i:s');
 
         $yearNumero = $year->consultarYearPorPK($idYear);
@@ -58,8 +58,8 @@ class LiquidacionController extends Controller
                 $liquidacion->setTotal($facturacion);
                 $liquidacion->setGanancia($ganancia);
                 $liquidacion->setFechaLiquidacion($fecha_actual);
-                $liquidacion->setIdMes($idMes);
-                $liquidacion->setIdYear($idYear);
+                $liquidacion->setIdMes((integer)$idMes);
+                $liquidacion->setIdYear((integer)$idYear);
                 $id = $liquidacion->crearLiquidacion();
 
             } else {
@@ -74,8 +74,7 @@ class LiquidacionController extends Controller
 
         }
 
-
-        echo json_encode(true);
+        echo json_encode( $id);
     }
 
 
@@ -92,6 +91,28 @@ class LiquidacionController extends Controller
                 return true;
             }
         }
+    }
+
+    function traerTodasLasLiquidaciones(){
+        $liquidacion = new Liquidacion();
+        $year = new Year();
+        $mes = new Mes();
+        $completo = [];
+        $todasLasLiquidaciones= [];
+
+        $todas = $liquidacion->consultarTodas();
+        for($i = 0; $i<count($todas);$i++){
+            $mes = $mes -> getMesById((int)($todas[$i]["idMes"]));
+            $a = $year -> getYearById((int)($todas[$i]["idYear"]));
+
+            $completo = [
+                "liq"=> $todas[$i],
+            "mes"=> $mes,
+            "year" => $a
+            ];
+            array_push($todasLasLiquidaciones, $completo);
+        }
+        return $todasLasLiquidaciones;
     }
 
 

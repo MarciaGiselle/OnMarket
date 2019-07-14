@@ -17,6 +17,11 @@ class Year extends Model
         return $resultado[0]["year"];
     }
 
+    function getYearById($id){
+        $resultado = $this->pageRows(0,1, "id = $id");
+        return $resultado[0]["year"];
+    }
+
     /**
  * @return mixed
  */

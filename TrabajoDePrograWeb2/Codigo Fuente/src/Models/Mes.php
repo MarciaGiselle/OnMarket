@@ -10,7 +10,10 @@ class mes extends Model
         $resultado= $this->pageRows(0,PHP_INT_MAX);
         return $resultado;
     }
-
+    function getMesById($id){
+        $resultado = $this->pageRows(0,1, "id = $id");
+        return $resultado[0]["nombre"];
+    }
     /**
      * @return mixed
      */

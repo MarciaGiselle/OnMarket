@@ -45,9 +45,10 @@ class liquidacion extends Model
         return (round(($m) * 100) / 100);
     }
 
-    function consultarLiquidacion()
+    function consultarTodas()
     {
-        //consulta la liquidacion creada para actualizarlo en la vista
+        $resultado = $this->pageRows(0, PHP_INT_MAX);
+        return $resultado;
     }
 
     /**
