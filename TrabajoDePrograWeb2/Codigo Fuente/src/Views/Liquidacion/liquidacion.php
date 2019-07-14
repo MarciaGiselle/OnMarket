@@ -84,7 +84,9 @@ if (isset($_SESSION["logueado"])) {
 
         <?php
         if (count($liquidaciones) > 0){
-            echo '<table id="tablaLiquidaciones" class=\'table table-hover text-center mt-4\'>
+            echo '    <h5 class="text-primary d-flex justify-content-center mt-5">Liquidaciones Realizadas</h5>
+
+<table id="tablaLiquidaciones" class=\'table table-hover text-center mt-4\'>
             <thead><tr>
                 <th class="text-primary ">ID</th>
                 <th class="text-primary ">Fecha de Liquidacion</th>

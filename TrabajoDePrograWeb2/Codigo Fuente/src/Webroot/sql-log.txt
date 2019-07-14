@@ -45694,3 +45694,68 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-07-14 00:44:11]  select * from liquidacion limit 0, 9223372036854775807
 [2019-07-14 00:44:11]  select * from mes  where id = 7 limit 0, 1
 [2019-07-14 00:44:11]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:48:07]  DESC Year
+[2019-07-14 00:48:07]  DESC mes
+[2019-07-14 00:48:07]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:48:07]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:48:07]  DESC liquidacion
+[2019-07-14 00:48:07]  DESC Year
+[2019-07-14 00:48:07]  DESC mes
+[2019-07-14 00:48:07]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:48:07]  select * from mes  where id = 7 limit 0, 1
+[2019-07-14 00:48:07]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:48:44]  DESC Year
+[2019-07-14 00:48:44]  DESC mes
+[2019-07-14 00:48:44]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:48:44]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:48:44]  DESC liquidacion
+[2019-07-14 00:48:44]  DESC Year
+[2019-07-14 00:48:44]  DESC mes
+[2019-07-14 00:48:44]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:48:44]  select * from mes  where id = 7 limit 0, 1
+[2019-07-14 00:48:44]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:49:02]  DESC Year
+[2019-07-14 00:49:02]  DESC mes
+[2019-07-14 00:49:02]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:49:02]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:49:02]  DESC liquidacion
+[2019-07-14 00:49:02]  DESC Year
+[2019-07-14 00:49:02]  DESC mes
+[2019-07-14 00:49:02]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:49:03]  select * from mes  where id = 7 limit 0, 1
+[2019-07-14 00:49:03]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:49:05]  DESC Year
+[2019-07-14 00:49:05]  DESC mes
+[2019-07-14 00:49:05]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:49:05]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:49:05]  DESC liquidacion
+[2019-07-14 00:49:05]  DESC Year
+[2019-07-14 00:49:05]  DESC mes
+[2019-07-14 00:49:05]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:49:05]  select * from mes  where id = 7 limit 0, 1
+[2019-07-14 00:49:05]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:50:43]  DESC Year
+[2019-07-14 00:50:43]  DESC mes
+[2019-07-14 00:50:43]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:50:43]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:50:43]  DESC liquidacion
+[2019-07-14 00:50:43]  DESC Year
+[2019-07-14 00:50:44]  DESC mes
+[2019-07-14 00:50:44]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:50:44]  select * from mes  where id = 7 limit 0, 1
+[2019-07-14 00:50:44]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:50:50]  DESC Usuario
+[2019-07-14 00:50:50]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-14 00:50:50]  DESC Usuario
+[2019-07-14 00:50:50]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-14 00:50:50]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-14 00:50:59]  DESC Year
+[2019-07-14 00:50:59]  DESC mes
+[2019-07-14 00:50:59]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:50:59]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:50:59]  DESC liquidacion
+[2019-07-14 00:50:59]  DESC Year
+[2019-07-14 00:50:59]  DESC mes
+[2019-07-14 00:50:59]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:51:00]  select * from mes  where id = 7 limit 0, 1
+[2019-07-14 00:51:00]  select * from Year  where id = 2 limit 0, 1
