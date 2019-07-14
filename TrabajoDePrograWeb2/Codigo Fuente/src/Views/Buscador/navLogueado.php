@@ -57,7 +57,7 @@
         <div class="btn-group">
             <button type="button" class="btn btn-light dropdown-toggle text-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-user mr-2"></i>
-                <span class=" text-center align-self-center"> <?php echo $nombreUsuario?></span>
+                <span class=" text-center align-self-center"> </span>
             </button>
             <div class="dropdown-menu dropdown-menu-right">
                 <a class="dropdown-item text-info" href="<?php echo getBaseAddress() . "MiCuenta/miCuenta" ?>">Mi Cuenta</a>
