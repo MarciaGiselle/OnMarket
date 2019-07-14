@@ -7,19 +7,6 @@
 </script>
 
 
-
-<?php
-
-if(isset($_SESSION["logueado"])){
-
-    include_once ("navLogueado.php") ;
-}else{
-    include_once ("navNoLogueado.php");
-}
-?>
-
-
-<main>
     <div class="container">
         <br>
         <h3 class="text-primary ">Registrarse</h3>
@@ -138,25 +125,7 @@ if(isset($_SESSION["logueado"])){
 
 
     </div>
-</main>
- 
-<br>
 
-<footer class="bg-primary page-footer font-small blue pt-4">
-
-
-    <!-- Copyright -->
-
-    <div class="bg-secondary text-dark footer-copyright text-center py-3">© 2019 Copyright:
-
-        <a class="text-dark" href="https://mdbootstrap.com/education/bootstrap/"> OnMarket.com</a>
-
-    </div>
-
-    <!-- Copyright -->
-
-
-</footer>
 
 
 <script src="<?php echo getBaseAddress() . "Webroot/js/registrar.js" ?>"></script>

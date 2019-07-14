@@ -11,11 +11,15 @@ class MostrarProductoController extends Controller
     function verProducto($datos)
     {
         $id = $datos["id"];
+        if(isset($_SESSION["logueado"])){
+            $d["nombreUsuario"]= $_SESSION["name"];
+        }
         $producto = new Producto();
         $prodEncontrado = $producto->buscarUnProductoPorPk($id);
 
         $d["resultado"] = $prodEncontrado;
         $d["title"] = $prodEncontrado["nombre"];
+
 
         $publicacion = new Publicacion();
         $publicacionDelProducto = $publicacion->traerPublicaciondelProducto($id);

@@ -6,19 +6,7 @@
 </script>
 <link rel="stylesheet" href="<?php echo getBaseAddress() . "Webroot/css/estrellasAlMostrar.css" ?>">
 
-<body>
-<?php
-echo date('m/d/Y g:ia');
-if(isset($_SESSION["logueado"])){
-
-    include_once ("navLogueado.php") ;
-}else{
-    include_once ("navNoLogueado.php");
-}
-?>
-
-
-<div class="container">
+<div class="container mt-5">
     <div class="row">
         <div class="col col-md-7">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -257,8 +245,6 @@ echo '<div class="card-group">';
 
 </div>
 
-
-</body>
 <script src="<?php echo getBaseAddress() . "Webroot/js/agregarAlCarrito.js" ?>"></script>
 <script src="<?php echo getBaseAddress() . "Webroot/js/agregarComentario.js" ?>"></script>
 <script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>

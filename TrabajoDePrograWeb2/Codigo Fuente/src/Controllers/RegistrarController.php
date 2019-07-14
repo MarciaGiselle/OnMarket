@@ -6,6 +6,7 @@ class RegistrarController extends Controller
     function registrar()
     {
         $d["title"] = "Registrarse";
+
         $this->set($d);
         $this->render(Constantes::REGISTRARVIEW);
 

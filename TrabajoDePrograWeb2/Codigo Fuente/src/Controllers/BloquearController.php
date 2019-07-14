@@ -6,6 +6,8 @@ class BloquearController extends Controller
 
     function bloquear($datos){
         $d["title"] = "Bloquear";
+        $d["nombreUsuario"]= $_SESSION["name"];
+
         $id_user=$datos["id_user"];
         $user=new Usuario;
 

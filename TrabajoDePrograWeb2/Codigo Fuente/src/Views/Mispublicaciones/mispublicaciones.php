@@ -1,36 +1,22 @@
-<body>
+<main>
+<div class="container-fluid">
 
-<?php
-
-if(isset($_SESSION["logueado"])){
-if(isset($_SESSION["admin"])){
-    include_once ("navLogueadoAdmin.php") ;
-}else{
-    include_once ("navLogueado.php") ;
-}
-
-}else{
-    include_once ("navNoLogueado.php");
-}
-?>
 <table class=" table table-hover text-center mt-4">
     <thead>
     <tr class="font-weight-bold">
         <td scope="col">#</td>
-        <td scope="col">titulo</td>
-        <td scope="col">nombre</td>
-        <td scope="col">precio</td>
-        <td scope="col">cantidad</td>
-        <td scope="col">descripcion</td>
-        <td scope="col">id</td>
+        <td scope="col">Titulo</td>
+        <td scope="col">Nombre</td>
+        <td scope="col">Precio</td>
+        <td scope="col">Cantidad</td>
+        <td scope="col">Descripcion</td>
+        <td scope="col">Id</td>
         <td scope="col">Estado</td>
-
-
-
+        <td scope="col">Editar</td>
+        <td scope="col">Desactivar</td>
     <tr>
     </thead>
     <tbody>
-
 
         <?php
         $total = 0;
@@ -74,7 +60,7 @@ if(isset($_SESSION["admin"])){
                 echo '<form action="' . getBaseAddress() . 'MisPublicaciones/publicacionInactiva' . '" method="POST">
             
                    <input type="hidden" name="idPublicacion"  value="' . $idPublicacion . '">
-                  <input class="btn btn-primary" type="submit" value="Inactivar Publicacion">
+                  <input class="btn btn-primary" type="submit" value="Desactivar">
             
                    </form>';
 
@@ -99,5 +85,5 @@ if(isset($_SESSION["admin"])){
 
 
 </table>
-
-</body>
+</div>
+</main>

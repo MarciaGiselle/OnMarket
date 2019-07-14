@@ -5,10 +5,7 @@
     const pathAdmin = "<?php echo getBaseAddress(). "VistaAdmin/admin" ; ?>";
 </script>
 
-
-
-
-<!-–Slider de fotos -–>
+    <!-–Slider de fotos -–>
 
        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -90,20 +87,20 @@
         <!-–Card destacada -–>
 
         <div class="container">
-          <hr>
-          <p class="text-secondary text-uppercase text-center">subtitulo</p>
+            <hr>
+          <p class="text-secondary text-uppercase text-center">estamos en cualquier lado</p>
 
-          <h3 class="text-primary text-center">Algun titulo aqui</h3>
+          <h3 class="text-primary text-center">Comprá desde tu celular</h3>
 <br>
-          <div class="card-group">
+          <div class="card-group text-left">
             <div class="card bg-secondary text-white">
 
-              <img src="Webroot/img/grisnav.png" class="card-img" alt="...">
+              <img src="Webroot/img/celular.jpg" class="card-img" alt="...">
               <div class="card-img-overlay">
-                <div class="col-md-4 p-lg-4 mx-auto my-auto">
+                <div class="col-md-4 p-lg-4 mx-4 my-2">
 
-                  <p class="font-weight-normal">And an even wittier subheading to boot. Jumpstart your marketing efforts with this example based on Apple’s marketing pages.</p>
-                  <a class="btn btn-outline-secondary" href="#">Coming soon</a>
+                  <p class="font-weight-normal text-left">Comodidad y facilidad en tus compras.</p>
+                  <a class="btn btn-outline-secondary" href="#">Próximamente</a>
                 </div>
               </div>
             </div>

@@ -6,12 +6,7 @@ class CompraController EXTENDS Controller
     function IngresarTarjeta($datos){
         if(count($_SESSION['carrito'])>0){
         $d["title"] = "ingresar tarjeta";
-
-        $entregas=new FormaEntrega();
-        $MetodosDeLaCompra=[];
-        //$entregasDeLaBase=$entregas->traerTodas();
-
-
+        $d["nombreUsuario"]= $_SESSION["name"];
         $total=$datos["total"];
 
         $d["total"] = $total;

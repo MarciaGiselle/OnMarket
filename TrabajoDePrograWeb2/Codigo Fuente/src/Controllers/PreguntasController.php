@@ -7,6 +7,8 @@ class PreguntasController extends Controller
     {
 
         $d["title"] = "Preguntas";
+        $d["nombreUsuario"]= $_SESSION["name"];
+
         $comentario = new Comentario();
         // el id_user porq el q esta logueado
         $publicaciones=new Publicacion();

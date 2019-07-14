@@ -2,16 +2,7 @@
     const pathEliminar = "<?php echo getBaseAddress() . "Carrito/eliminarProducto"; ?>";
 </script>
 
-<body>
-<?php
 
-if (isset($_SESSION["logueado"])) {
-
-    include_once("navLogueado.php");
-} else {
-    include_once("navNoLogueado.php");
-}
-?>
 <div class="container text-center align-items-center"><br>
     <h2 class="text-primary text-center mt-3 mb-3">Tus Productos</h2>
  <form action="<?php echo getBaseAddress() . 'Compra/ingresarTarjeta' ?>" method="POST">
@@ -90,17 +81,14 @@ if (isset($_SESSION["logueado"])) {
                         <h5 class="text-center mb-0">No hay productos en el carrito</h5>
                    
                        </div>
-                       </div>
+                       </div>';
                    
-    <!--boton busqueda -->
-    <form action="'. getBaseAddress() . 'Buscador/busqueda'.' " method="post">
-        <input type="submit" value="Realizar una búsqueda" class="btn btn-lg btn-primary">
-    </form> </div>';
+
         }
         ?>
 
 
 </div>
-</body>
+
 <script src="<?php echo getBaseAddress() . "Webroot/js/eliminarDelCarrito.js" ?>"></script>
 <script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>

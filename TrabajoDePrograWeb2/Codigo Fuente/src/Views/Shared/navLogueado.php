@@ -2,7 +2,7 @@
 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
 </button>
-<a class="navbar-brand" href=#><img id="logo-nav" src="Webroot/img/logotipo.png" alt="Logo de OnMarket"></a>
+<a class="navbar-brand" href=#><img id="logo-nav" src="../Webroot/img/logotipo.png" alt="Logo de OnMarket"></a>
 
 <div class="collapse navbar-collapse " id="navbarTogglerDemo03">
     <ul class="navbar-nav mr-2 mt-2 mt-lg-0">
@@ -57,14 +57,14 @@
         <div class="btn-group">
             <button type="button" class="btn btn-light dropdown-toggle text-primary" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <i class="fas fa-user mr-2"></i>
-                <span class=" text-center align-self-center"> <?php echo $nombreUsuario?></span>
+                <span class=" text-center align-self-center"> <?php echo $nombreUsuario ?></span>
             </button>
             <div class="dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item text-info" href="<?php echo getBaseAddress() . "MiCuenta/miCuenta" ?>">Mi Cuenta</a>
+                <a class="dropdown-item text-info disabled" href="<?php echo getBaseAddress() . "MiCuenta/miCuenta" ?>">Mi Cuenta</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item text-info" href= "<?php echo getBaseAddress() . "MisCompras/mostrarHistorial" ?>">Compras</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item text-info" href= "<?php echo getBaseAddress() . "MisVentas/ventas" ?>">Ventas</a>
+                <a class="dropdown-item text-info disabled" href= "<?php echo getBaseAddress() . "MisVentas/ventas" ?>">Ventas</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item text-warning" href= "<?php echo getBaseAddress() . "Usuario/cerrarSesion" ?>">Cerrar Sesión</a>
             </div>

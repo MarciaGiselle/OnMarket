@@ -1,14 +1,3 @@
-<body>
-<?php
-
-if (isset($_SESSION["logueado"])) {
-
-    include_once("navLogueado.php");
-} else {
-    include_once("navNoLogueado.php");
-}
-?>
-
 <form action="<?php echo getBaseAddress() .'Desbloquear/confirmarDesbloqueo' ?>" method="post">
 <div> <?php echo $usuario["id"] ?>
 
@@ -26,4 +15,3 @@ if (isset($_SESSION["logueado"])) {
     </a>
 </form>
 
-</body>

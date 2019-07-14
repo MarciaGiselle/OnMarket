@@ -1,13 +1,3 @@
-<body>
-<?php
-
-if (isset($_SESSION["logueado"])) {
-
-    include_once("navLogueado.php");
-} else {
-    include_once("navNoLogueado.php");
-}
-?>
 
 <form action="<?php echo getBaseAddress() .'Bloquear/confirmarBloqueo' ?>" method="post">
 <div> <?php echo $usuario["id"] ?>
@@ -25,5 +15,3 @@ if (isset($_SESSION["logueado"])) {
         <input   value="cancelar" class="btn btn-primary" id="publicar" >
     </a>
 </form>
-
-</body>

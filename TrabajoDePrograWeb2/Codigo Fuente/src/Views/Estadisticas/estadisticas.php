@@ -1,25 +1,7 @@
-<body>
 <script src="<?php echo getBaseAddress() . 'Webroot/amcharts4/core.js'?>"></script>
 <script src="<?php echo getBaseAddress() . '/Webroot/amcharts4/charts.js'?>"> </script>
 <script src="<?php echo getBaseAddress() . 'Webroot/amcharts4/themes/animated.js'?>"></script>
 <script src="<?php echo getBaseAddress() . 'Webroot/amcharts4/maps.js'?>"></script>
-<?php
-if(isset($_SESSION["logueado"])){
-    if(isset($_SESSION["admin"])){
-        include_once ("navLogueadoAdmin.php") ;
-    }else{
-        include_once ("navLogueado.php") ;
-    }
-
-}else{
-    include_once ("navNoLogueado.php");
-}
-
-?>
-
-
-
-
 
     <h3>Productos mas buscados </h3>
     <div style=" width: 100%;
@@ -265,8 +247,3 @@ if(isset($_SESSION["logueado"])){
 
 
 
-
-
-
-
-</body>

@@ -5,6 +5,7 @@ class MisComprasController EXTENDS Controller
     function mostrarHistorial()
     {
         $d["title"] = "Historial de Compras";
+        $d["nombreUsuario"]= $_SESSION["name"];
         $miCobranza = new Cobranza ();
         $producto = new Producto();
         $usuario = new Usuario();

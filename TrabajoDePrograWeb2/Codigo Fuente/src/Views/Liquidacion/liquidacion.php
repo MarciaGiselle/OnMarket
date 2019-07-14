@@ -4,18 +4,6 @@
 
 </script>
 
-
-<body>
-<?php
-
-if (isset($_SESSION["logueado"])) {
-
-    include_once("navLogueado.php");
-} else {
-    include_once("navNoLogueado.php");
-}
-?>
-
 <div class="container mt-4">
     <h5 class="text-primary d-flex justify-content-center mt-3">Nueva Liquidación</h5>
     <small class="text-muted d-flex justify-content-center text-center mb-5">Seleccione el mes y el año que desea
@@ -125,19 +113,6 @@ if (isset($_SESSION["logueado"])) {
 
 </div>
 
-
-<!-- Footer -->
-<footer class="bg-primary page-footer font-small blue pt-4 fixed-bottom">
-
-    <!-- Copyright -->
-    <div class="bg-secondary text-dark footer-copyright text-center py-3">© 2019 Copyright:
-        <a class="text-dark" href="https://mdbootstrap.com/education/bootstrap/"> OnMarket.com</a>
-    </div>
-    <!-- Copyright -->
-
-</footer>
-
-</body>
 
 <script src="<?php echo getBaseAddress() . "Webroot/js/liquidacion.js" ?>"></script>
 <script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>

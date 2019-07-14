@@ -29,7 +29,9 @@ class UsuarioController extends Controller
 
 
             if (!empty($idUsuario)) {
-                $_SESSION["logueado"] = $idUsuario;
+                $_SESSION["logueado"] = $idUsuario["id"];
+                $_SESSION["name"] = $idUsuario["name"];
+
                 $user = new Usuario();
 
                 $estado = $user->consultarEstadoDelUsuario($_SESSION["logueado"]);
@@ -56,6 +58,8 @@ class UsuarioController extends Controller
     {
         session_destroy();
         unset($_SESSION["carrito"]);
+        unset ($_SESSION["logueado"]);
+        unset ($_SESSION["name"]);
         $d["title"] = "Index";
         $this->set($d);
         header("Location:" . getBaseAddress());
@@ -65,6 +69,8 @@ class UsuarioController extends Controller
     function mostrarInicio()
     {
         $d["title"] = "Mi Cuenta";
+
+        $d["nombreUsuario"]= $_SESSION["name"];
         $this->set($d);
         $this->render(Constantes::USUARIOVIEW);
 

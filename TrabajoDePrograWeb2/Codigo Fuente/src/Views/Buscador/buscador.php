@@ -1,20 +1,12 @@
 <script>
     const pathBusqueda = "<?php echo getBaseAddress() . "Buscador/buscarProducto"; ?>";
+    const pathHome = "<?php echo getBaseAddress(). "Usuario/mostrarInicio" ; ?>";
     const pathMostrarResultados = "<?php echo getBaseAddress() . "Buscador/mostrarResultados"; ?>";
     const pathLoguear = "<?php echo getBaseAddress() . "Usuario/login"; ?>";
 </script>
 
 
-<body>
-<?php
 
-if(isset($_SESSION["logueado"])){
-
-    include_once ("navLogueado.php") ;
-}else{
-    include_once ("navNoLogueado.php");
-}
-?>
 <!-- Buscador-->
 <br>
 
@@ -39,21 +31,11 @@ if(isset($_SESSION["logueado"])){
 </div>
 
 
-<!-- Footer-->
-<footer class="bg-primary page-footer font-small blue pt-4">
-
-
-    <div class="bg-secondary text-dark footer-copyright text-center py-3">© 2019 Copyright:
-        <a class="text-dark" href="https://mdbootstrap.com/education/bootstrap/"> OnMarket.com</a>
-    </div>
-
-
-</footer>
-</body>
 
 
 <script src="<?php echo getBaseAddress() . "Webroot/js/buscador.js" ?>"></script>
 <script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>
+<script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
 <script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
 
 

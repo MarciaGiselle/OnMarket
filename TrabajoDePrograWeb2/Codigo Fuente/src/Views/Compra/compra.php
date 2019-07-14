@@ -5,19 +5,7 @@
 
 
 </script>
-<body>
-<?php
 
-if (isset($_SESSION["logueado"])) {
-
-    include_once("navLogueado.php");
-
-} else {
-    include_once("navNoLogueado.php");
-}
-?>
-
-<main>
 
     <div class="container align-items-center mb-5">
         <h3 class="text-primary text-center mt-3 mt-5">Para los metodos de entrega </h3>
@@ -96,26 +84,9 @@ if (isset($_SESSION["logueado"])) {
     </div>
 
 
-</main>
-
 <br>
-<footer class="bg-primary page-footer font-small blue pt-4">
 
 
-    <!-- Copyright -->
-
-    <div class="bg-secondary text-dark footer-copyright text-center py-3">© 2019 Copyright:
-
-        <a class="text-dark" href="https://mdbootstrap.com/education/bootstrap/"> OnMarket.com</a>
-
-    </div>
-
-    <!-- Copyright -->
-
-
-</footer>
-
-</body>
 
 <script src="<?php echo getBaseAddress() . "Webroot/js/comprar.js" ?>"></script>
 <script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>

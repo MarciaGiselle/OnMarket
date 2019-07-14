@@ -12,6 +12,8 @@ class ProductoController extends Controller
     function publicar()
     {
         $d["title"] = "Publicar";
+        $d["nombreUsuario"]= $_SESSION["name"];
+
         $this->set($d);
         $this->render(Constantes::PUBLICARVIEW);
 
