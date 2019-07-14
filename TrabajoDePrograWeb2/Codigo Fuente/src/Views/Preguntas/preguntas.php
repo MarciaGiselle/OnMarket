@@ -4,15 +4,18 @@
     const pathComentarios = "<?php echo getBaseAddress() . "MostrarProducto/AgregarComentario"; ?>";
 
 </script>
-
-<table id="tabla">
+<div>
+<table class="table table-bordered" id="tabla">
+    <thead>
     <tr>
-        <td>Comentario</td>
-        <td>Fecha</td>
-        <td>Publicacion</td>
-        <td>respuesta</td>
+        <th scope="col">Comentario</th>
+        <th scope="col">Fecha</th>
+        <th scope="col">Publicacion</th>
+        <th scope="col" >Respuesta</th>
 
     </tr>
+    </thead>
+    <tbody>
     <?php
     $x=0;
 
@@ -22,16 +25,16 @@
         for($i=0 ;$i<count($resultados[$x]) ;$i++) {
             echo'<tr>';
             echo '<td class="col-5 col-auto">
-             <h6>' . $resultados[$x][$i]["comentario"]["mensaje"] . '</h6>
+             <h5>' . $resultados[$x][$i]["comentario"]["mensaje"] . '</h5>
              
              </td>';
 
-            echo '<td>'.$resultados[$x][$i]["comentario"]["fecha"].'</td>';
-            echo '<td>'.$publicaciones[$x]["titulo"].'</td>';
+            echo '<td><h6>'.$resultados[$x][$i]["comentario"]["fecha"].'</h6></td>';
+            echo '<td><h5>'.$publicaciones[$x]["titulo"].'</h5></td>';
             if (!empty($resultados[$x][$i]["respuesta"])) {
                 echo '<td id="div2" class="div2 col-9 col-auto ">
              
-             <h6>' . $resultados[$x][$i]["respuesta"]["mensaje"] . '</h6>
+             <h5>' . $resultados[$x][$i]["respuesta"]["mensaje"] . '</h5>
             
              ';
 
@@ -42,17 +45,17 @@
                 $idProducto= $publicaciones[$x]["id_Producto"];
 
 
-                echo '<td><button onclick="pasarDatos(' . $idComentario.','.$idProducto.')" type="button" class="btn btn-primary ml-2 " data-toggle="modal"
+                echo '<td><button onclick="pasarDatos(' . $idComentario.','.$idProducto.')" type="button" class="btn btn-outline-primary"  data-toggle="modal"
             data-target="#exampleModalCenter"  >Responder</button></td>';
                 echo '<tr>';
             }
         }
     }
     ?>
-
+    </tbody>
 
 </table>
-
+</div>
 <input type="hidden" id="idVendedor" value="4">
 <table id="tabla2">
 </table>
@@ -67,23 +70,22 @@
 
 
 
-MODAL-->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalCenterTitle">contesta el mensaje</h5>
+                <h5 class="modal-title" id="exampleModalCenterTitle">contesta el comentario</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
 
-                <label>Escriba su respuesta</label>
+
 
                 <div>
-                    <label for="comentario" class="mt-4" >Dejanos tu comentario</label>
-                    <textarea class="form-control" rows="3" name="comentario" id="comentario" placeholder="Opiniones, cosas positivas, cosas negativas."></textarea>
+                    <label for="comentario" class="mt-4" >Respuesta</label>
+                    <textarea class="form-control" rows="3" name="comentario" id="comentario" placeholder="Escriba aqui..."></textarea>
                 </div>
 
                 <input type="hidden" id="idComentario" name="idComentario" value="">
