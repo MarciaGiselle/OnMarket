@@ -9,6 +9,7 @@ class liquidacion extends Model
     private $ganancia;
     private $idYear;
     private $idMes;
+    private $idAdmin;
 
 
     function crearLiquidacion()
@@ -18,7 +19,8 @@ class liquidacion extends Model
             "total" => $this->getTotal(),
             "ganancia" => $this->getGanancia(),
             "idYear" => $this->getIdYear(),
-            "idMes" => $this->getIdMes()
+            "idMes" => $this->getIdMes(),
+            "idAdmin" =>$this->getIdAdmin()
         ];
         $this->setId($this->insert($array));
         return $this->getId();
@@ -146,6 +148,22 @@ class liquidacion extends Model
     public function setGanancia($ganancia)
     {
         $this->ganancia = $ganancia;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getIdAdmin()
+    {
+        return $this->idAdmin;
+    }
+
+    /**
+     * @param mixed $idAdmin
+     */
+    public function setIdAdmin($idAdmin)
+    {
+        $this->idAdmin = $idAdmin;
     }
 
 

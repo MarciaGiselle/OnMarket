@@ -3,15 +3,16 @@
 
 class LiquidacionController extends Controller
 {
-    function liquidacion(){
+    function liquidacion()
+    {
         $d["title"] = "Liquidaciones";
 
         $year = new Year();
         $mes = new Mes();
 
 
-        $years = $year -> getAllYears();
-        $meses = $mes -> getallMeses();
+        $years = $year->getAllYears();
+        $meses = $mes->getallMeses();
 
         $d["meses"] = $meses;
         $d["year"] = $years;
@@ -23,13 +24,14 @@ class LiquidacionController extends Controller
         $this->render(Constantes::LIQUIDACIONVIEW);
     }
 
-    function crearLiquidacion($datos){
+    function crearLiquidacion($datos)
+    {
 
         header("Content-type: application/json");
         $data = json_decode(utf8_decode($datos['data']));
 
-        $idMes=$data->mes;
-        $idYear=$data->year;
+        $idMes = $data->mes;
+        $idYear = $data->year;
 
         $cobranza = new Cobranza();
         $liquidacion = new Liquidacion();
@@ -41,74 +43,76 @@ class LiquidacionController extends Controller
 
         $yearNumero = $year->consultarYearPorPK($idYear);
 
-        $estado= $liquidacion->consultarEstadoDeLiquidacion($idMes,$idYear);
+        $estado = $liquidacion->consultarEstadoDeLiquidacion($idMes, $idYear);
 
         $validarFecha = $this->consultarSiEsUnaFechaValida($idMes, $yearNumero);
 
-        if($validarFecha === true){
-        if($estado == 1) {
-            $c = $cobranza->consultarCobranzasDelMes($idMes, $yearNumero);
-            if (count($c) > 0) {
+        if ($validarFecha === true) {
+            if ($estado == 1) {
+                $c = $cobranza->consultarCobranzasDelMes($idMes, $yearNumero);
+                if (count($c) > 0) {
 
-                for ($i = 0; $i < count($c); $i++) {
-                    $facturacion += $c[$i]["total"];
+                    for ($i = 0; $i < count($c); $i++) {
+                        $facturacion += $c[$i]["total"];
+                    }
+                    $ganancia = $liquidacion->calcularGanancia($facturacion);
+
+                    $liquidacion->setTotal($facturacion);
+                    $liquidacion->setIdAdmin($_SESSION["logueado"]);
+                    $liquidacion->setGanancia($ganancia);
+                    $liquidacion->setFechaLiquidacion($fecha_actual);
+                    $liquidacion->setIdMes((integer)$idMes);
+                    $liquidacion->setIdYear((integer)$idYear);
+                    $id = $liquidacion->crearLiquidacion();
+
+                } else {
+                    throw new liquidacionException("No hay cobranzas en el período seleccionado", CodigoError::nullCobranzasException);
                 }
-                $ganancia = $liquidacion->calcularGanancia($facturacion);
-
-                $liquidacion->setTotal($facturacion);
-                $liquidacion->setGanancia($ganancia);
-                $liquidacion->setFechaLiquidacion($fecha_actual);
-                $liquidacion->setIdMes((integer)$idMes);
-                $liquidacion->setIdYear((integer)$idYear);
-                $id = $liquidacion->crearLiquidacion();
-
             } else {
-                throw new liquidacionException("No hay cobranzas en el período seleccionado", CodigoError::nullCobranzasException);
+                throw new liquidacionException("Este idMes ya fue liquidado", CodigoError::liquidacionExistenteException);
             }
-        } else{
-            throw new liquidacionException("Este idMes ya fue liquidado", CodigoError::liquidacionExistenteException);
-        }
-        }
-        else{
+        } else {
             throw new liquidacionException("No ha seleccionado un idMes válido", CodigoError::fechaInvalidaException);
 
         }
 
-        echo json_encode( $id);
+        echo json_encode($id);
     }
 
 
-    function consultarSiEsUnaFechaValida($mes,$year){
+    function consultarSiEsUnaFechaValida($mes, $year)
+    {
         $mes_actual = date('m');
         $year_actual = date('Y');
-        if($year < $year_actual){
+        if ($year < $year_actual) {
             return true;
-        }elseif ( $year == $year_actual){
-            if($mes>$mes_actual){
+        } elseif ($year == $year_actual) {
+            if ($mes > $mes_actual) {
                 return false;
-            }
-            else{
+            } else {
                 return true;
             }
         }
     }
 
-    function traerTodasLasLiquidaciones(){
+    function traerTodasLasLiquidaciones()
+    {
         $liquidacion = new Liquidacion();
         $year = new Year();
-        $mes = new Mes();
+        $month = new Mes();
         $completo = [];
-        $todasLasLiquidaciones= [];
+        $todasLasLiquidaciones = [];
 
         $todas = $liquidacion->consultarTodas();
-        for($i = 0; $i<count($todas);$i++){
-            $mes = $mes -> getMesById((int)($todas[$i]["idMes"]));
-            $a = $year -> getYearById((int)($todas[$i]["idYear"]));
+        for ($i = 0; $i < count($todas); $i++) {
+
+            $mes = $month->getMesById((int)$todas[$i]["idMes"]);
+            $a = $year->getYearById((int)$todas[$i]["idYear"]);
 
             $completo = [
-                "liq"=> $todas[$i],
-            "mes"=> $mes,
-            "year" => $a
+                "liq" => $todas[$i],
+                "mes" => $mes,
+                "year" => $a
             ];
             array_push($todasLasLiquidaciones, $completo);
         }

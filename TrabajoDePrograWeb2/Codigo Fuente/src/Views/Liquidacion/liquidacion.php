@@ -18,11 +18,13 @@ if (isset($_SESSION["logueado"])) {
 
 <div class="container mt-4">
     <h5 class="text-primary d-flex justify-content-center mt-3">Nueva Liquidación</h5>
-    <small class="text-muted d-flex justify-content-center text-center mb-5">Seleccione el mes y el año que desea liquidar</small>
+    <small class="text-muted d-flex justify-content-center text-center mb-5">Seleccione el mes y el año que desea
+        liquidar
+    </small>
 
     <div class="form-row justify-content-center my-4">
-        <div class="col-md-3 input-group mb-3">
-
+        <div class="col-md-3">
+            <div class="input-group">
             <div class="input-group-prepend">
                 <label class="input-group-text" for="year">Año</label>
             </div>
@@ -34,17 +36,18 @@ if (isset($_SESSION["logueado"])) {
                 }
                 ?>
             </select>
-            <div id="errorYear" class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center">
+            <div id="errorYear"
+                 class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center">
                 <i class="fas fa-exclamation-triangle mr-2"></i>
                 <span class="text-center"></span>
             </div>
-
+            </div>
         </div>
-    </div>
 
-        <div class="form-row justify-content-center my-4">
 
-        <div class="col-md-3 input-group mb-3">
+
+        <div class="col-md-3 mb-3">
+            <div class="input-group">
             <div class="input-group-prepend">
                 <label class="input-group-text" for="mes">Mes</label>
             </div>
@@ -64,10 +67,9 @@ if (isset($_SESSION["logueado"])) {
                 <span class="text-center"></span>
             </div>
         </div>
+        </div>
+
     </div>
-
-
-
 
 
     <div class="row justify-content-center mt-5">
@@ -78,34 +80,47 @@ if (isset($_SESSION["logueado"])) {
 </div>
 
 
+<div class='container' id="resultados">
 
-<div class='container d-none' id="resultados">
-    <form action="<?php echo getBaseAddress() . "Liquidacion/descargar" ?>" method="post">
-        <table id="tablaLiquidaciones" class='table table-hover text-center mt-4'>
+        <?php
+        if (count($liquidaciones) > 0){
+            echo '<table id="tablaLiquidaciones" class=\'table table-hover text-center mt-4\'>
             <thead><tr>
-                <th class="text-primary ">Nombre</th>
-                <th class="text-primary ">Precio</th>
-                <th class="text-primary ">Descripcion</th>
-                <th class="text-primary ">Imagen</th>
-                <th class="text-primary "></th>
-                </tr>
-            </thead>
-            //tag php
-            for (i = 0; i < datos.length; i++) {
-            var name = datos[i].imagen[0].nombre;
-            var id = datos[i].prod[0].id;
+                <th class="text-primary ">ID</th>
+                <th class="text-primary ">Fecha de Liquidacion</th>
+                <th class="text-primary ">Mes liquidado</th>
+                <th class="text-primary ">Año</th>
+                <th class="text-primary ">Total Facturado</th>
+                <th class="text-primary ">Ganancia obtenida</th>
+                 <th class="text-primary "></th>
 
-            tabla.append('<tr>' +
-                '<td align="center"> ' + datos[i].prod[0].nombre + '</td>' +
-                '<td align="center">' + datos[i].prod[0].precio + '</td>' +
-                '<td align="center" >' + datos[i].prod[0].descripcion + '</td>' +
-                '<td align="center" >' + '<img height="100px" src="../Webroot/imgCargadas/' + name + '"></td>' +
-                '<td><button class="btn btn-info align-items-center" type="submit"  onclick="enviarId(' + id + ')"><i class="fas fa-eye fa-2x" style="color: whitesmoke;" ></i>  </button>' +
-                    '<input type="hidden" name="id"  value="' + id + '">' +
-                    '</td>' +
-                '</tr>'
-        </table>
-    </form>
+            </tr>
+            </thead>';
+            for ($i = 0; $i < count($liquidaciones); $i++) {
+
+                echo '<tr>
+                <td align="center"> ' . $liquidaciones[$i]["liq"]["id"] . '</td>
+                <td align="center"> ' . $liquidaciones[$i]["liq"]["fecha_liquidacion"] . ' </td>
+                <td align="center"> ' . $liquidaciones[$i]["mes"] . ' </td>
+                <td align="center"> ' . $liquidaciones[$i]["year"] . ' </td>
+                <td align="center">$ ' . $liquidaciones[$i]["liq"]["total"] . ' </td>
+                <td align="center">$ ' . $liquidaciones[$i]["liq"]["ganancia"] . ' </td>
+                <td><button class="btn btn-info align-items-center" type="submit"><i class="fas fa-eye fa-2x" style="color: whitesmoke;" ></i>  </button>
+                 <input type="hidden" name="id"  value="">  
+                   </td>
+                </tr> </table>';
+            }
+        }else {
+
+            echo '<div class="container mt-4">
+                   <div class="alert d-flex alert-danger p-1 align-items-center rounded text-center justify-content-center mb-5" role="alert" >
+                      <i class="fa fa-exclamation-circle fa-2x mr-2 "></i>
+                      <h5 class="text-center mb-0">No hay liquidaciones que mostrar</h5>
+                    </div>
+                </div>';
+        }
+        ?>
+
 </div>
 
 

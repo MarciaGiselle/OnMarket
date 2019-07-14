@@ -140,7 +140,7 @@ CREATE TABLE `estadisticas`
 --
 CREATE TABLE categoria
 (
-    idCategoria     integer     NOT NULL AUTO_INCREMENT,
+    id    integer     NOT NULL AUTO_INCREMENT,
     nombreCategoria varchar(30) NOT NULL,
     id_estadistica  integer DEFAULT NULL,
     constraint PK_Categoria primary key (idCategoria),
@@ -350,8 +350,10 @@ CREATE TABLE `liquidacion`
     `ganancia`          double  NOT NULL,
     `idYear`            integer NOT NULL,
     `idMes`             integer NOT NULL,
+    `idAdmin`           integer NOT NULL,
     constraint PK_Liquidacion primary key (id),
     constraint FK_Liquidacion_Y foreign key (idMes) references mes (id),
+    constraint FK_Liquidacion_Admin foreign key (idAdmin) references usuario (id),
     constraint FK_Liquidacion_M foreign key (idYear) references year (id)
 );
 

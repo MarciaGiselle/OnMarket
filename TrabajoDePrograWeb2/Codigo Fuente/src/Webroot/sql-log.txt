@@ -44754,3 +44754,943 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-07-13 20:58:28]  DESC mes
 [2019-07-13 20:58:28]  select * from Year limit 0, 9223372036854775807
 [2019-07-13 20:58:28]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 21:07:02]  DESC Year
+[2019-07-13 21:07:02]  DESC mes
+[2019-07-13 21:07:02]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 21:07:02]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 21:07:02]  DESC liquidacion
+[2019-07-13 21:07:03]  DESC Year
+[2019-07-13 21:07:03]  DESC mes
+[2019-07-13 21:07:03]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 21:07:03]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 21:07:03]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:22:22]  DESC Year
+[2019-07-13 23:22:22]  DESC mes
+[2019-07-13 23:22:22]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:22:22]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:22:22]  DESC liquidacion
+[2019-07-13 23:22:22]  DESC Year
+[2019-07-13 23:22:22]  DESC mes
+[2019-07-13 23:22:22]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:22:22]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:22:22]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:22:29]  DESC Year
+[2019-07-13 23:22:29]  DESC mes
+[2019-07-13 23:22:29]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:22:29]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:22:29]  DESC liquidacion
+[2019-07-13 23:22:29]  DESC Year
+[2019-07-13 23:22:29]  DESC mes
+[2019-07-13 23:22:29]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:22:29]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:22:29]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:24:12]  DESC Year
+[2019-07-13 23:24:12]  DESC mes
+[2019-07-13 23:24:12]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:24:12]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:24:12]  DESC liquidacion
+[2019-07-13 23:24:12]  DESC Year
+[2019-07-13 23:24:12]  DESC mes
+[2019-07-13 23:24:12]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:24:12]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:24:12]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:24:53]  DESC Year
+[2019-07-13 23:24:53]  DESC mes
+[2019-07-13 23:24:53]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:24:53]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:24:53]  DESC liquidacion
+[2019-07-13 23:24:53]  DESC Year
+[2019-07-13 23:24:53]  DESC mes
+[2019-07-13 23:24:53]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:24:53]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:24:53]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:25:14]  DESC Year
+[2019-07-13 23:25:15]  DESC mes
+[2019-07-13 23:25:15]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:25:15]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:25:15]  DESC liquidacion
+[2019-07-13 23:25:15]  DESC Year
+[2019-07-13 23:25:15]  DESC mes
+[2019-07-13 23:25:15]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:25:15]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:25:15]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:26:19]  DESC Year
+[2019-07-13 23:26:19]  DESC mes
+[2019-07-13 23:26:19]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:26:19]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:26:19]  DESC liquidacion
+[2019-07-13 23:26:19]  DESC Year
+[2019-07-13 23:26:19]  DESC mes
+[2019-07-13 23:26:19]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:26:19]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:26:19]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:36:53]  DESC Year
+[2019-07-13 23:36:53]  DESC mes
+[2019-07-13 23:36:53]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:36:54]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:36:54]  DESC liquidacion
+[2019-07-13 23:36:54]  DESC Year
+[2019-07-13 23:36:54]  DESC mes
+[2019-07-13 23:36:54]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:36:54]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:36:54]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:37:08]  DESC Year
+[2019-07-13 23:37:08]  DESC mes
+[2019-07-13 23:37:08]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:37:08]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:37:08]  DESC liquidacion
+[2019-07-13 23:37:08]  DESC Year
+[2019-07-13 23:37:08]  DESC mes
+[2019-07-13 23:37:08]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:37:08]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:37:08]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:37:16]  DESC Year
+[2019-07-13 23:37:16]  DESC mes
+[2019-07-13 23:37:16]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:37:16]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:37:16]  DESC liquidacion
+[2019-07-13 23:37:16]  DESC Year
+[2019-07-13 23:37:16]  DESC mes
+[2019-07-13 23:37:16]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:37:16]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:37:16]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:38:05]  DESC Year
+[2019-07-13 23:38:05]  DESC mes
+[2019-07-13 23:38:05]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:38:06]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:38:06]  DESC liquidacion
+[2019-07-13 23:38:06]  DESC Year
+[2019-07-13 23:38:06]  DESC mes
+[2019-07-13 23:38:06]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:38:06]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:38:06]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:38:15]  DESC Year
+[2019-07-13 23:38:15]  DESC mes
+[2019-07-13 23:38:15]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:38:15]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:38:15]  DESC liquidacion
+[2019-07-13 23:38:15]  DESC Year
+[2019-07-13 23:38:15]  DESC mes
+[2019-07-13 23:38:15]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:38:15]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:38:15]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:47:26]  DESC Year
+[2019-07-13 23:47:26]  DESC mes
+[2019-07-13 23:47:26]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:47:26]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:47:26]  DESC liquidacion
+[2019-07-13 23:47:26]  DESC Year
+[2019-07-13 23:47:26]  DESC mes
+[2019-07-13 23:47:26]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:47:26]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:47:26]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:48:39]  DESC Year
+[2019-07-13 23:48:39]  DESC mes
+[2019-07-13 23:48:39]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:48:39]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:48:39]  DESC liquidacion
+[2019-07-13 23:48:39]  DESC Year
+[2019-07-13 23:48:39]  DESC mes
+[2019-07-13 23:48:39]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:48:39]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:48:39]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:49:13]  DESC Year
+[2019-07-13 23:49:13]  DESC mes
+[2019-07-13 23:49:13]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:49:13]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:49:13]  DESC liquidacion
+[2019-07-13 23:49:13]  DESC Year
+[2019-07-13 23:49:13]  DESC mes
+[2019-07-13 23:49:13]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:49:13]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:49:13]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:49:33]  DESC Year
+[2019-07-13 23:49:33]  DESC mes
+[2019-07-13 23:49:33]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:49:33]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:49:33]  DESC liquidacion
+[2019-07-13 23:49:33]  DESC Year
+[2019-07-13 23:49:33]  DESC mes
+[2019-07-13 23:49:34]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:49:34]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:49:34]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:50:19]  DESC Year
+[2019-07-13 23:50:19]  DESC mes
+[2019-07-13 23:50:19]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:50:19]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:50:19]  DESC liquidacion
+[2019-07-13 23:50:19]  DESC Year
+[2019-07-13 23:50:19]  DESC mes
+[2019-07-13 23:50:19]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:50:19]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:50:19]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:50:28]  DESC Year
+[2019-07-13 23:50:28]  DESC mes
+[2019-07-13 23:50:28]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:50:28]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:50:28]  DESC liquidacion
+[2019-07-13 23:50:28]  DESC Year
+[2019-07-13 23:50:28]  DESC mes
+[2019-07-13 23:50:28]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:50:28]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:50:28]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:50:39]  DESC cobranza
+[2019-07-13 23:50:39]  DESC liquidacion
+[2019-07-13 23:50:39]  DESC Year
+[2019-07-13 23:50:39]  select * from Year  where id=2 limit 0, 9223372036854775807
+[2019-07-13 23:50:39]  select * from liquidacion  where idMes=7 AND idYear=2 limit 0, 1
+[2019-07-13 23:50:39]  select * from cobranza  where MONTH(fecha)=7 AND YEAR(fecha)=2019 limit 0, 9223372036854775807
+[2019-07-13 23:50:39]  INSERT INTO `liquidacion` (`fecha_liquidacion`,`total`,`ganancia`,`idYear`,`idMes`) VALUES ('2019-07-13 23:50:39','1700','68','2','7')
+[2019-07-13 23:50:42]  DESC Year
+[2019-07-13 23:50:42]  DESC mes
+[2019-07-13 23:50:42]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:50:42]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:50:42]  DESC liquidacion
+[2019-07-13 23:50:42]  DESC Year
+[2019-07-13 23:50:42]  DESC mes
+[2019-07-13 23:50:42]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:50:42]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:50:42]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:51:38]  DESC Year
+[2019-07-13 23:51:38]  DESC mes
+[2019-07-13 23:51:38]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:51:38]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:51:38]  DESC liquidacion
+[2019-07-13 23:51:38]  DESC Year
+[2019-07-13 23:51:38]  DESC mes
+[2019-07-13 23:51:38]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:51:38]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:51:38]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:51:43]  DESC Year
+[2019-07-13 23:51:43]  DESC mes
+[2019-07-13 23:51:43]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:51:43]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:51:43]  DESC liquidacion
+[2019-07-13 23:51:43]  DESC Year
+[2019-07-13 23:51:43]  DESC mes
+[2019-07-13 23:51:43]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:51:43]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:51:43]  select * from Year  where id = 2 limit 0, 1
+[2019-07-13 23:51:44]  DESC Year
+[2019-07-13 23:51:44]  DESC mes
+[2019-07-13 23:51:45]  select * from Year limit 0, 9223372036854775807
+[2019-07-13 23:51:45]  select * from mes limit 0, 9223372036854775807
+[2019-07-13 23:51:45]  DESC liquidacion
+[2019-07-13 23:51:45]  DESC Year
+[2019-07-13 23:51:45]  DESC mes
+[2019-07-13 23:51:45]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-13 23:51:45]  select * from mes  where id = 6 limit 0, 1
+[2019-07-13 23:51:45]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:00:06]  DESC Year
+[2019-07-14 00:00:06]  DESC mes
+[2019-07-14 00:00:06]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:00:06]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:00:06]  DESC liquidacion
+[2019-07-14 00:00:06]  DESC Year
+[2019-07-14 00:00:06]  DESC mes
+[2019-07-14 00:00:06]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:00:06]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:00:06]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:00:07]  DESC Year
+[2019-07-14 00:00:07]  DESC mes
+[2019-07-14 00:00:07]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:00:07]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:00:07]  DESC liquidacion
+[2019-07-14 00:00:07]  DESC Year
+[2019-07-14 00:00:07]  DESC mes
+[2019-07-14 00:00:07]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:00:07]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:00:07]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:00:07]  DESC Year
+[2019-07-14 00:00:07]  DESC mes
+[2019-07-14 00:00:07]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:00:07]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:00:07]  DESC liquidacion
+[2019-07-14 00:00:07]  DESC Year
+[2019-07-14 00:00:07]  DESC mes
+[2019-07-14 00:00:07]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:00:07]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:00:07]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:00:07]  DESC Year
+[2019-07-14 00:00:07]  DESC mes
+[2019-07-14 00:00:07]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:00:07]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:00:07]  DESC liquidacion
+[2019-07-14 00:00:07]  DESC Year
+[2019-07-14 00:00:07]  DESC mes
+[2019-07-14 00:00:07]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:00:07]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:00:07]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:00:08]  DESC Year
+[2019-07-14 00:00:08]  DESC mes
+[2019-07-14 00:00:08]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:00:08]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:00:08]  DESC liquidacion
+[2019-07-14 00:00:08]  DESC Year
+[2019-07-14 00:00:08]  DESC mes
+[2019-07-14 00:00:08]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:00:08]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:00:08]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:00:08]  DESC Year
+[2019-07-14 00:00:08]  DESC mes
+[2019-07-14 00:00:08]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:00:08]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:00:08]  DESC liquidacion
+[2019-07-14 00:00:08]  DESC Year
+[2019-07-14 00:00:08]  DESC mes
+[2019-07-14 00:00:08]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:00:08]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:00:08]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:00:08]  DESC Year
+[2019-07-14 00:00:08]  DESC mes
+[2019-07-14 00:00:08]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:00:08]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:00:08]  DESC liquidacion
+[2019-07-14 00:00:08]  DESC Year
+[2019-07-14 00:00:08]  DESC mes
+[2019-07-14 00:00:08]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:00:08]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:00:08]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:00:12]  DESC Year
+[2019-07-14 00:00:13]  DESC mes
+[2019-07-14 00:00:13]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:00:13]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:00:13]  DESC liquidacion
+[2019-07-14 00:00:13]  DESC Year
+[2019-07-14 00:00:13]  DESC mes
+[2019-07-14 00:00:13]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:00:13]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:00:13]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:00:13]  DESC Year
+[2019-07-14 00:00:13]  DESC mes
+[2019-07-14 00:00:13]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:00:13]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:00:13]  DESC liquidacion
+[2019-07-14 00:00:13]  DESC Year
+[2019-07-14 00:00:13]  DESC mes
+[2019-07-14 00:00:13]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:00:13]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:00:13]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:00:13]  DESC Year
+[2019-07-14 00:00:13]  DESC mes
+[2019-07-14 00:00:13]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:00:13]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:00:13]  DESC liquidacion
+[2019-07-14 00:00:13]  DESC Year
+[2019-07-14 00:00:13]  DESC mes
+[2019-07-14 00:00:13]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:00:14]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:00:14]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:00:14]  DESC Year
+[2019-07-14 00:00:14]  DESC mes
+[2019-07-14 00:00:14]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:00:14]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:00:14]  DESC liquidacion
+[2019-07-14 00:00:14]  DESC Year
+[2019-07-14 00:00:14]  DESC mes
+[2019-07-14 00:00:14]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:00:14]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:00:14]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:00:24]  DESC Year
+[2019-07-14 00:00:24]  DESC mes
+[2019-07-14 00:00:24]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:00:24]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:00:24]  DESC liquidacion
+[2019-07-14 00:00:24]  DESC Year
+[2019-07-14 00:00:24]  DESC mes
+[2019-07-14 00:00:24]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:00:24]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:00:24]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:00:35]  DESC Usuario
+[2019-07-14 00:00:35]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-14 00:00:35]  DESC Usuario
+[2019-07-14 00:00:35]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-14 00:00:35]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-14 00:00:46]  DESC Year
+[2019-07-14 00:00:46]  DESC mes
+[2019-07-14 00:00:46]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:00:46]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:00:46]  DESC liquidacion
+[2019-07-14 00:00:46]  DESC Year
+[2019-07-14 00:00:46]  DESC mes
+[2019-07-14 00:00:46]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:00:46]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:00:46]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:01:45]  DESC Year
+[2019-07-14 00:01:45]  DESC mes
+[2019-07-14 00:01:45]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:01:45]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:01:45]  DESC liquidacion
+[2019-07-14 00:01:45]  DESC Year
+[2019-07-14 00:01:45]  DESC mes
+[2019-07-14 00:01:45]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:01:45]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:01:45]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:01:45]  select * from mes  where id = 7 limit 0, 1
+[2019-07-14 00:01:45]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:02:09]  DESC Year
+[2019-07-14 00:02:09]  DESC mes
+[2019-07-14 00:02:09]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:02:09]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:02:09]  DESC liquidacion
+[2019-07-14 00:02:09]  DESC Year
+[2019-07-14 00:02:09]  DESC mes
+[2019-07-14 00:02:09]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:02:09]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:02:09]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:02:09]  select * from mes  where id = 7 limit 0, 1
+[2019-07-14 00:02:09]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:07:20]  DESC Year
+[2019-07-14 00:07:20]  DESC mes
+[2019-07-14 00:07:20]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:07:20]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:07:20]  DESC liquidacion
+[2019-07-14 00:07:20]  DESC Year
+[2019-07-14 00:07:20]  DESC mes
+[2019-07-14 00:07:20]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:07:48]  DESC Year
+[2019-07-14 00:07:48]  DESC mes
+[2019-07-14 00:07:48]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:07:48]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:07:48]  DESC liquidacion
+[2019-07-14 00:07:48]  DESC Year
+[2019-07-14 00:07:48]  DESC mes
+[2019-07-14 00:07:48]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:08:34]  DESC Year
+[2019-07-14 00:08:34]  DESC mes
+[2019-07-14 00:08:34]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:08:34]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:08:34]  DESC liquidacion
+[2019-07-14 00:08:34]  DESC Year
+[2019-07-14 00:08:34]  DESC mes
+[2019-07-14 00:08:34]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:12:53]  DESC Year
+[2019-07-14 00:12:53]  DESC mes
+[2019-07-14 00:12:53]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:12:53]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:12:53]  DESC liquidacion
+[2019-07-14 00:12:53]  DESC Year
+[2019-07-14 00:12:53]  DESC mes
+[2019-07-14 00:12:53]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:13:16]  DESC Year
+[2019-07-14 00:13:16]  DESC mes
+[2019-07-14 00:13:16]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:13:16]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:13:16]  DESC liquidacion
+[2019-07-14 00:13:16]  DESC Year
+[2019-07-14 00:13:16]  DESC mes
+[2019-07-14 00:13:16]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:13:17]  DESC Year
+[2019-07-14 00:13:17]  DESC mes
+[2019-07-14 00:13:17]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:13:17]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:13:17]  DESC liquidacion
+[2019-07-14 00:13:17]  DESC Year
+[2019-07-14 00:13:17]  DESC mes
+[2019-07-14 00:13:17]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:13:51]  DESC Year
+[2019-07-14 00:13:51]  DESC mes
+[2019-07-14 00:13:51]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:13:51]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:13:51]  DESC liquidacion
+[2019-07-14 00:13:51]  DESC Year
+[2019-07-14 00:13:51]  DESC mes
+[2019-07-14 00:13:51]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:16:05]  DESC Year
+[2019-07-14 00:16:05]  DESC mes
+[2019-07-14 00:16:05]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:16:05]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:16:05]  DESC liquidacion
+[2019-07-14 00:16:05]  DESC Year
+[2019-07-14 00:16:05]  DESC mes
+[2019-07-14 00:16:05]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:17:14]  DESC Year
+[2019-07-14 00:17:15]  DESC mes
+[2019-07-14 00:17:15]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:17:15]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:17:15]  DESC liquidacion
+[2019-07-14 00:17:15]  DESC Year
+[2019-07-14 00:17:15]  DESC mes
+[2019-07-14 00:17:15]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:18:22]  DESC Year
+[2019-07-14 00:18:22]  DESC mes
+[2019-07-14 00:18:22]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:18:22]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:18:22]  DESC liquidacion
+[2019-07-14 00:18:22]  DESC Year
+[2019-07-14 00:18:22]  DESC mes
+[2019-07-14 00:18:22]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:19:50]  DESC Year
+[2019-07-14 00:19:50]  DESC mes
+[2019-07-14 00:19:50]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:19:50]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:19:50]  DESC liquidacion
+[2019-07-14 00:19:50]  DESC Year
+[2019-07-14 00:19:50]  DESC mes
+[2019-07-14 00:19:50]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:19:59]  DESC Year
+[2019-07-14 00:19:59]  DESC mes
+[2019-07-14 00:19:59]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:19:59]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:19:59]  DESC liquidacion
+[2019-07-14 00:19:59]  DESC Year
+[2019-07-14 00:19:59]  DESC mes
+[2019-07-14 00:19:59]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:20:19]  DESC Year
+[2019-07-14 00:20:19]  DESC mes
+[2019-07-14 00:20:19]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:20:19]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:20:19]  DESC liquidacion
+[2019-07-14 00:20:19]  DESC Year
+[2019-07-14 00:20:19]  DESC mes
+[2019-07-14 00:20:19]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:20:25]  DESC Year
+[2019-07-14 00:20:25]  DESC mes
+[2019-07-14 00:20:25]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:20:25]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:20:25]  DESC liquidacion
+[2019-07-14 00:20:25]  DESC Year
+[2019-07-14 00:20:25]  DESC mes
+[2019-07-14 00:20:25]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:20:36]  DESC Year
+[2019-07-14 00:20:36]  DESC mes
+[2019-07-14 00:20:36]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:20:36]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:20:36]  DESC liquidacion
+[2019-07-14 00:20:36]  DESC Year
+[2019-07-14 00:20:36]  DESC mes
+[2019-07-14 00:20:36]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:20:37]  DESC Year
+[2019-07-14 00:20:37]  DESC mes
+[2019-07-14 00:20:37]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:20:37]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:20:37]  DESC liquidacion
+[2019-07-14 00:20:37]  DESC Year
+[2019-07-14 00:20:37]  DESC mes
+[2019-07-14 00:20:37]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:21:28]  DESC Year
+[2019-07-14 00:21:28]  DESC mes
+[2019-07-14 00:21:28]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:21:28]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:21:28]  DESC liquidacion
+[2019-07-14 00:21:28]  DESC Year
+[2019-07-14 00:21:28]  DESC mes
+[2019-07-14 00:21:28]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:22:01]  DESC Year
+[2019-07-14 00:22:01]  DESC mes
+[2019-07-14 00:22:01]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:22:01]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:22:01]  DESC liquidacion
+[2019-07-14 00:22:01]  DESC Year
+[2019-07-14 00:22:01]  DESC mes
+[2019-07-14 00:22:01]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:23:40]  DESC Year
+[2019-07-14 00:23:40]  DESC mes
+[2019-07-14 00:23:40]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:23:40]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:23:40]  DESC liquidacion
+[2019-07-14 00:23:40]  DESC Year
+[2019-07-14 00:23:40]  DESC mes
+[2019-07-14 00:23:40]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:24:16]  DESC Year
+[2019-07-14 00:24:16]  DESC mes
+[2019-07-14 00:24:16]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:24:16]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:24:16]  DESC liquidacion
+[2019-07-14 00:24:16]  DESC Year
+[2019-07-14 00:24:16]  DESC mes
+[2019-07-14 00:24:16]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:25:14]  DESC Year
+[2019-07-14 00:25:14]  DESC mes
+[2019-07-14 00:25:14]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:25:14]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:25:14]  DESC liquidacion
+[2019-07-14 00:25:14]  DESC Year
+[2019-07-14 00:25:15]  DESC mes
+[2019-07-14 00:25:15]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:25:47]  DESC Year
+[2019-07-14 00:25:47]  DESC mes
+[2019-07-14 00:25:47]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:25:47]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:25:47]  DESC liquidacion
+[2019-07-14 00:25:47]  DESC Year
+[2019-07-14 00:25:48]  DESC mes
+[2019-07-14 00:25:48]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:25:57]  DESC Year
+[2019-07-14 00:25:57]  DESC mes
+[2019-07-14 00:25:57]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:25:57]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:25:57]  DESC liquidacion
+[2019-07-14 00:25:57]  DESC Year
+[2019-07-14 00:25:57]  DESC mes
+[2019-07-14 00:25:57]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:26:34]  DESC cobranza
+[2019-07-14 00:26:34]  DESC liquidacion
+[2019-07-14 00:26:34]  DESC Year
+[2019-07-14 00:26:34]  select * from Year  where id=2 limit 0, 9223372036854775807
+[2019-07-14 00:26:34]  select * from liquidacion  where idMes=6 AND idYear=2 limit 0, 1
+[2019-07-14 00:26:34]  select * from cobranza  where MONTH(fecha)=6 AND YEAR(fecha)=2019 limit 0, 9223372036854775807
+[2019-07-14 00:26:34]  INSERT INTO `liquidacion` (`fecha_liquidacion`,`total`,`ganancia`,`idYear`,`idMes`) VALUES ('2019-07-14 00:26:34','850','34','2','6')
+[2019-07-14 00:26:37]  DESC Year
+[2019-07-14 00:26:37]  DESC mes
+[2019-07-14 00:26:37]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:26:37]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:26:37]  DESC liquidacion
+[2019-07-14 00:26:37]  DESC Year
+[2019-07-14 00:26:37]  DESC mes
+[2019-07-14 00:26:37]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:26:37]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:26:37]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:27:23]  DESC Year
+[2019-07-14 00:27:23]  DESC mes
+[2019-07-14 00:27:23]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:27:23]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:27:23]  DESC liquidacion
+[2019-07-14 00:27:23]  DESC Year
+[2019-07-14 00:27:23]  DESC mes
+[2019-07-14 00:27:23]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:27:23]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:27:23]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:27:27]  DESC Year
+[2019-07-14 00:27:27]  DESC mes
+[2019-07-14 00:27:27]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:27:27]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:27:27]  DESC liquidacion
+[2019-07-14 00:27:27]  DESC Year
+[2019-07-14 00:27:27]  DESC mes
+[2019-07-14 00:27:27]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:27:27]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:27:28]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:27:41]  DESC Year
+[2019-07-14 00:27:41]  DESC mes
+[2019-07-14 00:27:41]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:27:41]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:27:41]  DESC liquidacion
+[2019-07-14 00:27:41]  DESC Year
+[2019-07-14 00:27:41]  DESC mes
+[2019-07-14 00:27:41]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:27:41]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:27:41]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:28:06]  DESC Year
+[2019-07-14 00:28:06]  DESC mes
+[2019-07-14 00:28:06]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:28:06]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:28:06]  DESC liquidacion
+[2019-07-14 00:28:07]  DESC Year
+[2019-07-14 00:28:07]  DESC mes
+[2019-07-14 00:28:07]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:28:07]  select * from mes  where id = 6 limit 0, 1
+[2019-07-14 00:28:07]  select * from Year  where id = 2 limit 0, 1
+[2019-07-14 00:34:33]  DESC Usuario
+[2019-07-14 00:34:33]  select * from Usuario  where name= 'marcelo' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-14 00:34:33]  DESC Usuario
+[2019-07-14 00:34:33]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-14 00:34:33]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-14 00:34:40]  DESC Producto
+[2019-07-14 00:34:40]  DESC Imagen
+[2019-07-14 00:34:40]  select * from Producto  where nombre like '%vini%' limit 0, 100
+[2019-07-14 00:34:40]  DESC Publicacion
+[2019-07-14 00:34:40]  select * from Publicacion  where id_Producto=108 limit 0, 1
+[2019-07-14 00:34:40]  select * from Publicacion  where id_Producto=114 limit 0, 1
+[2019-07-14 00:34:40]  select * from Producto  where id= 108  limit 0, 100
+[2019-07-14 00:34:40]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-07-14 00:34:40]  select * from Producto  where id= 114  limit 0, 100
+[2019-07-14 00:34:40]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-14 00:34:40]  DESC Estadisticas
+[2019-07-14 00:34:40]  DESC Producto
+[2019-07-14 00:34:40]  select * from Producto  where id=108 limit 0, 1
+[2019-07-14 00:34:40]  DESC Estadisticas
+[2019-07-14 00:34:40]  INSERT INTO `Estadisticas` (`id_tipo`,`cantidad`) VALUES ('1','1')
+[2019-07-14 00:34:40]  UPDATE `Producto` SET `id_estadistica`='1' WHERE `id`=108
+[2019-07-14 00:34:40]  DESC Producto
+[2019-07-14 00:34:40]  select * from Producto  where id=114 limit 0, 1
+[2019-07-14 00:34:40]  DESC Estadisticas
+[2019-07-14 00:34:40]  INSERT INTO `Estadisticas` (`id_tipo`,`cantidad`) VALUES ('1','1')
+[2019-07-14 00:34:40]  UPDATE `Producto` SET `id_estadistica`='2' WHERE `id`=114
+[2019-07-14 00:34:41]  DESC Producto
+[2019-07-14 00:34:41]  select * from Producto  where id=108 limit 0, 1
+[2019-07-14 00:34:41]  DESC Publicacion
+[2019-07-14 00:34:41]  select * from Publicacion  where id_Producto=108 limit 0, 1
+[2019-07-14 00:34:41]  DESC localizacion
+[2019-07-14 00:34:42]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-14 00:34:42]  DESC Imagen
+[2019-07-14 00:34:42]  select * from Imagen  where idProducto=108 limit 0, 10
+[2019-07-14 00:34:42]  DESC Producto
+[2019-07-14 00:34:42]  DESC Imagen
+[2019-07-14 00:34:42]  select * from Producto  where nombre like '%Vinilos%' limit 0, 100
+[2019-07-14 00:34:42]  select * from Producto  where id= 108  limit 0, 100
+[2019-07-14 00:34:42]  select * from Imagen  where idProducto=108 limit 0, 1
+[2019-07-14 00:34:42]  select * from Producto  where id= 114  limit 0, 100
+[2019-07-14 00:34:42]  select * from Imagen  where idProducto=114 limit 0, 1
+[2019-07-14 00:34:42]  DESC Publicacion_Entrega
+[2019-07-14 00:34:42]  DESC FormaEntrega
+[2019-07-14 00:34:42]  select * from Publicacion_Entrega  where idPublicacion=4 limit 0, 2
+[2019-07-14 00:34:42]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-14 00:34:42]  select * from FormaEntrega  where idEntrega=2 limit 0, 1
+[2019-07-14 00:34:42]  DESC Usuario
+[2019-07-14 00:34:42]  DESC tipo_valoracion
+[2019-07-14 00:34:42]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 00:34:42]  select * from tipo_valoracion  where id= 1 limit 0, 1
+[2019-07-14 00:38:47]  DESC Producto
+[2019-07-14 00:38:47]  DESC FormaEntrega
+[2019-07-14 00:38:47]  select * from Producto  where id= 108  limit 0, 100
+[2019-07-14 00:38:47]  select * from Producto  where id= 108  limit 0, 100
+[2019-07-14 00:38:48]  DESC FormaEntrega
+[2019-07-14 00:39:14]  DESC tarjeta_de_credito
+[2019-07-14 00:39:14]  DESC Producto
+[2019-07-14 00:39:14]  DESC Publicacion
+[2019-07-14 00:39:14]  DESC Usuario
+[2019-07-14 00:39:14]  DESC Cuenta
+[2019-07-14 00:39:14]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`numero`,`fecha_vencimiento`) VALUES ('','7','123','1234567894561234','2019-07-31')
+[2019-07-14 00:39:14]  DESC cobranza
+[2019-07-14 00:39:14]  DESC Producto
+[2019-07-14 00:39:14]  select * from Producto  where id=108 limit 0, 1
+[2019-07-14 00:39:14]  DESC Categoria
+[2019-07-14 00:39:14]  select * from Categoria  where id=8 limit 0, 1
+[2019-07-14 00:39:44]  DESC tarjeta_de_credito
+[2019-07-14 00:39:44]  DESC Producto
+[2019-07-14 00:39:44]  DESC Publicacion
+[2019-07-14 00:39:44]  DESC Usuario
+[2019-07-14 00:39:44]  DESC Cuenta
+[2019-07-14 00:39:44]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`numero`,`fecha_vencimiento`) VALUES ('','7','123','1234567894561234','2019-07-31')
+[2019-07-14 00:39:44]  DESC cobranza
+[2019-07-14 00:39:44]  DESC Producto
+[2019-07-14 00:39:44]  select * from Producto  where id=108 limit 0, 1
+[2019-07-14 00:39:44]  DESC Categoria
+[2019-07-14 00:39:44]  select * from Categoria  where id=8 limit 0, 1
+[2019-07-14 00:40:16]  DESC tarjeta_de_credito
+[2019-07-14 00:40:16]  DESC Producto
+[2019-07-14 00:40:16]  DESC Publicacion
+[2019-07-14 00:40:16]  DESC Usuario
+[2019-07-14 00:40:16]  DESC Cuenta
+[2019-07-14 00:40:16]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`numero`,`fecha_vencimiento`) VALUES ('','7','123','1234567894561234','2019-07-31')
+[2019-07-14 00:40:16]  DESC cobranza
+[2019-07-14 00:40:16]  DESC Producto
+[2019-07-14 00:40:16]  select * from Producto  where id=108 limit 0, 1
+[2019-07-14 00:40:16]  DESC Categoria
+[2019-07-14 00:40:16]  select * from Categoria  where id=8 limit 0, 1
+[2019-07-14 00:40:16]  DESC Estadisticas
+[2019-07-14 00:40:16]  INSERT INTO `Estadisticas` (`id_tipo`,`cantidad`) VALUES ('2','1')
+[2019-07-14 00:40:16]  UPDATE `Categoria` SET `id_estadistica`='3' WHERE `id`=8
+[2019-07-14 00:40:17]  DESC Rango_montos
+[2019-07-14 00:40:17]  select * from Rango_montos limit 0, 10
+[2019-07-14 00:40:17]  DESC Rango_montos
+[2019-07-14 00:40:17]  DESC Estadisticas
+[2019-07-14 00:40:17]  INSERT INTO `Estadisticas` (`id_tipo`,`cantidad`) VALUES ('3','1')
+[2019-07-14 00:40:17]  UPDATE `Rango_montos` SET `id_estadistica`='4' WHERE `id`=3
+[2019-07-14 00:40:17]  select * from Producto  where id=108 limit 0, 1
+[2019-07-14 00:40:17]  select * from Publicacion  where id_Producto=108 limit 0, 1
+[2019-07-14 00:40:17]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 00:40:17]  select * from Cuenta  where idUsuario= 4 limit 0, 1
+[2019-07-14 00:40:17]  UPDATE `Cuenta` SET `monto`='672',`comisionAlSistema`='28',`fecha_deposito`='19-07-14' WHERE `id`=4
+[2019-07-14 00:40:17]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`idVendedor`,`idComprador`,`cantidad`,`total`,`idCuenta`) VALUES ('11','19-07-14','108','4','7','1','1400','4')
+[2019-07-14 00:40:17]  DESC Producto
+[2019-07-14 00:40:17]  select * from Producto  where id=108 limit 0, 1
+[2019-07-14 00:40:17]  DESC Categoria
+[2019-07-14 00:40:17]  select * from Categoria  where id=8 limit 0, 1
+[2019-07-14 00:40:17]  DESC Estadisticas
+[2019-07-14 00:40:17]  select * from Estadisticas  where id=3 and id_tipo=2 limit 0, 1
+[2019-07-14 00:40:17]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=3
+[2019-07-14 00:40:17]  DESC Rango_montos
+[2019-07-14 00:40:17]  select * from Rango_montos limit 0, 10
+[2019-07-14 00:40:17]  DESC Estadisticas
+[2019-07-14 00:40:17]  select * from Estadisticas  where id=4 and id_tipo=3 limit 0, 1
+[2019-07-14 00:40:17]  UPDATE `Estadisticas` SET `cantidad`='2' WHERE `id`=4
+[2019-07-14 00:40:17]  select * from Producto  where id=108 limit 0, 1
+[2019-07-14 00:40:17]  select * from Publicacion  where id_Producto=108 limit 0, 1
+[2019-07-14 00:40:17]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 00:40:17]  select * from Cuenta  where idUsuario= 4 limit 0, 1
+[2019-07-14 00:40:17]  UPDATE `Cuenta` SET `monto`='1344',`comisionAlSistema`='56',`fecha_deposito`='19-07-14' WHERE `id`=4
+[2019-07-14 00:40:17]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`idVendedor`,`idComprador`,`cantidad`,`total`,`idCuenta`) VALUES ('11','19-07-14','108','4','7','1','1400','4')
+[2019-07-14 00:40:18]  DESC cobranza
+[2019-07-14 00:40:18]  DESC Producto
+[2019-07-14 00:40:19]  DESC Usuario
+[2019-07-14 00:40:19]  DESC tarjeta_de_credito
+[2019-07-14 00:40:19]  DESC valoracion
+[2019-07-14 00:40:19]  select * from cobranza  where idComprador=7 limit 0, 100
+[2019-07-14 00:40:19]  select * from Producto  where id=108 limit 0, 1
+[2019-07-14 00:40:19]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 00:40:19]  select * from tarjeta_de_credito  where id='11' limit 0, 1
+[2019-07-14 00:40:19]  select * from valoracion  where idVendedor='4' and idProducto='108' and idLogueado='7' limit 0, 100
+[2019-07-14 00:40:19]  select * from Producto  where id=108 limit 0, 1
+[2019-07-14 00:40:19]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 00:40:19]  select * from tarjeta_de_credito  where id='11' limit 0, 1
+[2019-07-14 00:40:19]  select * from valoracion  where idVendedor='4' and idProducto='108' and idLogueado='7' limit 0, 100
+[2019-07-14 00:40:32]  DESC Usuario
+[2019-07-14 00:40:32]  DESC Publicacion
+[2019-07-14 00:40:32]  DESC tipo_valoracion
+[2019-07-14 00:40:32]  DESC valoracion
+[2019-07-14 00:40:32]  select * from Publicacion  where id_Producto=108 limit 0, 1
+[2019-07-14 00:40:32]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 00:40:32]  INSERT INTO `valoracion` (`numero`,`comentario`,`idVendedor`,`idLogueado`,`idProducto`) VALUES ('4','muy buen vendedor','4','7','108')
+[2019-07-14 00:40:32]  select * from valoracion  where idVendedor=4 limit 0, 100
+[2019-07-14 00:40:32]  UPDATE `Usuario` SET `idTipo`='1' WHERE `id`=4
+[2019-07-14 00:40:32]  DESC cobranza
+[2019-07-14 00:40:32]  DESC Producto
+[2019-07-14 00:40:32]  DESC Usuario
+[2019-07-14 00:40:32]  DESC tarjeta_de_credito
+[2019-07-14 00:40:32]  DESC valoracion
+[2019-07-14 00:40:32]  select * from cobranza  where idComprador=7 limit 0, 100
+[2019-07-14 00:40:32]  select * from Producto  where id=108 limit 0, 1
+[2019-07-14 00:40:32]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 00:40:32]  select * from tarjeta_de_credito  where id='11' limit 0, 1
+[2019-07-14 00:40:32]  select * from valoracion  where idVendedor='4' and idProducto='108' and idLogueado='7' limit 0, 100
+[2019-07-14 00:40:32]  select * from Producto  where id=108 limit 0, 1
+[2019-07-14 00:40:32]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 00:40:32]  select * from tarjeta_de_credito  where id='11' limit 0, 1
+[2019-07-14 00:40:32]  select * from valoracion  where idVendedor='4' and idProducto='108' and idLogueado='7' limit 0, 100
+[2019-07-14 00:41:19]  DESC Producto
+[2019-07-14 00:41:19]  DESC Imagen
+[2019-07-14 00:41:19]  select * from Producto  where nombre like '%car%' limit 0, 100
+[2019-07-14 00:41:19]  DESC Publicacion
+[2019-07-14 00:41:19]  select * from Publicacion  where id_Producto=77 limit 0, 1
+[2019-07-14 00:41:19]  select * from Producto  where id= 77  limit 0, 100
+[2019-07-14 00:41:19]  select * from Imagen  where idProducto=77 limit 0, 1
+[2019-07-14 00:41:19]  DESC Estadisticas
+[2019-07-14 00:41:19]  DESC Producto
+[2019-07-14 00:41:19]  select * from Producto  where id=77 limit 0, 1
+[2019-07-14 00:41:19]  DESC Estadisticas
+[2019-07-14 00:41:19]  INSERT INTO `Estadisticas` (`id_tipo`,`cantidad`) VALUES ('1','1')
+[2019-07-14 00:41:19]  UPDATE `Producto` SET `id_estadistica`='5' WHERE `id`=77
+[2019-07-14 00:41:21]  DESC Producto
+[2019-07-14 00:41:21]  select * from Producto  where id=77 limit 0, 1
+[2019-07-14 00:41:21]  DESC Publicacion
+[2019-07-14 00:41:21]  select * from Publicacion  where id_Producto=77 limit 0, 1
+[2019-07-14 00:41:21]  DESC localizacion
+[2019-07-14 00:41:21]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-14 00:41:21]  DESC Imagen
+[2019-07-14 00:41:21]  select * from Imagen  where idProducto=77 limit 0, 10
+[2019-07-14 00:41:21]  DESC Producto
+[2019-07-14 00:41:21]  DESC Imagen
+[2019-07-14 00:41:21]  select * from Producto  where nombre like '%Cartuchera%' limit 0, 100
+[2019-07-14 00:41:21]  select * from Producto  where id= 77  limit 0, 100
+[2019-07-14 00:41:21]  select * from Imagen  where idProducto=77 limit 0, 1
+[2019-07-14 00:41:21]  DESC Publicacion_Entrega
+[2019-07-14 00:41:21]  DESC FormaEntrega
+[2019-07-14 00:41:21]  select * from Publicacion_Entrega  where idPublicacion=3 limit 0, 2
+[2019-07-14 00:41:21]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-14 00:41:21]  DESC Usuario
+[2019-07-14 00:41:21]  DESC tipo_valoracion
+[2019-07-14 00:41:21]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 00:41:21]  select * from tipo_valoracion  where id= 1 limit 0, 1
+[2019-07-14 00:41:32]  DESC Producto
+[2019-07-14 00:41:32]  DESC FormaEntrega
+[2019-07-14 00:41:32]  select * from Producto  where id= 77  limit 0, 100
+[2019-07-14 00:41:34]  DESC FormaEntrega
+[2019-07-14 00:41:49]  DESC tarjeta_de_credito
+[2019-07-14 00:41:49]  DESC Producto
+[2019-07-14 00:41:49]  DESC Publicacion
+[2019-07-14 00:41:49]  DESC Usuario
+[2019-07-14 00:41:49]  DESC Cuenta
+[2019-07-14 00:41:49]  INSERT INTO `tarjeta_de_credito` (`id`,`idUser`,`cod_seguridad`,`numero`,`fecha_vencimiento`) VALUES ('','7','123','7777888844445555','2019-07-31')
+[2019-07-14 00:41:49]  DESC cobranza
+[2019-07-14 00:41:49]  DESC Producto
+[2019-07-14 00:41:49]  select * from Producto  where id=77 limit 0, 1
+[2019-07-14 00:41:49]  DESC Categoria
+[2019-07-14 00:41:49]  select * from Categoria  where id=2 limit 0, 1
+[2019-07-14 00:41:49]  DESC Estadisticas
+[2019-07-14 00:41:49]  INSERT INTO `Estadisticas` (`id_tipo`,`cantidad`) VALUES ('2','1')
+[2019-07-14 00:41:49]  UPDATE `Categoria` SET `id_estadistica`='6' WHERE `id`=2
+[2019-07-14 00:41:49]  DESC Rango_montos
+[2019-07-14 00:41:49]  select * from Rango_montos limit 0, 10
+[2019-07-14 00:41:49]  DESC Rango_montos
+[2019-07-14 00:41:49]  DESC Estadisticas
+[2019-07-14 00:41:50]  INSERT INTO `Estadisticas` (`id_tipo`,`cantidad`) VALUES ('3','1')
+[2019-07-14 00:41:50]  UPDATE `Rango_montos` SET `id_estadistica`='7' WHERE `id`=1
+[2019-07-14 00:41:50]  select * from Producto  where id=77 limit 0, 1
+[2019-07-14 00:41:50]  select * from Publicacion  where id_Producto=77 limit 0, 1
+[2019-07-14 00:41:50]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 00:41:50]  select * from Cuenta  where idUsuario= 4 limit 0, 1
+[2019-07-14 00:41:50]  UPDATE `Cuenta` SET `monto`='1488',`comisionAlSistema`='62',`fecha_deposito`='19-07-14' WHERE `id`=4
+[2019-07-14 00:41:50]  INSERT INTO `cobranza` (`idTarjeta`,`fecha`,`idProducto`,`idVendedor`,`idComprador`,`cantidad`,`total`,`idCuenta`) VALUES ('12','19-07-14','77','4','7','1','150','4')
+[2019-07-14 00:41:51]  DESC cobranza
+[2019-07-14 00:41:51]  DESC Producto
+[2019-07-14 00:41:51]  DESC Usuario
+[2019-07-14 00:41:51]  DESC tarjeta_de_credito
+[2019-07-14 00:41:51]  DESC valoracion
+[2019-07-14 00:41:51]  select * from cobranza  where idComprador=7 limit 0, 100
+[2019-07-14 00:41:51]  select * from Producto  where id=108 limit 0, 1
+[2019-07-14 00:41:51]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 00:41:51]  select * from tarjeta_de_credito  where id='11' limit 0, 1
+[2019-07-14 00:41:51]  select * from valoracion  where idVendedor='4' and idProducto='108' and idLogueado='7' limit 0, 100
+[2019-07-14 00:41:51]  select * from Producto  where id=108 limit 0, 1
+[2019-07-14 00:41:51]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 00:41:51]  select * from tarjeta_de_credito  where id='11' limit 0, 1
+[2019-07-14 00:41:51]  select * from valoracion  where idVendedor='4' and idProducto='108' and idLogueado='7' limit 0, 100
+[2019-07-14 00:41:51]  select * from Producto  where id=77 limit 0, 1
+[2019-07-14 00:41:51]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 00:41:51]  select * from tarjeta_de_credito  where id='12' limit 0, 1
+[2019-07-14 00:41:51]  select * from valoracion  where idVendedor='4' and idProducto='77' and idLogueado='7' limit 0, 100
+[2019-07-14 00:42:00]  DESC Usuario
+[2019-07-14 00:42:00]  select * from Usuario  where name= 'Rocio' and password='40bd001563085fc35165329ea1ff5c5ecbdbbeef' limit 0, 1
+[2019-07-14 00:42:00]  DESC Usuario
+[2019-07-14 00:42:00]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-14 00:42:00]  select * from Usuario  where id='1' limit 0, 1
+[2019-07-14 00:42:03]  DESC Year
+[2019-07-14 00:42:03]  DESC mes
+[2019-07-14 00:42:03]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:42:03]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:42:03]  DESC liquidacion
+[2019-07-14 00:42:03]  DESC Year
+[2019-07-14 00:42:03]  DESC mes
+[2019-07-14 00:42:03]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:42:13]  DESC cobranza
+[2019-07-14 00:42:13]  DESC liquidacion
+[2019-07-14 00:42:13]  DESC Year
+[2019-07-14 00:42:13]  select * from Year  where id=2 limit 0, 9223372036854775807
+[2019-07-14 00:42:13]  select * from liquidacion  where idMes=7 AND idYear=2 limit 0, 1
+[2019-07-14 00:42:13]  select * from cobranza  where MONTH(fecha)=7 AND YEAR(fecha)=2019 limit 0, 9223372036854775807
+[2019-07-14 00:42:28]  DESC cobranza
+[2019-07-14 00:42:28]  DESC liquidacion
+[2019-07-14 00:42:28]  DESC Year
+[2019-07-14 00:42:28]  select * from Year  where id=2 limit 0, 9223372036854775807
+[2019-07-14 00:42:28]  select * from liquidacion  where idMes=7 AND idYear=2 limit 0, 1
+[2019-07-14 00:42:28]  select * from cobranza  where MONTH(fecha)=7 AND YEAR(fecha)=2019 limit 0, 9223372036854775807
+[2019-07-14 00:42:28]  INSERT INTO `liquidacion` (`fecha_liquidacion`,`total`,`ganancia`,`idYear`,`idMes`) VALUES ('2019-07-14 00:42:28','2950','118','2','7')
+[2019-07-14 00:43:41]  DESC cobranza
+[2019-07-14 00:43:41]  DESC liquidacion
+[2019-07-14 00:43:41]  DESC Year
+[2019-07-14 00:43:41]  select * from Year  where id=2 limit 0, 9223372036854775807
+[2019-07-14 00:43:41]  select * from liquidacion  where idMes=7 AND idYear=2 limit 0, 1
+[2019-07-14 00:43:41]  select * from cobranza  where MONTH(fecha)=7 AND YEAR(fecha)=2019 limit 0, 9223372036854775807
+[2019-07-14 00:43:41]  INSERT INTO `liquidacion` (`fecha_liquidacion`,`total`,`ganancia`,`idYear`,`idMes`) VALUES ('2019-07-14 00:43:41','2950','118','2','7')
+[2019-07-14 00:43:44]  DESC Year
+[2019-07-14 00:43:44]  DESC mes
+[2019-07-14 00:43:44]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:43:44]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:43:44]  DESC liquidacion
+[2019-07-14 00:43:44]  DESC Year
+[2019-07-14 00:43:44]  DESC mes
+[2019-07-14 00:43:44]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:43:48]  DESC cobranza
+[2019-07-14 00:43:48]  DESC liquidacion
+[2019-07-14 00:43:48]  DESC Year
+[2019-07-14 00:43:48]  select * from Year  where id=2 limit 0, 9223372036854775807
+[2019-07-14 00:43:48]  select * from liquidacion  where idMes=7 AND idYear=2 limit 0, 1
+[2019-07-14 00:43:48]  select * from cobranza  where MONTH(fecha)=7 AND YEAR(fecha)=2019 limit 0, 9223372036854775807
+[2019-07-14 00:43:48]  INSERT INTO `liquidacion` (`fecha_liquidacion`,`total`,`ganancia`,`idYear`,`idMes`) VALUES ('2019-07-14 00:43:48','2950','118','2','7')
+[2019-07-14 00:44:03]  DESC Year
+[2019-07-14 00:44:03]  DESC mes
+[2019-07-14 00:44:03]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:44:03]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:44:03]  DESC liquidacion
+[2019-07-14 00:44:03]  DESC Year
+[2019-07-14 00:44:03]  DESC mes
+[2019-07-14 00:44:03]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:44:07]  DESC cobranza
+[2019-07-14 00:44:07]  DESC liquidacion
+[2019-07-14 00:44:07]  DESC Year
+[2019-07-14 00:44:07]  select * from Year  where id=2 limit 0, 9223372036854775807
+[2019-07-14 00:44:07]  select * from liquidacion  where idMes=7 AND idYear=2 limit 0, 1
+[2019-07-14 00:44:07]  select * from cobranza  where MONTH(fecha)=7 AND YEAR(fecha)=2019 limit 0, 9223372036854775807
+[2019-07-14 00:44:07]  INSERT INTO `liquidacion` (`fecha_liquidacion`,`total`,`ganancia`,`idYear`,`idMes`,`idAdmin`) VALUES ('2019-07-14 00:44:07','2950','118','2','7','1')
+[2019-07-14 00:44:10]  DESC Year
+[2019-07-14 00:44:10]  DESC mes
+[2019-07-14 00:44:10]  select * from Year limit 0, 9223372036854775807
+[2019-07-14 00:44:10]  select * from mes limit 0, 9223372036854775807
+[2019-07-14 00:44:10]  DESC liquidacion
+[2019-07-14 00:44:11]  DESC Year
+[2019-07-14 00:44:11]  DESC mes
+[2019-07-14 00:44:11]  select * from liquidacion limit 0, 9223372036854775807
+[2019-07-14 00:44:11]  select * from mes  where id = 7 limit 0, 1
+[2019-07-14 00:44:11]  select * from Year  where id = 2 limit 0, 1
