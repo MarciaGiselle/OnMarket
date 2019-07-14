@@ -11259,3 +11259,939 @@ StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Vi
 #4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #5 {main}
 
+[2019-07-13 11:46:04]  Excepción no controlada: 'Undefined index: logueado' en el archivo CarritoController.php en la línea 56
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\CarritoController.php(56): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 56, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->agregarAlCarrito(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-13 12:12:13]  Excepción no controlada: 'Undefined index: logueado' en el archivo MisPublicacionesController.php en la línea 96
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisPublicacionesController.php(96): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisPublicacionesController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-13 12:13:15]  Excepción no controlada: 'Undefined index: logueado' en el archivo MisPublicacionesController.php en la línea 96
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisPublicacionesController.php(96): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisPublicacionesController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-13 12:13:50]  Excepción no controlada: 'Undefined index: logueado' en el archivo MostrarProducto.php en la línea 8
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(8): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 8, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(61): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 12:14:37]  Error 20: 'No hay coincidencias con la búsqueda' en el archivo BuscadorController.php en la línea 44
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): BuscadorController->buscarProducto(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-13 12:18:35]  Excepción no controlada: 'Call to undefined function ate()' en el archivo MostrarProducto.php en la línea 10
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require()
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(61): Controller->render('MostrarProducto')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-13 13:03:59]  Excepción no controlada: 'Call to undefined function now()' en el archivo MisPublicacionesController.php en la línea 102
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisPublicacionesController->AgregarComentario(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-13 13:04:09]  Excepción no controlada: 'DateTime::__construct(): Failed to parse time string (m/d/Y g:ia) at position 1 (/): Unexpected character' en el archivo MisPublicacionesController.php en la línea 102
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisPublicacionesController.php(102): DateTime->__construct('m/d/Y g:ia')
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisPublicacionesController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-13 13:06:45]  Excepción no controlada: 'Object of class DateTime could not be converted to string' en el archivo Model.php en la línea 98
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(98): globalErrorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Comentario.php(22): Model->insert(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisPublicacionesController.php(106): Comentario->insertarComentario()
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisPublicacionesController->AgregarComentario(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 13:13:54]  Excepción no controlada: 'Object of class DateTime could not be converted to string' en el archivo Model.php en la línea 98
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(98): globalErrorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Comentario.php(22): Model->insert(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisPublicacionesController.php(106): Comentario->insertarComentario()
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisPublicacionesController->AgregarComentario(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 13:15:01]  Excepción no controlada: 'Object of class DateTime could not be converted to string' en el archivo Model.php en la línea 98
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(98): globalErrorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Comentario.php(23): Model->insert(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisPublicacionesController.php(106): Comentario->insertarComentario()
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisPublicacionesController->AgregarComentario(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 13:15:07]  Excepción no controlada: 'Object of class DateTime could not be converted to string' en el archivo Model.php en la línea 98
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Model.php(98): globalErrorHandler(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Comentario.php(23): Model->insert(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MisPublicacionesController.php(106): Comentario->insertarComentario()
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MisPublicacionesController->AgregarComentario(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 14:43:14]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'MisPublicacionesController' does not have a method 'AgregarComentario'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-13 14:51:16]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProductoController.php en la línea 13
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(13): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-13 14:55:56]  Excepción no controlada: 'Undefined variable: imagen' en el archivo MostrarProducto.php en la línea 29
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(29): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 29, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(71): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(94): MostrarProductoController->recargarComentarios('1')
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#5 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2019-07-13 14:56:23]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProductoController.php en la línea 13
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(13): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-13 14:58:15]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProductoController.php en la línea 13
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(13): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-13 14:58:51]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProductoController.php en la línea 13
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(13): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-13 14:59:41]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProductoController.php en la línea 13
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(13): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-13 16:12:34]  Excepción no controlada: 'sort() expects parameter 2 to be integer, string given' en el archivo MostrarProductoController.php en la línea 62
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'sort() expects ...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(62): sort(Array, 'ordenar')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-13 16:13:16]  Excepción no controlada: 'sort() expects parameter 2 to be integer, string given' en el archivo MostrarProductoController.php en la línea 62
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'sort() expects ...', 'C:\\xampp\\htdocs...', 62, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(62): sort(Array, '$this->ordenar')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-13 16:16:35]  Excepción no controlada: 'usort() expects parameter 2 to be a valid callback, function '$this->ordenar()' not found or invalid function name' en el archivo MostrarProductoController.php en la línea 61
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'usort() expects...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(61): usort(Array, '$this->ordenar(...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-13 16:16:52]  Excepción no controlada: 'usort() expects parameter 2 to be a valid callback, function 'ordenar' not found or invalid function name' en el archivo MostrarProductoController.php en la línea 61
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'usort() expects...', 'C:\\xampp\\htdocs...', 61, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(61): usort(Array, 'ordenar')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-13 17:05:51]  Excepción no controlada: 'syntax error, unexpected '$comentario' (T_VARIABLE)' en el archivo MostrarProductoController.php en la línea 106
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-13 18:02:25]  Excepción no controlada: 'Undefined variable: x' en el archivo MostrarProducto.php en la línea 204
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(204): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 204, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(67): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 18:29:09]  Excepción no controlada: 'Undefined variable: x' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(67): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 19:13:46]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(70): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 19:14:12]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(70): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 19:15:01]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(70): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 19:16:04]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(70): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 19:17:16]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(70): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 19:21:40]  Excepción no controlada: 'Undefined variable: comentariosyrepuestas' en el archivo MostrarProductoController.php en la línea 68
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(68): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 68, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-13 19:24:06]  Excepción no controlada: 'Undefined variable: respuestas' en el archivo MostrarProductoController.php en la línea 69
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(69): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 69, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-13 19:24:51]  Excepción no controlada: 'Undefined variable: respuesta' en el archivo MostrarProducto.php en la línea 203
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(203): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 203, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(70): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 19:25:20]  Excepción no controlada: 'Undefined variable: respuesta' en el archivo MostrarProducto.php en la línea 203
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(203): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 203, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(70): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 19:28:08]  Excepción no controlada: 'Undefined variable: sespuestas' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(70): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 19:49:29]  Excepción no controlada: 'Undefined offset: 5' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(78): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 19:49:48]  Excepción no controlada: 'Undefined offset: 5' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(78): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 19:50:10]  Excepción no controlada: 'Undefined offset: 5' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(78): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 19:51:31]  Excepción no controlada: 'Undefined offset: 5' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(78): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 19:53:08]  Excepción no controlada: 'Undefined variable: repuestas' en el archivo MostrarProductoController.php en la línea 73
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(73): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 73, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-13 19:54:23]  Excepción no controlada: 'Undefined offset: 5' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(78): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 19:54:52]  Excepción no controlada: 'Undefined offset: 5' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(78): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 19:56:21]  Excepción no controlada: 'Undefined offset: 5' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(78): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 19:56:56]  Excepción no controlada: 'Undefined offset: 5' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(78): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 19:59:42]  Excepción no controlada: 'Undefined offset: 5' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(80): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 20:00:04]  Excepción no controlada: 'Undefined offset: 5' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(80): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 20:00:36]  Excepción no controlada: 'Undefined offset: 5' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(79): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 20:00:58]  Excepción no controlada: 'Undefined offset: 5' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(79): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 20:02:05]  Excepción no controlada: 'Undefined offset: 5' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(79): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 20:02:21]  Excepción no controlada: 'Undefined offset: 5' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(79): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 20:02:41]  Excepción no controlada: 'Undefined offset: 5' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(79): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 20:03:12]  Excepción no controlada: 'Undefined offset: 5' en el archivo MostrarProducto.php en la línea 192
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(192): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 192, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(79): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 20:07:30]  Excepción no controlada: 'Undefined variable: array' en el archivo MostrarProductoController.php en la línea 63
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(63): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 63, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-13 21:57:30]  Excepción no controlada: 'Undefined offset: 2' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(83): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 21:58:55]  Excepción no controlada: 'Undefined offset: 2' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(83): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 21:59:12]  Excepción no controlada: 'Undefined offset: 2' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(83): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 21:59:45]  Excepción no controlada: 'Undefined offset: 2' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(83): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:00:01]  Excepción no controlada: 'Undefined offset: 2' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(83): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:00:27]  Excepción no controlada: 'Undefined offset: 2' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(83): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:00:48]  Excepción no controlada: 'Undefined offset: 2' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(83): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:01:24]  Excepción no controlada: 'Undefined offset: 2' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(83): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:02:03]  Excepción no controlada: 'Undefined offset: 2' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(83): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:02:57]  Excepción no controlada: 'Undefined offset: 2' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(83): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:04:56]  Excepción no controlada: 'Undefined offset: 2' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(83): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:06:11]  Excepción no controlada: 'Undefined offset: 2' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(83): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:07:16]  Excepción no controlada: 'Undefined offset: 2' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(83): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:07:55]  Excepción no controlada: 'Undefined index: fecha' en el archivo MostrarProducto.php en la línea 194
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(194): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 194, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(83): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:08:18]  Excepción no controlada: 'Undefined offset: 2' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(83): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:10:38]  Excepción no controlada: 'Undefined offset: 2' en el archivo MostrarProductoController.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(77): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 77, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-13 22:11:28]  Excepción no controlada: 'Undefined offset: 1' en el archivo MostrarProducto.php en la línea 206
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(206): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(78): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:12:32]  Excepción no controlada: 'Undefined offset: 1' en el archivo MostrarProducto.php en la línea 206
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(206): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(78): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:13:33]  Excepción no controlada: 'Undefined offset: 1' en el archivo MostrarProducto.php en la línea 206
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(206): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(78): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:14:43]  Excepción no controlada: 'Undefined offset: 1' en el archivo MostrarProducto.php en la línea 206
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(206): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(78): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:15:09]  Excepción no controlada: 'Undefined offset: 1' en el archivo MostrarProducto.php en la línea 206
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(206): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(78): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:19:27]  Excepción no controlada: 'Undefined offset: 0' en el archivo MostrarProducto.php en la línea 197
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(197): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 197, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(78): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-13 22:27:33]  Excepción no controlada: 'Undefined variable: publicacionDelProducto' en el archivo MostrarProductoController.php en la línea 130
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(130): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 130, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-13 22:49:11]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProductoController.php en la línea 13
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(13): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 09:48:03]  Excepción no controlada: 'Undefined offset: 0' en el archivo Comentario.php en la línea 65
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Comentario.php(65): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(121): Comentario->traerComentariosPorPK('2')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-14 09:49:50]  Excepción no controlada: 'Undefined offset: 0' en el archivo Comentario.php en la línea 65
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Comentario.php(65): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(121): Comentario->traerComentariosPorPK('2')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-14 09:52:13]  Excepción no controlada: 'Undefined offset: 0' en el archivo Comentario.php en la línea 65
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Comentario.php(65): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(121): Comentario->traerComentariosPorPK('2')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-14 09:58:05]  Excepción no controlada: 'Undefined offset: 0' en el archivo Comentario.php en la línea 65
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Comentario.php(65): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(121): Comentario->traerComentariosPorPK('2')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-14 10:06:18]  Excepción no controlada: 'Undefined offset: 0' en el archivo Comentario.php en la línea 65
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Comentario.php(65): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(121): Comentario->traerComentariosPorPK('2')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-14 10:06:45]  Excepción no controlada: 'Undefined offset: 0' en el archivo Comentario.php en la línea 65
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Comentario.php(65): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(121): Comentario->traerComentariosPorPK('2')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-14 10:07:00]  Excepción no controlada: 'Undefined offset: 0' en el archivo Comentario.php en la línea 65
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\Comentario.php(65): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 65, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(121): Comentario->traerComentariosPorPK('4')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-14 10:57:25]  Excepción no controlada: 'Undefined property: stdClass::$idVendedor' en el archivo MostrarProductoController.php en la línea 94
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(94): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 94, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 10:58:55]  Excepción no controlada: 'Undefined property: stdClass::$idComentario' en el archivo MostrarProductoController.php en la línea 95
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(95): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 10:59:57]  Excepción no controlada: 'Undefined property: stdClass::$idComentario' en el archivo MostrarProductoController.php en la línea 95
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(95): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 11:01:38]  Excepción no controlada: 'Undefined property: stdClass::$idComentario' en el archivo MostrarProductoController.php en la línea 95
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(95): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 95, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 11:35:03]  Excepción no controlada: 'Undefined index: comentario' en el archivo preguntas.php en la línea 17
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Preguntas\preguntas.php(17): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PreguntasController.php(41): Controller->render('preguntas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-14 11:36:21]  Excepción no controlada: 'Undefined offset: 1' en el archivo preguntas.php en la línea 17
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Preguntas\preguntas.php(17): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PreguntasController.php(41): Controller->render('preguntas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-14 11:36:59]  Excepción no controlada: 'Undefined offset: 1' en el archivo preguntas.php en la línea 17
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Preguntas\preguntas.php(17): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PreguntasController.php(41): Controller->render('preguntas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-14 11:38:28]  Excepción no controlada: 'Undefined offset: 5' en el archivo preguntas.php en la línea 17
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Preguntas\preguntas.php(17): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PreguntasController.php(41): Controller->render('preguntas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-14 11:38:30]  Excepción no controlada: 'Undefined offset: 5' en el archivo preguntas.php en la línea 17
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Preguntas\preguntas.php(17): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 17, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PreguntasController.php(41): Controller->render('preguntas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-14 11:39:05]  Excepción no controlada: 'Undefined offset: 5' en el archivo preguntas.php en la línea 18
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Preguntas\preguntas.php(18): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PreguntasController.php(41): Controller->render('preguntas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-14 11:59:33]  Excepción no controlada: 'Undefined property: stdClass::$idVendedor' en el archivo MostrarProductoController.php en la línea 94
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(94): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 94, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:11:39]  Excepción no controlada: 'Undefined index: id_producto' en el archivo preguntas.php en la línea 39
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Preguntas\preguntas.php(39): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 39, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PreguntasController.php(45): Controller->render('preguntas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-14 12:12:40]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:13:15]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:14:03]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:14:07]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:15:31]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:15:51]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:16:00]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:18:36]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:20:03]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:20:18]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:21:57]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:24:08]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:27:43]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:34:12]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:41:02]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:41:31]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:43:51]  Excepción no controlada: 'Array to string conversion' en el archivo preguntas.php en la línea 44
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Preguntas\preguntas.php(44): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PreguntasController.php(45): Controller->render('preguntas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-14 12:44:29]  Excepción no controlada: 'Array to string conversion' en el archivo preguntas.php en la línea 45
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Preguntas\preguntas.php(45): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PreguntasController.php(45): Controller->render('preguntas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-14 12:48:28]  Excepción no controlada: 'Cannot use object of type Comentario as array' en el archivo PreguntasController.php en la línea 37
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-14 12:48:44]  Excepción no controlada: 'Cannot use object of type Comentario as array' en el archivo PreguntasController.php en la línea 37
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-14 12:48:56]  Excepción no controlada: 'Cannot use object of type Comentario as array' en el archivo PreguntasController.php en la línea 37
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-14 12:48:57]  Excepción no controlada: 'Cannot use object of type Comentario as array' en el archivo PreguntasController.php en la línea 37
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-14 12:49:19]  Excepción no controlada: 'Cannot use object of type Comentario as array' en el archivo PreguntasController.php en la línea 37
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-14 12:51:29]  Excepción no controlada: 'Undefined offset: 5' en el archivo PreguntasController.php en la línea 41
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PreguntasController.php(41): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 41, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 12:53:40]  Excepción no controlada: 'Array to string conversion' en el archivo preguntas.php en la línea 45
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Preguntas\preguntas.php(45): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PreguntasController.php(45): Controller->render('preguntas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-14 12:53:56]  Excepción no controlada: 'Array to string conversion' en el archivo preguntas.php en la línea 45
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Preguntas\preguntas.php(45): globalErrorHandler(8, 'Array to string...', 'C:\\xampp\\htdocs...', 45, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PreguntasController.php(45): Controller->render('preguntas')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-14 12:57:44]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 13:02:47]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 13:05:12]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 13:06:48]  Excepción no controlada: 'Undefined property: stdClass::$idProducto' en el archivo MostrarProductoController.php en la línea 97
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(97): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 13:35:18]  Excepción no controlada: 'Undefined index: ' en el archivo PreguntasController.php en la línea 44
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PreguntasController.php(44): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 13:35:29]  Excepción no controlada: 'Undefined index: id' en el archivo PreguntasController.php en la línea 44
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PreguntasController.php(44): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 13:35:50]  Excepción no controlada: 'Undefined index: id' en el archivo PreguntasController.php en la línea 44
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PreguntasController.php(44): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 13:36:02]  Excepción no controlada: 'Undefined index: id' en el archivo PreguntasController.php en la línea 44
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PreguntasController.php(44): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 13:40:46]  Excepción no controlada: 'Undefined offset: 1' en el archivo PreguntasController.php en la línea 44
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\PreguntasController.php(44): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 44, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): PreguntasController->preguntas(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 13:50:16]  Excepción no controlada: 'Undefined property: stdClass::$idComentario' en el archivo MostrarProductoController.php en la línea 116
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(116): globalErrorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 116, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->AgregarComentario(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-14 14:30:46]  Excepción no controlada: 'Undefined variable: array' en el archivo MostrarProductoController.php en la línea 85
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(85): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
