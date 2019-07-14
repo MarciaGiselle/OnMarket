@@ -18,7 +18,16 @@
     <link rel="stylesheet" href="<?php echo getBaseAddress() . "Webroot/lib/daterangepicker/daterangepicker.css" ?>">
 </head>
 
-<body>
+<body class="pt-5">
+
+<?php
+
+if(isset($_SESSION["logueado"])){
+    include_once ("navLogueado.php");
+}else{
+    include_once ("navNoLogueado.php");
+}
+?>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
             <![endif]-->
@@ -46,6 +55,18 @@
 
     </main>
 
+
 </body>
+<!-- Footer -->
+<footer class="bg-primary page-footer font-small blue pt-4 fixed-bottom position-relative">
+
+    <!-- Copyright -->
+    <div class="bg-secondary text-dark footer-copyright text-center py-3">© 2019 Copyright:
+        <a class="text-dark" href="https://mdbootstrap.com/education/bootstrap/"> OnMarket.com</a>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+
 
 </html>
