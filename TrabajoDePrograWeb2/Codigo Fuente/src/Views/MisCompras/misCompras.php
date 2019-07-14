@@ -8,9 +8,9 @@
 
 if(isset($_SESSION["logueado"])){
 
-    include_once ("navLogueado.php") ;
+    include_once ("VistaBase/navLogueado.php") ;
 }else{
-    include_once ("navNoLogueado.php");
+    include_once ("VistaBase/navNoLogueado.php");
 }
 ?>
 
