@@ -4,19 +4,17 @@
     const pathBuscar = "<?php echo getBaseAddress() .  "Index/buscarProducto" ; ?>";
     const pathAdmin = "<?php echo getBaseAddress(). "VistaAdmin/admin" ; ?>";
 </script>
-<head>
 
+    <?php
 
-<body>
-<?php
+    if(isset($_SESSION["logueado"])){
+        include_once ("navLogueado.php");
+    }else{
+        include_once ("navNoLogueado.php");
+    }
+    ?>
+<body class="pt-5">
 
-if(isset($_SESSION["logueado"])){
-
-    include_once ("navLogueado.php") ;
-}else{
-    include_once ("navNoLogueado.php");
-}
-?>
 
 <!-–Slider de fotos -–>
 
