@@ -46057,3 +46057,405 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-07-14 16:02:13]  DESC Usuario
 [2019-07-14 16:02:21]  DESC Usuario
 [2019-07-14 16:02:38]  DESC Usuario
+[2019-07-14 15:16:16]  DESC Usuario
+[2019-07-14 15:16:16]  select * from Usuario  where id='2' limit 0, 1
+[2019-07-14 15:16:47]  DESC Usuario
+[2019-07-14 15:16:48]  select * from Usuario  where id='2' limit 0, 1
+[2019-07-14 15:16:59]  DESC Usuario
+[2019-07-14 15:16:59]  select * from Usuario  where id='2' limit 0, 1
+[2019-07-14 15:17:04]  DESC Usuario
+[2019-07-14 15:17:13]  DESC Usuario
+[2019-07-14 15:17:13]  select * from Usuario  where name= 'axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-14 15:17:13]  DESC Usuario
+[2019-07-14 15:17:13]  select * from Usuario  where id='2' limit 0, 1
+[2019-07-14 15:17:13]  select * from Usuario  where id='2' limit 0, 1
+[2019-07-14 15:21:10]  DESC Usuario
+[2019-07-14 15:22:25]  DESC Usuario
+[2019-07-14 15:22:25]  select * from Usuario  where name= 'axel' and password='fc1200c7a7aa52109d762a9f005b149abef01479' limit 0, 1
+[2019-07-14 15:22:25]  DESC Usuario
+[2019-07-14 15:22:25]  select * from Usuario  where id='2' limit 0, 1
+[2019-07-14 15:22:25]  select * from Usuario  where id='2' limit 0, 1
+[2019-07-14 15:26:04]  DESC Producto
+[2019-07-14 15:26:05]  DESC Imagen
+[2019-07-14 15:26:05]  select * from Producto  where nombre like '%te%' limit 0, 100
+[2019-07-14 15:26:05]  DESC Publicacion
+[2019-07-14 15:26:06]  select * from Publicacion  where id_Producto=59 limit 0, 1
+[2019-07-14 15:26:06]  select * from Producto  where id= 59  limit 0, 100
+[2019-07-14 15:26:06]  select * from Imagen  where idProducto=59 limit 0, 1
+[2019-07-14 15:26:06]  DESC Estadisticas
+[2019-07-14 15:26:06]  DESC Producto
+[2019-07-14 15:26:06]  select * from Producto  where id=59 limit 0, 1
+[2019-07-14 15:26:06]  DESC Estadisticas
+[2019-07-14 15:26:06]  select * from Estadisticas  where id=1 and id_tipo=1 limit 0, 1
+[2019-07-14 15:26:07]  UPDATE `Estadisticas` SET `cantidad`='31' WHERE `id`=1
+[2019-07-14 15:26:08]  DESC Producto
+[2019-07-14 15:26:08]  select * from Producto  where id=59 limit 0, 1
+[2019-07-14 15:26:08]  DESC Publicacion
+[2019-07-14 15:26:09]  select * from Publicacion  where id_Producto=59 limit 0, 1
+[2019-07-14 15:26:09]  DESC localizacion
+[2019-07-14 15:26:09]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-14 15:26:09]  DESC Imagen
+[2019-07-14 15:26:09]  select * from Imagen  where idProducto=59 limit 0, 10
+[2019-07-14 15:26:09]  DESC Producto
+[2019-07-14 15:26:09]  DESC Imagen
+[2019-07-14 15:26:09]  select * from Producto  where nombre like '%Teclado%' limit 0, 100
+[2019-07-14 15:26:09]  select * from Producto  where id= 59  limit 0, 100
+[2019-07-14 15:26:09]  select * from Imagen  where idProducto=59 limit 0, 1
+[2019-07-14 15:26:09]  DESC Publicacion_Entrega
+[2019-07-14 15:26:09]  DESC FormaEntrega
+[2019-07-14 15:26:09]  select * from Publicacion_Entrega  where idPublicacion=1 limit 0, 2
+[2019-07-14 15:26:09]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-14 15:26:09]  select * from FormaEntrega  where idEntrega=2 limit 0, 1
+[2019-07-14 15:26:09]  DESC Usuario
+[2019-07-14 15:26:09]  DESC tipo_valoracion
+[2019-07-14 15:26:09]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 15:26:10]  select * from tipo_valoracion  where id= 1 limit 0, 1
+[2019-07-14 15:26:10]  DESC Comentario
+[2019-07-14 15:26:10]  DESC Comentario
+[2019-07-14 15:26:10]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:26:10]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:26:10]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:26:10]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:26:10]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:26:10]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:26:10]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:26:36]  DESC Producto
+[2019-07-14 15:26:36]  DESC Imagen
+[2019-07-14 15:26:36]  select * from Producto  where nombre like '%te%' limit 0, 100
+[2019-07-14 15:26:37]  DESC Publicacion
+[2019-07-14 15:26:37]  select * from Publicacion  where id_Producto=59 limit 0, 1
+[2019-07-14 15:26:37]  select * from Producto  where id= 59  limit 0, 100
+[2019-07-14 15:26:37]  select * from Imagen  where idProducto=59 limit 0, 1
+[2019-07-14 15:26:37]  DESC Estadisticas
+[2019-07-14 15:26:37]  DESC Producto
+[2019-07-14 15:26:38]  select * from Producto  where id=59 limit 0, 1
+[2019-07-14 15:26:38]  DESC Estadisticas
+[2019-07-14 15:26:38]  select * from Estadisticas  where id=1 and id_tipo=1 limit 0, 1
+[2019-07-14 15:26:38]  UPDATE `Estadisticas` SET `cantidad`='32' WHERE `id`=1
+[2019-07-14 15:27:23]  DESC Producto
+[2019-07-14 15:27:23]  select * from Producto  where id=59 limit 0, 1
+[2019-07-14 15:27:23]  DESC Publicacion
+[2019-07-14 15:27:24]  select * from Publicacion  where id_Producto=59 limit 0, 1
+[2019-07-14 15:27:24]  DESC localizacion
+[2019-07-14 15:27:24]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-14 15:27:25]  DESC Imagen
+[2019-07-14 15:27:25]  select * from Imagen  where idProducto=59 limit 0, 10
+[2019-07-14 15:27:25]  DESC Producto
+[2019-07-14 15:27:25]  DESC Imagen
+[2019-07-14 15:27:25]  select * from Producto  where nombre like '%Teclado%' limit 0, 100
+[2019-07-14 15:27:25]  select * from Producto  where id= 59  limit 0, 100
+[2019-07-14 15:27:25]  select * from Imagen  where idProducto=59 limit 0, 1
+[2019-07-14 15:27:25]  DESC Publicacion_Entrega
+[2019-07-14 15:27:25]  DESC FormaEntrega
+[2019-07-14 15:27:25]  select * from Publicacion_Entrega  where idPublicacion=1 limit 0, 2
+[2019-07-14 15:27:26]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-14 15:27:26]  select * from FormaEntrega  where idEntrega=2 limit 0, 1
+[2019-07-14 15:27:26]  DESC Usuario
+[2019-07-14 15:27:26]  DESC tipo_valoracion
+[2019-07-14 15:27:26]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 15:27:26]  select * from tipo_valoracion  where id= 1 limit 0, 1
+[2019-07-14 15:27:26]  DESC Comentario
+[2019-07-14 15:27:26]  DESC Comentario
+[2019-07-14 15:27:26]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:27:26]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:27:26]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:27:26]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:27:26]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:27:26]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:27:26]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:27:29]  DESC Comentario
+[2019-07-14 15:27:29]  DESC Publicacion
+[2019-07-14 15:27:29]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-14 15:27:29]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:27:29]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:27:29]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:27:29]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:27:29]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:27:29]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:27:29]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:27:29]  select * from Comentario  where id_Publicacion= 2 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:27:29]  select * from Comentario  where id_Publicacion= 3 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:27:29]  select * from Comentario  where id_Publicacion= 4 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:27:29]  select * from Comentario  where id_Publicacion= 5 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:27:29]  select * from Comentario  where id_Publicacion= 6 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:28:13]  DESC Comentario
+[2019-07-14 15:28:13]  DESC Publicacion
+[2019-07-14 15:28:13]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-14 15:28:13]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:28:13]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:28:13]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:28:13]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:28:13]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:28:13]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:28:13]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:28:13]  select * from Comentario  where id_Publicacion= 2 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:28:13]  select * from Comentario  where id_Publicacion= 3 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:28:13]  select * from Comentario  where id_Publicacion= 4 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:28:13]  select * from Comentario  where id_Publicacion= 5 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:28:13]  select * from Comentario  where id_Publicacion= 6 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:28:22]  DESC Publicacion
+[2019-07-14 15:28:23]  select * from Publicacion  where id_Producto=59 limit 0, 1
+[2019-07-14 15:28:23]  DESC Publicacion
+[2019-07-14 15:28:23]  select * from Publicacion  where id_Producto=59 limit 0, 1
+[2019-07-14 15:28:23]  DESC Comentario
+[2019-07-14 15:28:23]  INSERT INTO `Comentario` (`fecha`,`mensaje`,`id_Usuario`,`id_Publicacion`) VALUES ('2019-07-14 15:28:23 ','hola','2','1')
+[2019-07-14 15:28:23]  DESC Comentario
+[2019-07-14 15:28:23]  select * from Comentario  where id=128 limit 0, 1
+[2019-07-14 15:28:23]  UPDATE `Comentario` SET `id_comentario2`='130' WHERE `id`=128
+[2019-07-14 15:28:24]  DESC Comentario
+[2019-07-14 15:28:24]  DESC Comentario
+[2019-07-14 15:28:24]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:28:24]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:28:24]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:28:24]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:28:24]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:28:24]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:28:24]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:28:24]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:28:24]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:28:24]  DESC Comentario
+[2019-07-14 15:28:24]  DESC Publicacion
+[2019-07-14 15:28:24]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-14 15:28:24]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:28:24]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:28:24]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:28:25]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:28:25]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:28:25]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:28:25]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:28:25]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:28:25]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:28:25]  select * from Comentario  where id_Publicacion= 2 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:28:25]  select * from Comentario  where id_Publicacion= 3 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:28:25]  select * from Comentario  where id_Publicacion= 4 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:28:25]  select * from Comentario  where id_Publicacion= 5 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:28:25]  select * from Comentario  where id_Publicacion= 6 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:28:34]  DESC Producto
+[2019-07-14 15:28:34]  DESC Imagen
+[2019-07-14 15:28:34]  select * from Producto  where nombre like '%te%' limit 0, 100
+[2019-07-14 15:28:34]  DESC Publicacion
+[2019-07-14 15:28:35]  select * from Publicacion  where id_Producto=59 limit 0, 1
+[2019-07-14 15:28:35]  select * from Producto  where id= 59  limit 0, 100
+[2019-07-14 15:28:35]  select * from Imagen  where idProducto=59 limit 0, 1
+[2019-07-14 15:28:35]  DESC Estadisticas
+[2019-07-14 15:28:35]  DESC Producto
+[2019-07-14 15:28:35]  select * from Producto  where id=59 limit 0, 1
+[2019-07-14 15:28:35]  DESC Estadisticas
+[2019-07-14 15:28:36]  select * from Estadisticas  where id=1 and id_tipo=1 limit 0, 1
+[2019-07-14 15:28:36]  UPDATE `Estadisticas` SET `cantidad`='33' WHERE `id`=1
+[2019-07-14 15:28:37]  DESC Producto
+[2019-07-14 15:28:37]  select * from Producto  where id=59 limit 0, 1
+[2019-07-14 15:28:37]  DESC Publicacion
+[2019-07-14 15:28:37]  select * from Publicacion  where id_Producto=59 limit 0, 1
+[2019-07-14 15:28:38]  DESC localizacion
+[2019-07-14 15:28:38]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-14 15:28:38]  DESC Imagen
+[2019-07-14 15:28:38]  select * from Imagen  where idProducto=59 limit 0, 10
+[2019-07-14 15:28:38]  DESC Producto
+[2019-07-14 15:28:38]  DESC Imagen
+[2019-07-14 15:28:38]  select * from Producto  where nombre like '%Teclado%' limit 0, 100
+[2019-07-14 15:28:38]  select * from Producto  where id= 59  limit 0, 100
+[2019-07-14 15:28:38]  select * from Imagen  where idProducto=59 limit 0, 1
+[2019-07-14 15:28:38]  DESC Publicacion_Entrega
+[2019-07-14 15:28:38]  DESC FormaEntrega
+[2019-07-14 15:28:38]  select * from Publicacion_Entrega  where idPublicacion=1 limit 0, 2
+[2019-07-14 15:28:38]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-14 15:28:38]  select * from FormaEntrega  where idEntrega=2 limit 0, 1
+[2019-07-14 15:28:38]  DESC Usuario
+[2019-07-14 15:28:38]  DESC tipo_valoracion
+[2019-07-14 15:28:39]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 15:28:39]  select * from tipo_valoracion  where id= 1 limit 0, 1
+[2019-07-14 15:28:39]  DESC Comentario
+[2019-07-14 15:28:39]  DESC Comentario
+[2019-07-14 15:28:39]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:28:39]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:28:39]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:28:39]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:28:39]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:28:39]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:28:39]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:28:39]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:28:39]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:31:03]  DESC Producto
+[2019-07-14 15:31:03]  select * from Producto  where id=59 limit 0, 1
+[2019-07-14 15:31:03]  DESC Publicacion
+[2019-07-14 15:31:04]  select * from Publicacion  where id_Producto=59 limit 0, 1
+[2019-07-14 15:31:04]  DESC localizacion
+[2019-07-14 15:31:04]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-14 15:31:04]  DESC Imagen
+[2019-07-14 15:31:04]  select * from Imagen  where idProducto=59 limit 0, 10
+[2019-07-14 15:31:04]  DESC Producto
+[2019-07-14 15:31:04]  DESC Imagen
+[2019-07-14 15:31:04]  select * from Producto  where nombre like '%Teclado%' limit 0, 100
+[2019-07-14 15:31:04]  select * from Producto  where id= 59  limit 0, 100
+[2019-07-14 15:31:04]  select * from Imagen  where idProducto=59 limit 0, 1
+[2019-07-14 15:31:04]  DESC Publicacion_Entrega
+[2019-07-14 15:31:04]  DESC FormaEntrega
+[2019-07-14 15:31:04]  select * from Publicacion_Entrega  where idPublicacion=1 limit 0, 2
+[2019-07-14 15:31:04]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-14 15:31:04]  select * from FormaEntrega  where idEntrega=2 limit 0, 1
+[2019-07-14 15:31:04]  DESC Usuario
+[2019-07-14 15:31:04]  DESC tipo_valoracion
+[2019-07-14 15:31:05]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 15:31:05]  select * from tipo_valoracion  where id= 1 limit 0, 1
+[2019-07-14 15:31:05]  DESC Comentario
+[2019-07-14 15:31:05]  DESC Comentario
+[2019-07-14 15:31:05]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:31:05]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:31:06]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:31:06]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:31:06]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:31:06]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:31:06]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:31:06]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:31:06]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:31:33]  DESC Producto
+[2019-07-14 15:31:33]  select * from Producto  where id=59 limit 0, 1
+[2019-07-14 15:31:33]  DESC Publicacion
+[2019-07-14 15:31:33]  select * from Publicacion  where id_Producto=59 limit 0, 1
+[2019-07-14 15:31:33]  DESC localizacion
+[2019-07-14 15:31:34]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-14 15:31:34]  DESC Imagen
+[2019-07-14 15:31:34]  select * from Imagen  where idProducto=59 limit 0, 10
+[2019-07-14 15:31:34]  DESC Producto
+[2019-07-14 15:31:34]  DESC Imagen
+[2019-07-14 15:31:34]  select * from Producto  where nombre like '%Teclado%' limit 0, 100
+[2019-07-14 15:31:34]  select * from Producto  where id= 59  limit 0, 100
+[2019-07-14 15:31:34]  select * from Imagen  where idProducto=59 limit 0, 1
+[2019-07-14 15:31:34]  DESC Publicacion_Entrega
+[2019-07-14 15:31:34]  DESC FormaEntrega
+[2019-07-14 15:31:34]  select * from Publicacion_Entrega  where idPublicacion=1 limit 0, 2
+[2019-07-14 15:31:34]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-14 15:31:34]  select * from FormaEntrega  where idEntrega=2 limit 0, 1
+[2019-07-14 15:31:34]  DESC Usuario
+[2019-07-14 15:31:35]  DESC tipo_valoracion
+[2019-07-14 15:31:35]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 15:31:35]  select * from tipo_valoracion  where id= 1 limit 0, 1
+[2019-07-14 15:31:35]  DESC Comentario
+[2019-07-14 15:31:36]  DESC Comentario
+[2019-07-14 15:31:36]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:31:36]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:31:36]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:31:36]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:31:36]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:31:36]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:31:36]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:31:36]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:31:36]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:40:20]  DESC Producto
+[2019-07-14 15:40:20]  select * from Producto  where id=59 limit 0, 1
+[2019-07-14 15:40:20]  DESC Publicacion
+[2019-07-14 15:40:20]  select * from Publicacion  where id_Producto=59 limit 0, 1
+[2019-07-14 15:40:21]  DESC localizacion
+[2019-07-14 15:40:21]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-14 15:40:21]  DESC Imagen
+[2019-07-14 15:40:21]  select * from Imagen  where idProducto=59 limit 0, 10
+[2019-07-14 15:40:21]  DESC Producto
+[2019-07-14 15:40:21]  DESC Imagen
+[2019-07-14 15:40:21]  select * from Producto  where nombre like '%Teclado%' limit 0, 100
+[2019-07-14 15:40:21]  select * from Producto  where id= 59  limit 0, 100
+[2019-07-14 15:40:21]  select * from Imagen  where idProducto=59 limit 0, 1
+[2019-07-14 15:40:21]  DESC Publicacion_Entrega
+[2019-07-14 15:40:21]  DESC FormaEntrega
+[2019-07-14 15:40:21]  select * from Publicacion_Entrega  where idPublicacion=1 limit 0, 2
+[2019-07-14 15:40:21]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-14 15:40:21]  select * from FormaEntrega  where idEntrega=2 limit 0, 1
+[2019-07-14 15:40:21]  DESC Usuario
+[2019-07-14 15:40:21]  DESC tipo_valoracion
+[2019-07-14 15:40:22]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 15:40:22]  select * from tipo_valoracion  where id= 1 limit 0, 1
+[2019-07-14 15:40:22]  DESC Comentario
+[2019-07-14 15:40:22]  DESC Comentario
+[2019-07-14 15:40:22]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:40:22]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:40:22]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:40:22]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:40:22]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:40:23]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:40:23]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:40:23]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:40:23]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:41:14]  DESC Publicacion
+[2019-07-14 15:41:15]  select * from Publicacion  where id_Producto=59 limit 0, 1
+[2019-07-14 15:41:15]  DESC Publicacion
+[2019-07-14 15:41:15]  select * from Publicacion  where id_Producto=59 limit 0, 1
+[2019-07-14 15:41:15]  DESC Comentario
+[2019-07-14 15:41:15]  INSERT INTO `Comentario` (`fecha`,`mensaje`,`id_Usuario`,`id_Publicacion`) VALUES ('2019-07-14 15:41:15 ','','2','1')
+[2019-07-14 15:41:15]  DESC Comentario
+[2019-07-14 15:41:16]  DESC Comentario
+[2019-07-14 15:41:16]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:41:16]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:41:16]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:41:16]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:41:16]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:41:16]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:41:16]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:41:16]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:41:16]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:42:43]  DESC Producto
+[2019-07-14 15:42:44]  select * from Producto  where id=59 limit 0, 1
+[2019-07-14 15:42:44]  DESC Publicacion
+[2019-07-14 15:42:44]  select * from Publicacion  where id_Producto=59 limit 0, 1
+[2019-07-14 15:42:44]  DESC localizacion
+[2019-07-14 15:42:44]  select * from localizacion  where id_user=4 limit 0, 1
+[2019-07-14 15:42:44]  DESC Imagen
+[2019-07-14 15:42:44]  select * from Imagen  where idProducto=59 limit 0, 10
+[2019-07-14 15:42:45]  DESC Producto
+[2019-07-14 15:42:45]  DESC Imagen
+[2019-07-14 15:42:45]  select * from Producto  where nombre like '%Teclado%' limit 0, 100
+[2019-07-14 15:42:45]  select * from Producto  where id= 59  limit 0, 100
+[2019-07-14 15:42:45]  select * from Imagen  where idProducto=59 limit 0, 1
+[2019-07-14 15:42:45]  DESC Publicacion_Entrega
+[2019-07-14 15:42:45]  DESC FormaEntrega
+[2019-07-14 15:42:45]  select * from Publicacion_Entrega  where idPublicacion=1 limit 0, 2
+[2019-07-14 15:42:45]  select * from FormaEntrega  where idEntrega=1 limit 0, 1
+[2019-07-14 15:42:45]  select * from FormaEntrega  where idEntrega=2 limit 0, 1
+[2019-07-14 15:42:45]  DESC Usuario
+[2019-07-14 15:42:45]  DESC tipo_valoracion
+[2019-07-14 15:42:45]  select * from Usuario  where id='4' limit 0, 1
+[2019-07-14 15:42:45]  select * from tipo_valoracion  where id= 1 limit 0, 1
+[2019-07-14 15:42:45]  DESC Comentario
+[2019-07-14 15:42:46]  DESC Comentario
+[2019-07-14 15:42:46]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:42:46]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:42:46]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:42:46]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:42:46]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:42:46]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:42:46]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:42:46]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:42:46]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:43:26]  DESC Publicacion
+[2019-07-14 15:43:27]  select * from Publicacion  where id_Producto=59 limit 0, 1
+[2019-07-14 15:43:27]  DESC Publicacion
+[2019-07-14 15:43:27]  select * from Publicacion  where id_Producto=59 limit 0, 1
+[2019-07-14 15:43:27]  DESC Comentario
+[2019-07-14 15:43:27]  INSERT INTO `Comentario` (`fecha`,`mensaje`,`id_Usuario`,`id_Publicacion`) VALUES ('2019-07-14 15:43:27 ','hola','2','1')
+[2019-07-14 15:43:27]  DESC Comentario
+[2019-07-14 15:43:27]  DESC Comentario
+[2019-07-14 15:43:28]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:43:28]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:43:28]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:43:28]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:43:28]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:43:28]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:43:28]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:43:28]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:43:28]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:46:06]  DESC Comentario
+[2019-07-14 15:46:06]  DESC Publicacion
+[2019-07-14 15:46:06]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-14 15:46:06]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:46:06]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:46:06]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:46:07]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:46:07]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:46:07]  select * from Comentario  where id=130 limit 0, 1
+[2019-07-14 15:46:07]  select * from Comentario  where id=63 limit 0, 1
+[2019-07-14 15:46:07]  select * from Comentario  where id=124 limit 0, 1
+[2019-07-14 15:46:07]  select * from Comentario  where id=129 limit 0, 1
+[2019-07-14 15:46:07]  select * from Comentario  where id_Publicacion= 2 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:46:07]  select * from Comentario  where id_Publicacion= 3 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:46:07]  select * from Comentario  where id_Publicacion= 4 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:46:07]  select * from Comentario  where id_Publicacion= 5 ORDER BY fecha DESC   limit 0, 20
+[2019-07-14 15:46:07]  select * from Comentario  where id_Publicacion= 6 ORDER BY fecha DESC   limit 0, 20

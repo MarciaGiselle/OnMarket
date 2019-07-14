@@ -27,6 +27,7 @@ abstract class Constantes
     const CONTACTOVIEW="contacto";
 
     const LIQUIDACIONVIEW ="liquidacion";
+    const PREGUNTASVIEW ="preguntas";
 
 
     const ESTADISTICASVIEW="estadisticas";
