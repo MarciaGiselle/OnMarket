@@ -80,9 +80,4 @@ class MisPublicacionesController extends Controller
         $publicacionAmodificar->InactivarPublicacion();
     }
 
-    /**
-     * @param $datosComentario
-     */
-
-
 }

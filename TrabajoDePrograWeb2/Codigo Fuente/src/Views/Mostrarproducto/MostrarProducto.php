@@ -1,14 +1,12 @@
 <script>
-
     const pathCarrito = "<?php echo getBaseAddress() . "Carrito/agregarAlCarrito"; ?>";
-    const pathComentarios = "<?php echo getBaseAddress() . "MostrarProducto/AgregarComentario"; ?>";
 
 </script>
 <link rel="stylesheet" href="<?php echo getBaseAddress() . "Webroot/css/estrellasAlMostrar.css" ?>">
 
 <body>
 <?php
-echo date('m/d/Y g:ia');
+
 if(isset($_SESSION["logueado"])){
 
     include_once ("navLogueado.php") ;
@@ -179,57 +177,6 @@ if(isset($_SESSION["logueado"])){
 
 </div>
 
-
-<h3>Comentarios</h3>
-<div class="container" id="comentarios">
-
-<div class="row m-auto"></div>
-<?php
-
-for($i=0 ;$i<count($resultados) ;$i++) {
-
-
-
-    echo '<div class="col-5 col-auto alert alert-primary">
-    
-             <h6>' . $resultados[$i]["comentario"]["fecha"] . '</h6>
-             <h4>' . $resultados[$i]["comentario"]["mensaje"] . '</h4>
-             ';
-
-
-    if (!empty($resultados[$i]["respuesta"])) {
-        echo '<div id="div2" class="div2 col-9 col-auto alert alert-primary">
-             <h6>' . $resultados[$i]["respuesta"]["fecha"] . '</h6>
-             <h4>' . $resultados[$i]["respuesta"]["mensaje"] . '</h4>
-             ';
-         echo '</div>';
-    }
-    echo '</div>';
-
-
-}
-
-?>
-
-</div>
-</div>
-<div class="container" id="div">
-    <div class="row" id="div">
-
-    </div>
-</div>
-<form>
-<input type="text" id="mensajeNuevo" class="mensaje form-control"  placeholder="deja tu comentario..." >
-<input onclick="pasarId(null)" type="button" class="comentar btn btn-primary " value="comentar" >
-</form>
-
-
-
-
-
-
-
-
 <div class="container ">
 <?php
     $tope="";
@@ -260,7 +207,6 @@ echo '<div class="card-group">';
 
 </body>
 <script src="<?php echo getBaseAddress() . "Webroot/js/agregarAlCarrito.js" ?>"></script>
-<script src="<?php echo getBaseAddress() . "Webroot/js/agregarComentario.js" ?>"></script>
 <script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>
 <script src="<?php echo getBaseAddress() . "Webroot/js/slideDeProductos.js" ?>"></script>
 

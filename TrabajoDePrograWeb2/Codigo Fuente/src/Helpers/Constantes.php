@@ -25,7 +25,7 @@ abstract class Constantes
     const BUSCARUSERSVIEW="buscarUsuarios";
     const MISCOMPRASVIEW="misCompras";
     const CONTACTOVIEW="contacto";
-    const PREGUNTASVIEW="preguntas";
+
 
     const ESTADISTICASVIEW="estadisticas";
 
