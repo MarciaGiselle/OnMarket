@@ -6,9 +6,23 @@ function pasarId(valor){
 
 
 }
-
+function validarComentario(){
+    var validacion = false;
+    var mensaje = $("#mensajeNuevo").val();
+    if(mensaje === null || mensaje.length === 0 || mensaje=== "") {
+        $("#error").removeClass("d-none").addClass("d-flex").find("small").text("El comentario no puede estar vacio ");
+        $("#error").fadeIn("slow");
+    }  else{
+        $("#error").fadeOut();
+        $("#error").removeClass("d-flex").addClass("d-none").find("span").text("");
+        validacion = true;
+    }
+    return validacion;
+}
 
 $("#comentar").click(function () {
+
+    if(validarComentario()){
     var obj = {};
 
     obj.mensaje = $("#mensajeNuevo").val();
@@ -17,7 +31,7 @@ $("#comentar").click(function () {
     obj.idComentario=null;
 
     llamadaAjax(pathComentarios, JSON.stringify(obj), true, "AgregarExitosa", "AgregrarFallida");
-
+}
 });
 
 function AgregarExitosa(array){
@@ -30,26 +44,29 @@ function AgregarExitosa(array){
 
 
         div.append(
-            '<div class="col-5 col-auto alert alert-primary">'+
-            '<h6>'+datos[i].comentario.fecha+'</h6>' +
-            '<h5>'+datos[i].comentario.mensaje+'</h5>'+
 
-            '</div>'
+            '<div class=" alert alert-primary">'+
+            '<div class="float-right ">'+
+            '<h6>'+datos[i].comentario.fecha+'</h6>' +
+                '</div>'+
+                '<div>'+
+            '<h3>'+datos[i].comentario.mensaje+'</h3>'+
+                '</div>'
+
+
 
 
         );
 
         if((datos[i].respuesta)!==null){
             $("#div2").append(
-                '<div id="div2" class="div2 col-9 col-auto alert alert-primary">'+
-                '<h6>'+datos[i].respuesta.fecha+'</h6>' +
-                '<h5>'+datos[i].respuesta.mensaje+'</h5>'+
 
-                '</div>'
+             '<h5>'+datos[i].respuesta.mensaje+'</h5>'
 
 
-            );
+         );
         }
+
      }
 
     alertify.alert("Mis comentarios", "comentario exitoso :)");

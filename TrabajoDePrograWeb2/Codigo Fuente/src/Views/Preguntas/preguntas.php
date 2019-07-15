@@ -5,14 +5,10 @@
 
 </script>
 <<<<<<< HEAD
-<div>
+
 <table class="table table-bordered" id="tabla">
     <thead>
-=======
 
-<div class="container-fluid">
-<table id="tabla">
->>>>>>> origin/Mar
     <tr>
         <th scope="col">Comentario</th>
         <th scope="col">Fecha</th>
@@ -53,7 +49,8 @@
 
                 echo '<td><button onclick="pasarDatos(' . $idComentario.','.$idProducto.')" type="button" class="btn btn-outline-primary"  data-toggle="modal"
             data-target="#exampleModalCenter"  >Responder</button></td>';
-                echo '<tr>';
+              
+                 echo '<tr>';
             }
         }
     }
@@ -61,8 +58,8 @@
     </tbody>
 
 </table>
-</div>
-<input type="hidden" id="idVendedor" value="4">
+
+<input type="hidden" id="idVendedor" value="<?php echo $_SESSION["logueado"];?>">
 <table id="tabla2">
 </table>
 
@@ -73,13 +70,6 @@
 </div>
 
 
-
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> origin/Mar
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
@@ -91,15 +81,18 @@
             </div>
             <div class="modal-body">
 
-
+            <div class="d-none alert-danger p-1 rounded justify-content-around error" id="error">
+                <i class="fa fa-exclamation-circle"></i>
+                <small class="text-left"></small>
+                </div>
 
                 <div>
                     <label for="comentario" class="mt-4" >Respuesta</label>
-                    <textarea class="form-control" rows="3" name="comentario" id="comentario" placeholder="Escriba aqui..."></textarea>
+                    <textarea class="form-control" rows="3" name="comentario" id="respuesta" placeholder="Escriba aqui..."></textarea>
                 </div>
 
                 <input type="hidden" id="idComentario" name="idComentario" value="">
-                <button class="btn btn-primary" id="enviarDatos" >Enviar</button>
+                <button class="btn btn-primary" id="enviar" >Enviar</button>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
 
             </div>
