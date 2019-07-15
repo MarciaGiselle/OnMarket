@@ -60,7 +60,7 @@
                 <span class=" text-center align-self-center"> <?php echo $nombreUsuario ?></span>
             </button>
             <div class="dropdown-menu dropdown-menu-right">
-                <a class="dropdown-item text-info disabled" href="<?php echo getBaseAddress() . "MiCuenta/miCuenta" ?>">Mi Cuenta</a>
+                <a class="dropdown-item text-info" href="<?php echo getBaseAddress() . "MiCuenta/miCuenta" ?>">Mi Cuenta</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item text-info" href= "<?php echo getBaseAddress() . "MisCompras/mostrarHistorial" ?>">Compras</a>
                 <div class="dropdown-divider"></div>

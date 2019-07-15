@@ -68,8 +68,7 @@ class UsuarioController extends Controller
 
     function mostrarInicio()
     {
-        $d["title"] = "Mi Cuenta";
-
+        $d["title"] = "Index";
         $d["nombreUsuario"] = $_SESSION["name"];
         $this->set($d);
         $this->render(Constantes::USUARIOVIEW);
@@ -239,7 +238,6 @@ class UsuarioController extends Controller
             $prod = $producto->buscarUnProductoPorPk($carrito[$i]["id"]);
             $entr = $entrega->traerEntrgaPorPublicacion($public["id"]);
             $cont = $this->contarMetodos($entr);
-            echo $cont;
             if ($cont == "correo") {
                 //Correo
                 $asunto = "Vendiste " . $prod['nombre'] . " ";

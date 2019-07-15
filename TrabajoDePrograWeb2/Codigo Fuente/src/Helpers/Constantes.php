@@ -24,7 +24,7 @@ abstract class Constantes
     const INDEXADMINVIEW="vistaAdmin";
     const BUSCARUSERSVIEW="buscarUsuarios";
     const MISCOMPRASVIEW="misCompras";
-    const CONTACTOVIEW="contacto";
+    const MICUENTAVIEW="miCuenta";
 
     const LIQUIDACIONVIEW ="liquidacion";
     const PREGUNTASVIEW ="preguntas";

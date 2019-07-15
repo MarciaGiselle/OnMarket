@@ -46,6 +46,10 @@ class Cuenta extends Model
         $this->update($array);
     }
 
+    function traerMiCuenta($id){
+        $respuesta = $this->pageRows(0,1, "idUsuario=$id");
+        return $respuesta[0];
+    }
 
     /**
      * @return mixed

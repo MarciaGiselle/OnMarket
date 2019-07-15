@@ -62,10 +62,8 @@ ingresar.click(function () {
 function loginExitoso(rol) {
     var rolUser = JSON.parse(JSON.stringify(rol));
     if(rolUser == 2){
-        alert("comun");
         window.location.href = pathHome;
     }else{
-        alert("admin");
         window.location.href = pathAdmin;
     }
 
