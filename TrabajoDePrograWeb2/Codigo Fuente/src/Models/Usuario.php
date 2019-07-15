@@ -45,9 +45,8 @@ class Usuario extends Model
     function buscarUsuario(){
     $resultado=$this->pageRows(0,1,"name= '$this->name' and password='$this->password'");
     if (!empty($resultado)){
-        $respuesta=$resultado[0];
-        $id=$respuesta["id"];
-        return $id;
+        return $resultado[0];
+
     }else{
         return false;
     }

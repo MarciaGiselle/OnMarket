@@ -7,7 +7,7 @@ class ContactoController extends Controller
 
     function formularioContacto()
     {
-
+        $d["nombreUsuario"]= $_SESSION["name"];
         $d["title"] = "Contacto";
         $this->set($d);
 

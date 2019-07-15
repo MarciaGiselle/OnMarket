@@ -11,8 +11,10 @@ class CarritoController extends Controller
     function verCarrito()
     {
         $d["title"] = "Mi carrito";
+        $d["nombreUsuario"]= $_SESSION["name"];
 
-        if ((isset($_SESSION["carrito"])) || (count($_SESSION["carrito"])>0)) {
+
+        if ((isset($_SESSION["carrito"]))) {
             $d["mensaje"]=  " " ;
             $productoABuscar = new Producto();
             $formaentrega=new FormaEntrega();
@@ -41,8 +43,10 @@ class CarritoController extends Controller
 
             }
             $d["listaProductos"] = $arrayCarritoProducto;
-            $this->set($d);
+
             }
+
+        $this->set($d);
 
         $this->render(Constantes::CARRITOVIEW);
     }
@@ -53,7 +57,8 @@ class CarritoController extends Controller
         header("Content-type: application/json");
         $data = json_decode(utf8_decode($idProducto['data']));
         $idVendedor=$data->idVendedor;
-        if($_SESSION["logueado"] != $idVendedor) {
+        if (isset($_SESSION["logueado"])) {
+            if($_SESSION["logueado"] != $idVendedor) {
             $id = $data->idProducto;
             $cantidad = $data->cantidad;
 
@@ -67,12 +72,13 @@ class CarritoController extends Controller
                     array_push($_SESSION["carrito"], $array);
                 }
 
-            } else {
-                throw new CarritoFallido("Debe iniciar sesión para administrar su carrito de compras.", CodigoError::CarritoFallido);
             }
         }else{
             throw new CarritoFallido("no puede comprarse a si mismo ", CodigoError::CarritoFallido);
         }
+        } else {
+                throw new CarritoFallido("Debe iniciar sesión para administrar su carrito de compras.", CodigoError::CarritoFallido);
+            }
             echo json_encode($id);
 
 

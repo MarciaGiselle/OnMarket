@@ -5,6 +5,7 @@ class MisPublicacionesController extends Controller
     {
 
         $d["title"] = "Index";
+        $d["nombreUsuario"]= $_SESSION["name"];
 
         $publicaciones=new Publicacion();
 

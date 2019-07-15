@@ -4,9 +4,15 @@
     const pathComentarios = "<?php echo getBaseAddress() . "MostrarProducto/AgregarComentario"; ?>";
 
 </script>
+<<<<<<< HEAD
 <div>
 <table class="table table-bordered" id="tabla">
     <thead>
+=======
+
+<div class="container-fluid">
+<table id="tabla">
+>>>>>>> origin/Mar
     <tr>
         <th scope="col">Comentario</th>
         <th scope="col">Fecha</th>
@@ -64,12 +70,16 @@
 
 
 
+</div>
 
 
 
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/Mar
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">

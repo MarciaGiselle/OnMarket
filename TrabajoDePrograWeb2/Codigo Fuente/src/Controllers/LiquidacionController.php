@@ -6,7 +6,7 @@ class LiquidacionController extends Controller
     function liquidacion()
     {
         $d["title"] = "Liquidaciones";
-
+        $d["nombreUsuario"]= $_SESSION["name"];
         $year = new Year();
         $mes = new Mes();
 

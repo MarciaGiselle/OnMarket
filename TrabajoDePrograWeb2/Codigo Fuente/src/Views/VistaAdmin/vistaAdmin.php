@@ -1,16 +1,3 @@
-<body>
-
-<?php
-
-if(isset($_SESSION["logueado"])){
-
-    include_once ("navLogueado.php") ;
-}else{
-    include_once ("navNoLogueado.php");
-}
-?>
-
-
 
 <!-–Slider de fotos -–>
 
@@ -115,18 +102,6 @@ if(isset($_SESSION["logueado"])){
 </div>
 <br>
 <br>
-
-<!-- Footer -->
-<footer class="bg-primary page-footer font-small blue pt-4">
-
-    <!-- Copyright -->
-    <div class="bg-secondary text-dark footer-copyright text-center py-3">© 2019 Copyright:
-        <a class="text-dark" href="https://mdbootstrap.com/education/bootstrap/"> OnMarket.com</a>
-    </div>
-    <!-- Copyright -->
-
-</footer>
-</body>
 
 <script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
 <script src="<?php echo getBaseAddress() . "Webroot/js/buscador.js" ?>"></script>

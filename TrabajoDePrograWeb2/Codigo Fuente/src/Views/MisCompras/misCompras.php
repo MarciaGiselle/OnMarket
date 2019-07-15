@@ -3,18 +3,8 @@
 </script>
 <link rel="stylesheet" href="<?php echo getBaseAddress() . "Webroot/css/estrellas.css" ?>">
 
+<div class="container-fluid">
 
-<?php
-
-if(isset($_SESSION["logueado"])){
-
-    include_once ("VistaBase/navLogueado.php") ;
-}else{
-    include_once ("VistaBase/navNoLogueado.php");
-}
-?>
-
-<body>
 <h3 class="text-primary text-center mt-4 mb-3">Tus compras</h3>
 
         <?php
@@ -78,7 +68,7 @@ if(isset($_SESSION["logueado"])){
                    </div>
                  </div>';}
         ?>
-
+</div>
 
 
 <!-- Modal -->
@@ -141,14 +131,4 @@ if(isset($_SESSION["logueado"])){
     <script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>
 
 
-    <!-- Footer -->
-    <footer class="bg-primary page-footer font-small blue pt-4">
 
-        <!-- Copyright -->
-        <div class="bg-secondary text-dark footer-copyright text-center py-3">© 2019 Copyright:
-            <a class="text-dark" href="https://mdbootstrap.com/education/bootstrap/"> OnMarket.com</a>
-        </div>
-        <!-- Copyright -->
-
-    </footer>
-    </body>

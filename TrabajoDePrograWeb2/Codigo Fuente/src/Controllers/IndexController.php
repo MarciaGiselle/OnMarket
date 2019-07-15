@@ -6,8 +6,7 @@ class IndexController extends Controller
             $d["title"] = "Index";
             $usuario= new Usuario();
             if(isset($_SESSION["logueado"])){
-                $user = $usuario->traerUserPorPk($_SESSION["logueado"]);
-                $d["nombreUsuario"]= $user["name"];
+                $d["nombreUsuario"]= $_SESSION["name"];
             }
             $this->set($d);
             $this->render(Constantes::INDEXVIEW);

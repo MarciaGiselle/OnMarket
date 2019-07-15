@@ -4,6 +4,9 @@ class BuscadorController extends Controller
 {
     function busqueda(){
         $d["title"] = "Busqueda";
+        if(isset($_SESSION["logueado"])){
+            $d["nombreUsuario"]= $_SESSION["name"];
+        }
         $this->set($d);
         $this->render(Constantes::BUSCADORVIEW);
     }

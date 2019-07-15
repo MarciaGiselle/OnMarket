@@ -4,6 +4,7 @@
 class EliminarController extends Controller
 {
   function eliminarPublicacion($datos){
+      $d["nombreUsuario"]= $_SESSION["name"];
       $d["title"] = "Index";
       $producto=new Producto();
       $publicacion =new Publicacion();

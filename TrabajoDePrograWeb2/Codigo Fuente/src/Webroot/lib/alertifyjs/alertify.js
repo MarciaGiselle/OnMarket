@@ -357,7 +357,7 @@
                 header: '<div class="ajs-header"></div>',
                 body: '<div class="ajs-body"></div>',
                 content: '<div class="ajs-content"></div>',
-                footer: '<div class="ajs-footer"></div>',
+                footer: '<div class="ajs-footer.css"></div>',
                 buttons: { primary: '<div class="ajs-primary ajs-buttons"></div>', auxiliary: '<div class="ajs-auxiliary ajs-buttons"></div>' },
                 button: '<button class="ajs-button"></button>',
                 resizeHandle: '<div class="ajs-handle"></div>',
@@ -544,7 +544,7 @@
                 elements.body.innerHTML = templates.content;
                 elements.content = elements.body.firstChild;
 
-                //footer
+                //footer.css
                 elements.footer = elements.body.nextSibling;
                 elements.footer.innerHTML = templates.buttons.auxiliary + templates.buttons.primary;
                 
@@ -1242,7 +1242,7 @@
         }
 
         /**
-         * Clicks event handler, attached to the dialog footer.
+         * Clicks event handler, attached to the dialog footer.css.
          *
          * @param {Event}		DOM event object.
          * @param {Object}		The dilog instance.
@@ -2231,7 +2231,7 @@
              * Resize the dialog to a specific width/height (the dialog must be 'resizable').
              * The dialog can be resized to:
              *  A minimum width equal to the initial display width
-             *  A minimum height equal to the sum of header/footer heights.
+             *  A minimum height equal to the sum of header/footer.css heights.
              *
              *
              * @param {Number or String} width    The new dialog width in pixels or in percent.
