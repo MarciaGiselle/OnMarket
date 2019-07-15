@@ -3,10 +3,13 @@
 <script src="<?php echo getBaseAddress() . 'Webroot/amcharts4/themes/animated.js'?>"></script>
 <script src="<?php echo getBaseAddress() . 'Webroot/amcharts4/maps.js'?>"></script>
 
-    <h3>Productos mas buscados </h3>
+<div class="container mt-5">
+    <div class="container-fluid mb-5">
+    <h4 class="text-primary d-flex justify-content-center mt-5">Productos más buscados </h4>
+
     <div style=" width: 100%;
   max-height: 600px;
-  height: 100vh;" id="chartdiv" ></div>
+  height: 100vh;" id="chartdiv" ></div></div>
 
 
 
@@ -60,13 +63,14 @@
     <?php }else{
         echo $mensaje;
     } ?>
-
-<h3>Categorias de los productos mas comprados</h3>
+    <hr>
+    <div class="container-fluid mb-5">
+<h4 class="text-primary d-flex justify-content-center mt-5">Categorías de los productos más comprados</h4>
 
 
     <div style=" width: 100%;
   max-height: 600px;
-  height: 100vh;" id="chartdivo"></div>
+  height: 100vh;" id="chartdivo"></div> </div>
 
 
     <script>
@@ -134,10 +138,13 @@
     </script>
 
 
-<h3> Montos</h3>
+    <hr>
+    <div class="container-fluid mb-5">
+        <h4 class="text-primary d-flex justify-content-center mt-5">Rango de Montos involucrados en las Ventas</h4>
+
 <div style=" width: 100%;
   max-height: 600px;
-  height: 100vh;" id="chartdiv5"></div>
+  height: 100vh;" id="chartdiv5"></div></div>
 <script>
 
     am4core.useTheme(am4themes_animated);
@@ -245,5 +252,5 @@
     chart5.exporting.menu = new am4core.ExportMenu();
 </script>
 
-
+</div>
 

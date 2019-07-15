@@ -98,8 +98,9 @@
                 <td><button class="btn btn-info align-items-center" type="submit"><i class="fas fa-eye fa-2x" style="color: whitesmoke;" ></i>  </button>
                  <input type="hidden" name="id"  value="">  
                    </td>
-                </tr> </table>';
+                </tr> ';
             }
+            echo '</table>';
         }else {
 
             echo '<div class="container mt-4">

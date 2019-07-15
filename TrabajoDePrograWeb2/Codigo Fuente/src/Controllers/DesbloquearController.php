@@ -23,8 +23,7 @@ class DesbloquearController extends Controller
         $usuario =new Usuario();
         $usuario->desbloquearUsuario($id_user);
 
-        echo "el usuario esta desbloqueado";
-
+        header("Location:" .getBaseAddress().'PerfilesDeUsuarios/usuarios');
     }
 
 }

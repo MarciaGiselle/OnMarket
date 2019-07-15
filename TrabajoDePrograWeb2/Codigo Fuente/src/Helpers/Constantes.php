@@ -25,9 +25,10 @@ abstract class Constantes
     const BUSCARUSERSVIEW="buscarUsuarios";
     const MISCOMPRASVIEW="misCompras";
     const MICUENTAVIEW="miCuenta";
-
+    const PUBLICACIONESADMINVIEW = "publicacionesAdmin";
     const LIQUIDACIONVIEW ="liquidacion";
     const PREGUNTASVIEW ="preguntas";
+    const COMPRASADMINVIEW ="comprasAdmin";
 
 
     const ESTADISTICASVIEW="estadisticas";

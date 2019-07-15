@@ -42,7 +42,7 @@
                 <td>' . $cantidad . ' </td>
                 <td>' . $descripcion . ' </td>
                 <td>' . $idPublicacion . ' </td>
-                <td>' . $nombreEstado . ' </td>
+              <td>' . $nombreEstado . ' </td>
                 <td> 
                 
             <form action="' . getBaseAddress() . 'Modificar/modificar' . '" method="POST">

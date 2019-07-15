@@ -26,7 +26,7 @@ class BloquearController extends Controller
          $usuario =new Usuario();
          $usuario->bloquearUsuario($id_user);
 
-    echo "el usuario esta bloqueado";
+        header("Location:" .getBaseAddress().'PerfilesDeUsuarios/usuarios');
 
     }
 

@@ -39,17 +39,17 @@ for($i=0;$i< $tope;$i++){
     
     
     <td> 
-        <form method='post' action='".getBaseAddress() . 'MisPublicaciones/verPublicacionesComoAdmin' ."' >
+        <form method='post' action='".getBaseAddress() . 'PublicacionesAdmin/verPublicaciones' ."' >
          
         <input type='hidden' name='id_user' value='".$usuarios[$i]["id"]."'>
-        <input class='btn btn-lg btn-primary' type='submit' value='ver'> 
+        <input class='btn btn-lg btn-primary' type='submit' value='Ver'> 
         </form>                            
     </td>
     
     <td> 
-       <form method='post' action='".getBaseAddress() . 'MisCompras/verComprasComoAdmin' ."' >
+       <form method='post' action='".getBaseAddress() . 'ComprasAdmin/verComprasComoAdmin' ."' >
         <input type='hidden' name='id_user' value='".$usuarios[$i]["id"]."'>
-        <input class='btn btn-lg btn-primary' type='submit' value='ver'> 
+        <input class='btn btn-lg btn-primary' type='submit' value='Ver'> 
         </form>                            
     </td>";
 
