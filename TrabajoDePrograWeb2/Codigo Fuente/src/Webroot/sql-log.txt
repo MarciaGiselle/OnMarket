@@ -50869,3 +50869,48 @@ exo, bts, black pink, got7, seventeen, red velvet, big bang, nct, monsta x.
 [2019-07-15 02:39:12]  DESC Usuario
 [2019-07-15 02:39:12]  select * from Usuario  where id='4' limit 0, 1
 [2019-07-15 02:39:12]  select * from Usuario  where id='7' limit 0, 1
+[2019-07-15 02:46:35]  DESC Comentario
+[2019-07-15 02:46:35]  DESC Publicacion
+[2019-07-15 02:46:35]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-15 02:46:35]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:46:35]  select * from Comentario  where id_Publicacion= 2 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:46:36]  select * from Comentario  where id_Publicacion= 3 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:46:36]  select * from Comentario  where id_Publicacion= 4 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:46:36]  select * from Comentario  where id_Publicacion= 5 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:46:36]  select * from Comentario  where id_Publicacion= 6 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:48:19]  DESC Comentario
+[2019-07-15 02:48:19]  DESC Publicacion
+[2019-07-15 02:48:19]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-15 02:48:19]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:48:19]  select * from Comentario  where id_Publicacion= 2 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:48:19]  select * from Comentario  where id_Publicacion= 3 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:48:19]  select * from Comentario  where id_Publicacion= 4 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:48:19]  select * from Comentario  where id_Publicacion= 5 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:48:19]  select * from Comentario  where id_Publicacion= 6 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:49:31]  DESC Comentario
+[2019-07-15 02:49:31]  DESC Publicacion
+[2019-07-15 02:49:31]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-15 02:49:31]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:49:31]  select * from Comentario  where id_Publicacion= 2 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:49:31]  select * from Comentario  where id_Publicacion= 3 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:49:31]  select * from Comentario  where id_Publicacion= 4 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:49:32]  select * from Comentario  where id_Publicacion= 5 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:49:32]  select * from Comentario  where id_Publicacion= 6 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:49:54]  DESC Comentario
+[2019-07-15 02:49:54]  DESC Publicacion
+[2019-07-15 02:49:54]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-15 02:49:54]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:49:54]  select * from Comentario  where id_Publicacion= 2 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:49:54]  select * from Comentario  where id_Publicacion= 3 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:49:54]  select * from Comentario  where id_Publicacion= 4 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:49:54]  select * from Comentario  where id_Publicacion= 5 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:49:54]  select * from Comentario  where id_Publicacion= 6 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:50:25]  DESC Comentario
+[2019-07-15 02:50:25]  DESC Publicacion
+[2019-07-15 02:50:25]  select * from Publicacion  where id_user=4 limit 0, 100
+[2019-07-15 02:50:25]  select * from Comentario  where id_Publicacion= 1 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:50:25]  select * from Comentario  where id_Publicacion= 2 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:50:25]  select * from Comentario  where id_Publicacion= 3 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:50:25]  select * from Comentario  where id_Publicacion= 4 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:50:25]  select * from Comentario  where id_Publicacion= 5 ORDER BY fecha DESC   limit 0, 20
+[2019-07-15 02:50:25]  select * from Comentario  where id_Publicacion= 6 ORDER BY fecha DESC   limit 0, 20

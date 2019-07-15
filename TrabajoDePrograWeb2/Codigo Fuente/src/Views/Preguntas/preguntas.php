@@ -4,16 +4,14 @@
     const pathComentarios = "<?php echo getBaseAddress() . "MostrarProducto/AgregarComentario"; ?>";
 
 </script>
-<<<<<<< HEAD
-<div>
-<table class="table table-bordered" id="tabla">
-    <thead>
-=======
+<div class="container-fluid mt-5">
+    <h3 class="text-primary text-center mb-3">Historial de Preguntas</h3>
 
-<div class="container-fluid">
-<table id="tabla">
->>>>>>> origin/Mar
-    <tr>
+    <table class="table table-hover text-center mt-4 mb-2" id="tabla">
+    <thead>
+
+
+    <tr class="font-weight-bold">
         <th scope="col">Comentario</th>
         <th scope="col">Fecha</th>
         <th scope="col">Publicacion</th>
@@ -21,7 +19,7 @@
 
     </tr>
     </thead>
-    <tbody>
+    <tbody class="justify-content-around align-items-center text-center my-auto">
     <?php
     $x=0;
 
@@ -73,13 +71,6 @@
 </div>
 
 
-
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> origin/Mar
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
