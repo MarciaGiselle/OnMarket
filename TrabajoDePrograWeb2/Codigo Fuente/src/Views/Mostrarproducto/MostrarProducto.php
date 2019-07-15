@@ -6,9 +6,9 @@
 </script>
 <link rel="stylesheet" href="<?php echo getBaseAddress() . "Webroot/css/estrellasAlMostrar.css" ?>">
 
-<div class="container mt-5">
+<div class="container " >
     <div class="row">
-        <div class="col col-md-7">
+        <div class="col col-md-7" style="width:400px; height:300px;">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
                 <div class="carousel-inner">
@@ -47,11 +47,11 @@
 
         <div class="col col col-md-5">
             <div class="card-body">
-                <h3 class="card-title"><?php echo $resultado["nombre"]; ?></h3>
-                <h4 class="card-subtitle mb-1 text-muted">$<?php echo $resultado["precio"]; ?></h4>
+                <h4 class="card-title"><?php echo $resultado["nombre"]; ?></h4>
+                <h5 class="card-subtitle mb-1 text-muted">$<?php echo $resultado["precio"]; ?></h5>
                 <hr>
-                <label class="text-secondary d-inline">Cantidad disponible:</label>
-                <h5> <?php echo $resultado["cantidad"]; ?></h5>
+                <label class="text-secondary d-inline">Cantidad disponible:</label><h5> <?php echo $resultado["cantidad"]; ?></h5>
+
 
                 <label class="text-secondary d-inline" for="descripcion">Descripción:</label>
                 <h6 id="descripcion"><?php echo $resultado["descripcion"]; ?></h6>
@@ -140,6 +140,18 @@
                 <input class="col-md-4 rounded d-block" type="number" value="1" name="id" id="cantidad">
 
 
+                    <?php
+                    include_once ("mapa.php");
+
+                    ?>
+                <div class="col">
+                    <input type="hidden" name="idVendedor" id="idVendedor" value="<?php echo $idVendedor; ?>">
+                    <input type="hidden" id="idProducto" name="idProducto" value="<?php echo $resultado["id"]; ?>">
+
+                    <input class="btn btn-primary mt-5 mr-2" type="reset" value="Cancelar">
+                    <button class="btn btn-primary mt-5" id="agregar">Agregar Al carrito</button>
+                </div>
+
             </div>
 
 
@@ -147,68 +159,71 @@
 
 
     </div>
-    <div class="row">
-        <div class="col">
-            <?php
-            include_once ("mapa.php");
-
-            ?>
-
-        </div>
-        <div class="col">
-            <input type="hidden" name="idVendedor" id="idVendedor" value="<?php echo $idVendedor; ?>">
-            <input type="hidden" id="idProducto" name="idProducto" value="<?php echo $resultado["id"]; ?>">
-
-            <input class="btn btn-primary mt-5 mr-2" type="reset" value="Cancelar">
-            <button class="btn btn-primary mt-5" id="agregar">Agregar Al carrito</button>
-        </div>
-
-    </div>
 
 </div>
 
 
-<h3>Comentarios</h3>
-<div class="container" id="comentarios">
+<center> <h3 class="text-secondary d-inline">Seccion de comentarios</h3></center>
+<div class="container " id="comentarios">
 
-<div class="row m-auto"></div>
 <?php
 
 for($i=0 ;$i<count($resultados) ;$i++) {
 
+echo '<div class="col">';
 
-
-    echo '<div class="col-5 col-auto alert alert-primary">
-    
-             <h6>' . $resultados[$i]["comentario"]["fecha"] . '</h6>
-             <h4>' . $resultados[$i]["comentario"]["mensaje"] . '</h4>
+    echo '<div class=" alert alert-primary">
+            <div class="float-right ">
+             <h6 >' . $resultados[$i]["comentario"]["fecha"] . '</h6>
+            </div>
+            <div>
+             <h3>' . $resultados[$i]["comentario"]["mensaje"] . '</h3>
+             </div>
              ';
 
 
     if (!empty($resultados[$i]["respuesta"])) {
-        echo '<div id="div2" class="div2 col-9 col-auto alert alert-primary">
-             <h6>' . $resultados[$i]["respuesta"]["fecha"] . '</h6>
-             <h4>' . $resultados[$i]["respuesta"]["mensaje"] . '</h4>
+        echo '<div id="div2" class="div2   ">
+             
+         
+             <h3>' . $resultados[$i]["respuesta"]["mensaje"] . '</h3>
+           
              ';
          echo '</div>';
     }
     echo '</div>';
-
+echo '</div>';
 
 }
 
 ?>
+    </div>
 
-</div>
-</div>
+
+
 <div class="container" id="div">
-    <div class="row" id="div">
+
+    <div id="div2">
 
     </div>
 </div>
-<form>
-<input type="text" id="mensajeNuevo" class="mensaje form-control"  placeholder="deja tu comentario..." >
-<input id="comentar" onclick="pasarId(null)" type="button" class="comentar btn btn-primary " value="comentar" >
+
+<form class="container">
+    <div class="row">
+   <div class="col">
+        <input type="text" id="mensajeNuevo" class="form-control w-3"  placeholder="deja tu comentario..." >
+   </div>
+    <div class="col">
+      <input id="comentar" onclick="pasarId(null)" type="button" class="btn btn-primary " value="comentar" >
+    </div>
+
+    </div>
+    <div class="row">
+    <div class="col-md-5 d-none alert-danger p-1 rounded  error" id="error">
+        <i class="fa fa-exclamation-circle"></i>
+        <small ></small>
+    </div>
+    </div>
 </form>
 
 

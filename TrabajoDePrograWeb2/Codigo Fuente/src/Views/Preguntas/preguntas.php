@@ -12,6 +12,7 @@
 
 
     <tr class="font-weight-bold">
+
         <th scope="col">Comentario</th>
         <th scope="col">Fecha</th>
         <th scope="col">Publicacion</th>
@@ -51,7 +52,8 @@
 
                 echo '<td><button onclick="pasarDatos(' . $idComentario.','.$idProducto.')" type="button" class="btn btn-outline-primary"  data-toggle="modal"
             data-target="#exampleModalCenter"  >Responder</button></td>';
-                echo '<tr>';
+              
+                 echo '<tr>';
             }
         }
     }
@@ -59,8 +61,8 @@
     </tbody>
 
 </table>
-</div>
-<input type="hidden" id="idVendedor" value="4">
+
+<input type="hidden" id="idVendedor" value="<?php echo $_SESSION["logueado"];?>">
 <table id="tabla2">
 </table>
 
@@ -82,15 +84,18 @@
             </div>
             <div class="modal-body">
 
-
+            <div class="d-none alert-danger p-1 rounded justify-content-around error" id="error">
+                <i class="fa fa-exclamation-circle"></i>
+                <small class="text-left"></small>
+                </div>
 
                 <div>
                     <label for="comentario" class="mt-4" >Respuesta</label>
-                    <textarea class="form-control" rows="3" name="comentario" id="comentario" placeholder="Escriba aqui..."></textarea>
+                    <textarea class="form-control" rows="3" name="comentario" id="respuesta" placeholder="Escriba aqui..."></textarea>
                 </div>
 
                 <input type="hidden" id="idComentario" name="idComentario" value="">
-                <button class="btn btn-primary" id="enviarDatos" >Enviar</button>
+                <button class="btn btn-primary" id="enviar" >Enviar</button>
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
 
             </div>

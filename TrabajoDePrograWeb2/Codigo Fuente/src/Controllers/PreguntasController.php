@@ -12,7 +12,7 @@ class PreguntasController extends Controller
         $comentario = new Comentario();
         // el id_user porq el q esta logueado
         $publicaciones=new Publicacion();
-        $misPublicaciones=$publicaciones->traePublicaionesPorIdUser(4);
+        $misPublicaciones=$publicaciones->traePublicaionesPorIdUser($_SESSION["logueado"]);
         $resultadosFinal = [];
         $publicacionesConComentariops = [];
         foreach($misPublicaciones as $publicacion) {
