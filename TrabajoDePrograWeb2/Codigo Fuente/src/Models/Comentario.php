@@ -37,7 +37,7 @@ public function insertarComentario(){
     }
 public function traerComentariosPorPublicacion($pk){
 
-    $resultado=$this->pageRows(0,20, "id_Publicacion= $pk ORDER BY fecha DESC  ");
+    $resultado=$this->pageRows(0,20, "id_Publicacion= $pk ORDER BY fecha DESC");
 
     return $resultado;
 }

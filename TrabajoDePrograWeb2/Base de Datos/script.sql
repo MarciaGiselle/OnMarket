@@ -209,12 +209,14 @@ CREATE TABLE `comentario`
 (
     `id`             integer      NOT NULL AUTO_INCREMENT,
     `mensaje`        varchar(500) NOT NULL,
-    `fecha`          date         NOT NULL,
+    `fecha`          datetime         NOT NULL,
     `id_Usuario`     integer      NOT NULL,
     `id_Publicacion` integer      NOT NULL,
+    `id_comentario2` integer  DEFAULT NULL ,
     constraint PK_Comentario primary key (id),
     constraint FK_Comentario_Usuario foreign key (id_usuario) references usuario (id),
-    constraint FK_Comentario_Publicacion foreign key (id_Publicacion) references publicacion (id)
+    constraint FK_Comentario_Publicacion foreign key (id_Publicacion) references publicacion (id),
+    constraint FK_Comentario_Comentario foreign key (id_comentario2) references comentario(id)
 );
 
 -- --------------------------------------------------------

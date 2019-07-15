@@ -75,21 +75,26 @@ class MostrarProductoController extends Controller
 
         }
 
+        $user=new Usuario();
         for ($i = 0; $i < count($comentarios); $i++) {
 
 
                     if (!in_array($comentarios[$i],$respuestas)){
                       if(!empty($comentarios[$i]["id_comentario2"])) {
                           $respuesta = $comentario->traerComentariosPorPK($comentarios[$i]["id_comentario2"]);
+                          $usuarioDelComentario=$user->traerUserPorPk($comentarios[$i]["id_Usuario"]);
                           $array = [
                               "comentario" => $comentarios[$i],
                               "respuesta" => $respuesta,
+                              "usuario" => $usuarioDelComentario,
                           ];
 
                     }else{
+                          $usuarioDelComentario=$user->traerUserPorPk($comentarios[$i]["id_Usuario"]);
                           $array = [
                               "comentario" => $comentarios[$i],
                               "respuesta" => null,
+                              "usuario" => $usuarioDelComentario,
                           ];
                       }
 
@@ -152,38 +157,32 @@ class MostrarProductoController extends Controller
         $comentarios = $this->mostrarComentarios($idPublicacion);
         $respuestas = [];
         $resultados = [];
-        for ($i = 0; $i < count($comentarios); $i++) {
-            if (!empty($comentarios[$i]["id_comentario2"])) {
-
-                $respuesta = $comentario->traerComentariosPorPK($comentarios[$i]["id_comentario2"]);
-                array_push($respuestas, $respuesta);
-            }
-
-        }
-
+        $user=new Usuario();
         for ($i = 0; $i < count($comentarios); $i++) {
 
 
             if (!in_array($comentarios[$i],$respuestas)){
                 if(!empty($comentarios[$i]["id_comentario2"])) {
                     $respuesta = $comentario->traerComentariosPorPK($comentarios[$i]["id_comentario2"]);
+                    $usuarioDelComentario=$user->traerUserPorPk($comentarios[$i]["id_Usuario"]);
                     $array = [
                         "comentario" => $comentarios[$i],
                         "respuesta" => $respuesta,
+                        "usuario" => $usuarioDelComentario,
                     ];
 
                 }else{
+                    $usuarioDelComentario=$user->traerUserPorPk($comentarios[$i]["id_Usuario"]);
                     $array = [
                         "comentario" => $comentarios[$i],
                         "respuesta" => null,
+                        "usuario" => $usuarioDelComentario,
                     ];
                 }
 
                 array_push($resultados, $array);
             }
         }
-
-
 
 
 

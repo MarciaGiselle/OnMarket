@@ -38,38 +38,48 @@ function AgregarExitosa(array){
     var datos = JSON.parse(JSON.stringify(array));
 
     $('#comentarios').addClass('d-none');
+    $( ".reseteado").remove();
 
     for (var i = 0; i < datos.length; i++) {
 
-
-
-        div.append(
-
+        $("#div1").append(
+        '<div class="reseteado">'+
+        '<div class="row">'+
+            '<div class="col col-md-8 align-self-start">'+
             '<div class=" alert alert-primary">'+
-            '<div class="float-right ">'+
+            '<h6 class="font-weight-bold">'+datos[i].usuario.name+ ' '+datos[i].usuario.lastname+
+            '</h6>'+
+
+        '<div class="float-right">'+
             '<h6>'+datos[i].comentario.fecha+'</h6>' +
                 '</div>'+
                 '<div>'+
-            '<h3>'+datos[i].comentario.mensaje+'</h3>'+
-                '</div>'
-
-
-
-
+            '<h5>'+datos[i].comentario.mensaje+'</h5>'+
+                '</div>'+
+            '</div>'+
+          '  </div>  '+
+            '  </div>  '
         );
 
         if((datos[i].respuesta)!==null){
-            $("#div2").append(
-
-             '<h5>'+datos[i].respuesta.mensaje+'</h5>'
-
-
-         );
+            $("#div1").append(
+            '<div class="row justify-content-end ">'+
+                '<div class="col-8 align-self-end">'+
+                '<div class="alert alert-secondary ">'+
+                '<h6 class="font-weight-bold">'+datos[i].usuario.name+ ' '+datos[i].usuario.lastname+
+                '</h6>'+
+            '<div class="float-right">'+
+             '<h5>'+datos[i].respuesta.fecha+'</h5>'+
+                '</div>'+
+                '<div>'+
+                '<h5>'+datos[i].respuesta.mensaje+'</h5>'+
+                   '</div>'+
+                  '</div>'+
+                 '</div>'+
+                '</div>'
+            );
         }
-
-     }
-
-    alertify.alert("Mis comentarios", "comentario exitoso :)");
+    }
 
 }
 

@@ -42,8 +42,13 @@ $("#enviar").click(function () {
 function RespuestaExitosa(array){
 
     $("#seleccionado").prop("disabled", true);
-    location.reload();
-    alertify.alert("Mis comentarios", "respuesta exitosa :)");
+    setTimeout(function () {
+
+        window.location.reload();
+
+    }, 1000);
+
+    alertify.alert("Mis comentarios", "Respuesta exitosa :)");
 
 }
 
