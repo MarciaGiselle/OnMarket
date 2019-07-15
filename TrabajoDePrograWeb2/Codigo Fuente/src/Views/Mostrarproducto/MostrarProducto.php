@@ -164,6 +164,15 @@
 
 </div>
 
+<div class="container" id="div1">
+
+    <div id="div3">
+
+    </div>
+</div>
+
+
+
 
 <h3 class="text-primary text-center mt-4 mb-2">Sección de Comentarios</h3>
 
@@ -248,16 +257,10 @@
 
 </div>
 
+<hr>
+<h3 class="text-primary text-center mt-4 mb-2">Productos Relacionados</h3>
 
-<div class="container" id="div1">
-
-    <div id="div3">
-
-    </div>
-</div>
-
-
-<div class="container ">
+<div class="container">
     <?php
     $tope = "";
     if (count($productosRelacionados) > 5) {
@@ -265,15 +268,13 @@
     } else {
         $tope = count($productosRelacionados);
     }
-    echo '<div class="card-group">';
     for ($i = 0; $i < $tope; $i++) {
 
-        echo '   <div class="card">
+        echo '   <div class="card" style="width: 18rem;">
     <img class="card-img-top" src="../Webroot/imgCargadas/' . $productosRelacionados[$i]["imagen"][0]["nombre"] . '" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">' . $productosRelacionados[$i]["prod"][0]["nombre"] . '</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
     </div>
   </div>';
 
@@ -281,8 +282,9 @@
 
 
     ?>
-
 </div>
+
+
 
 <script src="<?php echo getBaseAddress() . "Webroot/js/agregarAlCarrito.js" ?>"></script>
 <script src="<?php echo getBaseAddress() . "Webroot/js/agregarComentario.js" ?>"></script>

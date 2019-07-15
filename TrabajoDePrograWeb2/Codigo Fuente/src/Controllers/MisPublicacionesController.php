@@ -46,7 +46,9 @@ class MisPublicacionesController extends Controller
      $publicacionAmodificar=new Publicacion();
      $publicacionAmodificar->setId($PublicacionBase[0]["id"]);
      $publicacionAmodificar->ActivarPublicacion();
-}
+     header("Location:" .getBaseAddress().'Mispublicaciones/publicaciones');
+
+ }
 
     function publicacionInactiva($datos){
         $publicacion=new Publicacion();
@@ -55,6 +57,8 @@ class MisPublicacionesController extends Controller
         $publicacionAmodificar=new Publicacion();
         $publicacionAmodificar->setId($PublicacionBase[0]["id"]);
         $publicacionAmodificar->InactivarPublicacion();
+        header("Location:" .getBaseAddress().'Mispublicaciones/publicaciones');
+
     }
 
 }
