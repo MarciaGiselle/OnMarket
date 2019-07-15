@@ -70,7 +70,7 @@ class UsuarioController extends Controller
     {
         $d["title"] = "Mi Cuenta";
 
-        $d["nombreUsuario"]= $_SESSION["name"];
+        $d["nombreUsuario"] = $_SESSION["name"];
         $this->set($d);
         $this->render(Constantes::USUARIOVIEW);
 
@@ -85,8 +85,8 @@ class UsuarioController extends Controller
         $codigo = $data->codigoDeSeguridad;
         $fecha = $data->fechaDeVencimiento;
         $numeroTarjeta = $data->numeroTarjeta;
-        $direccion=$data->direccion;
-        $email=$data->email;
+        $direccion = $data->direccion;
+        $email = $data->email;
 
         $idUser = $_SESSION["logueado"];
 
@@ -113,10 +113,10 @@ class UsuarioController extends Controller
 
                 for ($i = 0; $i < $tope; $i++) {
                     //parte para las estadisticas
-                  $prod=new Producto();
-                    $productoCompra=$prod->buscarUnProductoPorPk($_SESSION["carrito"][$i]["id"]);
+                    $prod = new Producto();
+                    $productoCompra = $prod->buscarUnProductoPorPk($_SESSION["carrito"][$i]["id"]);
                     //metodo de estadisticas
-                    $this->realizarEstadisticas( $productoCompra);
+                    $this->realizarEstadisticas($productoCompra);
 
                     //realizar compra
                     $cobranza->setIdTarjeta($idTarjeta);
@@ -128,27 +128,26 @@ class UsuarioController extends Controller
                     //estadistica de montos
                     $this->estadisticasMontos($total);
 
-                   // if($metododo=1){$this->enviarMensajeAlVendedor("Acordar con el vendedor",$email,$_SESSION["carrito"][$i]["id"]);}
-                   // if($metododo=2){$this->enviarMensajeAlVendedor("Envio por correo ",$direccion,$_SESSION["carrito"][$i]["id"]);}
-
                     //vendedor
                     $prodEncontrado = $producto->buscarUnProductoPorPk($cobranza->getIdProducto());
                     $publicEncontrada = $publicacion->traerPublicaciondelProducto($prodEncontrado["id"]);
-                    $vendedor= $usuario->traerUserPorPk($publicEncontrada["id_user"]);
+                    $vendedor = $usuario->traerUserPorPk($publicEncontrada["id_user"]);
 
-                    $cuentaVendedor =  $cuenta->consultarCuenta($vendedor["id"]);
+                    $cuentaVendedor = $cuenta->consultarCuenta($vendedor["id"]);
                     $cuenta->setId($cuentaVendedor["id"]);
                     $cobranza->setIdVendedor($vendedor["id"]);
 
-                    $precio= $cobranza->getCantidad()*$prodEncontrado["precio"];
+                    $precio = $cobranza->getCantidad() * $prodEncontrado["precio"];
                     $cobranza->setIdCuenta($cuentaVendedor["id"]);
-                    $cuenta->realizarDeposito($cuentaVendedor,$precio);
+                    $cuenta->realizarDeposito($cuentaVendedor, $precio);
 
                     $idCobranza = $cobranza->insertarCobranza();
+                    $this->enviarMails($_SESSION["carrito"], $direccion, $email);
+
                 }
 
                 if (isset($idCobranza)) {
-                unset($_SESSION["carrito"]);
+                    unset($_SESSION["carrito"]);
                 }
             }
 
@@ -161,109 +160,146 @@ class UsuarioController extends Controller
 
 
     }
-function estadisticasMontos($total){
-$rango=new Rango_montos();
-$rangos=$rango->traerTodas();
 
-foreach($rangos as $rango){
-    if($total>=$rango["desde"]&& $total<$rango["hasta"]){
-        if(empty($rango["id_estadistica"])){
-            $rangoNuevo=new Rango_montos();
-            $estadistica=new Estadisticas();
-            $estadistica->setCantidad(1);
-            $estadistica->setIdTipo(3);
-            $idEstadistica=$estadistica->insertarEstadistica();
+    function estadisticasMontos($total)
+    {
+        $rango = new Rango_montos();
+        $rangos = $rango->traerTodas();
 
-            $rangoNuevo->setId( $rango["id"]);
-            $rangoNuevo->setIdEstadistica($idEstadistica);
-            $rangoNuevo->insertarEstadisticasAlMonto();
-        }else{
-            // se agrega a la estadistica
-            $estadistic=new Estadisticas();
+        foreach ($rangos as $rango) {
+            if ($total >= $rango["desde"] && $total < $rango["hasta"]) {
+                if (empty($rango["id_estadistica"])) {
+                    $rangoNuevo = new Rango_montos();
+                    $estadistica = new Estadisticas();
+                    $estadistica->setCantidad(1);
+                    $estadistica->setIdTipo(3);
+                    $idEstadistica = $estadistica->insertarEstadistica();
 
-            $estadisticaDelMonto=$estadistic->traerEstadistica($rango["id_estadistica"],3);
-             $estadistic->setId($estadisticaDelMonto["id"]);
-            $cantidad=$estadisticaDelMonto["cantidad"]+1;
+                    $rangoNuevo->setId($rango["id"]);
+                    $rangoNuevo->setIdEstadistica($idEstadistica);
+                    $rangoNuevo->insertarEstadisticasAlMonto();
+                } else {
+                    // se agrega a la estadistica
+                    $estadistic = new Estadisticas();
 
-            $estadistic->setCantidad($cantidad);
-            $estadistic->actualizarEstadistica();
+                    $estadisticaDelMonto = $estadistic->traerEstadistica($rango["id_estadistica"], 3);
+                    $estadistic->setId($estadisticaDelMonto["id"]);
+                    $cantidad = $estadisticaDelMonto["cantidad"] + 1;
+
+                    $estadistic->setCantidad($cantidad);
+                    $estadistic->actualizarEstadistica();
+                }
+
+            }
         }
 
     }
-}
 
-}
+    function realizarEstadisticas($productoCompra)
+    {
+        $categoria = new Categoria();
+        $categoriaProd = $categoria->traerCategoriaPorPk($productoCompra["idCategoria"]);
 
-    function realizarEstadisticas( $productoCompra){
-        $categoria=new Categoria();
-        $categoriaProd=$categoria->traerCategoriaPorPk($productoCompra["idCategoria"]);
+        if (empty($categoriaProd["id_estadistica"])) {
 
-        if(empty($categoriaProd["id_estadistica"])){
-
-            $estadistica=new Estadisticas();
+            $estadistica = new Estadisticas();
             $estadistica->setCantidad(1);
             $estadistica->setIdTipo(2);
-            $idEstadistica=$estadistica->insertarEstadistica();
+            $idEstadistica = $estadistica->insertarEstadistica();
 
-            $categoria->setIdCategoria( $categoriaProd["id"]);
+            $categoria->setIdCategoria($categoriaProd["id"]);
             $categoria->setIdEstadistica($idEstadistica);
             $categoria->insertarEstadisticasAlaCategoria();
 
-        }else{
+        } else {
             // se agrega a la estadistica
-            $estadistic=new Estadisticas();
+            $estadistic = new Estadisticas();
 
-            $estadisticaDelProd=$estadistic->traerEstadistica($categoriaProd["id_estadistica"],2);
+            $estadisticaDelProd = $estadistic->traerEstadistica($categoriaProd["id_estadistica"], 2);
 
 
             $estadistic->setId($estadisticaDelProd["id"]);
-            $cantidad=$estadisticaDelProd["cantidad"]+1;
+            $cantidad = $estadisticaDelProd["cantidad"] + 1;
 
             $estadistic->setCantidad($cantidad);
             $estadistic->actualizarEstadistica();
 
 
-
-
         }
     }
 
+    function enviarMails($carrito, $direccion, $email)
+    {
+        $publicacion = new Publicacion();
+        $producto = new Producto();
+        $entrega = new publicacion_Entrega();
 
+        for ($i = 0; $i < count($carrito); $i++) {
+            $public = $publicacion->traerPublicaciondelProducto($carrito[$i]["id"]);
+            $prod = $producto->buscarUnProductoPorPk($carrito[$i]["id"]);
+            $entr = $entrega->traerEntrgaPorPublicacion($public["id"]);
+            $cont = $this->contarMetodos($entr);
+            echo $cont;
+            if ($cont == "correo") {
+                //Correo
+                $asunto = "Vendiste " . $prod['nombre'] . " ";
+                $mensaje = "Buen Trabajo! Tu comprador eligió recibir el producto por correo.
+            Usa servicios con seguro, envíalo a nombre del comprador y guarda copias de los recibos de envío.
+            Que sigan los éxitos, 
+            El equipo de OnMarket";
+            } elseif ($cont == "acordar") {
+                //acordar
+                $asunto = "Vendiste " . $prod['nombre'] . " ";
+                $mensaje = "Buen Trabajo! Tu comprador eligió acordar el envío directamente contigo.Encuéntrate en un lugar concurrido para hacer el intercambio.
+                Si vas a enviar el producto, usa servicios con seguro, envíalo a nombre del comprador y guarda copias de los recibos de envío.
+                Que sigan los éxitos,
+                El equipo de OnMarket";
 
+            } else {
+                //da igual
+                $asunto = "Vendiste " . $prod['nombre'] . " ";
+                $mensaje = "Buen Trabajo! Coordina con tu comprador para saber como desea recibir el producto.
+            Que sigan los éxitos, 
+            El equipo de OnMarket";
+            }
+            $this->enviarMensajeAlVendedor($asunto, $mensaje, $public);
+        }
 
+    }
 
+    function contarMetodos($entrega)
+    {
+        if (count($entrega) > 1) {
+            //tiene dos metodos
+            return 2;
+        } elseif ($entrega[0]["idEntrega"] == 1) {
+            //es solo a acordar
+            return "acordar";
+        } elseif ($entrega[0]["idEntrega"] == 2) {
+            //es correo
+            return "correo";
+        }
+    }
 
+    function enviarMensajeAlVendedor($asunto, $mensaje, $publicacion)
+    {
+        $user = new Usuario();
+        $idVendedor = $publicacion["id_user"];
+        $vendedor = $user->traerUserPorPk($idVendedor);
 
+        $emailVendedor = $vendedor["email"];
+        $usuario = $user->traerUserPorPk($_SESSION["logueado"]);
 
- function enviarMensajeAlVendedor($asunto,$mensaje,$idProd){
-     $cuerpo = '
-        <!DOCTYPE html>
-        <html>
-        <head>
-         <title></title>
-        </head>
-        <body>
-        '.$mensaje.'
-        </body>
-        </html>';
-     $user=new Usuario();
-     $publicacion=new Publicacion();
-     $publicacionActual=$publicacion->traerPublicaciondelProducto($idProd);
-     $idVendedor=$publicacionActual["id_user"];
-     $vendedor=$user->traerUserPorPk($idVendedor);
-      $emailVendedor=$vendedor["email"];
-     $usuario=$user->traerUserPorPk($_SESSION["logueado"]);
-     $headers  = "MIME-Version: 1.0\r\n";
-     $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
-     //dirección del remitente
-     $headers .= "From: ".$usuario['name']."   ".$usuario['lastname'].">\r\n";
-    //seria el mail del vendedor pongo el mio para comprobar q ande ,ademas los emial son de mentira los de los vendedores
-     mail("rocio.centurion367@gmail.com",$asunto,$cuerpo,$headers);
+        $headers = "MIME-Version: 1.0";
+        $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
+        // dirección del remitente
+        $headers .= "From: " . $usuario['name'] . "   " . $usuario['lastname'] . "\r\n";
+        //seria el mail del vendedor pongo el mio para comprobar q ande ,ademas los emial son de mentira los de los vendedores*/
+        mail("rocio.centurion367@gmail.com", $asunto, $mensaje, $headers);
+    }
 
-
-
- }
-    function valorar($datos){
+    function valorar($datos)
+    {
 
         header("Content-type: application/json");
         $data = json_decode(utf8_decode($datos['data']));
@@ -273,12 +309,12 @@ foreach($rangos as $rango){
         $tipoValoracion = new tipo_valoracion();
         $valoracion = new valoracion();
 
-        $idProducto= $data->idValorado;
-        $estrellas= $data->estrellas;
-        $comentario= $data->comentario;
+        $idProducto = $data->idValorado;
+        $estrellas = $data->estrellas;
+        $comentario = $data->comentario;
 
         $publicEncontrada = $publicacion->traerPublicaciondelProducto($idProducto);
-        $idVendedor= $vendedor->traerUserPorPk($publicEncontrada["id_user"]);
+        $idVendedor = $vendedor->traerUserPorPk($publicEncontrada["id_user"]);
 
 
         $valoracion->setIdVendedor($idVendedor["id"]);
@@ -307,7 +343,6 @@ foreach($rangos as $rango){
             $vendedor->setId($idVendedor["id"]);
             $vendedor->setIdTipo($idValoracion);
             $vendedor->actualizarTipo();
-
 
 
         }
