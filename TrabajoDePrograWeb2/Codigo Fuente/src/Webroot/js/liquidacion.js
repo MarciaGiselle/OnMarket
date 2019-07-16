@@ -20,7 +20,7 @@ function validarYear() {
     var validacion = false;
 
     if (year === null || year === 0) {
-        $("#errorYear").removeClass("d-none").addClass("d-flex").find("span").text("Seleccione un año");
+        $("#errorCategoria").removeClass("d-none").addClass("d-flex").find("span").text("Seleccione un año");
     } else {
         validacion = true;
     }
