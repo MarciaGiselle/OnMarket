@@ -12977,3 +12977,74 @@ StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDeProg
 #2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #3 {main}
 
+[2019-07-16 13:22:45]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProductoController.php en la línea 13
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(13): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-16 13:23:44]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProductoController.php en la línea 14
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(14): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 14, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-16 13:24:10]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProductoController.php en la línea 13
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(13): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-16 13:27:22]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProducto.php en la línea 276
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Views\Mostrarproducto\MostrarProducto.php(276): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 276, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Core\Controller.php(16): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(111): Controller->render('MostrarProducto')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 13:28:41]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProductoController.php en la línea 13
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(13): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-16 13:29:59]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProductoController.php en la línea 13
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(13): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-16 13:33:40]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'MostrarProductoController' does not have a method 'verProducto?%3E'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-16 13:35:37]  Excepción no controlada: 'call_user_func_array() expects parameter 1 to be a valid callback, class 'MostrarProductoController' does not have a method 'verProducto?%3E'' en el archivo dispatcher.php en la línea 15
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): globalErrorHandler(2, 'call_user_func_...', 'C:\\xampp\\htdocs...', 15, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-16 13:35:44]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProductoController.php en la línea 13
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(13): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-16 13:36:25]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProductoController.php en la línea 13
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(13): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-16 13:36:31]  Excepción no controlada: 'Undefined index: id' en el archivo MostrarProductoController.php en la línea 13
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\MostrarProductoController.php(13): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 13, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): MostrarProductoController->verProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-16 14:17:54]  Error 30: 'no puede comprarse a si mismo ' en el archivo CarritoController.php en la línea 77
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): CarritoController->agregarAlCarrito(Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+

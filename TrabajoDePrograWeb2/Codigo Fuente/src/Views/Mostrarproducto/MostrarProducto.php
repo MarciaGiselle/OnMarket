@@ -97,13 +97,13 @@
                 if ($tipoVendedor[1] == 1) {
                     echo '<div class="valoracion" >
 
-                <input class="d-none" id="radio3" type="radio" name="estrellas" value="3" disabled>
+                <input class="d-none" id="radio3" type="radio" name="estrellas" value="3" checked disabled>
                 <label class="my-0" for="radio3"> <i class="far fa-star fa-2x"></i></label>
 
-                <input class="d-none" id="radio4" type="radio" name="estrellas" value="2" disabled>
+                <input class="d-none" id="radio4" type="radio" name="estrellas" value="2"  disabled>
                 <label class="my-0" for="radio4"> <i class="far fa-star fa-2x"></i></label>
 
-                <input class="d-none" id="radio5" type="radio" name="estrellas" value="1" checked disabled>
+                <input class="d-none" id="radio5" type="radio" name="estrellas" value="1"  disabled>
                 <label class="my-0" for="radio5"> <i class="far fa-star fa-2x"></i></label>
 
                 </div>';
@@ -116,20 +116,20 @@
                 <input class="d-none" id="radio4" type="radio" name="estrellas" value="2" checked disabled>
                 <label class="my-0" for="radio4"> <i class="far fa-star fa-2x"></i></label>
 
-                <input class="d-none" id="radio5" type="radio" name="estrellas" value="1" disabled>
+                <input class="d-none" id="radio5" type="radio" name="estrellas" value="1"   disabled>
                 <label class="my-0" for="radio5"> <i class="far fa-star fa-2x"></i></label>
 
                 </div>';
                 } else {
                     echo '<div class="valoracion" >
 
-                <input class="d-none" id="radio3" type="radio" name="estrellas" value="3" checked disabled>
+                <input class="d-none" id="radio3" type="radio" name="estrellas" value="3"  disabled>
                 <label class="my-0" for="radio3"> <i class="far fa-star fa-2x"></i></label>
 
                 <input class="d-none" id="radio4" type="radio" name="estrellas" value="2"  disabled>
                 <label class="my-0" for="radio4"> <i class="far fa-star fa-2x"></i></label>
 
-                <input class="d-none" id="radio5" type="radio" name="estrellas" value="1" disabled>
+                <input class="d-none" id="radio5" type="radio" name="estrellas" value="1" checked disabled>
                 <label class="my-0" for="radio5"> <i class="far fa-star fa-2x"></i></label>
 
                 </div>';
@@ -260,7 +260,8 @@
 <hr>
 <h3 class="text-primary text-center mt-4 mb-2">Productos Relacionados</h3>
 
-<div class="container">
+<div class="container mt-4">
+
     <?php
     $tope = "";
     if (count($productosRelacionados) > 5) {
@@ -269,19 +270,23 @@
         $tope = count($productosRelacionados);
     }
     for ($i = 0; $i < $tope; $i++) {
-
-        echo '   <div class="card d-inline-flex" style="width: 18rem;">
+        echo '    <div class="card d-inline-flex" style="width: 18rem;">
+ <form action="'. getBaseAddress() . "MostrarProducto/verProducto". '" method="POST">
     <img class="card-img-top" src="../Webroot/imgCargadas/' . $productosRelacionados[$i]["imagen"][0]["nombre"] . '" alt="Card image cap">
+    
     <div class="card-body">
-      <h5 class="card-title">' . $productosRelacionados[$i]["prod"][0]["nombre"] . '</h5>
-
-    </div>
+    <h6 class="card-title">    ' . $productosRelacionados[$i]["prod"][0]["nombre"] . '</h6>
+    <input type="hidden" value="' . $productosRelacionados[$i]["prod"][0]["id"] . '" name="id">
+       <button type="submit" class="btn btn-primary">Ver</button>
+        </div>
+  </form>
   </div>';
 
     }
 
 
     ?>
+
 </div>
 
 
