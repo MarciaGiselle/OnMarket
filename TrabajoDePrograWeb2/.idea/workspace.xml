@@ -27,7 +27,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/ModificarController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
+            <state relative-caret-position="-456">
               <caret line="181" column="56" selection-start-line="181" selection-start-column="56" selection-end-line="181" selection-end-column="56" />
             </state>
           </provider>
@@ -46,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/sql-log.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-520">
-              <caret line="67840" column="61" selection-start-line="67840" selection-start-column="61" selection-end-line="67840" selection-end-column="61" />
+              <caret line="67844" column="61" selection-start-line="67844" selection-start-column="61" selection-end-line="67844" selection-end-column="61" />
             </state>
           </provider>
         </entry>
@@ -143,7 +143,7 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="y" value="152" />
     <option name="width" value="1027" />
     <option name="height" value="748" />
@@ -273,15 +273,15 @@
       <workItem from="1561243534484" duration="20402000" />
       <workItem from="1561472968723" duration="14677000" />
       <workItem from="1562867993061" duration="499000" />
-      <workItem from="1563252622807" duration="5169000" />
+      <workItem from="1563252622807" duration="5423000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49903000" />
+    <option name="totallyTimeSpent" value="50157000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1378" height="738" extended-state="6" />
+    <frame x="-9" y="-9" width="1378" height="738" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25192013" />
@@ -615,7 +615,7 @@
     <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/sql-log.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-520">
-          <caret line="67840" column="61" selection-start-line="67840" selection-start-column="61" selection-end-line="67840" selection-end-column="61" />
+          <caret line="67844" column="61" selection-start-line="67844" selection-start-column="61" selection-end-line="67844" selection-end-column="61" />
         </state>
       </provider>
     </entry>
@@ -628,7 +628,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/ModificarController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="-456">
           <caret line="181" column="56" selection-start-line="181" selection-start-column="56" selection-end-line="181" selection-end-column="56" />
         </state>
       </provider>
