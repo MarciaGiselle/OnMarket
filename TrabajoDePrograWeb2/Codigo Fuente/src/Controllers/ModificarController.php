@@ -127,46 +127,33 @@ class ModificarController extends Controller
             $validacion = false;
         }
 
-      if(!empty($publicacion["envio"])){
+      if(!empty($datos["envio"])){
 
-            $entrega = $publicacion["envio"];
+
+            $entrega = $datos["envio"];
             $entregaPubli = new formaentrega();
             $publicEntrega=new Publicacion_Entrega();
            $idEntrega = $entregaPubli->obtenerIdMetodoEntrega($entrega);
-           $publicEntregaBase=$publicEntrega->traerEntrgaPorPublicacion($datos["idPublicacion"]);
 
 
-          $contador=0;
-           if((count($idEntrega)) ==(count($publicEntregaBase))){
-          for($i=0;$i < (count($idEntrega)); $i++ ){
-              for($x=0;$x < (count( $publicEntregaBase)); $x++ ){
-                   if($idEntrega[$i]=$publicEntregaBase[$x]["idEntrega"]){
-                       $contador.=1;
-              }
-              }
-          }
 
-               if($contador==(count($publicEntregaBase))){
-                  $this->actualizarMetodosDeEntrega($idEntrega,$datos["idPublicacion"],$publicEntregaBase);
-               }
-          }
+          $this->actualizarMetodosDeEntrega($idEntrega,$datos);
+
+
+
+
         }else {
             $validacion = false;
         }
-        if ($validacion) {
+
             $fecha_actual = date("y-m-d");
             $publicar->setFecha($fecha_actual);
-            $publicacion_Entrega = new Publicacion_Entrega();
+
             $publicar->setId($datos["idPublicacion"]);
             $idPublicacion = $publicar->modificarPublicacion();
-            //$publicacion_Entrega->setIdPublicacion($idPublicacion);
 
-            for ($i = 0; $i < (count($idEntrega)); $i++) {
-              $publicacion_Entrega->setIdEntrega($idEntrega[$i]);
-               $publicacion_Entrega->insertarEntrega();
-            }
 
-        }
+
         return $validacion;
 
     }
@@ -239,53 +226,73 @@ class ModificarController extends Controller
             }
         }
     }
-  function actualizarMetodosDeEntrega($idEntrega,$idPublicacion,$metodosAnteriores){
-      $publicaionEntrega =new Publicacion_Entrega();
 
-
-
-      $nuevas=count($idEntrega);
+  function actualizarMetodosDeEntrega($entregas,$datos)
+  {$publicacionEntrega =new Publicacion_Entrega();
+      //trae un array con imagenes del prod
+      $metodosAnteriores= $publicacionEntrega->traerEntrgaPorPublicacion($datos['idPublicacion']);
+      $nuevas=count($entregas);
       $viejas=count($metodosAnteriores);
+
       $diferencia=0;
 
+      if($viejas=1 && $nuevas=1){
+          if($metodosAnteriores[0]=1) {
+              $nuevaPublicacionEntrega =new Publicacion_Entrega();
+
+              $nuevaPublicacionEntrega->setId($metodosAnteriores[0]["id"]);
+              $nuevaPublicacionEntrega->setIdPublicacion($datos['idPublicacion']);
+              $nuevaPublicacionEntrega->setIdEntrega(2);
+              $nuevaPublicacionEntrega->actualizarEntrega();
+          }else{
+              $nuevaPublicacionEntrega =new Publicacion_Entrega();
+              $nuevaPublicacionEntrega->setId($metodosAnteriores[0]["id"]);
+              $nuevaPublicacionEntrega->setIdPublicacion($datos['idPublicacion']);
+              $nuevaPublicacionEntrega->setIdEntrega(1);
+              $nuevaPublicacionEntrega->actualizarEntrega();
+          }
+
+
+      }
+
       if($nuevas>$viejas){
-          $diferencia=$nuevas-$viejas;
+
 
           //se insertan las nuevas
-          for($i=0;$i< $diferencia;$i++) {
-              $nuevaEntrega = new Publicacion_Entrega();
-              $nuevaEntrega->setIdEntrega($idEntrega[$i]);
-              $nuevaEntrega->setIdPublicacion($idPublicacion);
-              $nuevaEntrega->insertarEntrega();
-
+       if($metodosAnteriores[0]=1){
+              $nuevaPublicacionEntrega =new Publicacion_Entrega();
+              $nuevaPublicacionEntrega->setIdPublicacion($datos['idPublicacion']);
+              $nuevaPublicacionEntrega->setIdEntrega($entregas[1]);
+              $nuevaPublicacionEntrega->insertarEntrega();
+       }
+          if($metodosAnteriores[0]=2){
+              $nuevaPublicacionEntrega =new Publicacion_Entrega();
+              $nuevaPublicacionEntrega->setIdPublicacion($datos['idPublicacion']);
+              $nuevaPublicacionEntrega->setIdEntrega($entregas[0]);
+              $nuevaPublicacionEntrega->insertarEntrega();
           }
+
+
+
       }else{
-          $diferencia=$viejas-$nuevas;
-          //se eliminan las viejas
+          if($entregas[0]=1){
 
-          for($i=0;$i< $diferencia;$i++) {
-              $viejaEntrega = new Publicacion_Entrega();
-              $viejaEntrega->setIdEntrega($idEntrega[$i]);
-              $viejaEntrega->setIdPublicacion($idPublicacion);
-              $viejaEntrega->eliminarEntrega();
-
+              $nuevaPublicacionEntrega =new Publicacion_Entrega();
+              $nuevaPublicacionEntrega->setId($metodosAnteriores[0]["id"]);
+              $nuevaPublicacionEntrega->setIdPublicacion($datos['idPublicacion']);
+              $nuevaPublicacionEntrega->setIdEntrega(1);
+              $nuevaPublicacionEntrega->eliminarEntrega();
           }
+              if($entregas[0]=2){
+                  $nuevaPublicacionEntrega =new Publicacion_Entrega();
+                  $nuevaPublicacionEntrega->setId($metodosAnteriores[0]["id"]);
+                  $nuevaPublicacionEntrega->setIdPublicacion($datos['idPublicacion']);
+                  $nuevaPublicacionEntrega->setIdEntrega(0);
+                  $nuevaPublicacionEntrega->eliminarEntrega();
+              }
       }
 
-      $tope=$viejas-$diferencia;
-      echo $viejas;
-      echo $diferencia;
-      echo $tope;
-      $p=0;
-      for($i=$diferencia;$i<$tope;$i++) {
-      $p.=1;
-          $nuevaEntrega = new Publicacion_Entrega();
-
-          $nuevaEntrega->setIdEntrega($idEntrega[$i]);
-          $nuevaEntrega->setIdPublicacion($idPublicacion);
-          $nuevaEntrega->actualizarEntrega();
 
       }
-  }
 
-}
+    }

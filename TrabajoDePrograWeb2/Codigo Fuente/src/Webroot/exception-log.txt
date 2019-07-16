@@ -12952,3 +12952,223 @@ StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Co
 #2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #3 {main}
 
+[2019-07-16 10:58:47]  Excepción no controlada: 'Undefined offset: 0' en el archivo producto.php en la línea 84
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(84): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(14): Producto->buscarUnProductoPorPk('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->modificar(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-16 11:10:39]  Excepción no controlada: 'Undefined offset: 0' en el archivo producto.php en la línea 84
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(84): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 84, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(14): Producto->buscarUnProductoPorPk('1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->modificar(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-16 11:14:08]  Excepción no controlada: 'Undefined variable: publicacion' en el archivo ModificarController.php en la línea 133
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(133): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 133, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-16 11:16:20]  Excepción no controlada: 'Undefined index: 01' en el archivo ModificarController.php en la línea 284
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(284): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 284, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(151): ModificarController->actualizarMetodosDeEntrega(Array, '1', Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 11:18:03]  Excepción no controlada: 'Undefined offset: 1' en el archivo ModificarController.php en la línea 284
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(284): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 284, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(151): ModificarController->actualizarMetodosDeEntrega(Array, '1', Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 11:19:01]  Excepción no controlada: 'Undefined offset: 1' en el archivo ModificarController.php en la línea 285
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(285): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 285, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(151): ModificarController->actualizarMetodosDeEntrega(Array, '1', Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 11:33:33]  Excepción no controlada: 'Call to undefined method ModificarController::actualizarMetodosDeEntrega()' en el archivo ModificarController.php en la línea 151
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-16 11:34:55]  Excepción no controlada: 'Undefined variable: nuevaEntrega' en el archivo ModificarController.php en la línea 272
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(272): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 272, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(151): ModificarController->actualizarMetodosDeEntrega(Array, '1', Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 11:36:58]  Excepción no controlada: 'Undefined variable: p' en el archivo ModificarController.php en la línea 273
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(273): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 273, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(151): ModificarController->actualizarMetodosDeEntrega(Array, '1', Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 11:59:45]  Excepción no controlada: 'Undefined index: idPublicacion' en el archivo ModificarController.php en la línea 284
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(284): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 284, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(139): ModificarController->actualizarMetodosDeEntrega(Array, Array, Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 12:00:13]  Excepción no controlada: 'Undefined index: idPublicacion' en el archivo ModificarController.php en la línea 284
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(284): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 284, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(139): ModificarController->actualizarMetodosDeEntrega(Array, Array, Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 12:13:18]  Excepción no controlada: 'Undefined variable: tidEntrega' en el archivo ModificarController.php en la línea 140
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(140): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-16 12:13:32]  Excepción no controlada: 'Undefined variable: tidEntrega' en el archivo ModificarController.php en la línea 140
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(140): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-16 12:13:34]  Excepción no controlada: 'Undefined variable: tidEntrega' en el archivo ModificarController.php en la línea 140
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(140): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-16 12:15:16]  Excepción no controlada: 'syntax error, unexpected 'if' (T_IF), expecting '('' en el archivo ModificarController.php en la línea 279
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-16 12:41:15]  Excepción no controlada: 'Undefined variable: idEntrega' en el archivo ModificarController.php en la línea 156
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(156): globalErrorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 156, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#4 {main}
+
+[2019-07-16 13:16:59]  Excepción no controlada: 'array_search() expects parameter 2 to be array, integer given' en el archivo ModificarController.php en la línea 274
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'array_search() ...', 'C:\\xampp\\htdocs...', 274, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(274): array_search(Array, 1)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(140): ModificarController->actualizarMetodosDeEntrega(Array, Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#5 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2019-07-16 13:17:44]  Excepción no controlada: 'in_array() expects parameter 2 to be array, integer given' en el archivo ModificarController.php en la línea 274
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'in_array() expe...', 'C:\\xampp\\htdocs...', 274, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(274): in_array(Array, 1)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(140): ModificarController->actualizarMetodosDeEntrega(Array, Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#5 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2019-07-16 13:17:45]  Excepción no controlada: 'in_array() expects parameter 2 to be array, integer given' en el archivo ModificarController.php en la línea 274
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'in_array() expe...', 'C:\\xampp\\htdocs...', 274, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(274): in_array(Array, 1)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(140): ModificarController->actualizarMetodosDeEntrega(Array, Array)
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#5 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#6 {main}
+
+[2019-07-16 13:23:00]  Excepción no controlada: 'Cannot use a scalar value as an array' en el archivo ModificarController.php en la línea 260
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(260): globalErrorHandler(2, 'Cannot use a sc...', 'C:\\xampp\\htdocs...', 260, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(140): ModificarController->actualizarMetodosDeEntrega(Array, Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 13:25:17]  Excepción no controlada: 'Cannot use a scalar value as an array' en el archivo ModificarController.php en la línea 276
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(276): globalErrorHandler(2, 'Cannot use a sc...', 'C:\\xampp\\htdocs...', 276, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(140): ModificarController->actualizarMetodosDeEntrega(Array, Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 13:28:57]  Excepción no controlada: 'Undefined offset: 1' en el archivo ModificarController.php en la línea 245
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(245): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 245, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(140): ModificarController->actualizarMetodosDeEntrega(Array, Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 13:29:17]  Excepción no controlada: 'Undefined offset: 1' en el archivo ModificarController.php en la línea 245
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(245): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 245, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(140): ModificarController->actualizarMetodosDeEntrega(Array, Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 13:30:17]  Excepción no controlada: 'Undefined offset: 1' en el archivo ModificarController.php en la línea 245
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(245): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 245, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(140): ModificarController->actualizarMetodosDeEntrega(Array, Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 13:30:25]  Excepción no controlada: 'Undefined offset: 1' en el archivo ModificarController.php en la línea 245
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(245): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 245, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(140): ModificarController->actualizarMetodosDeEntrega(Array, Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 13:31:28]  Excepción no controlada: 'Undefined offset: 1' en el archivo ModificarController.php en la línea 245
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(245): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 245, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(140): ModificarController->actualizarMetodosDeEntrega(Array, Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 13:32:05]  Excepción no controlada: 'Undefined offset: 1' en el archivo ModificarController.php en la línea 245
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(245): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 245, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(140): ModificarController->actualizarMetodosDeEntrega(Array, Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 13:37:27]  Excepción no controlada: 'Undefined index: id' en el archivo ModificarController.php en la línea 243
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(243): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 243, Array)
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(140): ModificarController->actualizarMetodosDeEntrega(Array, Array)
+#2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(80): ModificarController->modificarPublicacion(Array, '1')
+#3 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ModificarController->realizarCambios(Array)
+#4 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 13:40:23]  Error 7: 'Nombre o password incorrectos' en el archivo UsuarioController.php en la línea 50
+StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
+#1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+

@@ -9,7 +9,7 @@ class Publicacion_Entrega extends Model
 
     public function insertarEntrega(){
         $array=[
-            "idPublicacion"=> $this->getIdPublicacion(),
+            "idPublicacion"=>$this->getId() ,
             "idEntrega"=>$this->getIdEntrega(),
 
 
@@ -53,19 +53,19 @@ class Publicacion_Entrega extends Model
     }
 
     /**
-     * @return mixed
+     * @return Database
      */
-    public function getId()
+    public function getDb()
     {
-        return $this->id;
+        return $this->db;
     }
 
     /**
-     * @param mixed $id
+     * @param Database $db
      */
-    public function setId($id)
+    public function setDb($db)
     {
-        $this->id = $id;
+        $this->db = $db;
     }
 
     /**
@@ -100,7 +100,21 @@ class Publicacion_Entrega extends Model
         $this->idEntrega = $idEntrega;
     }
 
+    /**
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
 
+    /**
+     * @param mixed $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
+    }
 
 
 

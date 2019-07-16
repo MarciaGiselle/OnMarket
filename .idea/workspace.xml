@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="67506563-ad09-4bef-af85-823b099b329f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrabajoDePrograWeb2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TrabajoDePrograWeb2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabajoDePrograWeb2/Base de Datos/script.sql" beforeDir="false" afterPath="$PROJECT_DIR$/TrabajoDePrograWeb2/Base de Datos/script.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/ModificarController.php" beforeDir="false" afterPath="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/ModificarController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/publicaciónEntrega.php" beforeDir="false" afterPath="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/publicaciónEntrega.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Webroot/exception-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Webroot/exception-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Webroot/imgCargadas/cars.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Webroot/imgCargadas/cars.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Webroot/imgCargadas/comu.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Webroot/imgCargadas/comu.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Webroot/imgCargadas/comunion.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Webroot/imgCargadas/comunion.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Webroot/sql-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Webroot/sql-log.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,22 +27,43 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/ModificarController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3266">
-              <caret line="282" selection-start-line="282" selection-end-line="282" />
+            <state relative-caret-position="42">
+              <caret line="252" column="11" selection-start-line="252" selection-start-column="11" selection-end-line="252" selection-end-column="11" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Webroot/exception-log.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-275313" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/publicaciónEntrega.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1449">
-              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+            <state relative-caret-position="105">
+              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Base de Datos/script.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="323" selection-end-line="545" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>publica</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="DONT_SYNC" />
@@ -49,6 +73,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Views/Mispublicaciones/mispublicaciones.php" />
+        <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Base de Datos/script.sql" />
         <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/ModificarController.php" />
         <option value="$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/publicaciónEntrega.php" />
       </list>
@@ -134,6 +159,14 @@
               <item name="OnMarket" type="b2602c69:ProjectViewProjectNode" />
               <item name="OnMarket" type="462c0819:PsiDirectoryNode" />
               <item name="TrabajoDePrograWeb2" type="462c0819:PsiDirectoryNode" />
+              <item name="Codigo Fuente" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Webroot" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="OnMarket" type="b2602c69:ProjectViewProjectNode" />
+              <item name="OnMarket" type="462c0819:PsiDirectoryNode" />
+              <item name="TrabajoDePrograWeb2" type="462c0819:PsiDirectoryNode" />
               <item name="Config Templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -174,18 +207,18 @@
       <updated>1563250544553</updated>
       <workItem from="1563250545891" duration="1783000" />
       <workItem from="1563281084838" duration="589000" />
-      <workItem from="1563282506549" duration="2677000" />
+      <workItem from="1563282506549" duration="12640000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5049000" />
+    <option name="totallyTimeSpent" value="15012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1378" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.26190478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -205,6 +238,27 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26190478" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32984293" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -243,22 +297,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Base de Datos/script.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="543" selection-end-column="14" />
+        <state relative-caret-position="242">
+          <caret line="323" selection-end-line="545" selection-end-column="14" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Webroot/exception-log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275313" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Controllers/ModificarController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3266">
-          <caret line="282" selection-start-line="282" selection-end-line="282" />
+        <state relative-caret-position="42">
+          <caret line="252" column="11" selection-start-line="252" selection-start-column="11" selection-end-line="252" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TrabajoDePrograWeb2/Codigo Fuente/src/Models/publicaciónEntrega.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1449">
-          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        <state relative-caret-position="105">
+          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
         </state>
       </provider>
     </entry>
