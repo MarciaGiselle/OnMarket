@@ -41,82 +41,49 @@ class ProductoController extends Controller
     function altaProducto($publicacion)
 
     {
-
-
-
         $producto = new Producto();
-
         $categoria = new Categoria();
-
         $error=0;
-
         //conceptos generales
 
         if (FuncionesComunes::validarCadena($publicacion["nombre"])) {
-
             $producto->setNombre($publicacion["nombre"]);
-
         }else{
-
             $error.=1;
-            echo "nombre";
 
         }
-
         if (FuncionesComunes::validarCadenaNumerosYEspacios($publicacion["descripcion"])) {
-
             $producto->setDescripcion($publicacion["descripcion"]);
-
         }else{
-
             $error.=1;
-            echo "descripcion";
 
         }
 
         if (FuncionesComunes::validarNumeros($publicacion["cantidad"])) {
-
             $producto->setCantidad($publicacion["cantidad"]);
-
-
         }else{
-
             $error.=1;
-            echo "cantidad";
-
 
         }
 
         if (FuncionesComunes::validarNumeros($publicacion["precio"])) {
-
             $producto->setPrecio($publicacion["precio"]);
-
         }else{
-
             $error.=1;
-            echo "precio";
-
 
         }
+        echo $publicacion["categoria"];
 
-        if (!empty($publicacion["categoria"]) && FuncionesComunes::validarCadena($publicacion['categoria'])) {
-
+        if ($publicacion["categoria"] !== 0) {
             //categoria obtener id y setearlo
-
             $idCategoria = $categoria->obtenerIdCategoria($publicacion["categoria"]);
-
-
-
             if ($idCategoria != false) {
-
                 $producto->setIdCategoria($idCategoria);
-
             }
+        }else{
+            $error.=1;
 
         }
-
-
-
 
         $error2 = 0;
         //imagenes
@@ -126,7 +93,6 @@ class ProductoController extends Controller
         if ($countfiles >= 2 || $countfiles < 10) {
 
             for ($i = 0; $countfiles > $i; $i++) {
-
                 $arrayImagenes[$i] = $_FILES['imagen']['name'][$i];
 
             }
@@ -144,12 +110,18 @@ class ProductoController extends Controller
             $mensaje="Carga incorrecta";
 
             echo "<script> alert('$mensaje') </script>";
+            header("Location:" .getBaseAddress().'Producto/publicar');
 
-        }elseif($error>0) {
-        $mensaje="Error";
+
+        }
+        if($error>0) {
+        $mensaje="Error. Debe seleccionar al menos dos imágenes";
 
         echo "<script> alert('$mensaje') </script>";
-        }else{
+
+        }
+
+        if($error==0 && $error2 ==0){
 
             $idProducto = $producto->insertarProducto();
 
