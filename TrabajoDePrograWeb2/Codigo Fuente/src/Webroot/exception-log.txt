@@ -1,4 +1,4 @@
-[2019-05-23 13:05:15]Error 0:Call to undefined function registrarUsuario()
+﻿[2019-05-23 13:05:15]Error 0:Call to undefined function registrarUsuario()
 [2019-05-23 13:05:17]Error 0:Call to undefined function registrarUsuario()
 [2019-05-23 13:05:40]Error 0:Call to undefined function registrarUsuario()
 [2019-05-23 13:06:04]Error 0:Call to undefined function registrarUsuario()
@@ -12952,6 +12952,7 @@ StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Co
 #2 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #3 {main}
 
+
 [2019-07-16 10:58:47]  Excepción no controlada: 'Undefined offset: 0' en el archivo producto.php en la línea 84
 StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Models\producto.php(84): globalErrorHandler(8, 'Undefined offse...', 'C:\\xampp\\htdocs...', 84, Array)
 #1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ModificarController.php(14): Producto->buscarUnProductoPorPk('1')
@@ -13171,4 +13172,30 @@ StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Co
 StackTrace: #0 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): UsuarioController->login(Object(Usuario))
 #1 C:\xampp\htdocs\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
 #2 {main}
+
+[2019-07-16 10:31:11]  Excepción no controlada: 'preg_match(): Unknown modifier '['' en el archivo FuncionesComunes.php en la línea 36
+StackTrace: #0 [internal function]: globalErrorHandler(2, 'preg_match(): U...', 'C:\\xampp\\htdocs...', 36, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Helpers\FuncionesComunes.php(36): preg_match('//[A-Za-z\xC3\xB1\xC3\x910-...', 'VINILOS DECORAT...')
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(65): FuncionesComunes::validarCadenaNumerosYEspacios('VINILOS DECORAT...')
+#3 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#4 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#5 {main}
+
+[2019-07-16 10:38:23]  Excepción no controlada: 'syntax error, unexpected '}', expecting end of file' en el archivo ProductoController.php en la línea 287
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(13): Dispatcher->loadController()
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#2 {main}
+
+[2019-07-16 11:53:21]  Excepción no controlada: 'Undefined index: categoria' en el archivo ProductoController.php en la línea 72
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(72): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
+[2019-07-16 12:03:00]  Excepción no controlada: 'Undefined index: categoria' en el archivo ProductoController.php en la línea 72
+StackTrace: #0 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Controllers\ProductoController.php(72): globalErrorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 72, Array)
+#1 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\dispatcher.php(15): ProductoController->altaProducto(Array)
+#2 C:\xampp\htdocs\webdos\OnMarket_Preentrega\OnMarket\TrabajoDePrograWeb2\Codigo Fuente\src\Webroot\index.php(77): Dispatcher->dispatch()
+#3 {main}
+
 
