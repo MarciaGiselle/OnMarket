@@ -56,9 +56,7 @@ class Imagen extends Model
         for($i=0;$i<count($resultado);$i++){
             array_push($imagenes, $resultado[$i]);
         }
-        /*foreach ($resultado as $imagen){
-            array_push($imagenes, $imagen[$i]["nombre"]);
-        }*/
+
         return $imagenes;
     }
 
