@@ -475,21 +475,21 @@ VALUES (1, 'Top'),
        (3, 'Para atras');
 
 INSERT INTO `usuario` (`id`, `userName`, `password`, `name`, `lastname`, `email`, `rol`, `sexo`, `cuit`, `estado`,
-                       `idTipo`)
+                       `idTipo`,`direccion` )
 VALUES (1, 'RoCentu', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Rocio', 'Centu', 'rocio_perez@hotmail.com', 1,
-        'femenino', 2147483647, 1, 2),
+        'femenino', 2147483647, 1, 2, 'Buenos Aires'),
        (2, 'Axel', 'fc1200c7a7aa52109d762a9f005b149abef01479', 'Axel', 'Sanchez', 'axel_rios@hotmail.com', 2,
-        'masculino', 2147483647, 1, 1),
+        'masculino', 2147483647, 1, 1, 'Buenos Aires Isidro Casanova'),
        (3, 'roger', '40bd001563085fc35165329ea1ff5c5ecbdbbeef', 'Roger', 'Federer', 'rogerfedQ@gmail.com', 2, 'Hombre',
-        2147483647, 0, 1),
+        2147483647, 0, 1,'Cordoba Villa Carlos Paz'),
        (4, 'mar18', '0f2c595baa1fac2457a5970eb17f735ffedd0c40', 'Marcia', 'Giselle', 'margisetoledo@gmail.com', 2,
-        'Mujer', 2147483647, 1, 1),
+        'Mujer', 2147483647, 1, 1, 'Buenos Aires Bahia Blanca'),
        (5, 'nati', '9adcb29710e807607b683f62e555c22dc5659713', 'Natalia', 'Toledo', 'nati@gmail.com', 2, 'Mujer',
-        12345689, 1, 1),
+        12345689, 1, 1,'Buenos Aires Azul'),
        (6, 'agustole', '3d2a34c7b4f68d10409cf0396858ef533db01ac7', 'Agustin', 'Toledo', 'agus782@gmail.com', 2,
-        'Hombre', 123456789, 1, 1),
+        'Hombre', 123456789, 1, 1,'Rio Negro Viedma'),
        (7, 'marce', 'fc1200c7a7aa52109d762a9f005b149abef01479', 'Marcelo', 'Toledo', 'marcelo@gmail.com', 2, 'Hombre',
-        789456123, 1, 2);
+        789456123, 1, 2,'Cordoba Santa Rosa de Calmachita');
 
 INSERT INTO `tarjeta_de_credito` (`id`, `idUser`, `numero`, `cod_seguridad`, `fecha_vencimiento`)
 VALUES (1, 4, 2147483647, '123', '2019-07-31'),
@@ -545,3 +545,33 @@ VALUES (1, 'enero'),
 INSERT INTO year (year)
 values (2018),
        (2019);
+
+
+INSERT INTO `producto` (`id`, `descripcion`, `cantidad`, `precio`, `idCategoria`, `nombre`) VALUES
+(5, 'Variedad en modelos y formas.', 100, 200, 8, 'Kit impreso para desayuno dia de la madre'),
+(7, 'Diferentes diseÃ±os, originales. Paquete de 10 unidades.', 100, 200, 7, 'Invitaciones de cumpleaÃ±os personalizadas'),
+(8, 'Diferentes tamaÃ±os, ideales para decorar tu negocio.', 20, 150, 8, 'Vinilos dÃ­a de la madre'),
+(32, 'Ideal para decorar tu negocio.', 20, 250, 8, 'Vinilos primaverales decorativos'),
+(33, '*Si querÃ©s algÃºn diseÃ±o personalizado, consÃºltanos, podemos hacerlo!\r\n*El tiempo de elaboraciÃ³n siempre depende del feedback con el cliente. ', 100, 250, 8, 'Invitaciones de ComuniÃ³n y cumpleaÃ±os'),
+(34, 'Troquelados y distintos tamaÃ±os.', 50, 120, 7, 'Stickers Kpop 20 unidades'),
+(35, 'SÃºper divertidos y coloridos', 100, 400, 8, 'Vinilos decorativos DÃ­a del niÃ±o');
+
+INSERT INTO `publicacion` (`id`, `titulo`, `fecha`, `id_user`, `id_Producto`, `id_Estado`) VALUES
+(1, 'Kit desayuno ', '2019-07-16', 2, 5, 1),
+(2, 'Invitaciones Personalizadas', '2019-07-16', 2, 7, 1),
+(3, 'Vinilos decorativos', '2019-07-16', 2, 8, 1),
+(4, 'Vinilos primaverales', '2019-07-16', 2, 32, 1),
+(5, 'Invitaciones de comuniÃ³n', '2019-07-16', 2, 33, 1),
+(6, 'Kit Stickers Bts Kpop', '2019-07-16', 2, 34, 1),
+(7, 'Vinilos Dia del NiÃ±o', '2019-07-16', 2, 35, 1);
+
+
+INSERT INTO `publicacion_entrega` (`idEntrega`, `idPublicacion`, `id`) VALUES
+(1, 1, 0),
+(1, 2, 0),
+(1, 3, 0),
+(1, 5, 0),
+(1, 6, 0),
+(1, 7, 0),
+(2, 4, 0),
+(2, 5, 0);
