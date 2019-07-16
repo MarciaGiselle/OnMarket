@@ -18,11 +18,12 @@ class Publicacion extends Model
          "titulo"=>$this->getTitulo(),
          "id_user"=>$this->getId_user(),
         "id_Producto"=>$this->getId_Producto(),
-            "id_Estado"=>$this->getIdEstado()
+            "id_Estado"=>1
 
         ];
 
         $this->setId($this->insert($array));
+
         return $this->getId();
     }
 

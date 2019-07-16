@@ -270,7 +270,7 @@
     }
     for ($i = 0; $i < $tope; $i++) {
 
-        echo '   <div class="card" style="width: 18rem;">
+        echo '   <div class="card d-inline-flex" style="width: 18rem;">
     <img class="card-img-top" src="../Webroot/imgCargadas/' . $productosRelacionados[$i]["imagen"][0]["nombre"] . '" alt="Card image cap">
     <div class="card-body">
       <h5 class="card-title">' . $productosRelacionados[$i]["prod"][0]["nombre"] . '</h5>

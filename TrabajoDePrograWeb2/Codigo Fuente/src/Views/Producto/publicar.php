@@ -112,9 +112,10 @@
                 </div>
 
                 <div class="form-group col-md-12">
+<hr>
                     <label class="text-primary">Seleccioná las imágenes*</label>
                     <small id="passwordHelpBlock" class="form-text text-muted">Mostralo en detalle, con fondo blanco y
-                        bien iluminado. No incluyas logos, banners ni textos promocionales. Mínimo 1(una) imagen.
+                        bien iluminado. No incluyas logos, banners ni textos promocionales. Mínimo 2(dos) imagenes.
                     </small>
                     <br>
                     <form class="container">
@@ -122,8 +123,7 @@
                         <div class="row">
 
                             <div class="col-sm">
-                                <div class="form-group">
-                                    <input name="enviar" type="submit" value="subir archivo" />
+                                <div class="form-group bg-secondary text-white">
                                     <input type="hidden" value="<?php echo "../Webroot/imgCargadas" ?>" name="destino">
                                     <input type="file" class="form-control-file" name="imagen[]" accept="image/png, .jpeg, .jpg" multiple id="imagen">
                                 </div>

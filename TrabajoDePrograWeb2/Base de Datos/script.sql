@@ -143,7 +143,7 @@ CREATE TABLE categoria
     id    integer     NOT NULL AUTO_INCREMENT,
     nombreCategoria varchar(30) NOT NULL,
     id_estadistica  integer DEFAULT NULL,
-    constraint PK_Categoria primary key (idCategoria),
+    constraint PK_Categoria primary key (id),
     constraint FK_Categoria_Esta FOREIGN KEY (`id_estadistica`) REFERENCES `estadisticas` (`id`)
 );
 
@@ -176,7 +176,7 @@ CREATE TABLE `producto`
     `nombre`         varchar(191) NOT NULL,
     `id_estadistica` integer DEFAULT NULL,
     constraint PK_Producto primary key (id),
-    constraint FK_Producto_Categoria foreign key (idCategoria) references categoria (idCategoria),
+    constraint FK_Producto_Categoria foreign key (idCategoria) references categoria (id),
     constraint FK_Producto_Estadist FOREIGN KEY (id_estadistica) REFERENCES `estadisticas` (id)
 );
 -- --------------------------------------------------------
@@ -422,7 +422,7 @@ CREATE TABLE rango_montos
 --
 
 
-INSERT INTO `categoria` (`idCategoria`, `nombreCategoria`, `id_estadistica`)
+INSERT INTO `categoria` (`id`, `nombreCategoria`, `id_estadistica`)
 VALUES (1, 'electronica', NULL),
        (2, 'moda', NULL),
        (3, 'mascotas', NULL),
@@ -498,64 +498,6 @@ VALUES (1, 4, 2147483647, '123', '2019-07-31'),
        (7, 7, 2147483647, '123', '2019-07-31'),
        (8, 7, 2147483647, '123', '2019-07-31');
 
-INSERT INTO `producto` (`id`, `descripcion`, `cantidad`, `precio`, `idCategoria`, `nombre`)
-VALUES (59, 'Luces', 1, 150, 1, 'Teclado'),
-       (70, 'Tapa Dura', 1, 150, 2, 'cuaderno'),
-       (77, 'Con cierre', 1, 150, 2, 'Cartuchera'),
-       (108, 'Coloridos y de excelente calidad', 300, 700, 8, 'Vinilos primaverales decorativos'),
-       (111, 'personalizado', 4, 200, 6, 'kit completo'),
-       (112, 'A todo color', 3, 150, 7, 'Dibujos personalizados'),
-       (114, 'Coloridos y de excelente calidad', 200, 1200, 8, 'Vinilos dia de la madre');
-
-
-INSERT INTO `publicacion` (`id`, `titulo`, `fecha`, `id_user`, `id_Producto`, `id_Estado`)
-VALUES (1, 'Teclado luminoso', '0000-00-00', 4, 59, 1),
-       (2, 'Cuaderno universitario', '2019-06-08', 4, 70, 1),
-       (3, 'Cartuchera tres pisos', '2019-06-08', 4, 77, 1),
-       (4, 'Vinilos decorativos', '2019-06-14', 4, 108, 1),
-       (5, 'Kit desayuno ', '2019-06-15', 4, 111, 1),
-       (6, 'Dibujos', '2019-07-08', 4, 112, 1),
-       (28, 'Vinilos decorativos', '2019-07-11', 7, 114, 1);
-
-
-INSERT INTO `publicacion_entrega` (`idEntrega`, `idPublicacion`)
-VALUES (1, 1),
-       (1, 2),
-       (1, 3),
-       (1, 4),
-       (1, 5),
-       (1, 6),
-       (1, 28),
-       (2, 1),
-       (2, 4),
-       (2, 5);
-
-
-INSERT INTO `imagen` (`id`, `nombre`, `idProducto`)
-VALUES (45, 'a3fdee21b3d3ee2c812fedb95841e70b.jpg', 70),
-       (46, 'b57c3a4dcea1bd76854bf95b74c7517a.jpg', 70),
-       (47, 'bfbbcc86b96fd9fbbf32222fa596d94b.jpg', 70),
-       (61, '20171101_socomfy.jpg', 77),
-       (62, '20171123_arrival.jpg', 77),
-       (124, 'mercadolibrepri10.png', 108),
-       (125, 'fotos4.png', 108),
-       (126, 'mercadolibrepri9.png', 108),
-       (127, 'mercadolibre.PRI6png.png', 108),
-       (129, 'frascos55.png', 59),
-       (130, 'frascos4.png', 59),
-       (131, 'frascos2.png', 59),
-       (136, '3d.png', 111),
-       (137, '3dm.png', 111),
-       (138, '2dm.png', 111),
-       (139, 'dia de la madre2.png', 111),
-       (140, '250px-We_Can_Do_It!.jpg', 112),
-       (141, 'BiMUc11IIAAeGgK.jpg', 112),
-       (142, 'df20e818cf875193f374b6f721ec2e09.jpg', 112),
-       (143, '8d.png', 114),
-       (144, '7d.png', 114),
-       (145, '6d.png', 114),
-       (146, '5d.png', 114),
-       (147, '4d.png', 114);
 
 INSERT INTO `localizacion` (`id`, `latitud`, `longitud`, `id_user`)
 VALUES (1, -34.6686986, -58.5614947, 2),

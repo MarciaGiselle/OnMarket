@@ -53,7 +53,7 @@ abstract class Constantes
     const REGEXNUMEROS = '/[0-9]+/';
     //pass extension de 6 a 18
     const REGEXLETRASYNUMEROS = '/^0-9a-zA-Z]{6,18}$/';
-    const REGEXLETRASNUMEROSYESPACIOS = '/^[a-zA-Z0-9,.!? ]*$/';
+    const REGEXLETRASNUMEROSYESPACIOS = '/^[ña-zA-Z0-9,.!? ]*$/';
 
 
 

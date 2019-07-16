@@ -4,6 +4,10 @@
     const pathBuscar = "<?php echo getBaseAddress() .  "Index/buscarProducto" ; ?>";
     const pathAdmin = "<?php echo getBaseAddress(). "VistaAdmin/admin" ; ?>";
 </script>
+<nav class="nav w-25 fixed-top mt-2 pl-1">
+
+<a class="navbar-brand bg-primary" href="<?php echo getBaseAddress() ?>"><img id="logo-nav"  style="width: 13rem;"src="Webroot/img/logotipo.png" alt="Logo de OnMarket"></a>
+</nav>
 
     <!-–Slider de fotos -–>
 
