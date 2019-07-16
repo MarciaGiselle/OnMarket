@@ -315,7 +315,8 @@ CREATE TABLE `publicacion_entrega`
 (
     `idEntrega`     integer NOT NULL,
     `idPublicacion` integer NOT NULL,
-    constraint PK_Publicacion_Entrega primary key (idEntrega, idPublicacion),
+    `id` integer NOT NULL,
+    constraint PK_Publicacion_Entrega primary key (idEntrega, idPublicacion,id),
     constraint FK_Publicacion_Entrega_En foreign key (idEntrega) references formaentrega (idEntrega),
     constraint FK_Publicacion_Entrega_Pu foreign key (idPublicacion) references publicacion (id)
 );
