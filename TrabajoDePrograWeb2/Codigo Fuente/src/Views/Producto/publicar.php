@@ -36,7 +36,7 @@
                 <label class="form-check-label">Realizar envío por correo</label>
             </div>
             <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorenvio">
-                <i class="fa fa-exclamation-circle error mr-2" ></i>
+                <i class="fa fa-exclamation-circle  mr-2" ></i>
                 <small class="text-left"></small>
             </div>
 
@@ -64,7 +64,7 @@
                         <option value="jardin">Jardín y decoración</option>
                     </select>
                     <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorCategoria">
-                        <i class="fa fa-exclamation-circle error mr-2"></i>
+                        <i class="fa fa-exclamation-circle  mr-2"></i>
                         <small class="text-left"></small>
                     </div>
 
@@ -77,7 +77,7 @@
                         fácilmente.
                     </small>
                     <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorName">
-                        <i class="fa fa-exclamation-circle error mr-2"></i>
+                        <i class="fa fa-exclamation-circle  mr-2"></i>
                         <small class="text-left"></small>
                     </div>
                 </div>
@@ -88,7 +88,7 @@
                     <textarea class="form-control"  rows="3" name="descripcion" id="descripcion"
                               placeholder="Aprovechá para contar otros detalles de tu producto. Ordenalos en forma de lista para que sea más fácil de leer."></textarea>
                     <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errordescripcion">
-                        <i class="fa fa-exclamation-circle error mr-2"></i>
+                        <i class="fa fa-exclamation-circle  mr-2"></i>
                         <small class="text-left"></small>
                     </div>
                 </div>
@@ -97,7 +97,7 @@
                     <label class="text-primary">Cantidad disponible*</label>
                     <input type="text" class="form-control" name="cantidad" placeholder="Unidades en stock" id="cantidad">
                     <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorcantidad">
-                        <i class="fa fa-exclamation-circle error mr-2"></i>
+                        <i class="fa fa-exclamation-circle  mr-2"></i>
                         <small class="text-left"></small>
                     </div>
                 </div>
@@ -112,7 +112,7 @@
                                placeholder="Precio">
                     </div>
                     <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorprecio">
-                        <i class="fa fa-exclamation-circle error mr-2"></i>
+                        <i class="fa fa-exclamation-circle  mr-2"></i>
                         <small class="text-left"></small>
                     </div>
                 </div>

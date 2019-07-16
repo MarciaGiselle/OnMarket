@@ -16,6 +16,11 @@ var inputSexo = $("#sexo");
 var inputTerminos = $("#terminos");
 
 
+$("button[name='btnBuscar']").click(function () {
+    $("#contenedorMapa").removeClass("d-none").addClass("d-flex");
+});
+
+
 //falta el de terminos y condiciones
 
 function validarFormatos() {
@@ -30,6 +35,11 @@ function validarFormatos() {
     } else if(!regexNumeros.test(cuit)) {
 
         $("#errorCuit").removeClass("d-none").addClass("d-flex").find("small").text("el cuit deben ser solo numeros");
+        $("#errorCuit").fadeIn("slow");
+        error++;
+    }else if((numero.length) != 11) {
+
+        $("#errorCuit").removeClass("d-none").addClass("d-flex").find("small").text("El cuit debe tener 11 números");
         $("#errorCuit").fadeIn("slow");
         error++;
     } else {
