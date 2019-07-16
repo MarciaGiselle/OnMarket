@@ -17,9 +17,9 @@
 
         <div class="form-group col-md-6">
             <label class="text-primary " for="name">Nombre:</label>
-            <input class="form-control" type="text" id="name" name="name">
-            <div class="d-none alert-danger p-1 rounded form-group col-md-4  error" id="errorName">
-                <i class="fa fa-exclamation-circle error"></i>
+            <input class="form-control" type="text" id="nombre" name="name">
+            <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorName">
+                <i class="fa fa-exclamation-circle  mr-2"></i>
                 <small class="text-left"></small>
             </div>
         </div>
@@ -28,8 +28,8 @@
         <div class="form-group col-md-6">
             <label class="text-primary " for="apellido">Apellido:</label>
             <input class="form-control" type="text" id="apellido" name="apellido">
-            <div class="d-none alert-danger p-1 rounded  form-group col-md-4 error" id="errorApellido">
-                <i class="fa fa-exclamation-circle error"></i>
+            <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorApellido">
+                <i class="fa fa-exclamation-circle  mr-2"></i>
                 <small class="text-left"></small>
             </div>
         </div>
@@ -38,8 +38,8 @@
         <div class="form-group col-md-6">
             <label class="text-primary " for="correo">Correo:</label>
             <input class="form-control" type="email" id="correo" name="correo">
-            <div class="d-none alert-danger p-1 rounded  form-group col-md-4 error" id="errorCorreo">
-                <i class="fa fa-exclamation-circle error"></i>
+            <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorCorreo">
+                <i class="fa fa-exclamation-circle  mr-2"></i>
                 <small class="text-left"></small>
             </div>
         </div>
@@ -47,8 +47,8 @@
         <div class="form-group col-md-6">
             <label class="text-primary " for="cuit">Cuit:</label>
             <input class="form-control" type="text" id="cuit" name="cuit">
-            <div class="d-none alert-danger p-1 rounded  form-group col-md-5 error" id="errorCuit">
-                <i class="fa fa-exclamation-circle error"></i>
+            <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorCuit">
+                <i class="fa fa-exclamation-circle  mr-2"></i>
                 <small class="text-left"></small>
             </div>
         </div>
@@ -57,8 +57,8 @@
         <div class="form-group col-md-6">
             <label class="text-primary " for="nombreUsuario">Nombre de usuario:</label>
             <input class="form-control" type="text" id="nombreUsuario" name="nombreUsuario">
-            <div class="d-none alert-danger p-1 rounded  form-group col-md-4 error" id="errorNombreUsuario">
-                <i class="fa fa-exclamation-circle error"></i>
+            <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorNombreUsuario">
+                <i class="fa fa-exclamation-circle  mr-2"></i>
                 <small class="text-left"></small>
             </div>
         </div>
@@ -67,8 +67,8 @@
         <div class="form-group col-md-6">
             <label class="text-primary " for="pass">Contraseña:</label>
             <input class="form-control" type="password" id="pass" name="pass">
-            <div class="d-none alert-danger p-1 rounded  form-group col-md-4 error" id="errorContraseña">
-                <i class="fa fa-exclamation-circle error"></i>
+            <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorContraseña">
+                <i class="fa fa-exclamation-circle  mr-2"></i>
                 <small class="text-left"></small>
             </div>
         </div>
@@ -95,8 +95,8 @@
         <div class=" form-group col-md-12">
             <input type="checkbox" id="terminos"/>
             <label class="text-primary" for="terminos">Acepto términos y condiciones</label>
-            <div class="d-none alert-danger p-1 rounded form-group col-md-4 error" id="errorTerminos">
-                <i class="fa fa-exclamation-circle error"></i><br>
+            <div class="d-none alert-danger p-1 rounded justify-content-center error w-50 my-2 align-items-center" id="errorTerminos">
+                <i class="fa fa-exclamation-circle  mr-2"></i>
                 <small class="text-left"></small>
             </div>
 
@@ -111,6 +111,11 @@
                         <input type="text" class="form-control" id="direccion" placeholder="Mi ubicación...">
                     </div>
                     <button class="btn btn-primary" id="buscar" name="btnBuscar">Buscar</button>
+                </div>
+
+                <div class="d-none alert-danger p-1 rounded justify-content-center error w-50 my-2 align-items-center" id="errorDireccion">
+                    <i class="fa fa-exclamation-circle  mr-2"></i>
+                    <small class="text-left"></small>
                 </div>
 
                 <small id="passwordHelpBlock" class="form-text text-muted">Esta dirección será visible en todas tus

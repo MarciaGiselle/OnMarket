@@ -79,6 +79,7 @@ CREATE TABLE `usuario`
     `email`    varchar(30) UNIQUE NOT NULL,
     `rol`      integer            NOT NULL,
     `sexo`     varchar(191)       NOT NULL,
+    `direccion` varchar(200) NOT NULL,
     `cuit`     int(11)            NOT NULL,
     `estado`   int(1)             NOT NULL,
     `idTipo`   integer            NOT NULL,

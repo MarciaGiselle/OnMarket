@@ -29,6 +29,8 @@ class RegistrarController extends Controller
         $usuario->setCuit($datos->cuit);
         $usuario->setSexo($datos->sexo);
         $usuario->setEmail($datos->correo);
+        $usuario->setDireccion($datos->direccion);
+
 
 
         if (isset($datos->terminos)) {
@@ -62,6 +64,10 @@ class RegistrarController extends Controller
 
             $id_user = $usuario->insertarRegistro();
             $_SESSION["logueado"] = $id_user;
+
+            $nombre = $usuario->consultarNombre($id_user);
+            $_SESSION["name"] = $nombre;
+
 
             //Crear cuenta
             $this->crearCuenta($id_user);

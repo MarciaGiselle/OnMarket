@@ -29,10 +29,10 @@ function validarPassword() {
     if (pass === null || pass.length === 0 || pass === "") {
         $("#errorPass").removeClass("d-none").addClass("d-flex").find("small").text("Contraseña Invalida");
         $("#errorPass").fadeIn("slow");
-        return false;
     } else if(!regexLetrasYNumeros2.test(pass)) {
         $("#errorPass").removeClass("d-none").addClass("d-flex").find("small").text("Deben ser letras y numeros");
         $("#errorPass").fadeIn("slow");
+
     } else {
 
         validacion = true;
