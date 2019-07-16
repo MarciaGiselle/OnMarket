@@ -1,16 +1,17 @@
 <main>
-<div class="container-fluid">
+<div class="container-fluid mt-5">
+    <h3 class="text-primary text-center mb-4">Tus publicaciones realizadas</h3>
 
-<table class=" table table-hover text-center mt-4">
+<table class=" table table-hover text-center ">
     <thead>
     <tr class="font-weight-bold">
         <td scope="col">#</td>
+        <td scope="col">Imagen</td>
         <td scope="col">Titulo</td>
         <td scope="col">Nombre</td>
         <td scope="col">Precio</td>
         <td scope="col">Cantidad</td>
         <td scope="col">Descripcion</td>
-        <td scope="col">Id</td>
         <td scope="col">Estado</td>
         <td scope="col">Editar</td>
         <td scope="col">Desactivar</td>
@@ -32,18 +33,19 @@
             $cantidad=$productos[$i][0]["cantidad"];
             $idProducto=$productos[$i][0]["id"];
             $nombreEstado=$estados[$i][0]["nombre"];
+            $img=$imagen[$i]["nombre"];
             $nro = $i + 1;
 
-            echo '<tr>
-                <th scope="row">' . $nro . '</th>           
-                <td> ' . $titulo . '  </td>
-                <td> ' . $nombreProducto . ' </td>
-                <td> ' . $precio . '</td>
-                <td>' . $cantidad . ' </td>
-                <td>' . $descripcion . ' </td>
-                <td>' . $idPublicacion . ' </td>
-              <td>' . $nombreEstado . ' </td>
-                <td> 
+            echo '<tr class="text-center">
+                <th class="align-middle" scope="row">' . $nro . '</th>           
+                <td class="align-middle"> ' . $titulo . '  </td>
+                <td class="align-middle"><img height="100px" src="../Webroot/imgCargadas/'. $img . '"></td>
+                <td class="align-middle"> ' . $nombreProducto . ' </td>
+                <td class="align-middle">$ ' . $precio . '</td>
+                <td class="align-middle">' . $cantidad . ' </td>
+                <td class="align-middle">' . $descripcion . ' </td>
+                <td class="align-middle">' . $nombreEstado . ' </td>
+                <td class="align-middle"> 
                 
             <form action="' . getBaseAddress() . 'Modificar/modificar' . '" method="POST">
              <input type="hidden" name="idProducto"  value="'.$idProducto.'">
@@ -52,7 +54,7 @@
             
             </form></td> 
             
-             <td> 
+             <td class="align-middle"> 
                 
             ';
 
