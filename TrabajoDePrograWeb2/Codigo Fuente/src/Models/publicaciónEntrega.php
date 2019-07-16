@@ -5,6 +5,7 @@ class Publicacion_Entrega extends Model
 {
     private $idPublicacion;
     private $idEntrega;
+    private $id;
 
     public function insertarEntrega(){
         $array=[
@@ -23,9 +24,48 @@ class Publicacion_Entrega extends Model
 
         return $resultado;
     }
-function eliminar(){
-      $this->Eliminartablaintermedia( $this->getIdPublicacion());
-       
+    public function eliminarEntrega(){
+        $array=[
+            "id"=> $this->getId(),
+            "idPublicacion"=> $this->getIdPublicacion(),
+            "idEntrega"=>$this->getIdEntrega(),
+
+
+        ];
+
+       $this->delete($array);
+
+
+    }
+
+    public function actualizarEntrega(){
+        $array=[
+            "id"=> $this->getId(),
+            "idPublicacion"=> $this->getIdPublicacion(),
+            "idEntrega"=>$this->getIdEntrega(),
+
+
+        ];
+
+        $this->update($array);
+
+
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getId()
+    {
+        return $this->id;
+    }
+
+    /**
+     * @param mixed $id
+     */
+    public function setId($id)
+    {
+        $this->id = $id;
     }
 
     /**
