@@ -179,6 +179,7 @@ class ModificarController extends Controller
 
              for($i=0;$i< $diferencia;$i++) {
                  $imagenNueva = new Imagen();
+                 $imagenNueva->setIdProducto($idProducto);
                  $imagenNueva->setId($arrayImg[$i]["id"]);
                  $imagenNueva->eliminarImagen();
 
