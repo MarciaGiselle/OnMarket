@@ -58,7 +58,6 @@
                 <small id="passwordHelpBlock" class="form-text text-muted">Usá palabras clave para que lo encuentren
                     fácilmente.
                 </small>
-                //carrusel
                 <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="errorNombre">
                     <i class="fa fa-exclamation-circle error"></i>
                     <small class="text-left"></small>
@@ -109,8 +108,8 @@
                         for ($i = 0; $i < $tope; $i++) {
                             $img = $imagen[$i]["nombre"];
                           
-                                echo '<div  ">
-                                        <img class="d-block w-100" src="../Webroot/imgCargadas/' . $img . ' " alt="foto">
+                                echo '<div  class="card d-inline-flex my-4 p-2" style="width: 8rem;">
+                                        <img class="card-img-top" src="../Webroot/imgCargadas/' . $img . ' " alt="foto">
                                       </div>';
                            
 
@@ -140,19 +139,17 @@
                     </form>
 
             </div>
-            <input type="hidden"  value="<?php echo $producto["id"] ?>" name="idProducto" >
-            <input type="hidden"  value="<?php echo $publicacion[0]["id"] ?>" name="idPublicacion" >
-             <div>
-                <input type="submit"  value="confirmar cambios" class="btn btn-primary "  >
-             </div>
 
             <a href="<?php echo getBaseAddress(). "MisPublicaciones/publicaciones" ?>">
-                <input   value="cancelar" class="btn btn-primary" id="publicar" >
+                <input   value="Cancelar" class="btn btn-secondary btn-lg" id="publicar" >
             </a>
 
 
-
-
+            <input type="hidden"  value="<?php echo $producto["id"] ?>" name="idProducto" >
+            <input type="hidden"  value="<?php echo $publicacion[0]["id"] ?>" name="idPublicacion" >
+             <div>
+                <input type="submit"  value="Confirmar cambios" class="ml-2  btn btn-primary btn-lg "  >
+             </div>
     </form>
     <br>
 </div>

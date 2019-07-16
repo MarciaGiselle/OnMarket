@@ -93,11 +93,12 @@ class ModificarController extends Controller
                 }
 
                 if($error2>0){
+                    //significa q no las modifico
                     $mensaje="carga incorrecta";
                     echo "<script> alert('$mensaje') </script>";
                 }else{
 
-                    $this->actualizarImagenes($arrayImagenes, $idProducto);
+                    $this->actualizarImagenes($arrayImagenes, $producto->getId());
                    $this->guardarImagenes($datos, $countfiles);
 
                 }
@@ -109,6 +110,7 @@ class ModificarController extends Controller
         }
 
 
+        header("Location:" .getBaseAddress().'MisPublicaciones/publicaciones');
 
 
     }
@@ -155,6 +157,7 @@ class ModificarController extends Controller
         $imagen =new Imagen();
     //trae un array con imagenes del prod
         $arrayImg= $imagen->imagenPk($idProducto);
+        var_dump($arrayImg);
          $nuevas=count($arrayImagenes);
          $viejas=count($arrayImg);
          $diferencia=0;

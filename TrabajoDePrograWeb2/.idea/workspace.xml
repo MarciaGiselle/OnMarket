@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b89dafb0-d707-404c-ab13-5ad5a14491cb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codigo Fuente/src/Views/Modificar/modificar.php" beforeDir="false" afterPath="$PROJECT_DIR$/Codigo Fuente/src/Views/Modificar/modificar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Codigo Fuente/src/Webroot/exception-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Codigo Fuente/src/Webroot/exception-log.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Mispublicaciones/mispublicaciones.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="233">
@@ -28,12 +30,44 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/buscador.js">
+        <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/ModificarController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="64" column="100" selection-start-line="64" selection-start-column="38" selection-end-line="64" selection-end-column="100" />
+            <state relative-caret-position="420">
+              <caret line="181" column="46" selection-start-line="181" selection-start-column="37" selection-end-line="181" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Models/imagen.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-109">
+              <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/sql-log.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-520">
+              <caret line="67840" column="61" selection-start-line="67840" selection-start-column="61" selection-end-line="67840" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Base de Datos/script.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Modificar/modificar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1260">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
               <folding>
-                <element signature="n#style#0;n#i#0;n#button#0;n#td#4;n#tr#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -42,17 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/MisPublicacionesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
+            <state relative-caret-position="609">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Models/imagen.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -109,13 +134,14 @@
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/eliminarDelCarrito.js" />
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Views/Usuario/navLogueado.php" />
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Views/Carrito/carrito.php" />
-        <option value="$PROJECT_DIR$/Codigo Fuente/src/Views/Modificar/modificar.php" />
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Core/Model.php" />
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Models/publicacion.php" />
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Models/producto.php" />
-        <option value="$PROJECT_DIR$/Codigo Fuente/src/Controllers/ModificarController.php" />
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Controllers/MisPublicacionesController.php" />
         <option value="$PROJECT_DIR$/Codigo Fuente/src/Views/Mispublicaciones/mispublicaciones.php" />
+        <option value="$PROJECT_DIR$/Codigo Fuente/src/Views/Modificar/modificar.php" />
+        <option value="$PROJECT_DIR$/Codigo Fuente/src/Controllers/ModificarController.php" />
+        <option value="$PROJECT_DIR$/Codigo Fuente/src/Models/imagen.php" />
       </list>
     </option>
   </component>
@@ -190,7 +216,7 @@
               <item name="Codigo Fuente" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
-              <item name="Mispublicaciones" type="462c0819:PsiDirectoryNode" />
+              <item name="Modificar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TrabajoDePrograWeb2" type="b2602c69:ProjectViewProjectNode" />
@@ -252,18 +278,18 @@
       <workItem from="1561243534484" duration="20402000" />
       <workItem from="1561472968723" duration="14677000" />
       <workItem from="1562867993061" duration="499000" />
-      <workItem from="1563252622807" duration="1638000" />
+      <workItem from="1563252622807" duration="4266000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46372000" />
+    <option name="totallyTimeSpent" value="49000000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1378" height="738" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30952382" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25192013" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -309,14 +335,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Models/categoriaProducto.php" />
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/RegistrarController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="61" column="52" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Registrar/usuarioLog.php" />
     <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Registrar/navLog.php" />
     <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Usuario/usuario.php" />
@@ -506,13 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/sql-log.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2199">
-          <caret line="14038" column="23" selection-start-line="14038" selection-start-column="23" selection-end-line="14040" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Config/db.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-323">
@@ -524,13 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-17791">
           <caret line="5679" selection-start-line="5679" selection-end-line="5679" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Modificar/modificar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="113" column="58" selection-start-line="113" selection-start-column="58" selection-end-line="113" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -569,27 +573,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/ModificarController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Models/imagen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/MisPublicacionesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/js/buscador.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -600,10 +583,58 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Modificar/modificar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/BloquearController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="28" column="56" selection-start-line="28" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/MisPublicacionesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Base de Datos/script.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Views/Mispublicaciones/mispublicaciones.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
           <caret line="43" column="42" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Webroot/sql-log.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-520">
+          <caret line="67840" column="61" selection-start-line="67840" selection-start-column="61" selection-end-line="67840" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Controllers/ModificarController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="181" column="46" selection-start-line="181" selection-start-column="37" selection-end-line="181" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Codigo Fuente/src/Models/imagen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-109">
+          <caret line="45" column="47" selection-start-line="45" selection-start-column="47" selection-end-line="45" selection-end-column="47" />
         </state>
       </provider>
     </entry>

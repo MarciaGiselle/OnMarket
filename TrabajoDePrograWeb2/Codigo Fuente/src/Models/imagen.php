@@ -28,14 +28,14 @@ class Imagen extends Model
       $array=[
           "id"=>$this->getId(),
           "nombre"=> $this->getNombre(),
-          "idProducto"=>$this->getIdProducto(),
+          "idProducto"=>$this->getIdProducto()
       ];
       $this->update($array);
   }
     function eliminarImagen(){
         $array=[
             "id"=>$this->getId(),
-            "idProducto"=>$this->getIdProducto(),
+            "idProducto"=>$this->getIdProducto()
         ];
         $this->delete($array);
     }
@@ -43,7 +43,7 @@ class Imagen extends Model
     function insertarImagen(){
         $array=[
             "nombre"=> $this->getNombre(),
-           "idProducto"=>$this->getIdProducto(),
+           "idProducto"=>$this->getIdProducto()
         ];
         $this->setId($this->insert($array));
         return $this->getId();
