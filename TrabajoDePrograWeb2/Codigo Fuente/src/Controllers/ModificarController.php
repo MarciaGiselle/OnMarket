@@ -236,17 +236,20 @@ class ModificarController extends Controller
 
       $diferencia=0;
 
-      if($viejas=1 && $nuevas=1){
-          if($metodosAnteriores[0]=1) {
+      if($nuevas==1){
+          if($metodosAnteriores[0]["idEntrega"] == 1) {
+
               $nuevaPublicacionEntrega =new Publicacion_Entrega();
 
+
               $nuevaPublicacionEntrega->setId($metodosAnteriores[0]["id"]);
+
               $nuevaPublicacionEntrega->setIdPublicacion($datos['idPublicacion']);
               $nuevaPublicacionEntrega->setIdEntrega(2);
               $nuevaPublicacionEntrega->actualizarEntrega();
           }else{
               $nuevaPublicacionEntrega =new Publicacion_Entrega();
-              $nuevaPublicacionEntrega->setId($metodosAnteriores[0]["id"]);
+              $nuevaPublicacionEntrega->setId($metodosAnteriores[0]['id']);
               $nuevaPublicacionEntrega->setIdPublicacion($datos['idPublicacion']);
               $nuevaPublicacionEntrega->setIdEntrega(1);
               $nuevaPublicacionEntrega->actualizarEntrega();
@@ -259,13 +262,12 @@ class ModificarController extends Controller
 
 
           //se insertan las nuevas
-       if($metodosAnteriores[0]=1){
+       if($metodosAnteriores[0]["idEntrega"]==1){
               $nuevaPublicacionEntrega =new Publicacion_Entrega();
               $nuevaPublicacionEntrega->setIdPublicacion($datos['idPublicacion']);
               $nuevaPublicacionEntrega->setIdEntrega($entregas[1]);
               $nuevaPublicacionEntrega->insertarEntrega();
-       }
-          if($metodosAnteriores[0]=2){
+       }else{
               $nuevaPublicacionEntrega =new Publicacion_Entrega();
               $nuevaPublicacionEntrega->setIdPublicacion($datos['idPublicacion']);
               $nuevaPublicacionEntrega->setIdEntrega($entregas[0]);
@@ -274,25 +276,35 @@ class ModificarController extends Controller
 
 
 
-      }else{
-          if($entregas[0]=1){
+      }
+      if($nuevas<$viejas){
+
+
+              $nuevaPublicacionEntregaE =new Publicacion_Entrega();
+          $nuevaPublicacionEntregaE->setIdEntrega($metodosAnteriores[0]["id"]);
+
+
+              $nuevaPublicacionEntregaE->eliminarEntrega($metodosAnteriores[0]["id"]);
 
               $nuevaPublicacionEntrega =new Publicacion_Entrega();
-              $nuevaPublicacionEntrega->setId($metodosAnteriores[0]["id"]);
+              $nuevaPublicacionEntrega->setId($metodosAnteriores[1]['id']);
               $nuevaPublicacionEntrega->setIdPublicacion($datos['idPublicacion']);
-              $nuevaPublicacionEntrega->setIdEntrega(1);
-              $nuevaPublicacionEntrega->eliminarEntrega();
-          }
-              if($entregas[0]=2){
-                  $nuevaPublicacionEntrega =new Publicacion_Entrega();
-                  $nuevaPublicacionEntrega->setId($metodosAnteriores[0]["id"]);
-                  $nuevaPublicacionEntrega->setIdPublicacion($datos['idPublicacion']);
-                  $nuevaPublicacionEntrega->setIdEntrega(0);
-                  $nuevaPublicacionEntrega->eliminarEntrega();
-              }
-      }
+              $nuevaPublicacionEntrega->setIdEntrega($entregas[0]);
+              $nuevaPublicacionEntrega->actualizarEntrega();
+
+
 
 
       }
 
-    }
+
+
+
+
+
+  }
+
+
+
+
+}

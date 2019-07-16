@@ -9,7 +9,7 @@ class Publicacion_Entrega extends Model
 
     public function insertarEntrega(){
         $array=[
-            "idPublicacion"=>$this->getId() ,
+            "idPublicacion"=>$this->getIdPublicacion() ,
             "idEntrega"=>$this->getIdEntrega(),
 
 
@@ -24,16 +24,10 @@ class Publicacion_Entrega extends Model
 
         return $resultado;
     }
-    public function eliminarEntrega(){
-        $array=[
-            "id"=> $this->getId(),
-            "idPublicacion"=> $this->getIdPublicacion(),
-            "idEntrega"=>$this->getIdEntrega(),
+    public function eliminarEntrega($pk){
 
 
-        ];
-
-       $this->delete($array);
+        $this->delete($pk);
 
 
     }
