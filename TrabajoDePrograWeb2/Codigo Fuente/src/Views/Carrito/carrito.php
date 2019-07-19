@@ -2,42 +2,37 @@
     const pathEliminar = "<?php echo getBaseAddress() . "Carrito/eliminarProducto"; ?>";
 </script>
 
-<body>
-<?php
 
-if (isset($_SESSION["logueado"])) {
-
-    include_once("navLogueado.php");
-} else {
-    include_once("navNoLogueado.php");
-}
-?>
 <div class="container text-center align-items-center"><br>
     <h2 class="text-primary text-center mt-3 mb-3">Tus Productos</h2>
-
+ <form action="<?php echo getBaseAddress() . 'Compra/ingresarTarjeta' ?>" method="POST">
     <table class=" table table-hover text-center mt-4">
-        <thead>
+
+
+
+        <?php
+        $total = 0;
+        if(isset($listaProductos)){
+        $tope = count($listaProductos);
+
+            echo' <thead>
         <tr class="font-weight-bold">
             <th scope="row">#</th>
             <th scope="col">Producto</th>
             <th scope="col">Precio</th>
             <th scope="col">Cantidad</th>
             <th scope="col">Subtotal</th>
+
             <th scope="col"></th>
 
         <tr>
-        </thead>
-
-
-        <?php
-        $total = 0;
-        $tope = count($listaProductos);
-        if($tope>0){
+        </thead>';
         for ($i = 0; $i < $tope; $i++) {
             $idProducto = $listaProductos[$i]["producto"][0]["id"];
             $nombre = $listaProductos[$i]["producto"][0]["nombre"];
             $cantidad = $listaProductos[$i]["cantidad"];
             $precio = $listaProductos[$i]["producto"][0]["precio"];
+
             $subtotal = $cantidad * $precio;
             $total += $subtotal;
             $nro = $i + 1;
@@ -50,7 +45,6 @@ if (isset($_SESSION["logueado"])) {
                 <td> ' . $cantidad . '</td>
                 <td>$ ' . $subtotal . ' </td>
                 <td>
-                
             <form action="' . getBaseAddress() . 'Carrito/eliminarProducto' . '" method="POST">
                
                 <input type="hidden" name="idEliminado" id="idEliminado" value= "'.$idProducto.'">
@@ -69,8 +63,9 @@ if (isset($_SESSION["logueado"])) {
        </tr>
             </table>
 
-            <form action="'. getBaseAddress() . 'Compra/ingresarTarjeta' .'" method="POST">
+
                 <input type="hidden" name="total" value="'.$total.'" />
+
                 <div class="btn btn-primary btn-lg btn-block">
                     <input type="submit" value="Siguiente Paso" class="btn btn-primary">
                 </div>
@@ -86,17 +81,14 @@ if (isset($_SESSION["logueado"])) {
                         <h5 class="text-center mb-0">No hay productos en el carrito</h5>
                    
                        </div>
-                       </div>
+                       </div>';
                    
-    <!--boton busqueda -->
-    <form action="'. getBaseAddress() . 'Buscador/busqueda'.' " method="post">
-        <input type="submit" value="Realizar una búsqueda" class="btn btn-lg btn-primary">
-    </form> </div>';
+
         }
         ?>
 
 
 </div>
-</body>
+
 <script src="<?php echo getBaseAddress() . "Webroot/js/eliminarDelCarrito.js" ?>"></script>
 <script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>

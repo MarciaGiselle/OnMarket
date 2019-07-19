@@ -6,6 +6,9 @@ class valoracion extends Model{
     private $numero;
     private $comentario;
     private $idVendedor;
+    private $idLogueado;
+    private $idProducto;
+
 
 
     function insertarValoracion(){
@@ -13,6 +16,8 @@ class valoracion extends Model{
             "numero"=> $this->getNumero(),
             "comentario"=>$this->getComentario(),
             "idVendedor"=>$this->getIdVendedor(),
+            "idLogueado"=>$this->getIdLogueado(),
+            "idProducto"=>$this->getIdProducto(),
         ];
 
         $this->setId($this->insert($array));
@@ -27,6 +32,16 @@ class valoracion extends Model{
         }
         $promedio=$suma/ count($resultado);
         return $promedio;
+
+    }
+    public function consultarEstadoDeValoracionPorPk($pk,$idVendedor){
+        $miId=$_SESSION['logueado'];
+        $resultado= $this->pageRows(0,100,"idVendedor='$idVendedor' and idProducto='$pk' and idLogueado='$miId'");
+        if(empty($resultado)){
+            return 1;
+        }else{
+            return 2;
+        }
 
     }
 
@@ -92,6 +107,38 @@ class valoracion extends Model{
     public function setIdVendedor($idVendedor)
     {
         $this->idVendedor = $idVendedor;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getIdLogueado()
+    {
+        return $this->idLogueado;
+    }
+
+    /**
+     * @param mixed $idLogueado
+     */
+    public function setIdLogueado($idLogueado)
+    {
+        $this->idLogueado = $idLogueado;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getIdProducto()
+    {
+        return $this->idProducto;
+    }
+
+    /**
+     * @param mixed $idProducto
+     */
+    public function setIdProducto($idProducto)
+    {
+        $this->idProducto = $idProducto;
     }
 
 

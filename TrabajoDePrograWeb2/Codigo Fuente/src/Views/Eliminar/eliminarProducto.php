@@ -1,14 +1,4 @@
 <body>
-<?php
-
-if(isset($_SESSION["logueado"])){
-
-    include_once ("navLogueado.php") ;
-}else{
-    include_once ("navNoLogueado.php");
-}
-?>
-
 <!-–Publicacion-–>
 <br>
 <div class="container">

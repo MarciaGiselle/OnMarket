@@ -4,6 +4,7 @@
 class ModificarController extends Controller
 {
     function modificar($datos){
+        $d["nombreUsuario"]= $_SESSION["name"];
         $d["title"] = "Index";
         $producto=new Producto();
         $publicacion =new Publicacion();
@@ -33,28 +34,40 @@ class ModificarController extends Controller
 
         $producto->setId($datos["idProducto"]);
 
+        $mensaje="";
         $error=0;
+        $error2=0;
         //conceptos generales
         if (FuncionesComunes::validarCadena($datos["nombre"])) {
             $producto->setNombre($datos["nombre"]);
         }else{
+            $mensaje.="nombre invalido,";
             $error.=1;
         }
         if (FuncionesComunes::validarCadenaNumerosYEspacios($datos["descripcion"])) {
               $producto->setDescripcion($datos["descripcion"]);
         }else{
+            $mensaje.="descripcion invalido,";
             $error.=1;
         }
         if (FuncionesComunes::validarNumeros($datos["cantidad"])) {
           $producto->setCantidad($datos["cantidad"]);
         }else{
+            $mensaje.="cantidad invalido,";
             $error.=1;
         }
         if (FuncionesComunes::validarNumeros($datos["precio"])) {
           $producto->setPrecio($datos["precio"]);
         }else{
+            $mensaje.="precio invalido,";
             $error.=1;
         }
+        
+        if($error>0){
+            echo "<script> alert($mensaje)</script>";
+
+        }
+
         if (!empty($datos["categoria"]) && FuncionesComunes::validarCadena($datos['categoria'])) {
             //categoria obtener id y setearlo
             $idCategoria = $categoria->obtenerIdCategoria($datos["categoria"]);
@@ -76,15 +89,16 @@ class ModificarController extends Controller
                         $arrayImagenes[$i] = $_FILES['imagen']['name'][$i];
                     }
                 }else{
-                    $error.=1;
+                    $error2.=1;
                 }
 
-                if($error>0){
+                if($error2>0){
+                    //significa q no las modifico
                     $mensaje="carga incorrecta";
                     echo "<script> alert('$mensaje') </script>";
                 }else{
-                    $idProducto = $producto->modificarProducto();
-                    $this->actualizarImagenes($arrayImagenes, $idProducto);
+
+                    $this->actualizarImagenes($arrayImagenes, $producto->getId());
                    $this->guardarImagenes($datos, $countfiles);
 
                 }
@@ -96,6 +110,7 @@ class ModificarController extends Controller
         }
 
 
+        header("Location:" .getBaseAddress().'MisPublicaciones/publicaciones');
 
 
     }
@@ -111,27 +126,34 @@ class ModificarController extends Controller
         } else {
             $validacion = false;
         }
-      /*  if (!empty($publicacion["envio"])) {
-            $entrega = $publicacion["envio"];
+
+      if(!empty($datos["envio"])){
+
+
+            $entrega = $datos["envio"];
             $entregaPubli = new formaentrega();
-           // $idEntrega = $entregaPubli->obtenerIdMetodoEntrega($entrega);
-        } else {
+            $publicEntrega=new Publicacion_Entrega();
+           $idEntrega = $entregaPubli->obtenerIdMetodoEntrega($entrega);
+
+
+
+          $this->actualizarMetodosDeEntrega($idEntrega,$datos);
+
+
+
+
+        }else {
             $validacion = false;
-        }*/
-        if ($validacion) {
+        }
+
             $fecha_actual = date("y-m-d");
             $publicar->setFecha($fecha_actual);
-            $publicacion_Entrega = new Publicacion_Entrega();
+
             $publicar->setId($datos["idPublicacion"]);
             $idPublicacion = $publicar->modificarPublicacion();
-            //$publicacion_Entrega->setIdPublicacion($idPublicacion);
 
-          //  for ($i = 0; $i < (count($idEntrega)); $i++) {
-            //    $publicacion_Entrega->setIdEntrega($idEntrega[$i]);
-             //   $publicacion_Entrega->insertarEntrega();
-       //     }
 
-        }
+
         return $validacion;
 
     }
@@ -142,6 +164,7 @@ class ModificarController extends Controller
         $imagen =new Imagen();
     //trae un array con imagenes del prod
         $arrayImg= $imagen->imagenPk($idProducto);
+        var_dump($arrayImg);
          $nuevas=count($arrayImagenes);
          $viejas=count($arrayImg);
          $diferencia=0;
@@ -163,6 +186,7 @@ class ModificarController extends Controller
 
              for($i=0;$i< $diferencia;$i++) {
                  $imagenNueva = new Imagen();
+                 $imagenNueva->setIdProducto($idProducto);
                  $imagenNueva->setId($arrayImg[$i]["id"]);
                  $imagenNueva->eliminarImagen();
 
@@ -202,6 +226,84 @@ class ModificarController extends Controller
             }
         }
     }
+
+  function actualizarMetodosDeEntrega($entregas,$datos)
+  {$publicacionEntrega =new Publicacion_Entrega();
+      //trae un array con imagenes del prod
+      $metodosAnteriores= $publicacionEntrega->traerEntrgaPorPublicacion($datos['idPublicacion']);
+      $nuevas=count($entregas);
+      $viejas=count($metodosAnteriores);
+
+      $diferencia=0;
+
+      if($nuevas==1){
+          if($metodosAnteriores[0]["idEntrega"] == 1) {
+
+              $nuevaPublicacionEntrega =new Publicacion_Entrega();
+
+
+              $nuevaPublicacionEntrega->setId($metodosAnteriores[0]["id"]);
+
+              $nuevaPublicacionEntrega->setIdPublicacion($datos['idPublicacion']);
+              $nuevaPublicacionEntrega->setIdEntrega(2);
+              $nuevaPublicacionEntrega->actualizarEntrega();
+          }else{
+              $nuevaPublicacionEntrega =new Publicacion_Entrega();
+              $nuevaPublicacionEntrega->setId($metodosAnteriores[0]['id']);
+              $nuevaPublicacionEntrega->setIdPublicacion($datos['idPublicacion']);
+              $nuevaPublicacionEntrega->setIdEntrega(1);
+              $nuevaPublicacionEntrega->actualizarEntrega();
+          }
+
+
+      }
+
+      if($nuevas>$viejas){
+
+
+          //se insertan las nuevas
+       if($metodosAnteriores[0]["idEntrega"]==1){
+              $nuevaPublicacionEntrega =new Publicacion_Entrega();
+              $nuevaPublicacionEntrega->setIdPublicacion($datos['idPublicacion']);
+              $nuevaPublicacionEntrega->setIdEntrega($entregas[1]);
+              $nuevaPublicacionEntrega->insertarEntrega();
+       }else{
+              $nuevaPublicacionEntrega =new Publicacion_Entrega();
+              $nuevaPublicacionEntrega->setIdPublicacion($datos['idPublicacion']);
+              $nuevaPublicacionEntrega->setIdEntrega($entregas[0]);
+              $nuevaPublicacionEntrega->insertarEntrega();
+          }
+
+
+
+      }
+      if($nuevas<$viejas){
+
+
+              $nuevaPublicacionEntregaE =new Publicacion_Entrega();
+          $nuevaPublicacionEntregaE->setIdEntrega($metodosAnteriores[0]["id"]);
+
+
+              $nuevaPublicacionEntregaE->eliminarEntrega($metodosAnteriores[0]["id"]);
+
+              $nuevaPublicacionEntrega =new Publicacion_Entrega();
+              $nuevaPublicacionEntrega->setId($metodosAnteriores[1]['id']);
+              $nuevaPublicacionEntrega->setIdPublicacion($datos['idPublicacion']);
+              $nuevaPublicacionEntrega->setIdEntrega($entregas[0]);
+              $nuevaPublicacionEntrega->actualizarEntrega();
+
+
+
+
+      }
+
+
+
+
+
+
+  }
+
 
 
 

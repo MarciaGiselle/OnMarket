@@ -29,10 +29,10 @@ function validarPassword() {
     if (pass === null || pass.length === 0 || pass === "") {
         $("#errorPass").removeClass("d-none").addClass("d-flex").find("small").text("Contraseña Invalida");
         $("#errorPass").fadeIn("slow");
-        return false;
     } else if(!regexLetrasYNumeros2.test(pass)) {
         $("#errorPass").removeClass("d-none").addClass("d-flex").find("small").text("Deben ser letras y numeros");
         $("#errorPass").fadeIn("slow");
+
     } else {
 
         validacion = true;
@@ -62,10 +62,8 @@ ingresar.click(function () {
 function loginExitoso(rol) {
     var rolUser = JSON.parse(JSON.stringify(rol));
     if(rolUser == 2){
-        alert("comun");
         window.location.href = pathHome;
     }else{
-        alert("admin");
         window.location.href = pathAdmin;
     }
 

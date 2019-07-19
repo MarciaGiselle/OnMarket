@@ -1,13 +1,3 @@
-<body>
-<?php
-
-if(isset($_SESSION["logueado"])){
-
-    include_once ("navLogueado.php") ;
-}else{
-    include_once ("navNoLogueado.php");
-}
-?>
 
 <!-–Publicacion-–>
 <br>
@@ -68,7 +58,6 @@ if(isset($_SESSION["logueado"])){
                 <small id="passwordHelpBlock" class="form-text text-muted">Usá palabras clave para que lo encuentren
                     fácilmente.
                 </small>
-                //carrusel
                 <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="errorNombre">
                     <i class="fa fa-exclamation-circle error"></i>
                     <small class="text-left"></small>
@@ -108,9 +97,9 @@ if(isset($_SESSION["logueado"])){
                     bien iluminado. No incluyas logos, banners ni textos promocionales. Mínimo 2(dos) imagen.
                 </small>
 
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              
 
-                    <div class="carousel-inner">
+                    <div class="">
 
                         <?php
 
@@ -118,34 +107,18 @@ if(isset($_SESSION["logueado"])){
 
                         for ($i = 0; $i < $tope; $i++) {
                             $img = $imagen[$i]["nombre"];
-                            if($i!=0){
-                                echo "comun";
-                                echo '<div class="carousel-item ">
-                                        <img class="d-block w-100" src="../Webroot/imgCargadas/' . $img . ' " alt="First slide">
+                          
+                                echo '<div  class="card d-inline-flex my-4 p-2" style="width: 8rem;">
+                                        <img class="card-img-top" src="../Webroot/imgCargadas/' . $img . ' " alt="foto">
                                       </div>';
-                            }else {
+                           
 
-                                echo '<div class="carousel-item active">
-                                        <img class="d-block w-100" src="../Webroot/imgCargadas/' . $img . ' " alt="First slide">
-                                      </div>';
-                            }
+                               
 
                         }
                         ?>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
-
-                </div>
-
-
-
+                    
 
 
                     <form class="container">
@@ -166,22 +139,17 @@ if(isset($_SESSION["logueado"])){
                     </form>
 
             </div>
-            <input type="hidden"  value="<?php echo $producto["id"] ?>" name="idProducto" >
-
-             <div>
-                <input type="submit"  value="confirmar cambios" class="btn btn-primary "  >
-             </div>
 
             <a href="<?php echo getBaseAddress(). "MisPublicaciones/publicaciones" ?>">
-                <input   value="cancelar" class="btn btn-primary" id="publicar" >
+                <input   value="Cancelar" class="btn btn-secondary btn-lg" id="publicar" >
             </a>
 
 
-
-
+            <input type="hidden"  value="<?php echo $producto["id"] ?>" name="idProducto" >
+            <input type="hidden"  value="<?php echo $publicacion[0]["id"] ?>" name="idPublicacion" >
+             <div>
+                <input type="submit"  value="Confirmar cambios" class="ml-2  btn btn-primary btn-lg "  >
+             </div>
     </form>
     <br>
 </div>
-
-
-</body>

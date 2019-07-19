@@ -1,4 +1,5 @@
-<body>
+
+<div class="container">
 <table class=" table table-hover text-center mt-4">
     <thead>
     <tr class="font-weight-bold">
@@ -62,9 +63,6 @@
 
         ?>
 
-
-
-
 </table>
 
-</body>
+</div>

@@ -5,19 +5,34 @@
 
 
 </script>
-<body>
-<?php
 
-if (isset($_SESSION["logueado"])) {
 
-    include_once("navLogueado.php");
-} else {
-    include_once("navNoLogueado.php");
-}
-?>
+    <div class="container align-items-center mb-5">
+        <h3 class="text-primary text-center mt-3 mt-5">Para los metodos de entrega </h3>
+        <h3 class="text-primary text-center mt-3 mt-5"> necesitamos los siguientes datos</h3>
+        <div class="form-row justify-content-md-center mt-4">
+            <div class="form-group  col-md-3 d-inline-block">
 
-<main>
+        <div>
+           <label class="text-primary ">Ingrese su e-mail </label>
+            <input class="form-control my-1" type="text" placeholder="You@hotmail.com" id="email">
+            <div class="d-none alert-danger p-1 rounded justify-content-around error" id="errorEmail">
+                <i class="fa fa-exclamation-circle"></i>
+                <small class="text-left"></small>
+            </div>
+        </div>
 
+        <div>
+            <label class="text-primary ">Ingrese la direccion a donde quiere recibir el producto </label>
+            <input class="form-control my-1" type="text" placeholder=" " id="direccion">
+            <div class="d-none alert-danger p-1 rounded justify-content-around error" id="errorDireccion">
+                <i class="fa fa-exclamation-circle"></i>
+                <small class="text-left"></small>
+            </div>
+        </div>
+            </div>
+        </div>
+    </div>
     <div class="container align-items-center mb-5">
 
         <h3 class="text-primary text-center mt-3 mt-5">Complete los datos de su tarjeta</h3>
@@ -69,26 +84,9 @@ if (isset($_SESSION["logueado"])) {
     </div>
 
 
-</main>
-
 <br>
-<footer class="bg-primary page-footer font-small blue pt-4">
 
 
-    <!-- Copyright -->
-
-    <div class="bg-secondary text-dark footer-copyright text-center py-3">© 2019 Copyright:
-
-        <a class="text-dark" href="https://mdbootstrap.com/education/bootstrap/"> OnMarket.com</a>
-
-    </div>
-
-    <!-- Copyright -->
-
-
-</footer>
-
-</body>
 
 <script src="<?php echo getBaseAddress() . "Webroot/js/comprar.js" ?>"></script>
 <script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>

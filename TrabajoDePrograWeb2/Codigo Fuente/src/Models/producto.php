@@ -10,6 +10,7 @@ class Producto extends Model
     private $cantidad;
     private $precio;
     private $idCategoria;
+    private $id_estadisticas;
 
     public function insertarProducto(){
         $array=[
@@ -41,18 +42,7 @@ class Producto extends Model
 
 
     }
-   function eliminar($pk){
-       return  $this->delete($pk);
-   }
 
-    function validarFormatos(){
-        //validacion de formatos
-        $error=0;
-        $mensaje="";
-
-
-
-    }
 
     function buscarProductoEnLaBase(){
         $resultadoDeLaBusqueda= $this->pageRows(0,100, "nombre like '%$this->nombre%'");
@@ -66,18 +56,48 @@ class Producto extends Model
     }
 
     function filasPorPk($pk){
-        $resultado=$this->pageRows(0,100, "id=$pk");
+        $resultado=$this->pageRows(0,100, "id= $pk ");
       //$resultado=$this->selectByPk($pk);
         return $resultado;
     }
+    function traerProdPorIdEstadistica($pk){
+        $resultado=$this->pageRows(0,1, "id_estadistica= $pk ");
 
-    /**
-     * @param $pk
-     * @return array
-     */
+        return $resultado[0];
+    }
+
+    function insertarEstadisticasAlProducto(){
+        $array=[
+            "id"=> $this->getId(),
+            "id_estadistica"=>$this->getIdEstadisticas(),
+        ] ;
+        $this->update($array);
+        return $this->getId();
+
+
+    }
+
+
+
     function buscarUnProductoPorPk($pk){
         $resultado=$this->pageRows(0,1, "id=$pk");
         return $resultado[0];
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getIdEstadisticas()
+    {
+        return $this->id_estadisticas;
+    }
+
+    /**
+     * @param mixed $id_estadisticas
+     */
+    public function setIdEstadisticas($id_estadisticas)
+    {
+        $this->id_estadisticas = $id_estadisticas;
     }
 
 

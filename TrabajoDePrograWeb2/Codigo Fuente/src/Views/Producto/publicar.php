@@ -1,32 +1,28 @@
 
-<?php
-
-if(isset($_SESSION["logueado"])){
-
-    include_once ("navLogueado.php") ;
-}else{
-    include_once ("navNoLogueado.php");
-}
-?>
-
 
 <script src="<?php echo getBaseAddress() . "Webroot/js/login.js" ?>"></script>
 
 <!-–Publicacion-–>
 <br>
-<div class="container">
-    <h3 class="text-primary">Crear publicación</h3>
+<div class="container mt-3">
+    <h3 class="text-primary text-center mb-4">Crear publicación</h3>
     <form method="post" action="<?php echo getBaseAddress(). "Producto/altaProducto" ?>" method="post" enctype="multipart/form-data">
 
-        <div class="form-group col-md-12">
+        <div class="form-group col-md-12 pl-0">
             <label class="text-primary">Indicá un título para tu publicación*</label>
             <input class="form-control" type="text" placeholder="Titulo...  " name="titulo" id="titulo">
             <small id="passwordHelpBlock" class="form-text text-muted">Usá palabras clave para que lo encuentren
                 fácilmente.
             </small>
+
+            <div id="errortitulo" class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center">
+                <i class="fas fa-exclamation-circle mr-2"></i>
+                <small class="text-center"></small>
+            </div>
+
         </div>
 
-        <div class="form-group col-md-12">
+        <div class="form-group col-md-12 pl-0">
             <hr>
             <label class="text-primary">Método de entrega*</label>
             <div class="form-check">
@@ -36,9 +32,14 @@ if(isset($_SESSION["logueado"])){
 
 
             <div class="form-check">
-                <input type="checkbox" name="envio[]" value="Correo" id="entrega">
+                <input type="checkbox" name="envio[]" value="Correo" id="envio">
                 <label class="form-check-label">Realizar envío por correo</label>
             </div>
+            <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorenvio">
+                <i class="fa fa-exclamation-circle  mr-2" ></i>
+                <small class="text-left"></small>
+            </div>
+
         </div>
 
 
@@ -52,7 +53,7 @@ if(isset($_SESSION["logueado"])){
                 <div class="form-group col-md-6">
                     <label class="text-primary">Seleccioná una categoría*</label>
                     <select class="custom-select" id="inputGroupSelect01" name="categoria" id="categoria">
-                        <option selected>Seleccionar...</option>
+                        <option value="0" selected>Seleccionar...</option>
                         <option value="electronica">Electrónica</option>
                         <option value="moda">Moda y belleza</option>
                         <option value="mascotas">Mascotas</option>
@@ -62,6 +63,10 @@ if(isset($_SESSION["logueado"])){
                         <option value="musica">Música, arte y libros</option>
                         <option value="jardin">Jardín y decoración</option>
                     </select>
+                    <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorCategoria">
+                        <i class="fa fa-exclamation-circle  mr-2"></i>
+                        <small class="text-left"></small>
+                    </div>
 
                 </div>
 
@@ -71,8 +76,8 @@ if(isset($_SESSION["logueado"])){
                     <small id="passwordHelpBlock" class="form-text text-muted">Usá palabras clave para que lo encuentren
                         fácilmente.
                     </small>
-                    <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="errorNombre">
-                        <i class="fa fa-exclamation-circle error"></i>
+                    <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorName">
+                        <i class="fa fa-exclamation-circle  mr-2"></i>
                         <small class="text-left"></small>
                     </div>
                 </div>
@@ -82,8 +87,8 @@ if(isset($_SESSION["logueado"])){
                     <label class="text-primary">Describí tu producto*</label>
                     <textarea class="form-control"  rows="3" name="descripcion" id="descripcion"
                               placeholder="Aprovechá para contar otros detalles de tu producto. Ordenalos en forma de lista para que sea más fácil de leer."></textarea>
-                    <div class="d-none alert-danger p-1 rounded justify-content-around p-1 error mt-1" id="eerorDescripcion">
-                        <i class="fa fa-exclamation-circle error"></i>
+                    <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errordescripcion">
+                        <i class="fa fa-exclamation-circle  mr-2"></i>
                         <small class="text-left"></small>
                     </div>
                 </div>
@@ -91,6 +96,10 @@ if(isset($_SESSION["logueado"])){
                 <div class="form-group col-md-6">
                     <label class="text-primary">Cantidad disponible*</label>
                     <input type="text" class="form-control" name="cantidad" placeholder="Unidades en stock" id="cantidad">
+                    <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorcantidad">
+                        <i class="fa fa-exclamation-circle  mr-2"></i>
+                        <small class="text-left"></small>
+                    </div>
                 </div>
 
                 <div class="form-group col-md-6">
@@ -102,12 +111,17 @@ if(isset($_SESSION["logueado"])){
                         <input type="text" class="form-control" name="precio" id="precio"
                                placeholder="Precio">
                     </div>
+                    <div class="d-none alert-danger p-1 rounded justify-content-center error w-100 my-2 align-items-center" id="errorprecio">
+                        <i class="fa fa-exclamation-circle  mr-2"></i>
+                        <small class="text-left"></small>
+                    </div>
                 </div>
 
                 <div class="form-group col-md-12">
+<hr>
                     <label class="text-primary">Seleccioná las imágenes*</label>
                     <small id="passwordHelpBlock" class="form-text text-muted">Mostralo en detalle, con fondo blanco y
-                        bien iluminado. No incluyas logos, banners ni textos promocionales. Mínimo 1(una) imagen.
+                        bien iluminado. No incluyas logos, banners ni textos promocionales. Mínimo 2(dos) imagenes.
                     </small>
                     <br>
                     <form class="container">
@@ -115,8 +129,7 @@ if(isset($_SESSION["logueado"])){
                         <div class="row">
 
                             <div class="col-sm">
-                                <div class="form-group">
-                                    <input name="enviar" type="submit" value="subir archivo" />
+                                <div class="form-group bg-secondary text-white">
                                     <input type="hidden" value="<?php echo "../Webroot/imgCargadas" ?>" name="destino">
                                     <input type="file" class="form-control-file" name="imagen[]" accept="image/png, .jpeg, .jpg" multiple id="imagen">
                                 </div>
@@ -129,7 +142,7 @@ if(isset($_SESSION["logueado"])){
                 </div>
 
                     <div class="btn btn-primary btn-lg btn-block">
-                        <input type="submit"  value="Realizar publicación" class="btn btn-primary" id="publicar" >
+                        <input type="submit"  value="Realizar publicación" class="btn btn-primary" id="publicar">
                     </div>
 
             </div>
@@ -138,16 +151,6 @@ if(isset($_SESSION["logueado"])){
     </form>
     <br>
 </div>
-
-<footer class="bg-primary page-footer font-small blue pt-4">
-
-    <!-- Copyright -->
-    <div class="bg-secondary text-dark footer-copyright text-center py-3">© 2019 Copyright:
-        <a class="text-dark" href="https://mdbootstrap.com/education/bootstrap/"> OnMarket.com</a>
-    </div>
-    <!-- Copyright -->
-
-</footer>
 
 
 <script src="<?php echo getBaseAddress() . "Webroot/js/utilidades.js" ?>"></script>

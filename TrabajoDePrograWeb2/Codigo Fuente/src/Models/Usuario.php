@@ -17,21 +17,49 @@ class Usuario extends Model
     private $userName;
     private $sexo;
     private $rol;
-     private $estado;
+    private $direccion;
+    private $estado;
     private $idTipo;
 
+    public  function insertarRegistro(){
+
+        $array=[
+
+            "name"=> $this->getName(),
+            "lastname"=> $this->getLastname(),
+            "password"=>$this->getPassword(),
+            "cuit"=>$this->getCuit(),
+            "email"=>$this->getEmail(),
+            "userName"=>$this->getUserName(),
+            "sexo"=>$this->getSexo(),
+            "rol"=>$this->getRol(),
+            "estado"=>$this->getEstado(),
+            "direccion"=>$this->getDireccion(),
+            "idTipo"=> $this->getIdTipo()
+
+        ];
+
+        $this->setId($this->insert($array));
+        return $this->getId();
+
+    }
 
     function buscarUsuario(){
     $resultado=$this->pageRows(0,1,"name= '$this->name' and password='$this->password'");
     if (!empty($resultado)){
-        $respuesta=$resultado[0];
-        $id=$respuesta["id"];
-        return $id;
+        return $resultado[0];
+
     }else{
         return false;
     }
     }
 
+    function consultarNombre($pk){
+        $resultado=$this->pageRows(0,1,"id= $pk");
+
+            return $resultado[0]["name"];
+
+    }
     public function buscarRolDelUsuario($id){
         $resultado=$this->pageRows(0,1,"id='$id'");
         if (!empty($resultado)){
@@ -211,27 +239,7 @@ class Usuario extends Model
     /**
      *
      */
-    public  function insertarRegistro(){
 
-     $array=[
-
-            "name"=> $this->getName(),
-         "lastname"=> $this->getLastname(),
-         "password"=>$this->getPassword(),
-         "cuit"=>$this->getCuit(),
-         "email"=>$this->getEmail(),
-          "userName"=>$this->getUserName(),
-           "sexo"=>$this->getSexo(),
-            "rol"=>$this->getRol(),
-         "estado"=>$this->getEstado(),
-
-
-        ];
-
-        $this->setId($this->insert($array));
-        return $this->getId();
-
-   }
 
 
    public function buscarUsuariosPorUserName($nombre){
@@ -248,6 +256,8 @@ class Usuario extends Model
        return $this->update($array);
 
    }
+
+
 
     /**
      * @return mixed
@@ -391,6 +401,22 @@ class Usuario extends Model
     public function setEmail($email)
     {
         $this->email = $email;
+    }
+
+    /**
+     * @return mixed
+     */
+    public function getDireccion()
+    {
+        return $this->direccion;
+    }
+
+    /**
+     * @param mixed $direccion
+     */
+    public function setDireccion($direccion)
+    {
+        $this->direccion = $direccion;
     }
 
 

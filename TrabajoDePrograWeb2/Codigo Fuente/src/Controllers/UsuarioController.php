@@ -29,7 +29,9 @@ class UsuarioController extends Controller
 
 
             if (!empty($idUsuario)) {
-                $_SESSION["logueado"] = $idUsuario;
+                $_SESSION["logueado"] = $idUsuario["id"];
+                $_SESSION["name"] = $idUsuario["name"];
+
                 $user = new Usuario();
 
                 $estado = $user->consultarEstadoDelUsuario($_SESSION["logueado"]);
@@ -56,6 +58,8 @@ class UsuarioController extends Controller
     {
         session_destroy();
         unset($_SESSION["carrito"]);
+        unset ($_SESSION["logueado"]);
+        unset ($_SESSION["name"]);
         $d["title"] = "Index";
         $this->set($d);
         header("Location:" . getBaseAddress());
@@ -64,7 +68,8 @@ class UsuarioController extends Controller
 
     function mostrarInicio()
     {
-        $d["title"] = "Mi Cuenta";
+        $d["title"] = "Index";
+        $d["nombreUsuario"] = $_SESSION["name"];
         $this->set($d);
         $this->render(Constantes::USUARIOVIEW);
 
@@ -75,11 +80,12 @@ class UsuarioController extends Controller
     {
         header("Content-type: application/json");
         $data = json_decode(utf8_decode($datos['data']));
-
         $total = $data->total;
         $codigo = $data->codigoDeSeguridad;
         $fecha = $data->fechaDeVencimiento;
         $numeroTarjeta = $data->numeroTarjeta;
+        $direccion = $data->direccion;
+        $email = $data->email;
 
         $idUser = $_SESSION["logueado"];
 
@@ -88,6 +94,7 @@ class UsuarioController extends Controller
             $producto = new Producto();
             $publicacion = new Publicacion();
             $usuario = new Usuario();
+            $cuenta = new Cuenta();
 
 
             $tarjeta->setIdUser($idUser);
@@ -100,29 +107,46 @@ class UsuarioController extends Controller
             if (isset($idTarjeta)) {
                 $cobranza = new cobranza();
 
-
                 //    for para recorrer el array de ids e insertarlos
                 $tope = count($_SESSION["carrito"]);
 
                 for ($i = 0; $i < $tope; $i++) {
+                    //parte para las estadisticas
+                    $prod = new Producto();
+                    $productoCompra = $prod->buscarUnProductoPorPk($_SESSION["carrito"][$i]["id"]);
+                    //metodo de estadisticas
+                    $this->realizarEstadisticas($productoCompra);
+
+                    //realizar compra
                     $cobranza->setIdTarjeta($idTarjeta);
                     $cobranza->setFecha($fecha_actual);
                     $cobranza->setTotal($total);
                     $cobranza->setIdComprador($_SESSION["logueado"]);
                     $cobranza->setIdProducto($_SESSION["carrito"][$i]["id"]);
                     $cobranza->setCantidad($_SESSION["carrito"][$i]["cantidad"]);
+                    //estadistica de montos
+                    $this->estadisticasMontos($total);
 
+                    //vendedor
                     $prodEncontrado = $producto->buscarUnProductoPorPk($cobranza->getIdProducto());
                     $publicEncontrada = $publicacion->traerPublicaciondelProducto($prodEncontrado["id"]);
-                    $vendedor= $usuario->traerUserPorPk($publicEncontrada["id_user"]);
+                    $vendedor = $usuario->traerUserPorPk($publicEncontrada["id_user"]);
 
+                    $cuentaVendedor = $cuenta->consultarCuenta($vendedor["id"]);
+                    $cuenta->setId($cuentaVendedor["id"]);
                     $cobranza->setIdVendedor($vendedor["id"]);
 
+                    $precio = $cobranza->getCantidad() * $prodEncontrado["precio"];
+                    $cobranza->setIdCuenta($cuentaVendedor["id"]);
+                    $cuenta->realizarDeposito($cuentaVendedor, $precio);
+
                     $idCobranza = $cobranza->insertarCobranza();
+                    $this->enviarMails($_SESSION["carrito"], $direccion, $email);
+
                 }
 
                 if (isset($idCobranza)) {
-                unset($_SESSION["carrito"]);
+                    unset($_SESSION["carrito"]);
                 }
             }
 
@@ -135,25 +159,176 @@ class UsuarioController extends Controller
 
 
     }
-    function valorarVendedor($datos)
 
+    function estadisticasMontos($total)
     {
+        $rango = new Rango_montos();
+        $rangos = $rango->traerTodas();
+
+        foreach ($rangos as $rango) {
+            if ($total >= $rango["desde"] && $total < $rango["hasta"]) {
+                if (empty($rango["id_estadistica"])) {
+                    $rangoNuevo = new Rango_montos();
+                    $estadistica = new Estadisticas();
+                    $estadistica->setCantidad(1);
+                    $estadistica->setIdTipo(3);
+                    $idEstadistica = $estadistica->insertarEstadistica();
+
+                    $rangoNuevo->setId($rango["id"]);
+                    $rangoNuevo->setIdEstadistica($idEstadistica);
+                    $rangoNuevo->insertarEstadisticasAlMonto();
+                } else {
+                    // se agrega a la estadistica
+                    $estadistic = new Estadisticas();
+
+                    $estadisticaDelMonto = $estadistic->traerEstadistica($rango["id_estadistica"], 3);
+                    $estadistic->setId($estadisticaDelMonto["id"]);
+                    $cantidad = $estadisticaDelMonto["cantidad"] + 1;
+
+                    $estadistic->setCantidad($cantidad);
+                    $estadistic->actualizarEstadistica();
+                }
+
+            }
+        }
+
+    }
+
+    function realizarEstadisticas($productoCompra)
+    {
+        $categoria = new Categoria();
+        $categoriaProd = $categoria->traerCategoriaPorPk($productoCompra["idCategoria"]);
+
+        if (empty($categoriaProd["id_estadistica"])) {
+
+            $estadistica = new Estadisticas();
+            $estadistica->setCantidad(1);
+            $estadistica->setIdTipo(2);
+            $idEstadistica = $estadistica->insertarEstadistica();
+
+            $categoria->setIdCategoria($categoriaProd["id"]);
+            $categoria->setIdEstadistica($idEstadistica);
+            $categoria->insertarEstadisticasAlaCategoria();
+
+        } else {
+            // se agrega a la estadistica
+            $estadistic = new Estadisticas();
+
+            $estadisticaDelProd = $estadistic->traerEstadistica($categoriaProd["id_estadistica"], 2);
+
+
+            $estadistic->setId($estadisticaDelProd["id"]);
+            $cantidad = $estadisticaDelProd["cantidad"] + 1;
+
+            $estadistic->setCantidad($cantidad);
+            $estadistic->actualizarEstadistica();
+
+
+        }
+    }
+
+    function enviarMails($carrito, $direccion, $email)
+    {
+        $publicacion = new Publicacion();
+        $producto = new Producto();
+        $entrega = new publicacion_Entrega();
+
+        for ($i = 0; $i < count($carrito); $i++) {
+            $public = $publicacion->traerPublicaciondelProducto($carrito[$i]["id"]);
+            $prod = $producto->buscarUnProductoPorPk($carrito[$i]["id"]);
+            $entr = $entrega->traerEntrgaPorPublicacion($public["id"]);
+            $cont = $this->contarMetodos($entr);
+            if ($cont == "correo") {
+                //Correo
+                $asunto = "Vendiste " . $prod['nombre'] . " ";
+                $mensaje = "Buen Trabajo! Tu comprador eligió recibir el producto por correo.
+            Usa servicios con seguro, envíalo a nombre del comprador y guarda copias de los recibos de envío.
+            Que sigan los éxitos, 
+            El equipo de OnMarket";
+            } elseif ($cont == "acordar") {
+                //acordar
+                $asunto = "Vendiste " . $prod['nombre'] . " ";
+                $mensaje = "Buen Trabajo! Tu comprador eligió acordar el envío directamente contigo.Encuéntrate en un lugar concurrido para hacer el intercambio.
+                Si vas a enviar el producto, usa servicios con seguro, envíalo a nombre del comprador y guarda copias de los recibos de envío.
+                Que sigan los éxitos,
+                El equipo de OnMarket";
+
+            } else {
+                //da igual
+                $asunto = "Vendiste " . $prod['nombre'] . " ";
+                $mensaje = "Buen Trabajo! Coordina con tu comprador para saber como desea recibir el producto.
+            Que sigan los éxitos, 
+            El equipo de OnMarket";
+            }
+            $this->enviarMensajeAlVendedor($asunto, $mensaje, $public);
+        }
+
+    }
+
+    function contarMetodos($entrega)
+    {
+        if (count($entrega) > 1) {
+            //tiene dos metodos
+            return 2;
+        } elseif ($entrega[0]["idEntrega"] == 1) {
+            //es solo a acordar
+            return "acordar";
+        } elseif ($entrega[0]["idEntrega"] == 2) {
+            //es correo
+            return "correo";
+        }
+    }
+
+    function enviarMensajeAlVendedor($asunto, $mensaje, $publicacion)
+    {
+        $user = new Usuario();
+        $idVendedor = $publicacion["id_user"];
+        $vendedor = $user->traerUserPorPk($idVendedor);
+
+        $emailVendedor = $vendedor["email"];
+        $usuario = $user->traerUserPorPk($_SESSION["logueado"]);
+
+        $headers = "MIME-Version: 1.0";
+        $headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
+        // dirección del remitente
+        $headers .= "From: " . $usuario['name'] . "   " . $usuario['lastname'] . "\r\n";
+        //seria el mail del vendedor pongo el mio para comprobar q ande ,ademas los emial son de mentira los de los vendedores*/
+        mail("rocio.centurion367@gmail.com", $asunto, $mensaje, $headers);
+    }
+
+    function valorar($datos)
+    {
+
+        header("Content-type: application/json");
+        $data = json_decode(utf8_decode($datos['data']));
+
         $vendedor = new Usuario();
+        $publicacion = new Publicacion();
         $tipoValoracion = new tipo_valoracion();
         $valoracion = new valoracion();
 
-        $idVendedor= $datos["idValorado"];
-        $valoracion->setIdVendedor($idVendedor);
+        $idProducto = $data->idValorado;
+        $estrellas = $data->estrellas;
+        $comentario = $data->comentario;
+
+        $publicEncontrada = $publicacion->traerPublicaciondelProducto($idProducto);
+        $idVendedor = $vendedor->traerUserPorPk($publicEncontrada["id_user"]);
+
+
+        $valoracion->setIdVendedor($idVendedor["id"]);
+        $valoracion->setIdLogueado($_SESSION["logueado"]);
+        $valoracion->setIdProducto($idProducto);
+
 
         $error = 0;
-        if (FuncionesComunes::validarNumeros($datos["estrellas"])) {
-            $valoracion->setNumero($datos["estrellas"]);
+        if (FuncionesComunes::validarNumeros($estrellas)) {
+            $valoracion->setNumero($estrellas);
         } else {
             $error .= 1;
         }
-        if (isset($datos["comentario"])) {
-            if (FuncionesComunes::validarCadenaNumerosYEspacios($datos["comentario"])) {
-                $valoracion->setComentario($datos["comentario"]);
+        if (isset($comentario)) {
+            if (FuncionesComunes::validarCadenaNumerosYEspacios($comentario)) {
+                $valoracion->setComentario($comentario);
             } else {
                 $error .= 1;
 
@@ -161,16 +336,16 @@ class UsuarioController extends Controller
         }
         if ($error == 0) {
             $valoracion->insertarValoracion();
-            $promedio = $valoracion->realizarPromedioPorPk($idVendedor);
+            $promedio = $valoracion->realizarPromedioPorPk($idVendedor["id"]);
             $idValoracion = $tipoValoracion->definirIdPorPromedio($promedio);
-            $vendedor->setId($idVendedor);
+            $vendedor->setId($idVendedor["id"]);
             $vendedor->setIdTipo($idValoracion);
             $vendedor->actualizarTipo();
 
 
-
         }
-        header("Location:" .getBaseAddress(). "misCompras/mostrarHistorial");
+
+        echo json_encode(true);
     }
 
 }

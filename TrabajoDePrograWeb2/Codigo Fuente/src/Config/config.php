@@ -9,5 +9,5 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$dbname = "baseapp";
+$dbname = "onmarket";
 $port = "3306";

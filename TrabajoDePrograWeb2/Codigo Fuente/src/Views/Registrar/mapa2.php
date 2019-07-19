@@ -1,20 +1,5 @@
-<!doctype html>
-<html>
-<head>
 
-<style>
-
-</style>
-</head>
-<body>
-
-<div class="buscador">
-	<h5>Ingrese una dirección</h5>
-    <input type="text" id="direccion">
-    <div class="btn btn-primary" id="buscar">Buscar</div>
-</div>
-
-<div id="mapa-geocoder" class="mapa" style="width:140%;"></div>
+<div id="mapa-geocoder" class="mapa" style="width: 100%; height: 626.257px; position: relative; overflow: hidden;""></div>
 
 
 <script>
@@ -28,7 +13,6 @@ $(document).ready(function() {
 	});
 });
 </script>
+</div>
 
 <script src="<?php echo getBaseAddress() . "Webroot/js/mapaRegistrar.js" ?>"></script>
-</body>
-</html>

@@ -1,17 +1,15 @@
-<body>
 <script src="<?php echo getBaseAddress() . 'Webroot/amcharts4/core.js'?>"></script>
 <script src="<?php echo getBaseAddress() . '/Webroot/amcharts4/charts.js'?>"> </script>
 <script src="<?php echo getBaseAddress() . 'Webroot/amcharts4/themes/animated.js'?>"></script>
 <script src="<?php echo getBaseAddress() . 'Webroot/amcharts4/maps.js'?>"></script>
 
+<div class="container mt-5">
+    <div class="container-fluid mb-5">
+    <h4 class="text-primary d-flex justify-content-center mt-5">Productos más buscados </h4>
 
-
-
-
-    <h3>Productos mas buscados </h3>
     <div style=" width: 100%;
   max-height: 600px;
-  height: 100vh;" id="chartdiv" ></div>
+  height: 100vh;" id="chartdiv" ></div></div>
 
 
 
@@ -26,26 +24,23 @@
 
 
         chart.data = [{
-            "country": "<?php echo $arrayProd[0]['nombre'] ?>",
-            "litres": <?php echo$arrayCant[0]?>
+            "country": "<?php echo $arrayProd[0] ?>",
+            "litres": <?php echo $arrayCant[0]?>
         }, {
-            "country": "<?php echo $arrayProd[1]['nombre'] ?>",
-            "litres": <?php echo$arrayCant[1]?>
+            "country": "<?php echo $arrayProd[1] ?>",
+            "litres": <?php echo $arrayCant[1]?>
         }, {
-            "country": "<?php echo $arrayProd[2]['nombre'] ?>",
-            "litres": <?php echo$arrayCant[2]?>
+            "country": "<?php echo $arrayProd[2] ?>",
+            "litres": <?php echo $arrayCant[2]?>
         }, {
-            "country": "<?php echo $arrayProd[3]['nombre'] ?>",
-            "litres": <?php echo$arrayCant[3]?>
+            "country": "<?php echo $arrayProd[3] ?>",
+            "litres": <?php echo $arrayCant[3]?>
         }, {
-            "country": "<?php echo $arrayProd[4]['nombre'] ?>",
-            "litres": <?php echo$arrayCant[4]?>
+            "country": "<?php echo $arrayProd[4] ?>",
+            "litres": <?php echo $arrayCant[4]?>
         }, {
-            "country": "<?php echo $arrayProd[5]['nombre'] ?>",
-            "litres": <?php echo$arrayCant[5]?>
-        }, {
-            "country": "<?php echo $arrayProd[6]['nombre'] ?>",
-            "litres": <?php echo$arrayCant[6]?>
+            "country": "<?php echo $arrayProd[5] ?>",
+            "litres": <?php echo $arrayCant[5]?>
         }];
 
         var series = chart.series.push(new am4charts.PieSeries());
@@ -68,13 +63,14 @@
     <?php }else{
         echo $mensaje;
     } ?>
-
-<h3>Categorias de los productos mas comprados</h3>
+    <hr>
+    <div class="container-fluid mb-5">
+<h4 class="text-primary d-flex justify-content-center mt-5">Categorías de los productos más comprados</h4>
 
 
     <div style=" width: 100%;
   max-height: 600px;
-  height: 100vh;" id="chartdivo"></div>
+  height: 100vh;" id="chartdivo"></div> </div>
 
 
     <script>
@@ -88,28 +84,28 @@
 
         chart2.data = [{
             "country": "Electronica",
-            "visits": <?php echo $arrayCat[0]?>
+            "visits": <?php echo $arrayCantCat[0]?>
         }, {
             "country": "Moda",
-            "visits": <?php echo $arrayCat[1]?>
+            "visits": <?php echo $arrayCantCat[1]?>
         }, {
             "country": "Mascotas",
-            "visits": <?php echo $arrayCat[2]?>
+            "visits": <?php echo $arrayCantCat[2]?>
         }, {
             "country": "Herramientas",
-            "visits": <?php echo $arrayCat[3]?>
+            "visits": <?php echo $arrayCantCat[3]?>
         }, {
             "country": "Muebles",
-            "visits": <?php echo $arrayCat[4]?>
+            "visits": <?php echo $arrayCantCat[4]?>
         }, {
             "country": "Deportes",
-            "visits": <?php echo $arrayCat[5]?>
+            "visits": <?php echo $arrayCantCat[5]?>
         }, {
             "country": "Libros y arte",
-            "visits": <?php echo $arrayCat[5]?>
+            "visits": <?php echo $arrayCantCat[5]?>
         }, {
             "country": "Jardin y decoracion",
-            "visits": <?php echo $arrayCat[7]?>
+            "visits": <?php echo $arrayCantCat[7]?>
         }];
 
 
@@ -142,10 +138,13 @@
     </script>
 
 
-<h3> Montos</h3>
+    <hr>
+    <div class="container-fluid mb-5">
+        <h4 class="text-primary d-flex justify-content-center mt-5">Rango de Montos involucrados en las Ventas</h4>
+
 <div style=" width: 100%;
   max-height: 600px;
-  height: 100vh;" id="chartdiv5"></div>
+  height: 100vh;" id="chartdiv5"></div></div>
 <script>
 
     am4core.useTheme(am4themes_animated);
@@ -156,32 +155,24 @@
     var data5 = [];
 
     chart5.data = [{
-        "year": " $50-$200",
+        "year": " $0-$500",
         "income": <?php echo $arrayMontos[0] ?>,
 
     }, {
-        "year": "$200-$600",
+        "year": "$500-$1000",
         "income": <?php echo $arrayMontos[1] ?>,
 
     }, {
-        "year": " $600-$1000",
+        "year": " $1000-$1500",
         "income": <?php echo $arrayMontos[2] ?>,
 
     }, {
-        "year": " $1000-$1500",
+        "year": " $1500-3000",
         "income": <?php echo $arrayMontos[3] ?>,
 
     }, {
-        "year": " $1500-$3000",
+        "year": " $3000-$10000",
         "income": <?php echo $arrayMontos[4] ?>,
-
-    }, {
-        "year": " $3000-$5000",
-        "income": <?php echo $arrayMontos[5] ?>,
-
-    }, {
-        "year": "$5000+",
-        "income": <?php echo $arrayMontos[6] ?>,
 
     }];
 
@@ -261,10 +252,5 @@
     chart5.exporting.menu = new am4core.ExportMenu();
 </script>
 
+</div>
 
-
-
-
-
-
-</body>

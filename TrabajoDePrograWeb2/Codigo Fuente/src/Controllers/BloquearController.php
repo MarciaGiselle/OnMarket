@@ -6,6 +6,8 @@ class BloquearController extends Controller
 
     function bloquear($datos){
         $d["title"] = "Bloquear";
+        $d["nombreUsuario"]= $_SESSION["name"];
+
         $id_user=$datos["id_user"];
         $user=new Usuario;
 
@@ -24,7 +26,7 @@ class BloquearController extends Controller
          $usuario =new Usuario();
          $usuario->bloquearUsuario($id_user);
 
-    echo "el usuario esta bloqueado";
+        header("Location:" .getBaseAddress().'PerfilesDeUsuarios/usuarios');
 
     }
 

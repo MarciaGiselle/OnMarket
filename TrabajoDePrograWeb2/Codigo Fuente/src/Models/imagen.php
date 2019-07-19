@@ -20,23 +20,22 @@ class Imagen extends Model
        //esto se haria antes del metodo
       // $temporal=$_FILES["imagen"]["tmp_name"];
        $original=imagecreatefromjpeg($temporal);
-       $copia=imagecreatetruecolor(400,400);
-       $r=imagecopyresampled($copia,$original,0,0,0,0,400,700,imagesx($original),imagesy($original));
+       $copia=imagecreatetruecolor(300,300);
+       $r=imagecopyresampled($copia,$original,0,0,0,0,300,300,imagesx($original),imagesy($original));
        return $copia;
    }
   function actualizarImagen(){
       $array=[
           "id"=>$this->getId(),
           "nombre"=> $this->getNombre(),
-          "idProducto"=>$this->getIdProducto(),
+          "idProducto"=>$this->getIdProducto()
       ];
       $this->update($array);
   }
     function eliminarImagen(){
         $array=[
             "id"=>$this->getId(),
-            "nombre"=> $this->getNombre(),
-            "idProducto"=>$this->getIdProducto(),
+            "idProducto"=>$this->getIdProducto()
         ];
         $this->delete($array);
     }
@@ -44,7 +43,7 @@ class Imagen extends Model
     function insertarImagen(){
         $array=[
             "nombre"=> $this->getNombre(),
-           "idProducto"=>$this->getIdProducto(),
+           "idProducto"=>$this->getIdProducto()
         ];
         $this->setId($this->insert($array));
         return $this->getId();
@@ -57,9 +56,7 @@ class Imagen extends Model
         for($i=0;$i<count($resultado);$i++){
             array_push($imagenes, $resultado[$i]);
         }
-        /*foreach ($resultado as $imagen){
-            array_push($imagenes, $imagen[$i]["nombre"]);
-        }*/
+
         return $imagenes;
     }
 
